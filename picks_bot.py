@@ -29,6 +29,7 @@ TZ = ZoneInfo(C.ZONA)
 DIR = os.path.join(os.path.dirname(__file__), "data")
 ESTADO = os.path.join(DIR, "estado.json")
 SEGUIDOS_PUB = os.path.join(DIR, "seguidos.json")
+SELECCION = os.path.join(DIR, "seleccion.json")   # lo escribe la página web
 LOG = os.path.join(DIR, "picks.csv")
 CAMPOS = ["fecha", "game_id", "partido", "liga", "tipo", "mercado", "clave", "prob", "cuota",
           "cuota_justa", "ev", "stake", "alineacion", "resultado", "ganancia"]
@@ -119,7 +120,7 @@ AYUDA = (
 )
 
 
-def seguir(estado, gid):
+def seguir(estado, gid, corto=False):
     if gid in estado["seguidos"]:
         return f"Ya sigues ese partido: {esc(estado['seguidos'][gid]['partido'])}"
     g, _ = s365.detalle(gid)
@@ -133,6 +134,8 @@ def seguir(estado, gid):
         "partido": partido, "liga": g.get("competitionDisplayName", ""),
         "inicio": g["startTime"], "estado": "pendiente", "ultimo": 0,
     }
+    if corto:
+        return f"✅ {inicio:%d/%m %H:%M} · <b>{esc(partido)}</b> · {esc(g.get('competitionDisplayName', ''))}"
     return (f"✅ Siguiendo <b>{esc(partido)}</b>\n🏆 {esc(g.get('competitionDisplayName', ''))}"
             f" · 🗓 {inicio:%d/%m %H:%M}\nTe mando los picks cuando salgan las alineaciones.")
 
@@ -140,11 +143,18 @@ def seguir(estado, gid):
 def procesar_comandos(estado):
     r = tg("getUpdates", offset=estado.get("offset", 0), timeout=0)
     if not r or not r.get("ok"):
+        print("[tg] getUpdates falló:", r)
         return
+    print(f"[tg] {len(r['result'])} mensajes nuevos")
     for u in r["result"]:
         estado["offset"] = u["update_id"] + 1
         msg = u.get("message") or {}
-        if str((msg.get("chat") or {}).get("id")) != CHAT_ID:
+        chat = str((msg.get("chat") or {}).get("id"))
+        if chat != CHAT_ID:
+            print(f"[tg] mensaje de chat {chat} ignorado (TELEGRAM_CHAT_ID = '{CHAT_ID}')")
+            tg("sendMessage", chat_id=chat,
+               text=f"⚠️ Este chat no está autorizado.\nTu chat id es: {chat}\n"
+                    f"Ponlo en GitHub → Settings → Secrets → TELEGRAM_CHAT_ID y vuelve a enviar el partido.")
             continue
         texto = (msg.get("text") or "").strip()
         partes = texto.split()
@@ -165,6 +175,43 @@ def procesar_comandos(estado):
             enviar(texto_resumen())
         else:
             enviar(AYUDA + (f"\n\n📅 Calendario: {PAGINA}" if PAGINA else ""))
+
+
+def sincronizar_seleccion(estado):
+    """Aplica lo que elegiste en la página web (data/seleccion.json)."""
+    try:
+        with open(SELECCION, encoding="utf-8") as f:
+            sel = json.load(f)
+    except (OSError, ValueError):
+        return
+    hechos = estado.setdefault("web", {})        # gid -> marca de tiempo ya aplicada
+    nuevos, quitados, fallos = [], [], []
+    for gid, d in sel.items():
+        t = d.get("t", 0)
+        if hechos.get(gid) == t:
+            continue
+        hechos[gid] = t
+        if d.get("accion") == "seguir":
+            if gid in estado["seguidos"]:
+                continue
+            txt = seguir(estado, gid, corto=True)
+            (nuevos if gid in estado["seguidos"] else fallos).append(txt)
+        elif d.get("accion") == "quitar" and gid in estado["seguidos"]:
+            if estado["seguidos"][gid]["estado"] == "pendiente":
+                quitados.append(esc(estado["seguidos"].pop(gid)["partido"]))
+    corte = (time.time() - 7 * 86400) * 1000
+    for gid in [g for g, t in hechos.items() if t < corte]:
+        del hechos[gid]
+    partes = []
+    if nuevos:
+        partes.append(f"📌 <b>Siguiendo {len(nuevos)} partido(s)</b>\n" + "\n".join(nuevos)
+                      + "\n\nTe mando los picks cuando salgan las alineaciones.")
+    if quitados:
+        partes.append("🗑 Dejaste de seguir: " + ", ".join(quitados))
+    if fallos:
+        partes.append("⚠️ " + "\n⚠️ ".join(fallos))
+    if partes:
+        enviar("\n\n".join(partes))
 
 
 def texto_lista(estado):
@@ -362,6 +409,7 @@ def liquidar(gid, s, log):
 def pasada():
     estado = cargar_estado()
     procesar_comandos(estado)
+    sincronizar_seleccion(estado)
     log = leer_log()
     t = ahora()
     for gid, s in list(estado["seguidos"].items()):
