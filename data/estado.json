@@ -1,20 +1,6 @@
 {
  "offset": 344577777,
  "seguidos": {
-  "4760812": {
-   "partido": "Grau vs Los Chankas",
-   "liga": "Perú, Liga 1 - Clausura",
-   "inicio": "2026-10-08T15:30:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 0
-  },
-  "4760816": {
-   "partido": "CD Moquegua vs Cienciano",
-   "liga": "Perú, Liga 1 - Clausura",
-   "inicio": "2026-10-08T13:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 0
-  },
   "4632659": {
    "partido": "Athletico Paranaense vs Atlético Mineiro",
    "liga": "Brasil, Brasileirão",
@@ -45,10 +31,10 @@
   }
  },
  "web": {
-  "4760816": 1791439522690,
+  "4760816": 1791440090530,
   "4632659": 1791439570924,
   "4632664": 1791439568882,
-  "4760812": 1791439526687,
+  "4760812": 1791440091546,
   "4632663": 1791439572582,
   "4632665": 1791439574407
  }
