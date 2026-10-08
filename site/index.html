@@ -48,6 +48,8 @@ header p{margin:0;color:var(--muted);font-size:13px}
 .eq img{width:18px;height:18px;object-fit:contain;flex:0 0 18px}
 .btn{border:0;border-radius:9px;padding:8px 12px;font:600 13px Inter,sans-serif;background:var(--accent);
   color:var(--accent-ink);text-decoration:none;white-space:nowrap}
+.btn.pend{background:transparent;color:var(--muted);border:1px dashed var(--muted)}
+.aviso{background:#c0392b;color:#fff;border-radius:10px;padding:10px 14px;margin:14px 0;font-size:14px}
 .btn.ok{background:transparent;color:var(--accent);border:1px solid var(--accent)}
 .vacio{color:var(--muted);text-align:center;padding:40px 0}
 footer{color:var(--muted);font-size:12px;margin-top:26px}
@@ -59,6 +61,7 @@ footer{color:var(--muted);font-size:12px;margin-top:26px}
     <h1>Calendario de picks</h1>
     <p id="info">Cargando partidos…</p>
   </header>
+  <div id="aviso"></div>
   <div class="dias" id="dias"></div>
   <div class="filtros" id="filtros"></div>
   <main id="lista"></main>
@@ -72,6 +75,9 @@ const fmtDia = new Intl.DateTimeFormat("es-PE",{timeZone:TZ,weekday:"short",day:
 const fmtHora = new Intl.DateTimeFormat("es-PE",{timeZone:TZ,hour:"2-digit",minute:"2-digit",hour12:false});
 const claveDia = d => new Intl.DateTimeFormat("en-CA",{timeZone:TZ}).format(d);
 let datos = {partidos:[]}, seguidos = {}, diaSel = null, grupoSel = "Todas";
+let pendientes = {};
+try{ pendientes = JSON.parse(localStorage.getItem("pendientes")||"{}") }catch(e){}
+function marcarPendiente(id){ pendientes[id]=Date.now(); try{localStorage.setItem("pendientes",JSON.stringify(pendientes))}catch(e){} }
 
 function repoRaw(){
   const owner = location.hostname.split(".")[0];
@@ -103,14 +109,19 @@ function render(){
     <section class="liga"><h2><img src="${IMG("Competitions",lista[0].liga_id,1)}" alt="" onerror="this.remove()">${esc(liga)}</h2>
     ${lista.map(p=>{
       const sig = seguidos[String(p.id)];
-      const link = datos.bot ? `https://t.me/${datos.bot}?start=f${p.id}` : "#";
+      const pend = !sig && pendientes[p.id] && Date.now()-pendientes[p.id] < 30*60*1000;
+      const link = `https://t.me/${datos.bot}?start=f${p.id}`;
+      const boton = sig ? `<span class="btn ok">✓ Siguiendo</span>`
+        : !datos.bot ? `<span class="btn pend">Bot no configurado</span>`
+        : pend ? `<a class="btn pend" href="${link}" target="_blank" rel="noopener">⏳ Confirmar en Telegram</a>`
+        : `<a class="btn" href="${link}" target="_blank" rel="noopener" data-seguir="${p.id}">Seguir</a>`;
       return `<div class="p ${sig?"sig":""}">
         <div class="hora">${fmtHora.format(new Date(p.inicio))}</div>
         <div class="eq">
           <span><img src="${IMG("Competitors",p.local_id,p.local_v)}" alt="" onerror="this.style.visibility='hidden'">${esc(p.local)}</span>
           <span><img src="${IMG("Competitors",p.visita_id,p.visita_v)}" alt="" onerror="this.style.visibility='hidden'">${esc(p.visita)}</span>
         </div>
-        ${sig ? `<span class="btn ok">✓ Siguiendo</span>` : `<a class="btn" href="${link}" target="_blank" rel="noopener">Seguir</a>`}
+        ${boton}
       </div>`}).join("")}
     </section>`).join("");
 }
@@ -118,6 +129,7 @@ function render(){
 document.addEventListener("click",e=>{
   const d = e.target.closest("[data-d]"); if(d){diaSel=d.dataset.d; render()}
   const g = e.target.closest("[data-g]"); if(g){grupoSel=g.dataset.g; render()}
+  const sg = e.target.closest("[data-seguir]"); if(sg){marcarPendiente(sg.dataset.seguir); setTimeout(render,300)}
 });
 
 (async()=>{
@@ -126,6 +138,9 @@ document.addEventListener("click",e=>{
     const gen = new Date(datos.generado);
     document.getElementById("info").textContent = `${datos.partidos.length} partidos · actualizado ${fmtDia.format(gen)} ${fmtHora.format(gen)}`;
   }catch(e){document.getElementById("info").textContent="No se pudo cargar el calendario."}
+  if(!datos.bot && datos.partidos.length){
+    document.getElementById("aviso").innerHTML = '<div class="aviso">⚠️ El calendario no conoce el nombre de tu bot. Revisa que el secreto <b>TELEGRAM_TOKEN</b> esté bien escrito en GitHub y vuelve a correr <b>Actions → Calendario → Run workflow</b>.</div>';
+  }
   try{const u=repoRaw(); if(u){const r=await fetch(u); if(r.ok) seguidos=await r.json()}}catch(e){}
   render();
 })();
