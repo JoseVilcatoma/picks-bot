@@ -111,13 +111,17 @@ def cuotas(game_id):
     return (j or {}).get("lines") or []
 
 
-def stats_partido(game_id):
-    """{competitorId: {'c': córners, 'y': amarillas, 'r': rojas}} (cacheado)."""
+def stats_partido(game_id, primer_tiempo=False):
+    """{competitorId: {'c': córners, 'y': amarillas, 'r': rojas}} (cacheado).
+    primer_tiempo=True devuelve solo el 1er tiempo (filterId=6)."""
     c = _c()
-    k = f"st:{game_id}"
+    k = f"st{'1t' if primer_tiempo else ''}:{game_id}"
     if k in c:
         return {int(x): v for x, v in c[k]["d"].items()}
-    j = get("game/stats", games=game_id)
+    if primer_tiempo:
+        j = get("game/stats", games=game_id, filterId=6)
+    else:
+        j = get("game/stats", games=game_id)
     if not j:
         return {}
     out = {}

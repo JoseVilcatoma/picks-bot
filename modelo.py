@@ -74,21 +74,33 @@ def goles_esperados(res_local, res_visita, id_local, id_visita):
     return lh, la, len(gfl), len(gfv)
 
 
+FRAC_C1T = 0.46   # si no hay datos del 1T, ~46% de los córners caen en el 1er tiempo
+
+
 def corners_tarjetas(st_local, st_visita):
-    """Cada lista: [{'c':..,'y':..,'r':..,'c_contra':..}] de partidos recientes."""
+    """Cada lista: [{'c','c_contra','c1','c1_contra','k'}] de partidos recientes.
+    Devuelve córners esperados (total, por equipo, 1er tiempo) y tarjetas."""
     def prom(lista, campo):
         v = [x[campo] for x in lista if campo in x]
         return sum(v) / len(v) if v else None
 
+    out = {"total": None, "local": None, "visita": None, "primer_tiempo": None, "tarjetas": None}
     cf_l, cc_l = prom(st_local, "c"), prom(st_local, "c_contra")
     cf_v, cc_v = prom(st_visita, "c"), prom(st_visita, "c_contra")
-    mu_c = None
     if None not in (cf_l, cc_l, cf_v, cc_v):
-        mu_c = (cf_l + cc_v) / 2 + (cf_v + cc_l) / 2
-    k_l = prom(st_local, "k")
-    k_v = prom(st_visita, "k")
-    mu_k = k_l + k_v if None not in (k_l, k_v) else None
-    return mu_c, mu_k
+        out["local"] = (cf_l + cc_v) / 2
+        out["visita"] = (cf_v + cc_l) / 2
+        out["total"] = out["local"] + out["visita"]
+        c1 = [prom(st_local, "c1"), prom(st_local, "c1_contra"),
+              prom(st_visita, "c1"), prom(st_visita, "c1_contra")]
+        if None not in c1:
+            out["primer_tiempo"] = (c1[0] + c1[3]) / 2 + (c1[2] + c1[1]) / 2
+        else:
+            out["primer_tiempo"] = out["total"] * FRAC_C1T
+    k_l, k_v = prom(st_local, "k"), prom(st_visita, "k")
+    if None not in (k_l, k_v):
+        out["tarjetas"] = k_l + k_v
+    return out
 
 
 # =================================================================
@@ -165,7 +177,24 @@ def _sel(nombre):
     return nombre
 
 
-def leer_cuotas(lineas):
+def _tipo_corner(nombre_lt, local, visita):
+    n = nombre_lt
+    if not any(x in n for x in ("corner", "córner", "esquina")):
+        return None
+    if any(x in n for x in ("hándicap", "handicap", "primero", "último", "ultimo", "carrera", "race")):
+        return None
+    if any(x in n for x in ("primer", "1er", "1ª", "mitad", "first half", "1st")):
+        if any(x in n for x in ("local", "visit", local.lower(), visita.lower())):
+            return None
+        return "CORN1T"
+    if "local" in n or (local and local.lower() in n):
+        return "CORN_H"
+    if "visit" in n or (visita and visita.lower() in n):
+        return "CORN_A"
+    return "CORN"
+
+
+def leer_cuotas(lineas, local="", visita=""):
     out = {}
     for ln in lineas:
         lt = ln.get("lineTypeId")
@@ -198,8 +227,9 @@ def leer_cuotas(lineas):
                 clave = ("DNB", None, sel)
             elif lt == 9 and val is not None:
                 clave = ("OU1T", val, sel)
-            elif (lt == 137 or "corner" in nombre_lt) and val is not None:
-                clave = ("CORN", val, sel)
+            elif val is not None and sel in ("over", "under") and (
+                    lt == 137 or _tipo_corner(nombre_lt, local, visita)):
+                clave = (_tipo_corner(nombre_lt, local, visita) or "CORN", val, sel)
             elif "tarjeta" in nombre_lt and val is not None:
                 clave = ("CARDS", val, sel)
             elif lt == 144:
@@ -216,7 +246,11 @@ def leer_cuotas(lineas):
 # =================================================================
 FAMILIA = {"1X2": "resultado", "DC": "resultado", "AH": "resultado", "DNB": "resultado",
            "OU": "goles", "BTTS": "goles", "OU1T": "goles", "CS": "goles", "EXACT": "goles",
-           "CORN": "corners", "CARDS": "tarjetas"}
+           "CORN": "corners", "CORN_H": "corners", "CORN_A": "corners", "CORN1T": "corners",
+           "CARDS": "tarjetas"}
+
+# Mercados que SOLO se muestran si hay cuota real y valor (EV >= mínimo)
+SOLO_CON_VALOR = {"CORN_H", "CORN_A", "CORN1T"}
 
 
 def texto_mercado(clave, local, visita):
@@ -246,11 +280,24 @@ def texto_mercado(clave, local, visita):
         return f"{'Más' if s == 'over' else 'Menos'} de {l:g} córners"
     if t == "CARDS":
         return f"{'Más' if s == 'over' else 'Menos'} de {l:g} tarjetas"
+    if t in ("CORN_H", "CORN_A"):
+        quien = local if t == "CORN_H" else visita
+        return f"{quien}: {'más' if s == 'over' else 'menos'} de {l:g} córners"
+    if t == "CORN1T":
+        return f"{'Más' if s == 'over' else 'Menos'} de {l:g} córners en el 1T"
     return str(clave)
 
 
-def prob_modelo(clave, m, m1t, mu_c, mu_k):
+def prob_modelo(clave, m, m1t, esp):
     t, l, s = clave
+    mu_c, mu_k = esp["total"], esp["tarjetas"]
+    mu_eq = {"CORN_H": esp["local"], "CORN_A": esp["visita"], "CORN1T": esp["primer_tiempo"]}
+    if t in mu_eq:
+        mu = mu_eq[t]
+        if not mu:
+            return None
+        p = nb_over(mu, l, 10)
+        return p if s == "over" else 1 - p
     if t == "1X2":
         return {"1": suma(m, lambda i, j: i > j), "X": suma(m, lambda i, j: i == j),
                 "2": suma(m, lambda i, j: i < j)}.get(s)
@@ -293,7 +340,8 @@ def prob_modelo(clave, m, m1t, mu_c, mu_k):
 # =================================================================
 # Candidatos y selección
 # =================================================================
-def candidatos(lh, la, mu_c, mu_k, mercado, local, visita):
+def candidatos(lh, la, esp, mercado, local, visita):
+    mu_c, mu_k = esp["total"], esp["tarjetas"]
     m = matriz(lh, la)
     m1t = matriz(lh * FRAC_1T, la * FRAC_1T, rho=0)
     pe = suma(m, lambda i, j: i == j)
@@ -325,11 +373,13 @@ def candidatos(lh, la, mu_c, mu_k, mercado, local, visita):
     for clave in claves:
         if clave[0] == "DNB":
             continue
-        pm = prob_modelo(clave, m, m1t, mu_c, mu_k)
+        pm = prob_modelo(clave, m, m1t, esp)
         if pm is None:
             continue
         fam = FAMILIA[clave[0]]
         cuota, pmk = mercado.get(clave, (None, None))
+        if clave[0] in SOLO_CON_VALOR and not cuota:
+            continue
         w = C.PESO_MODELO[fam]
         p = w * pm + (1 - w) * pmk if pmk is not None else pm
         p = min(max(p, 0.001), 0.999)
@@ -344,6 +394,7 @@ def candidatos(lh, la, mu_c, mu_k, mercado, local, visita):
             justa = 1 / p
         out.append({"clave": clave, "fam": fam, "p": p_show, "p_kelly": p, "cuota": cuota,
                     "justa": justa, "ev": ev, "solo_modelo": pmk is None,
+                    "solo_valor": clave[0] in SOLO_CON_VALOR,
                     "texto": texto_mercado(clave, local, visita)})
     return out, m
 
@@ -359,6 +410,8 @@ def stake(c):
 
 
 def seleccionar(cands):
+    todos = cands
+    cands = [c for c in todos if not c["solo_valor"]]
     def uno_por_familia(lista, n):
         vistos, res = set(), []
         for c in lista:
@@ -383,7 +436,7 @@ def seleccionar(cands):
         if ex:
             arriesgados.append(ex)
 
-    ap = [c for c in cands if c["cuota"] and c["cuota"] >= C.CUOTA_MIN and c["ev"] is not None
+    ap = [c for c in todos if c["cuota"] and c["cuota"] >= C.CUOTA_MIN and c["ev"] is not None
           and c["ev"] >= C.EV_MIN and c["p"] >= 0.20 and c["clave"][0] != "DNB"]
     ap.sort(key=lambda c: -c["ev"])
     apostables = uno_por_familia(ap, C.MAX_APOSTABLES)
@@ -433,6 +486,11 @@ def evaluar(clave, r):
         if r.get("corners") is None:
             return "?"
         ok = (r["corners"] > l) == (s == "over")
+    elif t in ("CORN_H", "CORN_A", "CORN1T"):
+        campo = {"CORN_H": "corners_h", "CORN_A": "corners_a", "CORN1T": "corners_1t"}[t]
+        if r.get(campo) is None:
+            return "?"
+        ok = (r[campo] > l) == (s == "over")
     elif t == "CARDS":
         if r.get("cards") is None:
             return "?"

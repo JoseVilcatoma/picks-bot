@@ -215,6 +215,9 @@ def stats_recientes(team_id, resultados, n=5):
             d = {}
             if "c" in yo and "c" in el:
                 d["c"], d["c_contra"] = yo["c"], el["c"]
+                s1 = s365.stats_partido(gid, primer_tiempo=True)
+                if team_id in s1 and rival in s1 and "c" in s1[team_id] and "c" in s1[rival]:
+                    d["c1"], d["c1_contra"] = s1[team_id]["c"], s1[rival]["c"]
             if "y" in yo:
                 d["k"] = yo["y"] + yo.get("r", 0)
             lista.append(d)
@@ -244,9 +247,10 @@ def analizar(gid, g, nombres, con_alineacion):
             if inf["cambios"] >= 5:
                 notas.append(f"🔄 {esc(eq)}: {inf['cambios']} cambios vs su último partido")
 
-    mu_c, mu_k = M.corners_tarjetas(stats_recientes(h["id"], res_l), stats_recientes(a["id"], res_v))
-    mercado = M.leer_cuotas(s365.cuotas(gid))
-    cands, _ = M.candidatos(lh, la, mu_c, mu_k, mercado, local, visita)
+    esp = M.corners_tarjetas(stats_recientes(h["id"], res_l), stats_recientes(a["id"], res_v))
+    mu_c, mu_k = esp["total"], esp["tarjetas"]
+    mercado = M.leer_cuotas(s365.cuotas(gid), local, visita)
+    cands, _ = M.candidatos(lh, la, esp, mercado, local, visita)
     seguros, arriesgados, apostables = M.seleccionar(cands)
 
     inicio = iso(g["startTime"])
@@ -259,7 +263,7 @@ def analizar(gid, g, nombres, con_alineacion):
     lin += notas
     extra = []
     if mu_c:
-        extra.append(f"Córners {mu_c:.1f}")
+        extra.append(f"Córners {mu_c:.1f}" + (f" ({esp['local']:.1f}-{esp['visita']:.1f})" if esp["local"] else ""))
     if mu_k:
         extra.append(f"Tarjetas {mu_k:.1f}")
     lin.append(f"📊 Goles esperados {lh:.2f} – {la:.2f}" + (" · " + " · ".join(extra) if extra else ""))
@@ -320,9 +324,19 @@ def liquidar(gid, s, log):
     if not s365.terminado(g):
         return False
     st = s365.stats_partido(gid)
+    st1 = s365.stats_partido(gid, primer_tiempo=True)
+    hid, aid = g["homeCompetitor"]["id"], g["awayCompetitor"]["id"]
+
+    def corner(d, cid):
+        return d.get(cid, {}).get("c")
+
+    ch, ca = corner(st, hid), corner(st, aid)
+    c1h, c1a = corner(st1, hid), corner(st1, aid)
     r = {"hg": int(g["homeCompetitor"]["score"]), "ag": int(g["awayCompetitor"]["score"]),
          "ht": s365.marcador_1t(g),
-         "corners": sum(v.get("c", 0) for v in st.values()) if len(st) == 2 and all("c" in v for v in st.values()) else None,
+         "corners": ch + ca if None not in (ch, ca) else None,
+         "corners_h": ch, "corners_a": ca,
+         "corners_1t": c1h + c1a if None not in (c1h, c1a) else None,
          "cards": sum(v.get("y", 0) + v.get("r", 0) for v in st.values()) if len(st) == 2 else None}
     out = [f"🏁 <b>{esc(s['partido'])}</b> terminó {r['hg']}-{r['ag']}"]
     iconos = {"G": "✅", "P": "❌", "N": "↩️", "?": "❔"}
