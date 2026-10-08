@@ -1,11 +1,33 @@
 {
  "offset": 344577777,
- "seguidos": {},
+ "seguidos": {
+  "4632664": {
+   "partido": "Santos vs Flamengo",
+   "liga": "Brasil, Brasileirão",
+   "inicio": "2026-10-08T17:30:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4760812": {
+   "partido": "Grau vs Los Chankas",
+   "liga": "Perú, Liga 1 - Clausura",
+   "inicio": "2026-10-08T15:30:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4760816": {
+   "partido": "CD Moquegua vs Cienciano",
+   "liga": "Perú, Liga 1 - Clausura",
+   "inicio": "2026-10-08T13:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  }
+ },
  "web": {
-  "4760816": 1791440090530,
+  "4760816": 1791440205640,
   "4632659": 1791440148283,
-  "4632664": 1791440147970,
-  "4760812": 1791440091546,
+  "4632664": 1791440207354,
+  "4760812": 1791440206390,
   "4632663": 1791440148612,
   "4632665": 1791440149436
  }
