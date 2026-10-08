@@ -21,36 +21,55 @@ jobs:
   bot:
     runs-on: ubuntu-latest
     timeout-minutes: 15
+    env:
+      TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
+      TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+      BANCA: ${{ vars.BANCA }}
+      PAGINA_URL: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
         with:
           python-version: "3.12"
       - run: pip install -r requirements.txt
-      - name: Ejecutar bot
+
+      - name: Prueba de un partido
+        if: ${{ github.event.inputs.probar != '' && github.event.inputs.probar != null }}
+        run: python picks_bot.py --probar "${{ github.event.inputs.probar }}"
+
+      - name: Ejecutar bot (sin enviar todavía)
+        if: ${{ github.event.inputs.probar == '' || github.event.inputs.probar == null }}
         env:
-          TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
-          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-          BANCA: ${{ vars.BANCA }}
-          PAGINA_URL: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/
-        run: |
-          if [ -n "${{ github.event.inputs.probar }}" ]; then
-            python picks_bot.py --probar "${{ github.event.inputs.probar }}"
-          else
-            python picks_bot.py
-          fi
-      - name: Guardar estado
+          COLA: "1"
+        run: python picks_bot.py
+
+      - name: Guardar estado y luego enviar mensajes
+        if: ${{ github.event.inputs.probar == '' || github.event.inputs.probar == null }}
         run: |
           git config user.name "picks-bot"
           git config user.email "picks-bot@users.noreply.github.com"
           git add data
+          if git diff --cached --quiet; then echo "sin cambios"; exit 0; fi
+          git commit -m "estado del bot" -q
+
+          # 1) Guardar. Si otra ejecución guardó antes con cambios del bot, esta se descarta (sin enviar nada).
+          if ! git push -q; then
+            if git pull --rebase -q; then
+              git push -q || { echo "no se pudo guardar: descarto esta pasada"; exit 0; }
+            else
+              git rebase --abort || true
+              echo "otra ejecución ya procesó esto: descarto esta pasada"; exit 0
+            fi
+          fi
+
+          # 2) Estado guardado: ahora sí enviar a Telegram y vaciar la bandeja.
+          python picks_bot.py --enviar
+          git add data
           if ! git diff --cached --quiet; then
-            git commit -m "estado del bot" -q
+            git commit -m "mensajes enviados" -q
             for i in 1 2 3 4 5; do
-              if git pull --rebase -X theirs -q && git push -q; then
-                echo "estado guardado"; break
-              fi
+              if git pull --rebase -X theirs -q && git push -q; then break; fi
               git rebase --abort 2>/dev/null || true
-              echo "reintento $i"; sleep $((i * 5))
+              sleep $((i * 5))
             done
           fi
