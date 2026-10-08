@@ -18,6 +18,7 @@ from zoneinfo import ZoneInfo
 import requests
 
 import config as C
+import cuotas_ext
 import modelo as M
 import s365
 
@@ -31,7 +32,7 @@ ESTADO = os.path.join(DIR, "estado.json")
 SEGUIDOS_PUB = os.path.join(DIR, "seguidos.json")
 SELECCION = os.path.join(DIR, "seleccion.json")   # lo escribe la página web
 LOG = os.path.join(DIR, "picks.csv")
-CAMPOS = ["fecha", "game_id", "partido", "liga", "tipo", "mercado", "clave", "prob", "cuota",
+CAMPOS = ["fecha", "game_id", "partido", "liga", "tipo", "mercado", "clave", "prob", "cuota", "casa",
           "cuota_justa", "ev", "stake", "alineacion", "resultado", "ganancia"]
 
 
@@ -174,6 +175,7 @@ def seguir(estado, gid, corto=False):
         "partido": partido, "liga": g.get("competitionDisplayName", ""),
         "inicio": g["startTime"], "estado": "pendiente", "ultimo": 0,
     }
+    huella_365(gid, s365.cuotas(gid))      # foto de las cuotas para detectar si luego no se mueven
     if corto:
         return f"✅ {inicio:%d/%m %H:%M} · <b>{esc(partido)}</b> · {esc(g.get('competitionDisplayName', ''))}"
     return (f"✅ Siguiendo <b>{esc(partido)}</b>\n🏆 {esc(g.get('competitionDisplayName', ''))}"
@@ -284,6 +286,9 @@ def texto_resumen():
             gan = sum(float(f["ganancia"] or 0) for f in fs)
             out.append(f"   Apostado S/ {st:.2f} · Ganancia S/ {gan:+.2f} · "
                        f"Yield {gan / st:+.1%}" if st else "")
+    q = cuotas_ext.leer_quota()
+    if q:
+        out.append(f"\n💱 Créditos The Odds API: {q.get('restantes')} restantes este mes")
     n_ap = len([f for f in filas if f["tipo"] == "apostable"])
     out.append(f"\nMuestra: {n_ap}/200 apostables liquidados antes de pensar en dinero real.")
     out.append("Si los aciertos reales quedan muy por debajo de lo esperado, el modelo está "
@@ -309,6 +314,29 @@ def stats_recientes(team_id, resultados, n=5):
                 d["k"] = yo["y"] + yo.get("r", 0)
             lista.append(d)
     return lista
+
+
+def huella_365(gid, lineas):
+    """Registra las cuotas de 365Scores y devuelve cuántas horas llevan sin moverse."""
+    fp = json.dumps(sorted((ln.get("lineTypeId"), ln.get("internalOptionValue"),
+                            tuple((o.get("rate") or {}).get("decimal") for o in ln.get("options") or []))
+                           for ln in lineas), default=str)
+    cache = s365._c()
+    k = f"fp365:{gid}"
+    prev = cache.get(k)
+    if not prev or prev["fp"] != fp:
+        cache[k] = {"t": time.time(), "fp": fp}
+        return 0.0
+    return (time.time() - prev["t"]) / 3600
+
+
+def nombres_ingles(gid):
+    j = s365.get("game", gameId=gid, langId=1)
+    g = (j or {}).get("game") or {}
+    try:
+        return g["homeCompetitor"]["name"], g["awayCompetitor"]["name"]
+    except KeyError:
+        return None
 
 
 def firma_xi(g):
@@ -345,9 +373,33 @@ def analizar(gid, g, nombres, modo):
 
     esp = M.corners_tarjetas(stats_recientes(h["id"], res_l), stats_recientes(a["id"], res_v))
     mu_c, mu_k = esp["total"], esp["tarjetas"]
-    mercado = M.leer_cuotas(s365.cuotas(gid), local, visita)
+    lineas = s365.cuotas(gid)
+    mercado = M.leer_cuotas(lineas, local, visita)
+    horas_quietas = huella_365(gid, lineas) if lineas else 0
+    viejas = horas_quietas >= C.CUOTAS_VIEJAS_HORAS
+    casa_de = {k: "Bet365" for k in mercado}
+    ext = cuotas_ext.obtener(gid, g, nombres_ingles(gid))
+    valor_casas = []
+    if ext:
+        for ks, v in ext["cuotas"].items():
+            k = cuotas_ext.a_clave(ks)
+            precio, casa = v["cuota"], v["casa"]
+            if k in mercado and not viejas and mercado[k][0] > precio:
+                precio, casa = mercado[k][0], "Bet365"
+            mercado[k] = (precio, v["justa_p"])
+            casa_de[k] = casa
+            ev_c = precio * v["justa_p"] - 1
+            if v["ref"] == "Pinnacle" and ev_c >= C.VALOR_CASAS_MIN and v["justa_p"] >= 0.15:
+                valor_casas.append((ev_c, k, precio, casa, 1 / v["justa_p"]))
+        valor_casas.sort(reverse=True)
     cands, _ = M.candidatos(lh, la, esp, mercado, local, visita)
+    for c in cands:
+        c["casa"] = casa_de.get(c["clave"], "")
     seguros, arriesgados, apostables = M.seleccionar(cands)
+    bloqueados = []
+    if viejas and not ext:
+        bloqueados = [c for c in apostables if c["casa"] == "Bet365"]
+        apostables = [c for c in apostables if c["casa"] != "Bet365"]
 
     inicio = iso(g["startTime"])
     lin = [f"⚽ <b>{esc(local)} vs {esc(visita)}</b>",
@@ -368,13 +420,22 @@ def analizar(gid, g, nombres, modo):
     lin.append(f"📊 Goles esperados {lh:.2f} – {la:.2f}" + (" · " + " · ".join(extra) if extra else ""))
     if min(nl, nv) < 5:
         lin.append("ℹ️ Pocos partidos recientes de algún equipo: el modelo es menos confiable.")
+    if ext:
+        edad = f" · actualizadas hace {ext['edad_min']} min" if ext.get("edad_min") is not None else ""
+        lin.append(f"💱 Cuotas frescas de {ext['n_casas']} casas · referencia {ext['ref']}{edad}")
+    elif viejas:
+        lin.append(f"⚠️ <b>Cuotas de Bet365 sin moverse hace {horas_quietas:.0f} h</b>: probablemente "
+                   "desactualizadas. Verifica en tu app y guíate por la “justa”.")
+    elif mercado:
+        lin.append("💱 Cuotas: solo Bet365 (vía 365Scores) · verifica en tu app antes de apostar")
     if not mercado:
-        lin.append("ℹ️ Sin cuotas de Bet365 para este partido: probabilidades solo del modelo.")
+        lin.append("ℹ️ Sin cuotas para este partido: probabilidades solo del modelo.")
 
     def fila(c, con_stake=False):
         t = f"• {esc(c['texto'])} — <b>{c['p']:.0%}</b>"
         if c["cuota"]:
-            t += f" · cuota {c['cuota']:.2f} · EV {c['ev']:+.0%}"
+            casa = f" ({esc(c['casa'])})" if c.get("casa") else ""
+            t += f" · cuota {c['cuota']:.2f}{casa} · EV {c['ev']:+.0%}"
         t += f" · justa {c['justa']:.2f}"
         if con_stake:
             t += f" · stake S/ {c['stake']:.2f}"
@@ -387,11 +448,20 @@ def analizar(gid, g, nombres, modo):
     lin.append(f"\n✅ <b>APOSTABLES</b> (EV ≥ {C.EV_MIN:.0%}, cuota ≥ {C.CUOTA_MIN:.2f})")
     if apostables:
         lin += [fila(c, True) for c in apostables]
+    elif bloqueados:
+        lin.append("• Habría valor con las cuotas de 365Scores, pero están desactualizadas: "
+                   "revísalo tú en la app (" + ", ".join(f"{esc(c['texto'])} ≥ {c['justa']:.2f}"
+                                                      for c in bloqueados) + ")")
     else:
         lin.append("• Ninguno: el mercado no deja valor aquí. No apostar también es una decisión.")
+    if valor_casas:
+        lin.append("\n💎 <b>VALOR ENTRE CASAS</b> (mejor cuota vs. Pinnacle sin margen)")
+        for ev_c, k, precio, casa, justa in valor_casas[:3]:
+            lin.append(f"• {esc(M.texto_mercado(k, local, visita))} — {esc(casa)} {precio:.2f} "
+                       f"vs justa {justa:.2f} · EV {ev_c:+.1%}")
     lin.append("\n<i>“justa” = cuota mínima que deberías aceptar en tu casa de apuestas. "
                "Seguros/arriesgados sin valor son informativos, no apuestas.</i>")
-    lin.append("🧪 Paper trading · cuotas Bet365 vía 365Scores")
+    lin.append("🧪 Paper trading · cuotas: " + ("The Odds API + Bet365 (365Scores)" if ext else "Bet365 vía 365Scores"))
 
     filas = []
     fecha = ahora().strftime("%Y-%m-%d %H:%M")
@@ -401,7 +471,8 @@ def analizar(gid, g, nombres, modo):
                 "fecha": fecha, "game_id": gid, "partido": f"{local} vs {visita}",
                 "liga": g.get("competitionDisplayName", ""), "tipo": tipo, "mercado": c["texto"],
                 "clave": clave_str(c["clave"]), "prob": f"{c['p']:.4f}",
-                "cuota": f"{c['cuota']:.2f}" if c["cuota"] else "", "cuota_justa": f"{c['justa']:.2f}",
+                "cuota": f"{c['cuota']:.2f}" if c["cuota"] else "", "casa": c.get("casa", ""),
+                "cuota_justa": f"{c['justa']:.2f}",
                 "ev": f"{c['ev']:.4f}" if c["ev"] is not None else "",
                 "stake": f"{c.get('stake', 0):.2f}" if tipo == "apostable" else "",
                 "alineacion": {"confirmada": "si", "probable": "probable"}.get(modo, "no"), "resultado": "", "ganancia": "",

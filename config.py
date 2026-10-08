@@ -52,3 +52,12 @@ ENVIAR_SIN_ALINEACION_MIN = 40  # si a 40 min del inicio 365Scores no confirma, 
                                 # (y si luego se confirma distinta, manda una actualización)
 
 ZONA = "America/Lima"
+
+# ---------------------------------------------------------------
+# CUOTAS DE VARIAS CASAS (The Odds API, plan gratis 500 créditos/mes)
+# ---------------------------------------------------------------
+ODDS_MERCADOS = "h2h,totals,btts"   # cada mercado devuelto cuesta 1 crédito (≈3 por partido)
+ODDS_RESERVA = 10                   # deja de consultar si quedan menos créditos que esto
+CASAS_EXCLUIR = ["betfair_ex_eu", "betfair_ex_uk", "matchbook"]   # exchanges (cobran comisión)
+VALOR_CASAS_MIN = 0.03              # "💎 valor entre casas": mejor cuota ≥ 3% sobre la justa de Pinnacle
+CUOTAS_VIEJAS_HORAS = 4             # si las cuotas de 365Scores no se movieron en 4 h, se marcan como viejas
