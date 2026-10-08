@@ -107,6 +107,7 @@ dialog input{width:100%;padding:10px;border-radius:9px;border:1px solid var(--li
 </dialog>
 
 <script>
+const VERSION = "__VERSION__";   // lo reemplaza el workflow del calendario
 const TZ = "America/Lima";
 const IMG = (tipo, id, v) => `https://imagecache.365scores.com/image/upload/f_png,w_48,h_48,c_limit,q_auto:eco,dpr_2,d_${tipo}:default1.png/v${v||1}/${tipo}/${id}`;
 const fmtDia = new Intl.DateTimeFormat("es-PE",{timeZone:TZ,weekday:"short",day:"2-digit",month:"2-digit"});
@@ -118,7 +119,9 @@ const API = `https://api.github.com/repos/${OWNER}/${REPO}`;
 const ARCH_SEL = "data/seleccion.json";
 
 let datos = {partidos:[]}, seguidos = {}, seleccion = {}, selSha = null, diaSel = null, grupoSel = "Todas";
-let ocupado = false;
+let ocupado = false;          // hay un guardado en curso
+let cambiosPend = {};         // toques que aún no se guardan en GitHub
+let _flush = null;
 
 function esc(s){return String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]))}
 function limpiar(t){return String(t||"").replace(/[^A-Za-z0-9_]/g,"")}
@@ -127,7 +130,7 @@ function toast(t,ms=2600){const el=document.getElementById("toast");el.textConte
 
 async function gh(path, opts={}){
   const url = path ? `${API}/${path}` : API;
-  const r = await fetch(url, {...opts, headers:{
+  const r = await fetch(url, {cache:"no-store", ...opts, headers:{
     "Authorization":`Bearer ${leerToken()}`, "Accept":"application/vnd.github+json",
     "X-GitHub-Api-Version":"2022-11-28", ...(opts.headers||{})}});
   return r;
@@ -146,8 +149,10 @@ async function leerArchivo(path){
 async function cargarEstado(){
   if(leerToken()){
     try{
-      const s = await leerArchivo(ARCH_SEL); seleccion = s.json; selSha = s.sha;
-      const g = await leerArchivo("data/seguidos.json"); seguidos = g.json;
+      const [s, g] = await Promise.all([leerArchivo(ARCH_SEL), leerArchivo("data/seguidos.json")]);
+      seleccion = Object.assign(s.json, cambiosPend); selSha = s.sha;
+      seguidos = g.json;
+      for(const [id, c] of Object.entries(cambiosPend)) if(c.accion==="quitar") delete seguidos[id];
       return true;
     }catch(e){ toast("No pude leer tu repo: revisa el token (⚙️)"); }
   }
@@ -171,32 +176,49 @@ async function guardarSeleccion(cambio){
       const r = await gh(`contents/${ARCH_SEL}`, {method:"PUT", body:JSON.stringify(body)});
       if(r.status===409 || r.status===422){ continue; }
       if(!r.ok) throw new Error("HTTP "+r.status);
-      seleccion = sel; selSha = (await r.json()).content.sha;
-      despertarBot();
+      selSha = (await r.json()).content.sha;
       return true;
     }catch(e){ if(intento===2) throw e; }
   }
   return false;
 }
 
-let _desp = null;
-function despertarBot(){
-  clearTimeout(_desp);
-  _desp = setTimeout(async ()=>{
-    try{
-      const r = await gh("actions/workflows/picks.yml/dispatches",{method:"POST",body:JSON.stringify({ref:"main"})});
-      if(r.ok || r.status===204) toast("Listo ✓ El bot te confirmará en Telegram en 1–2 min");
-      else toast("Guardado ✓ (el bot lo verá en su próxima pasada)");
-    }catch(e){ toast("Guardado ✓ (el bot lo verá en su próxima pasada)"); }
-  }, 8000);   // espera 8 s sin toques: varios partidos = un solo aviso al bot
+async function despertarBot(n){
+  try{
+    const r = await gh("actions/workflows/picks.yml/dispatches",{method:"POST",body:JSON.stringify({ref:"main"})});
+    if(r.ok || r.status===204) toast(`Guardado ✓ ${n} cambio(s). Confirmación en Telegram en ~1 min`);
+    else toast("Guardado ✓ (el bot lo verá en su próxima pasada)");
+  }catch(e){ toast("Guardado ✓ (el bot lo verá en su próxima pasada)"); }
+}
+
+function programarGuardado(){
+  clearTimeout(_flush);
+  _flush = setTimeout(guardarPendientes, 1500);   // junta los toques seguidos en un solo guardado
+}
+
+async function guardarPendientes(){
+  if(ocupado){ programarGuardado(); return; }
+  const lote = cambiosPend; cambiosPend = {};
+  const n = Object.keys(lote).length;
+  if(!n) return;
+  ocupado = true;
+  try{
+    await guardarSeleccion(lote);
+    despertarBot(n);
+  }catch(err){
+    cambiosPend = Object.assign(lote, cambiosPend);   // se reintenta
+    toast("No se pudo guardar, reintentando… (si sigue, revisa ⚙️)", 4000);
+    setTimeout(programarGuardado, 5000);
+  }
+  ocupado = false;
 }
 
 function estadoPartido(id){
   id = String(id);
   const s = seleccion[id];
   if(s && s.accion==="quitar") return "no";
+  if(s && s.accion==="seguir") return "sigue";
   if(seguidos[id] && seguidos[id].estado !== "cancelado") return "sigue";
-  if(s && s.accion==="seguir") return "enviado";
   return "no";
 }
 
@@ -259,15 +281,13 @@ document.addEventListener("click", async e=>{
   const g = e.target.closest("[data-g]"); if(g){grupoSel=g.dataset.g; render(); return}
   if(e.target.closest("[data-config]")){document.getElementById("config").showModal(); return}
   const t = e.target.closest("[data-toggle]");
-  if(t && !ocupado){
-    ocupado = true; t.disabled = true; t.textContent = "Guardando…";
+  if(t){
     const id = t.dataset.toggle, acc = t.dataset.acc;
-    try{
-      await guardarSeleccion({[id]:{accion:acc, t:Date.now()}});
-      if(acc==="quitar") delete seguidos[id];
-      toast(acc==="seguir" ? "Agregado ✓ · puedes seguir eligiendo" : "Quitado · puedes seguir eligiendo");
-    }catch(err){ toast("No se pudo guardar. Revisa el token en ⚙️", 4000); }
-    ocupado = false; render();
+    const cambio = {accion:acc, t:Date.now()};
+    cambiosPend[id] = cambio; seleccion[id] = cambio;
+    if(acc==="quitar") delete seguidos[id];
+    render();
+    programarGuardado();
   }
 });
 
@@ -298,15 +318,45 @@ document.getElementById("guardarToken").onclick = async ()=>{
   setTimeout(()=>dlg.close(), 700);
 };
 
-(async()=>{
+async function revisarVersion(){
+  if(VERSION.startsWith("__")) return;
   try{
-    datos = await (await fetch("fixtures.json?t="+Date.now())).json();
+    const v = await (await fetch("version.json?t="+Date.now(), {cache:"no-store"})).json();
+    if(v.v && v.v !== VERSION && !Object.keys(cambiosPend).length){
+      location.replace(location.pathname + "?v=" + v.v);   // URL nueva = sin caché
+    }
+  }catch(e){}
+}
+
+(async()=>{
+  await revisarVersion();
+  try{
+    datos = await (await fetch("fixtures.json?t="+Date.now(), {cache:"no-store"})).json();
     const gen = new Date(datos.generado);
     document.getElementById("info").textContent = `${datos.partidos.length} partidos · actualizado ${fmtDia.format(gen)} ${fmtHora.format(gen)}`;
   }catch(e){document.getElementById("info").textContent="No se pudo cargar el calendario."}
   await cargarEstado();
   mostrarAviso(); render();
-  setInterval(async()=>{ if(!ocupado){ await cargarEstado(); render(); } }, 60000);
+  // Sincronización entre dispositivos: cada 15 s mientras la página está visible y al volver a ella
+  let _ultimaSync = Date.now();
+  async function sincronizar(forzar){
+    if(document.hidden || ocupado || Object.keys(cambiosPend).length) return;
+    if(!forzar && Date.now() - _ultimaSync < 14000) return;
+    _ultimaSync = Date.now();
+    await revisarVersion();
+    await cargarEstado(); render();
+  }
+  setInterval(()=>sincronizar(false), 15000);
+  document.addEventListener("visibilitychange", ()=>{ if(!document.hidden) sincronizar(true); });
+  window.addEventListener("focus", ()=>sincronizar(true));
+  // Datos del calendario: recargar si hay una actualización nueva
+  setInterval(async()=>{
+    try{
+      const nuevo = await (await fetch("fixtures.json?t="+Date.now(), {cache:"no-store"})).json();
+      if(nuevo.generado !== datos.generado){ datos = nuevo; render(); }
+    }catch(e){}
+  }, 300000);
+  window.addEventListener("beforeunload", e=>{ if(Object.keys(cambiosPend).length){ guardarPendientes(); e.preventDefault(); e.returnValue=""; } });
 })();
 </script>
 </body>
