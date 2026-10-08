@@ -46,5 +46,11 @@ jobs:
           git add data
           if ! git diff --cached --quiet; then
             git commit -m "estado del bot" -q
-            git pull --rebase -q && git push -q
+            for i in 1 2 3 4 5; do
+              if git pull --rebase -X theirs -q && git push -q; then
+                echo "estado guardado"; break
+              fi
+              git rebase --abort 2>/dev/null || true
+              echo "reintento $i"; sleep $((i * 5))
+            done
           fi
