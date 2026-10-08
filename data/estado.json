@@ -1,20 +1,6 @@
 {
  "offset": 344577779,
  "seguidos": {
-  "4632664": {
-   "partido": "Santos vs Flamengo",
-   "liga": "Brasil, Brasileirão",
-   "inicio": "2026-10-08T17:30:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 0
-  },
-  "4632659": {
-   "partido": "Athletico Paranaense vs Atlético Mineiro",
-   "liga": "Brasil, Brasileirão",
-   "inicio": "2026-10-08T18:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 0
-  },
   "4632663": {
    "partido": "Palmeiras vs Bahia",
    "liga": "Brasil, Brasileirão",
@@ -42,16 +28,16 @@
    "partido": "Grau vs Los Chankas",
    "liga": "Perú, Liga 1 - Clausura",
    "inicio": "2026-10-08T15:30:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1791490284.7225034,
+   "estado": "liquidado",
+   "ultimo": 1791501215.2410092,
    "xi": "478774,1858727,2547425,3123514,3218403,7495947,14703780,50978322,60986868,66107234,72468725|615398,3182404,5774594,13093514,14049021,47420072,52923300,54842240,56700220,59045608,67977218",
    "conf": true
   }
  },
  "web": {
   "4760816": 1791481707415,
-  "4632659": 1791440239445,
-  "4632664": 1791440207354,
+  "4632659": 1791501200446,
+  "4632664": 1791501200060,
   "4760812": 1791490269324,
   "4632663": 1791440256993,
   "4632665": 1791440257334,
