@@ -16,6 +16,7 @@ LIGAS = {
     102: ("Copa Libertadores", "Sudamérica"),
     389: ("Copa Sudamericana", "Sudamérica"),
     583: ("Liga 1 Perú", "Perú"),
+    113: ("Brasileirão Serie A", "Sudamérica"),
 }
 
 # Selecciones: se detectan por nombre de la competición
