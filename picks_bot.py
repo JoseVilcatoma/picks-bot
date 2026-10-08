@@ -60,10 +60,50 @@ def tg(metodo, **datos):
         return None
 
 
-def enviar(texto):
+COLA = os.getenv("COLA") == "1"       # en GitHub: los mensajes se envían solo si el estado se guardó
+SALIDA = os.path.join(DIR, "salida.json")
+_cola = []
+
+
+def _enviar_ya(texto):
     for i in range(0, len(texto), 3900):
         tg("sendMessage", chat_id=CHAT_ID, text=texto[i:i + 3900], parse_mode="HTML",
            disable_web_page_preview=True)
+
+
+def enviar(texto):
+    if COLA:
+        _cola.append(texto)
+    else:
+        _enviar_ya(texto)
+
+
+def guardar_cola():
+    if not _cola:
+        return
+    try:
+        with open(SALIDA, encoding="utf-8") as f:
+            pend = json.load(f)
+    except (OSError, ValueError):
+        pend = []
+    with open(SALIDA, "w", encoding="utf-8") as f:
+        json.dump(pend + _cola, f, ensure_ascii=False)
+
+
+def enviar_cola():
+    """Envía la bandeja de salida (se llama solo después de guardar el estado)."""
+    try:
+        with open(SALIDA, encoding="utf-8") as f:
+            pend = json.load(f)
+    except (OSError, ValueError):
+        return
+    if not pend:
+        return
+    with open(SALIDA, "w", encoding="utf-8") as f:
+        json.dump([], f)
+    for t in pend:
+        _enviar_ya(t)
+    print(f"[tg] {len(pend)} mensajes enviados")
 
 
 def cargar_estado():
@@ -452,6 +492,7 @@ def pasada():
             del estado["seguidos"][gid]
     escribir_log(log)
     guardar_estado(estado)
+    guardar_cola()
     s365.guardar_cache()
 
 
@@ -463,13 +504,15 @@ def probar(gid):
     ok = s365.alineacion(g["homeCompetitor"])[0] and s365.alineacion(g["awayCompetitor"])[0]
     texto, _ = analizar(gid, g, nombres, ok)
     print(texto)
-    enviar("🧪 <b>PRUEBA</b> (no se registra)\n\n" + texto)
+    _enviar_ya("🧪 <b>PRUEBA</b> (no se registra)\n\n" + texto)
     s365.guardar_cache()
 
 
 if __name__ == "__main__":
     if len(sys.argv) > 2 and sys.argv[1] == "--probar":
         probar(sys.argv[2])
+    elif "--enviar" in sys.argv:
+        enviar_cola()
     elif "--loop" in sys.argv:
         while True:
             try:
