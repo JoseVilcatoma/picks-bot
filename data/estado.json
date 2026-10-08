@@ -1,13 +1,6 @@
 {
  "offset": 344577777,
  "seguidos": {
-  "4760816": {
-   "partido": "CD Moquegua vs Cienciano",
-   "liga": "Perú, Liga 1 - Clausura",
-   "inicio": "2026-10-08T13:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 0
-  },
   "4632659": {
    "partido": "Athletico Paranaense vs Atlético Mineiro",
    "liga": "Brasil, Brasileirão",
@@ -45,7 +38,7 @@
   }
  },
  "web": {
-  "4760816": 1791438948314,
+  "4760816": 1791439093147,
   "4632659": 1791438984543,
   "4632664": 1791438982753,
   "4760812": 1791438979970,
