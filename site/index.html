@@ -188,7 +188,7 @@ function despertarBot(){
       if(r.ok || r.status===204) toast("Listo ✓ El bot te confirmará en Telegram en 1–2 min");
       else toast("Guardado ✓ (el bot lo verá en su próxima pasada)");
     }catch(e){ toast("Guardado ✓ (el bot lo verá en su próxima pasada)"); }
-  }, 2500);   // espera 2.5 s por si eliges varios seguidos: un solo aviso al bot
+  }, 8000);   // espera 8 s sin toques: varios partidos = un solo aviso al bot
 }
 
 function estadoPartido(id){
@@ -265,7 +265,7 @@ document.addEventListener("click", async e=>{
     try{
       await guardarSeleccion({[id]:{accion:acc, t:Date.now()}});
       if(acc==="quitar") delete seguidos[id];
-      toast(acc==="seguir" ? "Partido agregado ✓" : "Partido quitado");
+      toast(acc==="seguir" ? "Agregado ✓ · puedes seguir eligiendo" : "Quitado · puedes seguir eligiendo");
     }catch(err){ toast("No se pudo guardar. Revisa el token en ⚙️", 4000); }
     ocupado = false; render();
   }
