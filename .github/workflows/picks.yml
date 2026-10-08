@@ -1,26 +1,30 @@
 name: Picks
 
+# El bot queda encendido vigilando (una pasada cada 2 min durante ~5.5 h) y antes de
+# terminar se relanza solo. El horario de abajo es solo un respaldo por si la cadena se corta.
 on:
   schedule:
-    - cron: "*/5 * * * *"
+    - cron: "17 * * * *"
   workflow_dispatch:
     inputs:
       probar:
-        description: "ID de partido para una prueba (vacío = pasada normal)"
+        description: "ID de partido para una prueba (vacío = vigilante normal)"
         required: false
         default: ""
 
 permissions:
   contents: write
+  actions: write
 
+# Las pruebas corren aparte para no esperar al vigilante.
 concurrency:
-  group: picks
+  group: ${{ github.event.inputs.probar && format('prueba-{0}', github.run_id) || 'vigilante' }}
   cancel-in-progress: false
 
 jobs:
   bot:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 350
     env:
       TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
       TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
@@ -36,42 +40,15 @@ jobs:
       - run: pip install -r requirements.txt
 
       - name: Prueba de un partido
-        if: ${{ github.event.inputs.probar != '' && github.event.inputs.probar != null }}
+        if: ${{ github.event.inputs.probar }}
         run: python picks_bot.py --probar "${{ github.event.inputs.probar }}"
 
-      - name: Ejecutar bot (sin enviar todavía)
-        if: ${{ github.event.inputs.probar == '' || github.event.inputs.probar == null }}
+      - name: Vigilante (pasada cada 2 min)
+        if: ${{ !github.event.inputs.probar }}
+        run: python -u picks_bot.py --vigilar 330
+
+      - name: Relanzar el vigilante
+        if: ${{ always() && !github.event.inputs.probar }}
         env:
-          COLA: "1"
-        run: python picks_bot.py
-
-      - name: Guardar estado y luego enviar mensajes
-        if: ${{ github.event.inputs.probar == '' || github.event.inputs.probar == null }}
-        run: |
-          git config user.name "picks-bot"
-          git config user.email "picks-bot@users.noreply.github.com"
-          git add data
-          if git diff --cached --quiet; then echo "sin cambios"; exit 0; fi
-          git commit -m "estado del bot" -q
-
-          # 1) Guardar. Si otra ejecución guardó antes con cambios del bot, esta se descarta (sin enviar nada).
-          if ! git push -q; then
-            if git pull --rebase -q; then
-              git push -q || { echo "no se pudo guardar: descarto esta pasada"; exit 0; }
-            else
-              git rebase --abort || true
-              echo "otra ejecución ya procesó esto: descarto esta pasada"; exit 0
-            fi
-          fi
-
-          # 2) Estado guardado: ahora sí enviar a Telegram y vaciar la bandeja.
-          python picks_bot.py --enviar
-          git add data
-          if ! git diff --cached --quiet; then
-            git commit -m "mensajes enviados" -q
-            for i in 1 2 3 4 5; do
-              if git pull --rebase -X theirs -q && git push -q; then break; fi
-              git rebase --abort 2>/dev/null || true
-              sleep $((i * 5))
-            done
-          fi
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run picks.yml --ref main || echo "no se pudo relanzar (el horario de respaldo lo hará)"
