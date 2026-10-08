@@ -2,7 +2,7 @@ name: Calendario
 
 on:
   schedule:
-    - cron: "7 10,16,22 * * *"
+    - cron: "7 */2 * * *"   # cada 2 horas
   workflow_dispatch:
 
 permissions:
@@ -21,15 +21,21 @@ jobs:
       name: github-pages
       url: ${{ steps.deploy.outputs.page_url }}
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
         with:
           python-version: "3.12"
+          cache: "pip"
       - run: pip install -r requirements.txt
       - name: Descargar partidos
         run: python calendario.py
         env:
           TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
+      - name: Marcar versión de la página
+        run: |
+          V=$(sha1sum site/index.html | cut -c1-10)
+          sed -i "s/__VERSION__/$V/" site/index.html
+          echo "{\"v\": \"$V\"}" > site/version.json
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
