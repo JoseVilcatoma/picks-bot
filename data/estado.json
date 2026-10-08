@@ -1,41 +1,12 @@
 {
  "offset": 344577777,
- "seguidos": {
-  "4632659": {
-   "partido": "Athletico Paranaense vs Atlético Mineiro",
-   "liga": "Brasil, Brasileirão",
-   "inicio": "2026-10-08T18:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 0
-  },
-  "4632663": {
-   "partido": "Palmeiras vs Bahia",
-   "liga": "Brasil, Brasileirão",
-   "inicio": "2026-10-08T19:30:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 0
-  },
-  "4632664": {
-   "partido": "Santos vs Flamengo",
-   "liga": "Brasil, Brasileirão",
-   "inicio": "2026-10-08T17:30:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 0
-  },
-  "4632665": {
-   "partido": "Fluminense vs Coritiba",
-   "liga": "Brasil, Brasileirão",
-   "inicio": "2026-10-08T19:30:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 0
-  }
- },
+ "seguidos": {},
  "web": {
   "4760816": 1791440090530,
-  "4632659": 1791439570924,
-  "4632664": 1791439568882,
+  "4632659": 1791440148283,
+  "4632664": 1791440147970,
   "4760812": 1791440091546,
-  "4632663": 1791439572582,
-  "4632665": 1791439574407
+  "4632663": 1791440148612,
+  "4632665": 1791440149436
  }
 }
