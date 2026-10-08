@@ -311,7 +311,16 @@ def stats_recientes(team_id, resultados, n=5):
     return lista
 
 
-def analizar(gid, g, nombres, con_alineacion):
+def firma_xi(g):
+    """Huella de los dos XI (para saber si cambió la alineación)."""
+    xl = sorted(s365.alineacion(g["homeCompetitor"])[2])
+    xv = sorted(s365.alineacion(g["awayCompetitor"])[2])
+    return ",".join(map(str, xl)) + "|" + ",".join(map(str, xv)), len(xl) == 11 and len(xv) == 11
+
+
+def analizar(gid, g, nombres, modo):
+    """modo: 'confirmada' | 'probable' (XI de 365Scores sin confirmar) | 'ninguna'"""
+    con_alineacion = modo in ("confirmada", "probable")
     h, a = g["homeCompetitor"], g["awayCompetitor"]
     local, visita = h["name"], a["name"]
     res_l = s365.resultados_equipo(h["id"])
@@ -343,8 +352,11 @@ def analizar(gid, g, nombres, con_alineacion):
     inicio = iso(g["startTime"])
     lin = [f"⚽ <b>{esc(local)} vs {esc(visita)}</b>",
            f"🏆 {esc(g.get('competitionDisplayName', ''))} · 🕐 {inicio:%d/%m %H:%M}"]
-    if con_alineacion:
+    if modo == "confirmada":
         lin.append(f"📋 Alineaciones confirmadas ({esc(form_l or '?')} / {esc(form_v or '?')})")
+    elif modo == "probable":
+        lin.append(f"📋 <b>Alineación probable</b> ({esc(form_l or '?')} / {esc(form_v or '?')}): "
+                   "365Scores aún no la confirma. Si cambia, te mando actualización.")
     else:
         lin.append("📋 <b>Sin alineación confirmada</b> a minutos del inicio: picks solo con datos previos")
     lin += notas
@@ -392,7 +404,7 @@ def analizar(gid, g, nombres, con_alineacion):
                 "cuota": f"{c['cuota']:.2f}" if c["cuota"] else "", "cuota_justa": f"{c['justa']:.2f}",
                 "ev": f"{c['ev']:.4f}" if c["ev"] is not None else "",
                 "stake": f"{c.get('stake', 0):.2f}" if tipo == "apostable" else "",
-                "alineacion": "si" if con_alineacion else "no", "resultado": "", "ganancia": "",
+                "alineacion": {"confirmada": "si", "probable": "probable"}.get(modo, "no"), "resultado": "", "ganancia": "",
             })
     return "\n".join(lin), filas
 
@@ -471,23 +483,51 @@ def pasada():
                 continue
             if g.get("startTime") and g["startTime"] != s["inicio"]:
                 s["inicio"] = g["startTime"]
-                if (iso(s["inicio"]) - t).total_seconds() / 60 > C.VENTANA_MIN:
+                mins = (iso(s["inicio"]) - t).total_seconds() / 60
+                if mins > C.VENTANA_MIN:
                     continue
+                urgente = mins <= C.ENVIAR_SIN_ALINEACION_MIN
             ok_l = s365.alineacion(g["homeCompetitor"])[0]
             ok_v = s365.alineacion(g["awayCompetitor"])[0]
-            if (ok_l and ok_v) or urgente:
+            confirmada = ok_l and ok_v
+            if confirmada or urgente:
                 if mins < -20:
                     s["estado"] = "cancelado"
                     enviar(f"⌛ {esc(s['partido'])}: ya empezó y no alcancé a enviar picks.")
                     continue
-                texto, filas = analizar(gid, g, nombres, ok_l and ok_v)
+                firma, completa = firma_xi(g)
+                modo = "confirmada" if confirmada else ("probable" if completa else "ninguna")
+                texto, filas = analizar(gid, g, nombres, modo)
                 enviar(texto)
                 log += filas
                 s["estado"] = "enviado"
+                s["xi"], s["conf"] = firma, confirmada
         elif s["estado"] == "enviado" and mins < -115:
             if time.time() - s.get("ultimo", 0) >= 10 * 60:
                 s["ultimo"] = time.time()
                 liquidar(gid, s, log)
+        elif s["estado"] == "enviado" and not s.get("conf", True) and mins > -3:
+            # Se envió con alineación probable: vigilar si se confirma y si cambió
+            if time.time() - s.get("ultimo", 0) < 5 * 60:
+                continue
+            s["ultimo"] = time.time()
+            g, nombres = s365.detalle(gid)
+            if not g:
+                continue
+            if not (s365.alineacion(g["homeCompetitor"])[0] and s365.alineacion(g["awayCompetitor"])[0]):
+                continue
+            s["conf"] = True
+            firma, _ = firma_xi(g)
+            if firma == s.get("xi"):
+                enviar(f"✅ <b>{esc(s['partido'])}</b>: alineaciones confirmadas, "
+                       "iguales a la probable. Los picks se mantienen.")
+                continue
+            texto, filas = analizar(gid, g, nombres, "confirmada")
+            log[:] = [f for f in log if not (f["game_id"] == gid and not f["resultado"])]
+            log += filas
+            s["xi"] = firma
+            enviar("🔄 <b>ACTUALIZACIÓN: la alineación confirmada cambió</b>. "
+                   "Estos picks reemplazan a los anteriores.\n\n" + texto)
         elif s["estado"] in ("liquidado", "cancelado") and mins < -2 * 24 * 60:
             del estado["seguidos"][gid]
     escribir_log(log)
@@ -502,7 +542,8 @@ def probar(gid):
         print("No se pudo leer el partido", gid)
         return
     ok = s365.alineacion(g["homeCompetitor"])[0] and s365.alineacion(g["awayCompetitor"])[0]
-    texto, _ = analizar(gid, g, nombres, ok)
+    modo = "confirmada" if ok else ("probable" if firma_xi(g)[1] else "ninguna")
+    texto, _ = analizar(gid, g, nombres, modo)
     print(texto)
     _enviar_ya("🧪 <b>PRUEBA</b> (no se registra)\n\n" + texto)
     s365.guardar_cache()
