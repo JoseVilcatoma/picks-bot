@@ -9,23 +9,25 @@
 <style>
 :root{
   --bg:#f3f1ec; --panel:#ffffff; --ink:#16181d; --muted:#6b6f78; --line:#e3e0d8;
-  --accent:#0f7a4a; --accent-ink:#ffffff; --chip:#e9e6de; --follow:#e8f4ee;
+  --accent:#0f7a4a; --accent-ink:#ffffff; --chip:#e9e6de; --follow:#e8f4ee; --warn:#b4471f;
 }
 @media (prefers-color-scheme: dark){
   :root:not([data-theme="light"]){
     --bg:#101214; --panel:#181b1f; --ink:#eceae4; --muted:#8d929b; --line:#262a30;
-    --accent:#2fbf7f; --accent-ink:#06140d; --chip:#22262b; --follow:#14271e;
+    --accent:#2fbf7f; --accent-ink:#06140d; --chip:#22262b; --follow:#14271e; --warn:#e07a52;
   }
 }
 :root[data-theme="dark"]{
   --bg:#101214; --panel:#181b1f; --ink:#eceae4; --muted:#8d929b; --line:#262a30;
-  --accent:#2fbf7f; --accent-ink:#06140d; --chip:#22262b; --follow:#14271e;
+  --accent:#2fbf7f; --accent-ink:#06140d; --chip:#22262b; --follow:#14271e; --warn:#e07a52;
 }
 *{box-sizing:border-box}
 body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.45 Inter,system-ui,sans-serif}
-.wrap{max-width:760px;margin:0 auto;padding:20px 16px 60px}
+.wrap{max-width:760px;margin:0 auto;padding:20px 16px 90px}
+header{display:flex;justify-content:space-between;align-items:flex-start;gap:12px}
 header h1{font:700 34px/1 "Barlow Condensed",sans-serif;letter-spacing:.5px;margin:0 0 4px;text-transform:uppercase}
 header p{margin:0;color:var(--muted);font-size:13px}
+.engr{border:1px solid var(--line);background:var(--panel);color:var(--ink);border-radius:10px;padding:8px 10px;cursor:pointer;font-size:16px}
 .dias{display:flex;gap:6px;margin:20px 0 10px;overflow-x:auto;padding-bottom:4px}
 .dia{flex:0 0 auto;border:1px solid var(--line);background:var(--panel);color:var(--ink);border-radius:10px;
   padding:8px 14px;cursor:pointer;font:600 14px Inter,sans-serif;text-align:center;min-width:76px}
@@ -47,44 +49,154 @@ header p{margin:0;color:var(--muted);font-size:13px}
 .eq span{display:flex;align-items:center;gap:7px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .eq img{width:18px;height:18px;object-fit:contain;flex:0 0 18px}
 .btn{border:0;border-radius:9px;padding:8px 12px;font:600 13px Inter,sans-serif;background:var(--accent);
-  color:var(--accent-ink);text-decoration:none;white-space:nowrap}
-.btn.pend{background:transparent;color:var(--muted);border:1px dashed var(--muted)}
-.aviso{background:#c0392b;color:#fff;border-radius:10px;padding:10px 14px;margin:14px 0;font-size:14px}
+  color:var(--accent-ink);text-decoration:none;white-space:nowrap;cursor:pointer;min-width:104px;text-align:center}
 .btn.ok{background:transparent;color:var(--accent);border:1px solid var(--accent)}
+.btn.pend{background:transparent;color:var(--muted);border:1px dashed var(--muted)}
+.btn:disabled{opacity:.6;cursor:wait}
+.aviso{border:1px solid var(--warn);color:var(--ink);background:var(--panel);border-radius:10px;padding:12px 14px;margin:14px 0;font-size:14px}
+.aviso b{color:var(--warn)}
 .vacio{color:var(--muted);text-align:center;padding:40px 0}
 footer{color:var(--muted);font-size:12px;margin-top:26px}
+.toast{position:fixed;left:50%;bottom:20px;transform:translateX(-50%);background:var(--ink);color:var(--bg);
+  padding:10px 16px;border-radius:10px;font-size:14px;opacity:0;transition:opacity .2s;pointer-events:none;max-width:90vw}
+.toast.on{opacity:1}
+dialog{border:1px solid var(--line);border-radius:14px;background:var(--panel);color:var(--ink);max-width:460px;width:calc(100% - 32px);padding:20px}
+dialog::backdrop{background:rgba(0,0,0,.45)}
+dialog h3{margin:0 0 8px;font:700 22px "Barlow Condensed",sans-serif;text-transform:uppercase}
+dialog ol{padding-left:20px;margin:8px 0 14px;font-size:14px}
+dialog input{width:100%;padding:10px;border-radius:9px;border:1px solid var(--line);background:var(--bg);color:var(--ink);font:13px monospace}
+.fila{display:flex;gap:8px;justify-content:flex-end;margin-top:14px}
+.sec{background:var(--chip);color:var(--ink)}
 </style>
 </head>
 <body>
 <div class="wrap">
   <header>
-    <h1>Calendario de picks</h1>
-    <p id="info">Cargando partidos…</p>
+    <div>
+      <h1>Calendario de picks</h1>
+      <p id="info">Cargando partidos…</p>
+    </div>
+    <button class="engr" id="abrirConfig" title="Configurar">⚙️</button>
   </header>
   <div id="aviso"></div>
   <div class="dias" id="dias"></div>
   <div class="filtros" id="filtros"></div>
   <main id="lista"></main>
-  <footer>Toca <b>Seguir</b>: se abre Telegram, pulsa <b>Iniciar</b> y el bot te enviará los picks cuando salgan las alineaciones.
-  El estado “Siguiendo” se actualiza en unos minutos.</footer>
+  <footer>Toca <b>Seguir</b> y listo: el bot te confirma en Telegram en 1–2 minutos y te manda los picks cuando salgan las alineaciones.
+  Toca de nuevo para dejar de seguir.</footer>
 </div>
+<div class="toast" id="toast"></div>
+
+<dialog id="config">
+  <h3>Conectar con GitHub</h3>
+  <p style="margin:0;font-size:14px">Se hace <b>una sola vez por dispositivo</b> (celular y PC por separado).</p>
+  <ol>
+    <li>GitHub → foto de perfil → <b>Settings</b> → <b>Developer settings</b> → <b>Personal access tokens</b> → <b>Fine-grained tokens</b> → <b>Generate new token</b>.</li>
+    <li>Nombre: <code>calendario</code>. Expiración: la más larga.</li>
+    <li><b>Repository access</b> → <i>Only select repositories</i> → elige <b>tu repo de picks</b>.</li>
+    <li><b>Permissions</b> → <i>Contents</i>: <b>Read and write</b> · <i>Actions</i>: <b>Read and write</b>.</li>
+    <li><b>Generate token</b>, cópialo y pégalo aquí:</li>
+  </ol>
+  <input id="tokenInput" type="password" placeholder="github_pat_..." autocomplete="off">
+  <p id="configMsg" style="font-size:13px;color:var(--muted);margin:8px 0 0">El token se guarda solo en este navegador.</p>
+  <div class="fila">
+    <button class="btn sec" id="borrarToken">Borrar</button>
+    <button class="btn sec" id="cerrarConfig">Cerrar</button>
+    <button class="btn" id="guardarToken">Guardar</button>
+  </div>
+</dialog>
+
 <script>
 const TZ = "America/Lima";
 const IMG = (tipo, id, v) => `https://imagecache.365scores.com/image/upload/f_png,w_48,h_48,c_limit,q_auto:eco,dpr_2,d_${tipo}:default1.png/v${v||1}/${tipo}/${id}`;
 const fmtDia = new Intl.DateTimeFormat("es-PE",{timeZone:TZ,weekday:"short",day:"2-digit",month:"2-digit"});
 const fmtHora = new Intl.DateTimeFormat("es-PE",{timeZone:TZ,hour:"2-digit",minute:"2-digit",hour12:false});
 const claveDia = d => new Intl.DateTimeFormat("en-CA",{timeZone:TZ}).format(d);
-let datos = {partidos:[]}, seguidos = {}, diaSel = null, grupoSel = "Todas";
-let pendientes = {};
-try{ pendientes = JSON.parse(localStorage.getItem("pendientes")||"{}") }catch(e){}
-function marcarPendiente(id){ pendientes[id]=Date.now(); try{localStorage.setItem("pendientes",JSON.stringify(pendientes))}catch(e){} }
+const OWNER = location.hostname.split(".")[0];
+const REPO = location.pathname.split("/").filter(Boolean)[0] || "";
+const API = `https://api.github.com/repos/${OWNER}/${REPO}`;
+const ARCH_SEL = "data/seleccion.json";
 
-function repoRaw(){
-  const owner = location.hostname.split(".")[0];
-  const repo = location.pathname.split("/").filter(Boolean)[0];
-  return owner && repo ? `https://raw.githubusercontent.com/${owner}/${repo}/main/data/seguidos.json?t=${Date.now()}` : null;
-}
+let datos = {partidos:[]}, seguidos = {}, seleccion = {}, selSha = null, diaSel = null, grupoSel = "Todas";
+let ocupado = false;
+
 function esc(s){return String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]))}
+function leerToken(){try{return localStorage.getItem("gh_token")||""}catch(e){return ""}}
+function toast(t,ms=2600){const el=document.getElementById("toast");el.textContent=t;el.classList.add("on");clearTimeout(toast._t);toast._t=setTimeout(()=>el.classList.remove("on"),ms)}
+
+async function gh(path, opts={}){
+  const r = await fetch(`${API}/${path}`, {...opts, headers:{
+    "Authorization":`Bearer ${leerToken()}`, "Accept":"application/vnd.github+json",
+    "X-GitHub-Api-Version":"2022-11-28", ...(opts.headers||{})}});
+  return r;
+}
+function b64(s){return btoa(unescape(encodeURIComponent(s)))}
+function deb64(s){return decodeURIComponent(escape(atob(s.replace(/\n/g,""))))}
+
+async function leerArchivo(path){
+  const r = await gh(`contents/${path}?t=${Date.now()}`);
+  if(r.status===404) return {json:{}, sha:null};
+  if(!r.ok) throw new Error(r.status);
+  const j = await r.json();
+  return {json: JSON.parse(deb64(j.content)||"{}"), sha: j.sha};
+}
+
+async function cargarEstado(){
+  if(leerToken()){
+    try{
+      const s = await leerArchivo(ARCH_SEL); seleccion = s.json; selSha = s.sha;
+      const g = await leerArchivo("data/seguidos.json"); seguidos = g.json;
+      return true;
+    }catch(e){ toast("No pude leer tu repo: revisa el token (⚙️)"); }
+  }
+  try{
+    const r = await fetch(`https://raw.githubusercontent.com/${OWNER}/${REPO}/main/data/seguidos.json?t=${Date.now()}`);
+    if(r.ok) seguidos = await r.json();
+  }catch(e){}
+  return false;
+}
+
+async function guardarSeleccion(cambio){
+  for(let intento=0; intento<3; intento++){
+    try{
+      const actual = await leerArchivo(ARCH_SEL);
+      const sel = actual.json || {};
+      const ahora = Date.now();
+      for(const k of Object.keys(sel)) if(ahora - (sel[k].t||0) > 4*86400000) delete sel[k];
+      Object.assign(sel, cambio);
+      const body = {message:"selección desde calendario", content:b64(JSON.stringify(sel,null,1))};
+      if(actual.sha) body.sha = actual.sha;
+      const r = await gh(`contents/${ARCH_SEL}`, {method:"PUT", body:JSON.stringify(body)});
+      if(r.status===409 || r.status===422){ continue; }
+      if(!r.ok) throw new Error("HTTP "+r.status);
+      seleccion = sel; selSha = (await r.json()).content.sha;
+      despertarBot();
+      return true;
+    }catch(e){ if(intento===2) throw e; }
+  }
+  return false;
+}
+
+let _desp = null;
+function despertarBot(){
+  clearTimeout(_desp);
+  _desp = setTimeout(async ()=>{
+    try{
+      const r = await gh("actions/workflows/picks.yml/dispatches",{method:"POST",body:JSON.stringify({ref:"main"})});
+      if(r.ok || r.status===204) toast("Listo ✓ El bot te confirmará en Telegram en 1–2 min");
+      else toast("Guardado ✓ (el bot lo verá en su próxima pasada)");
+    }catch(e){ toast("Guardado ✓ (el bot lo verá en su próxima pasada)"); }
+  }, 2500);   // espera 2.5 s por si eliges varios seguidos: un solo aviso al bot
+}
+
+function estadoPartido(id){
+  id = String(id);
+  const s = seleccion[id];
+  if(s && s.accion==="quitar") return "no";
+  if(seguidos[id] && seguidos[id].estado !== "cancelado") return "sigue";
+  if(s && s.accion==="seguir") return "enviado";
+  return "no";
+}
 
 function render(){
   const ps = datos.partidos;
@@ -94,8 +206,9 @@ function render(){
   document.getElementById("dias").innerHTML = dias.map(d=>{
     const f = new Date(d+"T12:00:00-05:00");
     const lbl = d===hoy ? "Hoy" : fmtDia.format(f).split(",")[0];
-    const n = ps.filter(p=>claveDia(new Date(p.inicio))===d).length;
-    return `<button class="dia" aria-pressed="${d===diaSel}" data-d="${d}">${esc(lbl)}<small>${fmtDia.format(f).split(",").pop().trim()} · ${n}</small></button>`;
+    const delDia = ps.filter(p=>claveDia(new Date(p.inicio))===d);
+    const n = delDia.length, ns = delDia.filter(p=>estadoPartido(p.id)!=="no").length;
+    return `<button class="dia" aria-pressed="${d===diaSel}" data-d="${d}">${esc(lbl)}<small>${fmtDia.format(f).split(",").pop().trim()} · ${n}${ns?` · ✓${ns}`:""}</small></button>`;
   }).join("");
   const delDia = ps.filter(p=>claveDia(new Date(p.inicio))===diaSel);
   const grupos = ["Todas", ...new Set(delDia.map(p=>p.grupo))];
@@ -105,17 +218,23 @@ function render(){
   if(!vis.length){document.getElementById("lista").innerHTML='<p class="vacio">No hay partidos para este filtro.</p>';return}
   const porLiga = {};
   vis.forEach(p=>{(porLiga[p.liga] ||= []).push(p)});
+  const conToken = !!leerToken();
   document.getElementById("lista").innerHTML = Object.entries(porLiga).map(([liga,lista])=>`
     <section class="liga"><h2><img src="${IMG("Competitions",lista[0].liga_id,1)}" alt="" onerror="this.remove()">${esc(liga)}</h2>
     ${lista.map(p=>{
-      const sig = seguidos[String(p.id)];
-      const pend = !sig && pendientes[p.id] && Date.now()-pendientes[p.id] < 30*60*1000;
-      const link = `https://t.me/${datos.bot}?start=f${p.id}`;
-      const boton = sig ? `<span class="btn ok">✓ Siguiendo</span>`
-        : !datos.bot ? `<span class="btn pend">Bot no configurado</span>`
-        : pend ? `<a class="btn pend" href="${link}" target="_blank" rel="noopener">⏳ Confirmar en Telegram</a>`
-        : `<a class="btn" href="${link}" target="_blank" rel="noopener" data-seguir="${p.id}">Seguir</a>`;
-      return `<div class="p ${sig?"sig":""}">
+      const st = estadoPartido(p.id);
+      let boton;
+      if(!conToken){
+        boton = datos.bot ? `<a class="btn" href="https://t.me/${datos.bot}?start=f${p.id}" target="_blank" rel="noopener">Seguir</a>`
+                          : `<button class="btn pend" data-config>Configurar</button>`;
+      }else if(st==="sigue"){
+        boton = `<button class="btn ok" data-toggle="${p.id}" data-acc="quitar">✓ Siguiendo</button>`;
+      }else if(st==="enviado"){
+        boton = `<button class="btn pend" data-toggle="${p.id}" data-acc="quitar">⏳ Enviado</button>`;
+      }else{
+        boton = `<button class="btn" data-toggle="${p.id}" data-acc="seguir">Seguir</button>`;
+      }
+      return `<div class="p ${st!=="no"?"sig":""}">
         <div class="hora">${fmtHora.format(new Date(p.inicio))}</div>
         <div class="eq">
           <span><img src="${IMG("Competitors",p.local_id,p.local_v)}" alt="" onerror="this.style.visibility='hidden'">${esc(p.local)}</span>
@@ -126,11 +245,45 @@ function render(){
     </section>`).join("");
 }
 
-document.addEventListener("click",e=>{
-  const d = e.target.closest("[data-d]"); if(d){diaSel=d.dataset.d; render()}
-  const g = e.target.closest("[data-g]"); if(g){grupoSel=g.dataset.g; render()}
-  const sg = e.target.closest("[data-seguir]"); if(sg){marcarPendiente(sg.dataset.seguir); setTimeout(render,300)}
+function mostrarAviso(){
+  const av = document.getElementById("aviso");
+  if(!leerToken()){
+    av.innerHTML = `<div class="aviso"><b>Configura una vez</b> para elegir partidos con un toque, sin abrir Telegram. Pulsa <b>⚙️</b> arriba a la derecha.</div>`;
+  }else av.innerHTML = "";
+}
+
+document.addEventListener("click", async e=>{
+  const d = e.target.closest("[data-d]"); if(d){diaSel=d.dataset.d; render(); return}
+  const g = e.target.closest("[data-g]"); if(g){grupoSel=g.dataset.g; render(); return}
+  if(e.target.closest("[data-config]")){document.getElementById("config").showModal(); return}
+  const t = e.target.closest("[data-toggle]");
+  if(t && !ocupado){
+    ocupado = true; t.disabled = true; t.textContent = "Guardando…";
+    const id = t.dataset.toggle, acc = t.dataset.acc;
+    try{
+      await guardarSeleccion({[id]:{accion:acc, t:Date.now()}});
+      if(acc==="quitar") delete seguidos[id];
+      toast(acc==="seguir" ? "Partido agregado ✓" : "Partido quitado");
+    }catch(err){ toast("No se pudo guardar. Revisa el token en ⚙️", 4000); }
+    ocupado = false; render();
+  }
 });
+
+const dlg = document.getElementById("config");
+document.getElementById("abrirConfig").onclick = ()=>{document.getElementById("tokenInput").value=leerToken(); dlg.showModal()};
+document.getElementById("cerrarConfig").onclick = ()=>dlg.close();
+document.getElementById("borrarToken").onclick = ()=>{try{localStorage.removeItem("gh_token")}catch(e){}; dlg.close(); mostrarAviso(); render()};
+document.getElementById("guardarToken").onclick = async ()=>{
+  const v = document.getElementById("tokenInput").value.trim();
+  const msg = document.getElementById("configMsg");
+  try{localStorage.setItem("gh_token", v)}catch(e){msg.textContent="Este navegador no permite guardar el token."; return}
+  msg.textContent = "Probando…";
+  const r = await gh("");
+  if(!r.ok){ msg.textContent = "❌ El token no funciona con este repo. Revisa el paso 3 y 4."; return }
+  msg.textContent = "✅ Conectado";
+  await cargarEstado(); mostrarAviso(); render();
+  setTimeout(()=>dlg.close(), 700);
+};
 
 (async()=>{
   try{
@@ -138,11 +291,9 @@ document.addEventListener("click",e=>{
     const gen = new Date(datos.generado);
     document.getElementById("info").textContent = `${datos.partidos.length} partidos · actualizado ${fmtDia.format(gen)} ${fmtHora.format(gen)}`;
   }catch(e){document.getElementById("info").textContent="No se pudo cargar el calendario."}
-  if(!datos.bot && datos.partidos.length){
-    document.getElementById("aviso").innerHTML = '<div class="aviso">⚠️ El calendario no conoce el nombre de tu bot. Revisa que el secreto <b>TELEGRAM_TOKEN</b> esté bien escrito en GitHub y vuelve a correr <b>Actions → Calendario → Run workflow</b>.</div>';
-  }
-  try{const u=repoRaw(); if(u){const r=await fetch(u); if(r.ok) seguidos=await r.json()}}catch(e){}
-  render();
+  await cargarEstado();
+  mostrarAviso(); render();
+  setInterval(async()=>{ if(!ocupado){ await cargarEstado(); render(); } }, 60000);
 })();
 </script>
 </body>
