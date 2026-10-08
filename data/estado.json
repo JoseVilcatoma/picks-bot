@@ -7,9 +7,33 @@
    "inicio": "2026-10-08T13:00:00-05:00",
    "estado": "pendiente",
    "ultimo": 0
+  },
+  "4632659": {
+   "partido": "Athletico Paranaense vs Atlético Mineiro",
+   "liga": "Brasil, Brasileirão",
+   "inicio": "2026-10-08T18:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4632664": {
+   "partido": "Santos vs Flamengo",
+   "liga": "Brasil, Brasileirão",
+   "inicio": "2026-10-08T17:30:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4760812": {
+   "partido": "Grau vs Los Chankas",
+   "liga": "Perú, Liga 1 - Clausura",
+   "inicio": "2026-10-08T15:30:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
   }
  },
  "web": {
-  "4760816": 1791438623436
+  "4760816": 1791438623436,
+  "4632659": 1791438662163,
+  "4632664": 1791438659421,
+  "4760812": 1791438656931
  }
 }
