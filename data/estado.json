@@ -29,13 +29,6 @@
    "estado": "pendiente",
    "ultimo": 0
   },
-  "4632663": {
-   "partido": "Palmeiras vs Bahia",
-   "liga": "Brasil, Brasileirão",
-   "inicio": "2026-10-08T19:30:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 0
-  },
   "4632665": {
    "partido": "Fluminense vs Coritiba",
    "liga": "Brasil, Brasileirão",
@@ -49,7 +42,7 @@
   "4632659": 1791438662163,
   "4632664": 1791438659421,
   "4760812": 1791438656931,
-  "4632663": 1791438664080,
+  "4632663": 1791438885770,
   "4632665": 1791438665926
  }
 }
