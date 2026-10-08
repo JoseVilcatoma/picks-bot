@@ -1,7 +1,7 @@
-fecha,game_id,partido,liga,tipo,mercado,clave,prob,cuota,cuota_justa,ev,stake,alineacion,resultado,ganancia
-2026-10-08 12:48,4760816,CD Moquegua vs Cienciano,"Perú, Liga 1 - Clausura",seguro,Más de 3.5 tarjetas,CARDS|3.5|over,0.7834,,1.28,,,si,,
-2026-10-08 12:48,4760816,CD Moquegua vs Cienciano,"Perú, Liga 1 - Clausura",seguro,CD Moquegua recibe gol,CS||local_no,0.7612,1.22,1.31,-0.0713,,si,,
-2026-10-08 12:48,4760816,CD Moquegua vs Cienciano,"Perú, Liga 1 - Clausura",seguro,Menos de 11.5 córners,CORN|11.5|under,0.6968,,1.44,,,si,,
-2026-10-08 12:48,4760816,CD Moquegua vs Cienciano,"Perú, Liga 1 - Clausura",arriesgado,Menos de 1.5 goles,OU|1.5|under,0.2608,3.75,3.83,-0.0219,,si,,
-2026-10-08 12:48,4760816,CD Moquegua vs Cienciano,"Perú, Liga 1 - Clausura",arriesgado,Empate,1X2||X,0.2677,3.60,3.74,-0.0363,,si,,
-2026-10-08 12:48,4760816,CD Moquegua vs Cienciano,"Perú, Liga 1 - Clausura",arriesgado,Marcador exacto 1-1,EXACT||1-1,0.1342,,7.45,,,si,,
+fecha,game_id,partido,liga,tipo,mercado,clave,prob,cuota,casa,cuota_justa,ev,stake,alineacion,resultado,ganancia
+2026-10-08 12:48,4760816,CD Moquegua vs Cienciano,"Perú, Liga 1 - Clausura",seguro,Más de 3.5 tarjetas,CARDS|3.5|over,0.7834,,,1.28,,,si,,
+2026-10-08 12:48,4760816,CD Moquegua vs Cienciano,"Perú, Liga 1 - Clausura",seguro,CD Moquegua recibe gol,CS||local_no,0.7612,1.22,,1.31,-0.0713,,si,,
+2026-10-08 12:48,4760816,CD Moquegua vs Cienciano,"Perú, Liga 1 - Clausura",seguro,Menos de 11.5 córners,CORN|11.5|under,0.6968,,,1.44,,,si,,
+2026-10-08 12:48,4760816,CD Moquegua vs Cienciano,"Perú, Liga 1 - Clausura",arriesgado,Menos de 1.5 goles,OU|1.5|under,0.2608,3.75,,3.83,-0.0219,,si,,
+2026-10-08 12:48,4760816,CD Moquegua vs Cienciano,"Perú, Liga 1 - Clausura",arriesgado,Empate,1X2||X,0.2677,3.60,,3.74,-0.0363,,si,,
+2026-10-08 12:48,4760816,CD Moquegua vs Cienciano,"Perú, Liga 1 - Clausura",arriesgado,Marcador exacto 1-1,EXACT||1-1,0.1342,,,7.45,,,si,,
