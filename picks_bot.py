@@ -9,6 +9,7 @@ Uso:
 import csv
 import html
 import json
+import re
 import os
 import sys
 import time
@@ -80,6 +81,7 @@ def enviar(texto):
 
 
 def guardar_cola():
+    global _cola
     if not _cola:
         return
     try:
@@ -89,6 +91,7 @@ def guardar_cola():
         pend = []
     with open(SALIDA, "w", encoding="utf-8") as f:
         json.dump(pend + _cola, f, ensure_ascii=False)
+    _cola = []
 
 
 def enviar_cola():
@@ -119,7 +122,9 @@ def guardar_estado(e):
     os.makedirs(DIR, exist_ok=True)
     with open(ESTADO, "w", encoding="utf-8") as f:
         json.dump(e, f, ensure_ascii=False, indent=1)
-    pub = {gid: {"partido": s["partido"], "estado": s["estado"]} for gid, s in e["seguidos"].items()}
+    pub = {gid: {"partido": r["partido"], "estado": "rechazado", "motivo": r["motivo"], "t": r["t"]}
+           for gid, r in e.get("rechazados", {}).items()}
+    pub.update({gid: {"partido": s["partido"], "estado": s["estado"]} for gid, s in e["seguidos"].items()})
     with open(SEGUIDOS_PUB, "w", encoding="utf-8") as f:
         json.dump(pub, f, ensure_ascii=False)
 
@@ -166,10 +171,12 @@ def seguir(estado, gid, corto=False):
         return f"Ya sigues ese partido: {esc(estado['seguidos'][gid]['partido'])}"
     g, _ = s365.detalle(gid)
     if not g:
-        return f"No encontré el partido {gid}."
+        return None          # falla temporal de 365Scores: se reintenta en la próxima pasada
     inicio = iso(g["startTime"])
     if inicio < ahora():
-        return "Ese partido ya empezó o terminó."
+        return (f"{esc(g['homeCompetitor']['name'])} vs {esc(g['awayCompetitor']['name'])} ya empezó "
+                f"({inicio:%H:%M}): no se puede analizar. Elige los partidos antes del inicio, "
+                f"idealmente 1 hora antes.")
     partido = f"{g['homeCompetitor']['name']} vs {g['awayCompetitor']['name']}"
     estado["seguidos"][gid] = {
         "partido": partido, "liga": g.get("competitionDisplayName", ""),
@@ -205,9 +212,9 @@ def procesar_comandos(estado):
         cmd = partes[0].split("@")[0].lower()
         arg = partes[1] if len(partes) > 1 else ""
         if cmd == "/start" and arg.startswith("f"):
-            enviar(seguir(estado, arg[1:]))
+            enviar(seguir(estado, arg[1:]) or "No pude leer el partido ahora, intenta de nuevo en unos minutos.")
         elif cmd == "/seguir" and arg.isdigit():
-            enviar(seguir(estado, arg))
+            enviar(seguir(estado, arg) or "No pude leer el partido ahora, intenta de nuevo en unos minutos.")
         elif cmd == "/quitar" and arg in estado["seguidos"]:
             p = estado["seguidos"].pop(arg)
             enviar(f"🗑 Dejaste de seguir {esc(p['partido'])}")
@@ -232,18 +239,35 @@ def sincronizar_seleccion(estado):
         t = d.get("t", 0)
         if hechos.get(gid) == t:
             continue
-        hechos[gid] = t
         if d.get("accion") == "seguir":
             if gid in estado["seguidos"]:
+                hechos[gid] = t
                 continue
             txt = seguir(estado, gid, corto=True)
-            (nuevos if gid in estado["seguidos"] else fallos).append(txt)
+            if txt is None:
+                print(f"[web] no pude leer el partido {gid}: reintento luego")
+                continue
+            hechos[gid] = t
+            if gid in estado["seguidos"]:
+                nuevos.append(txt)
+                estado.get("rechazados", {}).pop(gid, None)
+            else:
+                fallos.append(txt)
+                estado.setdefault("rechazados", {})[gid] = {
+                    "partido": re.sub(r"<[^>]+>", "", txt)[:80], "motivo": re.sub(r"<[^>]+>", "", txt), "t": t}
+        elif d.get("accion") == "quitar" and gid not in estado["seguidos"]:
+            hechos[gid] = t
+            estado.get("rechazados", {}).pop(gid, None)
         elif d.get("accion") == "quitar" and gid in estado["seguidos"]:
+            hechos[gid] = t
             if estado["seguidos"][gid]["estado"] == "pendiente":
                 quitados.append(esc(estado["seguidos"].pop(gid)["partido"]))
     corte = (time.time() - 7 * 86400) * 1000
     for gid in [g for g, t in hechos.items() if t < corte]:
         del hechos[gid]
+    rech = estado.get("rechazados", {})
+    for gid in [g for g, r in rech.items() if r["t"] < corte]:
+        del rech[gid]
     partes = []
     if nuevos:
         partes.append(f"📌 <b>Siguiendo {len(nuevos)} partido(s)</b>\n" + "\n".join(nuevos)
@@ -273,7 +297,7 @@ def texto_resumen():
     if not filas:
         return "Todavía no hay picks liquidados."
     out = ["📈 <b>Paper trading</b>"]
-    for tipo, icono in (("seguro", "🟢"), ("arriesgado", "🔴"), ("apostable", "✅")):
+    for tipo, icono in (("seguro", "🟢"), ("arriesgado", "🔴"), ("modelo", "📐"), ("apostable", "✅")):
         fs = [f for f in filas if f["tipo"] == tipo]
         if not fs:
             continue
@@ -396,6 +420,7 @@ def analizar(gid, g, nombres, modo):
     for c in cands:
         c["casa"] = casa_de.get(c["clave"], "")
     seguros, arriesgados, apostables = M.seleccionar(cands)
+    modelos = M.solo_modelo(cands, {c["clave"] for c in seguros + arriesgados + apostables})
     bloqueados = []
     if viejas and not ext:
         bloqueados = [c for c in apostables if c["casa"] == "Bet365"]
@@ -445,6 +470,9 @@ def analizar(gid, g, nombres, modo):
     lin += [fila(c) for c in seguros] or ["• Ninguno claro"]
     lin.append("\n🔴 <b>ARRIESGADOS</b> (difíciles pero posibles)")
     lin += [fila(c) for c in arriesgados] or ["• Ninguno"]
+    if modelos:
+        lin.append("\n📐 <b>SOLO MODELO</b> (sin cuota de mercado: menos fiables, compara la “justa” en tu casa)")
+        lin += [fila(c) for c in modelos]
     lin.append(f"\n✅ <b>APOSTABLES</b> (EV ≥ {C.EV_MIN:.0%}, cuota ≥ {C.CUOTA_MIN:.2f})")
     if apostables:
         lin += [fila(c, True) for c in apostables]
@@ -465,7 +493,8 @@ def analizar(gid, g, nombres, modo):
 
     filas = []
     fecha = ahora().strftime("%Y-%m-%d %H:%M")
-    for tipo, lista in (("seguro", seguros), ("arriesgado", arriesgados), ("apostable", apostables)):
+    for tipo, lista in (("seguro", seguros), ("arriesgado", arriesgados), ("modelo", modelos),
+                        ("apostable", apostables)):
         for c in lista:
             filas.append({
                 "fecha": fecha, "game_id": gid, "partido": f"{local} vs {visita}",
@@ -625,6 +654,23 @@ if __name__ == "__main__":
         probar(sys.argv[2])
     elif "--enviar" in sys.argv:
         enviar_cola()
+    elif "--vigilar" in sys.argv:
+        # Modo vigilante (GitHub Actions): una pasada cada 2 min durante N minutos.
+        import subprocess
+        minutos = float(sys.argv[sys.argv.index("--vigilar") + 1])
+        COLA = True
+        fin = time.time() + minutos * 60
+        n = 0
+        while time.time() < fin:
+            n += 1
+            subprocess.run("git pull --rebase -q || git rebase --abort", shell=True)
+            try:
+                pasada()
+            except Exception as e:  # noqa: BLE001
+                print("error en pasada:", e)
+            subprocess.run("bash guardar.sh", shell=True)
+            print(f"[vigilante] pasada {n} lista ({ahora():%H:%M})", flush=True)
+            time.sleep(max(0, min(C.PASADA_SEG, fin - time.time())))
     elif "--loop" in sys.argv:
         while True:
             try:

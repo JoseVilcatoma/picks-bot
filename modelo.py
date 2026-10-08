@@ -423,12 +423,13 @@ def seleccionar(cands):
                 break
         return res
 
-    seguros = [c for c in cands if 0.55 <= c["p"] <= 0.88
-               and (c["cuota"] or c["justa"]) >= 1.22 and c["clave"][0] != "EXACT"]
+    # Solo mercados con cuota real: la probabilidad queda anclada al mercado (mucho más fiable)
+    seguros = [c for c in cands if c["cuota"] and 0.55 <= c["p"] <= 0.88
+               and c["cuota"] >= 1.15 and c["clave"][0] != "EXACT"]
     seguros.sort(key=lambda c: -c["p"])
     seguros = uno_por_familia(seguros, 3)
 
-    arr = [c for c in cands if 0.10 <= c["p"] <= 0.40 and (c["ev"] is None or c["ev"] >= -0.06)]
+    arr = [c for c in cands if c["cuota"] and 0.10 <= c["p"] <= 0.40 and c["ev"] >= -0.06]
     arr.sort(key=lambda c: (c["ev"] is None, -(c["ev"] or 0), -c["p"]))
     arriesgados = uno_por_familia(arr, 2)
     if not any(c["clave"][0] == "EXACT" for c in arriesgados):
@@ -447,6 +448,21 @@ def seleccionar(cands):
     seguros = [c for c in seguros if c["clave"] not in ya]
     arriesgados = [c for c in arriesgados if c["clave"] not in ya]
     return seguros, arriesgados, apostables
+
+
+def solo_modelo(cands, usados):
+    """Mercados sin cuota (tarjetas, líneas de córners sin precio…): solo referencia, menos fiables."""
+    lista = [c for c in cands if not c["cuota"] and not c["solo_valor"] and c["clave"][0] != "EXACT"
+             and 0.60 <= c["p"] <= 0.88 and c["clave"] not in usados]
+    lista.sort(key=lambda c: -c["p"])
+    vistos, res = set(), []
+    for c in lista:
+        if c["fam"] not in vistos:
+            vistos.add(c["fam"])
+            res.append(c)
+        if len(res) == 2:
+            break
+    return res
 
 
 # =================================================================
