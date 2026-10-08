@@ -48,6 +48,7 @@ PESO_MODELO = {"resultado": 0.35, "goles": 0.35, "corners": 0.50, "tarjetas": 1.
 # ---------------------------------------------------------------
 VENTANA_MIN = 75             # empieza a buscar alineaciones 75 min antes
 REVISAR_CADA_MIN = 8         # no consultar el mismo partido más seguido que esto
-ENVIAR_SIN_ALINEACION_MIN = 12  # si a 12 min del inicio no hay alineación, envía igual
+ENVIAR_SIN_ALINEACION_MIN = 40  # si a 40 min del inicio 365Scores no confirma, envía con la alineación probable
+                                # (y si luego se confirma distinta, manda una actualización)
 
 ZONA = "America/Lima"
