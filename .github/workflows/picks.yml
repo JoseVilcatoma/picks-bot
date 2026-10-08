@@ -1,0 +1,50 @@
+name: Picks
+
+on:
+  schedule:
+    - cron: "*/5 * * * *"
+  workflow_dispatch:
+    inputs:
+      probar:
+        description: "ID de partido para una prueba (vacío = pasada normal)"
+        required: false
+        default: ""
+
+permissions:
+  contents: write
+
+concurrency:
+  group: picks
+  cancel-in-progress: false
+
+jobs:
+  bot:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - name: Ejecutar bot
+        env:
+          TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          BANCA: ${{ vars.BANCA }}
+          PAGINA_URL: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/
+        run: |
+          if [ -n "${{ github.event.inputs.probar }}" ]; then
+            python picks_bot.py --probar "${{ github.event.inputs.probar }}"
+          else
+            python picks_bot.py
+          fi
+      - name: Guardar estado
+        run: |
+          git config user.name "picks-bot"
+          git config user.email "picks-bot@users.noreply.github.com"
+          git add data
+          if ! git diff --cached --quiet; then
+            git commit -m "estado del bot" -q
+            git pull --rebase -q && git push -q
+          fi
