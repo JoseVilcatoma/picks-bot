@@ -1,4 +1,15 @@
 {
- "offset": 0,
- "seguidos": {}
+ "offset": 344577776,
+ "seguidos": {
+  "4760816": {
+   "partido": "CD Moquegua vs Cienciano",
+   "liga": "Perú, Liga 1 - Clausura",
+   "inicio": "2026-10-08T13:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  }
+ },
+ "web": {
+  "4760816": 1791438623436
+ }
 }
