@@ -1,48 +1,12 @@
 {
  "offset": 344577777,
- "seguidos": {
-  "4760816": {
-   "partido": "CD Moquegua vs Cienciano",
-   "liga": "Perú, Liga 1 - Clausura",
-   "inicio": "2026-10-08T13:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 0
-  },
-  "4632659": {
-   "partido": "Athletico Paranaense vs Atlético Mineiro",
-   "liga": "Brasil, Brasileirão",
-   "inicio": "2026-10-08T18:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 0
-  },
-  "4632664": {
-   "partido": "Santos vs Flamengo",
-   "liga": "Brasil, Brasileirão",
-   "inicio": "2026-10-08T17:30:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 0
-  },
-  "4760812": {
-   "partido": "Grau vs Los Chankas",
-   "liga": "Perú, Liga 1 - Clausura",
-   "inicio": "2026-10-08T15:30:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 0
-  },
-  "4632665": {
-   "partido": "Fluminense vs Coritiba",
-   "liga": "Brasil, Brasileirão",
-   "inicio": "2026-10-08T19:30:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 0
-  }
- },
+ "seguidos": {},
  "web": {
-  "4760816": 1791438623436,
-  "4632659": 1791438662163,
-  "4632664": 1791438659421,
-  "4760812": 1791438656931,
+  "4760816": 1791438898167,
+  "4632659": 1791438891521,
+  "4632664": 1791438893218,
+  "4760812": 1791438895009,
   "4632663": 1791438885770,
-  "4632665": 1791438665926
+  "4632665": 1791438889405
  }
 }
