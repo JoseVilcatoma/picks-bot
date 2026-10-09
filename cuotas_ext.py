@@ -177,8 +177,8 @@ def obtener(gid, g, nombres_en=None):
         for mk in bk.get("markets", []):
             for o in mk.get("outcomes", []):
                 if mk["key"] == "totals":
-                    if o.get("point") is None:
-                        continue
+                    if o.get("point") is None or abs(float(o["point"]) % 1 - 0.5) > 1e-6:
+                        continue   # solo líneas .5 (las .25/.75/enteras tienen devolución parcial)
                     clave = ("OU", float(o["point"]), "over" if o["name"].lower() == "over" else "under")
                     grupo = ("OU", float(o["point"]))
                 else:

@@ -74,6 +74,34 @@ def goles_esperados(res_local, res_visita, id_local, id_visita):
     return lh, la, len(gfl), len(gfv)
 
 
+def lambdas_mercado(mercado):
+    """Goles esperados (local, visita) que implican las cuotas sin margen: 1X2 y, si hay, más/menos 2.5.
+    Devuelve None si no hay 1X2."""
+    p1 = (mercado.get(("1X2", None, "1")) or (None, None))[1]
+    p2 = (mercado.get(("1X2", None, "2")) or (None, None))[1]
+    if p1 is None or p2 is None:
+        return None
+    po = (mercado.get(("OU", 2.5, "over")) or (None, None))[1]
+
+    def error(lh, la):
+        m = matriz(lh, la, n=9)
+        e = (suma(m, lambda i, j: i > j) - p1) ** 2 + (suma(m, lambda i, j: i < j) - p2) ** 2
+        if po is not None:
+            e += (suma(m, lambda i, j: i + j > 2.5) - po) ** 2
+        else:  # sin línea de goles: anclar el total a un promedio típico
+            e += 0.02 * ((lh + la) - 2.6) ** 2
+        return e
+
+    mejor = min(((error(x / 10, y / 10), x / 10, y / 10) for x in range(2, 41, 2) for y in range(2, 41, 2)))
+    _, bh, ba = mejor
+    for paso in (0.05, 0.02, 0.01):
+        rango = [k * paso for k in range(-4, 5)]
+        mejor = min(((error(max(0.05, bh + dx), max(0.05, ba + dy)), max(0.05, bh + dx), max(0.05, ba + dy))
+                     for dx in rango for dy in rango))
+        _, bh, ba = mejor
+    return bh, ba
+
+
 FRAC_C1T = 0.46   # si no hay datos del 1T, ~46% de los córners caen en el 1er tiempo
 
 
@@ -219,7 +247,7 @@ def leer_cuotas(lineas, local="", visita=""):
                 clave = ("1X2", None, nombre if nombre in ("1", "X", "2") else sel)
             elif lt == 14:
                 clave = ("DC", None, nombre)
-            elif lt == 3 and val is not None:
+            elif lt == 3 and val is not None and abs(val % 1 - 0.5) < 1e-6:
                 clave = ("OU", val, sel)
             elif lt == 12:
                 clave = ("BTTS", None, sel)
@@ -239,7 +267,8 @@ def leer_cuotas(lineas, local="", visita=""):
             elif lt == 145:
                 clave = ("CS", None, "visita_" + sel)
             if clave:
-                out[clave] = (dec, (1 / dec) / imp)
+                total = 2.0 if lt == 14 else 1.0   # doble oportunidad: las 3 opciones suman 200%
+                out[clave] = (dec, min(0.99, (1 / dec) / imp * total))
     return out
 
 
@@ -365,8 +394,8 @@ def candidatos(lh, la, esp, mercado, local, visita, base=None):
     claves |= {("BTTS", None, "si"), ("BTTS", None, "no")}
     claves |= {("CS", None, "local_si"), ("CS", None, "visita_si")}
     if mu_c:
-        base = math.floor(mu_c) + 0.5
-        for l in (base - 2, base - 1, base, base + 1, base + 2):
+        lc = math.floor(mu_c) + 0.5
+        for l in (lc - 2, lc - 1, lc, lc + 1, lc + 2):
             if l > 0:
                 claves |= {("CORN", l, "over"), ("CORN", l, "under")}
     if mu_k:

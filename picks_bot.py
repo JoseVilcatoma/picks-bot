@@ -394,10 +394,12 @@ def analizar(gid, g, nombres, modo):
         lh = (1 - C.PESO_REMATES) * lh + C.PESO_REMATES * lh_s
         la = (1 - C.PESO_REMATES) * la + C.PESO_REMATES * la_s
     # Altura (Liga 1 Perú): el visitante de llano rinde menos
-    if criterios.en_altura(local) and not criterios.en_altura(visita):
+    altura = criterios.en_altura(local) and not criterios.en_altura(visita)
+    if altura:
         lh *= 1.08
         la *= 0.85
-    lh0, la0 = lh, la
+    lh_forma, la_forma = lh, la
+    f_h = f_a = 1.0          # factores de la alineación (se aplican sobre la base final)
 
     notas = []
     conf_l, form_l, xi_l, _ = s365.alineacion(h)
@@ -407,8 +409,8 @@ def analizar(gid, g, nombres, modo):
         resum_v = [s365.resumen_partido(x[0]) for x in res_v[:5]]
         fa_l, fr_l, inf_l = M.ajuste_alineacion(h["id"], xi_l, resum_l, nombres)
         fa_v, fr_v, inf_v = M.ajuste_alineacion(a["id"], xi_v, resum_v, nombres)
-        lh *= fa_l * fr_v
-        la *= fa_v * fr_l
+        f_h = fa_l * fr_v
+        f_a = fa_v * fr_l
         for eq, inf in ((local, inf_l), (visita, inf_v)):
             if inf["faltan"]:
                 notas.append(f"⚠️ {esc(eq)} sin: " + ", ".join(esc(x) for x in inf["faltan"][:4]))
@@ -436,6 +438,15 @@ def analizar(gid, g, nombres, modo):
             if v["ref"] == "Pinnacle" and ev_c >= C.VALOR_CASAS_MIN and v["justa_p"] >= 0.15:
                 valor_casas.append((ev_c, k, precio, casa, 1 / v["justa_p"]))
         valor_casas.sort(reverse=True)
+    # Base = lo que implica el mercado (75%) + forma/remates (25%); si no hay 1X2, solo forma
+    lam_m = M.lambdas_mercado(mercado)
+    if lam_m:
+        pf = C.PESO_FORMA
+        lh0 = lam_m[0] ** (1 - pf) * lh_forma ** pf
+        la0 = lam_m[1] ** (1 - pf) * la_forma ** pf
+    else:
+        lh0, la0 = lh_forma, la_forma
+    lh, la = lh0 * f_h, la0 * f_a
     base = (lh0, la0) if con_alineacion and (abs(lh / lh0 - 1) >= 0.02 or abs(la / la0 - 1) >= 0.02) else None
     cands, _ = M.candidatos(lh, la, esp, mercado, local, visita, base=base)
     impacto = (lh / lh0 - 1, la / la0 - 1) if con_alineacion else None
@@ -484,6 +495,8 @@ def analizar(gid, g, nombres, modo):
     lin += [esc(x) for x in crit_lin if not x.startswith("• Forma")]
     lin.append(criterios.lectura(señales, esc(local), esc(visita)))
     lin.append(f"📊 Goles esperados {lh:.2f} – {la:.2f}" + (" · " + " · ".join(extra) if extra else ""))
+    if lam_m:
+        lin.append(f"   <i>(mercado {lam_m[0]:.2f}–{lam_m[1]:.2f} · forma/remates {lh_forma:.2f}–{la_forma:.2f})</i>")
     if con_alineacion:
         if base:
             def cambio(x0, x1):

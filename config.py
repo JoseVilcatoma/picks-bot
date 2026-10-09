@@ -42,7 +42,8 @@ STAKE_MAX = 0.03             # nunca más del 3% de la banca en un pick
 
 # Cuánto pesa el modelo frente al mercado (el resto es la cuota de Bet365 sin margen).
 # Tu backtest mostró que el mercado predice mejor: por eso el modelo pesa poco.
-PESO_MODELO = {"resultado": 0.35, "goles": 0.35, "corners": 0.50, "tarjetas": 1.0}
+PESO_MODELO = {"resultado": 0.50, "goles": 0.50, "corners": 0.50, "tarjetas": 1.0}
+PESO_FORMA = 0.25            # goles esperados = 75% lo que implica el mercado + 25% forma/remates
 AJUSTE_ALINEACION = 0.8      # cuánto del efecto de la alineación se aplica también a la prob. del mercado
 ARR_PROB = (0.25, 0.45)      # arriesgados: rango de probabilidad
 ARR_CUOTA = (2.00, 4.00)     # arriesgados: rango de cuota
