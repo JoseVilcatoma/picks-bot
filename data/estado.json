@@ -64,13 +64,6 @@
    "inicio": "2026-10-09T20:00:00-05:00",
    "estado": "pendiente",
    "ultimo": 0
-  },
-  "4873352": {
-   "partido": "Central Coast Mariners vs Apia Leichhardt Tigers",
-   "liga": "Internacional, Partido Amistoso",
-   "inicio": "2026-10-09T19:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 0
   }
  },
  "web": {
@@ -85,6 +78,6 @@
   "4750835": 1791520423983,
   "4755389": 1791520422931,
   "4760815": 1791520425017,
-  "4873352": 1791520424466
+  "4873352": 1791522314206
  }
 }
