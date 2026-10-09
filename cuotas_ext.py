@@ -34,6 +34,7 @@ LIGAS = {
     102: "soccer_conmebol_copa_libertadores",
     389: "soccer_conmebol_copa_sudamericana",
     113: "soccer_brazil_campeonato",
+    73: "soccer_portugal_primeira_liga",
 }
 
 

@@ -19,6 +19,7 @@ from zoneinfo import ZoneInfo
 import requests
 
 import config as C
+import criterios
 import cuotas_ext
 import modelo as M
 import s365
@@ -336,6 +337,8 @@ def stats_recientes(team_id, resultados, n=5):
                     d["c1"], d["c1_contra"] = s1[team_id]["c"], s1[rival]["c"]
             if "y" in yo:
                 d["k"] = yo["y"] + yo.get("r", 0)
+            if "s" in yo and "s" in el:
+                d["s"], d["s_contra"] = yo["s"], el["s"]
             lista.append(d)
     return lista
 
@@ -378,6 +381,22 @@ def analizar(gid, g, nombres, modo):
     res_l = s365.resultados_equipo(h["id"])
     res_v = s365.resultados_equipo(a["id"])
     lh, la, nl, nv = M.goles_esperados(res_l, res_v, h["id"], a["id"])
+    st_l, st_v = stats_recientes(h["id"], res_l), stats_recientes(a["id"], res_v)
+
+    # Remates a puerta: medida más estable que los goles → se mezcla con los goles esperados
+    def prom(lista, campo):
+        v = [x[campo] for x in lista if campo in x]
+        return sum(v) / len(v) if len(v) >= 3 else None
+    sl, slc, sv, svc = prom(st_l, "s"), prom(st_l, "s_contra"), prom(st_v, "s"), prom(st_v, "s_contra")
+    if None not in (sl, slc, sv, svc):
+        lh_s = (sl + svc) / 2 * C.GOLES_POR_REMATE * M.HA ** 0.5
+        la_s = (sv + slc) / 2 * C.GOLES_POR_REMATE / M.HA ** 0.5
+        lh = (1 - C.PESO_REMATES) * lh + C.PESO_REMATES * lh_s
+        la = (1 - C.PESO_REMATES) * la + C.PESO_REMATES * la_s
+    # Altura (Liga 1 Perú): el visitante de llano rinde menos
+    if criterios.en_altura(local) and not criterios.en_altura(visita):
+        lh *= 1.08
+        la *= 0.85
     lh0, la0 = lh, la
 
     notas = []
@@ -396,7 +415,7 @@ def analizar(gid, g, nombres, modo):
             if inf["cambios"] >= 5:
                 notas.append(f"🔄 {esc(eq)}: {inf['cambios']} cambios vs su último partido")
 
-    esp = M.corners_tarjetas(stats_recientes(h["id"], res_l), stats_recientes(a["id"], res_v))
+    esp = M.corners_tarjetas(st_l, st_v)
     mu_c, mu_k = esp["total"], esp["tarjetas"]
     lineas = s365.cuotas(gid)
     mercado = M.leer_cuotas(lineas, local, visita)
@@ -419,8 +438,11 @@ def analizar(gid, g, nombres, modo):
         valor_casas.sort(reverse=True)
     base = (lh0, la0) if con_alineacion and (abs(lh / lh0 - 1) >= 0.02 or abs(la / la0 - 1) >= 0.02) else None
     cands, _ = M.candidatos(lh, la, esp, mercado, local, visita, base=base)
+    impacto = (lh / lh0 - 1, la / la0 - 1) if con_alineacion else None
+    crit_lin, señales = criterios.evaluar(g, gid, res_l, res_v, st_l, st_v, lineas, impacto)
     for c in cands:
         c["casa"] = casa_de.get(c["clave"], "")
+        c["respaldo"] = criterios.respaldo(c["clave"], señales)
     seguros, arriesgados, apostables = M.seleccionar(cands)
     modelos = M.solo_modelo(cands, {c["clave"] for c in seguros + arriesgados + apostables})
     bloqueados = []
@@ -456,8 +478,11 @@ def analizar(gid, g, nombres, modo):
             return "sin datos"
         return (f"{'-'.join(letras[:5])} · {sum(gf)/len(gf):.1f} goles a favor / "
                 f"{sum(gc)/len(gc):.1f} en contra (últ. {len(gf)})")
+    lin.append("\n🔎 <b>ANÁLISIS</b>")
     lin.append(f"📈 {esc(local)}: {forma(res_l, h['id'])}")
     lin.append(f"📈 {esc(visita)}: {forma(res_v, a['id'])}")
+    lin += [esc(x) for x in crit_lin if not x.startswith("• Forma")]
+    lin.append(criterios.lectura(señales, esc(local), esc(visita)))
     lin.append(f"📊 Goles esperados {lh:.2f} – {la:.2f}" + (" · " + " · ".join(extra) if extra else ""))
     if con_alineacion:
         if base:
@@ -489,6 +514,9 @@ def analizar(gid, g, nombres, modo):
             casa = f" ({esc(c['casa'])})" if c.get("casa") else ""
             t += f" · cuota {c['cuota']:.2f}{casa} · EV {c['ev']:+.0%}"
         t += f" · justa {c['justa']:.2f}"
+        r = c.get("respaldo")
+        if r and (r[0] or r[1]):
+            t += f" · respaldo ✔{r[0]} ✖{r[1]}"
         if con_stake:
             t += f" · stake S/ {c['stake']:.2f}"
         return t
@@ -509,6 +537,11 @@ def analizar(gid, g, nombres, modo):
                                                       for c in bloqueados) + ")")
     else:
         lin.append("• Ninguno: el mercado no deja valor aquí. No apostar también es una decisión.")
+    contra = [c for c in cands if M.contradicho(c) and not c.get("discrepa") and c["cuota"]
+              and c["ev"] is not None and c["ev"] >= C.EV_MIN and c["cuota"] >= C.CUOTA_MIN and c["p"] >= 0.20]
+    if contra:
+        lin.append("⚠️ <i>Con valor pero descartados porque la mayoría de criterios van en contra: "
+                   + ", ".join(esc(c["texto"]) for c in sorted(contra, key=lambda c: -c["ev"])[:3]) + "</i>")
     dudosos = [c for c in cands if c.get("discrepa") and c["cuota"] and c["ev"] is not None
                and c["ev"] >= C.EV_MIN and c["cuota"] >= C.CUOTA_MIN]
     if dudosos:

@@ -422,6 +422,12 @@ def stake(c):
     return round(s * 2) / 2
 
 
+def contradicho(c):
+    """La mayoría de los criterios del análisis van en contra de este pick."""
+    r = c.get("respaldo")
+    return bool(r) and r[1] > r[0]
+
+
 def seleccionar(cands):
     todos = cands
     cands = [c for c in todos if not c["solo_valor"]]
@@ -438,13 +444,14 @@ def seleccionar(cands):
 
     # Solo mercados con cuota real: la probabilidad queda anclada al mercado (mucho más fiable)
     seguros = [c for c in cands if c["cuota"] and 0.55 <= c["p"] <= 0.88
-               and c["cuota"] >= 1.15 and c["clave"][0] != "EXACT"]
+               and c["cuota"] >= 1.15 and c["clave"][0] != "EXACT" and not contradicho(c)]
     seguros.sort(key=lambda c: -c["p"])
     seguros = uno_por_familia(seguros, 3)
 
     # Arriesgados realistas: 25–45 % de probabilidad, cuota 2.00–4.00, los más probables primero
     arr = [c for c in cands if c["cuota"] and C.ARR_PROB[0] <= c["p"] <= C.ARR_PROB[1]
-           and C.ARR_CUOTA[0] <= c["cuota"] <= C.ARR_CUOTA[1] and c["ev"] >= -0.10]
+           and C.ARR_CUOTA[0] <= c["cuota"] <= C.ARR_CUOTA[1] and c["ev"] >= -0.10
+           and not contradicho(c)]
     arr.sort(key=lambda c: -c["p"])
     arriesgados = uno_por_familia(arr, 2)
 
@@ -457,7 +464,8 @@ def seleccionar(cands):
     for c in todos:
         c["discrepa"] = discrepa(c)
     ap = [c for c in todos if c["cuota"] and c["cuota"] >= C.CUOTA_MIN and c["ev"] is not None
-          and c["ev"] >= C.EV_MIN and c["p"] >= 0.20 and c["clave"][0] != "DNB" and not c["discrepa"]]
+          and c["ev"] >= C.EV_MIN and c["p"] >= 0.20 and c["clave"][0] != "DNB" and not c["discrepa"]
+          and not contradicho(c)]
     ap.sort(key=lambda c: -c["ev"])
     apostables = uno_por_familia(ap, C.MAX_APOSTABLES)
     for c in apostables:

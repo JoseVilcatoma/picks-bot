@@ -115,7 +115,7 @@ def stats_partido(game_id, primer_tiempo=False):
     """{competitorId: {'c': córners, 'y': amarillas, 'r': rojas}} (cacheado).
     primer_tiempo=True devuelve solo el 1er tiempo (filterId=6)."""
     c = _c()
-    k = f"st{'1t' if primer_tiempo else ''}:{game_id}"
+    k = f"st2{'1t' if primer_tiempo else ''}:{game_id}"
     if k in c:
         return {int(x): v for x, v in c[k]["d"].items()}
     if primer_tiempo:
@@ -135,6 +135,8 @@ def stats_partido(game_id, primer_tiempo=False):
             campo = "y"
         elif s.get("id") == 2 or "roja" in nombre:
             campo = "r"
+        elif "remates a puerta" in nombre or "tiros a puerta" in nombre:
+            campo = "s"
         if campo and cid is not None:
             v = _num(s.get("value"))
             if v is not None:

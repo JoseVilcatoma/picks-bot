@@ -17,6 +17,7 @@ LIGAS = {
     389: ("Copa Sudamericana", "Sudamérica"),
     583: ("Liga 1 Perú", "Perú"),
     113: ("Brasileirão Serie A", "Sudamérica"),
+    73: ("Primeira Liga Portugal", "Europa"),
 }
 
 # Selecciones: se detectan por nombre de la competición
@@ -46,6 +47,8 @@ AJUSTE_ALINEACION = 0.8      # cuánto del efecto de la alineación se aplica ta
 ARR_PROB = (0.25, 0.45)      # arriesgados: rango de probabilidad
 ARR_CUOTA = (2.00, 4.00)     # arriesgados: rango de cuota
 DISCREPANCIA_MAX = 0.12      # si el modelo se aleja >12 puntos del mercado, no se marca como apostable
+PESO_REMATES = 0.30          # cuánto pesan los remates a puerta (vs. goles) en los goles esperados
+GOLES_POR_REMATE = 0.32      # conversión media remate a puerta → gol
 
 # ---------------------------------------------------------------
 # TIEMPOS
