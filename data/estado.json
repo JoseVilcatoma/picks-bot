@@ -1,5 +1,5 @@
 {
- "offset": 344577780,
+ "offset": 344577782,
  "seguidos": {
   "4632663": {
    "partido": "Palmeiras vs Bahia",
@@ -36,48 +36,6 @@
    "ultimo": 1791501215.2410092,
    "xi": "478774,1858727,2547425,3123514,3218403,7495947,14703780,50978322,60986868,66107234,72468725|615398,3182404,5774594,13093514,14049021,47420072,52923300,54842240,56700220,59045608,67977218",
    "conf": true
-  },
-  "4735252": {
-   "partido": "Lens vs Lyon",
-   "liga": "Francia, Ligue 1",
-   "inicio": "2026-10-09T13:45:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 0
-  },
-  "4750835": {
-   "partido": "Málaga CF vs RCD Espanyol",
-   "liga": "España, LaLiga",
-   "inicio": "2026-10-09T14:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 0
-  },
-  "4755389": {
-   "partido": "Borussia Dortmund vs Werder Bremen",
-   "liga": "Alemania, Bundesliga",
-   "inicio": "2026-10-09T13:30:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 0
-  },
-  "4760815": {
-   "partido": "Deportivo Garcilaso vs Sport Huancayo",
-   "liga": "Perú, Liga 1 - Clausura",
-   "inicio": "2026-10-09T20:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 0
-  },
-  "4757171": {
-   "partido": "SC Braga vs Sporting CP",
-   "liga": "Portugal, Primeira Liga",
-   "inicio": "2026-10-09T14:15:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 0
-  },
-  "4757175": {
-   "partido": "Moreirense vs Gil Vicente FC",
-   "liga": "Portugal, Primeira Liga",
-   "inicio": "2026-10-09T12:45:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 0
   }
  },
  "web": {
@@ -88,12 +46,12 @@
   "4632663": 1791440256993,
   "4632665": 1791440257334,
   "4732688": 1791470296150,
-  "4735252": 1791520423425,
-  "4750835": 1791520423983,
-  "4755389": 1791520422931,
-  "4760815": 1791520425017,
+  "4735252": 1791554573400,
+  "4750835": 1791554573746,
+  "4755389": 1791554571873,
+  "4760815": 1791554574661,
   "4873352": 1791522314206,
-  "4757171": 1791554193873,
-  "4757175": 1791554193368
+  "4757171": 1791554570740,
+  "4757175": 1791554570485
  }
 }
