@@ -64,6 +64,20 @@
    "inicio": "2026-10-09T20:00:00-05:00",
    "estado": "pendiente",
    "ultimo": 0
+  },
+  "4757171": {
+   "partido": "SC Braga vs Sporting CP",
+   "liga": "Portugal, Primeira Liga",
+   "inicio": "2026-10-09T14:15:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4757175": {
+   "partido": "Moreirense vs Gil Vicente FC",
+   "liga": "Portugal, Primeira Liga",
+   "inicio": "2026-10-09T12:45:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
   }
  },
  "web": {
@@ -78,6 +92,8 @@
   "4750835": 1791520423983,
   "4755389": 1791520422931,
   "4760815": 1791520425017,
-  "4873352": 1791522314206
+  "4873352": 1791522314206,
+  "4757171": 1791554193873,
+  "4757175": 1791554193368
  }
 }
