@@ -144,10 +144,12 @@ def ajuste_alineacion(team_id, xi_hoy, resumenes, nombres_hoy):
         elif pos.get(pid) in ("Portero", "Defensa"):
             etiqueta += f" ({pos.get(pid).lower()})"
         notas.append(etiqueta)
-        if pos.get(pid) in ("Portero", "Defensa"):
+        if pos.get(pid) == "Portero":
+            f_riv += 0.06
+        elif pos.get(pid) == "Defensa":
             f_riv += 0.03
     f_atk -= min(0.25, 0.6 * perdida)
-    f_riv = min(f_riv, 1.12)
+    f_riv = min(f_riv, 1.15)
 
     ultimo = {str(x) for x in partidos[0]["xi"]}
     cambios = len(hoy - ultimo) if ultimo else 0
@@ -340,10 +342,15 @@ def prob_modelo(clave, m, m1t, esp):
 # =================================================================
 # Candidatos y selección
 # =================================================================
-def candidatos(lh, la, esp, mercado, local, visita):
+def candidatos(lh, la, esp, mercado, local, visita, base=None):
+    """base = (lh0, la0) goles esperados SIN alineación. La diferencia que causa la alineación
+    se aplica también sobre la probabilidad del mercado (que suele ser previa a las alineaciones)."""
     mu_c, mu_k = esp["total"], esp["tarjetas"]
     m = matriz(lh, la)
     m1t = matriz(lh * FRAC_1T, la * FRAC_1T, rho=0)
+    if base:
+        m0 = matriz(*base)
+        m0_1t = matriz(base[0] * FRAC_1T, base[1] * FRAC_1T, rho=0)
     pe = suma(m, lambda i, j: i == j)
 
     claves = set(mercado.keys())
@@ -365,9 +372,6 @@ def candidatos(lh, la, esp, mercado, local, visita):
     if mu_k:
         for l in (2.5, 3.5, 4.5, 5.5, 6.5):
             claves |= {("CARDS", l, "over"), ("CARDS", l, "under")}
-    exactos = sorted(((m[i][j], f"{i}-{j}") for i in range(6) for j in range(6)), reverse=True)[:3]
-    for _, s in exactos:
-        claves.add(("EXACT", None, s))
 
     out = []
     for clave in claves:
@@ -381,7 +385,15 @@ def candidatos(lh, la, esp, mercado, local, visita):
         if clave[0] in SOLO_CON_VALOR and not cuota:
             continue
         w = C.PESO_MODELO[fam]
-        p = w * pm + (1 - w) * pmk if pmk is not None else pm
+        delta = 0.0
+        if base and fam in ("resultado", "goles"):
+            pm0 = prob_modelo(clave, m0, m0_1t, esp)
+            delta = (pm - pm0) if pm0 is not None else 0.0
+        if pmk is not None:
+            pmk_aj = min(max(pmk + C.AJUSTE_ALINEACION * delta, 0.01), 0.99)
+            p = w * pm + (1 - w) * pmk_aj
+        else:
+            p = pm
         p = min(max(p, 0.001), 0.999)
         if clave[0] == "DNB":
             # p es condicionada a que no haya empate; EV con devolución en empate
@@ -394,6 +406,7 @@ def candidatos(lh, la, esp, mercado, local, visita):
             justa = 1 / p
         out.append({"clave": clave, "fam": fam, "p": p_show, "p_kelly": p, "cuota": cuota,
                     "justa": justa, "ev": ev, "solo_modelo": pmk is None,
+                    "p_mercado": pmk, "p_modelo": pm, "delta": delta,
                     "solo_valor": clave[0] in SOLO_CON_VALOR,
                     "texto": texto_mercado(clave, local, visita)})
     return out, m
@@ -429,16 +442,22 @@ def seleccionar(cands):
     seguros.sort(key=lambda c: -c["p"])
     seguros = uno_por_familia(seguros, 3)
 
-    arr = [c for c in cands if c["cuota"] and 0.10 <= c["p"] <= 0.40 and c["ev"] >= -0.06]
-    arr.sort(key=lambda c: (c["ev"] is None, -(c["ev"] or 0), -c["p"]))
+    # Arriesgados realistas: 25–45 % de probabilidad, cuota 2.00–4.00, los más probables primero
+    arr = [c for c in cands if c["cuota"] and C.ARR_PROB[0] <= c["p"] <= C.ARR_PROB[1]
+           and C.ARR_CUOTA[0] <= c["cuota"] <= C.ARR_CUOTA[1] and c["ev"] >= -0.10]
+    arr.sort(key=lambda c: -c["p"])
     arriesgados = uno_por_familia(arr, 2)
-    if not any(c["clave"][0] == "EXACT" for c in arriesgados):
-        ex = max((c for c in cands if c["clave"][0] == "EXACT"), key=lambda c: c["p"], default=None)
-        if ex:
-            arriesgados.append(ex)
 
+    def discrepa(c):
+        """El modelo se aleja demasiado del mercado (sin que la alineación lo explique): no confiar."""
+        if c.get("p_mercado") is None:
+            return False
+        ref = c["p_mercado"] + C.AJUSTE_ALINEACION * (c.get("delta") or 0)
+        return abs(c["p_modelo"] - ref) > C.DISCREPANCIA_MAX
+    for c in todos:
+        c["discrepa"] = discrepa(c)
     ap = [c for c in todos if c["cuota"] and c["cuota"] >= C.CUOTA_MIN and c["ev"] is not None
-          and c["ev"] >= C.EV_MIN and c["p"] >= 0.20 and c["clave"][0] != "DNB"]
+          and c["ev"] >= C.EV_MIN and c["p"] >= 0.20 and c["clave"][0] != "DNB" and not c["discrepa"]]
     ap.sort(key=lambda c: -c["ev"])
     apostables = uno_por_familia(ap, C.MAX_APOSTABLES)
     for c in apostables:

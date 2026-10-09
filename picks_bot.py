@@ -378,6 +378,7 @@ def analizar(gid, g, nombres, modo):
     res_l = s365.resultados_equipo(h["id"])
     res_v = s365.resultados_equipo(a["id"])
     lh, la, nl, nv = M.goles_esperados(res_l, res_v, h["id"], a["id"])
+    lh0, la0 = lh, la
 
     notas = []
     conf_l, form_l, xi_l, _ = s365.alineacion(h)
@@ -416,7 +417,8 @@ def analizar(gid, g, nombres, modo):
             if v["ref"] == "Pinnacle" and ev_c >= C.VALOR_CASAS_MIN and v["justa_p"] >= 0.15:
                 valor_casas.append((ev_c, k, precio, casa, 1 / v["justa_p"]))
         valor_casas.sort(reverse=True)
-    cands, _ = M.candidatos(lh, la, esp, mercado, local, visita)
+    base = (lh0, la0) if con_alineacion and (abs(lh / lh0 - 1) >= 0.02 or abs(la / la0 - 1) >= 0.02) else None
+    cands, _ = M.candidatos(lh, la, esp, mercado, local, visita, base=base)
     for c in cands:
         c["casa"] = casa_de.get(c["clave"], "")
     seguros, arriesgados, apostables = M.seleccionar(cands)
@@ -442,7 +444,29 @@ def analizar(gid, g, nombres, modo):
         extra.append(f"Córners {mu_c:.1f}" + (f" ({esp['local']:.1f}-{esp['visita']:.1f})" if esp["local"] else ""))
     if mu_k:
         extra.append(f"Tarjetas {mu_k:.1f}")
+    def forma(res, tid):
+        letras, gf, gc = [], [], []
+        for _, _, hid, aid, sh, sa in res:
+            if sh is None or sa is None or sh < 0:
+                continue
+            a_favor, en_contra = (sh, sa) if hid == tid else (sa, sh)
+            gf.append(a_favor); gc.append(en_contra)
+            letras.append("G" if a_favor > en_contra else "E" if a_favor == en_contra else "P")
+        if not gf:
+            return "sin datos"
+        return (f"{'-'.join(letras[:5])} · {sum(gf)/len(gf):.1f} goles a favor / "
+                f"{sum(gc)/len(gc):.1f} en contra (últ. {len(gf)})")
+    lin.append(f"📈 {esc(local)}: {forma(res_l, h['id'])}")
+    lin.append(f"📈 {esc(visita)}: {forma(res_v, a['id'])}")
     lin.append(f"📊 Goles esperados {lh:.2f} – {la:.2f}" + (" · " + " · ".join(extra) if extra else ""))
+    if con_alineacion:
+        if base:
+            def cambio(x0, x1):
+                return f"{x0:.2f}→{x1:.2f} ({(x1 / x0 - 1):+.0%})"
+            lin.append(f"🧩 <b>Impacto de la alineación</b>: {esc(local)} {cambio(lh0, lh)} · "
+                       f"{esc(visita)} {cambio(la0, la)}")
+        else:
+            lin.append("🧩 Alineaciones habituales: sin impacto relevante en el análisis")
     if min(nl, nv) < 5:
         lin.append("ℹ️ Pocos partidos recientes de algún equipo: el modelo es menos confiable.")
     if ext:
@@ -458,6 +482,9 @@ def analizar(gid, g, nombres, modo):
 
     def fila(c, con_stake=False):
         t = f"• {esc(c['texto'])} — <b>{c['p']:.0%}</b>"
+        if c.get("p_mercado") is not None:
+            extra_al = f" · alineación {c['delta']:+.0%}" if abs(c.get("delta") or 0) >= 0.015 else ""
+            t += f" <i>(mercado {c['p_mercado']:.0%} · modelo {c['p_modelo']:.0%}{extra_al})</i>"
         if c["cuota"]:
             casa = f" ({esc(c['casa'])})" if c.get("casa") else ""
             t += f" · cuota {c['cuota']:.2f}{casa} · EV {c['ev']:+.0%}"
@@ -482,6 +509,11 @@ def analizar(gid, g, nombres, modo):
                                                       for c in bloqueados) + ")")
     else:
         lin.append("• Ninguno: el mercado no deja valor aquí. No apostar también es una decisión.")
+    dudosos = [c for c in cands if c.get("discrepa") and c["cuota"] and c["ev"] is not None
+               and c["ev"] >= C.EV_MIN and c["cuota"] >= C.CUOTA_MIN]
+    if dudosos:
+        lin.append("⚠️ <i>Descartados por discrepar mucho del mercado (el modelo puede estar equivocado): "
+                   + ", ".join(esc(c["texto"]) for c in sorted(dudosos, key=lambda c: -c["ev"])[:3]) + "</i>")
     if valor_casas:
         lin.append("\n💎 <b>VALOR ENTRE CASAS</b> (mejor cuota vs. Pinnacle sin margen)")
         for ev_c, k, precio, casa, justa in valor_casas[:3]:
