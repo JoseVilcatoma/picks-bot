@@ -41,8 +41,10 @@
    "partido": "Lens vs Lyon",
    "liga": "Francia, Ligue 1",
    "inicio": "2026-10-09T13:45:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1791568561.6769915
+   "estado": "enviado",
+   "ultimo": 1791568806.6064856,
+   "xi": "277482,489159,490031,533996,668926,3049963,3590178,61793607,66384998,70953326,70953336|403672,844534,3071299,12759586,42213317,54261156,55658592,60972902,62195479,66430617,75259442",
+   "conf": true
   },
   "4750835": {
    "partido": "Málaga CF vs RCD Espanyol",
@@ -65,7 +67,7 @@
    "liga": "Portugal, Primeira Liga",
    "inicio": "2026-10-09T14:15:00-05:00",
    "estado": "pendiente",
-   "ultimo": 0
+   "ultimo": 1791568839.7798352
   },
   "4757175": {
    "partido": "Moreirense vs Gil Vicente FC",
