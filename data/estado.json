@@ -168,7 +168,7 @@
    "liga": "Inglaterra, Premier League",
    "inicio": "2026-10-10T09:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1791636567.4915888
+   "ultimo": 1791636810.8414242
   },
   "4742041": {
    "partido": "Manchester United vs Tottenham",
@@ -181,22 +181,26 @@
    "partido": "Ipswich vs Fulham",
    "liga": "Inglaterra, Premier League",
    "inicio": "2026-10-10T09:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1791636567.693085
+   "estado": "enviado",
+   "ultimo": 1791636811.0365944,
+   "xi": "534537,560440,1404731,3153685,10968460,14151805,32246907,44421294,56421007,65255094,71354644|334784,401162,598010,841159,3135907,50208640,55239130,61717953,65848500,68056120,75402193",
+   "conf": true
   },
   "4742048": {
    "partido": "Chelsea vs Bournemouth",
    "liga": "Inglaterra, Premier League",
    "inicio": "2026-10-10T09:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1791636567.8174677
+   "estado": "enviado",
+   "ultimo": 1791636857.5539255,
+   "xi": "126125,407632,2558704,12774012,39270918,49733543,50800163,51281702,54701553,60927957,71073935|217078,368648,894428,2753320,3161318,39229340,49980838,50445824,53212627,63094712,67626970",
+   "conf": true
   },
   "4742049": {
    "partido": "Aston Villa vs Brentford",
    "liga": "Inglaterra, Premier League",
    "inicio": "2026-10-10T09:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1791636567.8870568
+   "ultimo": 1791636860.2460606
   },
   "4742051": {
    "partido": "Arsenal vs Leeds United",
