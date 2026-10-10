@@ -78,16 +78,29 @@
    "liga": "Brasil, Brasileirão",
    "inicio": "2026-10-10T19:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1791673300.6027308
+   "ultimo": 1791673543.8942769
   },
   "4632655": {
    "partido": "Vasco Da Gama vs Remo",
    "liga": "Brasil, Brasileirão",
    "inicio": "2026-10-10T16:00:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1791672935.486597,
+   "estado": "liquidado",
+   "ultimo": 1791673543.9489796,
    "xi": "243575,404923,1444591,1858344,3120151,3235737,16767092,64798849,65176757,65227585,67354179|165639,350333,383656,452796,516436,531152,1767076,1858293,12709324,50486080,67976922",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 0,
+    "ag": 0,
+    "ht": [
+     0,
+     0
+    ],
+    "corners": 11.0,
+    "corners_h": 6.0,
+    "corners_a": 5.0,
+    "corners_1t": 4.0,
+    "cards": 4.0
+   }
   },
   "4732683": {
    "partido": "Nápoles vs Frosinone",
@@ -346,7 +359,7 @@
    "liga": "Perú, Liga 1 - Clausura",
    "inicio": "2026-10-10T19:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1791673300.930423
+   "ultimo": 1791673544.240565
   },
   "4760820": {
    "partido": "Comerciantes Unidos vs Juan Pablo II College",
