@@ -77,8 +77,42 @@
    "partido": "São Paulo vs Vitória",
    "liga": "Brasil, Brasileirão",
    "inicio": "2026-10-10T19:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1791674031.6542761
+   "estado": "enviado",
+   "ultimo": 1791674274.636598,
+   "pierna": [
+    {
+     "gid": "4632654",
+     "partido": "São Paulo vs Vitória",
+     "texto": "Menos de 3.5 goles",
+     "clave": "OU|3.5|under",
+     "p": 0.8307,
+     "cuota": 1.25,
+     "casa": "Bet365",
+     "inicio": "2026-10-10T19:00:00-05:00"
+    },
+    {
+     "gid": "4632654",
+     "partido": "São Paulo vs Vitória",
+     "texto": "Menos de 1.5 goles en el 1T",
+     "clave": "OU1T|1.5|under",
+     "p": 0.7575,
+     "cuota": 1.33,
+     "casa": "Bet365",
+     "inicio": "2026-10-10T19:00:00-05:00"
+    },
+    {
+     "gid": "4632654",
+     "partido": "São Paulo vs Vitória",
+     "texto": "No hay empate",
+     "clave": "DC||12",
+     "p": 0.6908,
+     "cuota": 1.29,
+     "casa": "Bet365",
+     "inicio": "2026-10-10T19:00:00-05:00"
+    }
+   ],
+   "xi": "400157,430655,534772,543187,3219228,3320593,13816079,55416459,71071406,77674618,77691484|353876,3059914,3268277,4802802,12679086,13143233,15168804,64935008,65768674,66264863,71355882",
+   "conf": true
   },
   "4632655": {
    "partido": "Vasco Da Gama vs Remo",
@@ -359,7 +393,7 @@
    "liga": "Perú, Liga 1 - Clausura",
    "inicio": "2026-10-10T19:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1791674031.6947176
+   "ultimo": 1791674278.9517534
   },
   "4760820": {
    "partido": "Comerciantes Unidos vs Juan Pablo II College",

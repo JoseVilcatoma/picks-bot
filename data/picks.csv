@@ -255,3 +255,12 @@ fecha,game_id,partido,liga,tipo,mercado,clave,prob,cuota,casa,cuota_justa,ev,sta
 2026-10-10 15:21,4632655,Vasco Da Gama vs Remo,"Brasil, Brasileirão",modelo,Menos de 6.5 tarjetas,CARDS|6.5|under,0.8286,,,1.21,,,si,G,
 2026-10-10 15:21,4632655,Vasco Da Gama vs Remo,"Brasil, Brasileirão",modelo,Más de 1.5 goles,OU|1.5|over,0.7284,,,1.37,,,si,P,
 2026-10-10 15:21,4632655,Vasco Da Gama vs Remo,"Brasil, Brasileirão",apostable,Empate,1X2||X,0.2246,5.85,BetOnline.ag,4.45,0.3137,8.00,si,G,38.80
+2026-10-10 18:17,4632654,São Paulo vs Vitória,"Brasil, Brasileirão",seguro,Menos de 3.5 goles,OU|3.5|under,0.8307,1.25,Bet365,1.20,0.0384,,si,,
+2026-10-10 18:17,4632654,São Paulo vs Vitória,"Brasil, Brasileirão",seguro,São Paulo o empate,DC||1X,0.6971,1.17,Bet365,1.43,-0.1844,,si,,
+2026-10-10 18:17,4632654,São Paulo vs Vitória,"Brasil, Brasileirão",arriesgado,Menos de 0.5 goles en el 1T,OU1T|0.5|under,0.3955,2.62,Bet365,2.53,0.0361,,si,,
+2026-10-10 18:17,4632654,São Paulo vs Vitória,"Brasil, Brasileirão",arriesgado,Empate,1X2||X,0.3077,3.70,Unibet (NL),3.25,0.1385,,si,,
+2026-10-10 18:17,4632654,São Paulo vs Vitória,"Brasil, Brasileirão",modelo,Menos de 5.5 tarjetas,CARDS|5.5|under,0.8126,,,1.23,,,si,,
+2026-10-10 18:17,4632654,São Paulo vs Vitória,"Brasil, Brasileirão",modelo,Menos de 12.5 córners,CORN|12.5|under,0.7195,,,1.39,,,si,,
+2026-10-10 18:17,4632654,São Paulo vs Vitória,"Brasil, Brasileirão",apostable,Gana Vitória,1X2||2,0.2963,5.50,Coolbet,3.37,0.6296,17.50,si,,
+2026-10-10 18:17,4632654,São Paulo vs Vitória,"Brasil, Brasileirão",apostable,Vitória deja el arco en cero,CS||visita_si,0.3147,5.00,Bet365,3.18,0.5736,18.00,si,,
+2026-10-10 18:17,4632654,São Paulo vs Vitória,"Brasil, Brasileirão",ticket,Menos de 2.5 goles,OU|2.5|under,0.6356,1.81,,1.57,0.1504,10.00,,,
