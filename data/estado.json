@@ -110,7 +110,7 @@
    "liga": "Italia, Serie A",
    "inicio": "2026-10-10T13:45:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1791654458.0617545
+   "ultimo": 1791654729.944407
   },
   "4732686": {
    "partido": "Inter Milan vs Parma",
@@ -135,21 +135,23 @@
    "liga": "Francia, Ligue 1",
    "inicio": "2026-10-10T13:45:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1791654458.1676462
+   "ultimo": 1791654730.046881
   },
   "4735249": {
    "partido": "Monaco vs Toulouse",
    "liga": "Francia, Ligue 1",
    "inicio": "2026-10-10T13:45:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1791654458.2693455
+   "estado": "enviado",
+   "ultimo": 1791654730.1558826,
+   "xi": "300142,386642,556868,672103,53213421,58340457,63725306,67452514,67934945,70796239,76873889|474941,7495369,51179941,65799938,67840731,71521869,72473407,75433697,77152299,77356475,77356476",
+   "conf": true
   },
   "4735250": {
    "partido": "Lorient vs Paris FC",
    "liga": "Francia, Ligue 1",
    "inicio": "2026-10-10T13:45:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1791654485.4423485
+   "ultimo": 1791654761.581387
   },
   "4735251": {
    "partido": "Lille vs Le Havre",
@@ -164,8 +166,10 @@
    "partido": "Brest vs Angers",
    "liga": "Francia, Ligue 1",
    "inicio": "2026-10-10T13:45:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1791654485.552368
+   "estado": "enviado",
+   "ultimo": 1791654761.684664,
+   "xi": "333600,403251,468684,610301,943483,3187609,17127543,33778155,61457548,64206036,70788967|333004,432445,534041,3124708,50482992,50682074,66137744,66447261,75439905,76635014,77144042",
+   "conf": true
   },
   "4742040": {
    "partido": "Sunderland vs Brighton",
