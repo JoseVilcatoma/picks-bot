@@ -123,8 +123,10 @@
    "partido": "Genoa vs Fiorentina",
    "liga": "Italia, Serie A",
    "inicio": "2026-10-10T08:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1791634533.8858817
+   "estado": "enviado",
+   "ultimo": 1791634777.2869272,
+   "xi": "290593,557325,568955,3453817,3488037,3949075,13854543,32042542,53085455,61672509,66733291|88018,7776748,30120714,50586375,52544938,54588606,65156349,70860736,71088015,75435606,77066931",
+   "conf": true
   },
   "4735248": {
    "partido": "PSG vs Le Mans",
@@ -240,35 +242,35 @@
    "liga": "Alemania, Bundesliga",
    "inicio": "2026-10-10T08:30:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1791634534.0775337
+   "ultimo": 1791634867.3564382
   },
   "4755383": {
    "partido": "Union Berlin vs SV 07 Elversberg",
    "liga": "Alemania, Bundesliga",
    "inicio": "2026-10-10T08:30:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1791634534.151554
+   "ultimo": 1791634867.4277048
   },
   "4755384": {
    "partido": "Mainz 05 vs Bayer Leverkusen",
    "liga": "Alemania, Bundesliga",
    "inicio": "2026-10-10T08:30:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1791634534.224407
+   "ultimo": 1791634867.5048141
   },
   "4755385": {
    "partido": "FC Augsburg vs Bayern Munich",
    "liga": "Alemania, Bundesliga",
    "inicio": "2026-10-10T08:30:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1791634534.3412635
+   "ultimo": 1791634867.576544
   },
   "4755387": {
    "partido": "Hoffenheim vs Hamburgo SV",
    "liga": "Alemania, Bundesliga",
    "inicio": "2026-10-10T08:30:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1791634534.4138436
+   "ultimo": 1791634867.654596
   },
   "4755388": {
    "partido": "RB Leipzig vs Eintracht Frankfurt",
