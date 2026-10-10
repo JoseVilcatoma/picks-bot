@@ -167,8 +167,10 @@
    "partido": "Sunderland vs Brighton",
    "liga": "Inglaterra, Premier League",
    "inicio": "2026-10-10T09:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1791636810.8414242
+   "estado": "enviado",
+   "ultimo": 1791637105.2258914,
+   "xi": "227029,287803,668457,1169903,3218099,50444830,58122452,59993290,61303729,64744795,65566123|624429,891006,3071443,35002742,44125352,46557681,53614148,65296564,67771434,70953229,71047802",
+   "conf": true
   },
   "4742041": {
    "partido": "Manchester United vs Tottenham",
@@ -199,8 +201,10 @@
    "partido": "Aston Villa vs Brentford",
    "liga": "Inglaterra, Premier League",
    "inicio": "2026-10-10T09:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1791636860.2460606
+   "estado": "enviado",
+   "ultimo": 1791637107.8934498,
+   "xi": "327324,359032,501604,534043,596221,3132520,4832569,46854554,51548916,52355416,71391398|72966,556319,557975,668558,32237766,49513842,51263915,51392565,67428963,71010985,77044444",
+   "conf": true
   },
   "4742051": {
    "partido": "Arsenal vs Leeds United",
