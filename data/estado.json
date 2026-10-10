@@ -394,14 +394,14 @@
    "liga": "Perú, Liga 1 - Clausura",
    "inicio": "2026-10-10T19:00:00-05:00",
    "estado": "enviado",
-   "ultimo": 1791675157.3666768,
+   "ultimo": 1791675521.1640458,
    "pierna": [
     {
      "gid": "4760818",
      "partido": "Universitario vs FBC Melgar",
      "texto": "FBC Melgar recibe gol",
      "clave": "CS||visita_no",
-     "p": 0.7799,
+     "p": 0.7775,
      "cuota": 1.2,
      "casa": "Bet365",
      "inicio": "2026-10-10T19:00:00-05:00"
@@ -411,7 +411,7 @@
      "partido": "Universitario vs FBC Melgar",
      "texto": "Más de 1.5 goles",
      "clave": "OU|1.5|over",
-     "p": 0.7283,
+     "p": 0.7088,
      "cuota": 1.3,
      "casa": "Bet365",
      "inicio": "2026-10-10T19:00:00-05:00"
@@ -421,7 +421,7 @@
      "partido": "Universitario vs FBC Melgar",
      "texto": "No hay empate",
      "clave": "DC||12",
-     "p": 0.7061,
+     "p": 0.703,
      "cuota": 1.36,
      "casa": "Bet365",
      "inicio": "2026-10-10T19:00:00-05:00"
@@ -431,7 +431,7 @@
      "partido": "Universitario vs FBC Melgar",
      "texto": "Más de 0.5 goles en el 1T",
      "clave": "OU1T|0.5|over",
-     "p": 0.6737,
+     "p": 0.6597,
      "cuota": 1.4,
      "casa": "Bet365",
      "inicio": "2026-10-10T19:00:00-05:00"
@@ -441,15 +441,15 @@
      "partido": "Universitario vs FBC Melgar",
      "texto": "Universitario recibe gol",
      "clave": "CS||local_no",
-     "p": 0.6222,
+     "p": 0.5918,
      "cuota": 1.57,
      "casa": "Bet365",
      "inicio": "2026-10-10T19:00:00-05:00"
     }
    ],
    "en_ticket": true,
-   "xi": "393797,478387,505190,3226498,3234845,3993952,4710874,47844909,50778574,56897446,64944308|137980,275266,347470,351160,460569,648658,12728007,13334880,50627852,50635855,52833089",
-   "conf": false
+   "xi": "393797,478387,505190,531129,3226498,3234845,3993952,4710874,47844909,50778574,64944308|137980,347470,351160,460569,648658,6708278,12728007,13334880,50627852,50635855,52833089",
+   "conf": true
   },
   "4760820": {
    "partido": "Comerciantes Unidos vs Juan Pablo II College",
