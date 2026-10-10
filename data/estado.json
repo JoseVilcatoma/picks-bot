@@ -90,6 +90,234 @@
    "ultimo": 1791601526.4707494,
    "xi": "254603,514232,519405,617235,890934,3138410,3249546,3347310,47441571,57621318,59059576|254063,460626,481922,485802,621036,645547,893500,3073636,3242808,51321013,68885995",
    "conf": true
+  },
+  "4632654": {
+   "partido": "São Paulo vs Vitória",
+   "liga": "Brasil, Brasileirão",
+   "inicio": "2026-10-10T19:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4632655": {
+   "partido": "Vasco Da Gama vs Remo",
+   "liga": "Brasil, Brasileirão",
+   "inicio": "2026-10-10T16:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4732683": {
+   "partido": "Nápoles vs Frosinone",
+   "liga": "Italia, Serie A",
+   "inicio": "2026-10-10T13:45:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4732686": {
+   "partido": "Inter Milan vs Parma",
+   "liga": "Italia, Serie A",
+   "inicio": "2026-10-10T11:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4732687": {
+   "partido": "Genoa vs Fiorentina",
+   "liga": "Italia, Serie A",
+   "inicio": "2026-10-10T08:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4735248": {
+   "partido": "PSG vs Le Mans",
+   "liga": "Francia, Ligue 1",
+   "inicio": "2026-10-10T13:45:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4735249": {
+   "partido": "Monaco vs Toulouse",
+   "liga": "Francia, Ligue 1",
+   "inicio": "2026-10-10T13:45:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4735250": {
+   "partido": "Lorient vs Paris FC",
+   "liga": "Francia, Ligue 1",
+   "inicio": "2026-10-10T13:45:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4735251": {
+   "partido": "Lille vs Le Havre",
+   "liga": "Francia, Ligue 1",
+   "inicio": "2026-10-10T10:15:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4735253": {
+   "partido": "Brest vs Angers",
+   "liga": "Francia, Ligue 1",
+   "inicio": "2026-10-10T13:45:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4742040": {
+   "partido": "Sunderland vs Brighton",
+   "liga": "Inglaterra, Premier League",
+   "inicio": "2026-10-10T09:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4742041": {
+   "partido": "Manchester United vs Tottenham",
+   "liga": "Inglaterra, Premier League",
+   "inicio": "2026-10-10T11:30:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4742044": {
+   "partido": "Ipswich vs Fulham",
+   "liga": "Inglaterra, Premier League",
+   "inicio": "2026-10-10T09:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4742048": {
+   "partido": "Chelsea vs Bournemouth",
+   "liga": "Inglaterra, Premier League",
+   "inicio": "2026-10-10T09:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4742049": {
+   "partido": "Aston Villa vs Brentford",
+   "liga": "Inglaterra, Premier League",
+   "inicio": "2026-10-10T09:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4742051": {
+   "partido": "Arsenal vs Leeds United",
+   "liga": "Inglaterra, Premier League",
+   "inicio": "2026-10-10T06:30:00-05:00",
+   "estado": "enviado",
+   "ultimo": 1791630235.1820486,
+   "xi": "513371,537419,2985896,3055995,3070470,3071278,3135414,8024275,45211907,50424606,67102513|540689,649450,886874,907041,984482,3135966,4264302,7227288,51042324,51186926,58340010",
+   "conf": true
+  },
+  "4750832": {
+   "partido": "Real Madrid vs Villarreal CF",
+   "liga": "España, LaLiga",
+   "inicio": "2026-10-10T14:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4750833": {
+   "partido": "Rayo Vallecano vs Athletic Club",
+   "liga": "España, LaLiga",
+   "inicio": "2026-10-10T07:00:00-05:00",
+   "estado": "enviado",
+   "ultimo": 1791630308.5589604,
+   "xi": "331103,379362,392629,416286,489306,530676,1384725,3205166,8165281,38786447,46477641|137290,428230,541584,641453,914591,987911,50832850,51188683,60872903,75384403,77382984",
+   "conf": true
+  },
+  "4750837": {
+   "partido": "FC Barcelona vs Getafe CF",
+   "liga": "España, LaLiga",
+   "inicio": "2026-10-10T11:30:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4750840": {
+   "partido": "Alavés vs Atlético de Madrid",
+   "liga": "España, LaLiga",
+   "inicio": "2026-10-10T09:15:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4755381": {
+   "partido": "SC Paderborn 07 vs Stuttgart",
+   "liga": "Alemania, Bundesliga",
+   "inicio": "2026-10-10T08:30:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4755383": {
+   "partido": "Union Berlin vs SV 07 Elversberg",
+   "liga": "Alemania, Bundesliga",
+   "inicio": "2026-10-10T08:30:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4755384": {
+   "partido": "Mainz 05 vs Bayer Leverkusen",
+   "liga": "Alemania, Bundesliga",
+   "inicio": "2026-10-10T08:30:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4755385": {
+   "partido": "FC Augsburg vs Bayern Munich",
+   "liga": "Alemania, Bundesliga",
+   "inicio": "2026-10-10T08:30:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4755387": {
+   "partido": "Hoffenheim vs Hamburgo SV",
+   "liga": "Alemania, Bundesliga",
+   "inicio": "2026-10-10T08:30:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4755388": {
+   "partido": "RB Leipzig vs Eintracht Frankfurt",
+   "liga": "Alemania, Bundesliga",
+   "inicio": "2026-10-10T11:30:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4757169": {
+   "partido": "Viseu vs Estoril",
+   "liga": "Portugal, Primeira Liga",
+   "inicio": "2026-10-10T14:30:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4757173": {
+   "partido": "Maritimo vs FC Porto",
+   "liga": "Portugal, Primeira Liga",
+   "inicio": "2026-10-10T12:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4757174": {
+   "partido": "Casa Pia AC vs Santa Clara",
+   "liga": "Portugal, Primeira Liga",
+   "inicio": "2026-10-10T14:30:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4760813": {
+   "partido": "ADT Tarma vs FC Cajamarca",
+   "liga": "Perú, Liga 1 - Clausura",
+   "inicio": "2026-10-10T13:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4760818": {
+   "partido": "Universitario vs FBC Melgar",
+   "liga": "Perú, Liga 1 - Clausura",
+   "inicio": "2026-10-10T19:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4760820": {
+   "partido": "Comerciantes Unidos vs Juan Pablo II College",
+   "liga": "Perú, Liga 1 - Clausura",
+   "inicio": "2026-10-10T15:30:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
   }
  },
  "web": {
@@ -106,6 +334,38 @@
   "4760815": 1791554664757,
   "4873352": 1791590202699,
   "4757171": 1791554660813,
-  "4757175": 1791554660237
+  "4757175": 1791554660237,
+  "4632654": 1791630103269,
+  "4632655": 1791630102854,
+  "4732683": 1791630091885,
+  "4732686": 1791630091049,
+  "4732687": 1791630090751,
+  "4735248": 1791630098629,
+  "4735249": 1791630099487,
+  "4735250": 1791630099818,
+  "4735251": 1791630098167,
+  "4735253": 1791630100128,
+  "4742040": 1791630085445,
+  "4742041": 1791630087487,
+  "4742044": 1791630085909,
+  "4742048": 1791630086841,
+  "4742049": 1791630087125,
+  "4742051": 1791630085069,
+  "4750832": 1791630089853,
+  "4750833": 1791630088432,
+  "4750837": 1791630089585,
+  "4750840": 1791630088750,
+  "4755381": 1791630092651,
+  "4755383": 1791630092980,
+  "4755384": 1791630093885,
+  "4755385": 1791630094181,
+  "4755387": 1791630094633,
+  "4755388": 1791630094982,
+  "4757169": 1791630097097,
+  "4757173": 1791630096765,
+  "4757174": 1791630095919,
+  "4760813": 1791630101032,
+  "4760818": 1791630101886,
+  "4760820": 1791630101568
  }
 }
