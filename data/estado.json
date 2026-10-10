@@ -241,8 +241,10 @@
    "partido": "FC Barcelona vs Getafe CF",
    "liga": "España, LaLiga",
    "inicio": "2026-10-10T11:30:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1791646914.86727
+   "estado": "enviado",
+   "ultimo": 1791647158.0345986,
+   "xi": "626302,918164,1759529,1761371,4583279,41923868,52343752,60869763,67787784,70951545,71171245|243502,392341,552743,656339,914518,44087032,48233124,51552702,52892490,53029449,67621071",
+   "conf": true
   },
   "4750840": {
    "partido": "Alavés vs Atlético de Madrid",
@@ -303,7 +305,7 @@
    "liga": "Alemania, Bundesliga",
    "inicio": "2026-10-10T11:30:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1791646915.067189
+   "ultimo": 1791647164.1121826
   },
   "4757169": {
    "partido": "Viseu vs Estoril",
@@ -317,7 +319,7 @@
    "liga": "Portugal, Primeira Liga",
    "inicio": "2026-10-10T12:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 0
+   "ultimo": 1791647191.329816
   },
   "4757174": {
    "partido": "Casa Pia AC vs Santa Clara",
