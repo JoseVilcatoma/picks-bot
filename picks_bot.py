@@ -298,15 +298,18 @@ def texto_resumen():
     if not filas:
         return "Todavía no hay picks liquidados."
     out = ["📈 <b>Paper trading</b>"]
-    for tipo, icono in (("seguro", "🟢"), ("arriesgado", "🔴"), ("modelo", "📐"), ("apostable", "✅")):
+    for tipo, icono in (("seguro", "🟢"), ("arriesgado", "🔴"), ("modelo", "📐"), ("apostable", "✅"),
+                        ("ticket", "🎟"), ("ticket2", "🎟🎟")):
         fs = [f for f in filas if f["tipo"] == tipo]
         if not fs:
             continue
         ac = sum(f["resultado"] == "G" for f in fs)
         pm = sum(float(f["prob"]) for f in fs) / len(fs)
-        out.append(f"\n{icono} <b>{tipo.capitalize()}s</b>: {ac}/{len(fs)} aciertos "
+        nombre = {"ticket": "Tickets del partido", "ticket2": "Tickets de 2 partidos",
+                  "modelo": "Tarjetas/córners/modelo"}.get(tipo, tipo.capitalize() + "s")
+        out.append(f"\n{icono} <b>{nombre}</b>: {ac}/{len(fs)} aciertos "
                    f"({ac / len(fs):.0%}) · el modelo esperaba {pm:.0%}")
-        if tipo == "apostable":
+        if tipo in ("apostable", "ticket", "ticket2"):
             st = sum(float(f["stake"] or 0) for f in fs)
             gan = sum(float(f["ganancia"] or 0) for f in fs)
             out.append(f"   Apostado S/ {st:.2f} · Ganancia S/ {gan:+.2f} · "
@@ -448,7 +451,7 @@ def analizar(gid, g, nombres, modo):
         lh0, la0 = lh_forma, la_forma
     lh, la = lh0 * f_h, la0 * f_a
     base = (lh0, la0) if con_alineacion and (abs(lh / lh0 - 1) >= 0.02 or abs(la / la0 - 1) >= 0.02) else None
-    cands, _ = M.candidatos(lh, la, esp, mercado, local, visita, base=base)
+    cands, matriz = M.candidatos(lh, la, esp, mercado, local, visita, base=base)
     impacto = (lh / lh0 - 1, la / la0 - 1) if con_alineacion else None
     crit_lin, señales = criterios.evaluar(g, gid, res_l, res_v, st_l, st_v, lineas, impacto)
     for c in cands:
@@ -539,7 +542,7 @@ def analizar(gid, g, nombres, modo):
     lin.append("\n🔴 <b>ARRIESGADOS</b> (difíciles pero posibles)")
     lin += [fila(c) for c in arriesgados] or ["• Ninguno"]
     if modelos:
-        lin.append("\n📐 <b>SOLO MODELO</b> (sin cuota de mercado: menos fiables, compara la “justa” en tu casa)")
+        lin.append("\n📐 <b>TARJETAS, CÓRNERS Y SOLO MODELO</b> (menos fiables: compara la “justa” en tu casa)")
         lin += [fila(c) for c in modelos]
     lin.append(f"\n✅ <b>APOSTABLES</b> (EV ≥ {C.EV_MIN:.0%}, cuota ≥ {C.CUOTA_MIN:.2f})")
     if apostables:
@@ -565,6 +568,18 @@ def analizar(gid, g, nombres, modo):
         for ev_c, k, precio, casa, justa in valor_casas[:3]:
             lin.append(f"• {esc(M.texto_mercado(k, local, visita))} — {esc(casa)} {precio:.2f} "
                        f"vs justa {justa:.2f} · EV {ev_c:+.1%}")
+    ticket = M.ticket_partido(cands, matriz)
+    if ticket:
+        lin.append(f"\n🎟 <b>TICKET DEL PARTIDO</b> (cuota {C.TICKET_CUOTA[0]:.2f}–{C.TICKET_CUOTA[1]:.2f}, lo más seguro posible)")
+        for c in ticket["piernas"]:
+            lin.append(f"• {esc(c['texto'])} · {c['cuota']:.2f}" + (f" ({esc(c['casa'])})" if c.get("casa") else ""))
+        justa_t = 1 / ticket["p"]
+        lin.append(f"➡️ Cuota {ticket['cuota']:.2f} · probabilidad <b>{ticket['p']:.0%}</b> · justa {justa_t:.2f}")
+        if len(ticket["piernas"]) > 1:
+            lin.append("<i>Mismo partido: arma la combinada con “Crear apuesta”. Las casas suelen pagar menos que "
+                       "la multiplicación; conviene solo si te pagan ≥ la justa.</i>")
+    else:
+        lin.append(f"\n🎟 Ticket: no hay combinación segura con cuota {C.TICKET_CUOTA[0]:.2f}–{C.TICKET_CUOTA[1]:.2f} en este partido.")
     lin.append("\n<i>“justa” = cuota mínima que deberías aceptar en tu casa de apuestas. "
                "Seguros/arriesgados sin valor son informativos, no apuestas.</i>")
     lin.append("🧪 Paper trading · cuotas: " + ("The Odds API + Bet365 (365Scores)" if ext else "Bet365 vía 365Scores"))
@@ -584,7 +599,21 @@ def analizar(gid, g, nombres, modo):
                 "stake": f"{c.get('stake', 0):.2f}" if tipo == "apostable" else "",
                 "alineacion": {"confirmada": "si", "probable": "probable"}.get(modo, "no"), "resultado": "", "ganancia": "",
             })
-    return "\n".join(lin), filas
+    if ticket:
+        filas.append({
+            "fecha": fecha, "game_id": gid, "partido": f"{local} vs {visita}",
+            "liga": g.get("competitionDisplayName", ""), "tipo": "ticket",
+            "mercado": " + ".join(c["texto"] for c in ticket["piernas"]),
+            "clave": "&".join(clave_str(c["clave"]) for c in ticket["piernas"]),
+            "prob": f"{ticket['p']:.4f}", "cuota": f"{ticket['cuota']:.2f}", "casa": "",
+            "cuota_justa": f"{1 / ticket['p']:.2f}", "ev": f"{ticket['p'] * ticket['cuota'] - 1:.4f}",
+            "stake": f"{C.TICKET_STAKE:.2f}", "alineacion": "", "resultado": "", "ganancia": "",
+        })
+    extra = {"pierna": [{
+        "gid": gid, "partido": f"{local} vs {visita}", "texto": c["texto"], "clave": clave_str(c["clave"]),
+        "p": round(c["p"], 4), "cuota": c["cuota"], "casa": c.get("casa", ""), "inicio": g["startTime"]}
+        for c in M.piernas_seguras(cands)]}
+    return "\n".join(lin), filas, extra
 
 
 def liquidar(gid, s, log):
@@ -620,9 +649,12 @@ def liquidar(gid, s, log):
     for f in log:
         if f["game_id"] != gid or f["resultado"]:
             continue
-        res = M.evaluar(clave_de(f["clave"]), r)
+        if "&" in f["clave"]:
+            res = M.evaluar_multi([clave_de(x) for x in f["clave"].split("&")], r)
+        else:
+            res = M.evaluar(clave_de(f["clave"]), r)
         f["resultado"] = res if res != "?" else ""
-        if f["tipo"] == "apostable" and res in ("G", "P", "N"):
+        if f["tipo"] in ("apostable", "ticket") and res in ("G", "P", "N"):
             stake = float(f["stake"] or 0)
             f["ganancia"] = f"{stake * (float(f['cuota']) - 1):.2f}" if res == "G" else (
                 f"{-stake:.2f}" if res == "P" else "0")
@@ -631,8 +663,79 @@ def liquidar(gid, s, log):
         if res == "?":
             f["resultado"] = "?"
     s["estado"] = "liquidado"
+    s["r"] = r
     enviar("\n".join(out))
     return True
+
+
+def ticket_doble(estado, gid, log):
+    """Combina la selección más segura de este partido con la de otro partido aún no empezado."""
+    s = estado["seguidos"][gid]
+    lista_a = s.get("pierna") or []
+    if not lista_a or s.get("en_ticket"):
+        return
+    t = ahora()
+    mejor = None
+    for gid2, s2 in estado["seguidos"].items():
+        lista_b = s2.get("pierna") or []
+        if gid2 == gid or not lista_b or s2.get("en_ticket") or s2["estado"] != "enviado":
+            continue
+        if (iso(lista_b[0]["inicio"]) - t).total_seconds() < 5 * 60:      # ya empezó o está por empezar
+            continue
+        for a in lista_a:
+            for b in lista_b:
+                cuota = a["cuota"] * b["cuota"]
+                if C.TICKET_CUOTA[0] <= cuota <= C.TICKET_CUOTA[1]:
+                    p = a["p"] * b["p"]
+                    if not mejor or p > mejor[0]:
+                        mejor = (p, cuota, gid2, a, b)
+    if not mejor:
+        return
+    p, cuota, gid2, a, b = mejor
+    s["en_ticket"] = estado["seguidos"][gid2]["en_ticket"] = True
+    estado.setdefault("tickets", []).append({"piernas": [a, b], "p": p, "cuota": cuota, "t": time.time()})
+    enviar("🎟🎟 <b>TICKET DE 2 PARTIDOS</b>\n"
+           + "\n".join(f"• {esc(x['partido'])}: <b>{esc(x['texto'])}</b> · {x['cuota']:.2f}"
+                        + (f" ({esc(x['casa'])})" if x.get("casa") else "") for x in (a, b))
+           + f"\n➡️ Cuota {cuota:.2f} · probabilidad <b>{p:.0%}</b> · justa {1 / p:.2f}"
+           + f"\n<i>Partidos distintos: la cuota sí es la multiplicación. Apuesta antes de que empiece "
+           + f"{esc(min((a, b), key=lambda x: x['inicio'])['partido'])}.</i>")
+
+
+def liquidar_tickets(estado, log):
+    pend = []
+    for tk in estado.get("tickets", []):
+        rs = []
+        for pi in tk["piernas"]:
+            sg = estado["seguidos"].get(pi["gid"]) or {}
+            if sg.get("estado") == "cancelado":
+                rs.append("N")
+            elif "r" in sg:
+                rs.append(M.evaluar(clave_de(pi["clave"]), sg["r"]))
+            else:
+                rs.append(None)
+        if None in rs:
+            if time.time() - tk["t"] < 3 * 86400:
+                pend.append(tk)
+            continue
+        res = "P" if "P" in rs else ("?" if "?" in rs else ("N" if all(x == "N" for x in rs) else "G"))
+        cuota = 1.0
+        for pi, x in zip(tk["piernas"], rs):
+            if x == "G":
+                cuota *= pi["cuota"]
+        st = C.TICKET_STAKE
+        gan = st * (cuota - 1) if res == "G" else (-st if res == "P" else 0)
+        log.append({"fecha": ahora().strftime("%Y-%m-%d %H:%M"), "game_id": "+".join(pi["gid"] for pi in tk["piernas"]),
+                    "partido": " / ".join(pi["partido"] for pi in tk["piernas"]), "liga": "", "tipo": "ticket2",
+                    "mercado": " + ".join(pi["texto"] for pi in tk["piernas"]), "clave": "",
+                    "prob": f"{tk['p']:.4f}", "cuota": f"{tk['cuota']:.2f}", "casa": "", "cuota_justa": f"{1 / tk['p']:.2f}",
+                    "ev": f"{tk['p'] * tk['cuota'] - 1:.4f}", "stake": f"{st:.2f}", "alineacion": "",
+                    "resultado": res, "ganancia": f"{gan:.2f}"})
+        ic = {"G": "✅", "P": "❌", "N": "↩️", "?": "❔"}
+        enviar("🎟🎟 <b>Ticket de 2 partidos</b> " + ic[res] + "\n"
+               + "\n".join(f"{ic.get(x, '❔')} {esc(pi['partido'])}: {esc(pi['texto'])}" for pi, x in zip(tk["piernas"], rs))
+               + f"\nS/ {gan:+.2f}")
+    estado["tickets"] = pend
 
 
 # ======================= ciclo principal =======================
@@ -675,10 +778,20 @@ def pasada():
                     continue
                 firma, completa = firma_xi(g)
                 modo = "confirmada" if confirmada else ("probable" if completa else "ninguna")
-                texto, filas = analizar(gid, g, nombres, modo)
+                s365.FALLOS = 0
+                texto, filas, extra = analizar(gid, g, nombres, modo)
+                if s365.FALLOS and mins > 15:
+                    # 365Scores falló en algún dato: mejor reintentar en la próxima pasada que mandar algo incompleto
+                    print(f"[picks] {s['partido']}: datos incompletos ({s365.FALLOS} fallos), reintento")
+                    s["ultimo"] = 0
+                    continue
+                if s365.FALLOS:
+                    texto += "\n⚠️ <i>365Scores no respondió en algunos datos: este análisis puede estar incompleto.</i>"
                 enviar(texto)
                 log += filas
                 s["estado"] = "enviado"
+                s["pierna"] = extra["pierna"]
+                ticket_doble(estado, gid, log)
                 s["xi"], s["conf"] = firma, confirmada
         elif s["estado"] == "enviado" and mins < -115:
             if time.time() - s.get("ultimo", 0) >= 10 * 60:
@@ -700,7 +813,8 @@ def pasada():
                 enviar(f"✅ <b>{esc(s['partido'])}</b>: alineaciones confirmadas, "
                        "iguales a la probable. Los picks se mantienen.")
                 continue
-            texto, filas = analizar(gid, g, nombres, "confirmada")
+            texto, filas, extra = analizar(gid, g, nombres, "confirmada")
+            s["pierna"] = extra["pierna"]
             log[:] = [f for f in log if not (f["game_id"] == gid and not f["resultado"])]
             log += filas
             s["xi"] = firma
@@ -708,6 +822,7 @@ def pasada():
                    "Estos picks reemplazan a los anteriores.\n\n" + texto)
         elif s["estado"] in ("liquidado", "cancelado") and mins < -2 * 24 * 60:
             del estado["seguidos"][gid]
+    liquidar_tickets(estado, log)
     escribir_log(log)
     guardar_estado(estado)
     guardar_cola()
@@ -721,7 +836,7 @@ def probar(gid):
         return
     ok = s365.alineacion(g["homeCompetitor"])[0] and s365.alineacion(g["awayCompetitor"])[0]
     modo = "confirmada" if ok else ("probable" if firma_xi(g)[1] else "ninguna")
-    texto, _ = analizar(gid, g, nombres, modo)
+    texto, _, _ = analizar(gid, g, nombres, modo)
     print(texto)
     _enviar_ya("🧪 <b>PRUEBA</b> (no se registra)\n\n" + texto)
     s365.guardar_cache()

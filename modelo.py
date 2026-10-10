@@ -472,7 +472,8 @@ def seleccionar(cands):
         return res
 
     # Solo mercados con cuota real: la probabilidad queda anclada al mercado (mucho más fiable)
-    seguros = [c for c in cands if c["cuota"] and 0.55 <= c["p"] <= 0.88
+    # Solo resultado y goles (tarjetas/córners rinden mal como "seguros")
+    seguros = [c for c in cands if c["cuota"] and 0.55 <= c["p"] <= 0.88 and c["fam"] in ("resultado", "goles")
                and c["cuota"] >= 1.15 and c["clave"][0] != "EXACT" and not contradicho(c)]
     seguros.sort(key=lambda c: -c["p"])
     seguros = uno_por_familia(seguros, 3)
@@ -494,6 +495,7 @@ def seleccionar(cands):
         c["discrepa"] = discrepa(c)
     ap = [c for c in todos if c["cuota"] and c["cuota"] >= C.CUOTA_MIN and c["ev"] is not None
           and c["ev"] >= C.EV_MIN and c["p"] >= 0.20 and c["clave"][0] != "DNB" and not c["discrepa"]
+          and c["clave"] != ("1X2", None, "X")
           and not contradicho(c)]
     ap.sort(key=lambda c: -c["ev"])
     apostables = uno_por_familia(ap, C.MAX_APOSTABLES)
@@ -508,7 +510,8 @@ def seleccionar(cands):
 
 def solo_modelo(cands, usados):
     """Mercados sin cuota (tarjetas, líneas de córners sin precio…): solo referencia, menos fiables."""
-    lista = [c for c in cands if not c["cuota"] and not c["solo_valor"] and c["clave"][0] != "EXACT"
+    lista = [c for c in cands if (not c["cuota"] or c["fam"] in ("tarjetas", "corners"))
+             and not c["solo_valor"] and c["clave"][0] != "EXACT"
              and 0.60 <= c["p"] <= 0.88 and c["clave"] not in usados]
     lista.sort(key=lambda c: -c["p"])
     vistos, res = set(), []
@@ -570,3 +573,67 @@ def evaluar(clave, r):
     else:
         return "?"
     return "G" if ok else "P"
+
+
+# =================================================================
+# Tickets
+# =================================================================
+TIPOS_FT = ("1X2", "DC", "OU", "BTTS", "CS", "AH")   # se resuelven solo con el marcador final
+
+
+def evaluar_multi(claves, r):
+    """Combinada: P si alguna pierde, ? si falta dato, N si todas nulas, G si todas ganan/nulas."""
+    res = [evaluar(k, r) for k in claves]
+    if "P" in res:
+        return "P"
+    if "?" in res:
+        return "?"
+    return "N" if all(x == "N" for x in res) else "G"
+
+
+def _apta(c):
+    return (c["cuota"] and c["fam"] in ("resultado", "goles") and not contradicho(c)
+            and not c.get("discrepa") and c["clave"] != ("1X2", None, "X") and c["p"] >= 0.45)
+
+
+def ticket_partido(cands, m):
+    """Mejor ticket del partido (1 o 2 selecciones) con cuota total en TICKET_CUOTA y máxima probabilidad.
+    Para 2 selecciones del mismo partido la probabilidad conjunta sale de la matriz de marcadores
+    (están correlacionadas)."""
+    lo, hi = C.TICKET_CUOTA
+    aptas = [c for c in cands if _apta(c)]
+    opciones = []
+    for c in aptas:
+        if lo <= c["cuota"] <= hi:
+            opciones.append({"piernas": [c], "p": c["p"], "cuota": c["cuota"]})
+    ft = [c for c in aptas if c["clave"][0] in TIPOS_FT and c["cuota"] < lo]
+    n = len(m)
+    for i in range(len(ft)):
+        for j in range(i + 1, len(ft)):
+            a, b = ft[i], ft[j]
+            if a["clave"][0] == b["clave"][0]:
+                continue
+            cuota = a["cuota"] * b["cuota"]
+            if not (lo <= cuota <= hi):
+                continue
+            ok = [(x, y) for x in range(n) for y in range(n)
+                  if evaluar(a["clave"], {"hg": x, "ag": y}) != "P" and evaluar(b["clave"], {"hg": x, "ag": y}) != "P"]
+            conj = sum(m[x][y] for x, y in ok)
+            pa = sum(m[x][y] for x in range(n) for y in range(n) if evaluar(a["clave"], {"hg": x, "ag": y}) != "P")
+            pb = sum(m[x][y] for x in range(n) for y in range(n) if evaluar(b["clave"], {"hg": x, "ag": y}) != "P")
+            if pa <= 0 or pb <= 0:
+                continue
+            if conj >= 0.97 * min(pa, pb):   # una selección contiene a la otra (ej. "gana local" + "no hay empate")
+                continue
+            p = min(a["p"] * b["p"] * conj / (pa * pb), a["p"], b["p"])
+            opciones.append({"piernas": [a, b], "p": p, "cuota": cuota})
+    if not opciones:
+        return None
+    return max(opciones, key=lambda o: (o["p"], -abs(o["cuota"] - 2.0)))
+
+
+def piernas_seguras(cands, n=6):
+    """Las selecciones más probables con cuota en TICKET_PIERNA (para combinar con otro partido)."""
+    lo, hi = C.TICKET_PIERNA
+    aptas = [c for c in cands if _apta(c) and lo <= c["cuota"] <= hi]
+    return sorted(aptas, key=lambda c: -c["p"])[:n]
