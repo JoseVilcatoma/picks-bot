@@ -112,7 +112,8 @@
     }
    ],
    "xi": "400157,430655,534772,543187,3219228,3320593,13816079,55416459,71071406,77674618,77691484|353876,3059914,3268277,4802802,12679086,13143233,15168804,64935008,65768674,66264863,71355882",
-   "conf": true
+   "conf": true,
+   "en_ticket": true
   },
   "4632655": {
    "partido": "Vasco Da Gama vs Remo",
@@ -392,8 +393,63 @@
    "partido": "Universitario vs FBC Melgar",
    "liga": "Perú, Liga 1 - Clausura",
    "inicio": "2026-10-10T19:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1791674278.9517534
+   "estado": "enviado",
+   "ultimo": 1791674402.9297144,
+   "pierna": [
+    {
+     "gid": "4760818",
+     "partido": "Universitario vs FBC Melgar",
+     "texto": "FBC Melgar recibe gol",
+     "clave": "CS||visita_no",
+     "p": 0.7799,
+     "cuota": 1.2,
+     "casa": "Bet365",
+     "inicio": "2026-10-10T19:00:00-05:00"
+    },
+    {
+     "gid": "4760818",
+     "partido": "Universitario vs FBC Melgar",
+     "texto": "Más de 1.5 goles",
+     "clave": "OU|1.5|over",
+     "p": 0.7283,
+     "cuota": 1.3,
+     "casa": "Bet365",
+     "inicio": "2026-10-10T19:00:00-05:00"
+    },
+    {
+     "gid": "4760818",
+     "partido": "Universitario vs FBC Melgar",
+     "texto": "No hay empate",
+     "clave": "DC||12",
+     "p": 0.7061,
+     "cuota": 1.36,
+     "casa": "Bet365",
+     "inicio": "2026-10-10T19:00:00-05:00"
+    },
+    {
+     "gid": "4760818",
+     "partido": "Universitario vs FBC Melgar",
+     "texto": "Más de 0.5 goles en el 1T",
+     "clave": "OU1T|0.5|over",
+     "p": 0.6737,
+     "cuota": 1.4,
+     "casa": "Bet365",
+     "inicio": "2026-10-10T19:00:00-05:00"
+    },
+    {
+     "gid": "4760818",
+     "partido": "Universitario vs FBC Melgar",
+     "texto": "Universitario recibe gol",
+     "clave": "CS||local_no",
+     "p": 0.6222,
+     "cuota": 1.57,
+     "casa": "Bet365",
+     "inicio": "2026-10-10T19:00:00-05:00"
+    }
+   ],
+   "en_ticket": true,
+   "xi": "393797,478387,505190,3226498,3234845,3993952,4710874,47844909,50778574,56897446,64944308|137980,275266,347470,351160,460569,648658,12728007,13334880,50627852,50635855,52833089",
+   "conf": false
   },
   "4760820": {
    "partido": "Comerciantes Unidos vs Juan Pablo II College",
@@ -453,5 +509,33 @@
   "4760818": 1791630101886,
   "4760820": 1791630101568
  },
- "tickets": []
+ "tickets": [
+  {
+   "piernas": [
+    {
+     "gid": "4760818",
+     "partido": "Universitario vs FBC Melgar",
+     "texto": "No hay empate",
+     "clave": "DC||12",
+     "p": 0.7061,
+     "cuota": 1.36,
+     "casa": "Bet365",
+     "inicio": "2026-10-10T19:00:00-05:00"
+    },
+    {
+     "gid": "4632654",
+     "partido": "São Paulo vs Vitória",
+     "texto": "Menos de 3.5 goles",
+     "clave": "OU|3.5|under",
+     "p": 0.8307,
+     "cuota": 1.25,
+     "casa": "Bet365",
+     "inicio": "2026-10-10T19:00:00-05:00"
+    }
+   ],
+   "p": 0.5865572699999999,
+   "cuota": 1.7000000000000002,
+   "t": 1791674427.7610548
+  }
+ ]
 }
