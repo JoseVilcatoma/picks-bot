@@ -64,3 +64,7 @@ fecha,game_id,partido,liga,tipo,mercado,clave,prob,cuota,casa,cuota_justa,ev,sta
 2026-10-09 13:18,4757171,SC Braga vs Sporting CP,"Portugal, Primeira Liga",modelo,Menos de 9.5 córners,CORN|9.5|under,0.7511,,,1.33,,,si,G,
 2026-10-09 13:18,4757171,SC Braga vs Sporting CP,"Portugal, Primeira Liga",apostable,Menos de 1.5 goles,OU|1.5|under,0.4142,3.50,Bet365,2.41,0.4499,30.00,si,P,-30.00
 2026-10-09 13:18,4757171,SC Braga vs Sporting CP,"Portugal, Primeira Liga",apostable,Empate,1X2||X,0.3411,3.35,Coolbet,2.93,0.1426,7.50,si,P,-7.50
+2026-10-09 19:07,4760815,Deportivo Garcilaso vs Sport Huancayo,"Perú, Liga 1 - Clausura",seguro,Sport Huancayo recibe gol,CS||visita_no,0.7961,1.25,Bet365,1.26,-0.0049,,si,,
+2026-10-09 19:07,4760815,Deportivo Garcilaso vs Sport Huancayo,"Perú, Liga 1 - Clausura",modelo,Más de 3.5 tarjetas,CARDS|3.5|over,0.8257,,,1.21,,,si,,
+2026-10-09 19:07,4760815,Deportivo Garcilaso vs Sport Huancayo,"Perú, Liga 1 - Clausura",modelo,Más de 8.5 córners,CORN|8.5|over,0.6744,,,1.48,,,si,,
+2026-10-09 19:07,4760815,Deportivo Garcilaso vs Sport Huancayo,"Perú, Liga 1 - Clausura",apostable,Deportivo Garcilaso deja el arco en cero,CS||local_si,0.3753,3.00,Bet365,2.66,0.1258,8.00,si,,
