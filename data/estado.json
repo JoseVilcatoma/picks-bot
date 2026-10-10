@@ -304,8 +304,10 @@
    "partido": "RB Leipzig vs Eintracht Frankfurt",
    "liga": "Alemania, Bundesliga",
    "inicio": "2026-10-10T11:30:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1791647164.1121826
+   "estado": "enviado",
+   "ultimo": 1791647436.0172718,
+   "xi": "565116,889605,3180934,4346740,8048881,58698523,59101484,61211738,62453007,64157972,75522153|646522,3155273,8687950,50444832,50548091,50584956,60085508,61213413,67450295,71155061,71901098",
+   "conf": true
   },
   "4757169": {
    "partido": "Viseu vs Estoril",
@@ -319,7 +321,7 @@
    "liga": "Portugal, Primeira Liga",
    "inicio": "2026-10-10T12:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1791647191.329816
+   "ultimo": 1791647461.3352425
   },
   "4757174": {
    "partido": "Casa Pia AC vs Santa Clara",
