@@ -2106,8 +2106,8 @@
    "partido": "UTC Cajamarca vs Sporting Cristal",
    "liga": "Perú, Liga 1 - Clausura",
    "inicio": "2026-10-11T13:00:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1791738654.8245354,
+   "estado": "liquidado",
+   "ultimo": 1791748588.4025614,
    "pierna": [
     {
      "gid": "4760814",
@@ -2172,7 +2172,20 @@
    ],
    "xi": "212186,468362,943603,983229,4329678,6878973,7980461,56819961,60649750,64933728,72043548|357602,386754,389408,431628,485269,486424,5697711,15806567,25270975,50613999,71373581",
    "conf": true,
-   "en_ticket": true
+   "en_ticket": true,
+   "r": {
+    "hg": 0,
+    "ag": 1,
+    "ht": [
+     0,
+     1
+    ],
+    "corners": 10.0,
+    "corners_h": 5.0,
+    "corners_a": 5.0,
+    "corners_1t": 4.0,
+    "cards": 6.0
+   }
   },
   "4760817": {
    "partido": "Cusco FC vs Alianza Lima",
@@ -2186,7 +2199,7 @@
    "liga": "Perú, Liga 1 - Clausura",
    "inicio": "2026-10-11T15:30:00-05:00",
    "estado": "enviado",
-   "ultimo": 1791748221.2801218,
+   "ultimo": 1791748588.6356719,
    "pierna": [
     {
      "gid": "4760819",
