@@ -328,14 +328,14 @@ fecha,game_id,partido,liga,tipo,mercado,clave,prob,cuota,casa,cuota_justa,ev,sta
 2026-10-11 07:44,4755382,1. FC Köln vs Borussia Mönchengladbach,"Alemania, Bundesliga",modelo,Más de 1.5 goles,OU|1.5|over,0.8412,,,1.19,,,si,G,
 2026-10-11 07:44,4755382,1. FC Köln vs Borussia Mönchengladbach,"Alemania, Bundesliga",modelo,Más de 2.5 tarjetas,CARDS|2.5|over,0.8066,,,1.24,,,si,G,
 2026-10-11 07:44,4755382,1. FC Köln vs Borussia Mönchengladbach,"Alemania, Bundesliga",ticket,Borussia Mönchengladbach recibe gol + Más de 2.5 goles,CS||visita_no&OU|2.5|over,0.5743,1.77,,1.74,0.0148,10.00,,G,7.70
-2026-10-11 08:33,4757176,Rio Ave vs Nacional Madeira,"Portugal, Primeira Liga",seguro,Menos de 3.5 goles,OU|3.5|under,0.8400,1.33,Bet365,1.19,0.1172,,si,,
-2026-10-11 08:33,4757176,Rio Ave vs Nacional Madeira,"Portugal, Primeira Liga",seguro,Rio Ave o empate,DC||1X,0.7266,1.30,Bet365,1.38,-0.0555,,si,,
-2026-10-11 08:33,4757176,Rio Ave vs Nacional Madeira,"Portugal, Primeira Liga",arriesgado,Rio Ave deja el arco en cero,CS||local_si,0.4189,2.75,Bet365,2.39,0.1521,,si,,
-2026-10-11 08:33,4757176,Rio Ave vs Nacional Madeira,"Portugal, Primeira Liga",arriesgado,Empate,1X2||X,0.3287,3.40,Bet365,3.04,0.1176,,si,,
-2026-10-11 08:33,4757176,Rio Ave vs Nacional Madeira,"Portugal, Primeira Liga",modelo,Menos de 4.5 tarjetas,CARDS|4.5|under,0.8227,,,1.22,,,si,,
-2026-10-11 08:33,4757176,Rio Ave vs Nacional Madeira,"Portugal, Primeira Liga",modelo,Menos de 10.5 córners,CORN|10.5|under,0.6556,1.67,Bet365,1.53,0.0948,,si,,
-2026-10-11 08:33,4757176,Rio Ave vs Nacional Madeira,"Portugal, Primeira Liga",apostable,Menos de 2.5 goles,OU|2.5|under,0.6672,1.87,Tipico,1.50,0.2260,30.00,si,,
-2026-10-11 08:33,4757176,Rio Ave vs Nacional Madeira,"Portugal, Primeira Liga",ticket,Menos de 2.5 goles,OU|2.5|under,0.6672,1.87,,1.50,0.2477,10.00,,,
+2026-10-11 08:33,4757176,Rio Ave vs Nacional Madeira,"Portugal, Primeira Liga",seguro,Menos de 3.5 goles,OU|3.5|under,0.8400,1.33,Bet365,1.19,0.1172,,si,P,
+2026-10-11 08:33,4757176,Rio Ave vs Nacional Madeira,"Portugal, Primeira Liga",seguro,Rio Ave o empate,DC||1X,0.7266,1.30,Bet365,1.38,-0.0555,,si,G,
+2026-10-11 08:33,4757176,Rio Ave vs Nacional Madeira,"Portugal, Primeira Liga",arriesgado,Rio Ave deja el arco en cero,CS||local_si,0.4189,2.75,Bet365,2.39,0.1521,,si,P,
+2026-10-11 08:33,4757176,Rio Ave vs Nacional Madeira,"Portugal, Primeira Liga",arriesgado,Empate,1X2||X,0.3287,3.40,Bet365,3.04,0.1176,,si,P,
+2026-10-11 08:33,4757176,Rio Ave vs Nacional Madeira,"Portugal, Primeira Liga",modelo,Menos de 4.5 tarjetas,CARDS|4.5|under,0.8227,,,1.22,,,si,G,
+2026-10-11 08:33,4757176,Rio Ave vs Nacional Madeira,"Portugal, Primeira Liga",modelo,Menos de 10.5 córners,CORN|10.5|under,0.6556,1.67,Bet365,1.53,0.0948,,si,P,
+2026-10-11 08:33,4757176,Rio Ave vs Nacional Madeira,"Portugal, Primeira Liga",apostable,Menos de 2.5 goles,OU|2.5|under,0.6672,1.87,Tipico,1.50,0.2260,30.00,si,P,-30.00
+2026-10-11 08:33,4757176,Rio Ave vs Nacional Madeira,"Portugal, Primeira Liga",ticket,Menos de 2.5 goles,OU|2.5|under,0.6672,1.87,,1.50,0.2477,10.00,,P,-10.00
 2026-10-11 08:41,4750831,Real Sociedad vs RC Deportivo,"España, LaLiga",seguro,Más de 1.5 goles,OU|1.5|over,0.7790,1.22,Bet365,1.28,-0.0496,,si,G,
 2026-10-11 08:41,4750831,Real Sociedad vs RC Deportivo,"España, LaLiga",seguro,Real Sociedad o empate,DC||1X,0.7729,1.18,Bet365,1.29,-0.0880,,si,G,
 2026-10-11 08:41,4750831,Real Sociedad vs RC Deportivo,"España, LaLiga",arriesgado,Más de 1.5 goles en el 1T,OU1T|1.5|over,0.3679,2.50,Bet365,2.72,-0.0802,,si,G,
@@ -383,3 +383,4 @@ fecha,game_id,partido,liga,tipo,mercado,clave,prob,cuota,casa,cuota_justa,ev,sta
 2026-10-11 10:58,4757177,Benfica vs Guimarães,"Portugal, Primeira Liga",modelo,Más de 2.5 tarjetas,CARDS|2.5|over,0.8227,,,1.22,,,si,,
 2026-10-11 10:58,4757177,Benfica vs Guimarães,"Portugal, Primeira Liga",modelo,Más de 1.5 goles,OU|1.5|over,0.8190,,,1.22,,,si,,
 2026-10-11 10:58,4757177,Benfica vs Guimarães,"Portugal, Primeira Liga",ticket,Gana Benfica + Más de 2.5 goles,1X2||1&OU|2.5|over,0.5414,1.85,,1.85,0.0015,10.00,,,
+2026-10-11 11:36,4750831+4757176,Real Sociedad vs RC Deportivo / Rio Ave vs Nacional Madeira,,ticket2,Más de 0.5 goles en el 1T + Menos de 3.5 goles,,0.5996,1.77,,1.67,0.0606,10.00,,P,-10.00

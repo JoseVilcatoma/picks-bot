@@ -1507,8 +1507,8 @@
    "partido": "Rio Ave vs Nacional Madeira",
    "liga": "Portugal, Primeira Liga",
    "inicio": "2026-10-11T09:30:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1791735986.6957715,
+   "estado": "liquidado",
+   "ultimo": 1791736591.661917,
    "pierna": [
     {
      "gid": "4757176",
@@ -1573,7 +1573,20 @@
    ],
    "xi": "1335607,49517813,55500010,56082037,63094701,66704397,66873553,71545449,75491601,76143758,78674293|7951019,50273568,57110354,58253141,59438356,64933804,67617048,70795530,71329623,77371987,79590358",
    "conf": true,
-   "en_ticket": true
+   "en_ticket": true,
+   "r": {
+    "hg": 3,
+    "ag": 2,
+    "ht": [
+     1,
+     1
+    ],
+    "corners": 16.0,
+    "corners_h": 8.0,
+    "corners_a": 8.0,
+    "corners_1t": 8.0,
+    "cards": 4.0
+   }
   },
   "4757177": {
    "partido": "Benfica vs Guimarães",
@@ -1715,33 +1728,6 @@
   "4869278": 1791686716825
  },
  "tickets": [
-  {
-   "piernas": [
-    {
-     "gid": "4750831",
-     "partido": "Real Sociedad vs RC Deportivo",
-     "texto": "Más de 0.5 goles en el 1T",
-     "clave": "OU1T|0.5|over",
-     "p": 0.7138,
-     "cuota": 1.33,
-     "casa": "Bet365",
-     "inicio": "2026-10-11T09:15:00-05:00"
-    },
-    {
-     "gid": "4757176",
-     "partido": "Rio Ave vs Nacional Madeira",
-     "texto": "Menos de 3.5 goles",
-     "clave": "OU|3.5|under",
-     "p": 0.84,
-     "cuota": 1.33,
-     "casa": "Bet365",
-     "inicio": "2026-10-11T09:30:00-05:00"
-    }
-   ],
-   "p": 0.599592,
-   "cuota": 1.7689000000000001,
-   "t": 1791725717.462688
-  },
   {
    "piernas": [
     {
