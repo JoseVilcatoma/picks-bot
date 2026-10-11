@@ -515,14 +515,59 @@
    "liga": "Italia, Serie A",
    "inicio": "2026-10-11T08:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1791720482.7387075
+   "ultimo": 1791720757.3741663
   },
   "4732685": {
    "partido": "Lazio vs Monza",
    "liga": "Italia, Serie A",
    "inicio": "2026-10-11T08:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1791720482.8832138
+   "estado": "enviado",
+   "ultimo": 1791720757.556302,
+   "pierna": [
+    {
+     "gid": "4732685",
+     "partido": "Lazio vs Monza",
+     "texto": "Más de 1.5 goles",
+     "clave": "OU|1.5|over",
+     "p": 0.7945,
+     "cuota": 1.22,
+     "casa": "Bet365",
+     "inicio": "2026-10-11T08:00:00-05:00"
+    },
+    {
+     "gid": "4732685",
+     "partido": "Lazio vs Monza",
+     "texto": "No hay empate",
+     "clave": "DC||12",
+     "p": 0.7567,
+     "cuota": 1.25,
+     "casa": "Bet365",
+     "inicio": "2026-10-11T08:00:00-05:00"
+    },
+    {
+     "gid": "4732685",
+     "partido": "Lazio vs Monza",
+     "texto": "Más de 0.5 goles en el 1T",
+     "clave": "OU1T|0.5|over",
+     "p": 0.7328,
+     "cuota": 1.3,
+     "casa": "Bet365",
+     "inicio": "2026-10-11T08:00:00-05:00"
+    },
+    {
+     "gid": "4732685",
+     "partido": "Lazio vs Monza",
+     "texto": "Lazio recibe gol",
+     "clave": "CS||local_no",
+     "p": 0.649,
+     "cuota": 1.5,
+     "casa": "Bet365",
+     "inicio": "2026-10-11T08:00:00-05:00"
+    }
+   ],
+   "en_ticket": true,
+   "xi": "510933,3071410,15244106,26815119,29999056,41018240,49552142,62194167,64141744,65235149,66308500|669189,3167997,8929693,49661699,50441571,51545033,68025729,70865619,71342972,75407538,75479557",
+   "conf": true
   },
   "4732688": {
    "partido": "Como vs AS Roma",
@@ -685,7 +730,8 @@
     }
    ],
    "xi": "26903,1766803,3136375,3413846,47429447,50568830,50676834,53769150,63192118,76875194,78409092|50736377,54901981,56978378,67166934,68028328,68041691,71340815,75512013,76872509,76963138,77038325",
-   "conf": true
+   "conf": true,
+   "en_ticket": true
   },
   "4742042": {
    "partido": "Liverpool vs Manchester City",
@@ -1050,6 +1096,33 @@
    "p": 0.60945808,
    "cuota": 1.7544000000000002,
    "t": 1791719864.5752423
+  },
+  {
+   "piernas": [
+    {
+     "gid": "4732685",
+     "partido": "Lazio vs Monza",
+     "texto": "No hay empate",
+     "clave": "DC||12",
+     "p": 0.7567,
+     "cuota": 1.25,
+     "casa": "Bet365",
+     "inicio": "2026-10-11T08:00:00-05:00"
+    },
+    {
+     "gid": "4735247",
+     "partido": "Niza vs Estrasburgo",
+     "texto": "Niza o empate",
+     "clave": "DC||1X",
+     "p": 0.7605,
+     "cuota": 1.36,
+     "casa": "Bet365",
+     "inicio": "2026-10-11T08:00:00-05:00"
+    }
+   ],
+   "p": 0.57547035,
+   "cuota": 1.7000000000000002,
+   "t": 1791720922.4623327
   }
  ]
 }
