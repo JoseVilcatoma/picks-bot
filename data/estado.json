@@ -59,8 +59,8 @@
    "partido": "São Paulo vs Vitória",
    "liga": "Brasil, Brasileirão",
    "inicio": "2026-10-10T19:00:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1791683775.6095479,
+   "estado": "liquidado",
+   "ultimo": 1791684393.6949835,
    "pierna": [
     {
      "gid": "4632654",
@@ -95,7 +95,20 @@
    ],
    "xi": "400157,430655,534772,543187,3219228,3320593,13816079,55416459,71071406,77674618,77691484|353876,3059914,3268277,4802802,12679086,13143233,15168804,64935008,65768674,66264863,71355882",
    "conf": true,
-   "en_ticket": true
+   "en_ticket": true,
+   "r": {
+    "hg": 2,
+    "ag": 1,
+    "ht": [
+     1,
+     1
+    ],
+    "corners": 8.0,
+    "corners_h": 6.0,
+    "corners_a": 2.0,
+    "corners_1t": 5.0,
+    "cards": 7.0
+   }
   },
   "4632655": {
    "partido": "Vasco Da Gama vs Remo",
@@ -504,33 +517,5 @@
   "4760818": 1791630101886,
   "4760820": 1791630101568
  },
- "tickets": [
-  {
-   "piernas": [
-    {
-     "gid": "4760818",
-     "partido": "Universitario vs FBC Melgar",
-     "texto": "No hay empate",
-     "clave": "DC||12",
-     "p": 0.7061,
-     "cuota": 1.36,
-     "casa": "Bet365",
-     "inicio": "2026-10-10T19:00:00-05:00"
-    },
-    {
-     "gid": "4632654",
-     "partido": "São Paulo vs Vitória",
-     "texto": "Menos de 3.5 goles",
-     "clave": "OU|3.5|under",
-     "p": 0.8307,
-     "cuota": 1.25,
-     "casa": "Bet365",
-     "inicio": "2026-10-10T19:00:00-05:00"
-    }
-   ],
-   "p": 0.5865572699999999,
-   "cuota": 1.7000000000000002,
-   "t": 1791674427.7610548
-  }
- ]
+ "tickets": []
 }
