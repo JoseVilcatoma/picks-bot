@@ -515,14 +515,14 @@
    "liga": "Italia, Serie A",
    "inicio": "2026-10-11T08:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1791719372.9540553
+   "ultimo": 1791719643.5052955
   },
   "4732685": {
    "partido": "Lazio vs Monza",
    "liga": "Italia, Serie A",
    "inicio": "2026-10-11T08:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1791719373.1171641
+   "ultimo": 1791719643.6784987
   },
   "4732688": {
    "partido": "Como vs AS Roma",
@@ -621,7 +621,7 @@
    "liga": "Francia, Ligue 1",
    "inicio": "2026-10-11T08:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1791719373.1985278
+   "ultimo": 1791719643.7584999
   },
   "4742042": {
    "partido": "Liverpool vs Manchester City",
@@ -634,15 +634,105 @@
    "partido": "Hull City vs Everton",
    "liga": "Inglaterra, Premier League",
    "inicio": "2026-10-11T08:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1791719400.364459
+   "estado": "enviado",
+   "ultimo": 1791719643.8398178,
+   "pierna": [
+    {
+     "gid": "4742045",
+     "partido": "Hull City vs Everton",
+     "texto": "Menos de 3.5 goles",
+     "clave": "OU|3.5|under",
+     "p": 0.8404,
+     "cuota": 1.29,
+     "casa": "Bet365",
+     "inicio": "2026-10-11T08:00:00-05:00"
+    },
+    {
+     "gid": "4742045",
+     "partido": "Hull City vs Everton",
+     "texto": "Everton o empate",
+     "clave": "DC||X2",
+     "p": 0.7697,
+     "cuota": 1.29,
+     "casa": "Bet365",
+     "inicio": "2026-10-11T08:00:00-05:00"
+    },
+    {
+     "gid": "4742045",
+     "partido": "Hull City vs Everton",
+     "texto": "Menos de 1.5 goles en el 1T",
+     "clave": "OU1T|1.5|under",
+     "p": 0.7645,
+     "cuota": 1.36,
+     "casa": "Bet365",
+     "inicio": "2026-10-11T08:00:00-05:00"
+    },
+    {
+     "gid": "4742045",
+     "partido": "Hull City vs Everton",
+     "texto": "No hay empate",
+     "clave": "DC||12",
+     "p": 0.6833,
+     "cuota": 1.33,
+     "casa": "Bet365",
+     "inicio": "2026-10-11T08:00:00-05:00"
+    }
+   ],
+   "xi": "435138,526669,534530,1381354,1761369,8663013,32237585,49727649,51755120,55148762,67935655|348472,355086,478397,491469,596447,12433748,25965721,49684197,50763260,70782880,75441450",
+   "conf": true,
+   "en_ticket": true
   },
   "4742046": {
    "partido": "Crystal Palace vs Nottingham Forest",
    "liga": "Inglaterra, Premier League",
    "inicio": "2026-10-11T08:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1791719400.4480543
+   "estado": "enviado",
+   "ultimo": 1791719803.4852636,
+   "pierna": [
+    {
+     "gid": "4742046",
+     "partido": "Crystal Palace vs Nottingham Forest",
+     "texto": "Menos de 3.5 goles",
+     "clave": "OU|3.5|under",
+     "p": 0.7252,
+     "cuota": 1.36,
+     "casa": "Bet365",
+     "inicio": "2026-10-11T08:00:00-05:00"
+    },
+    {
+     "gid": "4742046",
+     "partido": "Crystal Palace vs Nottingham Forest",
+     "texto": "No hay empate",
+     "clave": "DC||12",
+     "p": 0.7145,
+     "cuota": 1.33,
+     "casa": "Bet365",
+     "inicio": "2026-10-11T08:00:00-05:00"
+    },
+    {
+     "gid": "4742046",
+     "partido": "Crystal Palace vs Nottingham Forest",
+     "texto": "Menos de 1.5 goles en el 1T",
+     "clave": "OU1T|1.5|under",
+     "p": 0.6728,
+     "cuota": 1.4,
+     "casa": "Bet365",
+     "inicio": "2026-10-11T08:00:00-05:00"
+    },
+    {
+     "gid": "4742046",
+     "partido": "Crystal Palace vs Nottingham Forest",
+     "texto": "Nottingham Forest o empate",
+     "clave": "DC||X2",
+     "p": 0.6447,
+     "cuota": 1.44,
+     "casa": "Bet365",
+     "inicio": "2026-10-11T08:00:00-05:00"
+    }
+   ],
+   "en_ticket": true,
+   "xi": "379422,560632,571198,834589,3183310,49658641,50752231,52342774,64697647,66683658,75390595|335651,502298,526648,666071,3211399,40902054,49499493,51429377,54943580,66457360,67689605",
+   "conf": true
   },
   "4750831": {
    "partido": "Real Sociedad vs RC Deportivo",
@@ -869,5 +959,33 @@
   "4760819": 1791686726831,
   "4869278": 1791686716825
  },
- "tickets": []
+ "tickets": [
+  {
+   "piernas": [
+    {
+     "gid": "4742046",
+     "partido": "Crystal Palace vs Nottingham Forest",
+     "texto": "Menos de 3.5 goles",
+     "clave": "OU|3.5|under",
+     "p": 0.7252,
+     "cuota": 1.36,
+     "casa": "Bet365",
+     "inicio": "2026-10-11T08:00:00-05:00"
+    },
+    {
+     "gid": "4742045",
+     "partido": "Hull City vs Everton",
+     "texto": "Menos de 3.5 goles",
+     "clave": "OU|3.5|under",
+     "p": 0.8404,
+     "cuota": 1.29,
+     "casa": "Bet365",
+     "inicio": "2026-10-11T08:00:00-05:00"
+    }
+   ],
+   "p": 0.60945808,
+   "cuota": 1.7544000000000002,
+   "t": 1791719864.5752423
+  }
+ ]
 }
