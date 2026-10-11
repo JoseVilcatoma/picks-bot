@@ -946,8 +946,8 @@
    "partido": "Liverpool vs Manchester City",
    "liga": "Inglaterra, Premier League",
    "inicio": "2026-10-11T10:30:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1791728619.5230904,
+   "estado": "liquidado",
+   "ultimo": 1791739530.3230991,
    "pierna": [
     {
      "gid": "4742042",
@@ -1012,7 +1012,20 @@
    ],
    "xi": "220953,558151,3344160,3886928,39077601,49449655,60734154,60909490,67987366,70789335,70896126|620429,1391166,3072169,13600912,39079597,40408252,48394475,49491936,51439135,55058114,68032675",
    "conf": true,
-   "en_ticket": true
+   "en_ticket": true,
+   "r": {
+    "hg": 0,
+    "ag": 3,
+    "ht": [
+     0,
+     0
+    ],
+    "corners": 11.0,
+    "corners_h": 5.0,
+    "corners_a": 6.0,
+    "corners_1t": 6.0,
+    "cards": 6.0
+   }
   },
   "4742045": {
    "partido": "Hull City vs Everton",
@@ -1461,8 +1474,8 @@
    "partido": "Friburgo vs Schalke 04",
    "liga": "Alemania, Bundesliga",
    "inicio": "2026-10-11T10:30:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1791728866.7861433,
+   "estado": "liquidado",
+   "ultimo": 1791739530.6676066,
    "pierna": [
     {
      "gid": "4755386",
@@ -1507,7 +1520,20 @@
    ],
    "en_ticket": true,
    "xi": "220585,418057,593193,3071285,49988887,53464344,61066404,66221753,69040955,70767985,70780165|334751,420080,449711,1759537,3189023,3345229,29409781,50080221,50678415,60936151,65396639",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 2,
+    "ag": 1,
+    "ht": [
+     1,
+     1
+    ],
+    "corners": 9.0,
+    "corners_h": 7.0,
+    "corners_a": 2.0,
+    "corners_1t": 7.0,
+    "cards": 4.0
+   }
   },
   "4757170": {
    "partido": "Arouca vs Estrela da Amadora",
@@ -1805,33 +1831,6 @@
   "4869278": 1791686716825
  },
  "tickets": [
-  {
-   "piernas": [
-    {
-     "gid": "4755386",
-     "partido": "Friburgo vs Schalke 04",
-     "texto": "Más de 0.5 goles en el 1T",
-     "clave": "OU1T|0.5|over",
-     "p": 0.7419,
-     "cuota": 1.29,
-     "casa": "Bet365",
-     "inicio": "2026-10-11T10:30:00-05:00"
-    },
-    {
-     "gid": "4742042",
-     "partido": "Liverpool vs Manchester City",
-     "texto": "Manchester City o empate",
-     "clave": "DC||X2",
-     "p": 0.7723,
-     "cuota": 1.33,
-     "casa": "Bet365",
-     "inicio": "2026-10-11T10:30:00-05:00"
-    }
-   ],
-   "p": 0.57296937,
-   "cuota": 1.7157000000000002,
-   "t": 1791728889.9281342
-  },
   {
    "piernas": [
     {
