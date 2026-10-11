@@ -37,15 +37,6 @@
    "xi": "84831,100802,358706,39367800,49552691,50385705,53015075,62356488,66382167,67332486,75422026|416870,42177207,49491937,50072970,51611636,60677012,64317526,64656029,70860145,70939626,75430996",
    "conf": true
   },
-  "4757175": {
-   "partido": "Moreirense vs Gil Vicente FC",
-   "liga": "Portugal, Primeira Liga",
-   "inicio": "2026-10-09T12:45:00-05:00",
-   "estado": "liquidado",
-   "ultimo": 1791575422.768835,
-   "xi": "343647,613358,54257121,54856962,64623933,67668882,70798946,70838125,70950858,75431317,76872471|308775,545153,896636,3064929,49955800,57607844,66301535,67974133,70862973,70950862,77080314",
-   "conf": true
-  },
   "4760815": {
    "partido": "Deportivo Garcilaso vs Sport Huancayo",
    "liga": "Perú, Liga 1 - Clausura",
@@ -487,7 +478,7 @@
    "liga": "Brasil, Brasileirão",
    "inicio": "2026-10-11T14:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 0
+   "ultimo": 1791740749.9432056
   },
   "4632653": {
    "partido": "Palmeiras vs Corinthians",
@@ -1282,7 +1273,7 @@
    "liga": "España, LaLiga",
    "inicio": "2026-10-11T14:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 0
+   "ultimo": 1791740750.0003633
   },
   "4750838": {
    "partido": "Elche CF vs Celta de Vigo",
