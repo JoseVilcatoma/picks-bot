@@ -572,7 +572,8 @@
     }
    ],
    "xi": "292149,348551,527000,3544280,14668157,29951241,50136909,50403658,61387706,70206104,76144645|308108,513713,638781,2055909,3071411,9830558,28043772,49915522,50790794,61032003,63094718",
-   "conf": true
+   "conf": true,
+   "en_ticket": true
   },
   "4732684": {
    "partido": "Lecce vs Bologna",
@@ -1277,8 +1278,73 @@
    "partido": "Real Betis vs Osasuna",
    "liga": "España, LaLiga",
    "inicio": "2026-10-11T11:30:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1791732317.2317133
+   "estado": "enviado",
+   "ultimo": 1791732587.149211,
+   "pierna": [
+    {
+     "gid": "4750839",
+     "partido": "Real Betis vs Osasuna",
+     "texto": "Más de 1.5 goles",
+     "clave": "OU|1.5|over",
+     "p": 0.7594,
+     "cuota": 1.2,
+     "casa": "Bet365",
+     "inicio": "2026-10-11T11:30:00-05:00"
+    },
+    {
+     "gid": "4750839",
+     "partido": "Real Betis vs Osasuna",
+     "texto": "Más de 0.5 goles en el 1T",
+     "clave": "OU1T|0.5|over",
+     "p": 0.7059,
+     "cuota": 1.29,
+     "casa": "Bet365",
+     "inicio": "2026-10-11T11:30:00-05:00"
+    },
+    {
+     "gid": "4750839",
+     "partido": "Real Betis vs Osasuna",
+     "texto": "Menos de 3.5 goles",
+     "clave": "OU|3.5|under",
+     "p": 0.6952,
+     "cuota": 1.5,
+     "casa": "Bet365",
+     "inicio": "2026-10-11T11:30:00-05:00"
+    },
+    {
+     "gid": "4750839",
+     "partido": "Real Betis vs Osasuna",
+     "texto": "Menos de 1.5 goles en el 1T",
+     "clave": "OU1T|1.5|under",
+     "p": 0.6474,
+     "cuota": 1.53,
+     "casa": "Bet365",
+     "inicio": "2026-10-11T11:30:00-05:00"
+    },
+    {
+     "gid": "4750839",
+     "partido": "Real Betis vs Osasuna",
+     "texto": "Real Betis recibe gol",
+     "clave": "CS||local_no",
+     "p": 0.5928,
+     "cuota": 1.57,
+     "casa": "Bet365",
+     "inicio": "2026-10-11T11:30:00-05:00"
+    },
+    {
+     "gid": "4750839",
+     "partido": "Real Betis vs Osasuna",
+     "texto": "Gana Real Betis",
+     "clave": "1X2||1",
+     "p": 0.5862,
+     "cuota": 1.56,
+     "casa": "1xBet",
+     "inicio": "2026-10-11T11:30:00-05:00"
+    }
+   ],
+   "en_ticket": true,
+   "xi": "106049,329571,435115,976812,3143139,3209042,18094605,30465820,46854548,50896962,62694855|204239,350828,414858,541593,542817,1898668,35158639,38876493,66362474,71542182,77632932",
+   "conf": true
   },
   "4755382": {
    "partido": "1. FC Köln vs Borussia Mönchengladbach",
@@ -1669,6 +1735,33 @@
    "p": 0.57296937,
    "cuota": 1.7157000000000002,
    "t": 1791728889.9281342
+  },
+  {
+   "piernas": [
+    {
+     "gid": "4750839",
+     "partido": "Real Betis vs Osasuna",
+     "texto": "Menos de 3.5 goles",
+     "clave": "OU|3.5|under",
+     "p": 0.6952,
+     "cuota": 1.5,
+     "casa": "Bet365",
+     "inicio": "2026-10-11T11:30:00-05:00"
+    },
+    {
+     "gid": "4732682",
+     "partido": "Sassuolo vs AC Milan",
+     "texto": "AC Milan o empate",
+     "clave": "DC||X2",
+     "p": 0.7598,
+     "cuota": 1.25,
+     "casa": "Bet365",
+     "inicio": "2026-10-11T11:00:00-05:00"
+    }
+   ],
+   "p": 0.5282129600000001,
+   "cuota": 1.875,
+   "t": 1791732588.3387241
   }
  ]
 }
