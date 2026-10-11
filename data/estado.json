@@ -774,8 +774,53 @@
    "partido": "Cagliari vs Juventus",
    "liga": "Italia, Serie A",
    "inicio": "2026-10-11T13:45:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1791741613.3298059
+   "estado": "enviado",
+   "ultimo": 1791741894.8885598,
+   "pierna": [
+    {
+     "gid": "4732689",
+     "partido": "Cagliari vs Juventus",
+     "texto": "Menos de 3.5 goles",
+     "clave": "OU|3.5|under",
+     "p": 0.7866,
+     "cuota": 1.3,
+     "casa": "Bet365",
+     "inicio": "2026-10-11T13:45:00-05:00"
+    },
+    {
+     "gid": "4732689",
+     "partido": "Cagliari vs Juventus",
+     "texto": "No hay empate",
+     "clave": "DC||12",
+     "p": 0.7202,
+     "cuota": 1.25,
+     "casa": "Bet365",
+     "inicio": "2026-10-11T13:45:00-05:00"
+    },
+    {
+     "gid": "4732689",
+     "partido": "Cagliari vs Juventus",
+     "texto": "Menos de 1.5 goles en el 1T",
+     "clave": "OU1T|1.5|under",
+     "p": 0.7108,
+     "cuota": 1.4,
+     "casa": "Bet365",
+     "inicio": "2026-10-11T13:45:00-05:00"
+    },
+    {
+     "gid": "4732689",
+     "partido": "Cagliari vs Juventus",
+     "texto": "Gana Juventus",
+     "clave": "1X2||2",
+     "p": 0.5363,
+     "cuota": 1.62,
+     "casa": "1xBet",
+     "inicio": "2026-10-11T13:45:00-05:00"
+    }
+   ],
+   "en_ticket": true,
+   "xi": "472806,560500,9401336,42946303,46512017,61426991,61685045,66186413,67891435,71690691,77743469|553143,1006401,3094565,3144433,3229380,3260720,3456444,4873827,50999036,51220665,52338804",
+   "conf": true
   },
   "4735245": {
    "partido": "Troyes vs Olympique Marsella",
@@ -1337,7 +1382,8 @@
     }
    ],
    "xi": "28334,1766700,10526467,15809523,51019318,60835756,64816557,66437445,66566911,71407785,75254319|441765,502893,538119,561247,676819,1760855,3174103,3228816,5247024,50481885,64759691",
-   "conf": true
+   "conf": true,
+   "en_ticket": true
   },
   "4750838": {
    "partido": "Elche CF vs Celta de Vigo",
@@ -1995,6 +2041,33 @@
    "p": 0.47905632000000004,
    "cuota": 2.0253,
    "t": 1791740383.6383734
+  },
+  {
+   "piernas": [
+    {
+     "gid": "4732689",
+     "partido": "Cagliari vs Juventus",
+     "texto": "Menos de 1.5 goles en el 1T",
+     "clave": "OU1T|1.5|under",
+     "p": 0.7108,
+     "cuota": 1.4,
+     "casa": "Bet365",
+     "inicio": "2026-10-11T13:45:00-05:00"
+    },
+    {
+     "gid": "4750834",
+     "partido": "Racing de Santander vs Valencia CF",
+     "texto": "No hay empate",
+     "clave": "DC||12",
+     "p": 0.725,
+     "cuota": 1.3,
+     "casa": "Bet365",
+     "inicio": "2026-10-11T14:00:00-05:00"
+    }
+   ],
+   "p": 0.51533,
+   "cuota": 1.8199999999999998,
+   "t": 1791741948.8637998
   }
  ]
 }
