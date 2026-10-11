@@ -364,12 +364,12 @@ fecha,game_id,partido,liga,tipo,mercado,clave,prob,cuota,casa,cuota_justa,ev,sta
 2026-10-11 09:35,4735246,Rennes vs Auxerre,"Francia, Ligue 1",ticket,Auxerre +1.5 (hándicap),AH|-1.5|visita,0.6925,1.72,,1.44,0.1912,10.00,,P,-10.00
 2026-10-11 09:55,4732685+4735247,Lazio vs Monza / Niza vs Estrasburgo,,ticket2,No hay empate + Niza o empate,,0.5755,1.70,,1.74,-0.0217,10.00,,G,7.00
 2026-10-11 10:06,4742046+4742045,Crystal Palace vs Nottingham Forest / Hull City vs Everton,,ticket2,Menos de 3.5 goles + Menos de 3.5 goles,,0.6095,1.75,,1.64,0.0692,10.00,,P,-10.00
-2026-10-11 10:19,4732682,Sassuolo vs AC Milan,"Italia, Serie A",seguro,AC Milan o empate,DC||X2,0.7598,1.25,Bet365,1.32,-0.0502,,si,,
-2026-10-11 10:19,4732682,Sassuolo vs AC Milan,"Italia, Serie A",seguro,Más de 1.5 goles,OU|1.5|over,0.7383,1.20,Bet365,1.35,-0.1140,,si,,
-2026-10-11 10:19,4732682,Sassuolo vs AC Milan,"Italia, Serie A",arriesgado,Empate,1X2||X,0.2756,3.75,1xBet,3.63,0.0333,,si,,
-2026-10-11 10:19,4732682,Sassuolo vs AC Milan,"Italia, Serie A",modelo,Menos de 5.5 tarjetas,CARDS|5.5|under,0.8382,,,1.19,,,si,,
-2026-10-11 10:19,4732682,Sassuolo vs AC Milan,"Italia, Serie A",modelo,Menos de 11.5 córners,CORN|11.5|under,0.7055,,,1.42,,,si,,
-2026-10-11 10:19,4732682,Sassuolo vs AC Milan,"Italia, Serie A",ticket,Más de 2.5 goles,OU|2.5|over,0.4900,1.72,,2.04,-0.1572,10.00,,,
+2026-10-11 10:19,4732682,Sassuolo vs AC Milan,"Italia, Serie A",seguro,AC Milan o empate,DC||X2,0.7598,1.25,Bet365,1.32,-0.0502,,si,G,
+2026-10-11 10:19,4732682,Sassuolo vs AC Milan,"Italia, Serie A",seguro,Más de 1.5 goles,OU|1.5|over,0.7383,1.20,Bet365,1.35,-0.1140,,si,G,
+2026-10-11 10:19,4732682,Sassuolo vs AC Milan,"Italia, Serie A",arriesgado,Empate,1X2||X,0.2756,3.75,1xBet,3.63,0.0333,,si,G,
+2026-10-11 10:19,4732682,Sassuolo vs AC Milan,"Italia, Serie A",modelo,Menos de 5.5 tarjetas,CARDS|5.5|under,0.8382,,,1.19,,,si,G,
+2026-10-11 10:19,4732682,Sassuolo vs AC Milan,"Italia, Serie A",modelo,Menos de 11.5 córners,CORN|11.5|under,0.7055,,,1.42,,,si,G,
+2026-10-11 10:19,4732682,Sassuolo vs AC Milan,"Italia, Serie A",ticket,Más de 2.5 goles,OU|2.5|over,0.4900,1.72,,2.04,-0.1572,10.00,,P,-10.00
 2026-10-11 10:29,4750839,Real Betis vs Osasuna,"España, LaLiga",seguro,No hay empate,DC||12,0.7669,1.18,Bet365,1.30,-0.0950,,si,,
 2026-10-11 10:29,4750839,Real Betis vs Osasuna,"España, LaLiga",seguro,Más de 1.5 goles,OU|1.5|over,0.7594,1.20,Bet365,1.32,-0.0888,,si,,
 2026-10-11 10:29,4750839,Real Betis vs Osasuna,"España, LaLiga",arriesgado,Menos de 3.5 tarjetas,CARDS|3.5|under,0.4425,2.10,Bet365,2.26,-0.0708,,si,,

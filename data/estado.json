@@ -478,7 +478,7 @@
    "liga": "Brasil, Brasileirão",
    "inicio": "2026-10-11T14:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1791741735.1674552
+   "ultimo": 1791742072.8428829
   },
   "4632653": {
    "partido": "Palmeiras vs Corinthians",
@@ -498,8 +498,8 @@
    "partido": "Sassuolo vs AC Milan",
    "liga": "Italia, Serie A",
    "inicio": "2026-10-11T11:00:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1791741359.3131135,
+   "estado": "liquidado",
+   "ultimo": 1791742072.9175012,
    "pierna": [
     {
      "gid": "4732682",
@@ -564,7 +564,20 @@
    ],
    "xi": "292149,348551,527000,3544280,14668157,29951241,50136909,50403658,61387706,70206104,76144645|308108,513713,638781,2055909,3071411,9830558,28043772,49915522,50790794,61032003,63094718",
    "conf": true,
-   "en_ticket": true
+   "en_ticket": true,
+   "r": {
+    "hg": 1,
+    "ag": 1,
+    "ht": [
+     0,
+     0
+    ],
+    "corners": 8.0,
+    "corners_h": 3.0,
+    "corners_a": 5.0,
+    "corners_1t": 4.0,
+    "cards": 5.0
+   }
   },
   "4732684": {
    "partido": "Lecce vs Bologna",
