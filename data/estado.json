@@ -608,7 +608,7 @@
    "liga": "Italia, Serie A",
    "inicio": "2026-10-11T05:30:00-05:00",
    "estado": "enviado",
-   "ultimo": 1791712082.6684954,
+   "ultimo": 1791721607.5493603,
    "pierna": [
     {
      "gid": "4732688",
@@ -975,7 +975,7 @@
    "liga": "Alemania, Bundesliga",
    "inicio": "2026-10-11T08:30:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1791721364.1515584
+   "ultimo": 1791721607.686805
   },
   "4755386": {
    "partido": "Friburgo vs Schalke 04",
