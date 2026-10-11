@@ -528,8 +528,72 @@
    "partido": "Como vs AS Roma",
    "liga": "Italia, Serie A",
    "inicio": "2026-10-11T05:30:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1791711829.3207088
+   "estado": "enviado",
+   "ultimo": 1791712082.6684954,
+   "pierna": [
+    {
+     "gid": "4732688",
+     "partido": "Como vs AS Roma",
+     "texto": "AS Roma recibe gol",
+     "clave": "CS||visita_no",
+     "p": 0.7417,
+     "cuota": 1.2,
+     "casa": "Bet365",
+     "inicio": "2026-10-11T05:30:00-05:00"
+    },
+    {
+     "gid": "4732688",
+     "partido": "Como vs AS Roma",
+     "texto": "No hay empate",
+     "clave": "DC||12",
+     "p": 0.7121,
+     "cuota": 1.29,
+     "casa": "Bet365",
+     "inicio": "2026-10-11T05:30:00-05:00"
+    },
+    {
+     "gid": "4732688",
+     "partido": "Como vs AS Roma",
+     "texto": "Como recibe gol",
+     "clave": "CS||local_no",
+     "p": 0.6964,
+     "cuota": 1.22,
+     "casa": "Bet365",
+     "inicio": "2026-10-11T05:30:00-05:00"
+    },
+    {
+     "gid": "4732688",
+     "partido": "Como vs AS Roma",
+     "texto": "Más de 0.5 goles en el 1T",
+     "clave": "OU1T|0.5|over",
+     "p": 0.6781,
+     "cuota": 1.29,
+     "casa": "Bet365",
+     "inicio": "2026-10-11T05:30:00-05:00"
+    },
+    {
+     "gid": "4732688",
+     "partido": "Como vs AS Roma",
+     "texto": "AS Roma o empate",
+     "clave": "DC||X2",
+     "p": 0.5969,
+     "cuota": 1.57,
+     "casa": "Bet365",
+     "inicio": "2026-10-11T05:30:00-05:00"
+    },
+    {
+     "gid": "4732688",
+     "partido": "Como vs AS Roma",
+     "texto": "AS Roma +0.5 (hándicap)",
+     "clave": "AH|-0.5|visita",
+     "p": 0.5881,
+     "cuota": 1.62,
+     "casa": "Bet365",
+     "inicio": "2026-10-11T05:30:00-05:00"
+    }
+   ],
+   "xi": "550367,3064953,4828844,40742145,43470743,49579899,64935156,65895085,66200279,70914141,70914728|280305,314214,508029,542399,583374,941464,1966291,3087180,3143068,18041250,64431234",
+   "conf": true
   },
   "4732689": {
    "partido": "Cagliari vs Juventus",
