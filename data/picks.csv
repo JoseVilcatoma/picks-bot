@@ -357,3 +357,8 @@ fecha,game_id,partido,liga,tipo,mercado,clave,prob,cuota,casa,cuota_justa,ev,sta
 2026-10-11 09:28,4755386,Friburgo vs Schalke 04,"Alemania, Bundesliga",modelo,Menos de 4.5 tarjetas,CARDS|4.5|under,0.7920,,,1.26,,,si,,
 2026-10-11 09:28,4755386,Friburgo vs Schalke 04,"Alemania, Bundesliga",modelo,Menos de 11.5 córners,CORN|11.5|under,0.7463,,,1.34,,,si,,
 2026-10-11 09:28,4755386,Friburgo vs Schalke 04,"Alemania, Bundesliga",ticket,Más de 2.5 goles,OU|2.5|over,0.5914,1.72,,1.69,0.0172,10.00,,,
+2026-10-11 09:35,4735246,Rennes vs Auxerre,"Francia, Ligue 1",seguro,No hay empate,DC||12,0.7456,1.18,Bet365,1.34,-0.1202,,si,,
+2026-10-11 09:35,4735246,Rennes vs Auxerre,"Francia, Ligue 1",seguro,Más de 0.5 goles en el 1T,OU1T|0.5|over,0.6999,1.25,Bet365,1.43,-0.1251,,si,,
+2026-10-11 09:35,4735246,Rennes vs Auxerre,"Francia, Ligue 1",modelo,Menos de 4.5 tarjetas,CARDS|4.5|under,0.8590,,,1.16,,,si,,
+2026-10-11 09:35,4735246,Rennes vs Auxerre,"Francia, Ligue 1",modelo,Más de 1.5 goles,OU|1.5|over,0.7591,,,1.32,,,si,,
+2026-10-11 09:35,4735246,Rennes vs Auxerre,"Francia, Ligue 1",ticket,Auxerre +1.5 (hándicap),AH|-1.5|visita,0.6925,1.72,,1.44,0.1912,10.00,,,
