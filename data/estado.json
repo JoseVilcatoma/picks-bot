@@ -499,7 +499,7 @@
    "liga": "Brasil, Brasileirão",
    "inicio": "2026-10-11T15:30:00-05:00",
    "estado": "enviado",
-   "ultimo": 1791747375.2612143,
+   "ultimo": 1791757502.9755073,
    "pierna": [
     {
      "gid": "4632650",
@@ -655,8 +655,8 @@
    "partido": "Palmeiras vs Corinthians",
    "liga": "Brasil, Brasileirão",
    "inicio": "2026-10-11T15:30:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1791747404.1392248,
+   "estado": "liquidado",
+   "ultimo": 1791757503.1731954,
    "pierna": [
     {
      "gid": "4632653",
@@ -701,14 +701,27 @@
    ],
    "en_ticket": true,
    "xi": "334367,384001,552616,638801,892506,3228073,5531840,54050192,63950144,65512282,66228710|227037,234829,433045,444796,2479509,3235790,9289348,16699960,53874088,66083960,77409182",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 4,
+    "ag": 1,
+    "ht": [
+     2,
+     0
+    ],
+    "corners": 10.0,
+    "corners_h": 7.0,
+    "corners_a": 3.0,
+    "corners_1t": 4.0,
+    "cards": 7.0
+   }
   },
   "4632656": {
    "partido": "Flamengo vs Fluminense",
    "liga": "Brasil, Brasileirão",
    "inicio": "2026-10-11T15:30:00-05:00",
    "estado": "enviado",
-   "ultimo": 1791747407.1804125,
+   "ultimo": 1791757503.3288598,
    "pierna": [
     {
      "gid": "4632656",
@@ -2321,14 +2334,14 @@
    "liga": "Perú, Liga 1 - Clausura",
    "inicio": "2026-10-11T18:30:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1791757260.229774
+   "ultimo": 1791757503.3773694
   },
   "4760819": {
    "partido": "Sport Boys vs Alianza Atletico",
    "liga": "Perú, Liga 1 - Clausura",
    "inicio": "2026-10-11T15:30:00-05:00",
    "estado": "enviado",
-   "ultimo": 1791750054.148259,
+   "ultimo": 1791757503.4316926,
    "pierna": [
     {
      "gid": "4760819",
