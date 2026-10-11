@@ -515,14 +515,14 @@
    "liga": "Italia, Serie A",
    "inicio": "2026-10-11T08:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1791720234.063096
+   "ultimo": 1791720482.7387075
   },
   "4732685": {
    "partido": "Lazio vs Monza",
    "liga": "Italia, Serie A",
    "inicio": "2026-10-11T08:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1791720239.1319737
+   "ultimo": 1791720482.8832138
   },
   "4732688": {
    "partido": "Como vs AS Roma",
@@ -620,8 +620,72 @@
    "partido": "Niza vs Estrasburgo",
    "liga": "Francia, Ligue 1",
    "inicio": "2026-10-11T08:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1791720239.275599
+   "estado": "enviado",
+   "ultimo": 1791720482.961232,
+   "pierna": [
+    {
+     "gid": "4735247",
+     "partido": "Niza vs Estrasburgo",
+     "texto": "Niza o empate",
+     "clave": "DC||1X",
+     "p": 0.7605,
+     "cuota": 1.36,
+     "casa": "Bet365",
+     "inicio": "2026-10-11T08:00:00-05:00"
+    },
+    {
+     "gid": "4735247",
+     "partido": "Niza vs Estrasburgo",
+     "texto": "No hay empate",
+     "clave": "DC||12",
+     "p": 0.7213,
+     "cuota": 1.29,
+     "casa": "Bet365",
+     "inicio": "2026-10-11T08:00:00-05:00"
+    },
+    {
+     "gid": "4735247",
+     "partido": "Niza vs Estrasburgo",
+     "texto": "Más de 0.5 goles en el 1T",
+     "clave": "OU1T|0.5|over",
+     "p": 0.6889,
+     "cuota": 1.25,
+     "casa": "Bet365",
+     "inicio": "2026-10-11T08:00:00-05:00"
+    },
+    {
+     "gid": "4735247",
+     "partido": "Niza vs Estrasburgo",
+     "texto": "Niza recibe gol",
+     "clave": "CS||local_no",
+     "p": 0.6414,
+     "cuota": 1.25,
+     "casa": "Bet365",
+     "inicio": "2026-10-11T08:00:00-05:00"
+    },
+    {
+     "gid": "4735247",
+     "partido": "Niza vs Estrasburgo",
+     "texto": "Ambos marcan: Sí",
+     "clave": "BTTS||si",
+     "p": 0.5302,
+     "cuota": 1.5,
+     "casa": "William Hill",
+     "inicio": "2026-10-11T08:00:00-05:00"
+    },
+    {
+     "gid": "4735247",
+     "partido": "Niza vs Estrasburgo",
+     "texto": "Más de 2.5 goles",
+     "clave": "OU|2.5|over",
+     "p": 0.4868,
+     "cuota": 1.63,
+     "casa": "1xBet",
+     "inicio": "2026-10-11T08:00:00-05:00"
+    }
+   ],
+   "xi": "26903,1766803,3136375,3413846,47429447,50568830,50676834,53769150,63192118,76875194,78409092|50736377,54901981,56978378,67166934,68028328,68041691,71340815,75512013,76872509,76963138,77038325",
+   "conf": true
   },
   "4742042": {
    "partido": "Liverpool vs Manchester City",
