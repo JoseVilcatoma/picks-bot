@@ -69,6 +69,7 @@ ZONA = "America/Lima"
 ODDS_MERCADOS = "h2h,totals,btts"   # cada mercado devuelto cuesta 1 crédito (≈3 por partido)
 ODDS_RESERVA = 10                   # deja de consultar si quedan menos créditos que esto
 CASAS_EXCLUIR = ["betfair_ex_eu", "betfair_ex_uk", "matchbook"]   # exchanges (cobran comisión)
+VALOR_APOSTABLE = 0.03             # apostable: la mejor cuota paga ≥ 3% más que la justa de Pinnacle
 VALOR_CASAS_MIN = 0.03              # "💎 valor entre casas": mejor cuota ≥ 3% sobre la justa de Pinnacle
 CUOTAS_VIEJAS_HORAS = 4             # si las cuotas de 365Scores no se movieron en 4 h, se marcan como viejas
 

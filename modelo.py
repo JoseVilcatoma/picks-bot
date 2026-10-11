@@ -457,7 +457,19 @@ def contradicho(c):
     return bool(r) and r[1] > r[0]
 
 
-def seleccionar(cands):
+def correlacionados(a, b, m):
+    """Dos picks del mismo partido que ganan juntos mucho más de lo normal (ej. 'gana X' y 'X arco en cero')."""
+    if m is None or a["clave"][0] not in TIPOS_FT or b["clave"][0] not in TIPOS_FT:
+        return a["fam"] == b["fam"]
+    n = len(m)
+    gana = lambda c, x, y: evaluar(c["clave"], {"hg": x, "ag": y}) == "G"
+    pa = sum(m[x][y] for x in range(n) for y in range(n) if gana(a, x, y))
+    pb = sum(m[x][y] for x in range(n) for y in range(n) if gana(b, x, y))
+    pj = sum(m[x][y] for x in range(n) for y in range(n) if gana(a, x, y) and gana(b, x, y))
+    return pa > 0 and pb > 0 and pj / (pa * pb) > 1.25
+
+
+def seleccionar(cands, matriz=None):
     todos = cands
     cands = [c for c in todos if not c["solo_valor"]]
     def uno_por_familia(lista, n):
@@ -493,12 +505,27 @@ def seleccionar(cands):
         return abs(c["p_modelo"] - ref) > C.DISCREPANCIA_MAX
     for c in todos:
         c["discrepa"] = discrepa(c)
-    ap = [c for c in todos if c["cuota"] and c["cuota"] >= C.CUOTA_MIN and c["ev"] is not None
-          and c["ev"] >= C.EV_MIN and c["p"] >= 0.20 and c["clave"][0] != "DNB" and not c["discrepa"]
-          and c["clave"] != ("1X2", None, "X")
-          and not contradicho(c)]
-    ap.sort(key=lambda c: -c["ev"])
-    apostables = uno_por_familia(ap, C.MAX_APOSTABLES)
+    # Apostables: SOLO con valor real contra Pinnacle (sin margen y corregido por la alineación).
+    # El modelo no crea el valor: solo puede vetarlo si apunta en contra.
+    for c in todos:
+        c["ev_ref"] = None
+        if c.get("ref_sharp") and c["cuota"] and c.get("p_mercado") is not None:
+            p_ref = min(max(c["p_mercado"] + C.AJUSTE_ALINEACION * (c.get("delta") or 0), 0.01), 0.99)
+            c["p_ref"] = p_ref
+            c["ev_ref"] = c["cuota"] * p_ref - 1
+    ap = [c for c in todos if c["ev_ref"] is not None and c["ev_ref"] >= C.VALOR_APOSTABLE
+          and C.CUOTA_MIN <= c["cuota"] <= 4.0 and c["p_ref"] >= 0.25
+          and c["p_modelo"] >= c["p_ref"] - 0.02          # el modelo no lo contradice
+          and c["clave"][0] != "DNB" and c["clave"] != ("1X2", None, "X") and not contradicho(c)]
+    ap.sort(key=lambda c: -c["ev_ref"])
+    apostables = []
+    for c in ap:
+        if len(apostables) >= C.MAX_APOSTABLES:
+            break
+        if any(correlacionados(c, x, matriz) for x in apostables):
+            continue                                      # mismo escenario que otro apostable
+        c["ev"], c["p_kelly"] = c["ev_ref"], c["p_ref"]
+        apostables.append(c)
     for c in apostables:
         c["stake"] = stake(c)
     apostables = [c for c in apostables if c["stake"] > 0]

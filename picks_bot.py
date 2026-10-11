@@ -427,6 +427,7 @@ def analizar(gid, g, nombres, modo):
     horas_quietas = huella_365(gid, lineas) if lineas else 0
     viejas = horas_quietas >= C.CUOTAS_VIEJAS_HORAS
     casa_de = {k: "Bet365" for k in mercado}
+    sharp = set()
     ext = cuotas_ext.obtener(gid, g, nombres_ingles(gid))
     valor_casas = []
     if ext:
@@ -437,6 +438,8 @@ def analizar(gid, g, nombres, modo):
                 precio, casa = mercado[k][0], "Bet365"
             mercado[k] = (precio, v["justa_p"])
             casa_de[k] = casa
+            if v["ref"] == "Pinnacle":
+                sharp.add(k)
             ev_c = precio * v["justa_p"] - 1
             if v["ref"] == "Pinnacle" and ev_c >= C.VALOR_CASAS_MIN and v["justa_p"] >= 0.15:
                 valor_casas.append((ev_c, k, precio, casa, 1 / v["justa_p"]))
@@ -456,8 +459,9 @@ def analizar(gid, g, nombres, modo):
     crit_lin, señales = criterios.evaluar(g, gid, res_l, res_v, st_l, st_v, lineas, impacto)
     for c in cands:
         c["casa"] = casa_de.get(c["clave"], "")
+        c["ref_sharp"] = c["clave"] in sharp
         c["respaldo"] = criterios.respaldo(c["clave"], señales)
-    seguros, arriesgados, apostables = M.seleccionar(cands)
+    seguros, arriesgados, apostables = M.seleccionar(cands, matriz)
     modelos = M.solo_modelo(cands, {c["clave"] for c in seguros + arriesgados + apostables})
     bloqueados = []
     if viejas and not ext:
@@ -544,25 +548,28 @@ def analizar(gid, g, nombres, modo):
     if modelos:
         lin.append("\n📐 <b>TARJETAS, CÓRNERS Y SOLO MODELO</b> (menos fiables: compara la “justa” en tu casa)")
         lin += [fila(c) for c in modelos]
-    lin.append(f"\n✅ <b>APOSTABLES</b> (EV ≥ {C.EV_MIN:.0%}, cuota ≥ {C.CUOTA_MIN:.2f})")
+    lin.append(f"\n✅ <b>APOSTABLES</b> (paga ≥ {C.VALOR_APOSTABLE:.0%} más que la justa de Pinnacle, cuota ≥ {C.CUOTA_MIN:.2f})")
     if apostables:
         lin += [fila(c, True) for c in apostables]
     elif bloqueados:
         lin.append("• Habría valor con las cuotas de 365Scores, pero están desactualizadas: "
                    "revísalo tú en la app (" + ", ".join(f"{esc(c['texto'])} ≥ {c['justa']:.2f}"
                                                       for c in bloqueados) + ")")
+    elif not sharp:
+        lin.append("• Sin referencia de Pinnacle para este partido: no se marcan apostables.")
     else:
-        lin.append("• Ninguno: el mercado no deja valor aquí. No apostar también es una decisión.")
-    contra = [c for c in cands if M.contradicho(c) and not c.get("discrepa") and c["cuota"]
-              and c["ev"] is not None and c["ev"] >= C.EV_MIN and c["cuota"] >= C.CUOTA_MIN and c["p"] >= 0.20]
+        lin.append("• Ninguno cumple las reglas (valor ≥ 3% vs Pinnacle, cuota 1.60–4.00, prob. ≥ 25%, "
+                   "modelo a favor). No apostar también es una decisión.")
+    contra = [c for c in cands if M.contradicho(c) and (c.get("ev_ref") or -1) >= C.VALOR_APOSTABLE
+              and c["cuota"] >= C.CUOTA_MIN]
     if contra:
         lin.append("⚠️ <i>Con valor pero descartados porque la mayoría de criterios van en contra: "
-                   + ", ".join(esc(c["texto"]) for c in sorted(contra, key=lambda c: -c["ev"])[:3]) + "</i>")
-    dudosos = [c for c in cands if c.get("discrepa") and c["cuota"] and c["ev"] is not None
-               and c["ev"] >= C.EV_MIN and c["cuota"] >= C.CUOTA_MIN]
+                   + ", ".join(esc(c["texto"]) for c in sorted(contra, key=lambda c: -c["ev_ref"])[:3]) + "</i>")
+    dudosos = [c for c in cands if (c.get("ev_ref") or -1) >= C.VALOR_APOSTABLE and c["cuota"] >= C.CUOTA_MIN
+               and c.get("p_ref") is not None and c["p_modelo"] < c["p_ref"] - 0.02 and not M.contradicho(c)]
     if dudosos:
-        lin.append("⚠️ <i>Descartados por discrepar mucho del mercado (el modelo puede estar equivocado): "
-                   + ", ".join(esc(c["texto"]) for c in sorted(dudosos, key=lambda c: -c["ev"])[:3]) + "</i>")
+        lin.append("⚠️ <i>Valor contra Pinnacle pero el modelo no lo respalda (descartados): "
+                   + ", ".join(esc(c["texto"]) for c in sorted(dudosos, key=lambda c: -c["ev_ref"])[:3]) + "</i>")
     if valor_casas:
         lin.append("\n💎 <b>VALOR ENTRE CASAS</b> (mejor cuota vs. Pinnacle sin margen)")
         for ev_c, k, precio, casa, justa in valor_casas[:3]:
@@ -644,6 +651,17 @@ def liquidar(gid, s, log):
          "corners_h": ch, "corners_a": ca,
          "corners_1t": c1h + c1a if None not in (c1h, c1a) else None,
          "cards": sum(v.get("y", 0) + v.get("r", 0) for v in st.values()) if len(st) == 2 else None}
+    horas = (ahora() - iso(s["inicio"])).total_seconds() / 3600
+    if horas < 8:
+        faltan = []
+        for f in log:
+            if f["game_id"] == gid and not f["resultado"]:
+                claves = [clave_de(x) for x in f["clave"].split("&")] if f["clave"] else []
+                if any(M.evaluar(k, r) == "?" for k in claves):
+                    faltan.append(f["mercado"])
+        if faltan:
+            print(f"[liquidar] {s['partido']}: faltan estadísticas ({', '.join(faltan[:3])}), reintento luego")
+            return False
     out = [f"🏁 <b>{esc(s['partido'])}</b> terminó {r['hg']}-{r['ag']}"]
     iconos = {"G": "✅", "P": "❌", "N": "↩️", "?": "❔"}
     for f in log:
