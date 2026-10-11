@@ -1135,8 +1135,8 @@
    "partido": "Real Sociedad vs RC Deportivo",
    "liga": "España, LaLiga",
    "inicio": "2026-10-11T09:15:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1791735016.9321635,
+   "estado": "liquidado",
+   "ultimo": 1791735621.5868092,
    "pierna": [
     {
      "gid": "4750831",
@@ -1181,7 +1181,20 @@
    ],
    "en_ticket": true,
    "xi": "541991,571305,627873,668146,941400,12241544,50752876,59016046,66430024,67466102,70953097|330473,412242,48477961,51404167,54644483,64350547,64385811,65561869,75251248,76990281,77551112",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 3,
+    "ag": 2,
+    "ht": [
+     2,
+     0
+    ],
+    "corners": 17.0,
+    "corners_h": 7.0,
+    "corners_a": 10.0,
+    "corners_1t": 6.0,
+    "cards": 5.0
+   }
   },
   "4750834": {
    "partido": "Racing de Santander vs Valencia CF",
