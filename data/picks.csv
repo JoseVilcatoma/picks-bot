@@ -388,3 +388,9 @@ fecha,game_id,partido,liga,tipo,mercado,clave,prob,cuota,casa,cuota_justa,ev,sta
 2026-10-11 12:11,4760814,UTC Cajamarca vs Sporting Cristal,"Perú, Liga 1 - Clausura",seguro,Sporting Cristal o empate,DC||X2,0.8271,1.29,Bet365,1.21,0.0669,,si,,
 2026-10-11 12:11,4760814,UTC Cajamarca vs Sporting Cristal,"Perú, Liga 1 - Clausura",ticket,Sporting Cristal -0.5 (hándicap),AH|0.5|visita,0.5858,1.98,,1.71,0.1598,10.00,,,
 2026-10-11 12:25,4755386+4742042,Friburgo vs Schalke 04 / Liverpool vs Manchester City,,ticket2,Más de 0.5 goles en el 1T + Manchester City o empate,,0.5730,1.72,,1.75,-0.0170,10.00,,G,7.16
+2026-10-11 12:39,4735245,Troyes vs Olympique Marsella,"Francia, Ligue 1",seguro,Troyes recibe gol,CS||local_no,0.7931,1.17,Bet365,1.26,-0.0721,,si,,
+2026-10-11 12:39,4735245,Troyes vs Olympique Marsella,"Francia, Ligue 1",seguro,No hay empate,DC||12,0.7336,1.29,Bet365,1.36,-0.0537,,si,,
+2026-10-11 12:39,4735245,Troyes vs Olympique Marsella,"Francia, Ligue 1",arriesgado,Gana Troyes,1X2||1,0.2818,3.91,1xBet,3.55,0.1017,,si,,
+2026-10-11 12:39,4735245,Troyes vs Olympique Marsella,"Francia, Ligue 1",modelo,Menos de 4.5 tarjetas,CARDS|4.5|under,0.7920,,,1.26,,,si,,
+2026-10-11 12:39,4735245,Troyes vs Olympique Marsella,"Francia, Ligue 1",modelo,Más de 6.5 córners,CORN|6.5|over,0.7050,,,1.42,,,si,,
+2026-10-11 12:39,4735245,Troyes vs Olympique Marsella,"Francia, Ligue 1",ticket,Troyes o empate,DC||1X,0.5497,1.80,,1.82,-0.0105,10.00,,,

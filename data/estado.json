@@ -784,14 +784,69 @@
    "liga": "Italia, Serie A",
    "inicio": "2026-10-11T13:45:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1791740139.3992848
+   "ultimo": 1791740382.082836
   },
   "4735245": {
    "partido": "Troyes vs Olympique Marsella",
    "liga": "Francia, Ligue 1",
    "inicio": "2026-10-11T13:45:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1791740139.6179466
+   "estado": "enviado",
+   "ultimo": 1791740382.2308521,
+   "pierna": [
+    {
+     "gid": "4735245",
+     "partido": "Troyes vs Olympique Marsella",
+     "texto": "Más de 1.5 goles",
+     "clave": "OU|1.5|over",
+     "p": 0.7757,
+     "cuota": 1.2,
+     "casa": "Bet365",
+     "inicio": "2026-10-11T13:45:00-05:00"
+    },
+    {
+     "gid": "4735245",
+     "partido": "Troyes vs Olympique Marsella",
+     "texto": "No hay empate",
+     "clave": "DC||12",
+     "p": 0.7336,
+     "cuota": 1.29,
+     "casa": "Bet365",
+     "inicio": "2026-10-11T13:45:00-05:00"
+    },
+    {
+     "gid": "4735245",
+     "partido": "Troyes vs Olympique Marsella",
+     "texto": "Olympique Marsella recibe gol",
+     "clave": "CS||visita_no",
+     "p": 0.7185,
+     "cuota": 1.28,
+     "casa": "Bet365",
+     "inicio": "2026-10-11T13:45:00-05:00"
+    },
+    {
+     "gid": "4735245",
+     "partido": "Troyes vs Olympique Marsella",
+     "texto": "Más de 0.5 goles en el 1T",
+     "clave": "OU1T|0.5|over",
+     "p": 0.7179,
+     "cuota": 1.29,
+     "casa": "Bet365",
+     "inicio": "2026-10-11T13:45:00-05:00"
+    },
+    {
+     "gid": "4735245",
+     "partido": "Troyes vs Olympique Marsella",
+     "texto": "Ambos marcan: Sí",
+     "clave": "BTTS||si",
+     "p": 0.5792,
+     "cuota": 1.57,
+     "casa": "William Hill",
+     "inicio": "2026-10-11T13:45:00-05:00"
+    }
+   ],
+   "en_ticket": true,
+   "xi": "15242983,50482841,50482982,50682939,66534684,66662859,67878051,70953039,71068809,71328715,75439759|543231,3053170,3154243,4828912,8490982,12616002,13268816,50159654,63131014,77469153,77885631",
+   "conf": true
   },
   "4735246": {
    "partido": "Rennes vs Auxerre",
@@ -1737,7 +1792,8 @@
     }
    ],
    "xi": "212186,468362,943603,983229,4329678,6878973,7980461,56819961,60649750,64933728,72043548|357602,386754,389408,431628,485269,486424,5697711,15806567,25270975,50613999,71373581",
-   "conf": true
+   "conf": true,
+   "en_ticket": true
   },
   "4760817": {
    "partido": "Cusco FC vs Alianza Lima",
@@ -1857,6 +1913,33 @@
    "p": 0.5282129600000001,
    "cuota": 1.875,
    "t": 1791732588.3387241
+  },
+  {
+   "piernas": [
+    {
+     "gid": "4735245",
+     "partido": "Troyes vs Olympique Marsella",
+     "texto": "Ambos marcan: Sí",
+     "clave": "BTTS||si",
+     "p": 0.5792,
+     "cuota": 1.57,
+     "casa": "William Hill",
+     "inicio": "2026-10-11T13:45:00-05:00"
+    },
+    {
+     "gid": "4760814",
+     "partido": "UTC Cajamarca vs Sporting Cristal",
+     "texto": "Sporting Cristal o empate",
+     "clave": "DC||X2",
+     "p": 0.8271,
+     "cuota": 1.29,
+     "casa": "Bet365",
+     "inicio": "2026-10-11T13:00:00-05:00"
+    }
+   ],
+   "p": 0.47905632000000004,
+   "cuota": 2.0253,
+   "t": 1791740383.6383734
   }
  ]
 }
