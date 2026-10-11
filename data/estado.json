@@ -1566,8 +1566,42 @@
    "partido": "Benfica vs Guimarães",
    "liga": "Portugal, Primeira Liga",
    "inicio": "2026-10-11T12:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1791734045.7958157
+   "estado": "enviado",
+   "ultimo": 1791734288.5971014,
+   "pierna": [
+    {
+     "gid": "4757177",
+     "partido": "Benfica vs Guimarães",
+     "texto": "Gana Benfica",
+     "clave": "1X2||1",
+     "p": 0.7568,
+     "cuota": 1.25,
+     "casa": "Bet365",
+     "inicio": "2026-10-11T12:00:00-05:00"
+    },
+    {
+     "gid": "4757177",
+     "partido": "Benfica vs Guimarães",
+     "texto": "Más de 0.5 goles en el 1T",
+     "clave": "OU1T|0.5|over",
+     "p": 0.7547,
+     "cuota": 1.22,
+     "casa": "Bet365",
+     "inicio": "2026-10-11T12:00:00-05:00"
+    },
+    {
+     "gid": "4757177",
+     "partido": "Benfica vs Guimarães",
+     "texto": "Más de 2.5 goles",
+     "clave": "OU|2.5|over",
+     "p": 0.6212,
+     "cuota": 1.48,
+     "casa": "Bet365",
+     "inicio": "2026-10-11T12:00:00-05:00"
+    }
+   ],
+   "xi": "340562,541978,668937,3152786,4853640,51394932,55352581,56751723,64392622,65471889,65642981|553524,2753309,3855117,61426990,64656034,66503245,67086004,67938045,75532586,76964183,77422430",
+   "conf": true
   },
   "4760814": {
    "partido": "UTC Cajamarca vs Sporting Cristal",
