@@ -498,8 +498,8 @@
    "partido": "Grêmio vs Internacional",
    "liga": "Brasil, Brasileirão",
    "inicio": "2026-10-11T15:30:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1791757502.9755073,
+   "estado": "liquidado",
+   "ultimo": 1791758112.8243606,
    "pierna": [
     {
      "gid": "4632650",
@@ -564,7 +564,20 @@
    ],
    "xi": "150439,262106,399003,483907,497328,535442,543870,1858355,2725238,69472574,71357414|79031,110423,344226,570831,3235788,13268811,14659487,38421152,40429890,52685662,67094722",
    "conf": true,
-   "en_ticket": true
+   "en_ticket": true,
+   "r": {
+    "hg": 1,
+    "ag": 1,
+    "ht": [
+     0,
+     1
+    ],
+    "corners": 11.0,
+    "corners_h": 6.0,
+    "corners_a": 5.0,
+    "corners_1t": 5.0,
+    "cards": 6.0
+   }
   },
   "4632651": {
    "partido": "Atlético Mineiro vs Santos",
@@ -720,8 +733,8 @@
    "partido": "Flamengo vs Fluminense",
    "liga": "Brasil, Brasileirão",
    "inicio": "2026-10-11T15:30:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1791757503.3288598,
+   "estado": "liquidado",
+   "ultimo": 1791758112.9762807,
    "pierna": [
     {
      "gid": "4632656",
@@ -766,7 +779,20 @@
    ],
    "xi": "76478,436629,489068,506159,541524,1651346,1767155,1900508,2992976,3088103,3263629|102758,226984,336354,457505,537128,543186,554977,2484221,3144702,51417688,65006822",
    "conf": true,
-   "en_ticket": true
+   "en_ticket": true,
+   "r": {
+    "hg": 1,
+    "ag": 0,
+    "ht": [
+     0,
+     0
+    ],
+    "corners": 6.0,
+    "corners_h": 4.0,
+    "corners_a": 2.0,
+    "corners_1t": 0.0,
+    "cards": 7.0
+   }
   },
   "4732682": {
    "partido": "Sassuolo vs AC Milan",
@@ -2340,8 +2366,8 @@
    "partido": "Sport Boys vs Alianza Atletico",
    "liga": "Perú, Liga 1 - Clausura",
    "inicio": "2026-10-11T15:30:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1791757503.4316926,
+   "estado": "liquidado",
+   "ultimo": 1791758113.1427767,
    "pierna": [
     {
      "gid": "4760819",
@@ -2396,7 +2422,20 @@
    ],
    "en_ticket": true,
    "xi": "205892,383033,533478,616301,2614926,12728006,15806566,17101463,47441568,50785894,56915241|428984,614516,3222005,13891409,29976047,56651133,56700055,64866387,65304004,67902596,71885210",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 1,
+    "ag": 3,
+    "ht": [
+     1,
+     0
+    ],
+    "corners": 10.0,
+    "corners_h": 7.0,
+    "corners_a": 3.0,
+    "corners_1t": 3.0,
+    "cards": 9.0
+   }
   }
  },
  "web": {
@@ -2475,60 +2514,5 @@
   "4760819": 1791686726831,
   "4869278": 1791686716825
  },
- "tickets": [
-  {
-   "piernas": [
-    {
-     "gid": "4632653",
-     "partido": "Palmeiras vs Corinthians",
-     "texto": "Menos de 1.5 goles en el 1T",
-     "clave": "OU1T|1.5|under",
-     "p": 0.7509,
-     "cuota": 1.36,
-     "casa": "Bet365",
-     "inicio": "2026-10-11T15:30:00-05:00"
-    },
-    {
-     "gid": "4632650",
-     "partido": "Grêmio vs Internacional",
-     "texto": "Menos de 1.5 goles en el 1T",
-     "clave": "OU1T|1.5|under",
-     "p": 0.7826,
-     "cuota": 1.3,
-     "casa": "Bet365",
-     "inicio": "2026-10-11T15:30:00-05:00"
-    }
-   ],
-   "p": 0.5876543399999999,
-   "cuota": 1.7680000000000002,
-   "t": 1791747407.1803923
-  },
-  {
-   "piernas": [
-    {
-     "gid": "4760819",
-     "partido": "Sport Boys vs Alianza Atletico",
-     "texto": "Más de 1.5 goles",
-     "clave": "OU|1.5|over",
-     "p": 0.7504,
-     "cuota": 1.29,
-     "casa": "Bet365",
-     "inicio": "2026-10-11T15:30:00-05:00"
-    },
-    {
-     "gid": "4632656",
-     "partido": "Flamengo vs Fluminense",
-     "texto": "Menos de 3.5 goles",
-     "clave": "OU|3.5|under",
-     "p": 0.7707,
-     "cuota": 1.4,
-     "casa": "Bet365",
-     "inicio": "2026-10-11T15:30:00-05:00"
-    }
-   ],
-   "p": 0.57833328,
-   "cuota": 1.8059999999999998,
-   "t": 1791748222.901235
-  }
- ]
+ "tickets": []
 }
