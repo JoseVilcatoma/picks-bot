@@ -1,15 +1,6 @@
 {
  "offset": 344577783,
  "seguidos": {
-  "4735252": {
-   "partido": "Lens vs Lyon",
-   "liga": "Francia, Ligue 1",
-   "inicio": "2026-10-09T13:45:00-05:00",
-   "estado": "liquidado",
-   "ultimo": 1791578452.6187003,
-   "xi": "277482,489159,490031,533996,668926,3049963,3590178,61793607,66384998,70953326,70953336|403672,844534,3071299,12759586,42213317,54261156,55658592,60972902,62195479,66430617,75259442",
-   "conf": true
-  },
   "4750835": {
    "partido": "Málaga CF vs RCD Espanyol",
    "liga": "España, LaLiga",
@@ -533,7 +524,8 @@
     }
    ],
    "xi": "348822,518460,3066799,3374658,46933489,50626522,53667285,56015041,65622503,67640814,77666526|425897,479593,530809,543235,2567397,3074735,3231386,6328592,60376096,76891180,76943195",
-   "conf": true
+   "conf": true,
+   "en_ticket": true
   },
   "4632653": {
    "partido": "Palmeiras vs Corinthians",
@@ -1776,8 +1768,63 @@
    "partido": "Arouca vs Estrela da Amadora",
    "liga": "Portugal, Primeira Liga",
    "inicio": "2026-10-11T14:30:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1791744066.2770877
+   "estado": "enviado",
+   "ultimo": 1791744308.9519525,
+   "pierna": [
+    {
+     "gid": "4757170",
+     "partido": "Arouca vs Estrela da Amadora",
+     "texto": "Estrela da Amadora recibe gol",
+     "clave": "CS||visita_no",
+     "p": 0.7766,
+     "cuota": 1.22,
+     "casa": "Bet365",
+     "inicio": "2026-10-11T14:30:00-05:00"
+    },
+    {
+     "gid": "4757170",
+     "partido": "Arouca vs Estrela da Amadora",
+     "texto": "Más de 1.5 goles",
+     "clave": "OU|1.5|over",
+     "p": 0.7634,
+     "cuota": 1.25,
+     "casa": "Bet365",
+     "inicio": "2026-10-11T14:30:00-05:00"
+    },
+    {
+     "gid": "4757170",
+     "partido": "Arouca vs Estrela da Amadora",
+     "texto": "No hay empate",
+     "clave": "DC||12",
+     "p": 0.7228,
+     "cuota": 1.33,
+     "casa": "Bet365",
+     "inicio": "2026-10-11T14:30:00-05:00"
+    },
+    {
+     "gid": "4757170",
+     "partido": "Arouca vs Estrela da Amadora",
+     "texto": "Más de 0.5 goles en el 1T",
+     "clave": "OU1T|0.5|over",
+     "p": 0.7025,
+     "cuota": 1.36,
+     "casa": "Bet365",
+     "inicio": "2026-10-11T14:30:00-05:00"
+    },
+    {
+     "gid": "4757170",
+     "partido": "Arouca vs Estrela da Amadora",
+     "texto": "Arouca recibe gol",
+     "clave": "CS||local_no",
+     "p": 0.7021,
+     "cuota": 1.36,
+     "casa": "Bet365",
+     "inicio": "2026-10-11T14:30:00-05:00"
+    }
+   ],
+   "en_ticket": true,
+   "xi": "638433,17595806,33427449,35737436,44125340,47415963,47442624,49625993,50895456,64367225,70775085|103744,6741396,40742149,58229167,58880750,63195457,65824827,67170074,70794195,77153726,77692187",
+   "conf": true
   },
   "4757176": {
    "partido": "Rio Ave vs Nacional Madeira",
@@ -2122,6 +2169,33 @@
    "p": 0.51533,
    "cuota": 1.8199999999999998,
    "t": 1791741948.8637998
+  },
+  {
+   "piernas": [
+    {
+     "gid": "4757170",
+     "partido": "Arouca vs Estrela da Amadora",
+     "texto": "Estrela da Amadora recibe gol",
+     "clave": "CS||visita_no",
+     "p": 0.7766,
+     "cuota": 1.22,
+     "casa": "Bet365",
+     "inicio": "2026-10-11T14:30:00-05:00"
+    },
+    {
+     "gid": "4632651",
+     "partido": "Atlético Mineiro vs Santos",
+     "texto": "Atlético Mineiro recibe gol",
+     "clave": "CS||local_no",
+     "p": 0.6839,
+     "cuota": 1.4,
+     "casa": "Bet365",
+     "inicio": "2026-10-11T14:00:00-05:00"
+    }
+   ],
+   "p": 0.53111674,
+   "cuota": 1.708,
+   "t": 1791744312.473648
   }
  ]
 }
