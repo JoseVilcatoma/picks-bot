@@ -549,7 +549,8 @@
     }
    ],
    "xi": "453730,904314,3176311,4870199,16031937,35341115,51148547,66406095,70950988,71384454,71392451|285835,3054816,3195499,3835966,4947373,13255854,33902941,33913784,51594637,67639636,77124704",
-   "conf": true
+   "conf": true,
+   "en_ticket": true
   },
   "4732685": {
    "partido": "Lazio vs Monza",
@@ -987,8 +988,73 @@
    "partido": "1. FC Köln vs Borussia Mönchengladbach",
    "liga": "Alemania, Bundesliga",
    "inicio": "2026-10-11T08:30:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1791722367.581032
+   "estado": "enviado",
+   "ultimo": 1791722610.7587266,
+   "pierna": [
+    {
+     "gid": "4755382",
+     "partido": "1. FC Köln vs Borussia Mönchengladbach",
+     "texto": "Más de 0.5 goles en el 1T",
+     "clave": "OU1T|0.5|over",
+     "p": 0.7524,
+     "cuota": 1.25,
+     "casa": "Bet365",
+     "inicio": "2026-10-11T08:30:00-05:00"
+    },
+    {
+     "gid": "4755382",
+     "partido": "1. FC Köln vs Borussia Mönchengladbach",
+     "texto": "No hay empate",
+     "clave": "DC||12",
+     "p": 0.7516,
+     "cuota": 1.25,
+     "casa": "Bet365",
+     "inicio": "2026-10-11T08:30:00-05:00"
+    },
+    {
+     "gid": "4755382",
+     "partido": "1. FC Köln vs Borussia Mönchengladbach",
+     "texto": "1. FC Köln recibe gol",
+     "clave": "CS||local_no",
+     "p": 0.7388,
+     "cuota": 1.28,
+     "casa": "Bet365",
+     "inicio": "2026-10-11T08:30:00-05:00"
+    },
+    {
+     "gid": "4755382",
+     "partido": "1. FC Köln vs Borussia Mönchengladbach",
+     "texto": "1. FC Köln o empate",
+     "clave": "DC||1X",
+     "p": 0.7184,
+     "cuota": 1.28,
+     "casa": "Bet365",
+     "inicio": "2026-10-11T08:30:00-05:00"
+    },
+    {
+     "gid": "4755382",
+     "partido": "1. FC Köln vs Borussia Mönchengladbach",
+     "texto": "Ambos marcan: Sí",
+     "clave": "BTTS||si",
+     "p": 0.6313,
+     "cuota": 1.5,
+     "casa": "William Hill",
+     "inicio": "2026-10-11T08:30:00-05:00"
+    },
+    {
+     "gid": "4755382",
+     "partido": "1. FC Köln vs Borussia Mönchengladbach",
+     "texto": "Más de 2.5 goles",
+     "clave": "OU|2.5|over",
+     "p": 0.6095,
+     "cuota": 1.55,
+     "casa": "William Hill",
+     "inicio": "2026-10-11T08:30:00-05:00"
+    }
+   ],
+   "en_ticket": true,
+   "xi": "541007,545022,569179,7354235,8692945,10279281,51195599,65291044,70951372,72478393,75412214|530622,972964,3094154,4008340,4632964,8448849,32435492,60935415,67638234,70842829,75250885",
+   "conf": true
   },
   "4755386": {
    "partido": "Friburgo vs Schalke 04",
@@ -1170,6 +1236,33 @@
    "p": 0.57547035,
    "cuota": 1.7000000000000002,
    "t": 1791720922.4623327
+  },
+  {
+   "piernas": [
+    {
+     "gid": "4755382",
+     "partido": "1. FC Köln vs Borussia Mönchengladbach",
+     "texto": "1. FC Köln recibe gol",
+     "clave": "CS||local_no",
+     "p": 0.7388,
+     "cuota": 1.28,
+     "casa": "Bet365",
+     "inicio": "2026-10-11T08:30:00-05:00"
+    },
+    {
+     "gid": "4732684",
+     "partido": "Lecce vs Bologna",
+     "texto": "Menos de 1.5 goles en el 1T",
+     "clave": "OU1T|1.5|under",
+     "p": 0.7487,
+     "cuota": 1.33,
+     "casa": "Bet365",
+     "inicio": "2026-10-11T08:00:00-05:00"
+    }
+   ],
+   "p": 0.5531395600000001,
+   "cuota": 1.7024000000000001,
+   "t": 1791722640.7586117
   }
  ]
 }
