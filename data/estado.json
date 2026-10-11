@@ -1,15 +1,6 @@
 {
  "offset": 344577783,
  "seguidos": {
-  "4757171": {
-   "partido": "SC Braga vs Sporting CP",
-   "liga": "Portugal, Primeira Liga",
-   "inicio": "2026-10-09T14:15:00-05:00",
-   "estado": "liquidado",
-   "ultimo": 1791580878.4159057,
-   "xi": "84831,100802,358706,39367800,49552691,50385705,53015075,62356488,66382167,67332486,75422026|416870,42177207,49491937,50072970,51611636,60677012,64317526,64656029,70860145,70939626,75430996",
-   "conf": true
-  },
   "4760815": {
    "partido": "Deportivo Garcilaso vs Sport Huancayo",
    "liga": "Perú, Liga 1 - Clausura",
@@ -444,7 +435,7 @@
    "liga": "Brasil, Brasileirão",
    "inicio": "2026-10-11T15:30:00-05:00",
    "estado": "pendiente",
-   "ultimo": 0
+   "ultimo": 1791746123.544574
   },
   "4632651": {
    "partido": "Atlético Mineiro vs Santos",
@@ -523,14 +514,14 @@
    "liga": "Brasil, Brasileirão",
    "inicio": "2026-10-11T15:30:00-05:00",
    "estado": "pendiente",
-   "ultimo": 0
+   "ultimo": 1791746150.9161847
   },
   "4632656": {
    "partido": "Flamengo vs Fluminense",
    "liga": "Brasil, Brasileirão",
    "inicio": "2026-10-11T15:30:00-05:00",
    "estado": "pendiente",
-   "ultimo": 0
+   "ultimo": 1791746150.9698112
   },
   "4732682": {
    "partido": "Sassuolo vs AC Milan",
@@ -2040,7 +2031,7 @@
    "liga": "Perú, Liga 1 - Clausura",
    "inicio": "2026-10-11T15:30:00-05:00",
    "estado": "pendiente",
-   "ultimo": 0
+   "ultimo": 1791746151.0278826
   }
  },
  "web": {
