@@ -427,8 +427,72 @@
    "partido": "Bahia vs Mirassol",
    "liga": "Brasil, Brasileirão",
    "inicio": "2026-10-11T17:30:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1791754327.4885387
+   "estado": "enviado",
+   "ultimo": 1791754570.243793,
+   "pierna": [
+    {
+     "gid": "4632648",
+     "partido": "Bahia vs Mirassol",
+     "texto": "No hay empate",
+     "clave": "DC||12",
+     "p": 0.7358,
+     "cuota": 1.25,
+     "casa": "Bet365",
+     "inicio": "2026-10-11T17:30:00-05:00"
+    },
+    {
+     "gid": "4632648",
+     "partido": "Bahia vs Mirassol",
+     "texto": "Más de 1.5 goles",
+     "clave": "OU|1.5|over",
+     "p": 0.7234,
+     "cuota": 1.2,
+     "casa": "Bet365",
+     "inicio": "2026-10-11T17:30:00-05:00"
+    },
+    {
+     "gid": "4632648",
+     "partido": "Bahia vs Mirassol",
+     "texto": "Más de 0.5 goles en el 1T",
+     "clave": "OU1T|0.5|over",
+     "p": 0.6796,
+     "cuota": 1.29,
+     "casa": "Bet365",
+     "inicio": "2026-10-11T17:30:00-05:00"
+    },
+    {
+     "gid": "4632648",
+     "partido": "Bahia vs Mirassol",
+     "texto": "Bahia recibe gol",
+     "clave": "CS||local_no",
+     "p": 0.5959,
+     "cuota": 1.44,
+     "casa": "Bet365",
+     "inicio": "2026-10-11T17:30:00-05:00"
+    },
+    {
+     "gid": "4632648",
+     "partido": "Bahia vs Mirassol",
+     "texto": "Bahia -0.5 (hándicap)",
+     "clave": "AH|-0.5|local",
+     "p": 0.5447,
+     "cuota": 1.62,
+     "casa": "Bet365",
+     "inicio": "2026-10-11T17:30:00-05:00"
+    },
+    {
+     "gid": "4632648",
+     "partido": "Bahia vs Mirassol",
+     "texto": "Ambos marcan: Sí",
+     "clave": "BTTS||si",
+     "p": 0.5006,
+     "cuota": 1.62,
+     "casa": "William Hill",
+     "inicio": "2026-10-11T17:30:00-05:00"
+    }
+   ],
+   "xi": "140693,3218315,4247204,43605737,44078581,47124009,53889853,64890852,64985333,65190886,67933529|28189,543250,547799,1838723,3092063,6663965,7093168,12848261,65016772,66212496,75394285",
+   "conf": true
   },
   "4632650": {
    "partido": "Grêmio vs Internacional",
@@ -1957,8 +2021,8 @@
    "partido": "Arouca vs Estrela da Amadora",
    "liga": "Portugal, Primeira Liga",
    "inicio": "2026-10-11T14:30:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1791753962.7288797,
+   "estado": "liquidado",
+   "ultimo": 1791754599.238107,
    "pierna": [
     {
      "gid": "4757170",
@@ -2013,7 +2077,20 @@
    ],
    "en_ticket": true,
    "xi": "638433,17595806,33427449,35737436,44125340,47415963,47442624,49625993,50895456,64367225,70775085|103744,6741396,40742149,58229167,58880750,63195457,65824827,67170074,70794195,77153726,77692187",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 1,
+    "ag": 0,
+    "ht": [
+     1,
+     0
+    ],
+    "corners": 11.0,
+    "corners_h": 5.0,
+    "corners_a": 6.0,
+    "corners_1t": 7.0,
+    "cards": 7.0
+   }
   },
   "4757176": {
    "partido": "Rio Ave vs Nacional Madeira",
@@ -2386,33 +2463,6 @@
   "4869278": 1791686716825
  },
  "tickets": [
-  {
-   "piernas": [
-    {
-     "gid": "4757170",
-     "partido": "Arouca vs Estrela da Amadora",
-     "texto": "Estrela da Amadora recibe gol",
-     "clave": "CS||visita_no",
-     "p": 0.7766,
-     "cuota": 1.22,
-     "casa": "Bet365",
-     "inicio": "2026-10-11T14:30:00-05:00"
-    },
-    {
-     "gid": "4632651",
-     "partido": "Atlético Mineiro vs Santos",
-     "texto": "Atlético Mineiro recibe gol",
-     "clave": "CS||local_no",
-     "p": 0.6839,
-     "cuota": 1.4,
-     "casa": "Bet365",
-     "inicio": "2026-10-11T14:00:00-05:00"
-    }
-   ],
-   "p": 0.53111674,
-   "cuota": 1.708,
-   "t": 1791744312.473648
-  },
   {
    "piernas": [
     {
