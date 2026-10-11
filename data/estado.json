@@ -508,14 +508,14 @@
    "liga": "Italia, Serie A",
    "inicio": "2026-10-11T11:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1791730894.4783232
+   "ultimo": 1791731137.3593209
   },
   "4732684": {
    "partido": "Lecce vs Bologna",
    "liga": "Italia, Serie A",
    "inicio": "2026-10-11T08:00:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1791730524.0515234,
+   "estado": "liquidado",
+   "ultimo": 1791731137.5847402,
    "pierna": [
     {
      "gid": "4732684",
@@ -550,7 +550,20 @@
    ],
    "xi": "453730,904314,3176311,4870199,16031937,35341115,51148547,66406095,70950988,71384454,71392451|285835,3054816,3195499,3835966,4947373,13255854,33902941,33913784,51594637,67639636,77124704",
    "conf": true,
-   "en_ticket": true
+   "en_ticket": true,
+   "r": {
+    "hg": 1,
+    "ag": 2,
+    "ht": [
+     0,
+     1
+    ],
+    "corners": 13.0,
+    "corners_h": 10.0,
+    "corners_a": 3.0,
+    "corners_1t": 5.0,
+    "cards": 5.0
+   }
   },
   "4732685": {
    "partido": "Lazio vs Monza",
@@ -927,8 +940,8 @@
    "partido": "Hull City vs Everton",
    "liga": "Inglaterra, Premier League",
    "inicio": "2026-10-11T08:00:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1791730527.4857278,
+   "estado": "liquidado",
+   "ultimo": 1791731159.1556695,
    "pierna": [
     {
      "gid": "4742045",
@@ -973,14 +986,27 @@
    ],
    "xi": "435138,526669,534530,1381354,1761369,8663013,32237585,49727649,51755120,55148762,67935655|348472,355086,478397,491469,596447,12433748,25965721,49684197,50763260,70782880,75441450",
    "conf": true,
-   "en_ticket": true
+   "en_ticket": true,
+   "r": {
+    "hg": 2,
+    "ag": 2,
+    "ht": [
+     0,
+     0
+    ],
+    "corners": 13.0,
+    "corners_h": 7.0,
+    "corners_a": 6.0,
+    "corners_1t": 10.0,
+    "cards": 2.0
+   }
   },
   "4742046": {
    "partido": "Crystal Palace vs Nottingham Forest",
    "liga": "Inglaterra, Premier League",
    "inicio": "2026-10-11T08:00:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1791730527.5833638,
+   "estado": "liquidado",
+   "ultimo": 1791731193.3304858,
    "pierna": [
     {
      "gid": "4742046",
@@ -1025,7 +1051,20 @@
    ],
    "en_ticket": true,
    "xi": "379422,560632,571198,834589,3183310,49658641,50752231,52342774,64697647,66683658,75390595|335651,502298,526648,666071,3211399,40902054,49499493,51429377,54943580,66457360,67689605",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 3,
+    "ag": 1,
+    "ht": [
+     2,
+     1
+    ],
+    "corners": 13.0,
+    "corners_h": 5.0,
+    "corners_a": 8.0,
+    "corners_1t": 5.0,
+    "cards": 4.0
+   }
   },
   "4750831": {
    "partido": "Real Sociedad vs RC Deportivo",
@@ -1486,33 +1525,6 @@
   "4869278": 1791686716825
  },
  "tickets": [
-  {
-   "piernas": [
-    {
-     "gid": "4742046",
-     "partido": "Crystal Palace vs Nottingham Forest",
-     "texto": "Menos de 3.5 goles",
-     "clave": "OU|3.5|under",
-     "p": 0.7252,
-     "cuota": 1.36,
-     "casa": "Bet365",
-     "inicio": "2026-10-11T08:00:00-05:00"
-    },
-    {
-     "gid": "4742045",
-     "partido": "Hull City vs Everton",
-     "texto": "Menos de 3.5 goles",
-     "clave": "OU|3.5|under",
-     "p": 0.8404,
-     "cuota": 1.29,
-     "casa": "Bet365",
-     "inicio": "2026-10-11T08:00:00-05:00"
-    }
-   ],
-   "p": 0.60945808,
-   "cuota": 1.7544000000000002,
-   "t": 1791719864.5752423
-  },
   {
    "piernas": [
     {

@@ -286,21 +286,21 @@ fecha,game_id,partido,liga,tipo,mercado,clave,prob,cuota,casa,cuota_justa,ev,sta
 2026-10-11 06:07,4750838,Elche CF vs Celta de Vigo,"España, LaLiga",apostable,Menos de 2.5 goles,OU|2.5|under,0.6163,1.93,BetOnline.ag,1.62,0.1826,30.00,si,G,27.90
 2026-10-11 06:07,4750838,Elche CF vs Celta de Vigo,"España, LaLiga",apostable,Gana Elche CF,1X2||1,0.3335,3.20,Tipico,3.00,0.0430,2.50,si,P,-2.50
 2026-10-11 06:07,4750838,Elche CF vs Celta de Vigo,"España, LaLiga",ticket,Menos de 2.5 goles,OU|2.5|under,0.6163,1.93,,1.62,0.1895,10.00,,G,9.30
-2026-10-11 06:56,4742045,Hull City vs Everton,"Inglaterra, Premier League",seguro,Menos de 3.5 goles,OU|3.5|under,0.8404,1.29,Bet365,1.19,0.0841,,si,,
-2026-10-11 06:56,4742045,Hull City vs Everton,"Inglaterra, Premier League",seguro,Everton o empate,DC||X2,0.7697,1.29,Bet365,1.30,-0.0071,,si,,
-2026-10-11 06:56,4742045,Hull City vs Everton,"Inglaterra, Premier League",arriesgado,Menos de 0.5 goles en el 1T,OU1T|0.5|under,0.4163,2.62,Bet365,2.40,0.0906,,si,,
-2026-10-11 06:56,4742045,Hull City vs Everton,"Inglaterra, Premier League",arriesgado,Empate,1X2||X,0.3195,3.48,1xBet,3.13,0.1118,,si,,
-2026-10-11 06:56,4742045,Hull City vs Everton,"Inglaterra, Premier League",modelo,Más de 2.5 tarjetas,CARDS|2.5|over,0.8632,,,1.16,,,si,,
-2026-10-11 06:56,4742045,Hull City vs Everton,"Inglaterra, Premier League",modelo,Menos de 13.5 córners,CORN|13.5|under,0.7319,,,1.37,,,si,,
-2026-10-11 06:56,4742045,Hull City vs Everton,"Inglaterra, Premier League",apostable,Ambos marcan: No,BTTS||no,0.5963,1.95,William Hill,1.68,0.1077,28.50,si,,
-2026-10-11 06:56,4742045,Hull City vs Everton,"Inglaterra, Premier League",ticket,Menos de 2.5 goles,OU|2.5|under,0.6632,1.81,,1.51,0.2005,10.00,,,
-2026-10-11 06:57,4742046,Crystal Palace vs Nottingham Forest,"Inglaterra, Premier League",seguro,Menos de 3.5 goles,OU|3.5|under,0.7252,1.36,Bet365,1.38,-0.0138,,si,,
-2026-10-11 06:57,4742046,Crystal Palace vs Nottingham Forest,"Inglaterra, Premier League",seguro,No hay empate,DC||12,0.7145,1.33,Bet365,1.40,-0.0497,,si,,
-2026-10-11 06:57,4742046,Crystal Palace vs Nottingham Forest,"Inglaterra, Premier League",arriesgado,Nottingham Forest -0.5 (hándicap),AH|0.5|visita,0.3622,2.50,Bet365,2.76,-0.0945,,si,,
-2026-10-11 06:57,4742046,Crystal Palace vs Nottingham Forest,"Inglaterra, Premier League",arriesgado,Menos de 0.5 goles en el 1T,OU1T|0.5|under,0.3153,3.00,Bet365,3.17,-0.0542,,si,,
-2026-10-11 06:57,4742046,Crystal Palace vs Nottingham Forest,"Inglaterra, Premier League",modelo,Menos de 6.5 tarjetas,CARDS|6.5|under,0.8764,,,1.14,,,si,,
-2026-10-11 06:57,4742046,Crystal Palace vs Nottingham Forest,"Inglaterra, Premier League",modelo,Menos de 10.5 córners,CORN|10.5|under,0.7608,,,1.31,,,si,,
-2026-10-11 06:57,4742046,Crystal Palace vs Nottingham Forest,"Inglaterra, Premier League",ticket,Menos de 2.5 goles,OU|2.5|under,0.5223,1.98,,1.91,0.0342,10.00,,,
+2026-10-11 06:56,4742045,Hull City vs Everton,"Inglaterra, Premier League",seguro,Menos de 3.5 goles,OU|3.5|under,0.8404,1.29,Bet365,1.19,0.0841,,si,P,
+2026-10-11 06:56,4742045,Hull City vs Everton,"Inglaterra, Premier League",seguro,Everton o empate,DC||X2,0.7697,1.29,Bet365,1.30,-0.0071,,si,G,
+2026-10-11 06:56,4742045,Hull City vs Everton,"Inglaterra, Premier League",arriesgado,Menos de 0.5 goles en el 1T,OU1T|0.5|under,0.4163,2.62,Bet365,2.40,0.0906,,si,G,
+2026-10-11 06:56,4742045,Hull City vs Everton,"Inglaterra, Premier League",arriesgado,Empate,1X2||X,0.3195,3.48,1xBet,3.13,0.1118,,si,G,
+2026-10-11 06:56,4742045,Hull City vs Everton,"Inglaterra, Premier League",modelo,Más de 2.5 tarjetas,CARDS|2.5|over,0.8632,,,1.16,,,si,P,
+2026-10-11 06:56,4742045,Hull City vs Everton,"Inglaterra, Premier League",modelo,Menos de 13.5 córners,CORN|13.5|under,0.7319,,,1.37,,,si,G,
+2026-10-11 06:56,4742045,Hull City vs Everton,"Inglaterra, Premier League",apostable,Ambos marcan: No,BTTS||no,0.5963,1.95,William Hill,1.68,0.1077,28.50,si,P,-28.50
+2026-10-11 06:56,4742045,Hull City vs Everton,"Inglaterra, Premier League",ticket,Menos de 2.5 goles,OU|2.5|under,0.6632,1.81,,1.51,0.2005,10.00,,P,-10.00
+2026-10-11 06:57,4742046,Crystal Palace vs Nottingham Forest,"Inglaterra, Premier League",seguro,Menos de 3.5 goles,OU|3.5|under,0.7252,1.36,Bet365,1.38,-0.0138,,si,P,
+2026-10-11 06:57,4742046,Crystal Palace vs Nottingham Forest,"Inglaterra, Premier League",seguro,No hay empate,DC||12,0.7145,1.33,Bet365,1.40,-0.0497,,si,G,
+2026-10-11 06:57,4742046,Crystal Palace vs Nottingham Forest,"Inglaterra, Premier League",arriesgado,Nottingham Forest -0.5 (hándicap),AH|0.5|visita,0.3622,2.50,Bet365,2.76,-0.0945,,si,P,
+2026-10-11 06:57,4742046,Crystal Palace vs Nottingham Forest,"Inglaterra, Premier League",arriesgado,Menos de 0.5 goles en el 1T,OU1T|0.5|under,0.3153,3.00,Bet365,3.17,-0.0542,,si,P,
+2026-10-11 06:57,4742046,Crystal Palace vs Nottingham Forest,"Inglaterra, Premier League",modelo,Menos de 6.5 tarjetas,CARDS|6.5|under,0.8764,,,1.14,,,si,G,
+2026-10-11 06:57,4742046,Crystal Palace vs Nottingham Forest,"Inglaterra, Premier League",modelo,Menos de 10.5 córners,CORN|10.5|under,0.7608,,,1.31,,,si,P,
+2026-10-11 06:57,4742046,Crystal Palace vs Nottingham Forest,"Inglaterra, Premier League",ticket,Menos de 2.5 goles,OU|2.5|under,0.5223,1.98,,1.91,0.0342,10.00,,P,-10.00
 2026-10-11 07:08,4735247,Niza vs Estrasburgo,"Francia, Ligue 1",seguro,Estrasburgo recibe gol,CS||visita_no,0.7894,1.17,Bet365,1.27,-0.0764,,si,G,
 2026-10-11 07:08,4735247,Niza vs Estrasburgo,"Francia, Ligue 1",seguro,Niza o empate,DC||1X,0.7605,1.36,Bet365,1.31,0.0343,,si,G,
 2026-10-11 07:08,4735247,Niza vs Estrasburgo,"Francia, Ligue 1",arriesgado,Empate,1X2||X,0.2745,3.84,1xBet,3.64,0.0542,,si,P,
@@ -314,13 +314,13 @@ fecha,game_id,partido,liga,tipo,mercado,clave,prob,cuota,casa,cuota_justa,ev,sta
 2026-10-11 07:15,4732685,Lazio vs Monza,"Italia, Serie A",modelo,Menos de 11.5 córners,CORN|11.5|under,0.7070,,,1.41,,,si,P,
 2026-10-11 07:15,4732685,Lazio vs Monza,"Italia, Serie A",modelo,Menos de 4.5 tarjetas,CARDS|4.5|under,0.6391,1.73,Bet365,1.56,0.1056,,si,P,
 2026-10-11 07:15,4732685,Lazio vs Monza,"Italia, Serie A",ticket,Más de 1.5 goles + Lazio recibe gol,OU|1.5|over&CS||local_no,0.5913,1.83,,1.69,0.0821,10.00,,G,8.30
-2026-10-11 07:18,4732684,Lecce vs Bologna,"Italia, Serie A",seguro,Menos de 3.5 goles,OU|3.5|under,0.8201,1.25,Bet365,1.22,0.0252,,si,,
-2026-10-11 07:18,4732684,Lecce vs Bologna,"Italia, Serie A",seguro,No hay empate,DC||12,0.6860,1.33,Bet365,1.46,-0.0876,,si,,
-2026-10-11 07:18,4732684,Lecce vs Bologna,"Italia, Serie A",arriesgado,Menos de 0.5 goles en el 1T,OU1T|0.5|under,0.3867,2.62,Bet365,2.59,0.0131,,si,,
-2026-10-11 07:18,4732684,Lecce vs Bologna,"Italia, Serie A",arriesgado,Empate,1X2||X,0.3170,3.38,GTbets,3.15,0.0714,,si,,
-2026-10-11 07:18,4732684,Lecce vs Bologna,"Italia, Serie A",modelo,Menos de 5.5 tarjetas,CARDS|5.5|under,0.8382,,,1.19,,,si,,
-2026-10-11 07:18,4732684,Lecce vs Bologna,"Italia, Serie A",modelo,Más de 6.5 córners,CORN|6.5|over,0.7071,,,1.41,,,si,,
-2026-10-11 07:18,4732684,Lecce vs Bologna,"Italia, Serie A",ticket,Lecce +0.5 (hándicap),AH|0.5|local,0.6416,1.80,,1.56,0.1548,10.00,,,
+2026-10-11 07:18,4732684,Lecce vs Bologna,"Italia, Serie A",seguro,Menos de 3.5 goles,OU|3.5|under,0.8201,1.25,Bet365,1.22,0.0252,,si,G,
+2026-10-11 07:18,4732684,Lecce vs Bologna,"Italia, Serie A",seguro,No hay empate,DC||12,0.6860,1.33,Bet365,1.46,-0.0876,,si,G,
+2026-10-11 07:18,4732684,Lecce vs Bologna,"Italia, Serie A",arriesgado,Menos de 0.5 goles en el 1T,OU1T|0.5|under,0.3867,2.62,Bet365,2.59,0.0131,,si,P,
+2026-10-11 07:18,4732684,Lecce vs Bologna,"Italia, Serie A",arriesgado,Empate,1X2||X,0.3170,3.38,GTbets,3.15,0.0714,,si,P,
+2026-10-11 07:18,4732684,Lecce vs Bologna,"Italia, Serie A",modelo,Menos de 5.5 tarjetas,CARDS|5.5|under,0.8382,,,1.19,,,si,G,
+2026-10-11 07:18,4732684,Lecce vs Bologna,"Italia, Serie A",modelo,Más de 6.5 córners,CORN|6.5|over,0.7071,,,1.41,,,si,G,
+2026-10-11 07:18,4732684,Lecce vs Bologna,"Italia, Serie A",ticket,Lecce +0.5 (hándicap),AH|0.5|local,0.6416,1.80,,1.56,0.1548,10.00,,P,-10.00
 2026-10-11 07:44,4755382,1. FC Köln vs Borussia Mönchengladbach,"Alemania, Bundesliga",seguro,Más de 0.5 goles en el 1T,OU1T|0.5|over,0.7524,1.25,Bet365,1.33,-0.0595,,si,,
 2026-10-11 07:44,4755382,1. FC Köln vs Borussia Mönchengladbach,"Alemania, Bundesliga",seguro,No hay empate,DC||12,0.7516,1.25,Bet365,1.33,-0.0605,,si,,
 2026-10-11 07:44,4755382,1. FC Köln vs Borussia Mönchengladbach,"Alemania, Bundesliga",arriesgado,Más de 3.5 goles,OU|3.5|over,0.3971,2.38,1xBet,2.52,-0.0548,,si,,
@@ -363,3 +363,4 @@ fecha,game_id,partido,liga,tipo,mercado,clave,prob,cuota,casa,cuota_justa,ev,sta
 2026-10-11 09:35,4735246,Rennes vs Auxerre,"Francia, Ligue 1",modelo,Más de 1.5 goles,OU|1.5|over,0.7591,,,1.32,,,si,,
 2026-10-11 09:35,4735246,Rennes vs Auxerre,"Francia, Ligue 1",ticket,Auxerre +1.5 (hándicap),AH|-1.5|visita,0.6925,1.72,,1.44,0.1912,10.00,,,
 2026-10-11 09:55,4732685+4735247,Lazio vs Monza / Niza vs Estrasburgo,,ticket2,No hay empate + Niza o empate,,0.5755,1.70,,1.74,-0.0217,10.00,,G,7.00
+2026-10-11 10:06,4742046+4742045,Crystal Palace vs Nottingham Forest / Hull City vs Everton,,ticket2,Menos de 3.5 goles + Menos de 3.5 goles,,0.6095,1.75,,1.64,0.0692,10.00,,P,-10.00
