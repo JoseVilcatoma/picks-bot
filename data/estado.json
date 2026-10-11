@@ -662,8 +662,72 @@
    "partido": "Elche CF vs Celta de Vigo",
    "liga": "España, LaLiga",
    "inicio": "2026-10-11T07:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1791716484.27775
+   "estado": "enviado",
+   "ultimo": 1791716727.5307205,
+   "pierna": [
+    {
+     "gid": "4750838",
+     "partido": "Elche CF vs Celta de Vigo",
+     "texto": "Menos de 3.5 goles",
+     "clave": "OU|3.5|under",
+     "p": 0.8106,
+     "cuota": 1.33,
+     "casa": "Bet365",
+     "inicio": "2026-10-11T07:00:00-05:00"
+    },
+    {
+     "gid": "4750838",
+     "partido": "Elche CF vs Celta de Vigo",
+     "texto": "Menos de 1.5 goles en el 1T",
+     "clave": "OU1T|1.5|under",
+     "p": 0.7333,
+     "cuota": 1.4,
+     "casa": "Bet365",
+     "inicio": "2026-10-11T07:00:00-05:00"
+    },
+    {
+     "gid": "4750838",
+     "partido": "Elche CF vs Celta de Vigo",
+     "texto": "No hay empate",
+     "clave": "DC||12",
+     "p": 0.6836,
+     "cuota": 1.33,
+     "casa": "Bet365",
+     "inicio": "2026-10-11T07:00:00-05:00"
+    },
+    {
+     "gid": "4750838",
+     "partido": "Elche CF vs Celta de Vigo",
+     "texto": "Celta de Vigo o empate",
+     "clave": "DC||X2",
+     "p": 0.6645,
+     "cuota": 1.36,
+     "casa": "Bet365",
+     "inicio": "2026-10-11T07:00:00-05:00"
+    },
+    {
+     "gid": "4750838",
+     "partido": "Elche CF vs Celta de Vigo",
+     "texto": "Elche CF o empate",
+     "clave": "DC||1X",
+     "p": 0.6519,
+     "cuota": 1.53,
+     "casa": "Bet365",
+     "inicio": "2026-10-11T07:00:00-05:00"
+    },
+    {
+     "gid": "4750838",
+     "partido": "Elche CF vs Celta de Vigo",
+     "texto": "Elche CF +0.5 (hándicap)",
+     "clave": "AH|0.5|local",
+     "p": 0.6415,
+     "cuota": 1.6,
+     "casa": "Bet365",
+     "inicio": "2026-10-11T07:00:00-05:00"
+    }
+   ],
+   "xi": "399311,462402,951705,3856184,46887693,50586397,52641513,62020562,66501019,66808047,77859605|239183,889139,3086651,3483114,54721275,61322133,64152922,66471677,66765066,72695371,72695372",
+   "conf": true
   },
   "4750839": {
    "partido": "Real Betis vs Osasuna",
