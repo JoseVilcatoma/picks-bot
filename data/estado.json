@@ -60,7 +60,7 @@
    "liga": "Brasil, Brasileirão",
    "inicio": "2026-10-10T19:00:00-05:00",
    "estado": "enviado",
-   "ultimo": 1791674274.636598,
+   "ultimo": 1791683775.6095479,
    "pierna": [
     {
      "gid": "4632654",
@@ -375,8 +375,8 @@
    "partido": "Universitario vs FBC Melgar",
    "liga": "Perú, Liga 1 - Clausura",
    "inicio": "2026-10-10T19:00:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1791675521.1640458,
+   "estado": "liquidado",
+   "ultimo": 1791683775.7766402,
    "pierna": [
     {
      "gid": "4760818",
@@ -431,7 +431,20 @@
    ],
    "en_ticket": true,
    "xi": "393797,478387,505190,531129,3226498,3234845,3993952,4710874,47844909,50778574,64944308|137980,347470,351160,460569,648658,6708278,12728007,13334880,50627852,50635855,52833089",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 2,
+    "ag": 2,
+    "ht": [
+     0,
+     1
+    ],
+    "corners": null,
+    "corners_h": null,
+    "corners_a": null,
+    "corners_1t": 6.0,
+    "cards": null
+   }
   },
   "4760820": {
    "partido": "Comerciantes Unidos vs Juan Pablo II College",
