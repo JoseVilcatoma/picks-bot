@@ -971,8 +971,8 @@
    "partido": "Cagliari vs Juventus",
    "liga": "Italia, Serie A",
    "inicio": "2026-10-11T13:45:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1791741894.8885598,
+   "estado": "liquidado",
+   "ultimo": 1791751264.9636297,
    "pierna": [
     {
      "gid": "4732689",
@@ -1017,14 +1017,27 @@
    ],
    "en_ticket": true,
    "xi": "472806,560500,9401336,42946303,46512017,61426991,61685045,66186413,67891435,71690691,77743469|553143,1006401,3094565,3144433,3229380,3260720,3456444,4873827,50999036,51220665,52338804",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 1,
+    "ag": 1,
+    "ht": [
+     1,
+     0
+    ],
+    "corners": 10.0,
+    "corners_h": 1.0,
+    "corners_a": 9.0,
+    "corners_1t": 4.0,
+    "cards": 3.0
+   }
   },
   "4735245": {
    "partido": "Troyes vs Olympique Marsella",
    "liga": "Francia, Ligue 1",
    "inicio": "2026-10-11T13:45:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1791740382.2308521,
+   "estado": "liquidado",
+   "ultimo": 1791751265.224315,
    "pierna": [
     {
      "gid": "4735245",
@@ -1079,7 +1092,20 @@
    ],
    "en_ticket": true,
    "xi": "15242983,50482841,50482982,50682939,66534684,66662859,67878051,70953039,71068809,71328715,75439759|543231,3053170,3154243,4828912,8490982,12616002,13268816,50159654,63131014,77469153,77885631",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 0,
+    "ag": 2,
+    "ht": [
+     0,
+     0
+    ],
+    "corners": 9.0,
+    "corners_h": 6.0,
+    "corners_a": 3.0,
+    "corners_1t": 5.0,
+    "cards": 5.0
+   }
   },
   "4735246": {
    "partido": "Rennes vs Auxerre",
@@ -2334,33 +2360,6 @@
   "4869278": 1791686716825
  },
  "tickets": [
-  {
-   "piernas": [
-    {
-     "gid": "4735245",
-     "partido": "Troyes vs Olympique Marsella",
-     "texto": "Ambos marcan: Sí",
-     "clave": "BTTS||si",
-     "p": 0.5792,
-     "cuota": 1.57,
-     "casa": "William Hill",
-     "inicio": "2026-10-11T13:45:00-05:00"
-    },
-    {
-     "gid": "4760814",
-     "partido": "UTC Cajamarca vs Sporting Cristal",
-     "texto": "Sporting Cristal o empate",
-     "clave": "DC||X2",
-     "p": 0.8271,
-     "cuota": 1.29,
-     "casa": "Bet365",
-     "inicio": "2026-10-11T13:00:00-05:00"
-    }
-   ],
-   "p": 0.47905632000000004,
-   "cuota": 2.0253,
-   "t": 1791740383.6383734
-  },
   {
    "piernas": [
     {

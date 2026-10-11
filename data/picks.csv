@@ -388,25 +388,25 @@ fecha,game_id,partido,liga,tipo,mercado,clave,prob,cuota,casa,cuota_justa,ev,sta
 2026-10-11 12:11,4760814,UTC Cajamarca vs Sporting Cristal,"Perú, Liga 1 - Clausura",seguro,Sporting Cristal o empate,DC||X2,0.8271,1.29,Bet365,1.21,0.0669,,si,G,
 2026-10-11 12:11,4760814,UTC Cajamarca vs Sporting Cristal,"Perú, Liga 1 - Clausura",ticket,Sporting Cristal -0.5 (hándicap),AH|0.5|visita,0.5858,1.98,,1.71,0.1598,10.00,,G,9.80
 2026-10-11 12:25,4755386+4742042,Friburgo vs Schalke 04 / Liverpool vs Manchester City,,ticket2,Más de 0.5 goles en el 1T + Manchester City o empate,,0.5730,1.72,,1.75,-0.0170,10.00,,G,7.16
-2026-10-11 12:39,4735245,Troyes vs Olympique Marsella,"Francia, Ligue 1",seguro,Troyes recibe gol,CS||local_no,0.7931,1.17,Bet365,1.26,-0.0721,,si,,
-2026-10-11 12:39,4735245,Troyes vs Olympique Marsella,"Francia, Ligue 1",seguro,No hay empate,DC||12,0.7336,1.29,Bet365,1.36,-0.0537,,si,,
-2026-10-11 12:39,4735245,Troyes vs Olympique Marsella,"Francia, Ligue 1",arriesgado,Gana Troyes,1X2||1,0.2818,3.91,1xBet,3.55,0.1017,,si,,
-2026-10-11 12:39,4735245,Troyes vs Olympique Marsella,"Francia, Ligue 1",modelo,Menos de 4.5 tarjetas,CARDS|4.5|under,0.7920,,,1.26,,,si,,
-2026-10-11 12:39,4735245,Troyes vs Olympique Marsella,"Francia, Ligue 1",modelo,Más de 6.5 córners,CORN|6.5|over,0.7050,,,1.42,,,si,,
-2026-10-11 12:39,4735245,Troyes vs Olympique Marsella,"Francia, Ligue 1",ticket,Troyes o empate,DC||1X,0.5497,1.80,,1.82,-0.0105,10.00,,,
+2026-10-11 12:39,4735245,Troyes vs Olympique Marsella,"Francia, Ligue 1",seguro,Troyes recibe gol,CS||local_no,0.7931,1.17,Bet365,1.26,-0.0721,,si,G,
+2026-10-11 12:39,4735245,Troyes vs Olympique Marsella,"Francia, Ligue 1",seguro,No hay empate,DC||12,0.7336,1.29,Bet365,1.36,-0.0537,,si,G,
+2026-10-11 12:39,4735245,Troyes vs Olympique Marsella,"Francia, Ligue 1",arriesgado,Gana Troyes,1X2||1,0.2818,3.91,1xBet,3.55,0.1017,,si,P,
+2026-10-11 12:39,4735245,Troyes vs Olympique Marsella,"Francia, Ligue 1",modelo,Menos de 4.5 tarjetas,CARDS|4.5|under,0.7920,,,1.26,,,si,P,
+2026-10-11 12:39,4735245,Troyes vs Olympique Marsella,"Francia, Ligue 1",modelo,Más de 6.5 córners,CORN|6.5|over,0.7050,,,1.42,,,si,G,
+2026-10-11 12:39,4735245,Troyes vs Olympique Marsella,"Francia, Ligue 1",ticket,Troyes o empate,DC||1X,0.5497,1.80,,1.82,-0.0105,10.00,,P,-10.00
 2026-10-11 13:02,4750834,Racing de Santander vs Valencia CF,"España, LaLiga",seguro,Valencia CF recibe gol,CS||visita_no,0.7762,1.18,Bet365,1.29,-0.0841,,si,,
 2026-10-11 13:02,4750834,Racing de Santander vs Valencia CF,"España, LaLiga",seguro,No hay empate,DC||12,0.7250,1.30,Bet365,1.38,-0.0574,,si,,
 2026-10-11 13:02,4750834,Racing de Santander vs Valencia CF,"España, LaLiga",arriesgado,Gana Valencia CF,1X2||2,0.3156,3.12,1xBet,3.17,-0.0152,,si,,
 2026-10-11 13:02,4750834,Racing de Santander vs Valencia CF,"España, LaLiga",modelo,Más de 2.5 tarjetas,CARDS|2.5|over,0.7890,,,1.27,,,si,,
 2026-10-11 13:02,4750834,Racing de Santander vs Valencia CF,"España, LaLiga",modelo,Menos de 12.5 córners,CORN|12.5|under,0.6787,,,1.47,,,si,,
 2026-10-11 13:02,4750834,Racing de Santander vs Valencia CF,"España, LaLiga",ticket,Más de 2.5 goles,OU|2.5|over,0.5269,1.71,,1.90,-0.0989,10.00,,,
-2026-10-11 13:05,4732689,Cagliari vs Juventus,"Italia, Serie A",seguro,Menos de 3.5 goles,OU|3.5|under,0.7866,1.30,Bet365,1.27,0.0225,,si,,
-2026-10-11 13:05,4732689,Cagliari vs Juventus,"Italia, Serie A",seguro,No hay empate,DC||12,0.7202,1.25,Bet365,1.39,-0.0998,,si,,
-2026-10-11 13:05,4732689,Cagliari vs Juventus,"Italia, Serie A",arriesgado,Menos de 0.5 goles en el 1T,OU1T|0.5|under,0.3635,2.75,Bet365,2.75,-0.0004,,si,,
-2026-10-11 13:05,4732689,Cagliari vs Juventus,"Italia, Serie A",modelo,Menos de 10.5 córners,CORN|10.5|under,0.7290,,,1.37,,,si,,
-2026-10-11 13:05,4732689,Cagliari vs Juventus,"Italia, Serie A",modelo,Menos de 2.5 tarjetas,CARDS|2.5|under,0.6778,,,1.48,,,si,,
-2026-10-11 13:05,4732689,Cagliari vs Juventus,"Italia, Serie A",apostable,Menos de 2.5 goles,OU|2.5|under,0.5889,1.87,1xBet,1.70,0.0605,17.50,si,,
-2026-10-11 13:05,4732689,Cagliari vs Juventus,"Italia, Serie A",ticket,Menos de 2.5 goles,OU|2.5|under,0.5889,1.87,,1.70,0.1013,10.00,,,
+2026-10-11 13:05,4732689,Cagliari vs Juventus,"Italia, Serie A",seguro,Menos de 3.5 goles,OU|3.5|under,0.7866,1.30,Bet365,1.27,0.0225,,si,G,
+2026-10-11 13:05,4732689,Cagliari vs Juventus,"Italia, Serie A",seguro,No hay empate,DC||12,0.7202,1.25,Bet365,1.39,-0.0998,,si,P,
+2026-10-11 13:05,4732689,Cagliari vs Juventus,"Italia, Serie A",arriesgado,Menos de 0.5 goles en el 1T,OU1T|0.5|under,0.3635,2.75,Bet365,2.75,-0.0004,,si,P,
+2026-10-11 13:05,4732689,Cagliari vs Juventus,"Italia, Serie A",modelo,Menos de 10.5 córners,CORN|10.5|under,0.7290,,,1.37,,,si,G,
+2026-10-11 13:05,4732689,Cagliari vs Juventus,"Italia, Serie A",modelo,Menos de 2.5 tarjetas,CARDS|2.5|under,0.6778,,,1.48,,,si,P,
+2026-10-11 13:05,4732689,Cagliari vs Juventus,"Italia, Serie A",apostable,Menos de 2.5 goles,OU|2.5|under,0.5889,1.87,1xBet,1.70,0.0605,17.50,si,G,15.23
+2026-10-11 13:05,4732689,Cagliari vs Juventus,"Italia, Serie A",ticket,Menos de 2.5 goles,OU|2.5|under,0.5889,1.87,,1.70,0.1013,10.00,,G,8.70
 2026-10-11 13:12,4632651,Atlético Mineiro vs Santos,"Brasil, Brasileirão",seguro,No hay empate,DC||12,0.6975,1.33,Bet365,1.43,-0.0723,,si,,
 2026-10-11 13:12,4632651,Atlético Mineiro vs Santos,"Brasil, Brasileirão",seguro,Más de 1.5 goles,OU|1.5|over,0.6857,1.25,Bet365,1.46,-0.1429,,si,,
 2026-10-11 13:12,4632651,Atlético Mineiro vs Santos,"Brasil, Brasileirão",modelo,Menos de 6.5 tarjetas,CARDS|6.5|under,0.7822,,,1.28,,,si,,
@@ -450,3 +450,4 @@ fecha,game_id,partido,liga,tipo,mercado,clave,prob,cuota,casa,cuota_justa,ev,sta
 2026-10-11 15:20,4760819,Sport Boys vs Alianza Atletico,"Perú, Liga 1 - Clausura",modelo,Menos de 6.5 tarjetas,CARDS|6.5|under,0.8286,,,1.21,,,si,,
 2026-10-11 15:20,4760819,Sport Boys vs Alianza Atletico,"Perú, Liga 1 - Clausura",modelo,Menos de 11.5 córners,CORN|11.5|under,0.7314,,,1.37,,,si,,
 2026-10-11 15:20,4760819,Sport Boys vs Alianza Atletico,"Perú, Liga 1 - Clausura",ticket,Sport Boys recibe gol + Más de 1.5 goles,CS||local_no&OU|1.5|over,0.5677,1.86,,1.76,0.0546,10.00,,,
+2026-10-11 15:41,4735245+4760814,Troyes vs Olympique Marsella / UTC Cajamarca vs Sporting Cristal,,ticket2,Ambos marcan: Sí + Sporting Cristal o empate,,0.4791,2.03,,2.09,-0.0298,10.00,,P,-10.00
