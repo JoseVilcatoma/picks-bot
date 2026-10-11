@@ -896,8 +896,53 @@
    "partido": "Real Sociedad vs RC Deportivo",
    "liga": "España, LaLiga",
    "inicio": "2026-10-11T09:15:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1791725586.056272
+   "estado": "enviado",
+   "ultimo": 1791725713.3541768,
+   "pierna": [
+    {
+     "gid": "4750831",
+     "partido": "Real Sociedad vs RC Deportivo",
+     "texto": "Más de 1.5 goles",
+     "clave": "OU|1.5|over",
+     "p": 0.779,
+     "cuota": 1.22,
+     "casa": "Bet365",
+     "inicio": "2026-10-11T09:15:00-05:00"
+    },
+    {
+     "gid": "4750831",
+     "partido": "Real Sociedad vs RC Deportivo",
+     "texto": "No hay empate",
+     "clave": "DC||12",
+     "p": 0.7479,
+     "cuota": 1.25,
+     "casa": "Bet365",
+     "inicio": "2026-10-11T09:15:00-05:00"
+    },
+    {
+     "gid": "4750831",
+     "partido": "Real Sociedad vs RC Deportivo",
+     "texto": "Más de 0.5 goles en el 1T",
+     "clave": "OU1T|0.5|over",
+     "p": 0.7138,
+     "cuota": 1.33,
+     "casa": "Bet365",
+     "inicio": "2026-10-11T09:15:00-05:00"
+    },
+    {
+     "gid": "4750831",
+     "partido": "Real Sociedad vs RC Deportivo",
+     "texto": "Real Sociedad recibe gol",
+     "clave": "CS||local_no",
+     "p": 0.6424,
+     "cuota": 1.53,
+     "casa": "Bet365",
+     "inicio": "2026-10-11T09:15:00-05:00"
+    }
+   ],
+   "en_ticket": true,
+   "xi": "541991,571305,627873,668146,941400,12241544,50752876,59016046,66430024,67466102,70953097|330473,412242,48477961,51404167,54644483,64350547,64844680,65561869,67428962,71122978,77551112",
+   "conf": false
   },
   "4750834": {
    "partido": "Racing de Santander vs Valencia CF",
@@ -1139,7 +1184,8 @@
     }
    ],
    "xi": "1335607,49517813,55500010,56082037,63094701,66704397,66873553,71545449,75491601,76143758,78674293|7951019,50273568,57110354,58253141,59438356,64933804,67617048,70795530,71329623,77371987,79590358",
-   "conf": true
+   "conf": true,
+   "en_ticket": true
   },
   "4757177": {
    "partido": "Benfica vs Guimarães",
@@ -1327,6 +1373,33 @@
    "p": 0.5531395600000001,
    "cuota": 1.7024000000000001,
    "t": 1791722640.7586117
+  },
+  {
+   "piernas": [
+    {
+     "gid": "4750831",
+     "partido": "Real Sociedad vs RC Deportivo",
+     "texto": "Más de 0.5 goles en el 1T",
+     "clave": "OU1T|0.5|over",
+     "p": 0.7138,
+     "cuota": 1.33,
+     "casa": "Bet365",
+     "inicio": "2026-10-11T09:15:00-05:00"
+    },
+    {
+     "gid": "4757176",
+     "partido": "Rio Ave vs Nacional Madeira",
+     "texto": "Menos de 3.5 goles",
+     "clave": "OU|3.5|under",
+     "p": 0.84,
+     "cuota": 1.33,
+     "casa": "Bet365",
+     "inicio": "2026-10-11T09:30:00-05:00"
+    }
+   ],
+   "p": 0.599592,
+   "cuota": 1.7689000000000001,
+   "t": 1791725717.462688
   }
  ]
 }
