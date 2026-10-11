@@ -477,8 +477,72 @@
    "partido": "Atlético Mineiro vs Santos",
    "liga": "Brasil, Brasileirão",
    "inicio": "2026-10-11T14:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1791742072.8428829
+   "estado": "enviado",
+   "ultimo": 1791742317.0189257,
+   "pierna": [
+    {
+     "gid": "4632651",
+     "partido": "Atlético Mineiro vs Santos",
+     "texto": "No hay empate",
+     "clave": "DC||12",
+     "p": 0.6975,
+     "cuota": 1.33,
+     "casa": "Bet365",
+     "inicio": "2026-10-11T14:00:00-05:00"
+    },
+    {
+     "gid": "4632651",
+     "partido": "Atlético Mineiro vs Santos",
+     "texto": "Más de 1.5 goles",
+     "clave": "OU|1.5|over",
+     "p": 0.6857,
+     "cuota": 1.25,
+     "casa": "Bet365",
+     "inicio": "2026-10-11T14:00:00-05:00"
+    },
+    {
+     "gid": "4632651",
+     "partido": "Atlético Mineiro vs Santos",
+     "texto": "Atlético Mineiro recibe gol",
+     "clave": "CS||local_no",
+     "p": 0.6839,
+     "cuota": 1.4,
+     "casa": "Bet365",
+     "inicio": "2026-10-11T14:00:00-05:00"
+    },
+    {
+     "gid": "4632651",
+     "partido": "Atlético Mineiro vs Santos",
+     "texto": "Santos +0.5 (hándicap)",
+     "clave": "AH|-0.5|visita",
+     "p": 0.6759,
+     "cuota": 1.65,
+     "casa": "Bet365",
+     "inicio": "2026-10-11T14:00:00-05:00"
+    },
+    {
+     "gid": "4632651",
+     "partido": "Atlético Mineiro vs Santos",
+     "texto": "Santos recibe gol",
+     "clave": "CS||visita_no",
+     "p": 0.6639,
+     "cuota": 1.22,
+     "casa": "Bet365",
+     "inicio": "2026-10-11T14:00:00-05:00"
+    },
+    {
+     "gid": "4632651",
+     "partido": "Atlético Mineiro vs Santos",
+     "texto": "Más de 0.5 goles en el 1T",
+     "clave": "OU1T|0.5|over",
+     "p": 0.6522,
+     "cuota": 1.33,
+     "casa": "Bet365",
+     "inicio": "2026-10-11T14:00:00-05:00"
+    }
+   ],
+   "xi": "348822,518460,3066799,3374658,46933489,50626522,53667285,56015041,65622503,67640814,77666526|425897,479593,530809,543235,2567397,3074735,3231386,6328592,60376096,76891180,76943195",
+   "conf": true
   },
   "4632653": {
    "partido": "Palmeiras vs Corinthians",
