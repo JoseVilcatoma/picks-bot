@@ -407,12 +407,12 @@ fecha,game_id,partido,liga,tipo,mercado,clave,prob,cuota,casa,cuota_justa,ev,sta
 2026-10-11 13:05,4732689,Cagliari vs Juventus,"Italia, Serie A",modelo,Menos de 2.5 tarjetas,CARDS|2.5|under,0.6778,,,1.48,,,si,P,
 2026-10-11 13:05,4732689,Cagliari vs Juventus,"Italia, Serie A",apostable,Menos de 2.5 goles,OU|2.5|under,0.5889,1.87,1xBet,1.70,0.0605,17.50,si,G,15.23
 2026-10-11 13:05,4732689,Cagliari vs Juventus,"Italia, Serie A",ticket,Menos de 2.5 goles,OU|2.5|under,0.5889,1.87,,1.70,0.1013,10.00,,G,8.70
-2026-10-11 13:12,4632651,Atlético Mineiro vs Santos,"Brasil, Brasileirão",seguro,No hay empate,DC||12,0.6975,1.33,Bet365,1.43,-0.0723,,si,,
-2026-10-11 13:12,4632651,Atlético Mineiro vs Santos,"Brasil, Brasileirão",seguro,Más de 1.5 goles,OU|1.5|over,0.6857,1.25,Bet365,1.46,-0.1429,,si,,
-2026-10-11 13:12,4632651,Atlético Mineiro vs Santos,"Brasil, Brasileirão",modelo,Menos de 6.5 tarjetas,CARDS|6.5|under,0.7822,,,1.28,,,si,,
-2026-10-11 13:12,4632651,Atlético Mineiro vs Santos,"Brasil, Brasileirão",modelo,Menos de 13.5 córners,CORN|13.5|under,0.6782,,,1.47,,,si,,
-2026-10-11 13:12,4632651,Atlético Mineiro vs Santos,"Brasil, Brasileirão",apostable,Gana Santos,1X2||2,0.3953,3.15,Unibet (NL),2.53,0.2322,13.50,si,,
-2026-10-11 13:12,4632651,Atlético Mineiro vs Santos,"Brasil, Brasileirão",ticket,Más de 1.5 goles + Atlético Mineiro recibe gol,OU|1.5|over&CS||local_no,0.5727,1.75,,1.75,0.0023,10.00,,,
+2026-10-11 13:12,4632651,Atlético Mineiro vs Santos,"Brasil, Brasileirão",seguro,No hay empate,DC||12,0.6975,1.33,Bet365,1.43,-0.0723,,si,G,
+2026-10-11 13:12,4632651,Atlético Mineiro vs Santos,"Brasil, Brasileirão",seguro,Más de 1.5 goles,OU|1.5|over,0.6857,1.25,Bet365,1.46,-0.1429,,si,G,
+2026-10-11 13:12,4632651,Atlético Mineiro vs Santos,"Brasil, Brasileirão",modelo,Menos de 6.5 tarjetas,CARDS|6.5|under,0.7822,,,1.28,,,si,P,
+2026-10-11 13:12,4632651,Atlético Mineiro vs Santos,"Brasil, Brasileirão",modelo,Menos de 13.5 córners,CORN|13.5|under,0.6782,,,1.47,,,si,P,
+2026-10-11 13:12,4632651,Atlético Mineiro vs Santos,"Brasil, Brasileirão",apostable,Gana Santos,1X2||2,0.3953,3.15,Unibet (NL),2.53,0.2322,13.50,si,P,-13.50
+2026-10-11 13:12,4632651,Atlético Mineiro vs Santos,"Brasil, Brasileirão",ticket,Más de 1.5 goles + Atlético Mineiro recibe gol,OU|1.5|over&CS||local_no,0.5727,1.75,,1.75,0.0023,10.00,,G,7.50
 2026-10-11 13:37,4750839+4732682,Real Betis vs Osasuna / Sassuolo vs AC Milan,,ticket2,Menos de 3.5 goles + AC Milan o empate,,0.5282,1.88,,1.89,-0.0096,10.00,,P,-10.00
 2026-10-11 13:45,4757170,Arouca vs Estrela da Amadora,"Portugal, Primeira Liga",seguro,Estrela da Amadora recibe gol,CS||visita_no,0.7766,1.22,Bet365,1.29,-0.0526,,si,,
 2026-10-11 13:45,4757170,Arouca vs Estrela da Amadora,"Portugal, Primeira Liga",seguro,No hay empate,DC||12,0.7228,1.33,Bet365,1.38,-0.0387,,si,,

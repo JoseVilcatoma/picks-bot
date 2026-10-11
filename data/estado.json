@@ -428,7 +428,7 @@
    "liga": "Brasil, Brasileirão",
    "inicio": "2026-10-11T17:30:00-05:00",
    "estado": "pendiente",
-   "ultimo": 0
+   "ultimo": 1791753353.53344
   },
   "4632650": {
    "partido": "Grêmio vs Internacional",
@@ -506,8 +506,8 @@
    "partido": "Atlético Mineiro vs Santos",
    "liga": "Brasil, Brasileirão",
    "inicio": "2026-10-11T14:00:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1791752748.6578948,
+   "estado": "liquidado",
+   "ultimo": 1791753353.7498689,
    "pierna": [
     {
      "gid": "4632651",
@@ -572,7 +572,20 @@
    ],
    "xi": "348822,518460,3066799,3374658,46933489,50626522,53667285,56015041,65622503,67640814,77666526|425897,479593,530809,543235,2567397,3074735,3231386,6328592,60376096,76891180,76943195",
    "conf": true,
-   "en_ticket": true
+   "en_ticket": true,
+   "r": {
+    "hg": 2,
+    "ag": 1,
+    "ht": [
+     0,
+     0
+    ],
+    "corners": 15.0,
+    "corners_h": 12.0,
+    "corners_a": 3.0,
+    "corners_1t": 5.0,
+    "cards": 8.0
+   }
   },
   "4632653": {
    "partido": "Palmeiras vs Corinthians",
