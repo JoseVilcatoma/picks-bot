@@ -785,8 +785,72 @@
    "partido": "Liverpool vs Manchester City",
    "liga": "Inglaterra, Premier League",
    "inicio": "2026-10-11T10:30:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1791728375.582331
+   "estado": "enviado",
+   "ultimo": 1791728619.5230904,
+   "pierna": [
+    {
+     "gid": "4742042",
+     "partido": "Liverpool vs Manchester City",
+     "texto": "Manchester City o empate",
+     "clave": "DC||X2",
+     "p": 0.7723,
+     "cuota": 1.33,
+     "casa": "Bet365",
+     "inicio": "2026-10-11T10:30:00-05:00"
+    },
+    {
+     "gid": "4742042",
+     "partido": "Liverpool vs Manchester City",
+     "texto": "Más de 1.5 goles",
+     "clave": "OU|1.5|over",
+     "p": 0.7431,
+     "cuota": 1.2,
+     "casa": "Bet365",
+     "inicio": "2026-10-11T10:30:00-05:00"
+    },
+    {
+     "gid": "4742042",
+     "partido": "Liverpool vs Manchester City",
+     "texto": "No hay empate",
+     "clave": "DC||12",
+     "p": 0.7309,
+     "cuota": 1.29,
+     "casa": "Bet365",
+     "inicio": "2026-10-11T10:30:00-05:00"
+    },
+    {
+     "gid": "4742042",
+     "partido": "Liverpool vs Manchester City",
+     "texto": "Menos de 3.5 goles",
+     "clave": "OU|3.5|under",
+     "p": 0.6988,
+     "cuota": 1.56,
+     "casa": "Unibet (NL)",
+     "inicio": "2026-10-11T10:30:00-05:00"
+    },
+    {
+     "gid": "4742042",
+     "partido": "Liverpool vs Manchester City",
+     "texto": "Más de 0.5 goles en el 1T",
+     "clave": "OU1T|0.5|over",
+     "p": 0.6939,
+     "cuota": 1.29,
+     "casa": "Bet365",
+     "inicio": "2026-10-11T10:30:00-05:00"
+    },
+    {
+     "gid": "4742042",
+     "partido": "Liverpool vs Manchester City",
+     "texto": "Menos de 1.5 goles en el 1T",
+     "clave": "OU1T|1.5|under",
+     "p": 0.6618,
+     "cuota": 1.53,
+     "casa": "Bet365",
+     "inicio": "2026-10-11T10:30:00-05:00"
+    }
+   ],
+   "xi": "220953,558151,3344160,3886928,39077601,49449655,60734154,60909490,67987366,70789335,70896126|620429,1391166,3072169,13600912,39079597,40408252,48394475,49491936,51439135,55058114,68032675",
+   "conf": true
   },
   "4742045": {
    "partido": "Hull City vs Everton",
@@ -1119,7 +1183,7 @@
    "liga": "Alemania, Bundesliga",
    "inicio": "2026-10-11T10:30:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1791728375.634254
+   "ultimo": 1791728621.3213737
   },
   "4757170": {
    "partido": "Arouca vs Estrela da Amadora",
