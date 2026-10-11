@@ -507,7 +507,7 @@
    "liga": "Brasil, Brasileirão",
    "inicio": "2026-10-11T14:00:00-05:00",
    "estado": "enviado",
-   "ultimo": 1791742317.0189257,
+   "ultimo": 1791752114.1878467,
    "pierna": [
     {
      "gid": "4632651",
@@ -1540,8 +1540,8 @@
    "partido": "Racing de Santander vs Valencia CF",
    "liga": "España, LaLiga",
    "inicio": "2026-10-11T14:00:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1791741735.2358456,
+   "estado": "liquidado",
+   "ultimo": 1791752114.3934076,
    "pierna": [
     {
      "gid": "4750834",
@@ -1606,7 +1606,20 @@
    ],
    "xi": "28334,1766700,10526467,15809523,51019318,60835756,64816557,66437445,66566911,71407785,75254319|441765,502893,538119,561247,676819,1760855,3174103,3228816,5247024,50481885,64759691",
    "conf": true,
-   "en_ticket": true
+   "en_ticket": true,
+   "r": {
+    "hg": 2,
+    "ag": 2,
+    "ht": [
+     1,
+     1
+    ],
+    "corners": 11.0,
+    "corners_h": 8.0,
+    "corners_a": 3.0,
+    "corners_1t": 5.0,
+    "cards": 6.0
+   }
   },
   "4750838": {
    "partido": "Elche CF vs Celta de Vigo",
@@ -2360,33 +2373,6 @@
   "4869278": 1791686716825
  },
  "tickets": [
-  {
-   "piernas": [
-    {
-     "gid": "4732689",
-     "partido": "Cagliari vs Juventus",
-     "texto": "Menos de 1.5 goles en el 1T",
-     "clave": "OU1T|1.5|under",
-     "p": 0.7108,
-     "cuota": 1.4,
-     "casa": "Bet365",
-     "inicio": "2026-10-11T13:45:00-05:00"
-    },
-    {
-     "gid": "4750834",
-     "partido": "Racing de Santander vs Valencia CF",
-     "texto": "No hay empate",
-     "clave": "DC||12",
-     "p": 0.725,
-     "cuota": 1.3,
-     "casa": "Bet365",
-     "inicio": "2026-10-11T14:00:00-05:00"
-    }
-   ],
-   "p": 0.51533,
-   "cuota": 1.8199999999999998,
-   "t": 1791741948.8637998
-  },
   {
    "piernas": [
     {
