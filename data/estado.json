@@ -1541,8 +1541,8 @@
    "partido": "Real Betis vs Osasuna",
    "liga": "España, LaLiga",
    "inicio": "2026-10-11T11:30:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1791743192.0575092,
+   "estado": "liquidado",
+   "ultimo": 1791743804.6071012,
    "pierna": [
     {
      "gid": "4750839",
@@ -1607,7 +1607,20 @@
    ],
    "en_ticket": true,
    "xi": "106049,329571,435115,976812,3143139,3209042,18094605,30465820,46854548,50896962,62694855|204239,350828,414858,541593,542817,1898668,35158639,38876493,66362474,71542182,77632932",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 5,
+    "ag": 2,
+    "ht": [
+     2,
+     0
+    ],
+    "corners": 12.0,
+    "corners_h": 8.0,
+    "corners_a": 4.0,
+    "corners_1t": 7.0,
+    "cards": 7.0
+   }
   },
   "4755382": {
    "partido": "1. FC Köln vs Borussia Mönchengladbach",
@@ -1764,7 +1777,7 @@
    "liga": "Portugal, Primeira Liga",
    "inicio": "2026-10-11T14:30:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1791743561.9144185
+   "ultimo": 1791743821.5108414
   },
   "4757176": {
    "partido": "Rio Ave vs Nacional Madeira",
@@ -2056,33 +2069,6 @@
   "4869278": 1791686716825
  },
  "tickets": [
-  {
-   "piernas": [
-    {
-     "gid": "4750839",
-     "partido": "Real Betis vs Osasuna",
-     "texto": "Menos de 3.5 goles",
-     "clave": "OU|3.5|under",
-     "p": 0.6952,
-     "cuota": 1.5,
-     "casa": "Bet365",
-     "inicio": "2026-10-11T11:30:00-05:00"
-    },
-    {
-     "gid": "4732682",
-     "partido": "Sassuolo vs AC Milan",
-     "texto": "AC Milan o empate",
-     "clave": "DC||X2",
-     "p": 0.7598,
-     "cuota": 1.25,
-     "casa": "Bet365",
-     "inicio": "2026-10-11T11:00:00-05:00"
-    }
-   ],
-   "p": 0.5282129600000001,
-   "cuota": 1.875,
-   "t": 1791732588.3387241
-  },
   {
    "piernas": [
     {

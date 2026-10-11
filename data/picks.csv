@@ -370,13 +370,13 @@ fecha,game_id,partido,liga,tipo,mercado,clave,prob,cuota,casa,cuota_justa,ev,sta
 2026-10-11 10:19,4732682,Sassuolo vs AC Milan,"Italia, Serie A",modelo,Menos de 5.5 tarjetas,CARDS|5.5|under,0.8382,,,1.19,,,si,G,
 2026-10-11 10:19,4732682,Sassuolo vs AC Milan,"Italia, Serie A",modelo,Menos de 11.5 córners,CORN|11.5|under,0.7055,,,1.42,,,si,G,
 2026-10-11 10:19,4732682,Sassuolo vs AC Milan,"Italia, Serie A",ticket,Más de 2.5 goles,OU|2.5|over,0.4900,1.72,,2.04,-0.1572,10.00,,P,-10.00
-2026-10-11 10:29,4750839,Real Betis vs Osasuna,"España, LaLiga",seguro,No hay empate,DC||12,0.7669,1.18,Bet365,1.30,-0.0950,,si,,
-2026-10-11 10:29,4750839,Real Betis vs Osasuna,"España, LaLiga",seguro,Más de 1.5 goles,OU|1.5|over,0.7594,1.20,Bet365,1.32,-0.0888,,si,,
-2026-10-11 10:29,4750839,Real Betis vs Osasuna,"España, LaLiga",arriesgado,Menos de 3.5 tarjetas,CARDS|3.5|under,0.4425,2.10,Bet365,2.26,-0.0708,,si,,
-2026-10-11 10:29,4750839,Real Betis vs Osasuna,"España, LaLiga",arriesgado,Real Betis deja el arco en cero,CS||local_si,0.4072,2.25,Bet365,2.46,-0.0837,,si,,
-2026-10-11 10:29,4750839,Real Betis vs Osasuna,"España, LaLiga",modelo,Menos de 6.5 tarjetas,CARDS|6.5|under,0.8286,,,1.21,,,si,,
-2026-10-11 10:29,4750839,Real Betis vs Osasuna,"España, LaLiga",modelo,Menos de 11.5 córners,CORN|11.5|under,0.7399,,,1.35,,,si,,
-2026-10-11 10:29,4750839,Real Betis vs Osasuna,"España, LaLiga",ticket,Más de 1.5 goles + Real Betis recibe gol,OU|1.5|over&CS||local_no,0.5376,1.88,,1.86,0.0128,10.00,,,
+2026-10-11 10:29,4750839,Real Betis vs Osasuna,"España, LaLiga",seguro,No hay empate,DC||12,0.7669,1.18,Bet365,1.30,-0.0950,,si,G,
+2026-10-11 10:29,4750839,Real Betis vs Osasuna,"España, LaLiga",seguro,Más de 1.5 goles,OU|1.5|over,0.7594,1.20,Bet365,1.32,-0.0888,,si,G,
+2026-10-11 10:29,4750839,Real Betis vs Osasuna,"España, LaLiga",arriesgado,Menos de 3.5 tarjetas,CARDS|3.5|under,0.4425,2.10,Bet365,2.26,-0.0708,,si,P,
+2026-10-11 10:29,4750839,Real Betis vs Osasuna,"España, LaLiga",arriesgado,Real Betis deja el arco en cero,CS||local_si,0.4072,2.25,Bet365,2.46,-0.0837,,si,P,
+2026-10-11 10:29,4750839,Real Betis vs Osasuna,"España, LaLiga",modelo,Menos de 6.5 tarjetas,CARDS|6.5|under,0.8286,,,1.21,,,si,P,
+2026-10-11 10:29,4750839,Real Betis vs Osasuna,"España, LaLiga",modelo,Menos de 11.5 córners,CORN|11.5|under,0.7399,,,1.35,,,si,P,
+2026-10-11 10:29,4750839,Real Betis vs Osasuna,"España, LaLiga",ticket,Más de 1.5 goles + Real Betis recibe gol,OU|1.5|over&CS||local_no,0.5376,1.88,,1.86,0.0128,10.00,,G,8.80
 2026-10-11 10:35,4755382+4732684,1. FC Köln vs Borussia Mönchengladbach / Lecce vs Bologna,,ticket2,1. FC Köln recibe gol + Menos de 1.5 goles en el 1T,,0.5531,1.70,,1.81,-0.0583,10.00,,G,7.02
 2026-10-11 10:58,4757177,Benfica vs Guimarães,"Portugal, Primeira Liga",seguro,Gana Benfica,1X2||1,0.7568,1.25,Bet365,1.32,-0.0541,,si,,
 2026-10-11 10:58,4757177,Benfica vs Guimarães,"Portugal, Primeira Liga",seguro,Más de 0.5 goles en el 1T,OU1T|0.5|over,0.7547,1.22,Bet365,1.32,-0.0792,,si,,
@@ -413,3 +413,4 @@ fecha,game_id,partido,liga,tipo,mercado,clave,prob,cuota,casa,cuota_justa,ev,sta
 2026-10-11 13:12,4632651,Atlético Mineiro vs Santos,"Brasil, Brasileirão",modelo,Menos de 13.5 córners,CORN|13.5|under,0.6782,,,1.47,,,si,,
 2026-10-11 13:12,4632651,Atlético Mineiro vs Santos,"Brasil, Brasileirão",apostable,Gana Santos,1X2||2,0.3953,3.15,Unibet (NL),2.53,0.2322,13.50,si,,
 2026-10-11 13:12,4632651,Atlético Mineiro vs Santos,"Brasil, Brasileirão",ticket,Más de 1.5 goles + Atlético Mineiro recibe gol,OU|1.5|over&CS||local_no,0.5727,1.75,,1.75,0.0023,10.00,,,
+2026-10-11 13:37,4750839+4732682,Real Betis vs Osasuna / Sassuolo vs AC Milan,,ticket2,Menos de 3.5 goles + AC Milan o empate,,0.5282,1.88,,1.89,-0.0096,10.00,,P,-10.00
