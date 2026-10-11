@@ -499,7 +499,7 @@
    "liga": "Italia, Serie A",
    "inicio": "2026-10-11T11:00:00-05:00",
    "estado": "enviado",
-   "ultimo": 1791731927.4873903,
+   "ultimo": 1791741359.3131135,
    "pierna": [
     {
      "gid": "4732682",
@@ -775,7 +775,7 @@
    "liga": "Italia, Serie A",
    "inicio": "2026-10-11T13:45:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1791741115.5277755
+   "ultimo": 1791741359.3668435
   },
   "4735245": {
    "partido": "Troyes vs Olympique Marsella",
