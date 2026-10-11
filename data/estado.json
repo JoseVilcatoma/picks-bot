@@ -514,8 +514,42 @@
    "partido": "Lecce vs Bologna",
    "liga": "Italia, Serie A",
    "inicio": "2026-10-11T08:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1791720757.3741663
+   "estado": "enviado",
+   "ultimo": 1791721047.0049722,
+   "pierna": [
+    {
+     "gid": "4732684",
+     "partido": "Lecce vs Bologna",
+     "texto": "Menos de 3.5 goles",
+     "clave": "OU|3.5|under",
+     "p": 0.8201,
+     "cuota": 1.25,
+     "casa": "Bet365",
+     "inicio": "2026-10-11T08:00:00-05:00"
+    },
+    {
+     "gid": "4732684",
+     "partido": "Lecce vs Bologna",
+     "texto": "Menos de 1.5 goles en el 1T",
+     "clave": "OU1T|1.5|under",
+     "p": 0.7487,
+     "cuota": 1.33,
+     "casa": "Bet365",
+     "inicio": "2026-10-11T08:00:00-05:00"
+    },
+    {
+     "gid": "4732684",
+     "partido": "Lecce vs Bologna",
+     "texto": "No hay empate",
+     "clave": "DC||12",
+     "p": 0.686,
+     "cuota": 1.33,
+     "casa": "Bet365",
+     "inicio": "2026-10-11T08:00:00-05:00"
+    }
+   ],
+   "xi": "453730,904314,3176311,4870199,16031937,35341115,51148547,66406095,70950988,71384454,71392451|285835,3054816,3195499,3835966,4947373,13255854,33902941,33913784,51594637,67639636,77124704",
+   "conf": true
   },
   "4732685": {
    "partido": "Lazio vs Monza",
@@ -941,7 +975,7 @@
    "liga": "Alemania, Bundesliga",
    "inicio": "2026-10-11T08:30:00-05:00",
    "estado": "pendiente",
-   "ultimo": 0
+   "ultimo": 1791721118.9044542
   },
   "4755386": {
    "partido": "Friburgo vs Schalke 04",
