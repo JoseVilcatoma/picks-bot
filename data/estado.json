@@ -478,7 +478,7 @@
    "liga": "Brasil, Brasileirão",
    "inicio": "2026-10-11T14:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1791741491.239356
+   "ultimo": 1791741735.1674552
   },
   "4632653": {
    "partido": "Palmeiras vs Corinthians",
@@ -1272,8 +1272,72 @@
    "partido": "Racing de Santander vs Valencia CF",
    "liga": "España, LaLiga",
    "inicio": "2026-10-11T14:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1791741491.342723
+   "estado": "enviado",
+   "ultimo": 1791741735.2358456,
+   "pierna": [
+    {
+     "gid": "4750834",
+     "partido": "Racing de Santander vs Valencia CF",
+     "texto": "Más de 1.5 goles",
+     "clave": "OU|1.5|over",
+     "p": 0.7673,
+     "cuota": 1.2,
+     "casa": "Bet365",
+     "inicio": "2026-10-11T14:00:00-05:00"
+    },
+    {
+     "gid": "4750834",
+     "partido": "Racing de Santander vs Valencia CF",
+     "texto": "No hay empate",
+     "clave": "DC||12",
+     "p": 0.725,
+     "cuota": 1.3,
+     "casa": "Bet365",
+     "inicio": "2026-10-11T14:00:00-05:00"
+    },
+    {
+     "gid": "4750834",
+     "partido": "Racing de Santander vs Valencia CF",
+     "texto": "Racing de Santander recibe gol",
+     "clave": "CS||local_no",
+     "p": 0.7145,
+     "cuota": 1.28,
+     "casa": "Bet365",
+     "inicio": "2026-10-11T14:00:00-05:00"
+    },
+    {
+     "gid": "4750834",
+     "partido": "Racing de Santander vs Valencia CF",
+     "texto": "Más de 0.5 goles en el 1T",
+     "clave": "OU1T|0.5|over",
+     "p": 0.7078,
+     "cuota": 1.3,
+     "casa": "Bet365",
+     "inicio": "2026-10-11T14:00:00-05:00"
+    },
+    {
+     "gid": "4750834",
+     "partido": "Racing de Santander vs Valencia CF",
+     "texto": "Valencia CF o empate",
+     "clave": "DC||X2",
+     "p": 0.5915,
+     "cuota": 1.57,
+     "casa": "Bet365",
+     "inicio": "2026-10-11T14:00:00-05:00"
+    },
+    {
+     "gid": "4750834",
+     "partido": "Racing de Santander vs Valencia CF",
+     "texto": "Ambos marcan: Sí",
+     "clave": "BTTS||si",
+     "p": 0.5773,
+     "cuota": 1.57,
+     "casa": "Bet365",
+     "inicio": "2026-10-11T14:00:00-05:00"
+    }
+   ],
+   "xi": "28334,1766700,10526467,15809523,51019318,60835756,64816557,66437445,66566911,71407785,75254319|441765,502893,538119,561247,676819,1760855,3174103,3228816,5247024,50481885,64759691",
+   "conf": true
   },
   "4750838": {
    "partido": "Elche CF vs Celta de Vigo",
