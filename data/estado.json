@@ -2363,8 +2363,8 @@
    "partido": "Cusco FC vs Alianza Lima",
    "liga": "Perú, Liga 1 - Clausura",
    "inicio": "2026-10-11T18:30:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1791768348.8433833,
+   "estado": "liquidado",
+   "ultimo": 1791768953.659282,
    "pierna": [
     {
      "gid": "4760817",
@@ -2428,7 +2428,20 @@
     }
    ],
    "xi": "487024,541797,570781,612085,832539,838440,2809735,3218454,3366544,8783445,14220059|375417,400833,470773,482699,485232,558809,3096298,3136643,3296141,56651794,67643639",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 1,
+    "ag": 2,
+    "ht": [
+     0,
+     1
+    ],
+    "corners": 10.0,
+    "corners_h": 8.0,
+    "corners_a": 2.0,
+    "corners_1t": 7.0,
+    "cards": 2.0
+   }
   },
   "4760819": {
    "partido": "Sport Boys vs Alianza Atletico",

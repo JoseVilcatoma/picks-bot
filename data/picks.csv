@@ -460,9 +460,9 @@ fecha,game_id,partido,liga,tipo,mercado,clave,prob,cuota,casa,cuota_justa,ev,sta
 2026-10-11 16:36,4757170+4632651,Arouca vs Estrela da Amadora / Atlético Mineiro vs Santos,,ticket2,Estrela da Amadora recibe gol + Atlético Mineiro recibe gol,,0.5311,1.71,,1.88,-0.0929,10.00,,G,7.08
 2026-10-11 17:35,4632653+4632650,Palmeiras vs Corinthians / Grêmio vs Internacional,,ticket2,Menos de 1.5 goles en el 1T + Menos de 1.5 goles en el 1T,,0.5877,1.77,,1.70,0.0390,10.00,,P,-10.00
 2026-10-11 17:35,4760819+4632656,Sport Boys vs Alianza Atletico / Flamengo vs Fluminense,,ticket2,Más de 1.5 goles + Menos de 3.5 goles,,0.5783,1.81,,1.73,0.0445,10.00,,G,8.06
-2026-10-11 17:45,4760817,Cusco FC vs Alianza Lima,"Perú, Liga 1 - Clausura",seguro,Cusco FC o empate,DC||1X,0.6933,1.36,Bet365,1.44,-0.0571,,si,,
-2026-10-11 17:45,4760817,Cusco FC vs Alianza Lima,"Perú, Liga 1 - Clausura",seguro,Alianza Lima recibe gol,CS||visita_no,0.6464,1.30,Bet365,1.55,-0.1596,,si,,
-2026-10-11 17:45,4760817,Cusco FC vs Alianza Lima,"Perú, Liga 1 - Clausura",arriesgado,Empate,1X2||X,0.3254,3.20,Bet365,3.07,0.0411,,si,,
-2026-10-11 17:45,4760817,Cusco FC vs Alianza Lima,"Perú, Liga 1 - Clausura",modelo,Menos de 6.5 tarjetas,CARDS|6.5|under,0.8505,,,1.18,,,si,,
-2026-10-11 17:45,4760817,Cusco FC vs Alianza Lima,"Perú, Liga 1 - Clausura",modelo,Menos de 11.5 córners,CORN|11.5|under,0.7228,,,1.38,,,si,,
-2026-10-11 17:45,4760817,Cusco FC vs Alianza Lima,"Perú, Liga 1 - Clausura",ticket,Alianza Lima recibe gol + Cusco FC o empate,CS||visita_no&DC||1X,0.5432,1.77,,1.84,-0.0396,10.00,,,
+2026-10-11 17:45,4760817,Cusco FC vs Alianza Lima,"Perú, Liga 1 - Clausura",seguro,Cusco FC o empate,DC||1X,0.6933,1.36,Bet365,1.44,-0.0571,,si,P,
+2026-10-11 17:45,4760817,Cusco FC vs Alianza Lima,"Perú, Liga 1 - Clausura",seguro,Alianza Lima recibe gol,CS||visita_no,0.6464,1.30,Bet365,1.55,-0.1596,,si,G,
+2026-10-11 17:45,4760817,Cusco FC vs Alianza Lima,"Perú, Liga 1 - Clausura",arriesgado,Empate,1X2||X,0.3254,3.20,Bet365,3.07,0.0411,,si,P,
+2026-10-11 17:45,4760817,Cusco FC vs Alianza Lima,"Perú, Liga 1 - Clausura",modelo,Menos de 6.5 tarjetas,CARDS|6.5|under,0.8505,,,1.18,,,si,G,
+2026-10-11 17:45,4760817,Cusco FC vs Alianza Lima,"Perú, Liga 1 - Clausura",modelo,Menos de 11.5 córners,CORN|11.5|under,0.7228,,,1.38,,,si,G,
+2026-10-11 17:45,4760817,Cusco FC vs Alianza Lima,"Perú, Liga 1 - Clausura",ticket,Alianza Lima recibe gol + Cusco FC o empate,CS||visita_no&DC||1X,0.5432,1.77,,1.84,-0.0396,10.00,,P,-10.00
