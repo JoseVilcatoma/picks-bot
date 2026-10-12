@@ -2592,8 +2592,72 @@
    "partido": "Torino vs Udinese",
    "liga": "Italia, Serie A",
    "inicio": "2026-10-12T13:45:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1791827721.4331396
+   "estado": "enviado",
+   "ultimo": 1791827973.4996827,
+   "pierna": [
+    {
+     "gid": "4732681",
+     "partido": "Torino vs Udinese",
+     "texto": "Udinese recibe gol",
+     "clave": "CS||visita_no",
+     "p": 0.712,
+     "cuota": 1.33,
+     "casa": "Bet365",
+     "inicio": "2026-10-12T13:45:00-05:00"
+    },
+    {
+     "gid": "4732681",
+     "partido": "Torino vs Udinese",
+     "texto": "Más de 1.5 goles",
+     "clave": "OU|1.5|over",
+     "p": 0.6993,
+     "cuota": 1.36,
+     "casa": "Bet365",
+     "inicio": "2026-10-12T13:45:00-05:00"
+    },
+    {
+     "gid": "4732681",
+     "partido": "Torino vs Udinese",
+     "texto": "No hay empate",
+     "clave": "DC||12",
+     "p": 0.6913,
+     "cuota": 1.4,
+     "casa": "Bet365",
+     "inicio": "2026-10-12T13:45:00-05:00"
+    },
+    {
+     "gid": "4732681",
+     "partido": "Torino vs Udinese",
+     "texto": "Torino recibe gol",
+     "clave": "CS||local_no",
+     "p": 0.6706,
+     "cuota": 1.4,
+     "casa": "Bet365",
+     "inicio": "2026-10-12T13:45:00-05:00"
+    },
+    {
+     "gid": "4732681",
+     "partido": "Torino vs Udinese",
+     "texto": "Más de 0.5 goles en el 1T",
+     "clave": "OU1T|0.5|over",
+     "p": 0.6418,
+     "cuota": 1.5,
+     "casa": "Bet365",
+     "inicio": "2026-10-12T13:45:00-05:00"
+    },
+    {
+     "gid": "4732681",
+     "partido": "Torino vs Udinese",
+     "texto": "Udinese +0.5 (hándicap)",
+     "clave": "AH|-0.5|visita",
+     "p": 0.6274,
+     "cuota": 1.48,
+     "casa": "Bet365",
+     "inicio": "2026-10-12T13:45:00-05:00"
+    }
+   ],
+   "xi": "115011,400857,503138,530850,550354,607972,53050235,54341649,70797490,70877609,77139772|375123,489221,529485,2383725,3052014,3679392,4882805,47484495,66220481,66261238,66627147",
+   "conf": true
   }
  },
  "web": {
