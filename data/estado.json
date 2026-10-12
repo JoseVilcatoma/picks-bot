@@ -2240,7 +2240,7 @@
    "liga": "Brasil, Brasileirão",
    "inicio": "2026-10-12T17:30:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1791839772.7355192
+   "ultimo": 1791840016.622541
   },
   "4632649": {
    "partido": "Coritiba vs Botafogo",
@@ -2597,8 +2597,8 @@
    "partido": "Famalicão vs Alverca",
    "liga": "Portugal, Primeira Liga",
    "inicio": "2026-10-12T14:15:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1791839407.5482473,
+   "estado": "liquidado",
+   "ultimo": 1791840016.784978,
    "pierna": [
     {
      "gid": "4757172",
@@ -2662,7 +2662,22 @@
     }
    ],
    "xi": "541676,50260095,56082052,61322129,64122354,67709514,68003531,70809810,70855817,75381479,77461071|541781,50385486,55627088,56180119,64034030,70793072,70921236,70953488,71096450,75414669,77392601",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 1,
+    "ag": 4,
+    "ht": [
+     1,
+     1
+    ],
+    "corners": 11.0,
+    "corners_h": 8.0,
+    "corners_a": 3.0,
+    "corners_1t": 8.0,
+    "cards": 5.0,
+    "cards_h": 3.0,
+    "cards_a": 2.0
+   }
   },
   "4732681": {
    "partido": "Torino vs Udinese",
