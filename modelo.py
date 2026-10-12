@@ -780,7 +780,7 @@ def crear_apuesta(cands, lh, la, esp, local, visita, hist):
                     continue                      # su historial lo contradice
                 if d != "goles":                  # córners/tarjetas: mitad modelo, mitad historial (nunca sube)
                     p = min(p, 0.5 * p + 0.5 * (h["tasa"] * h["n"] + 1) / (h["n"] + 2))
-            if p < C.BUILDER_PMIN[d]:
+            if p < C.BUILDER_PMIN[d] or p > C.BUILDER_PMAX:
                 continue
             lista.append({"clave": k, "texto": texto_mercado(k, local, visita), "p": p, "pm": pm,
                           "dist": d, "grupo": grupo, "hist": h,
@@ -792,18 +792,35 @@ def crear_apuesta(cands, lh, la, esp, local, visita, hist):
     grupos = list(piernas)
     cache = {}
 
+    def p_claves(d, ps):
+        ks = tuple(sorted(str(x["clave"]) for x in ps))
+        if ks not in cache:
+            cache[ks] = p_dist(d, [x["clave"] for x in ps])
+        return cache[ks]
+
+    def redundante(sel):
+        """Alguna selección sale casi siempre que salen las demás de su mismo tipo (ej. menos de
+        5.5 goles + menos de 2.5 en el 1T): Bet365 no la paga, solo agrega riesgo."""
+        for d in {x["dist"] for x in sel}:
+            ps = [x for x in sel if x["dist"] == d]
+            if len(ps) < 2:
+                continue
+            todo = p_claves(d, ps)
+            for x in ps:
+                resto = p_claves(d, [y for y in ps if y is not x])
+                if resto > 0 and todo / resto >= C.BUILDER_REDUNDANTE:
+                    return True
+        return False
+
     def conjunta(sel):
         p = 1.0
         for d in {x["dist"] for x in sel}:
             ps = [x for x in sel if x["dist"] == d]
-            ks = tuple(sorted(str(x["clave"]) for x in ps))
-            if ks not in cache:
-                cache[ks] = p_dist(d, [x["clave"] for x in ps])
             prod_m = math.prod(x["pm"] for x in ps)
             prod_p = math.prod(x["p"] for x in ps)
             if prod_m <= 0:
                 return 0.0
-            p *= min(prod_p * cache[ks] / prod_m, min(x["p"] for x in ps))
+            p *= min(prod_p * p_claves(d, ps) / prod_m, min(x["p"] for x in ps))
         return p
 
     lo, hi = C.BUILDER_CUOTA
@@ -813,10 +830,10 @@ def crear_apuesta(cands, lh, la, esp, local, visita, hist):
     def explorar(i, sel):
         nonlocal mejor
         if i == len(grupos):
-            if nmin <= len(sel) <= nmax and len({x["dist"] for x in sel}) >= 2:
+            if nmin <= len(sel) <= nmax and len({x["dist"] for x in sel}) >= 2 and not redundante(sel):
                 p = conjunta(sel)
                 if p > 0 and lo <= 1 / p <= hi:
-                    clave = (p, -len(sel))
+                    clave = (round(p, 2), -len(sel), p)     # a igual probabilidad, menos selecciones
                     if not mejor or clave > mejor[0]:
                         mejor = (clave, list(sel), p)
             return

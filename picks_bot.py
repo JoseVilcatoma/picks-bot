@@ -161,7 +161,8 @@ AYUDA = (
     "• Toca <b>Seguir</b> en el calendario web o escribe <code>/seguir ID</code>\n"
     "• <code>/lista</code> partidos que sigues\n"
     "• <code>/quitar ID</code> dejar de seguir\n"
-    "• <code>/resumen</code> resultados del paper trading\n\n"
+    "• <code>/resumen</code> resultados del paper trading\n"
+    "• <code>/cuota ID 1.80</code> anota lo que paga Bet365 por el “Crear apuesta”\n\n"
     "Los picks llegan cuando se confirman las alineaciones (normalmente ~1 hora antes).\n"
     "Ojo: el bot revisa cada ~5-10 min, así que tus comandos se responden con ese retraso."
 )
@@ -223,8 +224,44 @@ def procesar_comandos(estado):
             enviar(texto_lista(estado))
         elif cmd == "/resumen":
             enviar(texto_resumen())
+        elif cmd == "/cuota":
+            enviar(anotar_cuota(partes[1:]))
         else:
             enviar(AYUDA + (f"\n\n📅 Calendario: {PAGINA}" if PAGINA else ""))
+
+
+def anotar_cuota(args):
+    """/cuota 1.40  o  /cuota ID 1.40: guarda lo que paga Bet365 por el "Crear apuesta" del partido."""
+    gid, cuota = None, None
+    for x in args:
+        x = x.replace(",", ".")
+        try:
+            if "." in x:
+                cuota = float(x)
+            else:
+                gid = x
+        except ValueError:
+            pass
+    if not cuota or cuota <= 1:
+        return "Escribe la cuota que te da Bet365, por ejemplo: <code>/cuota 1.40</code>"
+    log = leer_log()
+    filas = [f for f in log if f["tipo"] == "crear" and (gid is None or f["game_id"] == gid)]
+    if gid is None:
+        filas = [f for f in filas if not f["resultado"]]
+    if not filas:
+        return "No encontré un “Crear apuesta” pendiente" + (f" del partido {esc(gid)}" if gid else "") + "."
+    f = filas[-1]
+    f["cuota"], f["stake"] = f"{cuota:.2f}", f"{C.TICKET_STAKE:.2f}"
+    justa = float(f["cuota_justa"])
+    f["ev"] = f"{cuota / justa - 1:.4f}"
+    if f["resultado"] in ("G", "P", "N"):
+        f["ganancia"] = (f"{C.TICKET_STAKE * (cuota - 1):.2f}" if f["resultado"] == "G"
+                         else f"{-C.TICKET_STAKE:.2f}" if f["resultado"] == "P" else "0")
+    escribir_log(log)
+    veredicto = ("✅ Paga más que la justa: según el modelo, conviene." if cuota >= justa else
+                 f"❌ Paga {1 - cuota / justa:.0%} menos que la justa: no conviene jugarla.")
+    return (f"🧱 Anotado: {esc(f['partido'])} · Bet365 {cuota:.2f} vs justa {justa:.2f}\n{veredicto}\n"
+            "<i>Sirve para medir el margen real de “Crear apuesta” en /resumen.</i>")
 
 
 def sincronizar_seleccion(estado):
@@ -309,6 +346,19 @@ def texto_resumen():
                   "modelo": "Tarjetas/córners/modelo"}.get(tipo, tipo.capitalize() + "s")
         out.append(f"\n{icono} <b>{nombre}</b>: {ac}/{len(fs)} aciertos "
                    f"({ac / len(fs):.0%}) · el modelo esperaba {pm:.0%}")
+        if tipo == "crear":
+            con = [f for f in fs if f["cuota"]]
+            if con:
+                margen = sum(1 - float(f["cuota"]) / float(f["cuota_justa"]) for f in con) / len(con)
+                out.append(f"   Con cuota de Bet365 anotada: {len(con)} · Bet365 paga en promedio "
+                           f"{abs(margen):.0%} {'menos' if margen > 0 else 'más'} que la justa")
+                for nombre_g, grupo in (("si las jugabas todas", con),
+                                        ("solo las que pagaban ≥ justa", [f for f in con if float(f["cuota"]) >= float(f["cuota_justa"])])):
+                    if grupo:
+                        gan = sum(float(f["ganancia"] or 0) for f in grupo)
+                        out.append(f"   {nombre_g}: {len(grupo)} · S/ {gan:+.2f} (S/ {C.TICKET_STAKE:.0f} c/u)")
+            else:
+                out.append("   Anota lo que paga Bet365 con /cuota para medir si es rentable.")
         if tipo in ("apostable", "ticket", "ticket2"):
             st = sum(float(f["stake"] or 0) for f in fs)
             gan = sum(float(f["ganancia"] or 0) for f in fs)
@@ -683,8 +733,9 @@ def analizar(gid, g, nombres, modo):
                 t += f" <i>({esc(x['hist']['txt'])})</i>"
             lin.append(t)
         lin.append(f"➡️ Probabilidad de que salgan todas <b>{crear['p']:.0%}</b> · cuota justa <b>{crear['justa']:.2f}</b>")
-        lin.append(f"<i>Tómala solo si Bet365 te paga ≥ {crear['justa']:.2f}. Si paga menos, quita la selección más "
-                   "dudosa o no la juegues. Tarjetas: 365Scores no informa el árbitro, por eso solo líneas amplias.</i>")
+        lin.append(f"<i>Juégala solo si Bet365 paga ≥ {crear['justa']:.2f}; si paga menos, no la juegues. "
+                   "Sin selecciones casi seguras (Bet365 no las paga). Tarjetas: sin datos del árbitro, solo líneas amplias.</i>")
+        lin.append(f"📝 Anota lo que te ofrece Bet365: <code>/cuota {gid} 1.80</code>")
     lin.append("\n<i>“justa” = cuota mínima que deberías aceptar en tu casa de apuestas. "
                "Seguros/arriesgados sin valor son informativos, no apuestas.</i>")
     lin.append("🧪 Paper trading · cuotas: " + ("The Odds API + Bet365 (365Scores)" if ext else "Bet365 vía 365Scores"))
@@ -782,7 +833,7 @@ def liquidar(gid, s, log):
         else:
             res = M.evaluar(clave_de(f["clave"]), r)
         f["resultado"] = res if res != "?" else ""
-        if f["tipo"] in ("apostable", "ticket") and res in ("G", "P", "N"):
+        if (f["tipo"] in ("apostable", "ticket") or (f["tipo"] == "crear" and f["cuota"])) and res in ("G", "P", "N"):
             stake = float(f["stake"] or 0)
             f["ganancia"] = f"{stake * (float(f['cuota']) - 1):.2f}" if res == "G" else (
                 f"{-stake:.2f}" if res == "P" else "0")
