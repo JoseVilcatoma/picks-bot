@@ -128,6 +128,16 @@ def corners_tarjetas(st_local, st_visita):
     k_l, k_v = prom(st_local, "k"), prom(st_visita, "k")
     if None not in (k_l, k_v):
         out["tarjetas"] = k_l + k_v
+    # Tarjetas por equipo (para "ambos reciben tarjeta"): lo que recibe + lo que provoca el rival,
+    # encogido hacia el nivel general de ambos equipos porque son pocos partidos.
+    kc_l, kc_v = prom(st_local, "k_contra"), prom(st_visita, "k_contra")
+    if None not in (k_l, k_v, kc_l, kc_v):
+        nivel = (k_l + k_v + kc_l + kc_v) / 4
+        n_l = len([x for x in st_local if "k" in x])
+        n_v = len([x for x in st_visita if "k" in x])
+        enc = lambda v, n: (v * n + nivel * 4) / (n + 4)
+        out["k_local"] = enc((k_l + kc_v) / 2, n_l)
+        out["k_visita"] = enc((k_v + kc_l) / 2, n_v)
     return out
 
 
@@ -279,7 +289,7 @@ def leer_cuotas(lineas, local="", visita=""):
 FAMILIA = {"1X2": "resultado", "DC": "resultado", "AH": "resultado", "DNB": "resultado",
            "OU": "goles", "BTTS": "goles", "OU1T": "goles", "CS": "goles", "EXACT": "goles",
            "CORN": "corners", "CORN_H": "corners", "CORN_A": "corners", "CORN1T": "corners",
-           "CARDS": "tarjetas"}
+           "CARDS": "tarjetas", "CARDS_BOTH": "tarjetas"}
 
 # Mercados que SOLO se muestran si hay cuota real y valor (EV >= mínimo)
 SOLO_CON_VALOR = {"CORN_H", "CORN_A", "CORN1T"}
@@ -312,6 +322,8 @@ def texto_mercado(clave, local, visita):
         return f"{'Más' if s == 'over' else 'Menos'} de {l:g} córners"
     if t == "CARDS":
         return f"{'Más' if s == 'over' else 'Menos'} de {l:g} tarjetas"
+    if t == "CARDS_BOTH":
+        return "Ambos equipos reciben tarjeta" if s == "si" else "Algún equipo sin tarjeta"
     if t in ("CORN_H", "CORN_A"):
         quien = local if t == "CORN_H" else visita
         return f"{quien}: {'más' if s == 'over' else 'menos'} de {l:g} córners"
@@ -601,6 +613,10 @@ def evaluar(clave, r):
         if r.get("cards") is None:
             return "?"
         ok = (r["cards"] > l) == (s == "over")
+    elif t == "CARDS_BOTH":
+        if r.get("cards_h") is None or r.get("cards_a") is None:
+            return "?"
+        ok = (r["cards_h"] > 0 and r["cards_a"] > 0) == (s == "si")
     else:
         return "?"
     return "G" if ok else "P"
@@ -669,3 +685,149 @@ def piernas_seguras(cands, n=6):
     lo, hi = C.TICKET_PIERNA
     aptas = [c for c in cands if _apta(c) and lo <= c["cuota"] <= hi]
     return sorted(aptas, key=lambda c: -c["p"])[:n]
+
+
+# =================================================================
+# Crear apuesta (bet builder de un partido: 3-5 selecciones muy probables)
+# =================================================================
+R_CORNERS_CONS = 7    # dispersión más ancha que la normal (12): probabilidades más prudentes
+R_TARJ_CONS = 5       # ídem tarjetas (8): el modelo de tarjetas es el más débil
+
+
+def _estados_goles(lh, la, n=7):
+    """Distribución conjunta (goles 1T local, 1T visita, final local, final visita)."""
+    m1 = matriz(lh * FRAC_1T, la * FRAC_1T, n=n, rho=0)
+    m2 = matriz(lh * (1 - FRAC_1T), la * (1 - FRAC_1T), n=n, rho=0)
+    est = {}
+    for h1 in range(n):
+        for a1 in range(n):
+            p1 = m1[h1][a1]
+            if p1 < 1e-7:
+                continue
+            for h2 in range(n):
+                for a2 in range(n):
+                    p = p1 * m2[h2][a2]
+                    if p < 1e-9:
+                        continue
+                    k = (h1, a1, h1 + h2, a1 + a2)
+                    est[k] = est.get(k, 0) + p
+    return [({"hg": k[2], "ag": k[3], "ht": (k[0], k[1])}, p) for k, p in est.items()]
+
+
+def _estados_corners(mu):
+    return [({"hg": 0, "ag": 0, "corners": k}, nb_pmf(k, mu, R_CORNERS_CONS)) for k in range(40)]
+
+
+def _estados_tarjetas(mu_h, mu_a):
+    ph = [nb_pmf(k, mu_h, R_TARJ_CONS) for k in range(16)]
+    pa = [nb_pmf(k, mu_a, R_TARJ_CONS) for k in range(16)]
+    return [({"hg": 0, "ag": 0, "cards": x + y, "cards_h": x, "cards_a": y}, ph[x] * pa[y])
+            for x in range(16) for y in range(16)]
+
+
+def crear_apuesta(cands, lh, la, esp, local, visita, hist):
+    """Combina 3-5 selecciones de distinto tipo (resultado, goles, goles 1T, córners, tarjetas,
+    ambos con tarjeta) con la mayor probabilidad conjunta posible y cuota justa en BUILDER_CUOTA.
+    hist(clave) -> {'tasa','n','txt'} o None: cuántas veces se cumplió en sus partidos recientes y H2H.
+    Probabilidad conjunta: goles/resultado con la distribución exacta de marcadores (1T y final);
+    córners y tarjetas aparte (casi independientes de los goles)."""
+    por_clave = {c["clave"]: c for c in cands}
+    dist = {"goles": _estados_goles(lh, la)}
+    if esp.get("total"):
+        dist["corners"] = _estados_corners(esp["total"])
+    if esp.get("k_local") and esp.get("k_visita"):
+        dist["tarjetas"] = _estados_tarjetas(esp["k_local"], esp["k_visita"])
+
+    def p_dist(d, claves):
+        return sum(p for r, p in dist[d] if all(evaluar(k, r) == "G" for k in claves))
+
+    # (grupo, distribución, claves posibles)
+    opciones = [("resultado", "goles", [("DC", None, x) for x in ("1X", "X2", "12")]),
+                ("goles", "goles", [("OU", 0.5, "over"), ("OU", 1.5, "over"), ("OU", 3.5, "under"),
+                                    ("OU", 4.5, "under"), ("OU", 5.5, "under")]),
+                ("goles1t", "goles", [("OU1T", 0.5, "over"), ("OU1T", 1.5, "under"),
+                                      ("OU1T", 2.5, "under"), ("OU1T", 3.5, "under")])]
+    if "corners" in dist:
+        lc = math.floor(esp["total"]) + 0.5
+        opciones.append(("corners", "corners",
+                         [("CORN", lc - d, "over") for d in range(1, 6) if lc - d > 0]
+                         + [("CORN", lc + d, "under") for d in range(1, 6)]))
+    if "tarjetas" in dist:
+        mk = esp["k_local"] + esp["k_visita"]
+        lk = math.floor(mk) + 0.5
+        opciones.append(("tarjetas", "tarjetas",
+                         [("CARDS", lk - d, "over") for d in range(1, 4) if lk - d > 0]
+                         + [("CARDS", lk + d, "under") for d in range(1, 5)]))
+        opciones.append(("ambas", "tarjetas", [("CARDS_BOTH", None, "si")]))
+
+    piernas = {}
+    for grupo, d, claves in opciones:
+        lista = []
+        for k in claves:
+            pm = p_dist(d, [k])
+            c = por_clave.get(k)
+            if d == "goles":
+                if c and (contradicho(c) or c.get("discrepa")):
+                    continue
+                p = c["p"] if c and c.get("p_mercado") is not None else pm
+            else:
+                p = pm
+                if c and c.get("p_mercado") is not None:
+                    p = min(p, c["p"])
+            h = hist(k)
+            if h and h["n"] >= 6:
+                if h["tasa"] < C.BUILDER_HIST_MIN:
+                    continue                      # su historial lo contradice
+                if d != "goles":                  # córners/tarjetas: mitad modelo, mitad historial (nunca sube)
+                    p = min(p, 0.5 * p + 0.5 * (h["tasa"] * h["n"] + 1) / (h["n"] + 2))
+            if p < C.BUILDER_PMIN[d]:
+                continue
+            lista.append({"clave": k, "texto": texto_mercado(k, local, visita), "p": p, "pm": pm,
+                          "dist": d, "grupo": grupo, "hist": h,
+                          "cuota": c["cuota"] if c else None})
+        lista.sort(key=lambda x: -x["p"])
+        if lista:
+            piernas[grupo] = lista[:4]
+
+    grupos = list(piernas)
+    cache = {}
+
+    def conjunta(sel):
+        p = 1.0
+        for d in {x["dist"] for x in sel}:
+            ps = [x for x in sel if x["dist"] == d]
+            ks = tuple(sorted(str(x["clave"]) for x in ps))
+            if ks not in cache:
+                cache[ks] = p_dist(d, [x["clave"] for x in ps])
+            prod_m = math.prod(x["pm"] for x in ps)
+            prod_p = math.prod(x["p"] for x in ps)
+            if prod_m <= 0:
+                return 0.0
+            p *= min(prod_p * cache[ks] / prod_m, min(x["p"] for x in ps))
+        return p
+
+    lo, hi = C.BUILDER_CUOTA
+    nmin, nmax = C.BUILDER_PIERNAS
+    mejor = None
+
+    def explorar(i, sel):
+        nonlocal mejor
+        if i == len(grupos):
+            if nmin <= len(sel) <= nmax and len({x["dist"] for x in sel}) >= 2:
+                p = conjunta(sel)
+                if p > 0 and lo <= 1 / p <= hi:
+                    clave = (p, -len(sel))
+                    if not mejor or clave > mejor[0]:
+                        mejor = (clave, list(sel), p)
+            return
+        explorar(i + 1, sel)
+        if len(sel) < nmax:
+            for x in piernas[grupos[i]]:
+                explorar(i + 1, sel + [x])
+
+    explorar(0, [])
+    if not mejor:
+        return None
+    orden = {"resultado": 0, "goles": 1, "goles1t": 2, "corners": 3, "tarjetas": 4, "ambas": 5}
+    sel = sorted(mejor[1], key=lambda x: orden[x["grupo"]])
+    return {"piernas": sel, "p": mejor[2], "justa": 1 / mejor[2]}

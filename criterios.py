@@ -24,7 +24,7 @@ def en_altura(nombre):
 # ---------------------------------------------------------------- datos
 def h2h(gid, hid, aid, n=6):
     c = s365._c()
-    k = f"h2h:{gid}"
+    k = f"h2h2:{gid}"
     if k in c:
         return c[k]["d"]
     j = s365.get("games/h2h", gameId=gid)
@@ -35,7 +35,7 @@ def h2h(gid, hid, aid, n=6):
         h, a = g.get("homeCompetitor") or {}, g.get("awayCompetitor") or {}
         if {h.get("id"), a.get("id")} != {hid, aid}:
             continue
-        out.append([h["id"], a["id"], h.get("score"), a.get("score"), g.get("startTime", "")])
+        out.append([h["id"], a["id"], h.get("score"), a.get("score"), g.get("startTime", ""), g.get("id")])
     out.sort(key=lambda x: x[4], reverse=True)
     out = out[:n]
     c[k] = {"t": time.time(), "d": out}

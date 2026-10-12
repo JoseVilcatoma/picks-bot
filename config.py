@@ -81,3 +81,11 @@ TICKET_CUOTA = (1.70, 2.30)   # cuota total buscada
 TICKET_PIERNA = (1.20, 1.65)  # cuota de cada selección para el ticket de 2 partidos
 TICKET_STAKE = 10.0           # stake fijo (paper trading) para medir los tickets
 TICKET_EV_MIN = 0.0           # el ticket debe pagar al menos su cuota justa
+
+# ---------------------------------------------------------------
+# CREAR APUESTA (combinada de un mismo partido estilo Bet365)
+# ---------------------------------------------------------------
+BUILDER_CUOTA = (1.70, 2.60)   # cuota JUSTA buscada para el conjunto
+BUILDER_PIERNAS = (3, 5)       # entre 3 y 5 selecciones, todas de distinto tipo
+BUILDER_PMIN = {"goles": 0.75, "corners": 0.78, "tarjetas": 0.80}   # prob. mínima de cada selección
+BUILDER_HIST_MIN = 0.65        # si se cumplió en menos del 65% de sus partidos recientes/H2H, se descarta

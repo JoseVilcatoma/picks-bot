@@ -299,13 +299,13 @@ def texto_resumen():
         return "Todavía no hay picks liquidados."
     out = ["📈 <b>Paper trading</b>"]
     for tipo, icono in (("seguro", "🟢"), ("arriesgado", "🔴"), ("modelo", "📐"), ("apostable", "✅"),
-                        ("ticket", "🎟"), ("ticket2", "🎟🎟")):
+                        ("ticket", "🎟"), ("ticket2", "🎟🎟"), ("crear", "🧱")):
         fs = [f for f in filas if f["tipo"] == tipo]
         if not fs:
             continue
         ac = sum(f["resultado"] == "G" for f in fs)
         pm = sum(float(f["prob"]) for f in fs) / len(fs)
-        nombre = {"ticket": "Tickets del partido", "ticket2": "Tickets de 2 partidos",
+        nombre = {"ticket": "Tickets del partido", "ticket2": "Tickets de 2 partidos", "crear": "Crear apuesta",
                   "modelo": "Tarjetas/córners/modelo"}.get(tipo, tipo.capitalize() + "s")
         out.append(f"\n{icono} <b>{nombre}</b>: {ac}/{len(fs)} aciertos "
                    f"({ac / len(fs):.0%}) · el modelo esperaba {pm:.0%}")
@@ -340,6 +340,8 @@ def stats_recientes(team_id, resultados, n=5):
                     d["c1"], d["c1_contra"] = s1[team_id]["c"], s1[rival]["c"]
             if "y" in yo:
                 d["k"] = yo["y"] + yo.get("r", 0)
+            if "y" in yo and "y" in el:
+                d["k_contra"] = el["y"] + el.get("r", 0)
             if "s" in yo and "s" in el:
                 d["s"], d["s_contra"] = yo["s"], el["s"]
             lista.append(d)
@@ -374,6 +376,89 @@ def firma_xi(g):
     xl = sorted(s365.alineacion(g["homeCompetitor"])[2])
     xv = sorted(s365.alineacion(g["awayCompetitor"])[2])
     return ",".join(map(str, xl)) + "|" + ",".join(map(str, xv)), len(xl) == 11 and len(xv) == 11
+
+
+def historial(gid, hid, aid, local, visita, res_l, res_v, st_l, st_v):
+    """Devuelve una función clave -> {'tasa','n','txt'}: cuántas veces se habría cumplido esa
+    selección en los últimos partidos de cada equipo y en los H2H."""
+    hh = criterios.h2h(gid, hid, aid)
+    st_h2h = []
+    for x in hh[:5]:
+        if len(x) > 5 and x[5]:
+            st = s365.stats_partido(x[5])
+            if hid in st and aid in st:
+                st_h2h.append(st)
+
+    def goles(res, tid):
+        out = []
+        for _, _, h_, a_, sh, sa in res[:10]:
+            if sh is None or sa is None or sh < 0:
+                continue
+            out.append((sh, sa) if h_ == tid else (sa, sh))      # (a favor, en contra)
+        return out
+
+    g_l, g_v = goles(res_l, hid), goles(res_v, aid)
+    g_h2h = [(x[2], x[3]) if x[0] == hid else (x[3], x[2]) for x in hh if x[2] is not None and x[2] >= 0]
+
+    def tot(st, campo):
+        return st.get(campo, 0) + st.get(campo + "_contra", 0) if campo in st and campo + "_contra" in st else None
+
+    def h(clave):
+        t, l, sd = clave
+        partes = []                      # (etiqueta, aciertos, total)
+        if t == "OU":
+            ok = lambda x, y: (x + y > l) == (sd == "over")
+            partes = [(local, g_l, ok), (visita, g_v, ok), ("H2H", g_h2h, ok)]
+        elif t == "DC":
+            # desde el punto de vista de cada equipo: (a favor, en contra)
+            reglas = {"1X": (lambda f, c: f >= c, lambda f, c: f <= c),
+                      "X2": (lambda f, c: f <= c, lambda f, c: f >= c),
+                      "12": (lambda f, c: f != c, lambda f, c: f != c)}[sd]
+            partes = [(local, g_l, reglas[0]), (visita, g_v, reglas[1]), ("H2H", g_h2h, reglas[0])]
+        elif t in ("CORN", "CARDS"):
+            campo = "c" if t == "CORN" else "k"
+            ok = lambda v: (v > l) == (sd == "over")
+            res = []
+            for etq, lista in ((local, st_l), (visita, st_v)):
+                v = [tot(x, campo) for x in lista]
+                v = [x for x in v if x is not None]
+                res.append((etq, sum(ok(x) for x in v), len(v)))
+            v = []
+            for st in st_h2h:
+                if t == "CORN" and "c" in st[hid] and "c" in st[aid]:
+                    v.append(st[hid]["c"] + st[aid]["c"])
+                elif t == "CARDS" and "y" in st[hid] and "y" in st[aid]:
+                    v.append(sum(st[x]["y"] + st[x].get("r", 0) for x in (hid, aid)))
+            res.append(("H2H", sum(ok(x) for x in v), len(v)))
+            return _resumen(res)
+        elif t == "CARDS_BOTH":
+            res = []
+            for etq, lista in ((local, st_l), (visita, st_v)):
+                v = [x["k"] for x in lista if "k" in x]
+                res.append((etq + " con tarjeta", sum(x > 0 for x in v), len(v)))
+            v = [st for st in st_h2h if "y" in st[hid] and "y" in st[aid]]
+            res.append(("H2H", sum(1 for st in v if st[hid]["y"] + st[hid].get("r", 0) > 0
+                                   and st[aid]["y"] + st[aid].get("r", 0) > 0), len(v)))
+            r = _resumen(res)
+            if r:   # manda el equipo que menos tarjetas recibe
+                tasas = [a / n for _, a, n in res[:2] if n >= 3]
+                if tasas:
+                    r["tasa"] = min(tasas)
+            return r
+        else:
+            return None
+        return _resumen([(etq, sum(ok(*x) for x in lista), len(lista)) for etq, lista, ok in partes])
+
+    return h
+
+
+def _resumen(partes):
+    partes = [p for p in partes if p[2]]
+    n = sum(p[2] for p in partes)
+    if not n:
+        return None
+    a = sum(p[1] for p in partes)
+    return {"tasa": a / n, "n": n, "txt": " · ".join(f"{e} {x}/{m}" for e, x, m in partes)}
 
 
 def analizar(gid, g, nombres, modo):
@@ -588,6 +673,18 @@ def analizar(gid, g, nombres, modo):
     else:
         lin.append(f"\n🎟 Ticket: no hay combinación segura con cuota {C.TICKET_CUOTA[0]:.2f}–{C.TICKET_CUOTA[1]:.2f} "
                    "que pague al menos su cuota justa en este partido.")
+    crear = M.crear_apuesta(cands, lh, la, esp, local, visita,
+                            historial(gid, h["id"], a["id"], local, visita, res_l, res_v, st_l, st_v))
+    if crear:
+        lin.append("\n🧱 <b>CREAR APUESTA</b> (todas del mismo partido, en “Crear apuesta” de Bet365)")
+        for x in crear["piernas"]:
+            t = f"• {esc(x['texto'])} — <b>{x['p']:.0%}</b>"
+            if x["hist"]:
+                t += f" <i>({esc(x['hist']['txt'])})</i>"
+            lin.append(t)
+        lin.append(f"➡️ Probabilidad de que salgan todas <b>{crear['p']:.0%}</b> · cuota justa <b>{crear['justa']:.2f}</b>")
+        lin.append(f"<i>Tómala solo si Bet365 te paga ≥ {crear['justa']:.2f}. Si paga menos, quita la selección más "
+                   "dudosa o no la juegues. Tarjetas: 365Scores no informa el árbitro, por eso solo líneas amplias.</i>")
     lin.append("\n<i>“justa” = cuota mínima que deberías aceptar en tu casa de apuestas. "
                "Seguros/arriesgados sin valor son informativos, no apuestas.</i>")
     lin.append("🧪 Paper trading · cuotas: " + ("The Odds API + Bet365 (365Scores)" if ext else "Bet365 vía 365Scores"))
@@ -616,6 +713,16 @@ def analizar(gid, g, nombres, modo):
             "prob": f"{ticket['p']:.4f}", "cuota": f"{ticket['cuota']:.2f}", "casa": "",
             "cuota_justa": f"{1 / ticket['p']:.2f}", "ev": f"{ticket['p'] * ticket['cuota'] - 1:.4f}",
             "stake": f"{C.TICKET_STAKE:.2f}", "alineacion": "", "resultado": "", "ganancia": "",
+        })
+    if crear:
+        filas.append({
+            "fecha": fecha, "game_id": gid, "partido": f"{local} vs {visita}",
+            "liga": g.get("competitionDisplayName", ""), "tipo": "crear",
+            "mercado": " + ".join(x["texto"] for x in crear["piernas"]),
+            "clave": "&".join(clave_str(x["clave"]) for x in crear["piernas"]),
+            "prob": f"{crear['p']:.4f}", "cuota": "", "casa": "",
+            "cuota_justa": f"{crear['justa']:.2f}", "ev": "", "stake": "", "alineacion": "",
+            "resultado": "", "ganancia": "",
         })
     extra = {"pierna": [{
         "gid": gid, "partido": f"{local} vs {visita}", "texto": c["texto"], "clave": clave_str(c["clave"]),
@@ -651,7 +758,9 @@ def liquidar(gid, s, log):
          "corners": ch + ca if None not in (ch, ca) else None,
          "corners_h": ch, "corners_a": ca,
          "corners_1t": c1h + c1a if None not in (c1h, c1a) else None,
-         "cards": sum(v.get("y", 0) + v.get("r", 0) for v in st.values()) if len(st) == 2 else None}
+         "cards": sum(v.get("y", 0) + v.get("r", 0) for v in st.values()) if len(st) == 2 else None,
+         "cards_h": st[hid].get("y", 0) + st[hid].get("r", 0) if len(st) == 2 and hid in st else None,
+         "cards_a": st[aid].get("y", 0) + st[aid].get("r", 0) if len(st) == 2 and aid in st else None}
     horas = (ahora() - iso(s["inicio"])).total_seconds() / 3600
     if horas < 8:
         faltan = []
