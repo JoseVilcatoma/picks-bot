@@ -121,6 +121,8 @@ const ARCH_SEL = "data/seleccion.json";
 let datos = {partidos:[]}, seguidos = {}, seleccion = {}, selSha = null, diaSel = null, grupoSel = "Todas";
 let ocupado = false;          // hay un guardado en curso
 let cambiosPend = {};         // toques que aún no se guardan en GitHub
+try{ cambiosPend = JSON.parse(localStorage.getItem("pendientes2")||"{}") }catch(e){}
+function recordarPend(){ try{ localStorage.setItem("pendientes2", JSON.stringify(cambiosPend)) }catch(e){} }
 let _flush = null;
 
 function esc(s){return String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]))}
@@ -150,7 +152,7 @@ async function cargarEstado(){
   if(leerToken()){
     try{
       const [s, g] = await Promise.all([leerArchivo(ARCH_SEL), leerArchivo("data/seguidos.json")]);
-      seleccion = Object.assign(s.json, cambiosPend); selSha = s.sha;
+      seleccion = s.json; selSha = s.sha;
       seguidos = g.json;
       for(const [id, c] of Object.entries(cambiosPend)) if(c.accion==="quitar") delete seguidos[id];
       return true;
@@ -173,18 +175,24 @@ async function guardarSeleccion(cambio){
       Object.assign(sel, cambio);
       const body = {message:"selección desde calendario", content:b64(JSON.stringify(sel,null,1))};
       if(actual.sha) body.sha = actual.sha;
-      const r = await gh(`contents/${ARCH_SEL}`, {method:"PUT", body:JSON.stringify(body)});
+      const r = await gh(`contents/${ARCH_SEL}`, {method:"PUT", body:JSON.stringify(body), keepalive:true});
       if(r.status===409 || r.status===422){ continue; }
       if(!r.ok) throw new Error("HTTP "+r.status);
       selSha = (await r.json()).content.sha;
+      for(const [id,c] of Object.entries(cambio)) seleccion[id] = c;
       return true;
     }catch(e){ if(intento===2) throw e; }
   }
-  return false;
+  throw new Error("conflicto al guardar");
 }
 
 async function despertarBot(n){
   try{
+    // Si el bot ya está encendido (o en cola) no lanzo otro: lo verá en su próxima pasada (≤ 2 min)
+    for(const st of ["in_progress","queued","pending"]){
+      const q = await gh(`actions/workflows/picks.yml/runs?status=${st}&per_page=1`);
+      if(q.ok){ const j = await q.json(); if(j.total_count>0){ toast(`Guardado ✓ ${n} cambio(s). El bot está encendido: lo aplica en ≤ 2 min`); return; } }
+    }
     const r = await gh("actions/workflows/picks.yml/dispatches",{method:"POST",body:JSON.stringify({ref:"main"})});
     if(r.ok || r.status===204) toast(`Guardado ✓ ${n} cambio(s). Confirmación en Telegram en ~1 min`);
     else toast("Guardado ✓ (el bot lo verá en su próxima pasada)");
@@ -193,32 +201,40 @@ async function despertarBot(n){
 
 function programarGuardado(){
   clearTimeout(_flush);
-  _flush = setTimeout(guardarPendientes, 1500);   // junta los toques seguidos en un solo guardado
+  _flush = setTimeout(guardarPendientes, 700);   // junta los toques seguidos en un solo guardado
 }
 
 async function guardarPendientes(){
   if(ocupado){ programarGuardado(); return; }
-  const lote = cambiosPend; cambiosPend = {};
+  const lote = Object.assign({}, cambiosPend);
   const n = Object.keys(lote).length;
   if(!n) return;
   ocupado = true;
   try{
     await guardarSeleccion(lote);
+    for(const [id,c] of Object.entries(lote)) if(cambiosPend[id] && cambiosPend[id].t===c.t) delete cambiosPend[id];
+    recordarPend();
     despertarBot(n);
   }catch(err){
-    cambiosPend = Object.assign(lote, cambiosPend);   // se reintenta
-    toast("No se pudo guardar, reintentando… (si sigue, revisa ⚙️)", 4000);
+    toast("⚠️ No se pudo guardar. Reintentando… (si sigue, revisa ⚙️)", 4000);
     setTimeout(programarGuardado, 5000);
   }
   ocupado = false;
+  render();
 }
 
+// Estados: "guardando" (aún no está en GitHub) · "espera" (guardado, el bot aún no lo registra)
+//          "sigue" (el bot lo registró) · "rechazado" (el bot no pudo) · "no"
 function estadoPartido(id){
   id = String(id);
+  const p = cambiosPend[id];
+  if(p) return p.accion==="seguir" ? "guardando" : "no";
   const s = seleccion[id];
   if(s && s.accion==="quitar") return "no";
-  if(s && s.accion==="seguir") return "sigue";
-  if(seguidos[id] && seguidos[id].estado !== "cancelado") return "sigue";
+  const g = seguidos[id];
+  if(g && g.estado==="rechazado" && (!s || (g.t||0) >= (s.t||0))) return "rechazado";
+  if(g && g.estado!=="cancelado" && g.estado!=="rechazado") return "sigue";
+  if(s && s.accion==="seguir") return "espera";
   return "no";
 }
 
@@ -247,19 +263,28 @@ function render(){
     <section class="liga"><h2><img src="${IMG("Competitions",lista[0].liga_id,1)}" alt="" onerror="this.remove()">${esc(liga)}</h2>
     ${lista.map(p=>{
       const st = estadoPartido(p.id);
+      const minsFalta = (new Date(p.inicio) - Date.now())/60000;
       let boton;
-      if(!conToken){
+      if(minsFalta <= 0){
+        boton = `<span class="btn pend">${st==="sigue"?"✓ ":""}En juego</span>`;
+      }else if(!conToken){
         boton = datos.bot ? `<a class="btn" href="https://t.me/${datos.bot}?start=f${p.id}" target="_blank" rel="noopener">Seguir</a>`
                           : `<button class="btn pend" data-config>Configurar</button>`;
       }else if(st==="sigue"){
         boton = `<button class="btn ok" data-toggle="${p.id}" data-acc="quitar">✓ Siguiendo</button>`;
-      }else if(st==="enviado"){
-        boton = `<button class="btn pend" data-toggle="${p.id}" data-acc="quitar">⏳ Enviado</button>`;
+      }else if(st==="guardando"){
+        boton = `<button class="btn pend" data-toggle="${p.id}" data-acc="quitar">⏳ Guardando…</button>`;
+      }else if(st==="espera"){
+        boton = `<button class="btn pend" data-toggle="${p.id}" data-acc="quitar" title="Guardado. Esperando que el bot lo registre">📨 Esperando bot</button>`;
+      }else if(st==="rechazado"){
+        boton = `<button class="btn" data-toggle="${p.id}" data-acc="seguir" title="${esc(seguidos[String(p.id)].motivo||"")}">⚠️ Reintentar</button>`;
       }else{
         boton = `<button class="btn" data-toggle="${p.id}" data-acc="seguir">Seguir</button>`;
       }
-      return `<div class="p ${st!=="no"?"sig":""}">
-        <div class="hora">${fmtHora.format(new Date(p.inicio))}</div>
+      const aviso = (minsFalta > 0 && minsFalta < 40 && st!=="sigue")
+        ? `<small style="display:block;color:var(--muted);font-size:11px;margin-top:2px">empieza en ${Math.round(minsFalta)} min</small>` : "";
+      return `<div class="p ${st==="sigue"?"sig":""}" style="${minsFalta<=0?"opacity:.55":""}">
+        <div class="hora">${fmtHora.format(new Date(p.inicio))}${aviso}</div>
         <div class="eq">
           <span><img src="${IMG("Competitors",p.local_id,p.local_v)}" alt="" onerror="this.style.visibility='hidden'">${esc(p.local)}</span>
           <span><img src="${IMG("Competitors",p.visita_id,p.visita_v)}" alt="" onerror="this.style.visibility='hidden'">${esc(p.visita)}</span>
@@ -284,7 +309,7 @@ document.addEventListener("click", async e=>{
   if(t){
     const id = t.dataset.toggle, acc = t.dataset.acc;
     const cambio = {accion:acc, t:Date.now()};
-    cambiosPend[id] = cambio; seleccion[id] = cambio;
+    cambiosPend[id] = cambio; recordarPend();
     if(acc==="quitar") delete seguidos[id];
     render();
     programarGuardado();
@@ -347,7 +372,12 @@ async function revisarVersion(){
     await cargarEstado(); render();
   }
   setInterval(()=>sincronizar(false), 15000);
-  document.addEventListener("visibilitychange", ()=>{ if(!document.hidden) sincronizar(true); });
+  setInterval(()=>{ if(!document.hidden) render(); }, 60000);
+  document.addEventListener("visibilitychange", ()=>{
+    if(document.hidden){ if(Object.keys(cambiosPend).length){ clearTimeout(_flush); guardarPendientes(); } }
+    else sincronizar(true);
+  });
+  if(Object.keys(cambiosPend).length && leerToken()) programarGuardado();   // cambios que quedaron sin guardar
   window.addEventListener("focus", ()=>sincronizar(true));
   // Datos del calendario: recargar si hay una actualización nueva
   setInterval(async()=>{
