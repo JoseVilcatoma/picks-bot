@@ -452,11 +452,11 @@ fecha,game_id,partido,liga,tipo,mercado,clave,prob,cuota,casa,cuota_justa,ev,sta
 2026-10-11 15:20,4760819,Sport Boys vs Alianza Atletico,"Perú, Liga 1 - Clausura",ticket,Sport Boys recibe gol + Más de 1.5 goles,CS||local_no&OU|1.5|over,0.5677,1.86,,1.76,0.0546,10.00,,G,8.60
 2026-10-11 15:41,4735245+4760814,Troyes vs Olympique Marsella / UTC Cajamarca vs Sporting Cristal,,ticket2,Ambos marcan: Sí + Sporting Cristal o empate,,0.4791,2.03,,2.09,-0.0298,10.00,,P,-10.00
 2026-10-11 15:55,4732689+4750834,Cagliari vs Juventus / Racing de Santander vs Valencia CF,,ticket2,Menos de 1.5 goles en el 1T + No hay empate,,0.5153,1.82,,1.94,-0.0621,10.00,,P,-10.00
-2026-10-11 16:36,4632648,Bahia vs Mirassol,"Brasil, Brasileirão",seguro,Bahia o empate,DC||1X,0.8028,1.17,Bet365,1.25,-0.0608,,si,,
-2026-10-11 16:36,4632648,Bahia vs Mirassol,"Brasil, Brasileirão",seguro,Más de 1.5 goles,OU|1.5|over,0.7234,1.20,Bet365,1.38,-0.1319,,si,,
-2026-10-11 16:36,4632648,Bahia vs Mirassol,"Brasil, Brasileirão",modelo,Menos de 6.5 tarjetas,CARDS|6.5|under,0.7822,,,1.28,,,si,,
-2026-10-11 16:36,4632648,Bahia vs Mirassol,"Brasil, Brasileirão",modelo,Menos de 14.5 córners,CORN|14.5|under,0.7070,,,1.41,,,si,,
-2026-10-11 16:36,4632648,Bahia vs Mirassol,"Brasil, Brasileirão",ticket,Gana Bahia,1X2||1,0.5430,1.71,,1.84,-0.0714,10.00,,,
+2026-10-11 16:36,4632648,Bahia vs Mirassol,"Brasil, Brasileirão",seguro,Bahia o empate,DC||1X,0.8028,1.17,Bet365,1.25,-0.0608,,si,G,
+2026-10-11 16:36,4632648,Bahia vs Mirassol,"Brasil, Brasileirão",seguro,Más de 1.5 goles,OU|1.5|over,0.7234,1.20,Bet365,1.38,-0.1319,,si,P,
+2026-10-11 16:36,4632648,Bahia vs Mirassol,"Brasil, Brasileirão",modelo,Menos de 6.5 tarjetas,CARDS|6.5|under,0.7822,,,1.28,,,si,G,
+2026-10-11 16:36,4632648,Bahia vs Mirassol,"Brasil, Brasileirão",modelo,Menos de 14.5 córners,CORN|14.5|under,0.7070,,,1.41,,,si,G,
+2026-10-11 16:36,4632648,Bahia vs Mirassol,"Brasil, Brasileirão",ticket,Gana Bahia,1X2||1,0.5430,1.71,,1.84,-0.0714,10.00,,G,7.10
 2026-10-11 16:36,4757170+4632651,Arouca vs Estrela da Amadora / Atlético Mineiro vs Santos,,ticket2,Estrela da Amadora recibe gol + Atlético Mineiro recibe gol,,0.5311,1.71,,1.88,-0.0929,10.00,,G,7.08
 2026-10-11 17:35,4632653+4632650,Palmeiras vs Corinthians / Grêmio vs Internacional,,ticket2,Menos de 1.5 goles en el 1T + Menos de 1.5 goles en el 1T,,0.5877,1.77,,1.70,0.0390,10.00,,P,-10.00
 2026-10-11 17:35,4760819+4632656,Sport Boys vs Alianza Atletico / Flamengo vs Fluminense,,ticket2,Más de 1.5 goles + Menos de 3.5 goles,,0.5783,1.81,,1.73,0.0445,10.00,,G,8.06
