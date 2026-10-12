@@ -1069,7 +1069,15 @@ if __name__ == "__main__":
                 print("error en pasada:", e)
             subprocess.run("bash guardar.sh", shell=True)
             print(f"[vigilante] pasada {n} lista ({ahora():%H:%M})", flush=True)
-            time.sleep(max(0, min(C.PASADA_SEG, fin - time.time())))
+            # Mientras espera, mira cada 20 s si cambiaste algo en el calendario: si sí, pasa enseguida
+            hasta = time.time() + max(0, min(C.PASADA_SEG, fin - time.time()))
+            while time.time() < hasta:
+                time.sleep(min(20, max(0, hasta - time.time())))
+                r = subprocess.run("git fetch -q origin main && git diff --quiet HEAD origin/main -- data/seleccion.json",
+                                   shell=True)
+                if r.returncode == 1:
+                    print("[vigilante] cambio en el calendario: pasada inmediata", flush=True)
+                    break
     elif "--loop" in sys.argv:
         while True:
             try:
