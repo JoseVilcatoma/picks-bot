@@ -2386,8 +2386,72 @@
    "partido": "Bragantino vs Cruzeiro",
    "liga": "Brasil, Brasileirão",
    "inicio": "2026-10-12T19:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1791846903.833597
+   "estado": "enviado",
+   "ultimo": 1791847146.6064196,
+   "pierna": [
+    {
+     "gid": "4632652",
+     "partido": "Bragantino vs Cruzeiro",
+     "texto": "Más de 1.5 goles",
+     "clave": "OU|1.5|over",
+     "p": 0.7838,
+     "cuota": 1.2,
+     "casa": "Bet365",
+     "inicio": "2026-10-12T19:00:00-05:00"
+    },
+    {
+     "gid": "4632652",
+     "partido": "Bragantino vs Cruzeiro",
+     "texto": "No hay empate",
+     "clave": "DC||12",
+     "p": 0.7297,
+     "cuota": 1.29,
+     "casa": "Bet365",
+     "inicio": "2026-10-12T19:00:00-05:00"
+    },
+    {
+     "gid": "4632652",
+     "partido": "Bragantino vs Cruzeiro",
+     "texto": "Más de 0.5 goles en el 1T",
+     "clave": "OU1T|0.5|over",
+     "p": 0.7242,
+     "cuota": 1.29,
+     "casa": "Bet365",
+     "inicio": "2026-10-12T19:00:00-05:00"
+    },
+    {
+     "gid": "4632652",
+     "partido": "Bragantino vs Cruzeiro",
+     "texto": "Bragantino recibe gol",
+     "clave": "CS||local_no",
+     "p": 0.7216,
+     "cuota": 1.28,
+     "casa": "Bet365",
+     "inicio": "2026-10-12T19:00:00-05:00"
+    },
+    {
+     "gid": "4632652",
+     "partido": "Bragantino vs Cruzeiro",
+     "texto": "Ambos marcan: Sí",
+     "clave": "BTTS||si",
+     "p": 0.6049,
+     "cuota": 1.55,
+     "casa": "William Hill",
+     "inicio": "2026-10-12T19:00:00-05:00"
+    },
+    {
+     "gid": "4632652",
+     "partido": "Bragantino vs Cruzeiro",
+     "texto": "Cruzeiro o empate",
+     "clave": "DC||X2",
+     "p": 0.5747,
+     "cuota": 1.57,
+     "casa": "Bet365",
+     "inicio": "2026-10-12T19:00:00-05:00"
+    }
+   ],
+   "xi": "377132,502310,888633,1302805,3079211,3311037,56162393,57889982,61417696,71359568,77715397|139950,901268,973471,3261397,9932355,51220667,67641750,70120060,70751572,76902279,77060957",
+   "conf": true
   },
   "4732690": {
    "partido": "Atalanta vs Venezia",
