@@ -155,6 +155,7 @@ def ajuste_alineacion(team_id, xi_hoy, resumenes, nombres_hoy):
             goles_eq += v
         for pid, v in p["a"].items():
             aporte[pid] = aporte.get(pid, 0) + 0.5 * v
+            goles_eq += 0.5 * v
         pos.update(p["pos"])
     hoy = {str(x) for x in xi_hoy}
     habituales = [pid for pid, c in titular.items() if c >= max(2, math.ceil(n * 0.6))]
@@ -163,7 +164,7 @@ def ajuste_alineacion(team_id, xi_hoy, resumenes, nombres_hoy):
     notas, f_atk, f_riv = [], 1.0, 1.0
     perdida = 0.0
     for pid in faltan:
-        share = aporte.get(pid, 0) / goles_eq if goles_eq else 0
+        share = min(aporte.get(pid, 0) / goles_eq, 0.6) if goles_eq else 0
         perdida += share
         nombre = nombres.get(pid) or (nombres_hoy.get(int(pid), "") if pid.isdigit() else "")
         etiqueta = f"{nombre or 'Titular'}"
@@ -371,7 +372,7 @@ def prob_modelo(clave, m, m1t, esp):
 # =================================================================
 # Candidatos y selección
 # =================================================================
-def candidatos(lh, la, esp, mercado, local, visita, base=None):
+def candidatos(lh, la, esp, mercado, local, visita, base=None, frescas=None):
     """base = (lh0, la0) goles esperados SIN alineación. La diferencia que causa la alineación
     se aplica también sobre la probabilidad del mercado (que suele ser previa a las alineaciones)."""
     mu_c, mu_k = esp["total"], esp["tarjetas"]
@@ -419,7 +420,9 @@ def candidatos(lh, la, esp, mercado, local, visita, base=None):
             pm0 = prob_modelo(clave, m0, m0_1t, esp)
             delta = (pm - pm0) if pm0 is not None else 0.0
         if pmk is not None:
-            pmk_aj = min(max(pmk + C.AJUSTE_ALINEACION * delta, 0.01), 0.99)
+            # Cuotas pedidas justo después de las alineaciones: el mercado ya las descontó en parte
+            aj = C.AJUSTE_ALINEACION_FRESCAS if frescas and clave in frescas else C.AJUSTE_ALINEACION
+            pmk_aj = min(max(pmk + aj * delta, 0.01), 0.99)
             p = w * pm + (1 - w) * pmk_aj
         else:
             p = pm
@@ -436,6 +439,7 @@ def candidatos(lh, la, esp, mercado, local, visita, base=None):
         out.append({"clave": clave, "fam": fam, "p": p_show, "p_kelly": p, "cuota": cuota,
                     "justa": justa, "ev": ev, "solo_modelo": pmk is None,
                     "p_mercado": pmk, "p_modelo": pm, "delta": delta,
+                    "aj": C.AJUSTE_ALINEACION_FRESCAS if frescas and clave in frescas else C.AJUSTE_ALINEACION,
                     "solo_valor": clave[0] in SOLO_CON_VALOR,
                     "texto": texto_mercado(clave, local, visita)})
     return out, m
@@ -501,7 +505,7 @@ def seleccionar(cands, matriz=None):
         """El modelo se aleja demasiado del mercado (sin que la alineación lo explique): no confiar."""
         if c.get("p_mercado") is None:
             return False
-        ref = c["p_mercado"] + C.AJUSTE_ALINEACION * (c.get("delta") or 0)
+        ref = c["p_mercado"] + c.get("aj", C.AJUSTE_ALINEACION) * (c.get("delta") or 0)
         return abs(c["p_modelo"] - ref) > C.DISCREPANCIA_MAX
     for c in todos:
         c["discrepa"] = discrepa(c)
@@ -510,7 +514,7 @@ def seleccionar(cands, matriz=None):
     for c in todos:
         c["ev_ref"] = None
         if c.get("ref_sharp") and c["cuota"] and c.get("p_mercado") is not None:
-            p_ref = min(max(c["p_mercado"] + C.AJUSTE_ALINEACION * (c.get("delta") or 0), 0.01), 0.99)
+            p_ref = min(max(c["p_mercado"] + c.get("aj", C.AJUSTE_ALINEACION) * (c.get("delta") or 0), 0.01), 0.99)
             c["p_ref"] = p_ref
             c["ev_ref"] = c["cuota"] * p_ref - 1
     ap = [c for c in todos if c["ev_ref"] is not None and c["ev_ref"] >= C.VALOR_APOSTABLE
@@ -654,6 +658,7 @@ def ticket_partido(cands, m):
                 continue
             p = min(a["p"] * b["p"] * conj / (pa * pb), a["p"], b["p"])
             opciones.append({"piernas": [a, b], "p": p, "cuota": cuota})
+    opciones = [o for o in opciones if o["p"] * o["cuota"] - 1 >= C.TICKET_EV_MIN]   # cuota ≥ justa
     if not opciones:
         return None
     return max(opciones, key=lambda o: (o["p"], -abs(o["cuota"] - 2.0)))

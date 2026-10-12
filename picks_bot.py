@@ -454,7 +454,7 @@ def analizar(gid, g, nombres, modo):
         lh0, la0 = lh_forma, la_forma
     lh, la = lh0 * f_h, la0 * f_a
     base = (lh0, la0) if con_alineacion and (abs(lh / lh0 - 1) >= 0.02 or abs(la / la0 - 1) >= 0.02) else None
-    cands, matriz = M.candidatos(lh, la, esp, mercado, local, visita, base=base)
+    cands, matriz = M.candidatos(lh, la, esp, mercado, local, visita, base=base, frescas=sharp)
     impacto = (lh / lh0 - 1, la / la0 - 1) if con_alineacion else None
     crit_lin, señales = criterios.evaluar(g, gid, res_l, res_v, st_l, st_v, lineas, impacto)
     for c in cands:
@@ -586,7 +586,8 @@ def analizar(gid, g, nombres, modo):
             lin.append("<i>Mismo partido: arma la combinada con “Crear apuesta”. Las casas suelen pagar menos que "
                        "la multiplicación; conviene solo si te pagan ≥ la justa.</i>")
     else:
-        lin.append(f"\n🎟 Ticket: no hay combinación segura con cuota {C.TICKET_CUOTA[0]:.2f}–{C.TICKET_CUOTA[1]:.2f} en este partido.")
+        lin.append(f"\n🎟 Ticket: no hay combinación segura con cuota {C.TICKET_CUOTA[0]:.2f}–{C.TICKET_CUOTA[1]:.2f} "
+                   "que pague al menos su cuota justa en este partido.")
     lin.append("\n<i>“justa” = cuota mínima que deberías aceptar en tu casa de apuestas. "
                "Seguros/arriesgados sin valor son informativos, no apuestas.</i>")
     lin.append("🧪 Paper trading · cuotas: " + ("The Odds API + Bet365 (365Scores)" if ext else "Bet365 vía 365Scores"))
@@ -705,6 +706,8 @@ def ticket_doble(estado, gid, log):
                 cuota = a["cuota"] * b["cuota"]
                 if C.TICKET_CUOTA[0] <= cuota <= C.TICKET_CUOTA[1]:
                     p = a["p"] * b["p"]
+                    if p * cuota - 1 < C.TICKET_EV_MIN:      # cuota menor que la justa: no conviene
+                        continue
                     if not mejor or p > mejor[0]:
                         mejor = (p, cuota, gid2, a, b)
     if not mejor:

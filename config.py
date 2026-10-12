@@ -44,7 +44,8 @@ STAKE_MAX = 0.03             # nunca más del 3% de la banca en un pick
 # Tu backtest mostró que el mercado predice mejor: por eso el modelo pesa poco.
 PESO_MODELO = {"resultado": 0.50, "goles": 0.50, "corners": 0.50, "tarjetas": 0.35}
 PESO_FORMA = 0.25            # goles esperados = 75% lo que implica el mercado + 25% forma/remates
-AJUSTE_ALINEACION = 0.8      # cuánto del efecto de la alineación se aplica también a la prob. del mercado
+AJUSTE_ALINEACION = 0.8      # efecto de la alineación sobre la prob. del mercado (cuotas que pueden ser viejas)
+AJUSTE_ALINEACION_FRESCAS = 0.35   # idem con cuotas frescas de The Odds API (el mercado ya ajustó en parte)
 ARR_PROB = (0.25, 0.45)      # arriesgados: rango de probabilidad
 ARR_CUOTA = (2.00, 4.00)     # arriesgados: rango de cuota
 DISCREPANCIA_MAX = 0.12      # si el modelo se aleja >12 puntos del mercado, no se marca como apostable
@@ -79,3 +80,4 @@ CUOTAS_VIEJAS_HORAS = 4             # si las cuotas de 365Scores no se movieron 
 TICKET_CUOTA = (1.70, 2.30)   # cuota total buscada
 TICKET_PIERNA = (1.20, 1.65)  # cuota de cada selección para el ticket de 2 partidos
 TICKET_STAKE = 10.0           # stake fijo (paper trading) para medir los tickets
+TICKET_EV_MIN = 0.0           # el ticket debe pagar al menos su cuota justa
