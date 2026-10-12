@@ -13,6 +13,7 @@ import re
 import os
 import sys
 import time
+import traceback
 from datetime import datetime, timedelta
 from zoneinfo import ZoneInfo
 
@@ -920,6 +921,86 @@ def liquidar_tickets(estado, log):
 
 
 # ======================= ciclo principal =======================
+def _partido(estado, log, t, gid, s):
+    """Procesa un partido seguido (enviar picks, actualizar, liquidar)."""
+    inicio = iso(s["inicio"])
+    mins = (inicio - t).total_seconds() / 60
+    if s["estado"] == "pendiente":
+        if mins > C.VENTANA_MIN:
+            return
+        urgente = mins <= C.ENVIAR_SIN_ALINEACION_MIN
+        if time.time() - s.get("ultimo", 0) < C.REVISAR_CADA_MIN * 60 and not urgente:
+            return
+        s["ultimo"] = time.time()
+        g, nombres = s365.detalle(gid)
+        if not g:
+            return
+        if s365.anulado(g):
+            s["estado"] = "cancelado"
+            enviar(f"❌ {esc(s['partido'])}: {esc(g.get('statusText'))}")
+            return
+        if g.get("startTime") and g["startTime"] != s["inicio"]:
+            s["inicio"] = g["startTime"]
+            mins = (iso(s["inicio"]) - t).total_seconds() / 60
+            if mins > C.VENTANA_MIN:
+                return
+            urgente = mins <= C.ENVIAR_SIN_ALINEACION_MIN
+        ok_l = s365.alineacion(g["homeCompetitor"])[0]
+        ok_v = s365.alineacion(g["awayCompetitor"])[0]
+        confirmada = ok_l and ok_v
+        if confirmada or urgente:
+            if mins < -20:
+                s["estado"] = "cancelado"
+                enviar(f"⌛ {esc(s['partido'])}: ya empezó y no alcancé a enviar picks.")
+                return
+            firma, completa = firma_xi(g)
+            modo = "confirmada" if confirmada else ("probable" if completa else "ninguna")
+            s365.FALLOS = 0
+            texto, filas, extra = analizar(gid, g, nombres, modo)
+            if s365.FALLOS and mins > 15:
+                # 365Scores falló en algún dato: mejor reintentar en la próxima pasada que mandar algo incompleto
+                print(f"[picks] {s['partido']}: datos incompletos ({s365.FALLOS} fallos), reintento")
+                s["ultimo"] = 0
+                return
+            if s365.FALLOS:
+                texto += "\n⚠️ <i>365Scores no respondió en algunos datos: este análisis puede estar incompleto.</i>"
+            enviar(texto)
+            log += filas
+            s["estado"] = "enviado"
+            s["pierna"] = extra["pierna"]
+            ticket_doble(estado, gid, log)
+            s["xi"], s["conf"] = firma, confirmada
+    elif s["estado"] == "enviado" and mins < -115:
+        if time.time() - s.get("ultimo", 0) >= 10 * 60:
+            s["ultimo"] = time.time()
+            liquidar(gid, s, log)
+    elif s["estado"] == "enviado" and not s.get("conf", True) and mins > -3:
+        # Se envió con alineación probable: vigilar si se confirma y si cambió
+        if time.time() - s.get("ultimo", 0) < 5 * 60:
+            return
+        s["ultimo"] = time.time()
+        g, nombres = s365.detalle(gid)
+        if not g:
+            return
+        if not (s365.alineacion(g["homeCompetitor"])[0] and s365.alineacion(g["awayCompetitor"])[0]):
+            return
+        s["conf"] = True
+        firma, _ = firma_xi(g)
+        if firma == s.get("xi"):
+            enviar(f"✅ <b>{esc(s['partido'])}</b>: alineaciones confirmadas, "
+                   "iguales a la probable. Los picks se mantienen.")
+            return
+        texto, filas, extra = analizar(gid, g, nombres, "confirmada")
+        s["pierna"] = extra["pierna"]
+        log[:] = [f for f in log if not (f["game_id"] == gid and not f["resultado"])]
+        log += filas
+        s["xi"] = firma
+        enviar("🔄 <b>ACTUALIZACIÓN: la alineación confirmada cambió</b>. "
+               "Estos picks reemplazan a los anteriores.\n\n" + texto)
+    elif s["estado"] in ("liquidado", "cancelado") and mins < -2 * 24 * 60:
+        del estado["seguidos"][gid]
+
+
 def pasada():
     estado = cargar_estado()
     procesar_comandos(estado)
@@ -927,82 +1008,15 @@ def pasada():
     log = leer_log()
     t = ahora()
     for gid, s in list(estado["seguidos"].items()):
-        inicio = iso(s["inicio"])
-        mins = (inicio - t).total_seconds() / 60
-        if s["estado"] == "pendiente":
-            if mins > C.VENTANA_MIN:
-                continue
-            urgente = mins <= C.ENVIAR_SIN_ALINEACION_MIN
-            if time.time() - s.get("ultimo", 0) < C.REVISAR_CADA_MIN * 60 and not urgente:
-                continue
+        try:
+            _partido(estado, log, t, gid, s)
+        except Exception:  # noqa: BLE001
+            # Un partido con error no debe frenar a los demás ni los cambios del calendario
+            print(f"[error] {s.get('partido', gid)}:\n{traceback.format_exc()}", flush=True)
             s["ultimo"] = time.time()
-            g, nombres = s365.detalle(gid)
-            if not g:
-                continue
-            if s365.anulado(g):
-                s["estado"] = "cancelado"
-                enviar(f"❌ {esc(s['partido'])}: {esc(g.get('statusText'))}")
-                continue
-            if g.get("startTime") and g["startTime"] != s["inicio"]:
-                s["inicio"] = g["startTime"]
-                mins = (iso(s["inicio"]) - t).total_seconds() / 60
-                if mins > C.VENTANA_MIN:
-                    continue
-                urgente = mins <= C.ENVIAR_SIN_ALINEACION_MIN
-            ok_l = s365.alineacion(g["homeCompetitor"])[0]
-            ok_v = s365.alineacion(g["awayCompetitor"])[0]
-            confirmada = ok_l and ok_v
-            if confirmada or urgente:
-                if mins < -20:
-                    s["estado"] = "cancelado"
-                    enviar(f"⌛ {esc(s['partido'])}: ya empezó y no alcancé a enviar picks.")
-                    continue
-                firma, completa = firma_xi(g)
-                modo = "confirmada" if confirmada else ("probable" if completa else "ninguna")
-                s365.FALLOS = 0
-                texto, filas, extra = analizar(gid, g, nombres, modo)
-                if s365.FALLOS and mins > 15:
-                    # 365Scores falló en algún dato: mejor reintentar en la próxima pasada que mandar algo incompleto
-                    print(f"[picks] {s['partido']}: datos incompletos ({s365.FALLOS} fallos), reintento")
-                    s["ultimo"] = 0
-                    continue
-                if s365.FALLOS:
-                    texto += "\n⚠️ <i>365Scores no respondió en algunos datos: este análisis puede estar incompleto.</i>"
-                enviar(texto)
-                log += filas
-                s["estado"] = "enviado"
-                s["pierna"] = extra["pierna"]
-                ticket_doble(estado, gid, log)
-                s["xi"], s["conf"] = firma, confirmada
-        elif s["estado"] == "enviado" and mins < -115:
-            if time.time() - s.get("ultimo", 0) >= 10 * 60:
-                s["ultimo"] = time.time()
-                liquidar(gid, s, log)
-        elif s["estado"] == "enviado" and not s.get("conf", True) and mins > -3:
-            # Se envió con alineación probable: vigilar si se confirma y si cambió
-            if time.time() - s.get("ultimo", 0) < 5 * 60:
-                continue
-            s["ultimo"] = time.time()
-            g, nombres = s365.detalle(gid)
-            if not g:
-                continue
-            if not (s365.alineacion(g["homeCompetitor"])[0] and s365.alineacion(g["awayCompetitor"])[0]):
-                continue
-            s["conf"] = True
-            firma, _ = firma_xi(g)
-            if firma == s.get("xi"):
-                enviar(f"✅ <b>{esc(s['partido'])}</b>: alineaciones confirmadas, "
-                       "iguales a la probable. Los picks se mantienen.")
-                continue
-            texto, filas, extra = analizar(gid, g, nombres, "confirmada")
-            s["pierna"] = extra["pierna"]
-            log[:] = [f for f in log if not (f["game_id"] == gid and not f["resultado"])]
-            log += filas
-            s["xi"] = firma
-            enviar("🔄 <b>ACTUALIZACIÓN: la alineación confirmada cambió</b>. "
-                   "Estos picks reemplazan a los anteriores.\n\n" + texto)
-        elif s["estado"] in ("liquidado", "cancelado") and mins < -2 * 24 * 60:
-            del estado["seguidos"][gid]
+            s["errores"] = s.get("errores", 0) + 1
+            if s["errores"] == 3 and s.get("estado") == "pendiente":
+                enviar(f"⚠️ No pude analizar {esc(s.get('partido', gid))} por un error interno. Sigo intentando.")
     liquidar_tickets(estado, log)
     escribir_log(log)
     guardar_estado(estado)
@@ -1035,9 +1049,20 @@ if __name__ == "__main__":
         COLA = True
         fin = time.time() + minutos * 60
         n = 0
+
+        def version_codigo():
+            r = subprocess.run("git rev-parse HEAD:picks_bot.py HEAD:modelo.py HEAD:config.py HEAD:criterios.py "
+                               "HEAD:s365.py HEAD:cuotas_ext.py HEAD:guardar.sh",
+                               shell=True, capture_output=True, text=True)
+            return r.stdout
+        codigo = version_codigo()
         while time.time() < fin:
             n += 1
             subprocess.run("git pull --rebase -q || git rebase --abort", shell=True)
+            if version_codigo() != codigo:
+                # Subiste archivos nuevos: termino para que el relanzamiento use el código nuevo
+                print("[vigilante] código actualizado en el repo: me reinicio con la versión nueva", flush=True)
+                break
             try:
                 pasada()
             except Exception as e:  # noqa: BLE001
