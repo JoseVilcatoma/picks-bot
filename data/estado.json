@@ -1611,22 +1611,195 @@
    "partido": "Villarreal CF vs Nápoles",
    "liga": "Europa, UEFA Champions League",
    "inicio": "2026-10-13T14:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1791914009.7887034
+   "estado": "enviado",
+   "ultimo": 1791914261.1445396,
+   "pierna": [
+    {
+     "gid": "4828476",
+     "partido": "Villarreal CF vs Nápoles",
+     "texto": "Más de 1.5 goles",
+     "clave": "OU|1.5|over",
+     "p": 0.7533,
+     "cuota": 1.22,
+     "casa": "Bet365",
+     "inicio": "2026-10-13T14:00:00-05:00"
+    },
+    {
+     "gid": "4828476",
+     "partido": "Villarreal CF vs Nápoles",
+     "texto": "No hay empate",
+     "clave": "DC||12",
+     "p": 0.7255,
+     "cuota": 1.29,
+     "casa": "Bet365",
+     "inicio": "2026-10-13T14:00:00-05:00"
+    },
+    {
+     "gid": "4828476",
+     "partido": "Villarreal CF vs Nápoles",
+     "texto": "Villarreal CF recibe gol",
+     "clave": "CS||local_no",
+     "p": 0.7078,
+     "cuota": 1.33,
+     "casa": "Bet365",
+     "inicio": "2026-10-13T14:00:00-05:00"
+    },
+    {
+     "gid": "4828476",
+     "partido": "Villarreal CF vs Nápoles",
+     "texto": "Más de 0.5 goles en el 1T",
+     "clave": "OU1T|0.5|over",
+     "p": 0.6941,
+     "cuota": 1.33,
+     "casa": "Bet365",
+     "inicio": "2026-10-13T14:00:00-05:00"
+    },
+    {
+     "gid": "4828476",
+     "partido": "Villarreal CF vs Nápoles",
+     "texto": "Villarreal CF o empate",
+     "clave": "DC||1X",
+     "p": 0.6775,
+     "cuota": 1.36,
+     "casa": "Bet365",
+     "inicio": "2026-10-13T14:00:00-05:00"
+    },
+    {
+     "gid": "4828476",
+     "partido": "Villarreal CF vs Nápoles",
+     "texto": "Ambos marcan: Sí",
+     "clave": "BTTS||si",
+     "p": 0.5651,
+     "cuota": 1.62,
+     "casa": "William Hill",
+     "inicio": "2026-10-13T14:00:00-05:00"
+    }
+   ],
+   "xi": "336482,2793452,43875282,50260341,51147730,51329875,65211458,65992900,66261491,67627457,70892079|95182,385087,593504,612027,973073,4286903,4874431,34691016,50852472,62350133,64720994",
+   "conf": true
   },
   "4828477": {
    "partido": "Viking vs Bayern Munich",
    "liga": "Europa, UEFA Champions League",
    "inicio": "2026-10-13T14:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1791914010.0404563
+   "estado": "enviado",
+   "ultimo": 1791914263.232401,
+   "pierna": [
+    {
+     "gid": "4828477",
+     "partido": "Viking vs Bayern Munich",
+     "texto": "Bayern Munich recibe gol",
+     "clave": "CS||visita_no",
+     "p": 0.6543,
+     "cuota": 1.57,
+     "casa": "Bet365",
+     "inicio": "2026-10-13T14:00:00-05:00"
+    },
+    {
+     "gid": "4828477",
+     "partido": "Viking vs Bayern Munich",
+     "texto": "Ambos marcan: Sí",
+     "clave": "BTTS||si",
+     "p": 0.6182,
+     "cuota": 1.6,
+     "casa": "1xBet",
+     "inicio": "2026-10-13T14:00:00-05:00"
+    },
+    {
+     "gid": "4828477",
+     "partido": "Viking vs Bayern Munich",
+     "texto": "Más de 3.5 goles",
+     "clave": "OU|3.5|over",
+     "p": 0.5387,
+     "cuota": 1.44,
+     "casa": "Bet365",
+     "inicio": "2026-10-13T14:00:00-05:00"
+    },
+    {
+     "gid": "4828477",
+     "partido": "Viking vs Bayern Munich",
+     "texto": "Más de 1.5 goles en el 1T",
+     "clave": "OU1T|1.5|over",
+     "p": 0.5233,
+     "cuota": 1.53,
+     "casa": "Bet365",
+     "inicio": "2026-10-13T14:00:00-05:00"
+    }
+   ],
+   "xi": "375135,498795,581735,3226815,3249580,9175607,12076407,17953805,47476276,49523494,49868872|227604,412127,470279,485309,3219251,6450095,14755144,60976669,64744763,66044210,76643976",
+   "conf": true
   },
   "4828478": {
    "partido": "Atlético de Madrid vs Manchester United",
    "liga": "Europa, UEFA Champions League",
    "inicio": "2026-10-13T14:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1791914010.1023276
+   "estado": "enviado",
+   "ultimo": 1791914265.2818022,
+   "pierna": [
+    {
+     "gid": "4828478",
+     "partido": "Atlético de Madrid vs Manchester United",
+     "texto": "Atlético de Madrid o empate",
+     "clave": "DC||1X",
+     "p": 0.7964,
+     "cuota": 1.22,
+     "casa": "Bet365",
+     "inicio": "2026-10-13T14:00:00-05:00"
+    },
+    {
+     "gid": "4828478",
+     "partido": "Atlético de Madrid vs Manchester United",
+     "texto": "No hay empate",
+     "clave": "DC||12",
+     "p": 0.7395,
+     "cuota": 1.25,
+     "casa": "Bet365",
+     "inicio": "2026-10-13T14:00:00-05:00"
+    },
+    {
+     "gid": "4828478",
+     "partido": "Atlético de Madrid vs Manchester United",
+     "texto": "Más de 1.5 goles",
+     "clave": "OU|1.5|over",
+     "p": 0.7331,
+     "cuota": 1.2,
+     "casa": "Bet365",
+     "inicio": "2026-10-13T14:00:00-05:00"
+    },
+    {
+     "gid": "4828478",
+     "partido": "Atlético de Madrid vs Manchester United",
+     "texto": "Menos de 3.5 goles",
+     "clave": "OU|3.5|under",
+     "p": 0.7269,
+     "cuota": 1.5,
+     "casa": "Bet365",
+     "inicio": "2026-10-13T14:00:00-05:00"
+    },
+    {
+     "gid": "4828478",
+     "partido": "Atlético de Madrid vs Manchester United",
+     "texto": "Más de 0.5 goles en el 1T",
+     "clave": "OU1T|0.5|over",
+     "p": 0.6865,
+     "cuota": 1.29,
+     "casa": "Bet365",
+     "inicio": "2026-10-13T14:00:00-05:00"
+    },
+    {
+     "gid": "4828478",
+     "partido": "Atlético de Madrid vs Manchester United",
+     "texto": "Menos de 1.5 goles en el 1T",
+     "clave": "OU1T|1.5|under",
+     "p": 0.6708,
+     "cuota": 1.53,
+     "casa": "Bet365",
+     "inicio": "2026-10-13T14:00:00-05:00"
+    }
+   ],
+   "en_ticket": true,
+   "xi": "325326,527341,540706,602979,2993226,5533521,9638719,47057705,49550597,60936288,63125761|398065,435334,1463017,4201425,6813762,6835961,50729542,65131542,65397189,65521968,70953412",
+   "conf": true
   },
   "4828479": {
    "partido": "Inter Milan vs Brujas",
@@ -1708,21 +1881,102 @@
     }
    ],
    "xi": "565116,889605,3180934,4346740,8048881,58698523,59101484,61211738,62453007,64157972,67628271|27247,305312,3097855,3340161,4040127,4222302,4786658,43467357,50497600,66460054,67820371",
-   "conf": true
+   "conf": true,
+   "en_ticket": true
   },
   "4828481": {
    "partido": "Galatasaray vs FC Barcelona",
    "liga": "Europa, UEFA Champions League",
    "inicio": "2026-10-13T14:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1791914014.5695195
+   "estado": "enviado",
+   "ultimo": 1791914268.9392762,
+   "pierna": [
+    {
+     "gid": "4828481",
+     "partido": "Galatasaray vs FC Barcelona",
+     "texto": "Gana FC Barcelona",
+     "clave": "1X2||2",
+     "p": 0.7104,
+     "cuota": 1.33,
+     "casa": "GTbets",
+     "inicio": "2026-10-13T14:00:00-05:00"
+    },
+    {
+     "gid": "4828481",
+     "partido": "Galatasaray vs FC Barcelona",
+     "texto": "Más de 2.5 goles",
+     "clave": "OU|2.5|over",
+     "p": 0.6766,
+     "cuota": 1.2,
+     "casa": "Betsson",
+     "inicio": "2026-10-13T14:00:00-05:00"
+    },
+    {
+     "gid": "4828481",
+     "partido": "Galatasaray vs FC Barcelona",
+     "texto": "FC Barcelona recibe gol",
+     "clave": "CS||visita_no",
+     "p": 0.6297,
+     "cuota": 1.36,
+     "casa": "Bet365",
+     "inicio": "2026-10-13T14:00:00-05:00"
+    },
+    {
+     "gid": "4828481",
+     "partido": "Galatasaray vs FC Barcelona",
+     "texto": "Ambos marcan: Sí",
+     "clave": "BTTS||si",
+     "p": 0.6013,
+     "cuota": 1.44,
+     "casa": "1xBet",
+     "inicio": "2026-10-13T14:00:00-05:00"
+    },
+    {
+     "gid": "4828481",
+     "partido": "Galatasaray vs FC Barcelona",
+     "texto": "Más de 1.5 goles en el 1T",
+     "clave": "OU1T|1.5|over",
+     "p": 0.4701,
+     "cuota": 1.62,
+     "casa": "Bet365",
+     "inicio": "2026-10-13T14:00:00-05:00"
+    },
+    {
+     "gid": "4828481",
+     "partido": "Galatasaray vs FC Barcelona",
+     "texto": "Más de 3.5 goles",
+     "clave": "OU|3.5|over",
+     "p": 0.4578,
+     "cuota": 1.57,
+     "casa": "Bet365",
+     "inicio": "2026-10-13T14:00:00-05:00"
+    }
+   ],
+   "xi": "333237,843502,893771,911384,1086710,3154455,8687756,40808720,51190233,60875243,71673963|384197,918164,1761371,4583279,33309233,41923868,52343752,63765805,67787784,70894814,71171245",
+   "conf": true,
+   "en_ticket": true
   },
   "4828482": {
    "partido": "Arsenal vs Lille",
    "liga": "Europa, UEFA Champions League",
    "inicio": "2026-10-13T14:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1791914014.672722
+   "estado": "enviado",
+   "ultimo": 1791914270.984012,
+   "pierna": [
+    {
+     "gid": "4828482",
+     "partido": "Arsenal vs Lille",
+     "texto": "Menos de 4.5 goles",
+     "clave": "OU|4.5|under",
+     "p": 0.8636,
+     "cuota": 1.29,
+     "casa": "Bet365",
+     "inicio": "2026-10-13T14:00:00-05:00"
+    }
+   ],
+   "en_ticket": true,
+   "xi": "537419,562084,2985896,3055995,3070470,3211355,3287853,3373029,43390337,45211907,67102513|216415,445024,3212320,3227707,19118816,50482968,58449710,58495051,60984745,67562585,77403319",
+   "conf": true
   },
   "4828483": {
    "partido": "Sabah vs Slavia Praga",
@@ -1968,5 +2222,60 @@
   "4828484": 1791856900781,
   "4856897": 1791856907535
  },
- "tickets": []
+ "tickets": [
+  {
+   "piernas": [
+    {
+     "gid": "4828478",
+     "partido": "Atlético de Madrid vs Manchester United",
+     "texto": "Menos de 3.5 goles",
+     "clave": "OU|3.5|under",
+     "p": 0.7269,
+     "cuota": 1.5,
+     "casa": "Bet365",
+     "inicio": "2026-10-13T14:00:00-05:00"
+    },
+    {
+     "gid": "4828480",
+     "partido": "RB Leipzig vs PSV Eindhoven",
+     "texto": "Más de 2.5 goles",
+     "clave": "OU|2.5|over",
+     "p": 0.7593,
+     "cuota": 1.23,
+     "casa": "Betsson",
+     "inicio": "2026-10-13T14:00:00-05:00"
+    }
+   ],
+   "p": 0.5519351699999999,
+   "cuota": 1.845,
+   "t": 1791914268.9391673
+  },
+  {
+   "piernas": [
+    {
+     "gid": "4828482",
+     "partido": "Arsenal vs Lille",
+     "texto": "Menos de 4.5 goles",
+     "clave": "OU|4.5|under",
+     "p": 0.8636,
+     "cuota": 1.29,
+     "casa": "Bet365",
+     "inicio": "2026-10-13T14:00:00-05:00"
+    },
+    {
+     "gid": "4828481",
+     "partido": "Galatasaray vs FC Barcelona",
+     "texto": "Gana FC Barcelona",
+     "clave": "1X2||2",
+     "p": 0.7104,
+     "cuota": 1.33,
+     "casa": "GTbets",
+     "inicio": "2026-10-13T14:00:00-05:00"
+    }
+   ],
+   "p": 0.6135014400000001,
+   "cuota": 1.7157000000000002,
+   "t": 1791914274.1179516
+  }
+ ]
 }
