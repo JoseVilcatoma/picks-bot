@@ -1884,15 +1884,79 @@
    "partido": "Sabah vs Slavia Praga",
    "liga": "Europa, UEFA Champions League",
    "inicio": "2026-10-13T11:45:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1791905478.5360937
+   "estado": "enviado",
+   "ultimo": 1791905727.0447557,
+   "pierna": [
+    {
+     "gid": "4828483",
+     "partido": "Sabah vs Slavia Praga",
+     "texto": "No hay empate",
+     "clave": "DC||12",
+     "p": 0.7313,
+     "cuota": 1.25,
+     "casa": "Bet365",
+     "inicio": "2026-10-13T11:45:00-05:00"
+    },
+    {
+     "gid": "4828483",
+     "partido": "Sabah vs Slavia Praga",
+     "texto": "Slavia Praga recibe gol",
+     "clave": "CS||visita_no",
+     "p": 0.7179,
+     "cuota": 1.33,
+     "casa": "Bet365",
+     "inicio": "2026-10-13T11:45:00-05:00"
+    },
+    {
+     "gid": "4828483",
+     "partido": "Sabah vs Slavia Praga",
+     "texto": "Más de 0.5 goles en el 1T",
+     "clave": "OU1T|0.5|over",
+     "p": 0.702,
+     "cuota": 1.29,
+     "casa": "Bet365",
+     "inicio": "2026-10-13T11:45:00-05:00"
+    },
+    {
+     "gid": "4828483",
+     "partido": "Sabah vs Slavia Praga",
+     "texto": "Slavia Praga o empate",
+     "clave": "DC||X2",
+     "p": 0.6862,
+     "cuota": 1.25,
+     "casa": "Bet365",
+     "inicio": "2026-10-13T11:45:00-05:00"
+    },
+    {
+     "gid": "4828483",
+     "partido": "Sabah vs Slavia Praga",
+     "texto": "Ambos marcan: Sí",
+     "clave": "BTTS||si",
+     "p": 0.5827,
+     "cuota": 1.57,
+     "casa": "Bet365",
+     "inicio": "2026-10-13T11:45:00-05:00"
+    },
+    {
+     "gid": "4828483",
+     "partido": "Sabah vs Slavia Praga",
+     "texto": "Más de 2.5 goles",
+     "clave": "OU|2.5|over",
+     "p": 0.5277,
+     "cuota": 1.64,
+     "casa": "1xBet",
+     "inicio": "2026-10-13T11:45:00-05:00"
+    }
+   ],
+   "xi": "491057,552358,3344699,3413136,4548091,32834575,50682101,60334467,66703784,67820172,77170789|505256,518327,3153645,12511677,23568317,24556770,39144009,60326040,67265374,68004477,71092804",
+   "conf": true
   },
   "4828484": {
    "partido": "Lens vs Sporting CP",
    "liga": "Europa, UEFA Champions League",
    "inicio": "2026-10-13T11:45:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1791905478.7478662
+   "ultimo": 1791905731.1023562
   },
   "4856897": {
    "partido": "Boca Juniors vs Vasco Da Gama",
