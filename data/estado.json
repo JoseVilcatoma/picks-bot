@@ -1090,8 +1090,8 @@
    "partido": "Inter Milan vs Brujas",
    "liga": "Europa, UEFA Champions League",
    "inicio": "2026-10-13T14:00:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1791924967.8242512,
+   "estado": "liquidado",
+   "ultimo": 1791925581.1962562,
    "pierna": [
     {
      "gid": "4828479",
@@ -1115,7 +1115,22 @@
     }
    ],
    "xi": "329313,342428,458646,511549,598403,886858,925369,3071407,3161656,4802874,58810177|347017,349116,505117,3267706,61767329,65280617,66680613,66693760,66693762,71890592,75535511",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 3,
+    "ag": 4,
+    "ht": [
+     1,
+     1
+    ],
+    "corners": 8.0,
+    "corners_h": 4.0,
+    "corners_a": 4.0,
+    "corners_1t": 5.0,
+    "cards": 6.0,
+    "cards_h": 2.0,
+    "cards_a": 4.0
+   }
   },
   "4828480": {
    "partido": "RB Leipzig vs PSV Eindhoven",
