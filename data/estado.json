@@ -2109,8 +2109,8 @@
    "partido": "Chapecoense vs Athletico Paranaense",
    "liga": "Brasil, Brasileirão",
    "inicio": "2026-10-12T17:30:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1791841482.5793684,
+   "estado": "liquidado",
+   "ultimo": 1791851157.4769323,
    "pierna": [
     {
      "gid": "4632647",
@@ -2164,7 +2164,22 @@
     }
    ],
    "xi": "278865,369720,3070487,3272448,12677895,50469491,53329678,54787499,75441145,76889464,77118442|203068,393754,516073,2754101,3123906,3246351,6880090,52708689,66636343,67818682,71146348",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 1,
+    "ag": 4,
+    "ht": [
+     0,
+     3
+    ],
+    "corners": 13.0,
+    "corners_h": 6.0,
+    "corners_a": 7.0,
+    "corners_1t": 5.0,
+    "cards": 3.0,
+    "cards_h": 2.0,
+    "cards_a": 1.0
+   }
   },
   "4632649": {
    "partido": "Coritiba vs Botafogo",
