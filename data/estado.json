@@ -685,60 +685,6 @@
     "cards": 7.0
    }
   },
-  "4757177": {
-   "partido": "Benfica vs Guimarães",
-   "liga": "Portugal, Primeira Liga",
-   "inicio": "2026-10-11T12:00:00-05:00",
-   "estado": "liquidado",
-   "ultimo": 1791745525.2350295,
-   "pierna": [
-    {
-     "gid": "4757177",
-     "partido": "Benfica vs Guimarães",
-     "texto": "Gana Benfica",
-     "clave": "1X2||1",
-     "p": 0.7568,
-     "cuota": 1.25,
-     "casa": "Bet365",
-     "inicio": "2026-10-11T12:00:00-05:00"
-    },
-    {
-     "gid": "4757177",
-     "partido": "Benfica vs Guimarães",
-     "texto": "Más de 0.5 goles en el 1T",
-     "clave": "OU1T|0.5|over",
-     "p": 0.7547,
-     "cuota": 1.22,
-     "casa": "Bet365",
-     "inicio": "2026-10-11T12:00:00-05:00"
-    },
-    {
-     "gid": "4757177",
-     "partido": "Benfica vs Guimarães",
-     "texto": "Más de 2.5 goles",
-     "clave": "OU|2.5|over",
-     "p": 0.6212,
-     "cuota": 1.48,
-     "casa": "Bet365",
-     "inicio": "2026-10-11T12:00:00-05:00"
-    }
-   ],
-   "xi": "340562,541978,668937,3152786,4853640,51394932,55352581,56751723,64392622,65471889,65642981|553524,2753309,3855117,61426990,64656034,66503245,67086004,67938045,75532586,76964183,77422430",
-   "conf": true,
-   "r": {
-    "hg": 2,
-    "ag": 0,
-    "ht": [
-     1,
-     0
-    ],
-    "corners": 17.0,
-    "corners_h": 11.0,
-    "corners_a": 6.0,
-    "corners_1t": 10.0,
-    "cards": 7.0
-   }
-  },
   "4760814": {
    "partido": "UTC Cajamarca vs Sporting Cristal",
    "liga": "Perú, Liga 1 - Clausura",
