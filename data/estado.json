@@ -851,8 +851,8 @@
    "partido": "Villarreal CF vs Nápoles",
    "liga": "Europa, UEFA Champions League",
    "inicio": "2026-10-13T14:00:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1791914261.1445396,
+   "estado": "liquidado",
+   "ultimo": 1791924967.0832448,
    "pierna": [
     {
      "gid": "4828476",
@@ -916,14 +916,29 @@
     }
    ],
    "xi": "336482,2793452,43875282,50260341,51147730,51329875,65211458,65992900,66261491,67627457,70892079|95182,385087,593504,612027,973073,4286903,4874431,34691016,50852472,62350133,64720994",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 3,
+    "ag": 1,
+    "ht": [
+     2,
+     1
+    ],
+    "corners": 8.0,
+    "corners_h": 4.0,
+    "corners_a": 4.0,
+    "corners_1t": 6.0,
+    "cards": 5.0,
+    "cards_h": 2.0,
+    "cards_a": 3.0
+   }
   },
   "4828477": {
    "partido": "Viking vs Bayern Munich",
    "liga": "Europa, UEFA Champions League",
    "inicio": "2026-10-13T14:00:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1791914263.232401,
+   "estado": "liquidado",
+   "ultimo": 1791924967.393685,
    "pierna": [
     {
      "gid": "4828477",
@@ -967,14 +982,29 @@
     }
    ],
    "xi": "375135,498795,581735,3226815,3249580,9175607,12076407,17953805,47476276,49523494,49868872|227604,412127,470279,485309,3219251,6450095,14755144,60976669,64744763,66044210,76643976",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 3,
+    "ag": 3,
+    "ht": [
+     2,
+     0
+    ],
+    "corners": 22.0,
+    "corners_h": 7.0,
+    "corners_a": 15.0,
+    "corners_1t": 9.0,
+    "cards": 6.0,
+    "cards_h": 2.0,
+    "cards_a": 4.0
+   }
   },
   "4828478": {
    "partido": "Atlético de Madrid vs Manchester United",
    "liga": "Europa, UEFA Champions League",
    "inicio": "2026-10-13T14:00:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1791914265.2818022,
+   "estado": "liquidado",
+   "ultimo": 1791924967.6281219,
    "pierna": [
     {
      "gid": "4828478",
@@ -1039,14 +1069,29 @@
    ],
    "en_ticket": true,
    "xi": "325326,527341,540706,602979,2993226,5533521,9638719,47057705,49550597,60936288,63125761|398065,435334,1463017,4201425,6813762,6835961,50729542,65131542,65397189,65521968,70953412",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 2,
+    "ag": 0,
+    "ht": [
+     1,
+     0
+    ],
+    "corners": 7.0,
+    "corners_h": 2.0,
+    "corners_a": 5.0,
+    "corners_1t": 3.0,
+    "cards": 3.0,
+    "cards_h": 1.0,
+    "cards_a": 2.0
+   }
   },
   "4828479": {
    "partido": "Inter Milan vs Brujas",
    "liga": "Europa, UEFA Champions League",
    "inicio": "2026-10-13T14:00:00-05:00",
    "estado": "enviado",
-   "ultimo": 1791914010.1708374,
+   "ultimo": 1791924967.8242512,
    "pierna": [
     {
      "gid": "4828479",
@@ -1076,8 +1121,8 @@
    "partido": "RB Leipzig vs PSV Eindhoven",
    "liga": "Europa, UEFA Champions League",
    "inicio": "2026-10-13T14:00:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1791914012.506109,
+   "estado": "liquidado",
+   "ultimo": 1791924967.9056304,
    "pierna": [
     {
      "gid": "4828480",
@@ -1122,14 +1167,29 @@
    ],
    "xi": "565116,889605,3180934,4346740,8048881,58698523,59101484,61211738,62453007,64157972,67628271|27247,305312,3097855,3340161,4040127,4222302,4786658,43467357,50497600,66460054,67820371",
    "conf": true,
-   "en_ticket": true
+   "en_ticket": true,
+   "r": {
+    "hg": 1,
+    "ag": 0,
+    "ht": [
+     0,
+     0
+    ],
+    "corners": 18.0,
+    "corners_h": 6.0,
+    "corners_a": 12.0,
+    "corners_1t": 8.0,
+    "cards": 3.0,
+    "cards_h": 1.0,
+    "cards_a": 2.0
+   }
   },
   "4828481": {
    "partido": "Galatasaray vs FC Barcelona",
    "liga": "Europa, UEFA Champions League",
    "inicio": "2026-10-13T14:00:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1791914268.9392762,
+   "estado": "liquidado",
+   "ultimo": 1791924968.2403746,
    "pierna": [
     {
      "gid": "4828481",
@@ -1194,14 +1254,29 @@
    ],
    "xi": "333237,843502,893771,911384,1086710,3154455,8687756,40808720,51190233,60875243,71673963|384197,918164,1761371,4583279,33309233,41923868,52343752,63765805,67787784,70894814,71171245",
    "conf": true,
-   "en_ticket": true
+   "en_ticket": true,
+   "r": {
+    "hg": 1,
+    "ag": 4,
+    "ht": [
+     1,
+     1
+    ],
+    "corners": 7.0,
+    "corners_h": 1.0,
+    "corners_a": 6.0,
+    "corners_1t": 4.0,
+    "cards": 2.0,
+    "cards_h": 2.0,
+    "cards_a": 0.0
+   }
   },
   "4828482": {
    "partido": "Arsenal vs Lille",
    "liga": "Europa, UEFA Champions League",
    "inicio": "2026-10-13T14:00:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1791914270.984012,
+   "estado": "liquidado",
+   "ultimo": 1791924968.4357843,
    "pierna": [
     {
      "gid": "4828482",
@@ -1216,7 +1291,22 @@
    ],
    "en_ticket": true,
    "xi": "537419,562084,2985896,3055995,3070470,3211355,3287853,3373029,43390337,45211907,67102513|216415,445024,3212320,3227707,19118816,50482968,58449710,58495051,60984745,67562585,77403319",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 3,
+    "ag": 0,
+    "ht": [
+     0,
+     0
+    ],
+    "corners": 7.0,
+    "corners_h": 7.0,
+    "corners_a": 0.0,
+    "corners_1t": 3.0,
+    "cards": 3.0,
+    "cards_h": 2.0,
+    "cards_a": 1.0
+   }
   },
   "4828483": {
    "partido": "Sabah vs Slavia Praga",
@@ -1492,60 +1582,5 @@
   "4828484": 1791856900781,
   "4856897": 1791856907535
  },
- "tickets": [
-  {
-   "piernas": [
-    {
-     "gid": "4828478",
-     "partido": "Atlético de Madrid vs Manchester United",
-     "texto": "Menos de 3.5 goles",
-     "clave": "OU|3.5|under",
-     "p": 0.7269,
-     "cuota": 1.5,
-     "casa": "Bet365",
-     "inicio": "2026-10-13T14:00:00-05:00"
-    },
-    {
-     "gid": "4828480",
-     "partido": "RB Leipzig vs PSV Eindhoven",
-     "texto": "Más de 2.5 goles",
-     "clave": "OU|2.5|over",
-     "p": 0.7593,
-     "cuota": 1.23,
-     "casa": "Betsson",
-     "inicio": "2026-10-13T14:00:00-05:00"
-    }
-   ],
-   "p": 0.5519351699999999,
-   "cuota": 1.845,
-   "t": 1791914268.9391673
-  },
-  {
-   "piernas": [
-    {
-     "gid": "4828482",
-     "partido": "Arsenal vs Lille",
-     "texto": "Menos de 4.5 goles",
-     "clave": "OU|4.5|under",
-     "p": 0.8636,
-     "cuota": 1.29,
-     "casa": "Bet365",
-     "inicio": "2026-10-13T14:00:00-05:00"
-    },
-    {
-     "gid": "4828481",
-     "partido": "Galatasaray vs FC Barcelona",
-     "texto": "Gana FC Barcelona",
-     "clave": "1X2||2",
-     "p": 0.7104,
-     "cuota": 1.33,
-     "casa": "GTbets",
-     "inicio": "2026-10-13T14:00:00-05:00"
-    }
-   ],
-   "p": 0.6135014400000001,
-   "cuota": 1.7157000000000002,
-   "t": 1791914274.1179516
-  }
- ]
+ "tickets": []
 }
