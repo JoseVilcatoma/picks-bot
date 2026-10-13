@@ -1331,8 +1331,62 @@
    "partido": "Boca Juniors vs Vasco Da Gama",
    "liga": "Sudamerica, CONMEBOL Copa Sudamericana - Semifinales",
    "inicio": "2026-10-13T19:30:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1791935039.7717123
+   "estado": "enviado",
+   "ultimo": 1791935283.4925187,
+   "pierna": [
+    {
+     "gid": "4856897",
+     "partido": "Boca Juniors vs Vasco Da Gama",
+     "texto": "Menos de 1.5 goles en el 1T",
+     "clave": "OU1T|1.5|under",
+     "p": 0.7928,
+     "cuota": 1.22,
+     "casa": "Bet365",
+     "inicio": "2026-10-13T19:30:00-05:00"
+    },
+    {
+     "gid": "4856897",
+     "partido": "Boca Juniors vs Vasco Da Gama",
+     "texto": "Boca Juniors o empate",
+     "clave": "DC||1X",
+     "p": 0.7678,
+     "cuota": 1.25,
+     "casa": "Bet365",
+     "inicio": "2026-10-13T19:30:00-05:00"
+    },
+    {
+     "gid": "4856897",
+     "partido": "Boca Juniors vs Vasco Da Gama",
+     "texto": "Menos de 2.5 goles",
+     "clave": "OU|2.5|under",
+     "p": 0.7028,
+     "cuota": 1.44,
+     "casa": "Bet365",
+     "inicio": "2026-10-13T19:30:00-05:00"
+    },
+    {
+     "gid": "4856897",
+     "partido": "Boca Juniors vs Vasco Da Gama",
+     "texto": "No hay empate",
+     "clave": "DC||12",
+     "p": 0.6758,
+     "cuota": 1.36,
+     "casa": "Bet365",
+     "inicio": "2026-10-13T19:30:00-05:00"
+    },
+    {
+     "gid": "4856897",
+     "partido": "Boca Juniors vs Vasco Da Gama",
+     "texto": "Ambos marcan: No",
+     "clave": "BTTS||no",
+     "p": 0.6418,
+     "cuota": 1.53,
+     "casa": "Bet365",
+     "inicio": "2026-10-13T19:30:00-05:00"
+    }
+   ],
+   "xi": "374678,897707,1898695,2567193,6738115,6738120,52837099,65806804,71555403,72684778,77021890|243575,404923,480781,3072564,37877027,56162390,64798849,65176757,65227585,67354179,67666932",
+   "conf": true
   }
  },
  "web": {

@@ -585,3 +585,11 @@ fecha,game_id,partido,liga,tipo,mercado,clave,prob,cuota,casa,cuota_justa,ev,sta
 2026-10-13 12:57,4828482,Arsenal vs Lille,"Europa, UEFA Champions League",crear,No hay empate + Menos de 2.5 goles en el 1T + Más de 3.5 córners,DC||12&OU1T|2.5|under&CORN|3.5|over,0.5863,,,1.71,,,,G,
 2026-10-13 15:56,4828478+4828480,Atlético de Madrid vs Manchester United / RB Leipzig vs PSV Eindhoven,,ticket2,Menos de 3.5 goles + Más de 2.5 goles,,0.5519,1.84,,1.81,0.0183,10.00,,P,-10.00
 2026-10-13 15:56,4828482+4828481,Arsenal vs Lille / Galatasaray vs FC Barcelona,,ticket2,Menos de 4.5 goles + Gana FC Barcelona,,0.6135,1.72,,1.63,0.0526,10.00,,G,7.16
+2026-10-13 18:48,4856897,Boca Juniors vs Vasco Da Gama,"Sudamerica, CONMEBOL Copa Sudamericana - Semifinales",seguro,Menos de 1.5 goles en el 1T,OU1T|1.5|under,0.7928,1.22,Bet365,1.26,-0.0328,,si,,
+2026-10-13 18:48,4856897,Boca Juniors vs Vasco Da Gama,"Sudamerica, CONMEBOL Copa Sudamericana - Semifinales",seguro,Boca Juniors o empate,DC||1X,0.7678,1.25,Bet365,1.30,-0.0403,,si,,
+2026-10-13 18:48,4856897,Boca Juniors vs Vasco Da Gama,"Sudamerica, CONMEBOL Copa Sudamericana - Semifinales",arriesgado,Menos de 0.5 goles en el 1T,OU1T|0.5|under,0.4413,2.20,Bet365,2.27,-0.0292,,si,,
+2026-10-13 18:48,4856897,Boca Juniors vs Vasco Da Gama,"Sudamerica, CONMEBOL Copa Sudamericana - Semifinales",arriesgado,Boca Juniors -0.5 (hándicap),AH|-0.5|local,0.4399,2.15,Bet365,2.27,-0.0543,,si,,
+2026-10-13 18:48,4856897,Boca Juniors vs Vasco Da Gama,"Sudamerica, CONMEBOL Copa Sudamericana - Semifinales",modelo,Menos de 3.5 goles,OU|3.5|under,0.8735,,,1.14,,,si,,
+2026-10-13 18:48,4856897,Boca Juniors vs Vasco Da Gama,"Sudamerica, CONMEBOL Copa Sudamericana - Semifinales",modelo,Menos de 12.5 córners,CORN|12.5|under,0.7436,,,1.34,,,si,,
+2026-10-13 18:48,4856897,Boca Juniors vs Vasco Da Gama,"Sudamerica, CONMEBOL Copa Sudamericana - Semifinales",ticket,Ambos marcan: No + Menos de 2.5 goles,BTTS||no&OU|2.5|under,0.5782,2.20,,1.73,0.2739,10.00,,,
+2026-10-13 18:48,4856897,Boca Juniors vs Vasco Da Gama,"Sudamerica, CONMEBOL Copa Sudamericana - Semifinales",crear,Boca Juniors o empate + Menos de 3.5 goles + Menos de 15.5 córners,DC||1X&OU|3.5|under&CORN|15.5|under,0.5674,,,1.76,,,,,
