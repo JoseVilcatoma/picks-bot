@@ -35,6 +35,8 @@ DIAS_CALENDARIO = 4          # hoy + 3 días
 BANCA = float(os.getenv("BANCA") or 1000)   # banca virtual en soles (paper trading)
 EV_MIN = 0.08                # EV mínimo para "apostable"
 CUOTA_MIN = 1.60             # cuota mínima para "apostable"
+CUOTA_MAX = 2.60             # cuota máxima para "apostable": por encima, en tu historial acertaron 15-19%
+                             # cuando se esperaba ~33% (sesgo de los "batacazos"); entre 1.60 y 2.60 fue rentable
 MAX_APOSTABLES = 3           # máximo de picks apostables por partido
 KELLY_SEGURO = 0.25          # 1/4 Kelly si la probabilidad es >= 40%
 KELLY_ARRIESGADO = 0.125     # 1/8 Kelly si la probabilidad es < 40%
@@ -91,3 +93,7 @@ BUILDER_PMAX = 0.90            # más seguras que esto no entran: Bet365 casi no
 BUILDER_REDUNDANTE = 0.95      # si una selección casi siempre sale cuando salen las otras, no aporta: fuera
 BUILDER_PMIN = {"goles": 0.75, "corners": 0.78, "tarjetas": 0.80}   # prob. mínima de cada selección
 BUILDER_HIST_MIN = 0.65        # si se cumplió en menos del 65% de sus partidos recientes/H2H, se descarta
+
+# Tarjetas: en tu historial el modelo prometía ~76% y acertaba ~58%. Sus probabilidades se acercan a 50%
+# a la mitad del camino (76% → 63%) hasta tener más datos.
+TARJ_ENCOGER = 0.5

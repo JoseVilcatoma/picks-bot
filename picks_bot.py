@@ -684,7 +684,7 @@ def analizar(gid, g, nombres, modo):
     if modelos:
         lin.append("\n📐 <b>TARJETAS, CÓRNERS Y SOLO MODELO</b> (menos fiables: compara la “justa” en tu casa)")
         lin += [fila(c) for c in modelos]
-    lin.append(f"\n✅ <b>APOSTABLES</b> (paga ≥ {C.VALOR_APOSTABLE:.0%} más que la justa de Pinnacle, cuota ≥ {C.CUOTA_MIN:.2f})")
+    lin.append(f"\n✅ <b>APOSTABLES</b> (paga ≥ {C.VALOR_APOSTABLE:.0%} más que la justa de Pinnacle, cuota {C.CUOTA_MIN:.2f}–{C.CUOTA_MAX:.2f})")
     if apostables:
         lin += [fila(c, True) for c in apostables]
     elif bloqueados:
@@ -694,14 +694,14 @@ def analizar(gid, g, nombres, modo):
     elif not sharp:
         lin.append("• Sin referencia de Pinnacle para este partido: no se marcan apostables.")
     else:
-        lin.append("• Ninguno cumple las reglas (valor ≥ 3% vs Pinnacle, cuota 1.60–4.00, prob. ≥ 25%, "
+        lin.append(f"• Ninguno cumple las reglas (valor ≥ 3% vs Pinnacle, cuota {C.CUOTA_MIN:.2f}–{C.CUOTA_MAX:.2f}, prob. ≥ 25%, "
                    "modelo a favor). No apostar también es una decisión.")
     contra = [c for c in cands if M.contradicho(c) and (c.get("ev_ref") or -1) >= C.VALOR_APOSTABLE
-              and c["cuota"] >= C.CUOTA_MIN]
+              and C.CUOTA_MIN <= c["cuota"] <= C.CUOTA_MAX]
     if contra:
         lin.append("⚠️ <i>Con valor pero descartados porque la mayoría de criterios van en contra: "
                    + ", ".join(esc(c["texto"]) for c in sorted(contra, key=lambda c: -c["ev_ref"])[:3]) + "</i>")
-    dudosos = [c for c in cands if (c.get("ev_ref") or -1) >= C.VALOR_APOSTABLE and c["cuota"] >= C.CUOTA_MIN
+    dudosos = [c for c in cands if (c.get("ev_ref") or -1) >= C.VALOR_APOSTABLE and C.CUOTA_MIN <= c["cuota"] <= C.CUOTA_MAX
                and c.get("p_ref") is not None and c["p_modelo"] < c["p_ref"] - 0.02 and not M.contradicho(c)]
     if dudosos:
         lin.append("⚠️ <i>Valor contra Pinnacle pero el modelo no lo respalda (descartados): "
@@ -735,8 +735,15 @@ def analizar(gid, g, nombres, modo):
             lin.append(t)
         lin.append(f"➡️ Probabilidad de que salgan todas <b>{crear['p']:.0%}</b> · cuota justa <b>{crear['justa']:.2f}</b>")
         lin.append(f"<i>Juégala solo si Bet365 paga ≥ {crear['justa']:.2f}; si paga menos, no la juegues. "
-                   "Sin selecciones casi seguras (Bet365 no las paga). Tarjetas: sin datos del árbitro, solo líneas amplias.</i>")
+                   "Sin selecciones casi seguras (Bet365 no las paga).</i>")
         lin.append(f"📝 Anota lo que te ofrece Bet365: <code>/cuota {gid} 1.80</code>")
+    else:
+        if not esp.get("total") and not esp.get("k_local"):
+            motivo = "365Scores no tiene córners ni tarjetas de estos equipos, y solo con goles no se arma"
+        else:
+            motivo = (f"ninguna mezcla de 2–4 selecciones (cada una entre 75% y 90%, sin contradecir su historial) "
+                      f"llega a cuota justa {C.BUILDER_CUOTA[0]:.2f}")
+        lin.append(f"\n🧱 Crear apuesta: hoy no hay una segura. Motivo: {motivo}.")
     lin.append("\n<i>“justa” = cuota mínima que deberías aceptar en tu casa de apuestas. "
                "Seguros/arriesgados sin valor son informativos, no apuestas.</i>")
     lin.append("🧪 Paper trading · cuotas: " + ("The Odds API + Bet365 (365Scores)" if ext else "Bet365 vía 365Scores"))

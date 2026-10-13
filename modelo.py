@@ -377,7 +377,8 @@ def prob_modelo(clave, m, m1t, esp):
         return p if s == "over" else 1 - p
     if t == "CARDS" and mu_k:
         p = nb_over(mu_k, l, 8)
-        return p if s == "over" else 1 - p
+        p = p if s == "over" else 1 - p
+        return 0.5 + (p - 0.5) * C.TARJ_ENCOGER
     return None
 
 
@@ -530,7 +531,7 @@ def seleccionar(cands, matriz=None):
             c["p_ref"] = p_ref
             c["ev_ref"] = c["cuota"] * p_ref - 1
     ap = [c for c in todos if c["ev_ref"] is not None and c["ev_ref"] >= C.VALOR_APOSTABLE
-          and C.CUOTA_MIN <= c["cuota"] <= 4.0 and c["p_ref"] >= 0.25
+          and C.CUOTA_MIN <= c["cuota"] <= C.CUOTA_MAX and c["p_ref"] >= 0.25 and c["fam"] != "tarjetas"
           and c["p_modelo"] >= c["p_ref"] - 0.02          # el modelo no lo contradice
           and c["clave"][0] != "DNB" and c["clave"] != ("1X2", None, "X") and not contradicho(c)]
     ap.sort(key=lambda c: -c["ev_ref"])
@@ -772,6 +773,8 @@ def crear_apuesta(cands, lh, la, esp, local, visita, hist):
                 p = c["p"] if c and c.get("p_mercado") is not None else pm
             else:
                 p = pm
+                if d == "tarjetas":       # el modelo de tarjetas es demasiado optimista (ver config)
+                    p = 0.5 + (p - 0.5) * C.TARJ_ENCOGER
                 if c and c.get("p_mercado") is not None:
                     p = min(p, c["p"])
             h = hist(k)
