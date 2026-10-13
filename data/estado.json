@@ -2767,6 +2767,76 @@
     "cards_h": 0.0,
     "cards_a": 1.0
    }
+  },
+  "4828476": {
+   "partido": "Villarreal CF vs Nápoles",
+   "liga": "Europa, UEFA Champions League",
+   "inicio": "2026-10-13T14:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4828477": {
+   "partido": "Viking vs Bayern Munich",
+   "liga": "Europa, UEFA Champions League",
+   "inicio": "2026-10-13T14:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4828478": {
+   "partido": "Atlético de Madrid vs Manchester United",
+   "liga": "Europa, UEFA Champions League",
+   "inicio": "2026-10-13T14:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4828479": {
+   "partido": "Inter Milan vs Brujas",
+   "liga": "Europa, UEFA Champions League",
+   "inicio": "2026-10-13T14:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4828480": {
+   "partido": "RB Leipzig vs PSV Eindhoven",
+   "liga": "Europa, UEFA Champions League",
+   "inicio": "2026-10-13T14:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4828481": {
+   "partido": "Galatasaray vs FC Barcelona",
+   "liga": "Europa, UEFA Champions League",
+   "inicio": "2026-10-13T14:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4828482": {
+   "partido": "Arsenal vs Lille",
+   "liga": "Europa, UEFA Champions League",
+   "inicio": "2026-10-13T14:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4828483": {
+   "partido": "Sabah vs Slavia Praga",
+   "liga": "Europa, UEFA Champions League",
+   "inicio": "2026-10-13T11:45:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4828484": {
+   "partido": "Lens vs Sporting CP",
+   "liga": "Europa, UEFA Champions League",
+   "inicio": "2026-10-13T11:45:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4856897": {
+   "partido": "Boca Juniors vs Vasco Da Gama",
+   "liga": "Sudamerica, CONMEBOL Copa Sudamericana - Semifinales",
+   "inicio": "2026-10-13T19:30:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
   }
  },
  "web": {
@@ -2851,7 +2921,17 @@
   "4732690": 1791822139503,
   "4742047": 1791775338024,
   "4750836": 1791775337331,
-  "4757172": 1791775339262
+  "4757172": 1791775339262,
+  "4828476": 1791856901688,
+  "4828477": 1791856902510,
+  "4828478": 1791856903803,
+  "4828479": 1791856904065,
+  "4828480": 1791856904732,
+  "4828481": 1791856904986,
+  "4828482": 1791856905248,
+  "4828483": 1791856900488,
+  "4828484": 1791856900781,
+  "4856897": 1791856907535
  },
  "tickets": []
 }
