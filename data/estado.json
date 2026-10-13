@@ -610,91 +610,6 @@
     "cards": 5.0
    }
   },
-  "4742042": {
-   "partido": "Liverpool vs Manchester City",
-   "liga": "Inglaterra, Premier League",
-   "inicio": "2026-10-11T10:30:00-05:00",
-   "estado": "liquidado",
-   "ultimo": 1791739530.3230991,
-   "pierna": [
-    {
-     "gid": "4742042",
-     "partido": "Liverpool vs Manchester City",
-     "texto": "Manchester City o empate",
-     "clave": "DC||X2",
-     "p": 0.7723,
-     "cuota": 1.33,
-     "casa": "Bet365",
-     "inicio": "2026-10-11T10:30:00-05:00"
-    },
-    {
-     "gid": "4742042",
-     "partido": "Liverpool vs Manchester City",
-     "texto": "Más de 1.5 goles",
-     "clave": "OU|1.5|over",
-     "p": 0.7431,
-     "cuota": 1.2,
-     "casa": "Bet365",
-     "inicio": "2026-10-11T10:30:00-05:00"
-    },
-    {
-     "gid": "4742042",
-     "partido": "Liverpool vs Manchester City",
-     "texto": "No hay empate",
-     "clave": "DC||12",
-     "p": 0.7309,
-     "cuota": 1.29,
-     "casa": "Bet365",
-     "inicio": "2026-10-11T10:30:00-05:00"
-    },
-    {
-     "gid": "4742042",
-     "partido": "Liverpool vs Manchester City",
-     "texto": "Menos de 3.5 goles",
-     "clave": "OU|3.5|under",
-     "p": 0.6988,
-     "cuota": 1.56,
-     "casa": "Unibet (NL)",
-     "inicio": "2026-10-11T10:30:00-05:00"
-    },
-    {
-     "gid": "4742042",
-     "partido": "Liverpool vs Manchester City",
-     "texto": "Más de 0.5 goles en el 1T",
-     "clave": "OU1T|0.5|over",
-     "p": 0.6939,
-     "cuota": 1.29,
-     "casa": "Bet365",
-     "inicio": "2026-10-11T10:30:00-05:00"
-    },
-    {
-     "gid": "4742042",
-     "partido": "Liverpool vs Manchester City",
-     "texto": "Menos de 1.5 goles en el 1T",
-     "clave": "OU1T|1.5|under",
-     "p": 0.6618,
-     "cuota": 1.53,
-     "casa": "Bet365",
-     "inicio": "2026-10-11T10:30:00-05:00"
-    }
-   ],
-   "xi": "220953,558151,3344160,3886928,39077601,49449655,60734154,60909490,67987366,70789335,70896126|620429,1391166,3072169,13600912,39079597,40408252,48394475,49491936,51439135,55058114,68032675",
-   "conf": true,
-   "en_ticket": true,
-   "r": {
-    "hg": 0,
-    "ag": 3,
-    "ht": [
-     0,
-     0
-    ],
-    "corners": 11.0,
-    "corners_h": 5.0,
-    "corners_a": 6.0,
-    "corners_1t": 6.0,
-    "cards": 6.0
-   }
-  },
   "4750834": {
    "partido": "Racing de Santander vs Valencia CF",
    "liga": "España, LaLiga",
@@ -863,71 +778,6 @@
     "corners_a": 4.0,
     "corners_1t": 7.0,
     "cards": 7.0
-   }
-  },
-  "4755386": {
-   "partido": "Friburgo vs Schalke 04",
-   "liga": "Alemania, Bundesliga",
-   "inicio": "2026-10-11T10:30:00-05:00",
-   "estado": "liquidado",
-   "ultimo": 1791739530.6676066,
-   "pierna": [
-    {
-     "gid": "4755386",
-     "partido": "Friburgo vs Schalke 04",
-     "texto": "Más de 1.5 goles",
-     "clave": "OU|1.5|over",
-     "p": 0.8059,
-     "cuota": 1.2,
-     "casa": "Bet365",
-     "inicio": "2026-10-11T10:30:00-05:00"
-    },
-    {
-     "gid": "4755386",
-     "partido": "Friburgo vs Schalke 04",
-     "texto": "No hay empate",
-     "clave": "DC||12",
-     "p": 0.7655,
-     "cuota": 1.25,
-     "casa": "Bet365",
-     "inicio": "2026-10-11T10:30:00-05:00"
-    },
-    {
-     "gid": "4755386",
-     "partido": "Friburgo vs Schalke 04",
-     "texto": "Más de 0.5 goles en el 1T",
-     "clave": "OU1T|0.5|over",
-     "p": 0.7419,
-     "cuota": 1.29,
-     "casa": "Bet365",
-     "inicio": "2026-10-11T10:30:00-05:00"
-    },
-    {
-     "gid": "4755386",
-     "partido": "Friburgo vs Schalke 04",
-     "texto": "Friburgo recibe gol",
-     "clave": "CS||local_no",
-     "p": 0.6609,
-     "cuota": 1.4,
-     "casa": "Bet365",
-     "inicio": "2026-10-11T10:30:00-05:00"
-    }
-   ],
-   "en_ticket": true,
-   "xi": "220585,418057,593193,3071285,49988887,53464344,61066404,66221753,69040955,70767985,70780165|334751,420080,449711,1759537,3189023,3345229,29409781,50080221,50678415,60936151,65396639",
-   "conf": true,
-   "r": {
-    "hg": 2,
-    "ag": 1,
-    "ht": [
-     1,
-     1
-    ],
-    "corners": 9.0,
-    "corners_h": 7.0,
-    "corners_a": 2.0,
-    "corners_1t": 7.0,
-    "cards": 4.0
    }
   },
   "4757170": {
@@ -2035,14 +1885,14 @@
    "liga": "Europa, UEFA Champions League",
    "inicio": "2026-10-13T11:45:00-05:00",
    "estado": "pendiente",
-   "ultimo": 0
+   "ultimo": 1791905478.5360937
   },
   "4828484": {
    "partido": "Lens vs Sporting CP",
    "liga": "Europa, UEFA Champions League",
    "inicio": "2026-10-13T11:45:00-05:00",
    "estado": "pendiente",
-   "ultimo": 0
+   "ultimo": 1791905478.7478662
   },
   "4856897": {
    "partido": "Boca Juniors vs Vasco Da Gama",
