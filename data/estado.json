@@ -1955,8 +1955,72 @@
    "partido": "Lens vs Sporting CP",
    "liga": "Europa, UEFA Champions League",
    "inicio": "2026-10-13T11:45:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1791905731.1023562
+   "estado": "enviado",
+   "ultimo": 1791905977.227187,
+   "pierna": [
+    {
+     "gid": "4828484",
+     "partido": "Lens vs Sporting CP",
+     "texto": "Lens recibe gol",
+     "clave": "CS||local_no",
+     "p": 0.7695,
+     "cuota": 1.2,
+     "casa": "Bet365",
+     "inicio": "2026-10-13T11:45:00-05:00"
+    },
+    {
+     "gid": "4828484",
+     "partido": "Lens vs Sporting CP",
+     "texto": "No hay empate",
+     "clave": "DC||12",
+     "p": 0.7208,
+     "cuota": 1.29,
+     "casa": "Bet365",
+     "inicio": "2026-10-13T11:45:00-05:00"
+    },
+    {
+     "gid": "4828484",
+     "partido": "Lens vs Sporting CP",
+     "texto": "Sporting CP recibe gol",
+     "clave": "CS||visita_no",
+     "p": 0.7147,
+     "cuota": 1.2,
+     "casa": "Bet365",
+     "inicio": "2026-10-13T11:45:00-05:00"
+    },
+    {
+     "gid": "4828484",
+     "partido": "Lens vs Sporting CP",
+     "texto": "Más de 0.5 goles en el 1T",
+     "clave": "OU1T|0.5|over",
+     "p": 0.6984,
+     "cuota": 1.29,
+     "casa": "Bet365",
+     "inicio": "2026-10-13T11:45:00-05:00"
+    },
+    {
+     "gid": "4828484",
+     "partido": "Lens vs Sporting CP",
+     "texto": "Sporting CP o empate",
+     "clave": "DC||X2",
+     "p": 0.6942,
+     "cuota": 1.44,
+     "casa": "Bet365",
+     "inicio": "2026-10-13T11:45:00-05:00"
+    },
+    {
+     "gid": "4828484",
+     "partido": "Lens vs Sporting CP",
+     "texto": "Ambos marcan: Sí",
+     "clave": "BTTS||si",
+     "p": 0.5946,
+     "cuota": 1.5,
+     "casa": "Bet365",
+     "inicio": "2026-10-13T11:45:00-05:00"
+    }
+   ],
+   "xi": "277482,3049963,3424641,3590178,12231560,63090573,64944455,66384998,70796446,70953326,70953336|7244055,9157528,49491937,50072970,60677012,64317526,64656029,66850386,70860145,75430996,75529796",
+   "conf": true
   },
   "4856897": {
    "partido": "Boca Juniors vs Vasco Da Gama",
