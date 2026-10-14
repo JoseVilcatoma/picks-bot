@@ -1456,15 +1456,85 @@
    "partido": "LASK Linz vs Liverpool",
    "liga": "Europa, UEFA Champions League",
    "inicio": "2026-10-14T11:45:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1791991898.7857668
+   "estado": "enviado",
+   "ultimo": 1791992142.9906502,
+   "pierna": [
+    {
+     "gid": "4828474",
+     "partido": "LASK Linz vs Liverpool",
+     "texto": "Menos de 1.5 goles en el 1T",
+     "clave": "OU1T|1.5|under",
+     "p": 0.7068,
+     "cuota": 1.57,
+     "casa": "Bet365",
+     "inicio": "2026-10-14T11:45:00-05:00"
+    }
+   ],
+   "xi": "392821,663960,16881242,28685410,44018068,57569194,59040821,60938743,61768883,67816815,67839460|558151,886827,3344160,39077601,39079546,49449655,60909490,67987366,70789335,70986024,75529942",
+   "conf": true,
+   "en_ticket": true
   },
   "4828475": {
    "partido": "Feyenoord vs Como",
    "liga": "Europa, UEFA Champions League",
    "inicio": "2026-10-14T11:45:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1791991899.0242436
+   "estado": "enviado",
+   "ultimo": 1791992146.149477,
+   "pierna": [
+    {
+     "gid": "4828475",
+     "partido": "Feyenoord vs Como",
+     "texto": "Como recibe gol",
+     "clave": "CS||visita_no",
+     "p": 0.8093,
+     "cuota": 1.22,
+     "casa": "Bet365",
+     "inicio": "2026-10-14T11:45:00-05:00"
+    },
+    {
+     "gid": "4828475",
+     "partido": "Feyenoord vs Como",
+     "texto": "No hay empate",
+     "clave": "DC||12",
+     "p": 0.7531,
+     "cuota": 1.25,
+     "casa": "Bet365",
+     "inicio": "2026-10-14T11:45:00-05:00"
+    },
+    {
+     "gid": "4828475",
+     "partido": "Feyenoord vs Como",
+     "texto": "Más de 0.5 goles en el 1T",
+     "clave": "OU1T|0.5|over",
+     "p": 0.7514,
+     "cuota": 1.25,
+     "casa": "Bet365",
+     "inicio": "2026-10-14T11:45:00-05:00"
+    },
+    {
+     "gid": "4828475",
+     "partido": "Feyenoord vs Como",
+     "texto": "Ambos marcan: Sí",
+     "clave": "BTTS||si",
+     "p": 0.64,
+     "cuota": 1.44,
+     "casa": "William Hill",
+     "inicio": "2026-10-14T11:45:00-05:00"
+    },
+    {
+     "gid": "4828475",
+     "partido": "Feyenoord vs Como",
+     "texto": "Más de 2.5 goles",
+     "clave": "OU|2.5|over",
+     "p": 0.6133,
+     "cuota": 1.53,
+     "casa": "Bet365",
+     "inicio": "2026-10-14T11:45:00-05:00"
+    }
+   ],
+   "en_ticket": true,
+   "xi": "608935,8866202,49625991,55334368,61322134,64780731,65226353,66449168,70767759,70880203,71401999|671186,3064953,32238602,56471954,64879450,64935156,65895085,66186532,66200279,70914141,70914728",
+   "conf": true
   },
   "4857349": {
    "partido": "Fluminense vs Palmeiras",
@@ -1586,5 +1656,33 @@
   "4857349": 1791989099518,
   "4858860": 1791989098967
  },
- "tickets": []
+ "tickets": [
+  {
+   "piernas": [
+    {
+     "gid": "4828475",
+     "partido": "Feyenoord vs Como",
+     "texto": "Como recibe gol",
+     "clave": "CS||visita_no",
+     "p": 0.8093,
+     "cuota": 1.22,
+     "casa": "Bet365",
+     "inicio": "2026-10-14T11:45:00-05:00"
+    },
+    {
+     "gid": "4828474",
+     "partido": "LASK Linz vs Liverpool",
+     "texto": "Menos de 1.5 goles en el 1T",
+     "clave": "OU1T|1.5|under",
+     "p": 0.7068,
+     "cuota": 1.57,
+     "casa": "Bet365",
+     "inicio": "2026-10-14T11:45:00-05:00"
+    }
+   ],
+   "p": 0.57201324,
+   "cuota": 1.9154,
+   "t": 1791992148.6298301
+  }
+ ]
 }
