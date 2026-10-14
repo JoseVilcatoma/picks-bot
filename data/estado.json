@@ -1321,50 +1321,278 @@
    "partido": "Slovan Bratislava vs Stuttgart",
    "liga": "Europa, UEFA Champions League",
    "inicio": "2026-10-14T14:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1792000174.1983
+   "estado": "enviado",
+   "ultimo": 1792000418.55586,
+   "pierna": [
+    {
+     "gid": "4828467",
+     "partido": "Slovan Bratislava vs Stuttgart",
+     "texto": "Stuttgart recibe gol",
+     "clave": "CS||visita_no",
+     "p": 0.6612,
+     "cuota": 1.44,
+     "casa": "Bet365",
+     "inicio": "2026-10-14T14:00:00-05:00"
+    },
+    {
+     "gid": "4828467",
+     "partido": "Slovan Bratislava vs Stuttgart",
+     "texto": "Más de 2.5 goles",
+     "clave": "OU|2.5|over",
+     "p": 0.6191,
+     "cuota": 1.33,
+     "casa": "Bet365",
+     "inicio": "2026-10-14T14:00:00-05:00"
+    },
+    {
+     "gid": "4828467",
+     "partido": "Slovan Bratislava vs Stuttgart",
+     "texto": "Gana Stuttgart",
+     "clave": "1X2||2",
+     "p": 0.6045,
+     "cuota": 1.42,
+     "casa": "1xBet",
+     "inicio": "2026-10-14T14:00:00-05:00"
+    },
+    {
+     "gid": "4828467",
+     "partido": "Slovan Bratislava vs Stuttgart",
+     "texto": "Ambos marcan: Sí",
+     "clave": "BTTS||si",
+     "p": 0.6023,
+     "cuota": 1.51,
+     "casa": "1xBet",
+     "inicio": "2026-10-14T14:00:00-05:00"
+    }
+   ],
+   "xi": "270192,2809685,3079764,3246156,3467482,4265770,13865865,48992621,50816657,62019085,64743874|466112,659085,3726834,4802876,5332356,50497594,50665104,52232155,65139386,67231985,71054280",
+   "conf": true,
+   "en_ticket": true
   },
   "4828468": {
    "partido": "Bodo Glimt vs Borussia Dortmund",
    "liga": "Europa, UEFA Champions League",
    "inicio": "2026-10-14T14:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792000174.4742513
+   "ultimo": 1792000420.1634157
   },
   "4828469": {
    "partido": "Shakhtar Donetsk vs AEK Atenas",
    "liga": "Europa, UEFA Champions League",
    "inicio": "2026-10-14T14:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792000174.5336108
+   "ultimo": 1792000420.2206876
   },
   "4828470": {
    "partido": "Manchester City vs PSG",
    "liga": "Europa, UEFA Champions League",
    "inicio": "2026-10-14T14:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1792000174.588445
+   "estado": "enviado",
+   "ultimo": 1792000420.2790143,
+   "pierna": [
+    {
+     "gid": "4828470",
+     "partido": "Manchester City vs PSG",
+     "texto": "Manchester City o empate",
+     "clave": "DC||1X",
+     "p": 0.8018,
+     "cuota": 1.33,
+     "casa": "Bet365",
+     "inicio": "2026-10-14T14:00:00-05:00"
+    },
+    {
+     "gid": "4828470",
+     "partido": "Manchester City vs PSG",
+     "texto": "No hay empate",
+     "clave": "DC||12",
+     "p": 0.7786,
+     "cuota": 1.22,
+     "casa": "Bet365",
+     "inicio": "2026-10-14T14:00:00-05:00"
+    },
+    {
+     "gid": "4828470",
+     "partido": "Manchester City vs PSG",
+     "texto": "Más de 0.5 goles en el 1T",
+     "clave": "OU1T|0.5|over",
+     "p": 0.7552,
+     "cuota": 1.2,
+     "casa": "Bet365",
+     "inicio": "2026-10-14T14:00:00-05:00"
+    },
+    {
+     "gid": "4828470",
+     "partido": "Manchester City vs PSG",
+     "texto": "Manchester City recibe gol",
+     "clave": "CS||local_no",
+     "p": 0.6737,
+     "cuota": 1.2,
+     "casa": "Bet365",
+     "inicio": "2026-10-14T14:00:00-05:00"
+    },
+    {
+     "gid": "4828470",
+     "partido": "Manchester City vs PSG",
+     "texto": "Ambos marcan: Sí",
+     "clave": "BTTS||si",
+     "p": 0.6188,
+     "cuota": 1.4,
+     "casa": "William Hill",
+     "inicio": "2026-10-14T14:00:00-05:00"
+    },
+    {
+     "gid": "4828470",
+     "partido": "Manchester City vs PSG",
+     "texto": "Más de 2.5 goles",
+     "clave": "OU|2.5|over",
+     "p": 0.6166,
+     "cuota": 1.4,
+     "casa": "William Hill",
+     "inicio": "2026-10-14T14:00:00-05:00"
+    }
+   ],
+   "en_ticket": true,
+   "xi": "620429,1391166,3072169,8048871,13600912,25999342,39079597,40408252,48394475,51439135,67820202|320209,600030,1407007,3169055,3171738,30605004,40745412,46715751,64040929,65079212,66206302",
+   "conf": true
   },
   "4828471": {
    "partido": "AS Roma vs Real Madrid",
    "liga": "Europa, UEFA Champions League",
    "inicio": "2026-10-14T14:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1792000174.6500394
+   "estado": "enviado",
+   "ultimo": 1792000421.3013616,
+   "pierna": [
+    {
+     "gid": "4828471",
+     "partido": "AS Roma vs Real Madrid",
+     "texto": "No hay empate",
+     "clave": "DC||12",
+     "p": 0.7669,
+     "cuota": 1.22,
+     "casa": "Bet365",
+     "inicio": "2026-10-14T14:00:00-05:00"
+    },
+    {
+     "gid": "4828471",
+     "partido": "AS Roma vs Real Madrid",
+     "texto": "Más de 0.5 goles en el 1T",
+     "clave": "OU1T|0.5|over",
+     "p": 0.7618,
+     "cuota": 1.22,
+     "casa": "Bet365",
+     "inicio": "2026-10-14T14:00:00-05:00"
+    },
+    {
+     "gid": "4828471",
+     "partido": "AS Roma vs Real Madrid",
+     "texto": "Real Madrid recibe gol",
+     "clave": "CS||visita_no",
+     "p": 0.7381,
+     "cuota": 1.25,
+     "casa": "Bet365",
+     "inicio": "2026-10-14T14:00:00-05:00"
+    },
+    {
+     "gid": "4828471",
+     "partido": "AS Roma vs Real Madrid",
+     "texto": "Real Madrid o empate",
+     "clave": "DC||X2",
+     "p": 0.736,
+     "cuota": 1.29,
+     "casa": "Bet365",
+     "inicio": "2026-10-14T14:00:00-05:00"
+    },
+    {
+     "gid": "4828471",
+     "partido": "AS Roma vs Real Madrid",
+     "texto": "Ambos marcan: Sí",
+     "clave": "BTTS||si",
+     "p": 0.6485,
+     "cuota": 1.44,
+     "casa": "William Hill",
+     "inicio": "2026-10-14T14:00:00-05:00"
+    },
+    {
+     "gid": "4828471",
+     "partido": "AS Roma vs Real Madrid",
+     "texto": "Más de 2.5 goles",
+     "clave": "OU|2.5|over",
+     "p": 0.6357,
+     "cuota": 1.44,
+     "casa": "Betsson",
+     "inicio": "2026-10-14T14:00:00-05:00"
+    }
+   ],
+   "xi": "280305,314214,542399,583374,941464,1966291,3087180,3143068,18041250,60980758,64431234|211012,334865,480721,1589889,3083456,3216883,3235657,3568284,5052341,46440257,77099314",
+   "conf": true
   },
   "4828472": {
    "partido": "Real Betis vs FC Porto",
    "liga": "Europa, UEFA Champions League",
    "inicio": "2026-10-14T14:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792000174.6998527
+   "ultimo": 1792000422.2614586
   },
   "4828473": {
    "partido": "Aston Villa vs Fenerbahce",
    "liga": "Europa, UEFA Champions League",
    "inicio": "2026-10-14T14:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1792000174.7533088
+   "estado": "enviado",
+   "ultimo": 1792000422.3100743,
+   "pierna": [
+    {
+     "gid": "4828473",
+     "partido": "Aston Villa vs Fenerbahce",
+     "texto": "No hay empate",
+     "clave": "DC||12",
+     "p": 0.7539,
+     "cuota": 1.22,
+     "casa": "Bet365",
+     "inicio": "2026-10-14T14:00:00-05:00"
+    },
+    {
+     "gid": "4828473",
+     "partido": "Aston Villa vs Fenerbahce",
+     "texto": "Más de 0.5 goles en el 1T",
+     "clave": "OU1T|0.5|over",
+     "p": 0.7165,
+     "cuota": 1.29,
+     "casa": "Bet365",
+     "inicio": "2026-10-14T14:00:00-05:00"
+    },
+    {
+     "gid": "4828473",
+     "partido": "Aston Villa vs Fenerbahce",
+     "texto": "Aston Villa recibe gol",
+     "clave": "CS||local_no",
+     "p": 0.6676,
+     "cuota": 1.4,
+     "casa": "Bet365",
+     "inicio": "2026-10-14T14:00:00-05:00"
+    },
+    {
+     "gid": "4828473",
+     "partido": "Aston Villa vs Fenerbahce",
+     "texto": "Ambos marcan: Sí",
+     "clave": "BTTS||si",
+     "p": 0.5765,
+     "cuota": 1.62,
+     "casa": "William Hill",
+     "inicio": "2026-10-14T14:00:00-05:00"
+    },
+    {
+     "gid": "4828473",
+     "partido": "Aston Villa vs Fenerbahce",
+     "texto": "Aston Villa -0.5 (hándicap)",
+     "clave": "AH|-0.5|local",
+     "p": 0.527,
+     "cuota": 1.62,
+     "casa": "Bet365",
+     "inicio": "2026-10-14T14:00:00-05:00"
+    }
+   ],
+   "xi": "289556,327324,501604,534043,3132520,3206241,3711904,4832569,52355416,71391398,75414393|330842,331719,356369,550387,550408,895283,3170743,8746866,54840196,60283480,61728093",
+   "conf": true
   },
   "4828474": {
    "partido": "LASK Linz vs Liverpool",
@@ -1597,6 +1825,33 @@
    "p": 0.57201324,
    "cuota": 1.9154,
    "t": 1791992148.6298301
+  },
+  {
+   "piernas": [
+    {
+     "gid": "4828470",
+     "partido": "Manchester City vs PSG",
+     "texto": "Manchester City o empate",
+     "clave": "DC||1X",
+     "p": 0.8018,
+     "cuota": 1.33,
+     "casa": "Bet365",
+     "inicio": "2026-10-14T14:00:00-05:00"
+    },
+    {
+     "gid": "4828467",
+     "partido": "Slovan Bratislava vs Stuttgart",
+     "texto": "Stuttgart recibe gol",
+     "clave": "CS||visita_no",
+     "p": 0.6612,
+     "cuota": 1.44,
+     "casa": "Bet365",
+     "inicio": "2026-10-14T14:00:00-05:00"
+    }
+   ],
+   "p": 0.5301501599999999,
+   "cuota": 1.9152,
+   "t": 1792000421.301214
   }
  ]
 }
