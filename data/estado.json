@@ -1373,15 +1373,144 @@
    "partido": "Bodo Glimt vs Borussia Dortmund",
    "liga": "Europa, UEFA Champions League",
    "inicio": "2026-10-14T14:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1792000672.101332
+   "estado": "enviado",
+   "ultimo": 1792000915.9510937,
+   "pierna": [
+    {
+     "gid": "4828468",
+     "partido": "Bodo Glimt vs Borussia Dortmund",
+     "texto": "No hay empate",
+     "clave": "DC||12",
+     "p": 0.7538,
+     "cuota": 1.25,
+     "casa": "Bet365",
+     "inicio": "2026-10-14T14:00:00-05:00"
+    },
+    {
+     "gid": "4828468",
+     "partido": "Bodo Glimt vs Borussia Dortmund",
+     "texto": "Más de 0.5 goles en el 1T",
+     "clave": "OU1T|0.5|over",
+     "p": 0.7505,
+     "cuota": 1.2,
+     "casa": "Bet365",
+     "inicio": "2026-10-14T14:00:00-05:00"
+    },
+    {
+     "gid": "4828468",
+     "partido": "Bodo Glimt vs Borussia Dortmund",
+     "texto": "Bodo Glimt +0.5 (hándicap)",
+     "clave": "AH|0.5|local",
+     "p": 0.7144,
+     "cuota": 1.62,
+     "casa": "Bet365",
+     "inicio": "2026-10-14T14:00:00-05:00"
+    },
+    {
+     "gid": "4828468",
+     "partido": "Bodo Glimt vs Borussia Dortmund",
+     "texto": "Ambos marcan: Sí",
+     "clave": "BTTS||si",
+     "p": 0.6516,
+     "cuota": 1.33,
+     "casa": "William Hill",
+     "inicio": "2026-10-14T14:00:00-05:00"
+    },
+    {
+     "gid": "4828468",
+     "partido": "Bodo Glimt vs Borussia Dortmund",
+     "texto": "Más de 2.5 goles",
+     "clave": "OU|2.5|over",
+     "p": 0.6109,
+     "cuota": 1.38,
+     "casa": "Betsson",
+     "inicio": "2026-10-14T14:00:00-05:00"
+    },
+    {
+     "gid": "4828468",
+     "partido": "Bodo Glimt vs Borussia Dortmund",
+     "texto": "Borussia Dortmund o empate",
+     "clave": "DC||X2",
+     "p": 0.5392,
+     "cuota": 1.4,
+     "casa": "Bet365",
+     "inicio": "2026-10-14T14:00:00-05:00"
+    }
+   ],
+   "en_ticket": true,
+   "xi": "294509,3056855,3064578,7195793,15007514,15589104,21788847,49536956,51842632,58801375,65672410|366254,532397,943391,3276664,38249831,47516152,50878796,64350505,70951404,71382441,77285008",
+   "conf": true
   },
   "4828469": {
    "partido": "Shakhtar Donetsk vs AEK Atenas",
    "liga": "Europa, UEFA Champions League",
    "inicio": "2026-10-14T14:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1792000672.2851977
+   "estado": "enviado",
+   "ultimo": 1792000917.599357,
+   "pierna": [
+    {
+     "gid": "4828469",
+     "partido": "Shakhtar Donetsk vs AEK Atenas",
+     "texto": "Menos de 3.5 goles",
+     "clave": "OU|3.5|under",
+     "p": 0.7364,
+     "cuota": 1.33,
+     "casa": "Bet365",
+     "inicio": "2026-10-14T14:00:00-05:00"
+    },
+    {
+     "gid": "4828469",
+     "partido": "Shakhtar Donetsk vs AEK Atenas",
+     "texto": "AEK Atenas recibe gol",
+     "clave": "CS||visita_no",
+     "p": 0.7294,
+     "cuota": 1.28,
+     "casa": "Bet365",
+     "inicio": "2026-10-14T14:00:00-05:00"
+    },
+    {
+     "gid": "4828469",
+     "partido": "Shakhtar Donetsk vs AEK Atenas",
+     "texto": "Más de 1.5 goles",
+     "clave": "OU|1.5|over",
+     "p": 0.7265,
+     "cuota": 1.3,
+     "casa": "Bet365",
+     "inicio": "2026-10-14T14:00:00-05:00"
+    },
+    {
+     "gid": "4828469",
+     "partido": "Shakhtar Donetsk vs AEK Atenas",
+     "texto": "Shakhtar Donetsk recibe gol",
+     "clave": "CS||local_no",
+     "p": 0.7185,
+     "cuota": 1.28,
+     "casa": "Bet365",
+     "inicio": "2026-10-14T14:00:00-05:00"
+    },
+    {
+     "gid": "4828469",
+     "partido": "Shakhtar Donetsk vs AEK Atenas",
+     "texto": "No hay empate",
+     "clave": "DC||12",
+     "p": 0.7144,
+     "cuota": 1.3,
+     "casa": "Bet365",
+     "inicio": "2026-10-14T14:00:00-05:00"
+    },
+    {
+     "gid": "4828469",
+     "partido": "Shakhtar Donetsk vs AEK Atenas",
+     "texto": "Menos de 1.5 goles en el 1T",
+     "clave": "OU1T|1.5|under",
+     "p": 0.6876,
+     "cuota": 1.36,
+     "casa": "Bet365",
+     "inicio": "2026-10-14T14:00:00-05:00"
+    }
+   ],
+   "xi": "886834,3263955,13285265,16515075,50402604,55162073,64319747,66226049,66334734,67895823,70282985|516543,544245,580583,666237,3090785,3659571,47559232,51582820,61292303,67981577,75384478",
+   "conf": true
   },
   "4828470": {
    "partido": "Manchester City vs PSG",
@@ -1524,14 +1653,15 @@
     }
    ],
    "xi": "280305,314214,542399,583374,941464,1966291,3087180,3143068,18041250,60980758,64431234|211012,334865,480721,1589889,3083456,3216883,3235657,3568284,5052341,46440257,77099314",
-   "conf": true
+   "conf": true,
+   "en_ticket": true
   },
   "4828472": {
    "partido": "Real Betis vs FC Porto",
    "liga": "Europa, UEFA Champions League",
    "inicio": "2026-10-14T14:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792000672.3354418
+   "ultimo": 1792000920.0988002
   },
   "4828473": {
    "partido": "Aston Villa vs Fenerbahce",
@@ -1852,6 +1982,33 @@
    "p": 0.5301501599999999,
    "cuota": 1.9152,
    "t": 1792000421.301214
+  },
+  {
+   "piernas": [
+    {
+     "gid": "4828468",
+     "partido": "Bodo Glimt vs Borussia Dortmund",
+     "texto": "Bodo Glimt +0.5 (hándicap)",
+     "clave": "AH|0.5|local",
+     "p": 0.7144,
+     "cuota": 1.62,
+     "casa": "Bet365",
+     "inicio": "2026-10-14T14:00:00-05:00"
+    },
+    {
+     "gid": "4828471",
+     "partido": "AS Roma vs Real Madrid",
+     "texto": "No hay empate",
+     "clave": "DC||12",
+     "p": 0.7669,
+     "cuota": 1.22,
+     "casa": "Bet365",
+     "inicio": "2026-10-14T14:00:00-05:00"
+    }
+   ],
+   "p": 0.5478733600000001,
+   "cuota": 1.9764000000000002,
+   "t": 1792000917.5991824
   }
  ]
 }
