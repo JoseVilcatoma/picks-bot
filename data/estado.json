@@ -891,8 +891,8 @@
    "partido": "Slovan Bratislava vs Stuttgart",
    "liga": "Europa, UEFA Champions League",
    "inicio": "2026-10-14T14:00:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1792000418.55586,
+   "estado": "liquidado",
+   "ultimo": 1792011364.338991,
    "pierna": [
     {
      "gid": "4828467",
@@ -937,14 +937,29 @@
    ],
    "xi": "270192,2809685,3079764,3246156,3467482,4265770,13865865,48992621,50816657,62019085,64743874|466112,659085,3726834,4802876,5332356,50497594,50665104,52232155,65139386,67231985,71054280",
    "conf": true,
-   "en_ticket": true
+   "en_ticket": true,
+   "r": {
+    "hg": 0,
+    "ag": 3,
+    "ht": [
+     0,
+     1
+    ],
+    "corners": 9.0,
+    "corners_h": 1.0,
+    "corners_a": 8.0,
+    "corners_1t": 6.0,
+    "cards": 4.0,
+    "cards_h": 1.0,
+    "cards_a": 3.0
+   }
   },
   "4828468": {
    "partido": "Bodo Glimt vs Borussia Dortmund",
    "liga": "Europa, UEFA Champions League",
    "inicio": "2026-10-14T14:00:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1792000915.9510937,
+   "estado": "liquidado",
+   "ultimo": 1792011364.4696665,
    "pierna": [
     {
      "gid": "4828468",
@@ -1009,14 +1024,29 @@
    ],
    "en_ticket": true,
    "xi": "294509,3056855,3064578,7195793,15007514,15589104,21788847,49536956,51842632,58801375,65672410|366254,532397,943391,3276664,38249831,47516152,50878796,64350505,70951404,71382441,77285008",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 1,
+    "ag": 0,
+    "ht": [
+     0,
+     0
+    ],
+    "corners": 13.0,
+    "corners_h": 4.0,
+    "corners_a": 9.0,
+    "corners_1t": 3.0,
+    "cards": 2.0,
+    "cards_h": 0.0,
+    "cards_a": 2.0
+   }
   },
   "4828469": {
    "partido": "Shakhtar Donetsk vs AEK Atenas",
    "liga": "Europa, UEFA Champions League",
    "inicio": "2026-10-14T14:00:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1792000917.599357,
+   "estado": "liquidado",
+   "ultimo": 1792011364.6079714,
    "pierna": [
     {
      "gid": "4828469",
@@ -1080,14 +1110,29 @@
     }
    ],
    "xi": "886834,3263955,13285265,16515075,50402604,55162073,64319747,66226049,66334734,67895823,70282985|516543,544245,580583,666237,3090785,3659571,47559232,51582820,61292303,67981577,75384478",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 3,
+    "ag": 1,
+    "ht": [
+     1,
+     1
+    ],
+    "corners": 7.0,
+    "corners_h": 5.0,
+    "corners_a": 2.0,
+    "corners_1t": 4.0,
+    "cards": 5.0,
+    "cards_h": 1.0,
+    "cards_a": 4.0
+   }
   },
   "4828470": {
    "partido": "Manchester City vs PSG",
    "liga": "Europa, UEFA Champions League",
    "inicio": "2026-10-14T14:00:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1792000420.2790143,
+   "estado": "liquidado",
+   "ultimo": 1792011364.7420402,
    "pierna": [
     {
      "gid": "4828470",
@@ -1152,14 +1197,29 @@
    ],
    "en_ticket": true,
    "xi": "620429,1391166,3072169,8048871,13600912,25999342,39079597,40408252,48394475,51439135,67820202|320209,600030,1407007,3169055,3171738,30605004,40745412,46715751,64040929,65079212,66206302",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 2,
+    "ag": 4,
+    "ht": [
+     0,
+     3
+    ],
+    "corners": 13.0,
+    "corners_h": 11.0,
+    "corners_a": 2.0,
+    "corners_1t": 8.0,
+    "cards": 2.0,
+    "cards_h": 1.0,
+    "cards_a": 1.0
+   }
   },
   "4828471": {
    "partido": "AS Roma vs Real Madrid",
    "liga": "Europa, UEFA Champions League",
    "inicio": "2026-10-14T14:00:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1792000421.3013616,
+   "estado": "liquidado",
+   "ultimo": 1792011364.869146,
    "pierna": [
     {
      "gid": "4828471",
@@ -1224,14 +1284,29 @@
    ],
    "xi": "280305,314214,542399,583374,941464,1966291,3087180,3143068,18041250,60980758,64431234|211012,334865,480721,1589889,3083456,3216883,3235657,3568284,5052341,46440257,77099314",
    "conf": true,
-   "en_ticket": true
+   "en_ticket": true,
+   "r": {
+    "hg": 3,
+    "ag": 4,
+    "ht": [
+     1,
+     1
+    ],
+    "corners": 14.0,
+    "corners_h": 5.0,
+    "corners_a": 9.0,
+    "corners_1t": 7.0,
+    "cards": 4.0,
+    "cards_h": 3.0,
+    "cards_a": 1.0
+   }
   },
   "4828472": {
    "partido": "Real Betis vs FC Porto",
    "liga": "Europa, UEFA Champions League",
    "inicio": "2026-10-14T14:00:00-05:00",
    "estado": "enviado",
-   "ultimo": 1792001166.6530104,
+   "ultimo": 1792011365.0022542,
    "pierna": [
     {
      "gid": "4828472",
@@ -1301,8 +1376,8 @@
    "partido": "Aston Villa vs Fenerbahce",
    "liga": "Europa, UEFA Champions League",
    "inicio": "2026-10-14T14:00:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1792000422.3100743,
+   "estado": "liquidado",
+   "ultimo": 1792011365.0898068,
    "pierna": [
     {
      "gid": "4828473",
@@ -1356,7 +1431,22 @@
     }
    ],
    "xi": "289556,327324,501604,534043,3132520,3206241,3711904,4832569,52355416,71391398,75414393|330842,331719,356369,550387,550408,895283,3170743,8746866,54840196,60283480,61728093",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 6,
+    "ag": 0,
+    "ht": [
+     3,
+     0
+    ],
+    "corners": 16.0,
+    "corners_h": 9.0,
+    "corners_a": 7.0,
+    "corners_1t": 9.0,
+    "cards": 2.0,
+    "cards_h": 0.0,
+    "cards_a": 2.0
+   }
   },
   "4828474": {
    "partido": "LASK Linz vs Liverpool",
@@ -1592,60 +1682,5 @@
   "4857349": 1791989099518,
   "4858860": 1791989098967
  },
- "tickets": [
-  {
-   "piernas": [
-    {
-     "gid": "4828470",
-     "partido": "Manchester City vs PSG",
-     "texto": "Manchester City o empate",
-     "clave": "DC||1X",
-     "p": 0.8018,
-     "cuota": 1.33,
-     "casa": "Bet365",
-     "inicio": "2026-10-14T14:00:00-05:00"
-    },
-    {
-     "gid": "4828467",
-     "partido": "Slovan Bratislava vs Stuttgart",
-     "texto": "Stuttgart recibe gol",
-     "clave": "CS||visita_no",
-     "p": 0.6612,
-     "cuota": 1.44,
-     "casa": "Bet365",
-     "inicio": "2026-10-14T14:00:00-05:00"
-    }
-   ],
-   "p": 0.5301501599999999,
-   "cuota": 1.9152,
-   "t": 1792000421.301214
-  },
-  {
-   "piernas": [
-    {
-     "gid": "4828468",
-     "partido": "Bodo Glimt vs Borussia Dortmund",
-     "texto": "Bodo Glimt +0.5 (hándicap)",
-     "clave": "AH|0.5|local",
-     "p": 0.7144,
-     "cuota": 1.62,
-     "casa": "Bet365",
-     "inicio": "2026-10-14T14:00:00-05:00"
-    },
-    {
-     "gid": "4828471",
-     "partido": "AS Roma vs Real Madrid",
-     "texto": "No hay empate",
-     "clave": "DC||12",
-     "p": 0.7669,
-     "cuota": 1.22,
-     "casa": "Bet365",
-     "inicio": "2026-10-14T14:00:00-05:00"
-    }
-   ],
-   "p": 0.5478733600000001,
-   "cuota": 1.9764000000000002,
-   "t": 1792000917.5991824
-  }
- ]
+ "tickets": []
 }
