@@ -657,3 +657,11 @@ fecha,game_id,partido,liga,tipo,mercado,clave,prob,cuota,casa,cuota_justa,ev,sta
 2026-10-14 13:50,4828475+4828474,Feyenoord vs Como / LASK Linz vs Liverpool,,ticket2,Como recibe gol + Menos de 1.5 goles en el 1T,,0.5720,1.92,,1.75,0.0956,10.00,,P,-10.00
 2026-10-14 15:56,4828470+4828467,Manchester City vs PSG / Slovan Bratislava vs Stuttgart,,ticket2,Manchester City o empate + Stuttgart recibe gol,,0.5302,1.92,,1.89,0.0153,10.00,,P,-10.00
 2026-10-14 15:56,4828468+4828471,Bodo Glimt vs Borussia Dortmund / AS Roma vs Real Madrid,,ticket2,Bodo Glimt +0.5 (hándicap) + No hay empate,,0.5479,1.98,,1.83,0.0828,10.00,,G,9.76
+2026-10-14 16:10,4858860,Atlético Mineiro vs Montevideo City Torque,"Sudamerica, CONMEBOL Copa Sudamericana - Semifinales",seguro,Menos de 3.5 goles,OU|3.5|under,0.7745,1.30,Bet365,1.29,0.0068,,si,,
+2026-10-14 16:10,4858860,Atlético Mineiro vs Montevideo City Torque,"Sudamerica, CONMEBOL Copa Sudamericana - Semifinales",seguro,No hay empate,DC||12,0.7373,1.22,Bet365,1.36,-0.1005,,si,,
+2026-10-14 16:10,4858860,Atlético Mineiro vs Montevideo City Torque,"Sudamerica, CONMEBOL Copa Sudamericana - Semifinales",arriesgado,Ambos marcan: Sí,BTTS||si,0.4262,2.20,Bet365,2.35,-0.0623,,si,,
+2026-10-14 16:10,4858860,Atlético Mineiro vs Montevideo City Torque,"Sudamerica, CONMEBOL Copa Sudamericana - Semifinales",arriesgado,Más de 5.5 tarjetas,CARDS|5.5|over,0.4102,2.20,Bet365,2.44,-0.0975,,si,,
+2026-10-14 16:10,4858860,Atlético Mineiro vs Montevideo City Torque,"Sudamerica, CONMEBOL Copa Sudamericana - Semifinales",modelo,Menos de 13.5 córners,CORN|13.5|under,0.7090,,,1.41,,,si,,
+2026-10-14 16:10,4858860,Atlético Mineiro vs Montevideo City Torque,"Sudamerica, CONMEBOL Copa Sudamericana - Semifinales",modelo,Menos de 6.5 tarjetas,CARDS|6.5|under,0.6643,,,1.51,,,si,,
+2026-10-14 16:10,4858860,Atlético Mineiro vs Montevideo City Torque,"Sudamerica, CONMEBOL Copa Sudamericana - Semifinales",ticket,Menos de 2.5 goles,OU|2.5|under,0.5643,1.86,,1.77,0.0496,10.00,,,
+2026-10-14 16:10,4858860,Atlético Mineiro vs Montevideo City Torque,"Sudamerica, CONMEBOL Copa Sudamericana - Semifinales",crear,Atlético Mineiro o empate + Menos de 3.5 goles + Menos de 16.5 córners,DC||1X&OU|3.5|under&CORN|16.5|under,0.5319,,,1.88,,,,,
