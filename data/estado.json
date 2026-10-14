@@ -1402,6 +1402,83 @@
     "cards_h": 1.0,
     "cards_a": 4.0
    }
+  },
+  "4828467": {
+   "partido": "Slovan Bratislava vs Stuttgart",
+   "liga": "Europa, UEFA Champions League",
+   "inicio": "2026-10-14T14:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4828468": {
+   "partido": "Bodo Glimt vs Borussia Dortmund",
+   "liga": "Europa, UEFA Champions League",
+   "inicio": "2026-10-14T14:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4828469": {
+   "partido": "Shakhtar Donetsk vs AEK Atenas",
+   "liga": "Europa, UEFA Champions League",
+   "inicio": "2026-10-14T14:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4828470": {
+   "partido": "Manchester City vs PSG",
+   "liga": "Europa, UEFA Champions League",
+   "inicio": "2026-10-14T14:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4828471": {
+   "partido": "AS Roma vs Real Madrid",
+   "liga": "Europa, UEFA Champions League",
+   "inicio": "2026-10-14T14:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4828472": {
+   "partido": "Real Betis vs FC Porto",
+   "liga": "Europa, UEFA Champions League",
+   "inicio": "2026-10-14T14:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4828473": {
+   "partido": "Aston Villa vs Fenerbahce",
+   "liga": "Europa, UEFA Champions League",
+   "inicio": "2026-10-14T14:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4828474": {
+   "partido": "LASK Linz vs Liverpool",
+   "liga": "Europa, UEFA Champions League",
+   "inicio": "2026-10-14T11:45:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4828475": {
+   "partido": "Feyenoord vs Como",
+   "liga": "Europa, UEFA Champions League",
+   "inicio": "2026-10-14T11:45:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4857349": {
+   "partido": "Fluminense vs Palmeiras",
+   "liga": "Sudamerica, CONMEBOL Copa Libertadores - Semifinales",
+   "inicio": "2026-10-14T19:30:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4858860": {
+   "partido": "Atlético Mineiro vs Montevideo City Torque",
+   "liga": "Sudamerica, CONMEBOL Copa Sudamericana - Semifinales",
+   "inicio": "2026-10-14T17:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
   }
  },
  "web": {
@@ -1496,7 +1573,18 @@
   "4828482": 1791856905248,
   "4828483": 1791856900488,
   "4828484": 1791856900781,
-  "4856897": 1791856907535
+  "4856897": 1791856907535,
+  "4828467": 1791989094234,
+  "4828468": 1791989094606,
+  "4828469": 1791989095056,
+  "4828470": 1791989095611,
+  "4828471": 1791989096734,
+  "4828472": 1791989097138,
+  "4828473": 1791989097929,
+  "4828474": 1791989093109,
+  "4828475": 1791989093468,
+  "4857349": 1791989099518,
+  "4858860": 1791989098967
  },
  "tickets": []
 }
