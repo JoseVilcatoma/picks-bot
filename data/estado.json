@@ -1792,8 +1792,8 @@
    "partido": "LASK Linz vs Liverpool",
    "liga": "Europa, UEFA Champions League",
    "inicio": "2026-10-14T11:45:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1791992142.9906502,
+   "estado": "liquidado",
+   "ultimo": 1792003229.8867738,
    "pierna": [
     {
      "gid": "4828474",
@@ -1808,14 +1808,29 @@
    ],
    "xi": "392821,663960,16881242,28685410,44018068,57569194,59040821,60938743,61768883,67816815,67839460|558151,886827,3344160,39077601,39079546,49449655,60909490,67987366,70789335,70986024,75529942",
    "conf": true,
-   "en_ticket": true
+   "en_ticket": true,
+   "r": {
+    "hg": 3,
+    "ag": 6,
+    "ht": [
+     0,
+     3
+    ],
+    "corners": 14.0,
+    "corners_h": 3.0,
+    "corners_a": 11.0,
+    "corners_1t": 11.0,
+    "cards": 1.0,
+    "cards_h": 1.0,
+    "cards_a": 0.0
+   }
   },
   "4828475": {
    "partido": "Feyenoord vs Como",
    "liga": "Europa, UEFA Champions League",
    "inicio": "2026-10-14T11:45:00-05:00",
    "estado": "enviado",
-   "ultimo": 1791992146.149477,
+   "ultimo": 1792003230.149757,
    "pierna": [
     {
      "gid": "4828475",
