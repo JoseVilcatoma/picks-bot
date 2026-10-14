@@ -1305,8 +1305,8 @@
    "partido": "Real Betis vs FC Porto",
    "liga": "Europa, UEFA Champions League",
    "inicio": "2026-10-14T14:00:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1792011365.0022542,
+   "estado": "liquidado",
+   "ultimo": 1792011982.0450313,
    "pierna": [
     {
      "gid": "4828472",
@@ -1370,7 +1370,22 @@
     }
    ],
    "xi": "106049,158746,3143139,6438371,18094605,30121643,46854548,50896962,56196972,62694855,76770352|648418,656956,911054,913383,12436614,13856477,35286777,44030290,51137406,51312997,70953015",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 3,
+    "ag": 2,
+    "ht": [
+     0,
+     0
+    ],
+    "corners": 6.0,
+    "corners_h": 5.0,
+    "corners_a": 1.0,
+    "corners_1t": 4.0,
+    "cards": 7.0,
+    "cards_h": 4.0,
+    "cards_a": 3.0
+   }
   },
   "4828473": {
    "partido": "Aston Villa vs Fenerbahce",
@@ -1574,7 +1589,7 @@
    "liga": "Sudamerica, CONMEBOL Copa Sudamericana - Semifinales",
    "inicio": "2026-10-14T17:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792011737.865101
+   "ultimo": 1792011982.3214538
   }
  },
  "web": {
