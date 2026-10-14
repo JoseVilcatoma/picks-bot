@@ -1556,8 +1556,8 @@
    "partido": "Atlético Mineiro vs Montevideo City Torque",
    "liga": "Sudamerica, CONMEBOL Copa Sudamericana - Semifinales",
    "inicio": "2026-10-14T17:00:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1792012231.0838492,
+   "estado": "liquidado",
+   "ultimo": 1792022205.0723183,
    "pierna": [
     {
      "gid": "4858860",
@@ -1621,7 +1621,22 @@
     }
    ],
    "xi": "87783,331101,518460,843611,3154559,3272094,15304246,53667285,60977794,65622503,67640814|333862,516068,614741,3439310,3480237,47915693,50481285,52758161,65855447,67940110,77343128",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 3,
+    "ag": 0,
+    "ht": [
+     2,
+     0
+    ],
+    "corners": 10.0,
+    "corners_h": 6.0,
+    "corners_a": 4.0,
+    "corners_1t": 4.0,
+    "cards": 3.0,
+    "cards_h": 1.0,
+    "cards_a": 2.0
+   }
   }
  },
  "web": {
