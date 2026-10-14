@@ -649,3 +649,8 @@ fecha,game_id,partido,liga,tipo,mercado,clave,prob,cuota,casa,cuota_justa,ev,sta
 2026-10-14 13:02,4828469,Shakhtar Donetsk vs AEK Atenas,"Europa, UEFA Champions League",modelo,Menos de 11.5 córners,CORN|11.5|under,0.7357,,,1.36,,,si,,
 2026-10-14 13:02,4828469,Shakhtar Donetsk vs AEK Atenas,"Europa, UEFA Champions League",modelo,Menos de 6.5 tarjetas,CARDS|6.5|under,0.7204,,,1.39,,,si,,
 2026-10-14 13:02,4828469,Shakhtar Donetsk vs AEK Atenas,"Europa, UEFA Champions League",ticket,Shakhtar Donetsk o empate + AEK Atenas recibe gol,DC||1X&CS||visita_no,0.5669,1.84,,1.76,0.0448,10.00,,,
+2026-10-14 13:06,4828472,Real Betis vs FC Porto,"Europa, UEFA Champions League",seguro,Más de 1.5 goles,OU|1.5|over,0.7602,1.20,Bet365,1.32,-0.0878,,si,,
+2026-10-14 13:06,4828472,Real Betis vs FC Porto,"Europa, UEFA Champions League",seguro,No hay empate,DC||12,0.7255,1.29,Bet365,1.38,-0.0641,,si,,
+2026-10-14 13:06,4828472,Real Betis vs FC Porto,"Europa, UEFA Champions League",arriesgado,Empate,1X2||X,0.2724,3.78,1xBet,3.67,0.0295,,si,,
+2026-10-14 13:06,4828472,Real Betis vs FC Porto,"Europa, UEFA Champions League",modelo,Menos de 6.5 tarjetas,CARDS|6.5|under,0.7129,,,1.40,,,si,,
+2026-10-14 13:06,4828472,Real Betis vs FC Porto,"Europa, UEFA Champions League",modelo,Más de 7.5 córners,CORN|7.5|over,0.6895,,,1.45,,,si,,

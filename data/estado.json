@@ -1660,8 +1660,72 @@
    "partido": "Real Betis vs FC Porto",
    "liga": "Europa, UEFA Champions League",
    "inicio": "2026-10-14T14:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1792000920.0988002
+   "estado": "enviado",
+   "ultimo": 1792001166.6530104,
+   "pierna": [
+    {
+     "gid": "4828472",
+     "partido": "Real Betis vs FC Porto",
+     "texto": "Más de 1.5 goles",
+     "clave": "OU|1.5|over",
+     "p": 0.7602,
+     "cuota": 1.2,
+     "casa": "Bet365",
+     "inicio": "2026-10-14T14:00:00-05:00"
+    },
+    {
+     "gid": "4828472",
+     "partido": "Real Betis vs FC Porto",
+     "texto": "Real Betis recibe gol",
+     "clave": "CS||local_no",
+     "p": 0.7426,
+     "cuota": 1.3,
+     "casa": "Bet365",
+     "inicio": "2026-10-14T14:00:00-05:00"
+    },
+    {
+     "gid": "4828472",
+     "partido": "Real Betis vs FC Porto",
+     "texto": "No hay empate",
+     "clave": "DC||12",
+     "p": 0.7255,
+     "cuota": 1.29,
+     "casa": "Bet365",
+     "inicio": "2026-10-14T14:00:00-05:00"
+    },
+    {
+     "gid": "4828472",
+     "partido": "Real Betis vs FC Porto",
+     "texto": "Más de 0.5 goles en el 1T",
+     "clave": "OU1T|0.5|over",
+     "p": 0.7025,
+     "cuota": 1.3,
+     "casa": "Bet365",
+     "inicio": "2026-10-14T14:00:00-05:00"
+    },
+    {
+     "gid": "4828472",
+     "partido": "Real Betis vs FC Porto",
+     "texto": "Real Betis o empate",
+     "clave": "DC||1X",
+     "p": 0.6311,
+     "cuota": 1.36,
+     "casa": "Bet365",
+     "inicio": "2026-10-14T14:00:00-05:00"
+    },
+    {
+     "gid": "4828472",
+     "partido": "Real Betis vs FC Porto",
+     "texto": "Ambos marcan: Sí",
+     "clave": "BTTS||si",
+     "p": 0.5765,
+     "cuota": 1.6,
+     "casa": "William Hill",
+     "inicio": "2026-10-14T14:00:00-05:00"
+    }
+   ],
+   "xi": "106049,158746,3143139,6438371,18094605,30121643,46854548,50896962,56196972,62694855,76770352|648418,656956,911054,913383,12436614,13856477,35286777,44030290,51137406,51312997,70953015",
+   "conf": true
   },
   "4828473": {
    "partido": "Aston Villa vs Fenerbahce",
