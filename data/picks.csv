@@ -601,14 +601,14 @@ fecha,game_id,partido,liga,tipo,mercado,clave,prob,cuota,casa,cuota_justa,ev,sta
 2026-10-14 10:35,4828474,LASK Linz vs Liverpool,"Europa, UEFA Champions League",modelo,Menos de 6.5 tarjetas,CARDS|6.5|under,0.7109,,,1.41,,,si,G,
 2026-10-14 10:35,4828474,LASK Linz vs Liverpool,"Europa, UEFA Champions League",apostable,Ambos marcan: No,BTTS||no,0.5428,2.05,William Hill,1.84,0.0382,9.00,si,P,-9.00
 2026-10-14 10:35,4828474,LASK Linz vs Liverpool,"Europa, UEFA Champions League",ticket,Menos de 3.5 goles + Liverpool o empate,OU|3.5|under&DC||X2,0.6364,1.79,,1.57,0.1410,10.00,,P,-10.00
-2026-10-14 10:35,4828475,Feyenoord vs Como,"Europa, UEFA Champions League",seguro,Como recibe gol,CS||visita_no,0.8093,1.22,Bet365,1.24,-0.0127,,si,,
-2026-10-14 10:35,4828475,Feyenoord vs Como,"Europa, UEFA Champions League",seguro,No hay empate,DC||12,0.7531,1.25,Bet365,1.33,-0.0586,,si,,
-2026-10-14 10:35,4828475,Feyenoord vs Como,"Europa, UEFA Champions League",arriesgado,Más de 9.5 córners,CORN|9.5|over,0.4408,2.10,Bet365,2.27,-0.0743,,si,,
-2026-10-14 10:35,4828475,Feyenoord vs Como,"Europa, UEFA Champions League",arriesgado,Más de 1.5 goles en el 1T,OU1T|1.5|over,0.4157,2.20,Bet365,2.41,-0.0855,,si,,
-2026-10-14 10:35,4828475,Feyenoord vs Como,"Europa, UEFA Champions League",modelo,Más de 1.5 goles,OU|1.5|over,0.8288,,,1.21,,,si,,
-2026-10-14 10:35,4828475,Feyenoord vs Como,"Europa, UEFA Champions League",modelo,Menos de 11.5 córners,CORN|11.5|under,0.7314,,,1.37,,,si,,
-2026-10-14 10:35,4828475,Feyenoord vs Como,"Europa, UEFA Champions League",ticket,Feyenoord +0.5 (hándicap) + Como recibe gol,AH|0.5|local&CS||visita_no,0.6034,2.05,,1.66,0.2367,10.00,,,
-2026-10-14 10:35,4828475,Feyenoord vs Como,"Europa, UEFA Champions League",crear,Más de 1.5 goles + Más de 0.5 goles en el 1T + Más de 4.5 córners,OU|1.5|over&OU1T|0.5|over&CORN|4.5|over,0.5853,,,1.71,,,,,
+2026-10-14 10:35,4828475,Feyenoord vs Como,"Europa, UEFA Champions League",seguro,Como recibe gol,CS||visita_no,0.8093,1.22,Bet365,1.24,-0.0127,,si,G,
+2026-10-14 10:35,4828475,Feyenoord vs Como,"Europa, UEFA Champions League",seguro,No hay empate,DC||12,0.7531,1.25,Bet365,1.33,-0.0586,,si,G,
+2026-10-14 10:35,4828475,Feyenoord vs Como,"Europa, UEFA Champions League",arriesgado,Más de 9.5 córners,CORN|9.5|over,0.4408,2.10,Bet365,2.27,-0.0743,,si,P,
+2026-10-14 10:35,4828475,Feyenoord vs Como,"Europa, UEFA Champions League",arriesgado,Más de 1.5 goles en el 1T,OU1T|1.5|over,0.4157,2.20,Bet365,2.41,-0.0855,,si,G,
+2026-10-14 10:35,4828475,Feyenoord vs Como,"Europa, UEFA Champions League",modelo,Más de 1.5 goles,OU|1.5|over,0.8288,,,1.21,,,si,G,
+2026-10-14 10:35,4828475,Feyenoord vs Como,"Europa, UEFA Champions League",modelo,Menos de 11.5 córners,CORN|11.5|under,0.7314,,,1.37,,,si,G,
+2026-10-14 10:35,4828475,Feyenoord vs Como,"Europa, UEFA Champions League",ticket,Feyenoord +0.5 (hándicap) + Como recibe gol,AH|0.5|local&CS||visita_no,0.6034,2.05,,1.66,0.2367,10.00,,G,10.50
+2026-10-14 10:35,4828475,Feyenoord vs Como,"Europa, UEFA Champions League",crear,Más de 1.5 goles + Más de 0.5 goles en el 1T + Más de 4.5 córners,OU|1.5|over&OU1T|0.5|over&CORN|4.5|over,0.5853,,,1.71,,,,G,
 2026-10-14 12:53,4828467,Slovan Bratislava vs Stuttgart,"Europa, UEFA Champions League",seguro,No hay empate,DC||12,0.7764,1.17,Bet365,1.29,-0.0916,,si,,
 2026-10-14 12:53,4828467,Slovan Bratislava vs Stuttgart,"Europa, UEFA Champions League",seguro,Más de 0.5 goles en el 1T,OU1T|0.5|over,0.7508,1.18,Bet365,1.33,-0.1140,,si,,
 2026-10-14 12:53,4828467,Slovan Bratislava vs Stuttgart,"Europa, UEFA Champions League",modelo,Más de 1.5 goles,OU|1.5|over,0.8222,,,1.22,,,si,,
@@ -654,3 +654,4 @@ fecha,game_id,partido,liga,tipo,mercado,clave,prob,cuota,casa,cuota_justa,ev,sta
 2026-10-14 13:06,4828472,Real Betis vs FC Porto,"Europa, UEFA Champions League",arriesgado,Empate,1X2||X,0.2724,3.78,1xBet,3.67,0.0295,,si,,
 2026-10-14 13:06,4828472,Real Betis vs FC Porto,"Europa, UEFA Champions League",modelo,Menos de 6.5 tarjetas,CARDS|6.5|under,0.7129,,,1.40,,,si,,
 2026-10-14 13:06,4828472,Real Betis vs FC Porto,"Europa, UEFA Champions League",modelo,Más de 7.5 córners,CORN|7.5|over,0.6895,,,1.45,,,si,,
+2026-10-14 13:50,4828475+4828474,Feyenoord vs Como / LASK Linz vs Liverpool,,ticket2,Como recibe gol + Menos de 1.5 goles en el 1T,,0.5720,1.92,,1.75,0.0956,10.00,,P,-10.00
