@@ -1862,8 +1862,63 @@
    "partido": "Olympique Marsella vs Olympiacos",
    "liga": "Europa, UEFA Europa League",
    "inicio": "2026-10-15T14:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1792087101.348588
+   "estado": "enviado",
+   "ultimo": 1792087350.1743746,
+   "pierna": [
+    {
+     "gid": "4828730",
+     "partido": "Olympique Marsella vs Olympiacos",
+     "texto": "Menos de 3.5 goles",
+     "clave": "OU|3.5|under",
+     "p": 0.8224,
+     "cuota": 1.36,
+     "casa": "Bet365",
+     "inicio": "2026-10-15T14:00:00-05:00"
+    },
+    {
+     "gid": "4828730",
+     "partido": "Olympique Marsella vs Olympiacos",
+     "texto": "Menos de 1.5 goles en el 1T",
+     "clave": "OU1T|1.5|under",
+     "p": 0.7429,
+     "cuota": 1.44,
+     "casa": "Bet365",
+     "inicio": "2026-10-15T14:00:00-05:00"
+    },
+    {
+     "gid": "4828730",
+     "partido": "Olympique Marsella vs Olympiacos",
+     "texto": "No hay empate",
+     "clave": "DC||12",
+     "p": 0.6834,
+     "cuota": 1.3,
+     "casa": "Bet365",
+     "inicio": "2026-10-15T14:00:00-05:00"
+    },
+    {
+     "gid": "4828730",
+     "partido": "Olympique Marsella vs Olympiacos",
+     "texto": "Olympiacos +0.5 (hándicap)",
+     "clave": "AH|-0.5|visita",
+     "p": 0.6745,
+     "cuota": 1.48,
+     "casa": "Bet365",
+     "inicio": "2026-10-15T14:00:00-05:00"
+    },
+    {
+     "gid": "4828730",
+     "partido": "Olympique Marsella vs Olympiacos",
+     "texto": "Olympiacos o empate",
+     "clave": "DC||X2",
+     "p": 0.6617,
+     "cuota": 1.53,
+     "casa": "Bet365",
+     "inicio": "2026-10-15T14:00:00-05:00"
+    }
+   ],
+   "en_ticket": true,
+   "xi": "325472,543231,3153777,4828912,8490982,12616002,13268816,50159654,61630362,72128122,75445196|424051,433418,475644,490310,538926,668938,46615882,47525532,65820461,66286268,66630057",
+   "conf": true
   },
   "4828731": {
    "partido": "Celta de Vigo vs Juventus",
@@ -1922,21 +1977,79 @@
    "liga": "Europa, UEFA Europa League",
    "inicio": "2026-10-15T14:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792087101.400128
+   "ultimo": 1792087351.173537
   },
   "4828733": {
    "partido": "Jagiellonia vs FC Ararat-Armenia",
    "liga": "Europa, UEFA Europa League",
    "inicio": "2026-10-15T14:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1792087101.4328017
+   "estado": "enviado",
+   "ultimo": 1792087351.1928318,
+   "pierna": [
+    {
+     "gid": "4828733",
+     "partido": "Jagiellonia vs FC Ararat-Armenia",
+     "texto": "Más de 0.5 goles en el 1T",
+     "clave": "OU1T|0.5|over",
+     "p": 0.7359,
+     "cuota": 1.29,
+     "casa": "Bet365",
+     "inicio": "2026-10-15T14:00:00-05:00"
+    },
+    {
+     "gid": "4828733",
+     "partido": "Jagiellonia vs FC Ararat-Armenia",
+     "texto": "Jagiellonia recibe gol",
+     "clave": "CS||local_no",
+     "p": 0.6162,
+     "cuota": 1.62,
+     "casa": "Bet365",
+     "inicio": "2026-10-15T14:00:00-05:00"
+    },
+    {
+     "gid": "4828733",
+     "partido": "Jagiellonia vs FC Ararat-Armenia",
+     "texto": "Más de 2.5 goles",
+     "clave": "OU|2.5|over",
+     "p": 0.5882,
+     "cuota": 1.63,
+     "casa": "LeoVegas (SE)",
+     "inicio": "2026-10-15T14:00:00-05:00"
+    }
+   ],
+   "xi": "351070,570217,14658213,42687055,47623614,49706215,50728585,59015620,61740578,64075017,77024790|440341,481238,34446252,43568938,50607744,53803413,65511002,65519751,65840502,75430117,75439659",
+   "conf": true
   },
   "4828734": {
    "partido": "Rennes vs OFI Crete",
    "liga": "Europa, UEFA Europa League",
    "inicio": "2026-10-15T14:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1792087101.4607399
+   "estado": "enviado",
+   "ultimo": 1792087352.859622,
+   "pierna": [
+    {
+     "gid": "4828734",
+     "partido": "Rennes vs OFI Crete",
+     "texto": "Más de 0.5 goles en el 1T",
+     "clave": "OU1T|0.5|over",
+     "p": 0.7255,
+     "cuota": 1.2,
+     "casa": "Bet365",
+     "inicio": "2026-10-15T14:00:00-05:00"
+    },
+    {
+     "gid": "4828734",
+     "partido": "Rennes vs OFI Crete",
+     "texto": "Más de 2.5 goles",
+     "clave": "OU|2.5|over",
+     "p": 0.559,
+     "cuota": 1.4,
+     "casa": "William Hill",
+     "inicio": "2026-10-15T14:00:00-05:00"
+    }
+   ],
+   "xi": "335306,533912,655566,921155,3055980,8688144,9039245,51284167,71035001,71384554,76343359|331056,367286,435191,599610,668936,3139150,4874925,14627682,49554360,51982992,55323393",
+   "conf": true
   },
   "4828735": {
    "partido": "Benfica vs Celtic",
@@ -1963,8 +2076,62 @@
    "partido": "Hoffenheim vs Besiktas",
    "liga": "Europa, UEFA Europa League",
    "inicio": "2026-10-15T14:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1792087101.4803865
+   "estado": "enviado",
+   "ultimo": 1792087353.7349718,
+   "pierna": [
+    {
+     "gid": "4828736",
+     "partido": "Hoffenheim vs Besiktas",
+     "texto": "No hay empate",
+     "clave": "DC||12",
+     "p": 0.7409,
+     "cuota": 1.25,
+     "casa": "Bet365",
+     "inicio": "2026-10-15T14:00:00-05:00"
+    },
+    {
+     "gid": "4828736",
+     "partido": "Hoffenheim vs Besiktas",
+     "texto": "Más de 0.5 goles en el 1T",
+     "clave": "OU1T|0.5|over",
+     "p": 0.698,
+     "cuota": 1.25,
+     "casa": "Bet365",
+     "inicio": "2026-10-15T14:00:00-05:00"
+    },
+    {
+     "gid": "4828736",
+     "partido": "Hoffenheim vs Besiktas",
+     "texto": "Hoffenheim recibe gol",
+     "clave": "CS||local_no",
+     "p": 0.6561,
+     "cuota": 1.25,
+     "casa": "Bet365",
+     "inicio": "2026-10-15T14:00:00-05:00"
+    },
+    {
+     "gid": "4828736",
+     "partido": "Hoffenheim vs Besiktas",
+     "texto": "Ambos marcan: Sí",
+     "clave": "BTTS||si",
+     "p": 0.532,
+     "cuota": 1.5,
+     "casa": "Bet365",
+     "inicio": "2026-10-15T14:00:00-05:00"
+    },
+    {
+     "gid": "4828736",
+     "partido": "Hoffenheim vs Besiktas",
+     "texto": "Más de 2.5 goles",
+     "clave": "OU|2.5|over",
+     "p": 0.5113,
+     "cuota": 1.53,
+     "casa": "William Hill",
+     "inicio": "2026-10-15T14:00:00-05:00"
+    }
+   ],
+   "xi": "258327,334847,350528,3130032,3155296,3339632,4581497,38075769,64195671,65404524,68006639|350731,549592,698994,906343,3054846,7382663,50203633,51783000,65281760,67614969,72524892",
+   "conf": true
   },
   "4828737": {
    "partido": "AZ Alkmaar vs Hapoel Beer Sheva",
@@ -2084,8 +2251,63 @@
    "partido": "N.E.C. Nijmegen vs Levski Sofia",
    "liga": "Europa, UEFA Europa League",
    "inicio": "2026-10-15T14:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1792087101.5044425
+   "estado": "enviado",
+   "ultimo": 1792087354.4269774,
+   "pierna": [
+    {
+     "gid": "4828739",
+     "partido": "N.E.C. Nijmegen vs Levski Sofia",
+     "texto": "Levski Sofia recibe gol",
+     "clave": "CS||visita_no",
+     "p": 0.7677,
+     "cuota": 1.2,
+     "casa": "Bet365",
+     "inicio": "2026-10-15T14:00:00-05:00"
+    },
+    {
+     "gid": "4828739",
+     "partido": "N.E.C. Nijmegen vs Levski Sofia",
+     "texto": "Más de 1.5 goles",
+     "clave": "OU|1.5|over",
+     "p": 0.7378,
+     "cuota": 1.3,
+     "casa": "Bet365",
+     "inicio": "2026-10-15T14:00:00-05:00"
+    },
+    {
+     "gid": "4828739",
+     "partido": "N.E.C. Nijmegen vs Levski Sofia",
+     "texto": "No hay empate",
+     "clave": "DC||12",
+     "p": 0.7239,
+     "cuota": 1.29,
+     "casa": "Bet365",
+     "inicio": "2026-10-15T14:00:00-05:00"
+    },
+    {
+     "gid": "4828739",
+     "partido": "N.E.C. Nijmegen vs Levski Sofia",
+     "texto": "Más de 0.5 goles en el 1T",
+     "clave": "OU1T|0.5|over",
+     "p": 0.6784,
+     "cuota": 1.4,
+     "casa": "Bet365",
+     "inicio": "2026-10-15T14:00:00-05:00"
+    },
+    {
+     "gid": "4828739",
+     "partido": "N.E.C. Nijmegen vs Levski Sofia",
+     "texto": "N.E.C. Nijmegen recibe gol",
+     "clave": "CS||local_no",
+     "p": 0.6678,
+     "cuota": 1.5,
+     "casa": "Bet365",
+     "inicio": "2026-10-15T14:00:00-05:00"
+    }
+   ],
+   "xi": "277817,288958,394091,2567417,35142231,49494494,65718561,70801363,71161378,77373192,77682662|681545,3274593,12998507,19463543,51432973,63955520,65731990,66504926,71351587,75414379,75492432",
+   "conf": true,
+   "en_ticket": true
   },
   "4828740": {
    "partido": "Union St. Gilloise vs Real Sociedad",
@@ -2576,15 +2798,104 @@
    "partido": "STVV vs FC Iberia 1999",
    "liga": "Europa, UEFA Conference League",
    "inicio": "2026-10-15T14:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1792087101.5338297
+   "estado": "enviado",
+   "ultimo": 1792087355.1733193,
+   "pierna": [
+    {
+     "gid": "4828926",
+     "partido": "STVV vs FC Iberia 1999",
+     "texto": "Más de 0.5 goles en el 1T",
+     "clave": "OU1T|0.5|over",
+     "p": 0.7489,
+     "cuota": 1.22,
+     "casa": "Bet365",
+     "inicio": "2026-10-15T14:00:00-05:00"
+    },
+    {
+     "gid": "4828926",
+     "partido": "STVV vs FC Iberia 1999",
+     "texto": "Más de 2.5 goles",
+     "clave": "OU|2.5|over",
+     "p": 0.6098,
+     "cuota": 1.44,
+     "casa": "Bet365",
+     "inicio": "2026-10-15T14:00:00-05:00"
+    }
+   ],
+   "xi": "549877,834460,30546461,38276104,58973912,64142383,67021875,67669111,70767918,70905405,77343896|244046,3136376,50159163,54953641,68098463,69482537,71522009,75385663,77096324,77112286,78037706",
+   "conf": true
   },
   "4828927": {
    "partido": "Hearts vs FC Nordsjaelland",
    "liga": "Europa, UEFA Conference League",
    "inicio": "2026-10-15T14:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1792087101.5575926
+   "estado": "enviado",
+   "ultimo": 1792087356.7861843,
+   "pierna": [
+    {
+     "gid": "4828927",
+     "partido": "Hearts vs FC Nordsjaelland",
+     "texto": "Menos de 4.5 goles",
+     "clave": "OU|4.5|under",
+     "p": 0.8176,
+     "cuota": 1.25,
+     "casa": "Bet365",
+     "inicio": "2026-10-15T14:00:00-05:00"
+    },
+    {
+     "gid": "4828927",
+     "partido": "Hearts vs FC Nordsjaelland",
+     "texto": "FC Nordsjaelland recibe gol",
+     "clave": "CS||visita_no",
+     "p": 0.7794,
+     "cuota": 1.22,
+     "casa": "Bet365",
+     "inicio": "2026-10-15T14:00:00-05:00"
+    },
+    {
+     "gid": "4828927",
+     "partido": "Hearts vs FC Nordsjaelland",
+     "texto": "No hay empate",
+     "clave": "DC||12",
+     "p": 0.7406,
+     "cuota": 1.25,
+     "casa": "Bet365",
+     "inicio": "2026-10-15T14:00:00-05:00"
+    },
+    {
+     "gid": "4828927",
+     "partido": "Hearts vs FC Nordsjaelland",
+     "texto": "Más de 0.5 goles en el 1T",
+     "clave": "OU1T|0.5|over",
+     "p": 0.7196,
+     "cuota": 1.25,
+     "casa": "Bet365",
+     "inicio": "2026-10-15T14:00:00-05:00"
+    },
+    {
+     "gid": "4828927",
+     "partido": "Hearts vs FC Nordsjaelland",
+     "texto": "Hearts o empate",
+     "clave": "DC||1X",
+     "p": 0.6719,
+     "cuota": 1.62,
+     "casa": "Bet365",
+     "inicio": "2026-10-15T14:00:00-05:00"
+    },
+    {
+     "gid": "4828927",
+     "partido": "Hearts vs FC Nordsjaelland",
+     "texto": "Hearts +0.5 (hándicap)",
+     "clave": "AH|0.5|local",
+     "p": 0.668,
+     "cuota": 1.65,
+     "casa": "Bet365",
+     "inicio": "2026-10-15T14:00:00-05:00"
+    }
+   ],
+   "en_ticket": true,
+   "xi": "668972,3659142,15877878,49062755,50910524,61535702,66187031,67183378,68003324,77313271,77378553|1535959,3517524,3517657,25422288,38659971,43995204,58801387,71088302,75251267,76951442,77330222",
+   "conf": true
   },
   "4828928": {
    "partido": "Twente vs FC Thun",
@@ -2635,7 +2946,8 @@
     }
    ],
    "xi": "345634,345676,598685,44385163,50445972,50584228,66025734,69466414,70909233,71917172,76961028|530969,921950,2383922,3649182,31376196,49518905,50177184,71465273,72754115,77121680,77402048",
-   "conf": true
+   "conf": true,
+   "en_ticket": true
   },
   "4828929": {
    "partido": "FC Copenhague vs SC Braga",
@@ -2704,7 +3016,7 @@
    "liga": "Europa, UEFA Conference League",
    "inicio": "2026-10-15T14:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792087103.1570191
+   "ultimo": 1792087358.5272808
   },
   "4828939": {
    "partido": "KF Egnatia vs FC Midtjylland",
@@ -3243,6 +3555,60 @@
    "p": 0.5909592,
    "cuota": 1.7000000000000002,
    "t": 1792087101.3483627
+  },
+  {
+   "piernas": [
+    {
+     "gid": "4828730",
+     "partido": "Olympique Marsella vs Olympiacos",
+     "texto": "Menos de 1.5 goles en el 1T",
+     "clave": "OU1T|1.5|under",
+     "p": 0.7429,
+     "cuota": 1.44,
+     "casa": "Bet365",
+     "inicio": "2026-10-15T14:00:00-05:00"
+    },
+    {
+     "gid": "4828928",
+     "partido": "Twente vs FC Thun",
+     "texto": "Más de 2.5 goles",
+     "clave": "OU|2.5|over",
+     "p": 0.78,
+     "cuota": 1.2,
+     "casa": "William Hill",
+     "inicio": "2026-10-15T14:00:00-05:00"
+    }
+   ],
+   "p": 0.579462,
+   "cuota": 1.728,
+   "t": 1792087351.17332
+  },
+  {
+   "piernas": [
+    {
+     "gid": "4828927",
+     "partido": "Hearts vs FC Nordsjaelland",
+     "texto": "Menos de 4.5 goles",
+     "clave": "OU|4.5|under",
+     "p": 0.8176,
+     "cuota": 1.25,
+     "casa": "Bet365",
+     "inicio": "2026-10-15T14:00:00-05:00"
+    },
+    {
+     "gid": "4828739",
+     "partido": "N.E.C. Nijmegen vs Levski Sofia",
+     "texto": "N.E.C. Nijmegen recibe gol",
+     "clave": "CS||local_no",
+     "p": 0.6678,
+     "cuota": 1.5,
+     "casa": "Bet365",
+     "inicio": "2026-10-15T14:00:00-05:00"
+    }
+   ],
+   "p": 0.5459932799999999,
+   "cuota": 1.875,
+   "t": 1792087358.5271463
   }
  ]
 }
