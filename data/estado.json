@@ -1572,49 +1572,49 @@
    "liga": "Europa, UEFA Conference League",
    "inicio": "2026-10-15T11:45:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792078447.5456367
+   "ultimo": 1792078691.591307
   },
   "4828933": {
    "partido": "Riga vs Kairat Almaty",
    "liga": "Europa, UEFA Conference League",
    "inicio": "2026-10-15T11:45:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792078447.7988281
+   "ultimo": 1792078691.6937528
   },
   "4828934": {
    "partido": "CSKA Sofia vs Monaco",
    "liga": "Europa, UEFA Conference League",
    "inicio": "2026-10-15T11:45:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792078447.850176
+   "ultimo": 1792078691.7170067
   },
   "4828935": {
    "partido": "Panathinaikos vs Borac Banjaluka",
    "liga": "Europa, UEFA Conference League",
    "inicio": "2026-10-15T11:45:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792078447.9012284
+   "ultimo": 1792078691.739906
   },
   "4828936": {
    "partido": "Mjällby AIF vs Inter Escaldes",
    "liga": "Europa, UEFA Conference League",
    "inicio": "2026-10-15T11:45:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792078447.9505692
+   "ultimo": 1792078691.7717905
   },
   "4828937": {
    "partido": "KuPS vs Trabzonspor",
    "liga": "Europa, UEFA Conference League",
    "inicio": "2026-10-15T11:45:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792078448.0015378
+   "ultimo": 1792078691.8085663
   },
   "4828938": {
    "partido": "KAA Gent vs Aarhus",
    "liga": "Europa, UEFA Conference League",
    "inicio": "2026-10-15T11:45:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792078448.0529077
+   "ultimo": 1792078691.8300576
   },
   "4828729": {
    "partido": "Dinamo Zagreb vs Anderlecht",
@@ -1676,8 +1676,42 @@
    "partido": "AZ Alkmaar vs Hapoel Beer Sheva",
    "liga": "Europa, UEFA Europa League",
    "inicio": "2026-10-15T11:45:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1792078448.1013002
+   "estado": "enviado",
+   "ultimo": 1792078691.8628974,
+   "pierna": [
+    {
+     "gid": "4828737",
+     "partido": "AZ Alkmaar vs Hapoel Beer Sheva",
+     "texto": "Más de 0.5 goles en el 1T",
+     "clave": "OU1T|0.5|over",
+     "p": 0.7072,
+     "cuota": 1.2,
+     "casa": "Bet365",
+     "inicio": "2026-10-15T11:45:00-05:00"
+    },
+    {
+     "gid": "4828737",
+     "partido": "AZ Alkmaar vs Hapoel Beer Sheva",
+     "texto": "AZ Alkmaar recibe gol",
+     "clave": "CS||local_no",
+     "p": 0.6248,
+     "cuota": 1.57,
+     "casa": "Bet365",
+     "inicio": "2026-10-15T11:45:00-05:00"
+    },
+    {
+     "gid": "4828737",
+     "partido": "AZ Alkmaar vs Hapoel Beer Sheva",
+     "texto": "Más de 2.5 goles",
+     "clave": "OU|2.5|over",
+     "p": 0.5303,
+     "cuota": 1.44,
+     "casa": "Bet365",
+     "inicio": "2026-10-15T11:45:00-05:00"
+    }
+   ],
+   "xi": "441798,3350252,60305265,61669015,64113057,65155411,66025729,67693833,67693842,71019775,77635655|516810,2957551,3131253,3350130,7659816,58253330,60146411,62847014,66319983,66614302,68076885",
+   "conf": true
   },
   "4828738": {
    "partido": "Ferencvaros vs Viktoria Plzen",
@@ -1697,50 +1731,192 @@
    "partido": "Union St. Gilloise vs Real Sociedad",
    "liga": "Europa, UEFA Europa League",
    "inicio": "2026-10-15T11:45:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1792078448.1509714
+   "estado": "enviado",
+   "ultimo": 1792078692.9087095,
+   "pierna": [
+    {
+     "gid": "4828740",
+     "partido": "Union St. Gilloise vs Real Sociedad",
+     "texto": "Real Sociedad recibe gol",
+     "clave": "CS||visita_no",
+     "p": 0.8126,
+     "cuota": 1.2,
+     "casa": "Bet365",
+     "inicio": "2026-10-15T11:45:00-05:00"
+    },
+    {
+     "gid": "4828740",
+     "partido": "Union St. Gilloise vs Real Sociedad",
+     "texto": "No hay empate",
+     "clave": "DC||12",
+     "p": 0.7466,
+     "cuota": 1.29,
+     "casa": "Bet365",
+     "inicio": "2026-10-15T11:45:00-05:00"
+    },
+    {
+     "gid": "4828740",
+     "partido": "Union St. Gilloise vs Real Sociedad",
+     "texto": "Union St. Gilloise o empate",
+     "clave": "DC||1X",
+     "p": 0.7387,
+     "cuota": 1.5,
+     "casa": "Bet365",
+     "inicio": "2026-10-15T11:45:00-05:00"
+    },
+    {
+     "gid": "4828740",
+     "partido": "Union St. Gilloise vs Real Sociedad",
+     "texto": "Más de 0.5 goles en el 1T",
+     "clave": "OU1T|0.5|over",
+     "p": 0.7263,
+     "cuota": 1.25,
+     "casa": "Bet365",
+     "inicio": "2026-10-15T11:45:00-05:00"
+    },
+    {
+     "gid": "4828740",
+     "partido": "Union St. Gilloise vs Real Sociedad",
+     "texto": "Union St. Gilloise recibe gol",
+     "clave": "CS||local_no",
+     "p": 0.6846,
+     "cuota": 1.2,
+     "casa": "Bet365",
+     "inicio": "2026-10-15T11:45:00-05:00"
+    },
+    {
+     "gid": "4828740",
+     "partido": "Union St. Gilloise vs Real Sociedad",
+     "texto": "Ambos marcan: Sí",
+     "clave": "BTTS||si",
+     "p": 0.5733,
+     "cuota": 1.44,
+     "casa": "Bet365",
+     "inicio": "2026-10-15T11:45:00-05:00"
+    }
+   ],
+   "xi": "6428923,22310862,56077412,66271395,70813768,71882379,72768815,75259864,75440142,77654877,78318768|541991,571305,668146,1404536,3059791,50752876,54163815,67466102,70953097,70994144,75437926",
+   "conf": true
   },
   "4828741": {
    "partido": "Lech Poznan vs Bayer Leverkusen",
    "liga": "Europa, UEFA Europa League",
    "inicio": "2026-10-15T11:45:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1792078448.2041194
+   "estado": "enviado",
+   "ultimo": 1792078693.726105,
+   "pierna": [
+    {
+     "gid": "4828741",
+     "partido": "Lech Poznan vs Bayer Leverkusen",
+     "texto": "Bayer Leverkusen recibe gol",
+     "clave": "CS||visita_no",
+     "p": 0.6431,
+     "cuota": 1.33,
+     "casa": "Bet365",
+     "inicio": "2026-10-15T11:45:00-05:00"
+    },
+    {
+     "gid": "4828741",
+     "partido": "Lech Poznan vs Bayer Leverkusen",
+     "texto": "Ambos marcan: Sí",
+     "clave": "BTTS||si",
+     "p": 0.5317,
+     "cuota": 1.44,
+     "casa": "Bet365",
+     "inicio": "2026-10-15T11:45:00-05:00"
+    },
+    {
+     "gid": "4828741",
+     "partido": "Lech Poznan vs Bayer Leverkusen",
+     "texto": "Más de 2.5 goles",
+     "clave": "OU|2.5|over",
+     "p": 0.5177,
+     "cuota": 1.36,
+     "casa": "William Hill",
+     "inicio": "2026-10-15T11:45:00-05:00"
+    }
+   ],
+   "xi": "179550,636941,3059571,3267609,5306041,12409844,16353704,49915534,55252175,67843455,74181523|495388,529388,613840,3173630,30803774,49633242,50172386,50204547,50413540,56555504,67900705",
+   "conf": true
   },
   "4828742": {
    "partido": "Torreense vs Sunderland",
    "liga": "Europa, UEFA Europa League",
    "inicio": "2026-10-15T11:45:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792078448.2567368
+   "ultimo": 1792078694.5253596
   },
   "4828743": {
    "partido": "Lyon vs Crystal Palace",
    "liga": "Europa, UEFA Europa League",
    "inicio": "2026-10-15T11:45:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792078448.304694
+   "ultimo": 1792078694.5644245
   },
   "4828744": {
    "partido": "Sparta Praga vs Lillestrom",
    "liga": "Europa, UEFA Europa League",
    "inicio": "2026-10-15T11:45:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1792078448.3540714
+   "estado": "enviado",
+   "ultimo": 1792078694.5891652,
+   "pierna": [
+    {
+     "gid": "4828744",
+     "partido": "Sparta Praga vs Lillestrom",
+     "texto": "Más de 0.5 goles en el 1T",
+     "clave": "OU1T|0.5|over",
+     "p": 0.7052,
+     "cuota": 1.2,
+     "casa": "Bet365",
+     "inicio": "2026-10-15T11:45:00-05:00"
+    },
+    {
+     "gid": "4828744",
+     "partido": "Sparta Praga vs Lillestrom",
+     "texto": "Gana Sparta Praga",
+     "clave": "1X2||1",
+     "p": 0.6402,
+     "cuota": 1.33,
+     "casa": "Unibet (SE)",
+     "inicio": "2026-10-15T11:45:00-05:00"
+    },
+    {
+     "gid": "4828744",
+     "partido": "Sparta Praga vs Lillestrom",
+     "texto": "Sparta Praga recibe gol",
+     "clave": "CS||local_no",
+     "p": 0.5816,
+     "cuota": 1.53,
+     "casa": "Bet365",
+     "inicio": "2026-10-15T11:45:00-05:00"
+    },
+    {
+     "gid": "4828744",
+     "partido": "Sparta Praga vs Lillestrom",
+     "texto": "Más de 2.5 goles",
+     "clave": "OU|2.5|over",
+     "p": 0.5247,
+     "cuota": 1.37,
+     "casa": "Betsson",
+     "inicio": "2026-10-15T11:45:00-05:00"
+    }
+   ],
+   "xi": "3483240,52916133,59230904,61362421,64933136,66379368,67757751,71354472,71932360,75407406,77710804|95176,494506,3056874,15553038,15572260,65565620,66151447,67657566,67709754,70879845,70913130",
+   "conf": true
   },
   "4828745": {
    "partido": "NK Celje vs Omonia",
    "liga": "Europa, UEFA Europa League",
    "inicio": "2026-10-15T11:45:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792078448.406855
+   "ultimo": 1792078695.750496
   },
   "4828746": {
    "partido": "Red Bull Salzburgo vs AC Milan",
    "liga": "Europa, UEFA Europa League",
    "inicio": "2026-10-15T11:45:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792078448.4661984
+   "ultimo": 1792078695.7683382
   },
   "4828924": {
    "partido": "Brann vs Lincoln Red Imps",
@@ -1803,21 +1979,21 @@
    "liga": "Europa, UEFA Conference League",
    "inicio": "2026-10-15T11:45:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792078448.5172796
+   "ultimo": 1792078695.788193
   },
   "4828940": {
    "partido": "HNK Hajduk Split vs Ajax",
    "liga": "Europa, UEFA Conference League",
    "inicio": "2026-10-15T11:45:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792078448.5741248
+   "ultimo": 1792078695.8071647
   },
   "4828941": {
    "partido": "FC Lugano vs Estrella Roja Belgrado",
    "liga": "Europa, UEFA Conference League",
    "inicio": "2026-10-15T11:45:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792078448.6522632
+   "ultimo": 1792078695.8305311
   },
   "4858847": {
    "partido": "Estudiantes de La Plata vs Flamengo",
