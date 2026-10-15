@@ -1790,15 +1790,80 @@
    "partido": "Dinamo Zagreb vs Anderlecht",
    "liga": "Europa, UEFA Europa League",
    "inicio": "2026-10-15T14:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1792086843.3541043
+   "estado": "enviado",
+   "ultimo": 1792087099.8968723,
+   "pierna": [
+    {
+     "gid": "4828729",
+     "partido": "Dinamo Zagreb vs Anderlecht",
+     "texto": "Dinamo Zagreb o empate",
+     "clave": "DC||1X",
+     "p": 0.806,
+     "cuota": 1.25,
+     "casa": "Bet365",
+     "inicio": "2026-10-15T14:00:00-05:00"
+    },
+    {
+     "gid": "4828729",
+     "partido": "Dinamo Zagreb vs Anderlecht",
+     "texto": "No hay empate",
+     "clave": "DC||12",
+     "p": 0.7412,
+     "cuota": 1.25,
+     "casa": "Bet365",
+     "inicio": "2026-10-15T14:00:00-05:00"
+    },
+    {
+     "gid": "4828729",
+     "partido": "Dinamo Zagreb vs Anderlecht",
+     "texto": "Más de 1.5 goles",
+     "clave": "OU|1.5|over",
+     "p": 0.7246,
+     "cuota": 1.2,
+     "casa": "Bet365",
+     "inicio": "2026-10-15T14:00:00-05:00"
+    },
+    {
+     "gid": "4828729",
+     "partido": "Dinamo Zagreb vs Anderlecht",
+     "texto": "Más de 0.5 goles en el 1T",
+     "clave": "OU1T|0.5|over",
+     "p": 0.6773,
+     "cuota": 1.3,
+     "casa": "Bet365",
+     "inicio": "2026-10-15T14:00:00-05:00"
+    },
+    {
+     "gid": "4828729",
+     "partido": "Dinamo Zagreb vs Anderlecht",
+     "texto": "Dinamo Zagreb recibe gol",
+     "clave": "CS||local_no",
+     "p": 0.5909,
+     "cuota": 1.36,
+     "casa": "Bet365",
+     "inicio": "2026-10-15T14:00:00-05:00"
+    },
+    {
+     "gid": "4828729",
+     "partido": "Dinamo Zagreb vs Anderlecht",
+     "texto": "Ambos marcan: Sí",
+     "clave": "BTTS||si",
+     "p": 0.4855,
+     "cuota": 1.62,
+     "casa": "Bet365",
+     "inicio": "2026-10-15T14:00:00-05:00"
+    }
+   ],
+   "en_ticket": true,
+   "xi": "3685165,31270317,38249920,49516148,49539248,55540062,55872997,61677238,70789681,71046685,71531253|335680,8428047,50959532,51175440,54857672,61122888,62005360,67024337,67364224,70915839,78392049",
+   "conf": true
   },
   "4828730": {
    "partido": "Olympique Marsella vs Olympiacos",
    "liga": "Europa, UEFA Europa League",
    "inicio": "2026-10-15T14:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792086843.5568876
+   "ultimo": 1792087101.348588
   },
   "4828731": {
    "partido": "Celta de Vigo vs Juventus",
@@ -1857,21 +1922,21 @@
    "liga": "Europa, UEFA Europa League",
    "inicio": "2026-10-15T14:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792086845.154969
+   "ultimo": 1792087101.400128
   },
   "4828733": {
    "partido": "Jagiellonia vs FC Ararat-Armenia",
    "liga": "Europa, UEFA Europa League",
    "inicio": "2026-10-15T14:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792086845.17659
+   "ultimo": 1792087101.4328017
   },
   "4828734": {
    "partido": "Rennes vs OFI Crete",
    "liga": "Europa, UEFA Europa League",
    "inicio": "2026-10-15T14:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792086845.1986983
+   "ultimo": 1792087101.4607399
   },
   "4828735": {
    "partido": "Benfica vs Celtic",
@@ -1899,7 +1964,7 @@
    "liga": "Europa, UEFA Europa League",
    "inicio": "2026-10-15T14:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792086846.1773558
+   "ultimo": 1792087101.4803865
   },
   "4828737": {
    "partido": "AZ Alkmaar vs Hapoel Beer Sheva",
@@ -2020,7 +2085,7 @@
    "liga": "Europa, UEFA Europa League",
    "inicio": "2026-10-15T14:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792086847.286259
+   "ultimo": 1792087101.5044425
   },
   "4828740": {
    "partido": "Union St. Gilloise vs Real Sociedad",
@@ -2512,21 +2577,65 @@
    "liga": "Europa, UEFA Conference League",
    "inicio": "2026-10-15T14:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792086849.5970013
+   "ultimo": 1792087101.5338297
   },
   "4828927": {
    "partido": "Hearts vs FC Nordsjaelland",
    "liga": "Europa, UEFA Conference League",
    "inicio": "2026-10-15T14:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792086849.619673
+   "ultimo": 1792087101.5575926
   },
   "4828928": {
    "partido": "Twente vs FC Thun",
    "liga": "Europa, UEFA Conference League",
    "inicio": "2026-10-15T14:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1792086849.639745
+   "estado": "enviado",
+   "ultimo": 1792087101.5867167,
+   "pierna": [
+    {
+     "gid": "4828928",
+     "partido": "Twente vs FC Thun",
+     "texto": "Más de 2.5 goles",
+     "clave": "OU|2.5|over",
+     "p": 0.78,
+     "cuota": 1.2,
+     "casa": "William Hill",
+     "inicio": "2026-10-15T14:00:00-05:00"
+    },
+    {
+     "gid": "4828928",
+     "partido": "Twente vs FC Thun",
+     "texto": "Más de 3.5 goles",
+     "clave": "OU|3.5|over",
+     "p": 0.5869,
+     "cuota": 1.57,
+     "casa": "LeoVegas (SE)",
+     "inicio": "2026-10-15T14:00:00-05:00"
+    },
+    {
+     "gid": "4828928",
+     "partido": "Twente vs FC Thun",
+     "texto": "Más de 1.5 goles en el 1T",
+     "clave": "OU1T|1.5|over",
+     "p": 0.5608,
+     "cuota": 1.62,
+     "casa": "Bet365",
+     "inicio": "2026-10-15T14:00:00-05:00"
+    },
+    {
+     "gid": "4828928",
+     "partido": "Twente vs FC Thun",
+     "texto": "Twente recibe gol",
+     "clave": "CS||local_no",
+     "p": 0.5546,
+     "cuota": 1.5,
+     "casa": "Bet365",
+     "inicio": "2026-10-15T14:00:00-05:00"
+    }
+   ],
+   "xi": "345634,345676,598685,44385163,50445972,50584228,66025734,69466414,70909233,71917172,76961028|530969,921950,2383922,3649182,31376196,49518905,50177184,71465273,72754115,77121680,77402048",
+   "conf": true
   },
   "4828929": {
    "partido": "FC Copenhague vs SC Braga",
@@ -2577,7 +2686,8 @@
     }
    ],
    "xi": "344972,567538,639671,12940517,57688527,64458615,67747944,68070314,68079434,71148025,72469545|100802,358706,3071509,50413538,53015075,61880538,62356488,66382167,70853356,71311899,75422026",
-   "conf": true
+   "conf": true,
+   "en_ticket": true
   },
   "4828930": {
    "partido": "Brighton vs Kauno Zalgiris",
@@ -2594,7 +2704,7 @@
    "liga": "Europa, UEFA Conference League",
    "inicio": "2026-10-15T14:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792086851.1356146
+   "ultimo": 1792087103.1570191
   },
   "4828939": {
    "partido": "KF Egnatia vs FC Midtjylland",
@@ -3106,6 +3216,33 @@
    "p": 0.6122660600000001,
    "cuota": 1.9032,
    "t": 1792086849.5968785
+  },
+  {
+   "piernas": [
+    {
+     "gid": "4828729",
+     "partido": "Dinamo Zagreb vs Anderlecht",
+     "texto": "Dinamo Zagreb o empate",
+     "clave": "DC||1X",
+     "p": 0.806,
+     "cuota": 1.25,
+     "casa": "Bet365",
+     "inicio": "2026-10-15T14:00:00-05:00"
+    },
+    {
+     "gid": "4828929",
+     "partido": "FC Copenhague vs SC Braga",
+     "texto": "Menos de 1.5 goles en el 1T",
+     "clave": "OU1T|1.5|under",
+     "p": 0.7332,
+     "cuota": 1.36,
+     "casa": "Bet365",
+     "inicio": "2026-10-15T14:00:00-05:00"
+    }
+   ],
+   "p": 0.5909592,
+   "cuota": 1.7000000000000002,
+   "t": 1792087101.3483627
   }
  ]
 }
