@@ -1419,8 +1419,8 @@
    "partido": "Dinamo Zagreb vs Anderlecht",
    "liga": "Europa, UEFA Europa League",
    "inicio": "2026-10-15T14:00:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1792097789.2699184,
+   "estado": "liquidado",
+   "ultimo": 1792098412.168388,
    "pierna": [
     {
      "gid": "4828729",
@@ -1485,7 +1485,22 @@
    ],
    "en_ticket": true,
    "xi": "3685165,31270317,38249920,49516148,49539248,55540062,55872997,61677238,70789681,71046685,71531253|335680,8428047,50959532,51175440,54857672,61122888,62005360,67024337,67364224,70915839,78392049",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 1,
+    "ag": 0,
+    "ht": [
+     0,
+     0
+    ],
+    "corners": 8.0,
+    "corners_h": 6.0,
+    "corners_a": 2.0,
+    "corners_1t": 4.0,
+    "cards": 4.0,
+    "cards_h": 2.0,
+    "cards_a": 2.0
+   }
   },
   "4828730": {
    "partido": "Olympique Marsella vs Olympiacos",
@@ -3447,33 +3462,5 @@
   "4828941": 1792062449177,
   "4858847": 1792062465563
  },
- "tickets": [
-  {
-   "piernas": [
-    {
-     "gid": "4828729",
-     "partido": "Dinamo Zagreb vs Anderlecht",
-     "texto": "Dinamo Zagreb o empate",
-     "clave": "DC||1X",
-     "p": 0.806,
-     "cuota": 1.25,
-     "casa": "Bet365",
-     "inicio": "2026-10-15T14:00:00-05:00"
-    },
-    {
-     "gid": "4828929",
-     "partido": "FC Copenhague vs SC Braga",
-     "texto": "Menos de 1.5 goles en el 1T",
-     "clave": "OU1T|1.5|under",
-     "p": 0.7332,
-     "cuota": 1.36,
-     "casa": "Bet365",
-     "inicio": "2026-10-15T14:00:00-05:00"
-    }
-   ],
-   "p": 0.5909592,
-   "cuota": 1.7000000000000002,
-   "t": 1792087101.3483627
-  }
- ]
+ "tickets": []
 }

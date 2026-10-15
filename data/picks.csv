@@ -834,13 +834,13 @@ fecha,game_id,partido,liga,tipo,mercado,clave,prob,cuota,casa,cuota_justa,ev,sta
 2026-10-15 12:54,4828930,Brighton vs Kauno Zalgiris,"Europa, UEFA Conference League",modelo,Más de 1.5 goles,OU|1.5|over,0.7692,,,1.30,,,si,G,
 2026-10-15 12:54,4828930,Brighton vs Kauno Zalgiris,"Europa, UEFA Conference League",modelo,Menos de 12.5 córners,CORN|12.5|under,0.6787,,,1.47,,,si,P,
 2026-10-15 12:54,4828930,Brighton vs Kauno Zalgiris,"Europa, UEFA Conference League",crear,No hay empate + Más de 1.5 goles + Más de 5.5 córners,DC||12&OU|1.5|over&CORN|5.5|over,0.5830,,,1.72,,,,G,
-2026-10-15 12:58,4828729,Dinamo Zagreb vs Anderlecht,"Europa, UEFA Europa League",seguro,Dinamo Zagreb o empate,DC||1X,0.8060,1.25,Bet365,1.24,0.0075,,si,,
-2026-10-15 12:58,4828729,Dinamo Zagreb vs Anderlecht,"Europa, UEFA Europa League",seguro,Anderlecht recibe gol,CS||visita_no,0.7999,1.17,Bet365,1.25,-0.0641,,si,,
-2026-10-15 12:58,4828729,Dinamo Zagreb vs Anderlecht,"Europa, UEFA Europa League",arriesgado,Más de 4.5 tarjetas,CARDS|4.5|over,0.4135,2.20,Bet365,2.42,-0.0902,,si,,
-2026-10-15 12:58,4828729,Dinamo Zagreb vs Anderlecht,"Europa, UEFA Europa League",arriesgado,Empate,1X2||X,0.2646,3.90,Unibet (SE),3.78,0.0318,,si,,
-2026-10-15 12:58,4828729,Dinamo Zagreb vs Anderlecht,"Europa, UEFA Europa League",modelo,Menos de 6.5 tarjetas,CARDS|6.5|under,0.7002,,,1.43,,,si,,
-2026-10-15 12:58,4828729,Dinamo Zagreb vs Anderlecht,"Europa, UEFA Europa League",modelo,Más de 7.5 córners,CORN|7.5|over,0.6876,,,1.45,,,si,,
-2026-10-15 12:58,4828729,Dinamo Zagreb vs Anderlecht,"Europa, UEFA Europa League",ticket,Dinamo Zagreb -0.5 (hándicap),AH|-0.5|local,0.5503,1.88,,1.82,0.0345,10.00,,,
+2026-10-15 12:58,4828729,Dinamo Zagreb vs Anderlecht,"Europa, UEFA Europa League",seguro,Dinamo Zagreb o empate,DC||1X,0.8060,1.25,Bet365,1.24,0.0075,,si,G,
+2026-10-15 12:58,4828729,Dinamo Zagreb vs Anderlecht,"Europa, UEFA Europa League",seguro,Anderlecht recibe gol,CS||visita_no,0.7999,1.17,Bet365,1.25,-0.0641,,si,G,
+2026-10-15 12:58,4828729,Dinamo Zagreb vs Anderlecht,"Europa, UEFA Europa League",arriesgado,Más de 4.5 tarjetas,CARDS|4.5|over,0.4135,2.20,Bet365,2.42,-0.0902,,si,P,
+2026-10-15 12:58,4828729,Dinamo Zagreb vs Anderlecht,"Europa, UEFA Europa League",arriesgado,Empate,1X2||X,0.2646,3.90,Unibet (SE),3.78,0.0318,,si,P,
+2026-10-15 12:58,4828729,Dinamo Zagreb vs Anderlecht,"Europa, UEFA Europa League",modelo,Menos de 6.5 tarjetas,CARDS|6.5|under,0.7002,,,1.43,,,si,G,
+2026-10-15 12:58,4828729,Dinamo Zagreb vs Anderlecht,"Europa, UEFA Europa League",modelo,Más de 7.5 córners,CORN|7.5|over,0.6876,,,1.45,,,si,G,
+2026-10-15 12:58,4828729,Dinamo Zagreb vs Anderlecht,"Europa, UEFA Europa League",ticket,Dinamo Zagreb -0.5 (hándicap),AH|-0.5|local,0.5503,1.88,,1.82,0.0345,10.00,,G,8.80
 2026-10-15 12:58,4828928,Twente vs FC Thun,"Europa, UEFA Conference League",seguro,Gana Twente,1X2||1,0.8455,1.18,BetOnline.ag,1.18,-0.0023,,si,G,
 2026-10-15 12:58,4828928,Twente vs FC Thun,"Europa, UEFA Conference League",seguro,Más de 2.5 goles,OU|2.5|over,0.7800,1.20,William Hill,1.28,-0.0640,,si,P,
 2026-10-15 12:58,4828928,Twente vs FC Thun,"Europa, UEFA Conference League",modelo,Más de 8.5 córners,CORN|8.5|over,0.6744,,,1.48,,,si,P,
@@ -909,3 +909,4 @@ fecha,game_id,partido,liga,tipo,mercado,clave,prob,cuota,casa,cuota_justa,ev,sta
 2026-10-15 15:56,4828730+4828928,Olympique Marsella vs Olympiacos / Twente vs FC Thun,,ticket2,Menos de 1.5 goles en el 1T + Más de 2.5 goles,,0.5795,1.73,,1.73,0.0013,10.00,,P,-10.00
 2026-10-15 15:56,4828927+4828739,Hearts vs FC Nordsjaelland / N.E.C. Nijmegen vs Levski Sofia,,ticket2,Menos de 4.5 goles + N.E.C. Nijmegen recibe gol,,0.5460,1.88,,1.83,0.0237,10.00,,G,8.75
 2026-10-15 15:56,4828931+4828733,Atalanta vs Pafos FC / Jagiellonia vs FC Ararat-Armenia,,ticket2,Menos de 2.5 goles en el 1T + Jagiellonia recibe gol,,0.5264,1.98,,1.90,0.0404,10.00,,P,-10.00
+2026-10-15 16:06,4828729+4828929,Dinamo Zagreb vs Anderlecht / FC Copenhague vs SC Braga,,ticket2,Dinamo Zagreb o empate + Menos de 1.5 goles en el 1T,,0.5910,1.70,,1.69,0.0046,10.00,,G,7.00
