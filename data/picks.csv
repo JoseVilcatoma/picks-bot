@@ -665,10 +665,10 @@ fecha,game_id,partido,liga,tipo,mercado,clave,prob,cuota,casa,cuota_justa,ev,sta
 2026-10-14 16:10,4858860,Atlético Mineiro vs Montevideo City Torque,"Sudamerica, CONMEBOL Copa Sudamericana - Semifinales",modelo,Menos de 6.5 tarjetas,CARDS|6.5|under,0.6643,,,1.51,,,si,G,
 2026-10-14 16:10,4858860,Atlético Mineiro vs Montevideo City Torque,"Sudamerica, CONMEBOL Copa Sudamericana - Semifinales",ticket,Menos de 2.5 goles,OU|2.5|under,0.5643,1.86,,1.77,0.0496,10.00,,P,-10.00
 2026-10-14 16:10,4858860,Atlético Mineiro vs Montevideo City Torque,"Sudamerica, CONMEBOL Copa Sudamericana - Semifinales",crear,Atlético Mineiro o empate + Menos de 3.5 goles + Menos de 16.5 córners,DC||1X&OU|3.5|under&CORN|16.5|under,0.5319,,,1.88,,,,G,
-2026-10-14 18:32,4857349,Fluminense vs Palmeiras,"Sudamerica, CONMEBOL Copa Libertadores - Semifinales",seguro,Menos de 1.5 goles en el 1T,OU1T|1.5|under,0.7793,1.25,Bet365,1.28,-0.0258,,si,,
-2026-10-14 18:32,4857349,Fluminense vs Palmeiras,"Sudamerica, CONMEBOL Copa Libertadores - Semifinales",seguro,Palmeiras o empate,DC||X2,0.6912,1.40,Bet365,1.45,-0.0323,,si,,
-2026-10-14 18:32,4857349,Fluminense vs Palmeiras,"Sudamerica, CONMEBOL Copa Libertadores - Semifinales",arriesgado,Menos de 1.5 goles,OU|1.5|under,0.4216,2.50,Bet365,2.37,0.0539,,si,,
-2026-10-14 18:32,4857349,Fluminense vs Palmeiras,"Sudamerica, CONMEBOL Copa Libertadores - Semifinales",arriesgado,Palmeiras -0.5 (hándicap),AH|0.5|visita,0.3681,2.60,Bet365,2.72,-0.0430,,si,,
-2026-10-14 18:32,4857349,Fluminense vs Palmeiras,"Sudamerica, CONMEBOL Copa Libertadores - Semifinales",modelo,Menos de 3.5 goles,OU|3.5|under,0.8634,,,1.16,,,si,,
-2026-10-14 18:32,4857349,Fluminense vs Palmeiras,"Sudamerica, CONMEBOL Copa Libertadores - Semifinales",modelo,Menos de 12.5 córners,CORN|12.5|under,0.7276,,,1.37,,,si,,
-2026-10-14 18:32,4857349,Fluminense vs Palmeiras,"Sudamerica, CONMEBOL Copa Libertadores - Semifinales",ticket,Menos de 2.5 goles + Palmeiras o empate,OU|2.5|under&DC||X2,0.5090,2.07,,1.96,0.0547,10.00,,,
+2026-10-14 18:32,4857349,Fluminense vs Palmeiras,"Sudamerica, CONMEBOL Copa Libertadores - Semifinales",seguro,Menos de 1.5 goles en el 1T,OU1T|1.5|under,0.7793,1.25,Bet365,1.28,-0.0258,,si,G,
+2026-10-14 18:32,4857349,Fluminense vs Palmeiras,"Sudamerica, CONMEBOL Copa Libertadores - Semifinales",seguro,Palmeiras o empate,DC||X2,0.6912,1.40,Bet365,1.45,-0.0323,,si,G,
+2026-10-14 18:32,4857349,Fluminense vs Palmeiras,"Sudamerica, CONMEBOL Copa Libertadores - Semifinales",arriesgado,Menos de 1.5 goles,OU|1.5|under,0.4216,2.50,Bet365,2.37,0.0539,,si,P,
+2026-10-14 18:32,4857349,Fluminense vs Palmeiras,"Sudamerica, CONMEBOL Copa Libertadores - Semifinales",arriesgado,Palmeiras -0.5 (hándicap),AH|0.5|visita,0.3681,2.60,Bet365,2.72,-0.0430,,si,G,
+2026-10-14 18:32,4857349,Fluminense vs Palmeiras,"Sudamerica, CONMEBOL Copa Libertadores - Semifinales",modelo,Menos de 3.5 goles,OU|3.5|under,0.8634,,,1.16,,,si,G,
+2026-10-14 18:32,4857349,Fluminense vs Palmeiras,"Sudamerica, CONMEBOL Copa Libertadores - Semifinales",modelo,Menos de 12.5 córners,CORN|12.5|under,0.7276,,,1.37,,,si,G,
+2026-10-14 18:32,4857349,Fluminense vs Palmeiras,"Sudamerica, CONMEBOL Copa Libertadores - Semifinales",ticket,Menos de 2.5 goles + Palmeiras o empate,OU|2.5|under&DC||X2,0.5090,2.07,,1.96,0.0547,10.00,,P,-10.00

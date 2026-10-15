@@ -1419,8 +1419,8 @@
    "partido": "Fluminense vs Palmeiras",
    "liga": "Sudamerica, CONMEBOL Copa Libertadores - Semifinales",
    "inicio": "2026-10-14T19:30:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1792031188.6717918,
+   "estado": "liquidado",
+   "ultimo": 1792031796.3570154,
    "pierna": [
     {
      "gid": "4857349",
@@ -1464,7 +1464,22 @@
     }
    ],
    "xi": "28017,120107,279163,336354,430659,543186,554977,919758,2484221,3144702,51417688|334367,384001,552616,638801,659801,892506,3228073,5531840,54050192,65512282,66228710",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 1,
+    "ag": 2,
+    "ht": [
+     0,
+     1
+    ],
+    "corners": 6.0,
+    "corners_h": 6.0,
+    "corners_a": 0.0,
+    "corners_1t": 2.0,
+    "cards": 4.0,
+    "cards_h": 1.0,
+    "cards_a": 3.0
+   }
   },
   "4858860": {
    "partido": "Atlético Mineiro vs Montevideo City Torque",
