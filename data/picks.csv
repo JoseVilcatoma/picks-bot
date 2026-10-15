@@ -910,3 +910,11 @@ fecha,game_id,partido,liga,tipo,mercado,clave,prob,cuota,casa,cuota_justa,ev,sta
 2026-10-15 15:56,4828927+4828739,Hearts vs FC Nordsjaelland / N.E.C. Nijmegen vs Levski Sofia,,ticket2,Menos de 4.5 goles + N.E.C. Nijmegen recibe gol,,0.5460,1.88,,1.83,0.0237,10.00,,G,8.75
 2026-10-15 15:56,4828931+4828733,Atalanta vs Pafos FC / Jagiellonia vs FC Ararat-Armenia,,ticket2,Menos de 2.5 goles en el 1T + Jagiellonia recibe gol,,0.5264,1.98,,1.90,0.0404,10.00,,P,-10.00
 2026-10-15 16:06,4828729+4828929,Dinamo Zagreb vs Anderlecht / FC Copenhague vs SC Braga,,ticket2,Dinamo Zagreb o empate + Menos de 1.5 goles en el 1T,,0.5910,1.70,,1.69,0.0046,10.00,,G,7.00
+2026-10-15 18:32,4858847,Estudiantes de La Plata vs Flamengo,"Sudamerica, CONMEBOL Copa Libertadores - Semifinales",seguro,Menos de 1.5 goles en el 1T,OU1T|1.5|under,0.8128,1.22,Bet365,1.23,-0.0083,,si,,
+2026-10-15 18:32,4858847,Estudiantes de La Plata vs Flamengo,"Sudamerica, CONMEBOL Copa Libertadores - Semifinales",seguro,Flamengo o empate,DC||X2,0.8122,1.22,Bet365,1.23,-0.0092,,si,,
+2026-10-15 18:32,4858847,Estudiantes de La Plata vs Flamengo,"Sudamerica, CONMEBOL Copa Libertadores - Semifinales",arriesgado,Menos de 8.5 córners,CORN|8.5|under,0.4385,2.10,Bet365,2.28,-0.0791,,si,,
+2026-10-15 18:32,4858847,Estudiantes de La Plata vs Flamengo,"Sudamerica, CONMEBOL Copa Libertadores - Semifinales",arriesgado,Estudiantes de La Plata deja el arco en cero,CS||local_si,0.3261,3.00,Bet365,3.07,-0.0218,,si,,
+2026-10-15 18:32,4858847,Estudiantes de La Plata vs Flamengo,"Sudamerica, CONMEBOL Copa Libertadores - Semifinales",modelo,Menos de 11.5 córners,CORN|11.5|under,0.7055,,,1.42,,,si,,
+2026-10-15 18:32,4858847,Estudiantes de La Plata vs Flamengo,"Sudamerica, CONMEBOL Copa Libertadores - Semifinales",modelo,Más de 2.5 tarjetas,CARDS|2.5|over,0.6872,,,1.46,,,si,,
+2026-10-15 18:32,4858847,Estudiantes de La Plata vs Flamengo,"Sudamerica, CONMEBOL Copa Libertadores - Semifinales",ticket,Menos de 2.5 goles + Ambos marcan: No,OU|2.5|under&BTTS||no,0.6201,2.17,,1.61,0.3472,10.00,,,
+2026-10-15 18:32,4858847,Estudiantes de La Plata vs Flamengo,"Sudamerica, CONMEBOL Copa Libertadores - Semifinales",crear,Flamengo o empate + Menos de 3.5 goles + Menos de 13.5 córners,DC||X2&OU|3.5|under&CORN|13.5|under,0.5830,,,1.72,,,,,
