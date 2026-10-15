@@ -1572,7 +1572,7 @@
    "liga": "Europa, UEFA Conference League",
    "inicio": "2026-10-15T11:45:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792079450.7191174
+   "ultimo": 1792079697.8790107
   },
   "4828933": {
    "partido": "Riga vs Kairat Almaty",
@@ -1793,8 +1793,53 @@
    "partido": "KuPS vs Trabzonspor",
    "liga": "Europa, UEFA Conference League",
    "inicio": "2026-10-15T11:45:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1792079453.0203512
+   "estado": "enviado",
+   "ultimo": 1792079697.9577408,
+   "pierna": [
+    {
+     "gid": "4828937",
+     "partido": "KuPS vs Trabzonspor",
+     "texto": "Menos de 3.5 goles",
+     "clave": "OU|3.5|under",
+     "p": 0.7554,
+     "cuota": 1.5,
+     "casa": "Bet365",
+     "inicio": "2026-10-15T11:45:00-05:00"
+    },
+    {
+     "gid": "4828937",
+     "partido": "KuPS vs Trabzonspor",
+     "texto": "No hay empate",
+     "clave": "DC||12",
+     "p": 0.7422,
+     "cuota": 1.22,
+     "casa": "Bet365",
+     "inicio": "2026-10-15T11:45:00-05:00"
+    },
+    {
+     "gid": "4828937",
+     "partido": "KuPS vs Trabzonspor",
+     "texto": "Menos de 1.5 goles en el 1T",
+     "clave": "OU1T|1.5|under",
+     "p": 0.6888,
+     "cuota": 1.57,
+     "casa": "Bet365",
+     "inicio": "2026-10-15T11:45:00-05:00"
+    },
+    {
+     "gid": "4828937",
+     "partido": "KuPS vs Trabzonspor",
+     "texto": "Gana Trabzonspor",
+     "clave": "1X2||2",
+     "p": 0.6026,
+     "cuota": 1.5,
+     "casa": "Unibet (NL)",
+     "inicio": "2026-10-15T11:45:00-05:00"
+    }
+   ],
+   "en_ticket": true,
+   "xi": "313023,3088985,3150676,3517585,58438744,67638217,67660834,67660835,67694968,71352370,77081581|334148,347901,525431,612389,1858669,47164062,50854725,52332927,55063353,61102280,70789585",
+   "conf": true
   },
   "4828938": {
    "partido": "KAA Gent vs Aarhus",
@@ -2194,7 +2239,8 @@
     }
    ],
    "xi": "403672,844534,4941908,12759586,54261156,60972902,62195479,66430617,71502222,75259442,77138837|379422,571198,1838950,3143594,3183310,49658641,50484078,50752231,52342774,64697647,75390595",
-   "conf": true
+   "conf": true,
+   "en_ticket": true
   },
   "4828744": {
    "partido": "Sparta Praga vs Lillestrom",
@@ -2818,6 +2864,33 @@
    "p": 0.506571,
    "cuota": 1.9764000000000002,
    "t": 1792079202.1567273
+  },
+  {
+   "piernas": [
+    {
+     "gid": "4828937",
+     "partido": "KuPS vs Trabzonspor",
+     "texto": "Menos de 3.5 goles",
+     "clave": "OU|3.5|under",
+     "p": 0.7554,
+     "cuota": 1.5,
+     "casa": "Bet365",
+     "inicio": "2026-10-15T11:45:00-05:00"
+    },
+    {
+     "gid": "4828743",
+     "partido": "Lyon vs Crystal Palace",
+     "texto": "Crystal Palace recibe gol",
+     "clave": "CS||visita_no",
+     "p": 0.7829,
+     "cuota": 1.2,
+     "casa": "Bet365",
+     "inicio": "2026-10-15T11:45:00-05:00"
+    }
+   ],
+   "p": 0.59140266,
+   "cuota": 1.7999999999999998,
+   "t": 1792079699.2043302
   }
  ]
 }
