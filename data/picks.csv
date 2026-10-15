@@ -720,12 +720,12 @@ fecha,game_id,partido,liga,tipo,mercado,clave,prob,cuota,casa,cuota_justa,ev,sta
 2026-10-15 10:42,4828746,Red Bull Salzburgo vs AC Milan,"Europa, UEFA Europa League",modelo,Menos de 11.5 córners,CORN|11.5|under,0.7442,,,1.34,,,si,G,
 2026-10-15 10:42,4828746,Red Bull Salzburgo vs AC Milan,"Europa, UEFA Europa League",modelo,Menos de 6.5 tarjetas,CARDS|6.5|under,0.6643,,,1.51,,,si,G,
 2026-10-15 10:42,4828746,Red Bull Salzburgo vs AC Milan,"Europa, UEFA Europa League",ticket,Red Bull Salzburgo o empate,DC||1X,0.5481,1.83,,1.82,0.0031,10.00,,P,-10.00
-2026-10-15 10:42,4828940,HNK Hajduk Split vs Ajax,"Europa, UEFA Conference League",seguro,No hay empate,DC||12,0.7669,1.18,Bet365,1.30,-0.0950,,si,,
-2026-10-15 10:42,4828940,HNK Hajduk Split vs Ajax,"Europa, UEFA Conference League",seguro,Más de 0.5 goles en el 1T,OU1T|0.5|over,0.7360,1.25,Bet365,1.36,-0.0801,,si,,
-2026-10-15 10:42,4828940,HNK Hajduk Split vs Ajax,"Europa, UEFA Conference League",modelo,Más de 1.5 goles,OU|1.5|over,0.8078,,,1.24,,,si,,
-2026-10-15 10:42,4828940,HNK Hajduk Split vs Ajax,"Europa, UEFA Conference League",modelo,Menos de 10.5 córners,CORN|10.5|under,0.7082,,,1.41,,,si,,
-2026-10-15 10:42,4828940,HNK Hajduk Split vs Ajax,"Europa, UEFA Conference League",ticket,Ajax recibe gol + Más de 2.5 goles,CS||visita_no&OU|2.5|over,0.4995,2.08,,2.00,0.0394,10.00,,,
-2026-10-15 10:42,4828940,HNK Hajduk Split vs Ajax,"Europa, UEFA Conference League",crear,No hay empate + Más de 1.5 goles + Más de 3.5 córners,DC||12&OU|1.5|over&CORN|3.5|over,0.5360,,,1.87,,,,,
+2026-10-15 10:42,4828940,HNK Hajduk Split vs Ajax,"Europa, UEFA Conference League",seguro,No hay empate,DC||12,0.7669,1.18,Bet365,1.30,-0.0950,,si,G,
+2026-10-15 10:42,4828940,HNK Hajduk Split vs Ajax,"Europa, UEFA Conference League",seguro,Más de 0.5 goles en el 1T,OU1T|0.5|over,0.7360,1.25,Bet365,1.36,-0.0801,,si,G,
+2026-10-15 10:42,4828940,HNK Hajduk Split vs Ajax,"Europa, UEFA Conference League",modelo,Más de 1.5 goles,OU|1.5|over,0.8078,,,1.24,,,si,G,
+2026-10-15 10:42,4828940,HNK Hajduk Split vs Ajax,"Europa, UEFA Conference League",modelo,Menos de 10.5 córners,CORN|10.5|under,0.7082,,,1.41,,,si,G,
+2026-10-15 10:42,4828940,HNK Hajduk Split vs Ajax,"Europa, UEFA Conference League",ticket,Ajax recibe gol + Más de 2.5 goles,CS||visita_no&OU|2.5|over,0.4995,2.08,,2.00,0.0394,10.00,,G,10.80
+2026-10-15 10:42,4828940,HNK Hajduk Split vs Ajax,"Europa, UEFA Conference League",crear,No hay empate + Más de 1.5 goles + Más de 3.5 córners,DC||12&OU|1.5|over&CORN|3.5|over,0.5360,,,1.87,,,,G,
 2026-10-15 10:46,4828934,CSKA Sofia vs Monaco,"Europa, UEFA Conference League",seguro,No hay empate,DC||12,0.7432,1.20,Bet365,1.35,-0.1081,,si,G,
 2026-10-15 10:46,4828934,CSKA Sofia vs Monaco,"Europa, UEFA Conference League",seguro,Más de 1.5 goles,OU|1.5|over,0.7301,1.17,Bet365,1.37,-0.1458,,si,G,
 2026-10-15 10:46,4828934,CSKA Sofia vs Monaco,"Europa, UEFA Conference League",modelo,Menos de 6.5 tarjetas,CARDS|6.5|under,0.7046,,,1.42,,,si,G,
