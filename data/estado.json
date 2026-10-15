@@ -1566,6 +1566,55 @@
     "cards_h": 1.0,
     "cards_a": 2.0
    }
+  },
+  "4828932": {
+   "partido": "CS Universitatea Craiova vs Getafe CF",
+   "liga": "Europa, UEFA Conference League",
+   "inicio": "2026-10-15T11:45:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4828933": {
+   "partido": "Riga vs Kairat Almaty",
+   "liga": "Europa, UEFA Conference League",
+   "inicio": "2026-10-15T11:45:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4828934": {
+   "partido": "CSKA Sofia vs Monaco",
+   "liga": "Europa, UEFA Conference League",
+   "inicio": "2026-10-15T11:45:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4828935": {
+   "partido": "Panathinaikos vs Borac Banjaluka",
+   "liga": "Europa, UEFA Conference League",
+   "inicio": "2026-10-15T11:45:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4828936": {
+   "partido": "Mjällby AIF vs Inter Escaldes",
+   "liga": "Europa, UEFA Conference League",
+   "inicio": "2026-10-15T11:45:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4828937": {
+   "partido": "KuPS vs Trabzonspor",
+   "liga": "Europa, UEFA Conference League",
+   "inicio": "2026-10-15T11:45:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4828938": {
+   "partido": "KAA Gent vs Aarhus",
+   "liga": "Europa, UEFA Conference League",
+   "inicio": "2026-10-15T11:45:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
   }
  },
  "web": {
@@ -1669,7 +1718,14 @@
   "4828474": 1791989093109,
   "4828475": 1791989093468,
   "4857349": 1791989099518,
-  "4858860": 1791989098967
+  "4858860": 1791989098967,
+  "4828932": 1792062444258,
+  "4828933": 1792062444588,
+  "4828934": 1792062444914,
+  "4828935": 1792062445804,
+  "4828936": 1792062446065,
+  "4828937": 1792062446777,
+  "4828938": 1792062447066
  },
  "tickets": []
 }
