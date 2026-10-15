@@ -1572,42 +1572,165 @@
    "liga": "Europa, UEFA Conference League",
    "inicio": "2026-10-15T11:45:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792078942.014811
+   "ultimo": 1792079194.8548758
   },
   "4828933": {
    "partido": "Riga vs Kairat Almaty",
    "liga": "Europa, UEFA Conference League",
    "inicio": "2026-10-15T11:45:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792078942.1549637
+   "ultimo": 1792079194.9665687
   },
   "4828934": {
    "partido": "CSKA Sofia vs Monaco",
    "liga": "Europa, UEFA Conference League",
    "inicio": "2026-10-15T11:45:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1792078942.17671
+   "estado": "enviado",
+   "ultimo": 1792079194.9981616,
+   "pierna": [
+    {
+     "gid": "4828934",
+     "partido": "CSKA Sofia vs Monaco",
+     "texto": "No hay empate",
+     "clave": "DC||12",
+     "p": 0.7432,
+     "cuota": 1.2,
+     "casa": "Bet365",
+     "inicio": "2026-10-15T11:45:00-05:00"
+    },
+    {
+     "gid": "4828934",
+     "partido": "CSKA Sofia vs Monaco",
+     "texto": "Más de 0.5 goles en el 1T",
+     "clave": "OU1T|0.5|over",
+     "p": 0.6861,
+     "cuota": 1.25,
+     "casa": "Bet365",
+     "inicio": "2026-10-15T11:45:00-05:00"
+    },
+    {
+     "gid": "4828934",
+     "partido": "CSKA Sofia vs Monaco",
+     "texto": "Monaco recibe gol",
+     "clave": "CS||visita_no",
+     "p": 0.5757,
+     "cuota": 1.57,
+     "casa": "Bet365",
+     "inicio": "2026-10-15T11:45:00-05:00"
+    },
+    {
+     "gid": "4828934",
+     "partido": "CSKA Sofia vs Monaco",
+     "texto": "Más de 2.5 goles",
+     "clave": "OU|2.5|over",
+     "p": 0.4784,
+     "cuota": 1.61,
+     "casa": "1xBet",
+     "inicio": "2026-10-15T11:45:00-05:00"
+    }
+   ],
+   "xi": "471898,844352,918061,1553127,3261466,3575623,51484363,56716875,58229434,71899312,77783845|356467,386642,6830594,38084580,53213421,66794325,67452514,67934945,70796239,70951426,71114493",
+   "conf": true
   },
   "4828935": {
    "partido": "Panathinaikos vs Borac Banjaluka",
    "liga": "Europa, UEFA Conference League",
    "inicio": "2026-10-15T11:45:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1792078942.1993515
+   "estado": "enviado",
+   "ultimo": 1792079196.4272463,
+   "pierna": [
+    {
+     "gid": "4828935",
+     "partido": "Panathinaikos vs Borac Banjaluka",
+     "texto": "Menos de 4.5 goles",
+     "clave": "OU|4.5|under",
+     "p": 0.806,
+     "cuota": 1.22,
+     "casa": "Bet365",
+     "inicio": "2026-10-15T11:45:00-05:00"
+    },
+    {
+     "gid": "4828935",
+     "partido": "Panathinaikos vs Borac Banjaluka",
+     "texto": "Más de 0.5 goles en el 1T",
+     "clave": "OU1T|0.5|over",
+     "p": 0.7345,
+     "cuota": 1.25,
+     "casa": "Bet365",
+     "inicio": "2026-10-15T11:45:00-05:00"
+    },
+    {
+     "gid": "4828935",
+     "partido": "Panathinaikos vs Borac Banjaluka",
+     "texto": "Menos de 3.5 goles",
+     "clave": "OU|3.5|under",
+     "p": 0.6386,
+     "cuota": 1.57,
+     "casa": "Bet365",
+     "inicio": "2026-10-15T11:45:00-05:00"
+    },
+    {
+     "gid": "4828935",
+     "partido": "Panathinaikos vs Borac Banjaluka",
+     "texto": "Menos de 1.5 goles en el 1T",
+     "clave": "OU1T|1.5|under",
+     "p": 0.607,
+     "cuota": 1.62,
+     "casa": "Bet365",
+     "inicio": "2026-10-15T11:45:00-05:00"
+    },
+    {
+     "gid": "4828935",
+     "partido": "Panathinaikos vs Borac Banjaluka",
+     "texto": "Más de 2.5 goles",
+     "clave": "OU|2.5|over",
+     "p": 0.5801,
+     "cuota": 1.53,
+     "casa": "Bet365",
+     "inicio": "2026-10-15T11:45:00-05:00"
+    }
+   ],
+   "xi": "277740,469309,560412,611022,3083454,3332037,47483753,55141793,60420058,61006564,75525881|312760,1196602,2079643,3223870,3695816,50482443,50929001,50929003,60159640,66252737,77049433",
+   "conf": true,
+   "en_ticket": true
   },
   "4828936": {
    "partido": "Mjällby AIF vs Inter Escaldes",
    "liga": "Europa, UEFA Conference League",
    "inicio": "2026-10-15T11:45:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1792078942.2183285
+   "estado": "enviado",
+   "ultimo": 1792079197.528593,
+   "pierna": [
+    {
+     "gid": "4828936",
+     "partido": "Mjällby AIF vs Inter Escaldes",
+     "texto": "Menos de 3.5 goles",
+     "clave": "OU|3.5|under",
+     "p": 0.6877,
+     "cuota": 1.4,
+     "casa": "Bet365",
+     "inicio": "2026-10-15T11:45:00-05:00"
+    },
+    {
+     "gid": "4828936",
+     "partido": "Mjällby AIF vs Inter Escaldes",
+     "texto": "Menos de 1.5 goles en el 1T",
+     "clave": "OU1T|1.5|under",
+     "p": 0.6406,
+     "cuota": 1.5,
+     "casa": "Bet365",
+     "inicio": "2026-10-15T11:45:00-05:00"
+    }
+   ],
+   "xi": "406746,16933345,33856001,48520020,51181200,54132367,65905279,66124225,66489376,67752257,71016853|15557610,70016025,70206094,70206095,70206096,75228215,75235504,78063976,78067422,78067424,78770235",
+   "conf": true
   },
   "4828937": {
    "partido": "KuPS vs Trabzonspor",
    "liga": "Europa, UEFA Conference League",
    "inicio": "2026-10-15T11:45:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792078942.243483
+   "ultimo": 1792079199.8377035
   },
   "4828938": {
    "partido": "KAA Gent vs Aarhus",
@@ -2064,8 +2187,52 @@
    "partido": "NK Celje vs Omonia",
    "liga": "Europa, UEFA Europa League",
    "inicio": "2026-10-15T11:45:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1792078945.6297982
+   "estado": "enviado",
+   "ultimo": 1792079199.870249,
+   "pierna": [
+    {
+     "gid": "4828745",
+     "partido": "NK Celje vs Omonia",
+     "texto": "No hay empate",
+     "clave": "DC||12",
+     "p": 0.7185,
+     "cuota": 1.33,
+     "casa": "Bet365",
+     "inicio": "2026-10-15T11:45:00-05:00"
+    },
+    {
+     "gid": "4828745",
+     "partido": "NK Celje vs Omonia",
+     "texto": "Menos de 3.5 goles",
+     "clave": "OU|3.5|under",
+     "p": 0.6957,
+     "cuota": 1.4,
+     "casa": "Bet365",
+     "inicio": "2026-10-15T11:45:00-05:00"
+    },
+    {
+     "gid": "4828745",
+     "partido": "NK Celje vs Omonia",
+     "texto": "Omonia o empate",
+     "clave": "DC||X2",
+     "p": 0.6806,
+     "cuota": 1.36,
+     "casa": "Bet365",
+     "inicio": "2026-10-15T11:45:00-05:00"
+    },
+    {
+     "gid": "4828745",
+     "partido": "NK Celje vs Omonia",
+     "texto": "Menos de 1.5 goles en el 1T",
+     "clave": "OU1T|1.5|under",
+     "p": 0.6496,
+     "cuota": 1.44,
+     "casa": "Bet365",
+     "inicio": "2026-10-15T11:45:00-05:00"
+    }
+   ],
+   "xi": "30125289,54479682,55285540,55506220,57110258,61132480,66221740,66644548,75259910,77028698,77061715|358014,454398,454727,468673,511624,548154,9075717,38929015,55031369,70778692,71351405",
+   "conf": true
   },
   "4828746": {
    "partido": "Red Bull Salzburgo vs AC Milan",
@@ -2188,8 +2355,53 @@
    "partido": "KF Egnatia vs FC Midtjylland",
    "liga": "Europa, UEFA Conference League",
    "inicio": "2026-10-15T11:45:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1792078946.3494456
+   "estado": "enviado",
+   "ultimo": 1792079201.0565994,
+   "pierna": [
+    {
+     "gid": "4828939",
+     "partido": "KF Egnatia vs FC Midtjylland",
+     "texto": "No hay empate",
+     "clave": "DC||12",
+     "p": 0.7239,
+     "cuota": 1.2,
+     "casa": "Bet365",
+     "inicio": "2026-10-15T11:45:00-05:00"
+    },
+    {
+     "gid": "4828939",
+     "partido": "KF Egnatia vs FC Midtjylland",
+     "texto": "Más de 1.5 goles",
+     "clave": "OU|1.5|over",
+     "p": 0.6874,
+     "cuota": 1.25,
+     "casa": "Bet365",
+     "inicio": "2026-10-15T11:45:00-05:00"
+    },
+    {
+     "gid": "4828939",
+     "partido": "KF Egnatia vs FC Midtjylland",
+     "texto": "Más de 0.5 goles en el 1T",
+     "clave": "OU1T|0.5|over",
+     "p": 0.6575,
+     "cuota": 1.33,
+     "casa": "Bet365",
+     "inicio": "2026-10-15T11:45:00-05:00"
+    },
+    {
+     "gid": "4828939",
+     "partido": "KF Egnatia vs FC Midtjylland",
+     "texto": "FC Midtjylland recibe gol",
+     "clave": "CS||visita_no",
+     "p": 0.6285,
+     "cuota": 1.62,
+     "casa": "Bet365",
+     "inicio": "2026-10-15T11:45:00-05:00"
+    }
+   ],
+   "en_ticket": true,
+   "xi": "4262966,30416727,50214085,56468628,66200682,67644460,67666217,70776778,77307836,77667704,78070682|491380,2722318,3517741,46556476,60733057,63636140,64878964,65097010,67629182,67655865,77535445",
+   "conf": true
   },
   "4828940": {
    "partido": "HNK Hajduk Split vs Ajax",
@@ -2246,8 +2458,72 @@
    "partido": "FC Lugano vs Estrella Roja Belgrado",
    "liga": "Europa, UEFA Conference League",
    "inicio": "2026-10-15T11:45:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1792078947.3132815
+   "estado": "enviado",
+   "ultimo": 1792079202.1568809,
+   "pierna": [
+    {
+     "gid": "4828941",
+     "partido": "FC Lugano vs Estrella Roja Belgrado",
+     "texto": "No hay empate",
+     "clave": "DC||12",
+     "p": 0.7325,
+     "cuota": 1.29,
+     "casa": "Bet365",
+     "inicio": "2026-10-15T11:45:00-05:00"
+    },
+    {
+     "gid": "4828941",
+     "partido": "FC Lugano vs Estrella Roja Belgrado",
+     "texto": "FC Lugano recibe gol",
+     "clave": "CS||local_no",
+     "p": 0.7265,
+     "cuota": 1.28,
+     "casa": "Bet365",
+     "inicio": "2026-10-15T11:45:00-05:00"
+    },
+    {
+     "gid": "4828941",
+     "partido": "FC Lugano vs Estrella Roja Belgrado",
+     "texto": "Más de 0.5 goles en el 1T",
+     "clave": "OU1T|0.5|over",
+     "p": 0.7205,
+     "cuota": 1.3,
+     "casa": "Bet365",
+     "inicio": "2026-10-15T11:45:00-05:00"
+    },
+    {
+     "gid": "4828941",
+     "partido": "FC Lugano vs Estrella Roja Belgrado",
+     "texto": "Ambos marcan: Sí",
+     "clave": "BTTS||si",
+     "p": 0.5907,
+     "cuota": 1.53,
+     "casa": "Bet365",
+     "inicio": "2026-10-15T11:45:00-05:00"
+    },
+    {
+     "gid": "4828941",
+     "partido": "FC Lugano vs Estrella Roja Belgrado",
+     "texto": "Estrella Roja Belgrado o empate",
+     "clave": "DC||X2",
+     "p": 0.586,
+     "cuota": 1.57,
+     "casa": "Bet365",
+     "inicio": "2026-10-15T11:45:00-05:00"
+    },
+    {
+     "gid": "4828941",
+     "partido": "FC Lugano vs Estrella Roja Belgrado",
+     "texto": "Estrella Roja Belgrado +0.5 (hándicap)",
+     "clave": "AH|-0.5|visita",
+     "p": 0.5772,
+     "cuota": 1.62,
+     "casa": "Bet365",
+     "inicio": "2026-10-15T11:45:00-05:00"
+    }
+   ],
+   "xi": "351032,393371,470684,898444,3071295,3627551,50685666,55546056,60467214,66319800,77660495|117757,548570,3051960,3527023,13420232,55500534,61072425,70775503,76946286,77387197,77387198",
+   "conf": true
   },
   "4858847": {
    "partido": "Estudiantes de La Plata vs Flamengo",
@@ -2451,6 +2727,33 @@
    "p": 0.54857504,
    "cuota": 1.8359999999999999,
    "t": 1792078945.1963072
+  },
+  {
+   "piernas": [
+    {
+     "gid": "4828939",
+     "partido": "KF Egnatia vs FC Midtjylland",
+     "texto": "FC Midtjylland recibe gol",
+     "clave": "CS||visita_no",
+     "p": 0.6285,
+     "cuota": 1.62,
+     "casa": "Bet365",
+     "inicio": "2026-10-15T11:45:00-05:00"
+    },
+    {
+     "gid": "4828935",
+     "partido": "Panathinaikos vs Borac Banjaluka",
+     "texto": "Menos de 4.5 goles",
+     "clave": "OU|4.5|under",
+     "p": 0.806,
+     "cuota": 1.22,
+     "casa": "Bet365",
+     "inicio": "2026-10-15T11:45:00-05:00"
+    }
+   ],
+   "p": 0.506571,
+   "cuota": 1.9764000000000002,
+   "t": 1792079202.1567273
   }
  ]
 }
