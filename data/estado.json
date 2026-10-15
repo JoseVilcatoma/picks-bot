@@ -1791,56 +1791,115 @@
    "liga": "Europa, UEFA Europa League",
    "inicio": "2026-10-15T14:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792086599.6087291
+   "ultimo": 1792086843.3541043
   },
   "4828730": {
    "partido": "Olympique Marsella vs Olympiacos",
    "liga": "Europa, UEFA Europa League",
    "inicio": "2026-10-15T14:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792086599.7659247
+   "ultimo": 1792086843.5568876
   },
   "4828731": {
    "partido": "Celta de Vigo vs Juventus",
    "liga": "Europa, UEFA Europa League",
    "inicio": "2026-10-15T14:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1792086599.7886267
+   "estado": "enviado",
+   "ultimo": 1792086843.5825593,
+   "pierna": [
+    {
+     "gid": "4828731",
+     "partido": "Celta de Vigo vs Juventus",
+     "texto": "Menos de 3.5 goles",
+     "clave": "OU|3.5|under",
+     "p": 0.878,
+     "cuota": 1.25,
+     "casa": "Bet365",
+     "inicio": "2026-10-15T14:00:00-05:00"
+    },
+    {
+     "gid": "4828731",
+     "partido": "Celta de Vigo vs Juventus",
+     "texto": "Menos de 1.5 goles en el 1T",
+     "clave": "OU1T|1.5|under",
+     "p": 0.8042,
+     "cuota": 1.33,
+     "casa": "Bet365",
+     "inicio": "2026-10-15T14:00:00-05:00"
+    },
+    {
+     "gid": "4828731",
+     "partido": "Celta de Vigo vs Juventus",
+     "texto": "Juventus o empate",
+     "clave": "DC||X2",
+     "p": 0.719,
+     "cuota": 1.29,
+     "casa": "Bet365",
+     "inicio": "2026-10-15T14:00:00-05:00"
+    },
+    {
+     "gid": "4828731",
+     "partido": "Celta de Vigo vs Juventus",
+     "texto": "No hay empate",
+     "clave": "DC||12",
+     "p": 0.6486,
+     "cuota": 1.36,
+     "casa": "Bet365",
+     "inicio": "2026-10-15T14:00:00-05:00"
+    }
+   ],
+   "xi": "239183,889139,3483114,51680202,54721275,60412600,61322133,64152922,71060391,72695371,72695372|3260720,3344568,3725457,4873827,40731942,50999036,51220665,52275621,52338804,61206789,75535290",
+   "conf": true,
+   "en_ticket": true
   },
   "4828732": {
    "partido": "Bournemouth vs Sturm Graz",
    "liga": "Europa, UEFA Europa League",
    "inicio": "2026-10-15T14:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792086599.8203013
+   "ultimo": 1792086845.154969
   },
   "4828733": {
    "partido": "Jagiellonia vs FC Ararat-Armenia",
    "liga": "Europa, UEFA Europa League",
    "inicio": "2026-10-15T14:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792086599.8454883
+   "ultimo": 1792086845.17659
   },
   "4828734": {
    "partido": "Rennes vs OFI Crete",
    "liga": "Europa, UEFA Europa League",
    "inicio": "2026-10-15T14:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792086599.8711386
+   "ultimo": 1792086845.1986983
   },
   "4828735": {
    "partido": "Benfica vs Celtic",
    "liga": "Europa, UEFA Europa League",
    "inicio": "2026-10-15T14:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1792086599.8970082
+   "estado": "enviado",
+   "ultimo": 1792086845.2193308,
+   "pierna": [
+    {
+     "gid": "4828735",
+     "partido": "Benfica vs Celtic",
+     "texto": "Más de 2.5 goles",
+     "clave": "OU|2.5|over",
+     "p": 0.6056,
+     "cuota": 1.28,
+     "casa": "Bet365",
+     "inicio": "2026-10-15T14:00:00-05:00"
+    }
+   ],
+   "xi": "248241,541978,906897,1160659,3152786,13285267,35045013,51394932,51813758,56751723,65642981|376772,656203,1089351,7717231,10075353,53423341,58254097,62087052,66717369,75233698,76530932",
+   "conf": true
   },
   "4828736": {
    "partido": "Hoffenheim vs Besiktas",
    "liga": "Europa, UEFA Europa League",
    "inicio": "2026-10-15T14:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792086599.9178104
+   "ultimo": 1792086846.1773558
   },
   "4828737": {
    "partido": "AZ Alkmaar vs Hapoel Beer Sheva",
@@ -1888,15 +1947,80 @@
    "partido": "Ferencvaros vs Viktoria Plzen",
    "liga": "Europa, UEFA Europa League",
    "inicio": "2026-10-15T14:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1792086599.9422038
+   "estado": "enviado",
+   "ultimo": 1792086846.1989508,
+   "pierna": [
+    {
+     "gid": "4828738",
+     "partido": "Ferencvaros vs Viktoria Plzen",
+     "texto": "Más de 1.5 goles",
+     "clave": "OU|1.5|over",
+     "p": 0.7968,
+     "cuota": 1.2,
+     "casa": "Bet365",
+     "inicio": "2026-10-15T14:00:00-05:00"
+    },
+    {
+     "gid": "4828738",
+     "partido": "Ferencvaros vs Viktoria Plzen",
+     "texto": "Ferencvaros o empate",
+     "clave": "DC||1X",
+     "p": 0.7618,
+     "cuota": 1.25,
+     "casa": "Bet365",
+     "inicio": "2026-10-15T14:00:00-05:00"
+    },
+    {
+     "gid": "4828738",
+     "partido": "Ferencvaros vs Viktoria Plzen",
+     "texto": "No hay empate",
+     "clave": "DC||12",
+     "p": 0.756,
+     "cuota": 1.25,
+     "casa": "Bet365",
+     "inicio": "2026-10-15T14:00:00-05:00"
+    },
+    {
+     "gid": "4828738",
+     "partido": "Ferencvaros vs Viktoria Plzen",
+     "texto": "Más de 0.5 goles en el 1T",
+     "clave": "OU1T|0.5|over",
+     "p": 0.7345,
+     "cuota": 1.29,
+     "casa": "Bet365",
+     "inicio": "2026-10-15T14:00:00-05:00"
+    },
+    {
+     "gid": "4828738",
+     "partido": "Ferencvaros vs Viktoria Plzen",
+     "texto": "Ferencvaros recibe gol",
+     "clave": "CS||local_no",
+     "p": 0.6956,
+     "cuota": 1.33,
+     "casa": "Bet365",
+     "inicio": "2026-10-15T14:00:00-05:00"
+    },
+    {
+     "gid": "4828738",
+     "partido": "Ferencvaros vs Viktoria Plzen",
+     "texto": "Ambos marcan: Sí",
+     "clave": "BTTS||si",
+     "p": 0.5841,
+     "cuota": 1.57,
+     "casa": "Bet365",
+     "inicio": "2026-10-15T14:00:00-05:00"
+    }
+   ],
+   "en_ticket": true,
+   "xi": "387256,494280,735255,4930944,47391347,48158325,50441422,50778658,57831054,65660556,68659348|498410,52479086,65497180,66222565,66273859,67867317,67877641,71423535,72728949,75232125,75232127",
+   "conf": true
   },
   "4828739": {
    "partido": "N.E.C. Nijmegen vs Levski Sofia",
    "liga": "Europa, UEFA Europa League",
    "inicio": "2026-10-15T14:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792086599.961816
+   "ultimo": 1792086847.286259
   },
   "4828740": {
    "partido": "Union St. Gilloise vs Real Sociedad",
@@ -2283,57 +2407,194 @@
    "partido": "Brann vs Lincoln Red Imps",
    "liga": "Europa, UEFA Conference League",
    "inicio": "2026-10-15T14:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1792086599.9849613
+   "estado": "enviado",
+   "ultimo": 1792086847.3071477,
+   "pierna": [
+    {
+     "gid": "4828924",
+     "partido": "Brann vs Lincoln Red Imps",
+     "texto": "Menos de 2.5 goles en el 1T",
+     "clave": "OU1T|2.5|under",
+     "p": 0.8071,
+     "cuota": 1.22,
+     "casa": "Bet365",
+     "inicio": "2026-10-15T14:00:00-05:00"
+    },
+    {
+     "gid": "4828924",
+     "partido": "Brann vs Lincoln Red Imps",
+     "texto": "Más de 0.5 goles en el 1T",
+     "clave": "OU1T|0.5|over",
+     "p": 0.7605,
+     "cuota": 1.2,
+     "casa": "Bet365",
+     "inicio": "2026-10-15T14:00:00-05:00"
+    }
+   ],
+   "xi": "592223,3195483,12337663,15579689,16052227,50752233,58801589,59020587,61406280,64728519,71341362|174163,568348,3176296,3199841,3205149,50945736,55908240,75230855,75230896,78064588,78064812",
+   "conf": true,
+   "en_ticket": true
   },
   "4828925": {
    "partido": "Friburgo vs FK Jablonec",
    "liga": "Europa, UEFA Conference League",
    "inicio": "2026-10-15T14:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1792086600.0139484
+   "estado": "enviado",
+   "ultimo": 1792086848.9259698,
+   "pierna": [
+    {
+     "gid": "4828925",
+     "partido": "Friburgo vs FK Jablonec",
+     "texto": "Menos de 3.5 goles",
+     "clave": "OU|3.5|under",
+     "p": 0.7586,
+     "cuota": 1.56,
+     "casa": "LeoVegas (SE)",
+     "inicio": "2026-10-15T14:00:00-05:00"
+    },
+    {
+     "gid": "4828925",
+     "partido": "Friburgo vs FK Jablonec",
+     "texto": "Menos de 1.5 goles en el 1T",
+     "clave": "OU1T|1.5|under",
+     "p": 0.7004,
+     "cuota": 1.57,
+     "casa": "Bet365",
+     "inicio": "2026-10-15T14:00:00-05:00"
+    },
+    {
+     "gid": "4828925",
+     "partido": "Friburgo vs FK Jablonec",
+     "texto": "Gana Friburgo",
+     "clave": "1X2||1",
+     "p": 0.6905,
+     "cuota": 1.25,
+     "casa": "BetOnline.ag",
+     "inicio": "2026-10-15T14:00:00-05:00"
+    },
+    {
+     "gid": "4828925",
+     "partido": "Friburgo vs FK Jablonec",
+     "texto": "Más de 0.5 goles en el 1T",
+     "clave": "OU1T|0.5|over",
+     "p": 0.6599,
+     "cuota": 1.25,
+     "casa": "Bet365",
+     "inicio": "2026-10-15T14:00:00-05:00"
+    },
+    {
+     "gid": "4828925",
+     "partido": "Friburgo vs FK Jablonec",
+     "texto": "Ambos marcan: No",
+     "clave": "BTTS||no",
+     "p": 0.6294,
+     "cuota": 1.57,
+     "casa": "Bet365",
+     "inicio": "2026-10-15T14:00:00-05:00"
+    },
+    {
+     "gid": "4828925",
+     "partido": "Friburgo vs FK Jablonec",
+     "texto": "Friburgo deja el arco en cero",
+     "clave": "CS||local_si",
+     "p": 0.5697,
+     "cuota": 1.62,
+     "casa": "Bet365",
+     "inicio": "2026-10-15T14:00:00-05:00"
+    }
+   ],
+   "en_ticket": true,
+   "xi": "220585,323480,335061,359225,408400,593193,49988887,61066400,61406653,70780165,75462629|481652,535930,8551515,39608944,50194940,51032549,60932002,61003087,66423881,67660464,75258555",
+   "conf": true
   },
   "4828926": {
    "partido": "STVV vs FC Iberia 1999",
    "liga": "Europa, UEFA Conference League",
    "inicio": "2026-10-15T14:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792086600.04137
+   "ultimo": 1792086849.5970013
   },
   "4828927": {
    "partido": "Hearts vs FC Nordsjaelland",
    "liga": "Europa, UEFA Conference League",
    "inicio": "2026-10-15T14:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792086600.0646088
+   "ultimo": 1792086849.619673
   },
   "4828928": {
    "partido": "Twente vs FC Thun",
    "liga": "Europa, UEFA Conference League",
    "inicio": "2026-10-15T14:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792086600.0885503
+   "ultimo": 1792086849.639745
   },
   "4828929": {
    "partido": "FC Copenhague vs SC Braga",
    "liga": "Europa, UEFA Conference League",
    "inicio": "2026-10-15T14:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1792086600.1112685
+   "estado": "enviado",
+   "ultimo": 1792086849.6817622,
+   "pierna": [
+    {
+     "gid": "4828929",
+     "partido": "FC Copenhague vs SC Braga",
+     "texto": "Menos de 3.5 goles",
+     "clave": "OU|3.5|under",
+     "p": 0.7997,
+     "cuota": 1.28,
+     "casa": "Bet365",
+     "inicio": "2026-10-15T14:00:00-05:00"
+    },
+    {
+     "gid": "4828929",
+     "partido": "FC Copenhague vs SC Braga",
+     "texto": "FC Copenhague o empate",
+     "clave": "DC||1X",
+     "p": 0.7989,
+     "cuota": 1.33,
+     "casa": "Bet365",
+     "inicio": "2026-10-15T14:00:00-05:00"
+    },
+    {
+     "gid": "4828929",
+     "partido": "FC Copenhague vs SC Braga",
+     "texto": "Menos de 1.5 goles en el 1T",
+     "clave": "OU1T|1.5|under",
+     "p": 0.7332,
+     "cuota": 1.36,
+     "casa": "Bet365",
+     "inicio": "2026-10-15T14:00:00-05:00"
+    },
+    {
+     "gid": "4828929",
+     "partido": "FC Copenhague vs SC Braga",
+     "texto": "No hay empate",
+     "clave": "DC||12",
+     "p": 0.7117,
+     "cuota": 1.33,
+     "casa": "Bet365",
+     "inicio": "2026-10-15T14:00:00-05:00"
+    }
+   ],
+   "xi": "344972,567538,639671,12940517,57688527,64458615,67747944,68070314,68079434,71148025,72469545|100802,358706,3071509,50413538,53015075,61880538,62356488,66382167,70853356,71311899,75422026",
+   "conf": true
   },
   "4828930": {
    "partido": "Brighton vs Kauno Zalgiris",
    "liga": "Europa, UEFA Conference League",
    "inicio": "2026-10-15T14:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1792086600.1394517
+   "estado": "enviado",
+   "ultimo": 1792086850.494825,
+   "pierna": [],
+   "xi": "236532,624429,891006,3462562,14450291,15399182,35002742,50058583,66592892,67751768,71092631|404719,4143147,16672938,31626905,40832450,50454077,50548080,50684401,67669756,77772216,77772241",
+   "conf": true
   },
   "4828931": {
    "partido": "Atalanta vs Pafos FC",
    "liga": "Europa, UEFA Conference League",
    "inicio": "2026-10-15T14:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792086600.207985
+   "ultimo": 1792086851.1356146
   },
   "4828939": {
    "partido": "KF Egnatia vs FC Midtjylland",
@@ -2791,6 +3052,60 @@
    "p": 0.53937795,
    "cuota": 1.8619999999999999,
    "t": 1792079945.9102855
+  },
+  {
+   "piernas": [
+    {
+     "gid": "4828738",
+     "partido": "Ferencvaros vs Viktoria Plzen",
+     "texto": "Más de 0.5 goles en el 1T",
+     "clave": "OU1T|0.5|over",
+     "p": 0.7345,
+     "cuota": 1.29,
+     "casa": "Bet365",
+     "inicio": "2026-10-15T14:00:00-05:00"
+    },
+    {
+     "gid": "4828731",
+     "partido": "Celta de Vigo vs Juventus",
+     "texto": "Menos de 1.5 goles en el 1T",
+     "clave": "OU1T|1.5|under",
+     "p": 0.8042,
+     "cuota": 1.33,
+     "casa": "Bet365",
+     "inicio": "2026-10-15T14:00:00-05:00"
+    }
+   ],
+   "p": 0.5906849000000001,
+   "cuota": 1.7157000000000002,
+   "t": 1792086847.2860873
+  },
+  {
+   "piernas": [
+    {
+     "gid": "4828925",
+     "partido": "Friburgo vs FK Jablonec",
+     "texto": "Menos de 3.5 goles",
+     "clave": "OU|3.5|under",
+     "p": 0.7586,
+     "cuota": 1.56,
+     "casa": "LeoVegas (SE)",
+     "inicio": "2026-10-15T14:00:00-05:00"
+    },
+    {
+     "gid": "4828924",
+     "partido": "Brann vs Lincoln Red Imps",
+     "texto": "Menos de 2.5 goles en el 1T",
+     "clave": "OU1T|2.5|under",
+     "p": 0.8071,
+     "cuota": 1.22,
+     "casa": "Bet365",
+     "inicio": "2026-10-15T14:00:00-05:00"
+    }
+   ],
+   "p": 0.6122660600000001,
+   "cuota": 1.9032,
+   "t": 1792086849.5968785
   }
  ]
 }
