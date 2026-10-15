@@ -1571,8 +1571,53 @@
    "partido": "CS Universitatea Craiova vs Getafe CF",
    "liga": "Europa, UEFA Conference League",
    "inicio": "2026-10-15T11:45:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1792079697.8790107
+   "estado": "enviado",
+   "ultimo": 1792079944.4298592,
+   "pierna": [
+    {
+     "gid": "4828932",
+     "partido": "CS Universitatea Craiova vs Getafe CF",
+     "texto": "Menos de 1.5 goles en el 1T",
+     "clave": "OU1T|1.5|under",
+     "p": 0.7752,
+     "cuota": 1.25,
+     "casa": "Bet365",
+     "inicio": "2026-10-15T11:45:00-05:00"
+    },
+    {
+     "gid": "4828932",
+     "partido": "CS Universitatea Craiova vs Getafe CF",
+     "texto": "CS Universitatea Craiova o empate",
+     "clave": "DC||1X",
+     "p": 0.7507,
+     "cuota": 1.4,
+     "casa": "Bet365",
+     "inicio": "2026-10-15T11:45:00-05:00"
+    },
+    {
+     "gid": "4828932",
+     "partido": "CS Universitatea Craiova vs Getafe CF",
+     "texto": "No hay empate",
+     "clave": "DC||12",
+     "p": 0.6863,
+     "cuota": 1.36,
+     "casa": "Bet365",
+     "inicio": "2026-10-15T11:45:00-05:00"
+    },
+    {
+     "gid": "4828932",
+     "partido": "CS Universitatea Craiova vs Getafe CF",
+     "texto": "Menos de 2.5 goles",
+     "clave": "OU|2.5|under",
+     "p": 0.6681,
+     "cuota": 1.57,
+     "casa": "1xBet",
+     "inicio": "2026-10-15T11:45:00-05:00"
+    }
+   ],
+   "en_ticket": true,
+   "xi": "889634,1206582,3070083,10207848,49634941,51140469,60366309,64925558,66285292,70761610,70778350|243502,552743,659807,914518,48233124,51552702,52283767,52892490,67621071,75411603,77382798",
+   "conf": true
   },
   "4828933": {
    "partido": "Riga vs Kairat Almaty",
@@ -2342,7 +2387,8 @@
     }
    ],
    "xi": "30125289,54479682,55285540,55506220,57110258,61132480,66221740,66644548,75259910,77028698,77061715|358014,454398,454727,468673,511624,548154,9075717,38929015,55031369,70778692,71351405",
-   "conf": true
+   "conf": true,
+   "en_ticket": true
   },
   "4828746": {
    "partido": "Red Bull Salzburgo vs AC Milan",
@@ -2891,6 +2937,33 @@
    "p": 0.59140266,
    "cuota": 1.7999999999999998,
    "t": 1792079699.2043302
+  },
+  {
+   "piernas": [
+    {
+     "gid": "4828932",
+     "partido": "CS Universitatea Craiova vs Getafe CF",
+     "texto": "CS Universitatea Craiova o empate",
+     "clave": "DC||1X",
+     "p": 0.7507,
+     "cuota": 1.4,
+     "casa": "Bet365",
+     "inicio": "2026-10-15T11:45:00-05:00"
+    },
+    {
+     "gid": "4828745",
+     "partido": "NK Celje vs Omonia",
+     "texto": "No hay empate",
+     "clave": "DC||12",
+     "p": 0.7185,
+     "cuota": 1.33,
+     "casa": "Bet365",
+     "inicio": "2026-10-15T11:45:00-05:00"
+    }
+   ],
+   "p": 0.53937795,
+   "cuota": 1.8619999999999999,
+   "t": 1792079945.9102855
   }
  ]
 }
