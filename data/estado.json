@@ -1976,8 +1976,22 @@
    "partido": "Bournemouth vs Sturm Graz",
    "liga": "Europa, UEFA Europa League",
    "inicio": "2026-10-15T14:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1792087351.173537
+   "estado": "enviado",
+   "ultimo": 1792087607.3482335,
+   "pierna": [
+    {
+     "gid": "4828732",
+     "partido": "Bournemouth vs Sturm Graz",
+     "texto": "Más de 2.5 goles",
+     "clave": "OU|2.5|over",
+     "p": 0.5464,
+     "cuota": 1.3,
+     "casa": "William Hill",
+     "inicio": "2026-10-15T14:00:00-05:00"
+    }
+   ],
+   "xi": "217078,332645,894428,2035533,2753320,39229340,53212627,63094712,64589868,65524246,66632879|528032,3519898,58141282,66229671,67182700,67763721,68058507,70934806,71125591,74081890,75407250",
+   "conf": true
   },
   "4828733": {
    "partido": "Jagiellonia vs FC Ararat-Armenia",
@@ -2018,7 +2032,8 @@
     }
    ],
    "xi": "351070,570217,14658213,42687055,47623614,49706215,50728585,59015620,61740578,64075017,77024790|440341,481238,34446252,43568938,50607744,53803413,65511002,65519751,65840502,75430117,75439659",
-   "conf": true
+   "conf": true,
+   "en_ticket": true
   },
   "4828734": {
    "partido": "Rennes vs OFI Crete",
@@ -3015,8 +3030,53 @@
    "partido": "Atalanta vs Pafos FC",
    "liga": "Europa, UEFA Conference League",
    "inicio": "2026-10-15T14:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1792087358.5272808
+   "estado": "enviado",
+   "ultimo": 1792087608.0353549,
+   "pierna": [
+    {
+     "gid": "4828931",
+     "partido": "Atalanta vs Pafos FC",
+     "texto": "Menos de 2.5 goles en el 1T",
+     "clave": "OU1T|2.5|under",
+     "p": 0.8543,
+     "cuota": 1.22,
+     "casa": "Bet365",
+     "inicio": "2026-10-15T14:00:00-05:00"
+    },
+    {
+     "gid": "4828931",
+     "partido": "Atalanta vs Pafos FC",
+     "texto": "Menos de 4.5 goles",
+     "clave": "OU|4.5|under",
+     "p": 0.8434,
+     "cuota": 1.3,
+     "casa": "Bet365",
+     "inicio": "2026-10-15T14:00:00-05:00"
+    },
+    {
+     "gid": "4828931",
+     "partido": "Atalanta vs Pafos FC",
+     "texto": "Más de 0.5 goles en el 1T",
+     "clave": "OU1T|0.5|over",
+     "p": 0.6997,
+     "cuota": 1.2,
+     "casa": "Bet365",
+     "inicio": "2026-10-15T14:00:00-05:00"
+    },
+    {
+     "gid": "4828931",
+     "partido": "Atalanta vs Pafos FC",
+     "texto": "Más de 2.5 goles",
+     "clave": "OU|2.5|over",
+     "p": 0.5093,
+     "cuota": 1.4,
+     "casa": "Bet365",
+     "inicio": "2026-10-15T14:00:00-05:00"
+    }
+   ],
+   "en_ticket": true,
+   "xi": "334658,383049,408094,2036121,3086707,12643461,12655232,15064848,15242890,55165603,75452367|74248,476850,513133,515142,529283,951716,3131648,3143985,52301630,63136336,67051149",
+   "conf": true
   },
   "4828939": {
    "partido": "KF Egnatia vs FC Midtjylland",
@@ -3609,6 +3669,33 @@
    "p": 0.5459932799999999,
    "cuota": 1.875,
    "t": 1792087358.5271463
+  },
+  {
+   "piernas": [
+    {
+     "gid": "4828931",
+     "partido": "Atalanta vs Pafos FC",
+     "texto": "Menos de 2.5 goles en el 1T",
+     "clave": "OU1T|2.5|under",
+     "p": 0.8543,
+     "cuota": 1.22,
+     "casa": "Bet365",
+     "inicio": "2026-10-15T14:00:00-05:00"
+    },
+    {
+     "gid": "4828733",
+     "partido": "Jagiellonia vs FC Ararat-Armenia",
+     "texto": "Jagiellonia recibe gol",
+     "clave": "CS||local_no",
+     "p": 0.6162,
+     "cuota": 1.62,
+     "casa": "Bet365",
+     "inicio": "2026-10-15T14:00:00-05:00"
+    }
+   ],
+   "p": 0.52641966,
+   "cuota": 1.9764000000000002,
+   "t": 1792087608.7288256
   }
  ]
 }
