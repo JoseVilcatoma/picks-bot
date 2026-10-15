@@ -1791,56 +1791,56 @@
    "liga": "Europa, UEFA Europa League",
    "inicio": "2026-10-15T14:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792086356.28033
+   "ultimo": 1792086599.6087291
   },
   "4828730": {
    "partido": "Olympique Marsella vs Olympiacos",
    "liga": "Europa, UEFA Europa League",
    "inicio": "2026-10-15T14:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792086356.400348
+   "ultimo": 1792086599.7659247
   },
   "4828731": {
    "partido": "Celta de Vigo vs Juventus",
    "liga": "Europa, UEFA Europa League",
    "inicio": "2026-10-15T14:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792086356.4256241
+   "ultimo": 1792086599.7886267
   },
   "4828732": {
    "partido": "Bournemouth vs Sturm Graz",
    "liga": "Europa, UEFA Europa League",
    "inicio": "2026-10-15T14:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792086356.4457326
+   "ultimo": 1792086599.8203013
   },
   "4828733": {
    "partido": "Jagiellonia vs FC Ararat-Armenia",
    "liga": "Europa, UEFA Europa League",
    "inicio": "2026-10-15T14:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792086356.4674358
+   "ultimo": 1792086599.8454883
   },
   "4828734": {
    "partido": "Rennes vs OFI Crete",
    "liga": "Europa, UEFA Europa League",
    "inicio": "2026-10-15T14:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792086356.4894319
+   "ultimo": 1792086599.8711386
   },
   "4828735": {
    "partido": "Benfica vs Celtic",
    "liga": "Europa, UEFA Europa League",
    "inicio": "2026-10-15T14:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792086356.5104537
+   "ultimo": 1792086599.8970082
   },
   "4828736": {
    "partido": "Hoffenheim vs Besiktas",
    "liga": "Europa, UEFA Europa League",
    "inicio": "2026-10-15T14:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792086356.5324948
+   "ultimo": 1792086599.9178104
   },
   "4828737": {
    "partido": "AZ Alkmaar vs Hapoel Beer Sheva",
@@ -1889,14 +1889,14 @@
    "liga": "Europa, UEFA Europa League",
    "inicio": "2026-10-15T14:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792086356.5527613
+   "ultimo": 1792086599.9422038
   },
   "4828739": {
    "partido": "N.E.C. Nijmegen vs Levski Sofia",
    "liga": "Europa, UEFA Europa League",
    "inicio": "2026-10-15T14:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792086356.579211
+   "ultimo": 1792086599.961816
   },
   "4828740": {
    "partido": "Union St. Gilloise vs Real Sociedad",
@@ -2284,56 +2284,56 @@
    "liga": "Europa, UEFA Conference League",
    "inicio": "2026-10-15T14:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792086356.604558
+   "ultimo": 1792086599.9849613
   },
   "4828925": {
    "partido": "Friburgo vs FK Jablonec",
    "liga": "Europa, UEFA Conference League",
    "inicio": "2026-10-15T14:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792086356.6272964
+   "ultimo": 1792086600.0139484
   },
   "4828926": {
    "partido": "STVV vs FC Iberia 1999",
    "liga": "Europa, UEFA Conference League",
    "inicio": "2026-10-15T14:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792086356.6489441
+   "ultimo": 1792086600.04137
   },
   "4828927": {
    "partido": "Hearts vs FC Nordsjaelland",
    "liga": "Europa, UEFA Conference League",
    "inicio": "2026-10-15T14:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792086356.6664078
+   "ultimo": 1792086600.0646088
   },
   "4828928": {
    "partido": "Twente vs FC Thun",
    "liga": "Europa, UEFA Conference League",
    "inicio": "2026-10-15T14:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792086356.688316
+   "ultimo": 1792086600.0885503
   },
   "4828929": {
    "partido": "FC Copenhague vs SC Braga",
    "liga": "Europa, UEFA Conference League",
    "inicio": "2026-10-15T14:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792086356.7112422
+   "ultimo": 1792086600.1112685
   },
   "4828930": {
    "partido": "Brighton vs Kauno Zalgiris",
    "liga": "Europa, UEFA Conference League",
    "inicio": "2026-10-15T14:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792086356.738695
+   "ultimo": 1792086600.1394517
   },
   "4828931": {
    "partido": "Atalanta vs Pafos FC",
    "liga": "Europa, UEFA Conference League",
    "inicio": "2026-10-15T14:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792086356.7616143
+   "ultimo": 1792086600.207985
   },
   "4828939": {
    "partido": "KF Egnatia vs FC Midtjylland",
@@ -2518,7 +2518,6 @@
   }
  },
  "web": {
-  "4760816": 1791481707415,
   "4632659": 1791501207678,
   "4632664": 1791501207956,
   "4760812": 1791490269324,
