@@ -3214,14 +3214,68 @@
    "liga": "Italia, Serie A",
    "inicio": "2026-10-16T13:45:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792173577.1076255
+   "ultimo": 1792173825.0162916
   },
   "4735242": {
    "partido": "Le Mans vs Toulouse",
    "liga": "Francia, Ligue 1",
    "inicio": "2026-10-16T13:45:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1792173577.1596644
+   "estado": "enviado",
+   "ultimo": 1792173825.0659175,
+   "pierna": [
+    {
+     "gid": "4735242",
+     "partido": "Le Mans vs Toulouse",
+     "texto": "No hay empate",
+     "clave": "DC||12",
+     "p": 0.7418,
+     "cuota": 1.29,
+     "casa": "Bet365",
+     "inicio": "2026-10-16T13:45:00-05:00"
+    },
+    {
+     "gid": "4735242",
+     "partido": "Le Mans vs Toulouse",
+     "texto": "Toulouse recibe gol",
+     "clave": "CS||visita_no",
+     "p": 0.7382,
+     "cuota": 1.25,
+     "casa": "Bet365",
+     "inicio": "2026-10-16T13:45:00-05:00"
+    },
+    {
+     "gid": "4735242",
+     "partido": "Le Mans vs Toulouse",
+     "texto": "Más de 0.5 goles en el 1T",
+     "clave": "OU1T|0.5|over",
+     "p": 0.7322,
+     "cuota": 1.3,
+     "casa": "Bet365",
+     "inicio": "2026-10-16T13:45:00-05:00"
+    },
+    {
+     "gid": "4735242",
+     "partido": "Le Mans vs Toulouse",
+     "texto": "Toulouse o empate",
+     "clave": "DC||X2",
+     "p": 0.7079,
+     "cuota": 1.36,
+     "casa": "Bet365",
+     "inicio": "2026-10-16T13:45:00-05:00"
+    },
+    {
+     "gid": "4735242",
+     "partido": "Le Mans vs Toulouse",
+     "texto": "Ambos marcan: Sí",
+     "clave": "BTTS||si",
+     "p": 0.6189,
+     "cuota": 1.55,
+     "casa": "William Hill",
+     "inicio": "2026-10-16T13:45:00-05:00"
+    }
+   ],
+   "xi": "306308,3865790,44439767,50683665,62975357,64816018,71167687,76541349,76771643,76996631,77082345|474941,3488262,7495369,39729553,51179941,65799938,67840731,67952105,71521869,72473407,75433697",
+   "conf": true
   },
   "4750828": {
    "partido": "RC Deportivo vs Levante UD",
