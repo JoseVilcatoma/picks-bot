@@ -3244,8 +3244,8 @@
    "partido": "Estudiantes de La Plata vs Flamengo",
    "liga": "Sudamerica, CONMEBOL Copa Libertadores - Semifinales",
    "inicio": "2026-10-15T19:30:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1792107136.409975,
+   "estado": "liquidado",
+   "ultimo": 1792117620.6379151,
    "pierna": [
     {
      "gid": "4858847",
@@ -3299,7 +3299,22 @@
     }
    ],
    "xi": "227931,277288,347908,664745,2545026,48755383,53856876,58257557,64351833,67969140,76537059|76478,436629,489068,506159,541524,564723,1767155,1900508,2992976,3232110,3263629",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 0,
+    "ag": 0,
+    "ht": [
+     0,
+     0
+    ],
+    "corners": 10.0,
+    "corners_h": 6.0,
+    "corners_a": 4.0,
+    "corners_1t": 5.0,
+    "cards": 5.0,
+    "cards_h": 2.0,
+    "cards_a": 3.0
+   }
   }
  },
  "web": {
