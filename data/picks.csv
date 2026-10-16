@@ -918,12 +918,12 @@ fecha,game_id,partido,liga,tipo,mercado,clave,prob,cuota,casa,cuota_justa,ev,sta
 2026-10-15 18:32,4858847,Estudiantes de La Plata vs Flamengo,"Sudamerica, CONMEBOL Copa Libertadores - Semifinales",modelo,Más de 2.5 tarjetas,CARDS|2.5|over,0.6872,,,1.46,,,si,G,
 2026-10-15 18:32,4858847,Estudiantes de La Plata vs Flamengo,"Sudamerica, CONMEBOL Copa Libertadores - Semifinales",ticket,Menos de 2.5 goles + Ambos marcan: No,OU|2.5|under&BTTS||no,0.6201,2.17,,1.61,0.3472,10.00,,G,11.70
 2026-10-15 18:32,4858847,Estudiantes de La Plata vs Flamengo,"Sudamerica, CONMEBOL Copa Libertadores - Semifinales",crear,Flamengo o empate + Menos de 3.5 goles + Menos de 13.5 córners,DC||X2&OU|3.5|under&CORN|13.5|under,0.5830,,,1.72,,,,G,
-2026-10-16 12:26,4760811,Sport Huancayo vs Cusco FC,"Perú, Liga 1 - Clausura",seguro,Sport Huancayo o empate,DC||1X,0.8070,1.20,Bet365,1.24,-0.0316,,si,,
-2026-10-16 12:26,4760811,Sport Huancayo vs Cusco FC,"Perú, Liga 1 - Clausura",seguro,Más de 1.5 goles,OU|1.5|over,0.7844,1.18,Bet365,1.27,-0.0744,,si,,
-2026-10-16 12:26,4760811,Sport Huancayo vs Cusco FC,"Perú, Liga 1 - Clausura",modelo,Menos de 11.5 córners,CORN|11.5|under,0.7314,,,1.37,,,si,,
-2026-10-16 12:26,4760811,Sport Huancayo vs Cusco FC,"Perú, Liga 1 - Clausura",modelo,Más de 2.5 tarjetas,CARDS|2.5|over,0.6971,,,1.43,,,si,,
-2026-10-16 12:26,4760811,Sport Huancayo vs Cusco FC,"Perú, Liga 1 - Clausura",ticket,Sport Huancayo recibe gol + Más de 2.5 goles,CS||local_no&OU|2.5|over,0.4517,2.24,,2.21,0.0118,10.00,,,
-2026-10-16 12:26,4760811,Sport Huancayo vs Cusco FC,"Perú, Liga 1 - Clausura",crear,No hay empate + Menos de 4.5 goles + Menos de 14.5 córners,DC||12&OU|4.5|under&CORN|14.5|under,0.5278,,,1.89,,,,,
+2026-10-16 12:26,4760811,Sport Huancayo vs Cusco FC,"Perú, Liga 1 - Clausura",seguro,Sport Huancayo o empate,DC||1X,0.8070,1.20,Bet365,1.24,-0.0316,,si,G,
+2026-10-16 12:26,4760811,Sport Huancayo vs Cusco FC,"Perú, Liga 1 - Clausura",seguro,Más de 1.5 goles,OU|1.5|over,0.7844,1.18,Bet365,1.27,-0.0744,,si,G,
+2026-10-16 12:26,4760811,Sport Huancayo vs Cusco FC,"Perú, Liga 1 - Clausura",modelo,Menos de 11.5 córners,CORN|11.5|under,0.7314,,,1.37,,,si,G,
+2026-10-16 12:26,4760811,Sport Huancayo vs Cusco FC,"Perú, Liga 1 - Clausura",modelo,Más de 2.5 tarjetas,CARDS|2.5|over,0.6971,,,1.43,,,si,G,
+2026-10-16 12:26,4760811,Sport Huancayo vs Cusco FC,"Perú, Liga 1 - Clausura",ticket,Sport Huancayo recibe gol + Más de 2.5 goles,CS||local_no&OU|2.5|over,0.4517,2.24,,2.21,0.0118,10.00,,G,12.40
+2026-10-16 12:26,4760811,Sport Huancayo vs Cusco FC,"Perú, Liga 1 - Clausura",crear,No hay empate + Menos de 4.5 goles + Menos de 14.5 córners,DC||12&OU|4.5|under&CORN|14.5|under,0.5278,,,1.89,,,,G,
 2026-10-16 12:57,4755378,Eintracht Frankfurt vs 1. FC Köln,"Alemania, Bundesliga",seguro,Más de 0.5 goles en el 1T,OU1T|0.5|over,0.7720,1.18,Bet365,1.30,-0.0890,,si,,
 2026-10-16 12:57,4755378,Eintracht Frankfurt vs 1. FC Köln,"Alemania, Bundesliga",seguro,No hay empate,DC||12,0.7583,1.22,Bet365,1.32,-0.0748,,si,,
 2026-10-16 12:57,4755378,Eintracht Frankfurt vs 1. FC Köln,"Alemania, Bundesliga",arriesgado,Más de 4.5 tarjetas,CARDS|4.5|over,0.4454,2.10,Bet365,2.25,-0.0646,,si,,
