@@ -3214,14 +3214,14 @@
    "liga": "Italia, Serie A",
    "inicio": "2026-10-16T13:45:00-05:00",
    "estado": "enviado",
-   "ultimo": 1792173978.1319413,
+   "ultimo": 1792174345.2803304,
    "pierna": [
     {
      "gid": "4732678",
      "partido": "Frosinone vs Sassuolo",
      "texto": "Más de 0.5 goles en el 1T",
      "clave": "OU1T|0.5|over",
-     "p": 0.7714,
+     "p": 0.7724,
      "cuota": 1.22,
      "casa": "Bet365",
      "inicio": "2026-10-16T13:45:00-05:00"
@@ -3231,7 +3231,7 @@
      "partido": "Frosinone vs Sassuolo",
      "texto": "No hay empate",
      "clave": "DC||12",
-     "p": 0.7549,
+     "p": 0.7552,
      "cuota": 1.25,
      "casa": "Bet365",
      "inicio": "2026-10-16T13:45:00-05:00"
@@ -3241,7 +3241,7 @@
      "partido": "Frosinone vs Sassuolo",
      "texto": "Ambos marcan: Sí",
      "clave": "BTTS||si",
-     "p": 0.6863,
+     "p": 0.6879,
      "cuota": 1.4,
      "casa": "William Hill",
      "inicio": "2026-10-16T13:45:00-05:00"
@@ -3251,7 +3251,7 @@
      "partido": "Frosinone vs Sassuolo",
      "texto": "Más de 2.5 goles",
      "clave": "OU|2.5|over",
-     "p": 0.6535,
+     "p": 0.6554,
      "cuota": 1.45,
      "casa": "Betsson",
      "inicio": "2026-10-16T13:45:00-05:00"
@@ -3261,14 +3261,14 @@
      "partido": "Frosinone vs Sassuolo",
      "texto": "Frosinone o empate",
      "clave": "DC||1X",
-     "p": 0.6399,
+     "p": 0.6376,
      "cuota": 1.5,
      "casa": "Bet365",
      "inicio": "2026-10-16T13:45:00-05:00"
     }
    ],
-   "xi": "3069419,3072025,43872810,50677836,64713067,64797503,66455851,70812661,70812663,70859652,71327308|292149,348551,527000,3544280,14668157,29951241,50403658,50445965,70206104,76144645,77390085",
-   "conf": false
+   "xi": "3069419,3072025,43872810,50677836,64713067,64797503,66455851,70812661,70812663,70859652,71327308|292149,348551,527000,3544280,7527370,14668157,29951241,50136909,50403658,50445965,76144645",
+   "conf": true
   },
   "4735242": {
    "partido": "Le Mans vs Toulouse",
