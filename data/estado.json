@@ -2830,8 +2830,8 @@
    "partido": "Eintracht Frankfurt vs 1. FC Köln",
    "liga": "Alemania, Bundesliga",
    "inicio": "2026-10-16T13:30:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1792182363.6192043,
+   "estado": "liquidado",
+   "ultimo": 1792182970.068195,
    "pierna": [
     {
      "gid": "4755378",
@@ -2885,7 +2885,22 @@
     }
    ],
    "xi": "28620,646522,3155273,8687950,50444832,50584956,60085508,61213413,66253459,71901098,76952737|541007,569179,7354235,8692945,10279281,33849977,51195599,51403495,65291044,70951372,75412214",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 1,
+    "ag": 0,
+    "ht": [
+     0,
+     0
+    ],
+    "corners": 10.0,
+    "corners_h": 7.0,
+    "corners_a": 3.0,
+    "corners_1t": 4.0,
+    "cards": 4.0,
+    "cards_h": 2.0,
+    "cards_a": 2.0
+   }
   },
   "4760810": {
    "partido": "Los Chankas vs ADT Tarma",
