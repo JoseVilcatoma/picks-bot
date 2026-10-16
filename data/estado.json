@@ -3227,8 +3227,72 @@
    "partido": "RC Deportivo vs Levante UD",
    "liga": "España, LaLiga",
    "inicio": "2026-10-16T14:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1792173452.5056958
+   "estado": "enviado",
+   "ultimo": 1792173699.4693828,
+   "pierna": [
+    {
+     "gid": "4750828",
+     "partido": "RC Deportivo vs Levante UD",
+     "texto": "Levante UD recibe gol",
+     "clave": "CS||visita_no",
+     "p": 0.7991,
+     "cuota": 1.2,
+     "casa": "Bet365",
+     "inicio": "2026-10-16T14:00:00-05:00"
+    },
+    {
+     "gid": "4750828",
+     "partido": "RC Deportivo vs Levante UD",
+     "texto": "Más de 1.5 goles",
+     "clave": "OU|1.5|over",
+     "p": 0.7711,
+     "cuota": 1.25,
+     "casa": "Bet365",
+     "inicio": "2026-10-16T14:00:00-05:00"
+    },
+    {
+     "gid": "4750828",
+     "partido": "RC Deportivo vs Levante UD",
+     "texto": "RC Deportivo o empate",
+     "clave": "DC||1X",
+     "p": 0.7396,
+     "cuota": 1.29,
+     "casa": "Bet365",
+     "inicio": "2026-10-16T14:00:00-05:00"
+    },
+    {
+     "gid": "4750828",
+     "partido": "RC Deportivo vs Levante UD",
+     "texto": "No hay empate",
+     "clave": "DC||12",
+     "p": 0.7368,
+     "cuota": 1.29,
+     "casa": "Bet365",
+     "inicio": "2026-10-16T14:00:00-05:00"
+    },
+    {
+     "gid": "4750828",
+     "partido": "RC Deportivo vs Levante UD",
+     "texto": "Más de 0.5 goles en el 1T",
+     "clave": "OU1T|0.5|over",
+     "p": 0.7146,
+     "cuota": 1.33,
+     "casa": "Bet365",
+     "inicio": "2026-10-16T14:00:00-05:00"
+    },
+    {
+     "gid": "4750828",
+     "partido": "RC Deportivo vs Levante UD",
+     "texto": "RC Deportivo recibe gol",
+     "clave": "CS||local_no",
+     "p": 0.6948,
+     "cuota": 1.33,
+     "casa": "Bet365",
+     "inicio": "2026-10-16T14:00:00-05:00"
+    }
+   ],
+   "xi": "330473,412242,35292486,48477961,51404167,54644483,64350547,64385811,65561869,76990281,77551112|512973,5329998,30037026,45578929,51188327,53282314,64864543,67917215,68022757,77357801,77390126",
+   "conf": true
   },
   "4755378": {
    "partido": "Eintracht Frankfurt vs 1. FC Köln",
