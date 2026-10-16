@@ -2544,8 +2544,62 @@
    "partido": "Mirassol vs Internacional",
    "liga": "Brasil, Brasileirão",
    "inicio": "2026-10-16T18:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1792188435.6792448
+   "estado": "enviado",
+   "ultimo": 1792188679.012437,
+   "pierna": [
+    {
+     "gid": "4632642",
+     "partido": "Mirassol vs Internacional",
+     "texto": "Mirassol o empate",
+     "clave": "DC||1X",
+     "p": 0.7621,
+     "cuota": 1.29,
+     "casa": "Bet365",
+     "inicio": "2026-10-16T18:00:00-05:00"
+    },
+    {
+     "gid": "4632642",
+     "partido": "Mirassol vs Internacional",
+     "texto": "No hay empate",
+     "clave": "DC||12",
+     "p": 0.7188,
+     "cuota": 1.29,
+     "casa": "Bet365",
+     "inicio": "2026-10-16T18:00:00-05:00"
+    },
+    {
+     "gid": "4632642",
+     "partido": "Mirassol vs Internacional",
+     "texto": "Más de 1.5 goles",
+     "clave": "OU|1.5|over",
+     "p": 0.7078,
+     "cuota": 1.25,
+     "casa": "Bet365",
+     "inicio": "2026-10-16T18:00:00-05:00"
+    },
+    {
+     "gid": "4632642",
+     "partido": "Mirassol vs Internacional",
+     "texto": "Más de 0.5 goles en el 1T",
+     "clave": "OU1T|0.5|over",
+     "p": 0.6687,
+     "cuota": 1.33,
+     "casa": "Bet365",
+     "inicio": "2026-10-16T18:00:00-05:00"
+    },
+    {
+     "gid": "4632642",
+     "partido": "Mirassol vs Internacional",
+     "texto": "Mirassol recibe gol",
+     "clave": "CS||local_no",
+     "p": 0.621,
+     "cuota": 1.36,
+     "casa": "Bet365",
+     "inicio": "2026-10-16T18:00:00-05:00"
+    }
+   ],
+   "xi": "28189,543250,545444,547799,2384056,6663965,12677899,65016772,66212496,66558006,75394285|79031,110423,570831,3235788,13262931,13268811,14659487,38421152,40429890,50387690,52685662",
+   "conf": true
   },
   "4732678": {
    "partido": "Frosinone vs Sassuolo",
