@@ -3228,21 +3228,21 @@
    "liga": "España, LaLiga",
    "inicio": "2026-10-16T14:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792173207.534756
+   "ultimo": 1792173452.5056958
   },
   "4755378": {
    "partido": "Eintracht Frankfurt vs 1. FC Köln",
    "liga": "Alemania, Bundesliga",
    "inicio": "2026-10-16T13:30:00-05:00",
    "estado": "enviado",
-   "ultimo": 1792173081.7524123,
+   "ultimo": 1792173452.5670469,
    "pierna": [
     {
      "gid": "4755378",
      "partido": "Eintracht Frankfurt vs 1. FC Köln",
      "texto": "Eintracht Frankfurt recibe gol",
      "clave": "CS||local_no",
-     "p": 0.7714,
+     "p": 0.7587,
      "cuota": 1.22,
      "casa": "Bet365",
      "inicio": "2026-10-16T13:30:00-05:00"
@@ -3252,7 +3252,7 @@
      "partido": "Eintracht Frankfurt vs 1. FC Köln",
      "texto": "No hay empate",
      "clave": "DC||12",
-     "p": 0.7605,
+     "p": 0.7583,
      "cuota": 1.22,
      "casa": "Bet365",
      "inicio": "2026-10-16T13:30:00-05:00"
@@ -3262,8 +3262,8 @@
      "partido": "Eintracht Frankfurt vs 1. FC Köln",
      "texto": "Eintracht Frankfurt o empate",
      "clave": "DC||1X",
-     "p": 0.7062,
-     "cuota": 1.25,
+     "p": 0.7272,
+     "cuota": 1.22,
      "casa": "Bet365",
      "inicio": "2026-10-16T13:30:00-05:00"
     },
@@ -3272,7 +3272,7 @@
      "partido": "Eintracht Frankfurt vs 1. FC Köln",
      "texto": "Ambos marcan: Sí",
      "clave": "BTTS||si",
-     "p": 0.6933,
+     "p": 0.6853,
      "cuota": 1.35,
      "casa": "William Hill",
      "inicio": "2026-10-16T13:30:00-05:00"
@@ -3282,14 +3282,14 @@
      "partido": "Eintracht Frankfurt vs 1. FC Köln",
      "texto": "Más de 2.5 goles",
      "clave": "OU|2.5|over",
-     "p": 0.6728,
+     "p": 0.6618,
      "cuota": 1.33,
      "casa": "Bet365",
      "inicio": "2026-10-16T13:30:00-05:00"
     }
    ],
-   "xi": "28620,646522,3155273,8687950,50444832,50584956,60085508,61213413,66253459,71901098,76952737|541007,569179,7354235,8692945,10279281,33849977,51195599,65291044,70951372,72478393,75412214",
-   "conf": false
+   "xi": "28620,646522,3155273,8687950,50444832,50584956,60085508,61213413,66253459,71901098,76952737|541007,569179,7354235,8692945,10279281,33849977,51195599,51403495,65291044,70951372,75412214",
+   "conf": true
   },
   "4760810": {
    "partido": "Los Chankas vs ADT Tarma",
