@@ -3235,7 +3235,7 @@
    "liga": "Alemania, Bundesliga",
    "inicio": "2026-10-16T13:30:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792170994.4417708
+   "ultimo": 1792171240.0670562
   },
   "4760810": {
    "partido": "Los Chankas vs ADT Tarma",
@@ -3248,8 +3248,72 @@
    "partido": "Sport Huancayo vs Cusco FC",
    "liga": "Perú, Liga 1 - Clausura",
    "inicio": "2026-10-16T13:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1792171116.7616794
+   "estado": "enviado",
+   "ultimo": 1792171240.13157,
+   "pierna": [
+    {
+     "gid": "4760811",
+     "partido": "Sport Huancayo vs Cusco FC",
+     "texto": "No hay empate",
+     "clave": "DC||12",
+     "p": 0.7604,
+     "cuota": 1.25,
+     "casa": "Bet365",
+     "inicio": "2026-10-16T13:00:00-05:00"
+    },
+    {
+     "gid": "4760811",
+     "partido": "Sport Huancayo vs Cusco FC",
+     "texto": "Más de 0.5 goles en el 1T",
+     "clave": "OU1T|0.5|over",
+     "p": 0.7369,
+     "cuota": 1.29,
+     "casa": "Bet365",
+     "inicio": "2026-10-16T13:00:00-05:00"
+    },
+    {
+     "gid": "4760811",
+     "partido": "Sport Huancayo vs Cusco FC",
+     "texto": "Sport Huancayo recibe gol",
+     "clave": "CS||local_no",
+     "p": 0.6702,
+     "cuota": 1.4,
+     "casa": "Bet365",
+     "inicio": "2026-10-16T13:00:00-05:00"
+    },
+    {
+     "gid": "4760811",
+     "partido": "Sport Huancayo vs Cusco FC",
+     "texto": "Más de 2.5 goles",
+     "clave": "OU|2.5|over",
+     "p": 0.5854,
+     "cuota": 1.6,
+     "casa": "Bet365",
+     "inicio": "2026-10-16T13:00:00-05:00"
+    },
+    {
+     "gid": "4760811",
+     "partido": "Sport Huancayo vs Cusco FC",
+     "texto": "Ambos marcan: Sí",
+     "clave": "BTTS||si",
+     "p": 0.5852,
+     "cuota": 1.57,
+     "casa": "Bet365",
+     "inicio": "2026-10-16T13:00:00-05:00"
+    },
+    {
+     "gid": "4760811",
+     "partido": "Sport Huancayo vs Cusco FC",
+     "texto": "Sport Huancayo -0.5 (hándicap)",
+     "clave": "AH|-0.5|local",
+     "p": 0.5574,
+     "cuota": 1.65,
+     "casa": "Bet365",
+     "inicio": "2026-10-16T13:00:00-05:00"
+    }
+   ],
+   "xi": "254063,460626,481922,528520,618475,621036,893500,3242808,51321013,67955411,68885995|487024,547480,553009,612085,832539,838440,2809735,3366544,8783445,14220059,47407662",
+   "conf": false
   }
  },
  "web": {
