@@ -2919,8 +2919,8 @@
    "partido": "Los Chankas vs ADT Tarma",
    "liga": "Perú, Liga 1 - Clausura",
    "inicio": "2026-10-16T15:30:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1792189530.2196891,
+   "estado": "liquidado",
+   "ultimo": 1792190136.5642574,
    "pierna": [
     {
      "gid": "4760810",
@@ -2984,7 +2984,22 @@
     }
    ],
    "xi": "615398,3182404,5774594,13093514,13884537,47420072,52923300,54842240,56700220,59045608,67977218|225239,457528,497371,541787,618875,3137770,47449751,54920557,70823016,72047532,77685768",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 2,
+    "ag": 1,
+    "ht": [
+     1,
+     1
+    ],
+    "corners": 7.0,
+    "corners_h": 5.0,
+    "corners_a": 2.0,
+    "corners_1t": 2.0,
+    "cards": 7.0,
+    "cards_h": 2.0,
+    "cards_a": 5.0
+   }
   },
   "4760811": {
    "partido": "Sport Huancayo vs Cusco FC",
