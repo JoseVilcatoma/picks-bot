@@ -1039,3 +1039,7 @@ fecha,game_id,partido,liga,tipo,mercado,clave,prob,cuota,casa,cuota_justa,ev,sta
 2026-10-17 07:59,4742035,Fulham vs Hull City,"Inglaterra, Premier League",modelo,Más de 2.5 tarjetas,CARDS|2.5|over,0.6614,,,1.51,,,si,,
 2026-10-17 07:59,4742035,Fulham vs Hull City,"Inglaterra, Premier League",ticket,Más de 1.5 goles + Fulham recibe gol,OU|1.5|over&CS||local_no,0.5754,1.83,,1.74,0.0530,10.00,,,
 2026-10-17 07:59,4742035,Fulham vs Hull City,"Inglaterra, Premier League",crear,Fulham o empate + Menos de 2.5 goles en el 1T + Más de 6.5 córners,DC||1X&OU1T|2.5|under&CORN|6.5|over,0.5672,,,1.76,,,,,
+2026-10-17 08:17,4750821,Villarreal CF vs Elche CF,"España, LaLiga",seguro,No hay empate,DC||12,0.7701,1.17,Bet365,1.30,-0.0990,,si,,
+2026-10-17 08:17,4750821,Villarreal CF vs Elche CF,"España, LaLiga",seguro,Más de 0.5 goles en el 1T,OU1T|0.5|over,0.7026,1.22,Bet365,1.42,-0.1428,,si,,
+2026-10-17 08:17,4750821,Villarreal CF vs Elche CF,"España, LaLiga",modelo,Más de 1.5 goles,OU|1.5|over,0.7551,,,1.32,,,si,,
+2026-10-17 08:17,4750821,Villarreal CF vs Elche CF,"España, LaLiga",modelo,Menos de 11.5 córners,CORN|11.5|under,0.7399,,,1.35,,,si,,
