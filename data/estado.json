@@ -3431,8 +3431,8 @@
    "partido": "Brentford vs Liverpool",
    "liga": "Inglaterra, Premier League",
    "inicio": "2026-10-17T09:00:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1792252581.0614429,
+   "estado": "liquidado",
+   "ultimo": 1792253189.260305,
    "pierna": [
     {
      "gid": "4742038",
@@ -3496,14 +3496,29 @@
     }
    ],
    "xi": "72966,556319,557975,668558,3517523,6533360,32237766,49513842,51263915,61456616,67428963|220953,558151,1286508,3344160,3886928,49449655,60734154,60909490,67987366,70896126,70986024",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 1,
+    "ag": 2,
+    "ht": [
+     1,
+     0
+    ],
+    "corners": 12.0,
+    "corners_h": 3.0,
+    "corners_a": 9.0,
+    "corners_1t": 6.0,
+    "cards": 8.0,
+    "cards_h": 5.0,
+    "cards_a": 3.0
+   }
   },
   "4742043": {
    "partido": "Manchester City vs Ipswich",
    "liga": "Inglaterra, Premier League",
    "inicio": "2026-10-17T09:00:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1792252581.1280584,
+   "estado": "liquidado",
+   "ultimo": 1792253189.5208642,
    "pierna": [
     {
      "gid": "4742043",
@@ -3527,7 +3542,22 @@
     }
    ],
    "xi": "346826,620429,1391166,3072169,3172759,8048871,39079597,49491936,55058114,68032675,71003385|534537,1140554,1404731,3153685,10968460,14151805,32246907,44421294,51284032,65255094,71354644",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 3,
+    "ag": 2,
+    "ht": [
+     2,
+     1
+    ],
+    "corners": 5.0,
+    "corners_h": 2.0,
+    "corners_a": 3.0,
+    "corners_1t": 1.0,
+    "cards": 3.0,
+    "cards_h": 1.0,
+    "cards_a": 2.0
+   }
   },
   "4742050": {
    "partido": "Newcastle United vs Aston Villa",
