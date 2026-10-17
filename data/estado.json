@@ -3775,7 +3775,7 @@
    "liga": "Alemania, Bundesliga",
    "inicio": "2026-10-17T08:30:00-05:00",
    "estado": "enviado",
-   "ultimo": 1792250743.0501697,
+   "ultimo": 1792251355.2490163,
    "pierna": [
     {
      "gid": "4755372",
@@ -4093,8 +4093,8 @@
    "partido": "Union Berlin vs Borussia Dortmund",
    "liga": "Alemania, Bundesliga",
    "inicio": "2026-10-17T08:30:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1792250743.607748,
+   "estado": "liquidado",
+   "ultimo": 1792251355.4243393,
    "pierna": [
     {
      "gid": "4755377",
@@ -4148,14 +4148,29 @@
     }
    ],
    "xi": "253890,335092,342465,905043,3094152,3154796,3473178,6875557,13659727,55685520,63126596|379069,895074,943391,3276664,15028852,47516152,50878796,51042327,64350505,66669581,70951404",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 0,
+    "ag": 0,
+    "ht": [
+     0,
+     0
+    ],
+    "corners": 10.0,
+    "corners_h": 5.0,
+    "corners_a": 5.0,
+    "corners_1t": 4.0,
+    "cards": 6.0,
+    "cards_h": 3.0,
+    "cards_a": 3.0
+   }
   },
   "4755380": {
    "partido": "Bayern Munich vs RB Leipzig",
    "liga": "Alemania, Bundesliga",
    "inicio": "2026-10-17T11:30:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792251111.8046544
+   "ultimo": 1792251355.5672553
   },
   "4760805": {
    "partido": "Juan Pablo II College vs Sport Boys",
