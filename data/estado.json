@@ -3147,7 +3147,7 @@
    "liga": "Inglaterra, Premier League",
    "inicio": "2026-10-17T09:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792241457.9554908
+   "ultimo": 1792241701.0516994
   },
   "4742036": {
    "partido": "Everton vs Chelsea",
@@ -3224,15 +3224,103 @@
    "partido": "Brentford vs Liverpool",
    "liga": "Inglaterra, Premier League",
    "inicio": "2026-10-17T09:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1792241458.1147392
+   "estado": "enviado",
+   "ultimo": 1792241701.1084683,
+   "pierna": [
+    {
+     "gid": "4742038",
+     "partido": "Brentford vs Liverpool",
+     "texto": "Brentford recibe gol",
+     "clave": "CS||local_no",
+     "p": 0.7321,
+     "cuota": 1.22,
+     "casa": "Bet365",
+     "inicio": "2026-10-17T09:00:00-05:00"
+    },
+    {
+     "gid": "4742038",
+     "partido": "Brentford vs Liverpool",
+     "texto": "No hay empate",
+     "clave": "DC||12",
+     "p": 0.7265,
+     "cuota": 1.29,
+     "casa": "Bet365",
+     "inicio": "2026-10-17T09:00:00-05:00"
+    },
+    {
+     "gid": "4742038",
+     "partido": "Brentford vs Liverpool",
+     "texto": "Más de 0.5 goles en el 1T",
+     "clave": "OU1T|0.5|over",
+     "p": 0.705,
+     "cuota": 1.29,
+     "casa": "Bet365",
+     "inicio": "2026-10-17T09:00:00-05:00"
+    },
+    {
+     "gid": "4742038",
+     "partido": "Brentford vs Liverpool",
+     "texto": "Brentford o empate",
+     "clave": "DC||1X",
+     "p": 0.653,
+     "cuota": 1.5,
+     "casa": "Bet365",
+     "inicio": "2026-10-17T09:00:00-05:00"
+    },
+    {
+     "gid": "4742038",
+     "partido": "Brentford vs Liverpool",
+     "texto": "Liverpool +0.5 (hándicap)",
+     "clave": "AH|-0.5|visita",
+     "p": 0.623,
+     "cuota": 1.48,
+     "casa": "Bet365",
+     "inicio": "2026-10-17T09:00:00-05:00"
+    },
+    {
+     "gid": "4742038",
+     "partido": "Brentford vs Liverpool",
+     "texto": "Liverpool o empate",
+     "clave": "DC||X2",
+     "p": 0.6206,
+     "cuota": 1.5,
+     "casa": "Bet365",
+     "inicio": "2026-10-17T09:00:00-05:00"
+    }
+   ],
+   "xi": "72966,556319,557975,668558,3517523,6533360,32237766,49513842,51263915,61456616,67428963|220953,558151,1286508,3344160,3886928,49449655,60734154,60909490,67987366,70896126,70986024",
+   "conf": true
   },
   "4742043": {
    "partido": "Manchester City vs Ipswich",
    "liga": "Inglaterra, Premier League",
    "inicio": "2026-10-17T09:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1792241458.1356792
+   "estado": "enviado",
+   "ultimo": 1792241702.0596662,
+   "pierna": [
+    {
+     "gid": "4742043",
+     "partido": "Manchester City vs Ipswich",
+     "texto": "Manchester City recibe gol",
+     "clave": "CS||local_no",
+     "p": 0.6222,
+     "cuota": 1.57,
+     "casa": "Bet365",
+     "inicio": "2026-10-17T09:00:00-05:00"
+    },
+    {
+     "gid": "4742043",
+     "partido": "Manchester City vs Ipswich",
+     "texto": "Más de 2.5 goles",
+     "clave": "OU|2.5|over",
+     "p": 0.5941,
+     "cuota": 1.33,
+     "casa": "Bet365",
+     "inicio": "2026-10-17T09:00:00-05:00"
+    }
+   ],
+   "xi": "346826,620429,1391166,3072169,3172759,8048871,39079597,49491936,55058114,68032675,71003385|534537,1140554,1404731,3153685,10968460,14151805,32246907,44421294,51284032,65255094,71354644",
+   "conf": true
   },
   "4742050": {
    "partido": "Newcastle United vs Aston Villa",
