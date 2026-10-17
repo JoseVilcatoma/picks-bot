@@ -2424,7 +2424,8 @@
     }
    ],
    "xi": "203068,393754,516073,2754101,3123906,3246351,6880090,66636343,67778470,67818682,71146348|384001,552616,638801,892506,3228073,14889196,19463377,19840004,46803506,54050192,66228710",
-   "conf": true
+   "conf": true,
+   "en_ticket": true
   },
   "4632641": {
    "partido": "Atlético Mineiro vs Coritiba",
@@ -2529,8 +2530,43 @@
    "partido": "FBC Melgar vs Deportivo Garcilaso",
    "liga": "Perú, Liga 1 - Clausura",
    "inicio": "2026-10-17T18:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1792275531.8589268
+   "estado": "enviado",
+   "ultimo": 1792275654.1104825,
+   "pierna": [
+    {
+     "gid": "4760808",
+     "partido": "FBC Melgar vs Deportivo Garcilaso",
+     "texto": "Más de 0.5 goles en el 1T",
+     "clave": "OU1T|0.5|over",
+     "p": 0.7286,
+     "cuota": 1.29,
+     "casa": "Bet365",
+     "inicio": "2026-10-17T18:00:00-05:00"
+    },
+    {
+     "gid": "4760808",
+     "partido": "FBC Melgar vs Deportivo Garcilaso",
+     "texto": "Gana FBC Melgar",
+     "clave": "1X2||1",
+     "p": 0.6292,
+     "cuota": 1.38,
+     "casa": "Bet365",
+     "inicio": "2026-10-17T18:00:00-05:00"
+    },
+    {
+     "gid": "4760808",
+     "partido": "FBC Melgar vs Deportivo Garcilaso",
+     "texto": "Más de 2.5 goles",
+     "clave": "OU|2.5|over",
+     "p": 0.5655,
+     "cuota": 1.62,
+     "casa": "Bet365",
+     "inicio": "2026-10-17T18:00:00-05:00"
+    }
+   ],
+   "en_ticket": true,
+   "xi": "137980,275266,347470,351160,460569,648658,12728007,13334880,50627852,50635855,52833089|254603,514232,519405,617235,890934,3138410,3249546,3347310,47441571,57621318,59059576",
+   "conf": false
   }
  },
  "web": {
@@ -2665,5 +2701,33 @@
   "4632645": 1792267089998,
   "4760808": 1792267089203
  },
- "tickets": []
+ "tickets": [
+  {
+   "piernas": [
+    {
+     "gid": "4760808",
+     "partido": "FBC Melgar vs Deportivo Garcilaso",
+     "texto": "Más de 0.5 goles en el 1T",
+     "clave": "OU1T|0.5|over",
+     "p": 0.7286,
+     "cuota": 1.29,
+     "casa": "Bet365",
+     "inicio": "2026-10-17T18:00:00-05:00"
+    },
+    {
+     "gid": "4632639",
+     "partido": "Athletico Paranaense vs Palmeiras",
+     "texto": "Menos de 3.5 goles",
+     "clave": "OU|3.5|under",
+     "p": 0.8028,
+     "cuota": 1.33,
+     "casa": "Bet365",
+     "inicio": "2026-10-17T17:30:00-05:00"
+    }
+   ],
+   "p": 0.58492008,
+   "cuota": 1.7157000000000002,
+   "t": 1792275654.721612
+  }
+ ]
 }
