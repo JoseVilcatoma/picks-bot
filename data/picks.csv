@@ -965,3 +965,10 @@ fecha,game_id,partido,liga,tipo,mercado,clave,prob,cuota,casa,cuota_justa,ev,sta
 2026-10-16 17:11,4632642,Mirassol vs Internacional,"Brasil, Brasileirão",modelo,Menos de 12.5 córners,CORN|12.5|under,0.7033,,,1.42,,,si,G,
 2026-10-16 17:11,4632642,Mirassol vs Internacional,"Brasil, Brasileirão",modelo,Más de 2.5 tarjetas,CARDS|2.5|over,0.6971,,,1.43,,,si,G,
 2026-10-16 17:11,4632642,Mirassol vs Internacional,"Brasil, Brasileirão",ticket,Gana Mirassol,1X2||1,0.4743,2.12,,2.11,0.0055,10.00,,G,11.20
+2026-10-17 05:43,4742036,Everton vs Chelsea,"Inglaterra, Premier League",seguro,Más de 1.5 goles,OU|1.5|over,0.7924,1.22,Bet365,1.26,-0.0333,,si,,
+2026-10-17 05:43,4742036,Everton vs Chelsea,"Inglaterra, Premier League",seguro,No hay empate,DC||12,0.7374,1.28,Bet365,1.36,-0.0561,,si,,
+2026-10-17 05:43,4742036,Everton vs Chelsea,"Inglaterra, Premier League",arriesgado,Más de 10.5 córners,CORN|10.5|over,0.4326,2.10,Bet365,2.31,-0.0915,,si,,
+2026-10-17 05:43,4742036,Everton vs Chelsea,"Inglaterra, Premier League",arriesgado,Más de 1.5 goles en el 1T,OU1T|1.5|over,0.3813,2.50,Bet365,2.62,-0.0467,,si,,
+2026-10-17 05:43,4742036,Everton vs Chelsea,"Inglaterra, Premier League",modelo,Menos de 12.5 córners,CORN|12.5|under,0.7356,,,1.36,,,si,,
+2026-10-17 05:43,4742036,Everton vs Chelsea,"Inglaterra, Premier League",modelo,Menos de 6.5 tarjetas,CARDS|6.5|under,0.7270,,,1.38,,,si,,
+2026-10-17 05:43,4742036,Everton vs Chelsea,"Inglaterra, Premier League",ticket,Everton +0.5 (hándicap) + Chelsea recibe gol,AH|0.5|local&CS||visita_no,0.5433,2.00,,1.84,0.0866,10.00,,,
