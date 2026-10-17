@@ -2478,8 +2478,8 @@
    "partido": "Mirassol vs Internacional",
    "liga": "Brasil, Brasileirão",
    "inicio": "2026-10-16T18:00:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1792198570.1625514,
+   "estado": "liquidado",
+   "ultimo": 1792199177.8211298,
    "pierna": [
     {
      "gid": "4632642",
@@ -2533,7 +2533,22 @@
     }
    ],
    "xi": "28189,543250,545444,547799,2384056,6663965,12677899,65016772,66212496,66558006,75394285|79031,110423,570831,3235788,13262931,13268811,14659487,38421152,40429890,50387690,52685662",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 2,
+    "ag": 0,
+    "ht": [
+     0,
+     0
+    ],
+    "corners": 7.0,
+    "corners_h": 5.0,
+    "corners_a": 2.0,
+    "corners_1t": 3.0,
+    "cards": 9.0,
+    "cards_h": 2.0,
+    "cards_a": 7.0
+   }
   },
   "4732678": {
    "partido": "Frosinone vs Sassuolo",
