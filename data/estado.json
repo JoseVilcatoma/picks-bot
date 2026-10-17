@@ -3318,35 +3318,99 @@
    "liga": "Alemania, Bundesliga",
    "inicio": "2026-10-17T08:30:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792239623.8665488
+   "ultimo": 1792239866.5829494
   },
   "4755373": {
    "partido": "Schalke 04 vs Mainz 05",
    "liga": "Alemania, Bundesliga",
    "inicio": "2026-10-17T08:30:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1792239623.9218955
+   "estado": "enviado",
+   "ultimo": 1792239866.6766398,
+   "pierna": [
+    {
+     "gid": "4755373",
+     "partido": "Schalke 04 vs Mainz 05",
+     "texto": "Más de 1.5 goles",
+     "clave": "OU|1.5|over",
+     "p": 0.803,
+     "cuota": 1.22,
+     "casa": "Bet365",
+     "inicio": "2026-10-17T08:30:00-05:00"
+    },
+    {
+     "gid": "4755373",
+     "partido": "Schalke 04 vs Mainz 05",
+     "texto": "Schalke 04 recibe gol",
+     "clave": "CS||local_no",
+     "p": 0.7963,
+     "cuota": 1.2,
+     "casa": "Bet365",
+     "inicio": "2026-10-17T08:30:00-05:00"
+    },
+    {
+     "gid": "4755373",
+     "partido": "Schalke 04 vs Mainz 05",
+     "texto": "Mainz 05 recibe gol",
+     "clave": "CS||visita_no",
+     "p": 0.7601,
+     "cuota": 1.25,
+     "casa": "Bet365",
+     "inicio": "2026-10-17T08:30:00-05:00"
+    },
+    {
+     "gid": "4755373",
+     "partido": "Schalke 04 vs Mainz 05",
+     "texto": "No hay empate",
+     "clave": "DC||12",
+     "p": 0.7372,
+     "cuota": 1.29,
+     "casa": "Bet365",
+     "inicio": "2026-10-17T08:30:00-05:00"
+    },
+    {
+     "gid": "4755373",
+     "partido": "Schalke 04 vs Mainz 05",
+     "texto": "Más de 0.5 goles en el 1T",
+     "clave": "OU1T|0.5|over",
+     "p": 0.7325,
+     "cuota": 1.33,
+     "casa": "Bet365",
+     "inicio": "2026-10-17T08:30:00-05:00"
+    },
+    {
+     "gid": "4755373",
+     "partido": "Schalke 04 vs Mainz 05",
+     "texto": "Mainz 05 o empate",
+     "clave": "DC||X2",
+     "p": 0.6658,
+     "cuota": 1.4,
+     "casa": "Bet365",
+     "inicio": "2026-10-17T08:30:00-05:00"
+    }
+   ],
+   "xi": "30290,334751,420080,449711,3345229,29409781,43495348,50080221,50341276,60936151,65396639|335039,488950,500733,508224,525630,581528,2809566,3132952,3231067,67774532,77401906",
+   "conf": true
   },
   "4755374": {
    "partido": "Werder Bremen vs SC Paderborn 07",
    "liga": "Alemania, Bundesliga",
    "inicio": "2026-10-17T08:30:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792239623.9519446
+   "ultimo": 1792239868.0941088
   },
   "4755375": {
    "partido": "Hamburgo SV vs Stuttgart",
    "liga": "Alemania, Bundesliga",
    "inicio": "2026-10-17T08:30:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792239623.9783762
+   "ultimo": 1792239868.1114025
   },
   "4755377": {
    "partido": "Union Berlin vs Borussia Dortmund",
    "liga": "Alemania, Bundesliga",
    "inicio": "2026-10-17T08:30:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792239623.9978628
+   "ultimo": 1792239868.1296375
   },
   "4755380": {
    "partido": "Bayern Munich vs RB Leipzig",
