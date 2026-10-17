@@ -1869,14 +1869,14 @@
    "liga": "Italia, Serie A",
    "inicio": "2026-10-17T13:45:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792259503.8842928
+   "ultimo": 1792259748.5562723
   },
   "4732680": {
    "partido": "Bologna vs Inter Milan",
    "liga": "Italia, Serie A",
    "inicio": "2026-10-17T11:00:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1792250124.255989,
+   "estado": "liquidado",
+   "ultimo": 1792259748.6659155,
    "pierna": [
     {
      "gid": "4732680",
@@ -1930,14 +1930,93 @@
     }
    ],
    "xi": "285835,348628,478842,3195499,3835966,4947373,13255854,33902941,33913784,50528133,51594637|329313,458646,511549,598403,886858,3071407,3161656,4802874,43137403,67771832,68000276",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 1,
+    "ag": 3,
+    "ht": [
+     1,
+     1
+    ],
+    "corners": 8.0,
+    "corners_h": 2.0,
+    "corners_a": 6.0,
+    "corners_1t": 4.0,
+    "cards": 7.0,
+    "cards_h": 4.0,
+    "cards_a": 3.0
+   }
   },
   "4735236": {
    "partido": "Troyes vs Lens",
    "liga": "Francia, Ligue 1",
    "inicio": "2026-10-17T13:45:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1792259503.9539685
+   "estado": "enviado",
+   "ultimo": 1792259748.8047361,
+   "pierna": [
+    {
+     "gid": "4735236",
+     "partido": "Troyes vs Lens",
+     "texto": "Lens o empate",
+     "clave": "DC||X2",
+     "p": 0.7283,
+     "cuota": 1.25,
+     "casa": "Bet365",
+     "inicio": "2026-10-17T13:45:00-05:00"
+    },
+    {
+     "gid": "4735236",
+     "partido": "Troyes vs Lens",
+     "texto": "No hay empate",
+     "clave": "DC||12",
+     "p": 0.7159,
+     "cuota": 1.25,
+     "casa": "Bet365",
+     "inicio": "2026-10-17T13:45:00-05:00"
+    },
+    {
+     "gid": "4735236",
+     "partido": "Troyes vs Lens",
+     "texto": "Más de 1.5 goles",
+     "clave": "OU|1.5|over",
+     "p": 0.7004,
+     "cuota": 1.2,
+     "casa": "Bet365",
+     "inicio": "2026-10-17T13:45:00-05:00"
+    },
+    {
+     "gid": "4735236",
+     "partido": "Troyes vs Lens",
+     "texto": "Más de 0.5 goles en el 1T",
+     "clave": "OU1T|0.5|over",
+     "p": 0.6592,
+     "cuota": 1.3,
+     "casa": "Bet365",
+     "inicio": "2026-10-17T13:45:00-05:00"
+    },
+    {
+     "gid": "4735236",
+     "partido": "Troyes vs Lens",
+     "texto": "Lens recibe gol",
+     "clave": "CS||visita_no",
+     "p": 0.6538,
+     "cuota": 1.33,
+     "casa": "Bet365",
+     "inicio": "2026-10-17T13:45:00-05:00"
+    },
+    {
+     "gid": "4735236",
+     "partido": "Troyes vs Lens",
+     "texto": "Ambos marcan: Sí",
+     "clave": "BTTS||si",
+     "p": 0.52,
+     "cuota": 1.62,
+     "casa": "Bet365",
+     "inicio": "2026-10-17T13:45:00-05:00"
+    }
+   ],
+   "xi": "326286,15242983,38273453,50682939,66534684,66662859,67878051,70855197,70953039,71328715,75439759|277482,490031,533996,668926,3180213,9052006,61793607,66384998,70953326,70953336,75235317",
+   "conf": true
   },
   "4735237": {
    "partido": "Estrasburgo vs PSG",
@@ -2010,7 +2089,7 @@
    "liga": "Francia, Ligue 1",
    "inicio": "2026-10-17T13:45:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792259504.0269206
+   "ultimo": 1792259750.2378905
   },
   "4742035": {
    "partido": "Fulham vs Hull City",
