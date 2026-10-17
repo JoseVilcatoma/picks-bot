@@ -3723,8 +3723,52 @@
    "partido": "Real Betis vs FC Barcelona",
    "liga": "España, LaLiga",
    "inicio": "2026-10-17T11:30:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1792250372.3673613
+   "estado": "enviado",
+   "ultimo": 1792250617.6827517,
+   "pierna": [
+    {
+     "gid": "4750830",
+     "partido": "Real Betis vs FC Barcelona",
+     "texto": "FC Barcelona recibe gol",
+     "clave": "CS||visita_no",
+     "p": 0.658,
+     "cuota": 1.25,
+     "casa": "Bet365",
+     "inicio": "2026-10-17T11:30:00-05:00"
+    },
+    {
+     "gid": "4750830",
+     "partido": "Real Betis vs FC Barcelona",
+     "texto": "Más de 2.5 goles",
+     "clave": "OU|2.5|over",
+     "p": 0.6372,
+     "cuota": 1.2,
+     "casa": "William Hill",
+     "inicio": "2026-10-17T11:30:00-05:00"
+    },
+    {
+     "gid": "4750830",
+     "partido": "Real Betis vs FC Barcelona",
+     "texto": "Ambos marcan: Sí",
+     "clave": "BTTS||si",
+     "p": 0.6335,
+     "cuota": 1.33,
+     "casa": "William Hill",
+     "inicio": "2026-10-17T11:30:00-05:00"
+    },
+    {
+     "gid": "4750830",
+     "partido": "Real Betis vs FC Barcelona",
+     "texto": "Gana FC Barcelona",
+     "clave": "1X2||2",
+     "p": 0.6332,
+     "cuota": 1.48,
+     "casa": "1xBet",
+     "inicio": "2026-10-17T11:30:00-05:00"
+    }
+   ],
+   "xi": "329571,435115,584859,596900,976812,3209042,18094605,50896962,62694855,64352162,65112544|626302,1759529,1761371,33309233,40179660,52343752,63765805,67787784,70894814,70951545,71171245",
+   "conf": true
   },
   "4755372": {
    "partido": "SV 07 Elversberg vs FC Augsburg",
@@ -4066,7 +4110,7 @@
    "liga": "Alemania, Bundesliga",
    "inicio": "2026-10-17T11:30:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792250372.4175644
+   "ultimo": 1792250618.9081702
   },
   "4760805": {
    "partido": "Juan Pablo II College vs Sport Boys",
