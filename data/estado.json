@@ -3132,8 +3132,52 @@
    "partido": "Estrasburgo vs PSG",
    "liga": "Francia, Ligue 1",
    "inicio": "2026-10-17T10:15:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1792247655.4677541
+   "estado": "enviado",
+   "ultimo": 1792247777.5468502,
+   "pierna": [
+    {
+     "gid": "4735237",
+     "partido": "Estrasburgo vs PSG",
+     "texto": "PSG recibe gol",
+     "clave": "CS||visita_no",
+     "p": 0.6339,
+     "cuota": 1.4,
+     "casa": "Bet365",
+     "inicio": "2026-10-17T10:15:00-05:00"
+    },
+    {
+     "gid": "4735237",
+     "partido": "Estrasburgo vs PSG",
+     "texto": "Gana PSG",
+     "clave": "1X2||2",
+     "p": 0.6295,
+     "cuota": 1.47,
+     "casa": "1xBet",
+     "inicio": "2026-10-17T10:15:00-05:00"
+    },
+    {
+     "gid": "4735237",
+     "partido": "Estrasburgo vs PSG",
+     "texto": "Más de 2.5 goles",
+     "clave": "OU|2.5|over",
+     "p": 0.6209,
+     "cuota": 1.36,
+     "casa": "Bet365",
+     "inicio": "2026-10-17T10:15:00-05:00"
+    },
+    {
+     "gid": "4735237",
+     "partido": "Estrasburgo vs PSG",
+     "texto": "Ambos marcan: Sí",
+     "clave": "BTTS||si",
+     "p": 0.5956,
+     "cuota": 1.5,
+     "casa": "William Hill",
+     "inicio": "2026-10-17T10:15:00-05:00"
+    }
+   ],
+   "xi": "43951837,50736377,54901981,56978378,67166934,68028328,71340815,75401895,75512013,76963138,77038325|600030,3169055,3171738,3948590,30605004,40745412,46715751,50754213,64040929,66436913,67181711",
+   "conf": false
   },
   "4735241": {
    "partido": "Lille vs Brest",
