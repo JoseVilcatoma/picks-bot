@@ -3317,8 +3317,62 @@
    "partido": "SV 07 Elversberg vs FC Augsburg",
    "liga": "Alemania, Bundesliga",
    "inicio": "2026-10-17T08:30:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1792240355.4100702
+   "estado": "enviado",
+   "ultimo": 1792240602.1662972,
+   "pierna": [
+    {
+     "gid": "4755372",
+     "partido": "SV 07 Elversberg vs FC Augsburg",
+     "texto": "Más de 0.5 goles en el 1T",
+     "clave": "OU1T|0.5|over",
+     "p": 0.7594,
+     "cuota": 1.22,
+     "casa": "Bet365",
+     "inicio": "2026-10-17T08:30:00-05:00"
+    },
+    {
+     "gid": "4755372",
+     "partido": "SV 07 Elversberg vs FC Augsburg",
+     "texto": "No hay empate",
+     "clave": "DC||12",
+     "p": 0.7484,
+     "cuota": 1.25,
+     "casa": "Bet365",
+     "inicio": "2026-10-17T08:30:00-05:00"
+    },
+    {
+     "gid": "4755372",
+     "partido": "SV 07 Elversberg vs FC Augsburg",
+     "texto": "SV 07 Elversberg o empate",
+     "clave": "DC||1X",
+     "p": 0.6787,
+     "cuota": 1.44,
+     "casa": "Bet365",
+     "inicio": "2026-10-17T08:30:00-05:00"
+    },
+    {
+     "gid": "4755372",
+     "partido": "SV 07 Elversberg vs FC Augsburg",
+     "texto": "Ambos marcan: Sí",
+     "clave": "BTTS||si",
+     "p": 0.6609,
+     "cuota": 1.4,
+     "casa": "William Hill",
+     "inicio": "2026-10-17T08:30:00-05:00"
+    },
+    {
+     "gid": "4755372",
+     "partido": "SV 07 Elversberg vs FC Augsburg",
+     "texto": "Más de 2.5 goles",
+     "clave": "OU|2.5|over",
+     "p": 0.6257,
+     "cuota": 1.5,
+     "casa": "William Hill",
+     "inicio": "2026-10-17T08:30:00-05:00"
+    }
+   ],
+   "xi": "3074635,9692144,50799028,60134466,60870648,61457020,66359447,67633948,70951470,75399256,76165365|571332,6009963,7041874,15399180,51185449,52013613,64080372,64687233,71102545,71148524,75383430",
+   "conf": true
   },
   "4755373": {
    "partido": "Schalke 04 vs Mainz 05",
@@ -3467,7 +3521,7 @@
    "liga": "Alemania, Bundesliga",
    "inicio": "2026-10-17T08:30:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792240356.119992
+   "ultimo": 1792240603.254573
   },
   "4755377": {
    "partido": "Union Berlin vs Borussia Dortmund",
