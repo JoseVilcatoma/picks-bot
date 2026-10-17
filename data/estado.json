@@ -3520,8 +3520,72 @@
    "partido": "Hamburgo SV vs Stuttgart",
    "liga": "Alemania, Bundesliga",
    "inicio": "2026-10-17T08:30:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1792240847.7402592
+   "estado": "enviado",
+   "ultimo": 1792241090.6349595,
+   "pierna": [
+    {
+     "gid": "4755375",
+     "partido": "Hamburgo SV vs Stuttgart",
+     "texto": "No hay empate",
+     "clave": "DC||12",
+     "p": 0.759,
+     "cuota": 1.22,
+     "casa": "Bet365",
+     "inicio": "2026-10-17T08:30:00-05:00"
+    },
+    {
+     "gid": "4755375",
+     "partido": "Hamburgo SV vs Stuttgart",
+     "texto": "Más de 0.5 goles en el 1T",
+     "clave": "OU1T|0.5|over",
+     "p": 0.7566,
+     "cuota": 1.2,
+     "casa": "Bet365",
+     "inicio": "2026-10-17T08:30:00-05:00"
+    },
+    {
+     "gid": "4755375",
+     "partido": "Hamburgo SV vs Stuttgart",
+     "texto": "Stuttgart o empate",
+     "clave": "DC||X2",
+     "p": 0.7483,
+     "cuota": 1.25,
+     "casa": "Bet365",
+     "inicio": "2026-10-17T08:30:00-05:00"
+    },
+    {
+     "gid": "4755375",
+     "partido": "Hamburgo SV vs Stuttgart",
+     "texto": "Stuttgart recibe gol",
+     "clave": "CS||visita_no",
+     "p": 0.7209,
+     "cuota": 1.25,
+     "casa": "Bet365",
+     "inicio": "2026-10-17T08:30:00-05:00"
+    },
+    {
+     "gid": "4755375",
+     "partido": "Hamburgo SV vs Stuttgart",
+     "texto": "Ambos marcan: Sí",
+     "clave": "BTTS||si",
+     "p": 0.6373,
+     "cuota": 1.4,
+     "casa": "William Hill",
+     "inicio": "2026-10-17T08:30:00-05:00"
+    },
+    {
+     "gid": "4755375",
+     "partido": "Hamburgo SV vs Stuttgart",
+     "texto": "Más de 2.5 goles",
+     "clave": "OU|2.5|over",
+     "p": 0.6161,
+     "cuota": 1.41,
+     "casa": "Betsson",
+     "inicio": "2026-10-17T08:30:00-05:00"
+    }
+   ],
+   "xi": "485593,562120,951739,3071304,13299329,49490708,52901773,58801584,61123536,64543956,77625227|982954,3726834,4802876,6241304,31371955,50497594,50665104,52232155,65139386,67921132,71054280",
+   "conf": true
   },
   "4755377": {
    "partido": "Union Berlin vs Borussia Dortmund",
