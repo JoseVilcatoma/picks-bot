@@ -3259,8 +3259,8 @@
    "partido": "Fulham vs Hull City",
    "liga": "Inglaterra, Premier League",
    "inicio": "2026-10-17T09:00:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1792241948.6879637,
+   "estado": "liquidado",
+   "ultimo": 1792252580.7874324,
    "pierna": [
     {
      "gid": "4742035",
@@ -3324,7 +3324,22 @@
     }
    ],
    "xi": "334784,441799,598010,841159,8950563,50208640,55239130,61717953,65848500,68056120,75402193|435138,526669,534530,1381354,1761369,49727649,51755120,55148762,65961044,70798951,76712965",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 1,
+    "ag": 0,
+    "ht": [
+     1,
+     0
+    ],
+    "corners": 13.0,
+    "corners_h": 11.0,
+    "corners_a": 2.0,
+    "corners_1t": 8.0,
+    "cards": 5.0,
+    "cards_h": 3.0,
+    "cards_a": 2.0
+   }
   },
   "4742036": {
    "partido": "Everton vs Chelsea",
@@ -3417,7 +3432,7 @@
    "liga": "Inglaterra, Premier League",
    "inicio": "2026-10-17T09:00:00-05:00",
    "estado": "enviado",
-   "ultimo": 1792241701.1084683,
+   "ultimo": 1792252581.0614429,
    "pierna": [
     {
      "gid": "4742038",
@@ -3488,7 +3503,7 @@
    "liga": "Inglaterra, Premier League",
    "inicio": "2026-10-17T09:00:00-05:00",
    "estado": "enviado",
-   "ultimo": 1792241702.0596662,
+   "ultimo": 1792252581.1280584,
    "pierna": [
     {
      "gid": "4742043",
