@@ -2799,8 +2799,8 @@
    "partido": "Real Betis vs FC Barcelona",
    "liga": "España, LaLiga",
    "inicio": "2026-10-17T11:30:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1792261583.8283944,
+   "estado": "liquidado",
+   "ultimo": 1792262193.0340312,
    "pierna": [
     {
      "gid": "4750830",
@@ -2844,7 +2844,22 @@
     }
    ],
    "xi": "329571,435115,584859,596900,976812,3209042,18094605,50896962,62694855,64352162,65112544|626302,1759529,1761371,33309233,40179660,52343752,63765805,67787784,70894814,70951545,71171245",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 2,
+    "ag": 5,
+    "ht": [
+     1,
+     2
+    ],
+    "corners": 7.0,
+    "corners_h": 2.0,
+    "corners_a": 5.0,
+    "corners_1t": 4.0,
+    "cards": 6.0,
+    "cards_h": 4.0,
+    "cards_a": 2.0
+   }
   },
   "4755372": {
    "partido": "SV 07 Elversberg vs FC Augsburg",
