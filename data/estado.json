@@ -3518,8 +3518,72 @@
    "partido": "Newcastle United vs Aston Villa",
    "liga": "Inglaterra, Premier League",
    "inicio": "2026-10-17T11:30:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1792250125.47429
+   "estado": "enviado",
+   "ultimo": 1792250370.7468703,
+   "pierna": [
+    {
+     "gid": "4742050",
+     "partido": "Newcastle United vs Aston Villa",
+     "texto": "Newcastle United recibe gol",
+     "clave": "CS||local_no",
+     "p": 0.7627,
+     "cuota": 1.25,
+     "casa": "Bet365",
+     "inicio": "2026-10-17T11:30:00-05:00"
+    },
+    {
+     "gid": "4742050",
+     "partido": "Newcastle United vs Aston Villa",
+     "texto": "No hay empate",
+     "clave": "DC||12",
+     "p": 0.7292,
+     "cuota": 1.29,
+     "casa": "Bet365",
+     "inicio": "2026-10-17T11:30:00-05:00"
+    },
+    {
+     "gid": "4742050",
+     "partido": "Newcastle United vs Aston Villa",
+     "texto": "Más de 0.5 goles en el 1T",
+     "clave": "OU1T|0.5|over",
+     "p": 0.7267,
+     "cuota": 1.25,
+     "casa": "Bet365",
+     "inicio": "2026-10-17T11:30:00-05:00"
+    },
+    {
+     "gid": "4742050",
+     "partido": "Newcastle United vs Aston Villa",
+     "texto": "Aston Villa o empate",
+     "clave": "DC||X2",
+     "p": 0.6515,
+     "cuota": 1.57,
+     "casa": "Bet365",
+     "inicio": "2026-10-17T11:30:00-05:00"
+    },
+    {
+     "gid": "4742050",
+     "partido": "Newcastle United vs Aston Villa",
+     "texto": "Aston Villa +0.5 (hándicap)",
+     "clave": "AH|-0.5|visita",
+     "p": 0.6427,
+     "cuota": 1.62,
+     "casa": "Bet365",
+     "inicio": "2026-10-17T11:30:00-05:00"
+    },
+    {
+     "gid": "4742050",
+     "partido": "Newcastle United vs Aston Villa",
+     "texto": "Ambos marcan: Sí",
+     "clave": "BTTS||si",
+     "p": 0.6144,
+     "cuota": 1.5,
+     "casa": "William Hill",
+     "inicio": "2026-10-17T11:30:00-05:00"
+    }
+   ],
+   "xi": "481823,906906,3153841,15244078,48658809,60982502,63092591,63157356,66657186,67761276,79285469|359032,501604,534043,596221,3132520,3206241,4832569,46854554,52355416,71391398,74392670",
+   "conf": true
   },
   "4750821": {
    "partido": "Villarreal CF vs Elche CF",
@@ -3660,7 +3724,7 @@
    "liga": "España, LaLiga",
    "inicio": "2026-10-17T11:30:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792250125.5417302
+   "ultimo": 1792250372.3673613
   },
   "4755372": {
    "partido": "SV 07 Elversberg vs FC Augsburg",
@@ -4002,7 +4066,7 @@
    "liga": "Alemania, Bundesliga",
    "inicio": "2026-10-17T11:30:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792250125.5946107
+   "ultimo": 1792250372.4175644
   },
   "4760805": {
    "partido": "Juan Pablo II College vs Sport Boys",
