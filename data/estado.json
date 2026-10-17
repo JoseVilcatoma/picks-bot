@@ -3775,7 +3775,7 @@
    "liga": "Alemania, Bundesliga",
    "inicio": "2026-10-17T08:30:00-05:00",
    "estado": "enviado",
-   "ultimo": 1792240602.1662972,
+   "ultimo": 1792250743.0501697,
    "pierna": [
     {
      "gid": "4755372",
@@ -3835,8 +3835,8 @@
    "partido": "Schalke 04 vs Mainz 05",
    "liga": "Alemania, Bundesliga",
    "inicio": "2026-10-17T08:30:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1792239866.6766398,
+   "estado": "liquidado",
+   "ultimo": 1792250743.1148283,
    "pierna": [
     {
      "gid": "4755373",
@@ -3900,14 +3900,29 @@
     }
    ],
    "xi": "30290,334751,420080,449711,3345229,29409781,43495348,50080221,50341276,60936151,65396639|335039,488950,500733,508224,525630,581528,2809566,3132952,3231067,67774532,77401906",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 0,
+    "ag": 1,
+    "ht": [
+     0,
+     1
+    ],
+    "corners": 5.0,
+    "corners_h": 4.0,
+    "corners_a": 1.0,
+    "corners_1t": 3.0,
+    "cards": 2.0,
+    "cards_h": 0.0,
+    "cards_a": 2.0
+   }
   },
   "4755374": {
    "partido": "Werder Bremen vs SC Paderborn 07",
    "liga": "Alemania, Bundesliga",
    "inicio": "2026-10-17T08:30:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1792240355.5723844,
+   "estado": "liquidado",
+   "ultimo": 1792250743.310576,
    "pierna": [
     {
      "gid": "4755374",
@@ -3971,14 +3986,29 @@
     }
    ],
    "xi": "502585,556207,3754113,13339521,14868299,40779181,49494429,50967039,51333871,65328217,70942380|3138034,50568553,51290169,65045584,65417618,65670736,66303155,67687520,68323301,70776744,70839583",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 2,
+    "ag": 2,
+    "ht": [
+     0,
+     2
+    ],
+    "corners": 8.0,
+    "corners_h": 5.0,
+    "corners_a": 3.0,
+    "corners_1t": 4.0,
+    "cards": 2.0,
+    "cards_h": 1.0,
+    "cards_a": 1.0
+   }
   },
   "4755375": {
    "partido": "Hamburgo SV vs Stuttgart",
    "liga": "Alemania, Bundesliga",
    "inicio": "2026-10-17T08:30:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1792241090.6349595,
+   "estado": "liquidado",
+   "ultimo": 1792250743.46718,
    "pierna": [
     {
      "gid": "4755375",
@@ -4042,14 +4072,29 @@
     }
    ],
    "xi": "485593,562120,951739,3071304,13299329,49490708,52901773,58801584,61123536,64543956,77625227|982954,3726834,4802876,6241304,31371955,50497594,50665104,52232155,65139386,67921132,71054280",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 1,
+    "ag": 0,
+    "ht": [
+     0,
+     0
+    ],
+    "corners": 14.0,
+    "corners_h": 5.0,
+    "corners_a": 9.0,
+    "corners_1t": 6.0,
+    "cards": 3.0,
+    "cards_h": 3.0,
+    "cards_a": 0.0
+   }
   },
   "4755377": {
    "partido": "Union Berlin vs Borussia Dortmund",
    "liga": "Alemania, Bundesliga",
    "inicio": "2026-10-17T08:30:00-05:00",
    "estado": "enviado",
-   "ultimo": 1792240356.140658,
+   "ultimo": 1792250743.607748,
    "pierna": [
     {
      "gid": "4755377",
