@@ -3146,8 +3146,72 @@
    "partido": "Fulham vs Hull City",
    "liga": "Inglaterra, Premier League",
    "inicio": "2026-10-17T09:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1792241701.0516994
+   "estado": "enviado",
+   "ultimo": 1792241948.6879637,
+   "pierna": [
+    {
+     "gid": "4742035",
+     "partido": "Fulham vs Hull City",
+     "texto": "Más de 1.5 goles",
+     "clave": "OU|1.5|over",
+     "p": 0.7788,
+     "cuota": 1.22,
+     "casa": "Bet365",
+     "inicio": "2026-10-17T09:00:00-05:00"
+    },
+    {
+     "gid": "4742035",
+     "partido": "Fulham vs Hull City",
+     "texto": "No hay empate",
+     "clave": "DC||12",
+     "p": 0.7641,
+     "cuota": 1.22,
+     "casa": "Bet365",
+     "inicio": "2026-10-17T09:00:00-05:00"
+    },
+    {
+     "gid": "4742035",
+     "partido": "Fulham vs Hull City",
+     "texto": "Más de 0.5 goles en el 1T",
+     "clave": "OU1T|0.5|over",
+     "p": 0.7137,
+     "cuota": 1.33,
+     "casa": "Bet365",
+     "inicio": "2026-10-17T09:00:00-05:00"
+    },
+    {
+     "gid": "4742035",
+     "partido": "Fulham vs Hull City",
+     "texto": "Menos de 3.5 goles",
+     "clave": "OU|3.5|under",
+     "p": 0.6728,
+     "cuota": 1.44,
+     "casa": "Bet365",
+     "inicio": "2026-10-17T09:00:00-05:00"
+    },
+    {
+     "gid": "4742035",
+     "partido": "Fulham vs Hull City",
+     "texto": "Menos de 1.5 goles en el 1T",
+     "clave": "OU1T|1.5|under",
+     "p": 0.6321,
+     "cuota": 1.5,
+     "casa": "Bet365",
+     "inicio": "2026-10-17T09:00:00-05:00"
+    },
+    {
+     "gid": "4742035",
+     "partido": "Fulham vs Hull City",
+     "texto": "Fulham recibe gol",
+     "clave": "CS||local_no",
+     "p": 0.6274,
+     "cuota": 1.5,
+     "casa": "Bet365",
+     "inicio": "2026-10-17T09:00:00-05:00"
+    }
+   ],
+   "xi": "334784,441799,598010,841159,8950563,50208640,55239130,61717953,65848500,68056120,75402193|435138,526669,534530,1381354,1761369,49727649,51755120,55148762,65961044,70798951,76712965",
+   "conf": true
   },
   "4742036": {
    "partido": "Everton vs Chelsea",
