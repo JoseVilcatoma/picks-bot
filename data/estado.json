@@ -3217,8 +3217,8 @@
    "partido": "Everton vs Chelsea",
    "liga": "Inglaterra, Premier League",
    "inicio": "2026-10-17T06:30:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1792243531.3536205,
+   "estado": "liquidado",
+   "ultimo": 1792244136.6049857,
    "pierna": [
     {
      "gid": "4742036",
@@ -3282,7 +3282,22 @@
     }
    ],
    "xi": "355086,478397,491469,596447,3071263,12433748,49684197,50763260,53419038,70782880,75441450|126125,407632,2558704,12774012,39270918,49733543,50800163,54701553,60927957,66692825,71073935",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 0,
+    "ag": 2,
+    "ht": [
+     0,
+     0
+    ],
+    "corners": 12.0,
+    "corners_h": 5.0,
+    "corners_a": 7.0,
+    "corners_1t": 7.0,
+    "cards": 7.0,
+    "cards_h": 3.0,
+    "cards_a": 4.0
+   }
   },
   "4742038": {
    "partido": "Brentford vs Liverpool",
