@@ -3040,8 +3040,72 @@
    "partido": "Venezia vs Nápoles",
    "liga": "Italia, Serie A",
    "inicio": "2026-10-17T08:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1792239013.2681968
+   "estado": "enviado",
+   "ultimo": 1792239255.9836485,
+   "pierna": [
+    {
+     "gid": "4732671",
+     "partido": "Venezia vs Nápoles",
+     "texto": "Más de 1.5 goles",
+     "clave": "OU|1.5|over",
+     "p": 0.7461,
+     "cuota": 1.2,
+     "casa": "Bet365",
+     "inicio": "2026-10-17T08:00:00-05:00"
+    },
+    {
+     "gid": "4732671",
+     "partido": "Venezia vs Nápoles",
+     "texto": "No hay empate",
+     "clave": "DC||12",
+     "p": 0.7227,
+     "cuota": 1.25,
+     "casa": "Bet365",
+     "inicio": "2026-10-17T08:00:00-05:00"
+    },
+    {
+     "gid": "4732671",
+     "partido": "Venezia vs Nápoles",
+     "texto": "Más de 0.5 goles en el 1T",
+     "clave": "OU1T|0.5|over",
+     "p": 0.6955,
+     "cuota": 1.29,
+     "casa": "Bet365",
+     "inicio": "2026-10-17T08:00:00-05:00"
+    },
+    {
+     "gid": "4732671",
+     "partido": "Venezia vs Nápoles",
+     "texto": "Nápoles recibe gol",
+     "clave": "CS||visita_no",
+     "p": 0.6951,
+     "cuota": 1.44,
+     "casa": "Bet365",
+     "inicio": "2026-10-17T08:00:00-05:00"
+    },
+    {
+     "gid": "4732671",
+     "partido": "Venezia vs Nápoles",
+     "texto": "Nápoles o empate",
+     "clave": "DC||X2",
+     "p": 0.6752,
+     "cuota": 1.22,
+     "casa": "Bet365",
+     "inicio": "2026-10-17T08:00:00-05:00"
+    },
+    {
+     "gid": "4732671",
+     "partido": "Venezia vs Nápoles",
+     "texto": "Ambos marcan: Sí",
+     "clave": "BTTS||si",
+     "p": 0.5671,
+     "cuota": 1.62,
+     "casa": "William Hill",
+     "inicio": "2026-10-17T08:00:00-05:00"
+    }
+   ],
+   "xi": "341951,542023,902494,2383747,4913062,8022349,47788915,49709059,65712453,66243378,67665528|385051,500737,550352,612027,973073,4286903,4874431,34691016,61666841,61684779,64720994",
+   "conf": true
   },
   "4732673": {
    "partido": "AS Roma vs Genoa",
