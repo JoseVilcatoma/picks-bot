@@ -3318,7 +3318,7 @@
    "liga": "Alemania, Bundesliga",
    "inicio": "2026-10-17T08:30:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792240112.4152818
+   "ultimo": 1792240355.4100702
   },
   "4755373": {
    "partido": "Schalke 04 vs Mainz 05",
@@ -3395,22 +3395,140 @@
    "partido": "Werder Bremen vs SC Paderborn 07",
    "liga": "Alemania, Bundesliga",
    "inicio": "2026-10-17T08:30:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1792240112.5123017
+   "estado": "enviado",
+   "ultimo": 1792240355.5723844,
+   "pierna": [
+    {
+     "gid": "4755374",
+     "partido": "Werder Bremen vs SC Paderborn 07",
+     "texto": "No hay empate",
+     "clave": "DC||12",
+     "p": 0.7745,
+     "cuota": 1.2,
+     "casa": "Bet365",
+     "inicio": "2026-10-17T08:30:00-05:00"
+    },
+    {
+     "gid": "4755374",
+     "partido": "Werder Bremen vs SC Paderborn 07",
+     "texto": "Werder Bremen o empate",
+     "clave": "DC||1X",
+     "p": 0.7621,
+     "cuota": 1.22,
+     "casa": "Bet365",
+     "inicio": "2026-10-17T08:30:00-05:00"
+    },
+    {
+     "gid": "4755374",
+     "partido": "Werder Bremen vs SC Paderborn 07",
+     "texto": "Más de 0.5 goles en el 1T",
+     "clave": "OU1T|0.5|over",
+     "p": 0.76,
+     "cuota": 1.25,
+     "casa": "Bet365",
+     "inicio": "2026-10-17T08:30:00-05:00"
+    },
+    {
+     "gid": "4755374",
+     "partido": "Werder Bremen vs SC Paderborn 07",
+     "texto": "Werder Bremen recibe gol",
+     "clave": "CS||local_no",
+     "p": 0.7169,
+     "cuota": 1.33,
+     "casa": "Bet365",
+     "inicio": "2026-10-17T08:30:00-05:00"
+    },
+    {
+     "gid": "4755374",
+     "partido": "Werder Bremen vs SC Paderborn 07",
+     "texto": "Más de 2.5 goles",
+     "clave": "OU|2.5|over",
+     "p": 0.6364,
+     "cuota": 1.5,
+     "casa": "William Hill",
+     "inicio": "2026-10-17T08:30:00-05:00"
+    },
+    {
+     "gid": "4755374",
+     "partido": "Werder Bremen vs SC Paderborn 07",
+     "texto": "Ambos marcan: Sí",
+     "clave": "BTTS||si",
+     "p": 0.6315,
+     "cuota": 1.55,
+     "casa": "William Hill",
+     "inicio": "2026-10-17T08:30:00-05:00"
+    }
+   ],
+   "xi": "502585,556207,3754113,13339521,14868299,40779181,49494429,50967039,51333871,65328217,70942380|3138034,50568553,51290169,65045584,65417618,65670736,66303155,67687520,68323301,70776744,70839583",
+   "conf": true
   },
   "4755375": {
    "partido": "Hamburgo SV vs Stuttgart",
    "liga": "Alemania, Bundesliga",
    "inicio": "2026-10-17T08:30:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792240112.546687
+   "ultimo": 1792240356.119992
   },
   "4755377": {
    "partido": "Union Berlin vs Borussia Dortmund",
    "liga": "Alemania, Bundesliga",
    "inicio": "2026-10-17T08:30:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1792240112.5682967
+   "estado": "enviado",
+   "ultimo": 1792240356.140658,
+   "pierna": [
+    {
+     "gid": "4755377",
+     "partido": "Union Berlin vs Borussia Dortmund",
+     "texto": "Más de 0.5 goles en el 1T",
+     "clave": "OU1T|0.5|over",
+     "p": 0.7477,
+     "cuota": 1.25,
+     "casa": "Bet365",
+     "inicio": "2026-10-17T08:30:00-05:00"
+    },
+    {
+     "gid": "4755377",
+     "partido": "Union Berlin vs Borussia Dortmund",
+     "texto": "Borussia Dortmund recibe gol",
+     "clave": "CS||visita_no",
+     "p": 0.6738,
+     "cuota": 1.4,
+     "casa": "Bet365",
+     "inicio": "2026-10-17T08:30:00-05:00"
+    },
+    {
+     "gid": "4755377",
+     "partido": "Union Berlin vs Borussia Dortmund",
+     "texto": "Más de 2.5 goles",
+     "clave": "OU|2.5|over",
+     "p": 0.6061,
+     "cuota": 1.52,
+     "casa": "Betsson",
+     "inicio": "2026-10-17T08:30:00-05:00"
+    },
+    {
+     "gid": "4755377",
+     "partido": "Union Berlin vs Borussia Dortmund",
+     "texto": "Gana Borussia Dortmund",
+     "clave": "1X2||2",
+     "p": 0.594,
+     "cuota": 1.6,
+     "casa": "Unibet (SE)",
+     "inicio": "2026-10-17T08:30:00-05:00"
+    },
+    {
+     "gid": "4755377",
+     "partido": "Union Berlin vs Borussia Dortmund",
+     "texto": "Ambos marcan: Sí",
+     "clave": "BTTS||si",
+     "p": 0.5924,
+     "cuota": 1.62,
+     "casa": "Bet365",
+     "inicio": "2026-10-17T08:30:00-05:00"
+    }
+   ],
+   "xi": "253890,335092,342465,905043,3094152,3154796,3473178,6875557,13659727,55685520,63126596|379069,895074,943391,3276664,15028852,47516152,50878796,51042327,64350505,66669581,70951404",
+   "conf": true
   },
   "4755380": {
    "partido": "Bayern Munich vs RB Leipzig",
