@@ -2518,8 +2518,8 @@
    "partido": "Newcastle United vs Aston Villa",
    "liga": "Inglaterra, Premier League",
    "inicio": "2026-10-17T11:30:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1792250370.7468703,
+   "estado": "liquidado",
+   "ultimo": 1792261583.5483599,
    "pierna": [
     {
      "gid": "4742050",
@@ -2584,7 +2584,22 @@
    ],
    "xi": "481823,906906,3153841,15244078,48658809,60982502,63092591,63157356,66657186,67761276,79285469|359032,501604,534043,596221,3132520,3206241,4832569,46854554,52355416,71391398,74392670",
    "conf": true,
-   "en_ticket": true
+   "en_ticket": true,
+   "r": {
+    "hg": 0,
+    "ag": 1,
+    "ht": [
+     0,
+     1
+    ],
+    "corners": 9.0,
+    "corners_h": 4.0,
+    "corners_a": 5.0,
+    "corners_1t": 5.0,
+    "cards": 8.0,
+    "cards_h": 6.0,
+    "cards_a": 2.0
+   }
   },
   "4750821": {
    "partido": "Villarreal CF vs Elche CF",
@@ -2785,7 +2800,7 @@
    "liga": "España, LaLiga",
    "inicio": "2026-10-17T11:30:00-05:00",
    "estado": "enviado",
-   "ultimo": 1792250617.6827517,
+   "ultimo": 1792261583.8283944,
    "pierna": [
     {
      "gid": "4750830",
@@ -3245,8 +3260,8 @@
    "partido": "Bayern Munich vs RB Leipzig",
    "liga": "Alemania, Bundesliga",
    "inicio": "2026-10-17T11:30:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1792252212.616472,
+   "estado": "liquidado",
+   "ultimo": 1792261583.8846312,
    "pierna": [
     {
      "gid": "4755380",
@@ -3301,7 +3316,22 @@
    ],
    "en_ticket": true,
    "xi": "227604,470279,485309,898082,3219251,6450095,14755144,50607749,60976669,66044210,67864491|565116,889605,3180934,4346740,8048881,51131240,58698523,59101484,61211738,64157972,67628271",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 6,
+    "ag": 1,
+    "ht": [
+     3,
+     0
+    ],
+    "corners": 14.0,
+    "corners_h": 11.0,
+    "corners_a": 3.0,
+    "corners_1t": 6.0,
+    "cards": 1.0,
+    "cards_h": 1.0,
+    "cards_a": 0.0
+   }
   },
   "4760805": {
    "partido": "Juan Pablo II College vs Sport Boys",
@@ -3439,33 +3469,6 @@
   "4760805": 1792233790323
  },
  "tickets": [
-  {
-   "piernas": [
-    {
-     "gid": "4755380",
-     "partido": "Bayern Munich vs RB Leipzig",
-     "texto": "Bayern Munich recibe gol",
-     "clave": "CS||local_no",
-     "p": 0.7227,
-     "cuota": 1.33,
-     "casa": "Bet365",
-     "inicio": "2026-10-17T11:30:00-05:00"
-    },
-    {
-     "gid": "4742050",
-     "partido": "Newcastle United vs Aston Villa",
-     "texto": "Aston Villa +0.5 (hándicap)",
-     "clave": "AH|-0.5|visita",
-     "p": 0.6427,
-     "cuota": 1.62,
-     "casa": "Bet365",
-     "inicio": "2026-10-17T11:30:00-05:00"
-    }
-   ],
-   "p": 0.46447929000000004,
-   "cuota": 2.1546000000000003,
-   "t": 1792252214.2554507
-  },
   {
    "piernas": [
     {
