@@ -1587,8 +1587,8 @@
    "partido": "Valencia CF vs Athletic Club",
    "liga": "España, LaLiga",
    "inicio": "2026-10-17T14:00:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1792259874.7916462,
+   "estado": "liquidado",
+   "ultimo": 1792270547.1056306,
    "pierna": [
     {
      "gid": "4750822",
@@ -1633,7 +1633,22 @@
    ],
    "xi": "441765,502893,561247,676819,1132718,1760855,3228816,5247024,50481885,64248760,64759691|330097,428230,541584,914591,987911,50832850,51188683,65561822,65769483,75384403,77382984",
    "conf": true,
-   "en_ticket": true
+   "en_ticket": true,
+   "r": {
+    "hg": 0,
+    "ag": 0,
+    "ht": [
+     0,
+     0
+    ],
+    "corners": 8.0,
+    "corners_h": 2.0,
+    "corners_a": 6.0,
+    "corners_1t": 5.0,
+    "cards": 6.0,
+    "cards_h": 3.0,
+    "cards_a": 3.0
+   }
   },
   "4750827": {
    "partido": "RCD Espanyol vs Atlético de Madrid",
@@ -2571,33 +2586,5 @@
   "4632645": 1792267089998,
   "4760808": 1792267089203
  },
- "tickets": [
-  {
-   "piernas": [
-    {
-     "gid": "4732673",
-     "partido": "AS Roma vs Genoa",
-     "texto": "Menos de 3.5 goles",
-     "clave": "OU|3.5|under",
-     "p": 0.8045,
-     "cuota": 1.33,
-     "casa": "Bet365",
-     "inicio": "2026-10-17T13:45:00-05:00"
-    },
-    {
-     "gid": "4750822",
-     "partido": "Valencia CF vs Athletic Club",
-     "texto": "Menos de 1.5 goles en el 1T",
-     "clave": "OU1T|1.5|under",
-     "p": 0.7528,
-     "cuota": 1.33,
-     "casa": "Bet365",
-     "inicio": "2026-10-17T14:00:00-05:00"
-    }
-   ],
-   "p": 0.6056276,
-   "cuota": 1.7689000000000001,
-   "t": 1792260246.2654748
-  }
- ]
+ "tickets": []
 }
