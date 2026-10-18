@@ -2563,8 +2563,8 @@
    "partido": "FBC Melgar vs Deportivo Garcilaso",
    "liga": "Perú, Liga 1 - Clausura",
    "inicio": "2026-10-17T18:00:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1792276020.760794,
+   "estado": "liquidado",
+   "ultimo": 1792284995.0929925,
    "pierna": [
     {
      "gid": "4760808",
@@ -2599,7 +2599,22 @@
    ],
    "en_ticket": true,
    "xi": "137980,275266,347470,351160,460569,648658,12728007,13334880,50627852,50635855,52833089|254603,514232,519405,617235,890934,3138410,3249546,3347310,47441571,57621318,59059576",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 4,
+    "ag": 2,
+    "ht": [
+     1,
+     1
+    ],
+    "corners": 12.0,
+    "corners_h": 6.0,
+    "corners_a": 6.0,
+    "corners_1t": 7.0,
+    "cards": 4.0,
+    "cards_h": 2.0,
+    "cards_a": 2.0
+   }
   }
  },
  "web": {
@@ -2734,33 +2749,5 @@
   "4632645": 1792267089998,
   "4760808": 1792267089203
  },
- "tickets": [
-  {
-   "piernas": [
-    {
-     "gid": "4760808",
-     "partido": "FBC Melgar vs Deportivo Garcilaso",
-     "texto": "Más de 0.5 goles en el 1T",
-     "clave": "OU1T|0.5|over",
-     "p": 0.7286,
-     "cuota": 1.29,
-     "casa": "Bet365",
-     "inicio": "2026-10-17T18:00:00-05:00"
-    },
-    {
-     "gid": "4632639",
-     "partido": "Athletico Paranaense vs Palmeiras",
-     "texto": "Menos de 3.5 goles",
-     "clave": "OU|3.5|under",
-     "p": 0.8028,
-     "cuota": 1.33,
-     "casa": "Bet365",
-     "inicio": "2026-10-17T17:30:00-05:00"
-    }
-   ],
-   "p": 0.58492008,
-   "cuota": 1.7157000000000002,
-   "t": 1792275654.721612
-  }
- ]
+ "tickets": []
 }
