@@ -2793,7 +2793,7 @@
    "liga": "Italia, Serie A",
    "inicio": "2026-10-18T13:45:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792345094.7372334
+   "ultimo": 1792345337.9104447
   },
   "4732679": {
    "partido": "Fiorentina vs Como",
@@ -3385,7 +3385,7 @@
    "liga": "Francia, Ligue 1",
    "inicio": "2026-10-18T13:45:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792345094.7933168
+   "ultimo": 1792345338.030633
   },
   "4735243": {
    "partido": "Le Havre vs Auxerre",
@@ -3938,14 +3938,14 @@
    "liga": "Perú, Liga 1 - Clausura",
    "inicio": "2026-10-18T13:15:00-05:00",
    "estado": "enviado",
-   "ultimo": 1792344970.1142147,
+   "ultimo": 1792345338.106326,
    "pierna": [
     {
      "gid": "4760804",
      "partido": "FC Cajamarca vs CD Moquegua",
      "texto": "FC Cajamarca o empate",
      "clave": "DC||1X",
-     "p": 0.7332,
+     "p": 0.8209,
      "cuota": 1.2,
      "casa": "Bet365",
      "inicio": "2026-10-18T13:15:00-05:00"
@@ -3955,7 +3955,7 @@
      "partido": "FC Cajamarca vs CD Moquegua",
      "texto": "No hay empate",
      "clave": "DC||12",
-     "p": 0.7026,
+     "p": 0.7348,
      "cuota": 1.29,
      "casa": "Bet365",
      "inicio": "2026-10-18T13:15:00-05:00"
@@ -3965,7 +3965,7 @@
      "partido": "FC Cajamarca vs CD Moquegua",
      "texto": "Más de 1.5 goles",
      "clave": "OU|1.5|over",
-     "p": 0.6863,
+     "p": 0.7088,
      "cuota": 1.25,
      "casa": "Bet365",
      "inicio": "2026-10-18T13:15:00-05:00"
@@ -3975,7 +3975,7 @@
      "partido": "FC Cajamarca vs CD Moquegua",
      "texto": "Más de 0.5 goles en el 1T",
      "clave": "OU1T|0.5|over",
-     "p": 0.6463,
+     "p": 0.6627,
      "cuota": 1.36,
      "casa": "Bet365",
      "inicio": "2026-10-18T13:15:00-05:00"
@@ -3985,14 +3985,14 @@
      "partido": "FC Cajamarca vs CD Moquegua",
      "texto": "FC Cajamarca recibe gol",
      "clave": "CS||local_no",
-     "p": 0.6279,
+     "p": 0.5546,
      "cuota": 1.5,
      "casa": "Bet365",
      "inicio": "2026-10-18T13:15:00-05:00"
     }
    ],
-   "xi": "496030,549319,2547399,4483040,5988526,7835850,55751030,67939604,71161933,77695473,78946536|319980,499074,514230,574428,618911,6590900,48577293,52708695,66862577,67974745,72047168",
-   "conf": false
+   "xi": "496030,549319,2547399,3226546,7835850,56700129,67631192,67939604,71161933,77695473,78946536|319980,484036,499074,514230,618911,6590900,48577293,52708695,61078193,66862577,67974745",
+   "conf": true
   },
   "4760806": {
    "partido": "Alianza Atletico vs Universitario",
