@@ -2635,8 +2635,72 @@
    "partido": "Udinese vs Lecce",
    "liga": "Italia, Serie A",
    "inicio": "2026-10-18T05:30:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1792316177.8185883
+   "estado": "enviado",
+   "ultimo": 1792316421.7362888,
+   "pierna": [
+    {
+     "gid": "4732672",
+     "partido": "Udinese vs Lecce",
+     "texto": "Menos de 3.5 goles",
+     "clave": "OU|3.5|under",
+     "p": 0.781,
+     "cuota": 1.25,
+     "casa": "Bet365",
+     "inicio": "2026-10-18T05:30:00-05:00"
+    },
+    {
+     "gid": "4732672",
+     "partido": "Udinese vs Lecce",
+     "texto": "No hay empate",
+     "clave": "DC||12",
+     "p": 0.7182,
+     "cuota": 1.29,
+     "casa": "Bet365",
+     "inicio": "2026-10-18T05:30:00-05:00"
+    },
+    {
+     "gid": "4732672",
+     "partido": "Udinese vs Lecce",
+     "texto": "Menos de 1.5 goles en el 1T",
+     "clave": "OU1T|1.5|under",
+     "p": 0.7051,
+     "cuota": 1.36,
+     "casa": "Bet365",
+     "inicio": "2026-10-18T05:30:00-05:00"
+    },
+    {
+     "gid": "4732672",
+     "partido": "Udinese vs Lecce",
+     "texto": "Más de 1.5 goles",
+     "clave": "OU|1.5|over",
+     "p": 0.6916,
+     "cuota": 1.36,
+     "casa": "Bet365",
+     "inicio": "2026-10-18T05:30:00-05:00"
+    },
+    {
+     "gid": "4732672",
+     "partido": "Udinese vs Lecce",
+     "texto": "Más de 0.5 goles en el 1T",
+     "clave": "OU1T|0.5|over",
+     "p": 0.655,
+     "cuota": 1.4,
+     "casa": "Bet365",
+     "inicio": "2026-10-18T05:30:00-05:00"
+    },
+    {
+     "gid": "4732672",
+     "partido": "Udinese vs Lecce",
+     "texto": "Udinese recibe gol",
+     "clave": "CS||local_no",
+     "p": 0.609,
+     "cuota": 1.53,
+     "casa": "Bet365",
+     "inicio": "2026-10-18T05:30:00-05:00"
+    }
+   ],
+   "xi": "238281,375123,489221,2383725,3052014,3335711,3679392,4882805,47484495,50409481,51147498|453730,904314,3476562,4870199,35341115,51584979,64864265,66406095,67874128,71384454,71392451",
+   "conf": true
   },
   "4732676": {
    "partido": "AC Milan vs Atalanta",

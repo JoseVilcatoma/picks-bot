@@ -1141,3 +1141,11 @@ fecha,game_id,partido,liga,tipo,mercado,clave,prob,cuota,casa,cuota_justa,ev,sta
 2026-10-17 18:17,4632644,São Paulo vs Vasco Da Gama,"Brasil, Brasileirão",modelo,Menos de 13.5 córners,CORN|13.5|under,0.7013,,,1.43,,,si,G,
 2026-10-17 18:17,4632644,São Paulo vs Vasco Da Gama,"Brasil, Brasileirão",ticket,Menos de 2.5 goles,OU|2.5|under,0.5748,1.74,,1.74,0.0002,10.00,,G,7.40
 2026-10-17 19:56,4760808+4632639,FBC Melgar vs Deportivo Garcilaso / Athletico Paranaense vs Palmeiras,,ticket2,Más de 0.5 goles en el 1T + Menos de 3.5 goles,,0.5849,1.72,,1.71,0.0035,10.00,,G,7.16
+2026-10-18 04:40,4732672,Udinese vs Lecce,"Italia, Serie A",seguro,Menos de 3.5 goles,OU|3.5|under,0.7810,1.25,Bet365,1.28,-0.0238,,si,,
+2026-10-18 04:40,4732672,Udinese vs Lecce,"Italia, Serie A",seguro,Udinese o empate,DC||1X,0.7722,1.18,Bet365,1.30,-0.0888,,si,,
+2026-10-18 04:40,4732672,Udinese vs Lecce,"Italia, Serie A",arriesgado,Más de 2.5 goles,OU|2.5|over,0.4355,2.09,Coolbet,2.30,-0.0898,,si,,
+2026-10-18 04:40,4732672,Udinese vs Lecce,"Italia, Serie A",arriesgado,Empate,1X2||X,0.2788,3.68,1xBet,3.59,0.0259,,si,,
+2026-10-18 04:40,4732672,Udinese vs Lecce,"Italia, Serie A",modelo,Más de 7.5 córners,CORN|7.5|over,0.6895,,,1.45,,,si,,
+2026-10-18 04:40,4732672,Udinese vs Lecce,"Italia, Serie A",modelo,Menos de 6.5 tarjetas,CARDS|6.5|under,0.6857,,,1.46,,,si,,
+2026-10-18 04:40,4732672,Udinese vs Lecce,"Italia, Serie A",ticket,Menos de 2.5 goles,OU|2.5|under,0.5645,1.87,,1.77,0.0556,10.00,,,
+2026-10-18 04:40,4732672,Udinese vs Lecce,"Italia, Serie A",crear,Udinese o empate + Menos de 2.5 goles en el 1T + Menos de 14.5 córners,DC||1X&OU1T|2.5|under&CORN|14.5|under,0.5751,,,1.74,,,,,
