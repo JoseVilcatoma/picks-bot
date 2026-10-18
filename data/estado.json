@@ -3730,8 +3730,8 @@
    "partido": "Bayer Leverkusen vs Friburgo",
    "liga": "Alemania, Bundesliga",
    "inicio": "2026-10-18T08:30:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1792327188.8672123,
+   "estado": "liquidado",
+   "ultimo": 1792337199.635299,
    "pierna": [
     {
      "gid": "4755379",
@@ -3785,7 +3785,22 @@
     }
    ],
    "xi": "495388,511863,613840,3177765,7180298,30803774,50172386,56555504,63792363,67787322,67900705|220585,418057,593193,3071285,53464344,61066404,66221753,69040955,70767985,70780165,75439830",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 2,
+    "ag": 1,
+    "ht": [
+     1,
+     1
+    ],
+    "corners": 7.0,
+    "corners_h": 4.0,
+    "corners_a": 3.0,
+    "corners_1t": 3.0,
+    "cards": 1.0,
+    "cards_h": 0.0,
+    "cards_a": 1.0
+   }
   },
   "4760803": {
    "partido": "Sporting Cristal vs Comerciantes Unidos",
