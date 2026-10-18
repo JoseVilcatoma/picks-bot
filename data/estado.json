@@ -2736,7 +2736,7 @@
    "liga": "Italia, Serie A",
    "inicio": "2026-10-18T08:00:00-05:00",
    "estado": "enviado",
-   "ultimo": 1792326454.4563277,
+   "ultimo": 1792335357.5568821,
    "pierna": [
     {
      "gid": "4732679",
@@ -2930,8 +2930,8 @@
    "partido": "Angers vs Olympique Marsella",
    "liga": "Francia, Ligue 1",
    "inicio": "2026-10-18T08:00:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1792325466.5217953,
+   "estado": "liquidado",
+   "ultimo": 1792335357.6141531,
    "pierna": [
     {
      "gid": "4735244",
@@ -2995,7 +2995,22 @@
     }
    ],
    "xi": "333004,432445,658840,50682074,64963284,66137744,66447261,67601451,67630530,70809809,77861327|328997,543231,3053170,3153777,3154243,12616002,13268816,50159654,63131014,75445196,77885631",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 2,
+    "ag": 5,
+    "ht": [
+     1,
+     2
+    ],
+    "corners": 7.0,
+    "corners_h": 2.0,
+    "corners_a": 5.0,
+    "corners_1t": 4.0,
+    "cards": 2.0,
+    "cards_h": 1.0,
+    "cards_a": 1.0
+   }
   },
   "4750823": {
    "partido": "Real Madrid vs Sevilla FC",
@@ -3311,8 +3326,8 @@
    "partido": "Leeds United vs Manchester United",
    "liga": "Inglaterra, Premier League",
    "inicio": "2026-10-18T08:00:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1792324477.675466,
+   "estado": "liquidado",
+   "ultimo": 1792335357.7465916,
    "pierna": [
     {
      "gid": "4742034",
@@ -3356,14 +3371,29 @@
     }
    ],
    "xi": "540689,649450,886874,907041,984482,3135966,4264302,7227288,51042324,51186926,58340010|332598,398065,435334,4201425,6813762,6835961,40765000,50729542,65131542,65397189,65521968",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 1,
+    "ag": 1,
+    "ht": [
+     0,
+     1
+    ],
+    "corners": 5.0,
+    "corners_h": 2.0,
+    "corners_a": 3.0,
+    "corners_1t": 1.0,
+    "cards": 4.0,
+    "cards_h": 2.0,
+    "cards_a": 2.0
+   }
   },
   "4742037": {
    "partido": "Brighton vs Crystal Palace",
    "liga": "Inglaterra, Premier League",
    "inicio": "2026-10-18T08:00:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1792324479.460675,
+   "estado": "liquidado",
+   "ultimo": 1792335357.870084,
    "pierna": [
     {
      "gid": "4742037",
@@ -3407,14 +3437,29 @@
     }
    ],
    "xi": "236532,624429,891006,3071443,35002742,46557681,53614148,65296564,67771434,70953229,71047802|379422,571198,834589,3183310,49658641,50752231,52342774,64697647,66683658,75390595,75420191",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 5,
+    "ag": 0,
+    "ht": [
+     3,
+     0
+    ],
+    "corners": 13.0,
+    "corners_h": 8.0,
+    "corners_a": 5.0,
+    "corners_1t": 4.0,
+    "cards": 3.0,
+    "cards_h": 2.0,
+    "cards_a": 1.0
+   }
   },
   "4742039": {
    "partido": "Bournemouth vs Sunderland",
    "liga": "Inglaterra, Premier League",
    "inicio": "2026-10-18T08:00:00-05:00",
    "estado": "enviado",
-   "ultimo": 1792324483.8007982,
+   "ultimo": 1792335358.0482562,
    "pierna": [
     {
      "gid": "4742039",
