@@ -1260,3 +1260,9 @@ fecha,game_id,partido,liga,tipo,mercado,clave,prob,cuota,casa,cuota_justa,ev,sta
 2026-10-18 10:24,4750825,Málaga CF vs Real Sociedad,"España, LaLiga",ticket,Menos de 2.5 goles,OU|2.5|under,0.5397,2.20,,1.85,0.1873,10.00,,,
 2026-10-18 12:11,4735243+4735240,Le Havre vs Auxerre / Lorient vs Monaco,,ticket2,No hay empate + Menos de 3.5 goles,,0.6003,1.72,,1.67,0.0299,10.00,,G,7.16
 2026-10-18 12:25,4735238+4742033,Paris FC vs Rennes / Nottingham Forest vs Arsenal,,ticket2,Paris FC o empate + Menos de 3.5 goles,,0.6005,1.82,,1.67,0.0929,10.00,,G,8.20
+2026-10-18 12:36,4760804,FC Cajamarca vs CD Moquegua,"Perú, Liga 1 - Clausura",seguro,FC Cajamarca o empate,DC||1X,0.7332,1.20,Bet365,1.36,-0.1202,,probable,,
+2026-10-18 12:36,4760804,FC Cajamarca vs CD Moquegua,"Perú, Liga 1 - Clausura",seguro,Más de 1.5 goles,OU|1.5|over,0.6863,1.25,Bet365,1.46,-0.1421,,probable,,
+2026-10-18 12:36,4760804,FC Cajamarca vs CD Moquegua,"Perú, Liga 1 - Clausura",arriesgado,Empate,1X2||X,0.2961,3.50,Bet365,3.38,0.0364,,probable,,
+2026-10-18 12:36,4760804,FC Cajamarca vs CD Moquegua,"Perú, Liga 1 - Clausura",modelo,Menos de 10.5 córners,CORN|10.5|under,0.7082,,,1.41,,,probable,,
+2026-10-18 12:36,4760804,FC Cajamarca vs CD Moquegua,"Perú, Liga 1 - Clausura",modelo,Más de 2.5 tarjetas,CARDS|2.5|over,0.6755,,,1.48,,,probable,,
+2026-10-18 12:36,4760804,FC Cajamarca vs CD Moquegua,"Perú, Liga 1 - Clausura",ticket,FC Cajamarca recibe gol + Más de 1.5 goles,CS||local_no&OU|1.5|over,0.5379,1.88,,1.86,0.0085,10.00,,,

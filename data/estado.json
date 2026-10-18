@@ -3937,8 +3937,62 @@
    "partido": "FC Cajamarca vs CD Moquegua",
    "liga": "Perú, Liga 1 - Clausura",
    "inicio": "2026-10-18T13:15:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1792344847.6680694
+   "estado": "enviado",
+   "ultimo": 1792344970.1142147,
+   "pierna": [
+    {
+     "gid": "4760804",
+     "partido": "FC Cajamarca vs CD Moquegua",
+     "texto": "FC Cajamarca o empate",
+     "clave": "DC||1X",
+     "p": 0.7332,
+     "cuota": 1.2,
+     "casa": "Bet365",
+     "inicio": "2026-10-18T13:15:00-05:00"
+    },
+    {
+     "gid": "4760804",
+     "partido": "FC Cajamarca vs CD Moquegua",
+     "texto": "No hay empate",
+     "clave": "DC||12",
+     "p": 0.7026,
+     "cuota": 1.29,
+     "casa": "Bet365",
+     "inicio": "2026-10-18T13:15:00-05:00"
+    },
+    {
+     "gid": "4760804",
+     "partido": "FC Cajamarca vs CD Moquegua",
+     "texto": "Más de 1.5 goles",
+     "clave": "OU|1.5|over",
+     "p": 0.6863,
+     "cuota": 1.25,
+     "casa": "Bet365",
+     "inicio": "2026-10-18T13:15:00-05:00"
+    },
+    {
+     "gid": "4760804",
+     "partido": "FC Cajamarca vs CD Moquegua",
+     "texto": "Más de 0.5 goles en el 1T",
+     "clave": "OU1T|0.5|over",
+     "p": 0.6463,
+     "cuota": 1.36,
+     "casa": "Bet365",
+     "inicio": "2026-10-18T13:15:00-05:00"
+    },
+    {
+     "gid": "4760804",
+     "partido": "FC Cajamarca vs CD Moquegua",
+     "texto": "FC Cajamarca recibe gol",
+     "clave": "CS||local_no",
+     "p": 0.6279,
+     "cuota": 1.5,
+     "casa": "Bet365",
+     "inicio": "2026-10-18T13:15:00-05:00"
+    }
+   ],
+   "xi": "496030,549319,2547399,4483040,5988526,7835850,55751030,67939604,71161933,77695473,78946536|319980,499074,514230,574428,618911,6590900,48577293,52708695,66862577,67974745,72047168",
+   "conf": false
   },
   "4760806": {
    "partido": "Alianza Atletico vs Universitario",
