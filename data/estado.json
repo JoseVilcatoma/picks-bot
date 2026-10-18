@@ -3008,8 +3008,72 @@
    "partido": "Remo vs Bragantino",
    "liga": "Brasil, Brasileirão",
    "inicio": "2026-10-18T17:30:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1792359320.0706193
+   "estado": "enviado",
+   "ultimo": 1792359564.0512831,
+   "pierna": [
+    {
+     "gid": "4632637",
+     "partido": "Remo vs Bragantino",
+     "texto": "Remo recibe gol",
+     "clave": "CS||local_no",
+     "p": 0.8029,
+     "cuota": 1.2,
+     "casa": "Bet365",
+     "inicio": "2026-10-18T17:30:00-05:00"
+    },
+    {
+     "gid": "4632637",
+     "partido": "Remo vs Bragantino",
+     "texto": "Más de 1.5 goles",
+     "clave": "OU|1.5|over",
+     "p": 0.7896,
+     "cuota": 1.2,
+     "casa": "Bet365",
+     "inicio": "2026-10-18T17:30:00-05:00"
+    },
+    {
+     "gid": "4632637",
+     "partido": "Remo vs Bragantino",
+     "texto": "No hay empate",
+     "clave": "DC||12",
+     "p": 0.7415,
+     "cuota": 1.29,
+     "casa": "Bet365",
+     "inicio": "2026-10-18T17:30:00-05:00"
+    },
+    {
+     "gid": "4632637",
+     "partido": "Remo vs Bragantino",
+     "texto": "Bragantino o empate",
+     "clave": "DC||X2",
+     "p": 0.7244,
+     "cuota": 1.36,
+     "casa": "Bet365",
+     "inicio": "2026-10-18T17:30:00-05:00"
+    },
+    {
+     "gid": "4632637",
+     "partido": "Remo vs Bragantino",
+     "texto": "Más de 0.5 goles en el 1T",
+     "clave": "OU1T|0.5|over",
+     "p": 0.7183,
+     "cuota": 1.33,
+     "casa": "Bet365",
+     "inicio": "2026-10-18T17:30:00-05:00"
+    },
+    {
+     "gid": "4632637",
+     "partido": "Remo vs Bragantino",
+     "texto": "Bragantino recibe gol",
+     "clave": "CS||visita_no",
+     "p": 0.7055,
+     "cuota": 1.3,
+     "casa": "Bet365",
+     "inicio": "2026-10-18T17:30:00-05:00"
+    }
+   ],
+   "xi": "165639,350333,452796,516436,941228,977650,1767076,1858293,12709324,50486080,71362795|377132,502310,888633,1302805,3079211,3311037,56162393,57889982,61417696,71359568,77715397",
+   "conf": true
   },
   "4632638": {
    "partido": "Bahia vs Flamengo",
