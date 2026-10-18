@@ -2793,7 +2793,7 @@
    "liga": "Italia, Serie A",
    "inicio": "2026-10-18T13:45:00-05:00",
    "estado": "pendiente",
-   "ultimo": 0
+   "ultimo": 1792344604.0302272
   },
   "4732679": {
    "partido": "Fiorentina vs Como",
@@ -3385,7 +3385,7 @@
    "liga": "Francia, Ligue 1",
    "inicio": "2026-10-18T13:45:00-05:00",
    "estado": "pendiente",
-   "ultimo": 0
+   "ultimo": 1792344604.1763136
   },
   "4735243": {
    "partido": "Le Havre vs Auxerre",
@@ -3938,7 +3938,7 @@
    "liga": "Perú, Liga 1 - Clausura",
    "inicio": "2026-10-18T13:15:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792344358.0217414
+   "ultimo": 1792344604.2260752
   },
   "4760806": {
    "partido": "Alianza Atletico vs Universitario",
