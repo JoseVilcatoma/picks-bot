@@ -1266,13 +1266,13 @@ fecha,game_id,partido,liga,tipo,mercado,clave,prob,cuota,casa,cuota_justa,ev,sta
 2026-10-18 12:42,4760804,FC Cajamarca vs CD Moquegua,"Perú, Liga 1 - Clausura",modelo,Menos de 10.5 córners,CORN|10.5|under,0.7082,,,1.41,,,si,G,
 2026-10-18 12:42,4760804,FC Cajamarca vs CD Moquegua,"Perú, Liga 1 - Clausura",modelo,Más de 2.5 tarjetas,CARDS|2.5|over,0.6755,,,1.48,,,si,P,
 2026-10-18 12:42,4760804,FC Cajamarca vs CD Moquegua,"Perú, Liga 1 - Clausura",ticket,FC Cajamarca -0.5 (hándicap),AH|-0.5|local,0.5606,1.80,,1.78,0.0090,10.00,,P,-10.00
-2026-10-18 12:46,4735239,Lyon vs Niza,"Francia, Ligue 1",seguro,Menos de 3.5 goles,OU|3.5|under,0.7366,1.50,Bet365,1.36,0.1050,,si,,
-2026-10-18 12:46,4735239,Lyon vs Niza,"Francia, Ligue 1",seguro,No hay empate,DC||12,0.7122,1.25,Bet365,1.40,-0.1097,,si,,
-2026-10-18 12:46,4735239,Lyon vs Niza,"Francia, Ligue 1",arriesgado,Más de 4.5 tarjetas,CARDS|4.5|over,0.4107,2.20,Bet365,2.43,-0.0964,,si,,
-2026-10-18 12:46,4735239,Lyon vs Niza,"Francia, Ligue 1",arriesgado,Menos de 0.5 goles en el 1T,OU1T|0.5|under,0.3242,3.40,Bet365,3.08,0.1023,,si,,
-2026-10-18 12:46,4735239,Lyon vs Niza,"Francia, Ligue 1",modelo,Menos de 6.5 tarjetas,CARDS|6.5|under,0.7046,,,1.42,,,si,,
-2026-10-18 12:46,4735239,Lyon vs Niza,"Francia, Ligue 1",modelo,Más de 6.5 córners,CORN|6.5|over,0.6817,,,1.47,,,si,,
-2026-10-18 12:46,4735239,Lyon vs Niza,"Francia, Ligue 1",ticket,Menos de 2.5 goles,OU|2.5|under,0.5221,2.30,,1.92,0.2008,10.00,,,
+2026-10-18 12:46,4735239,Lyon vs Niza,"Francia, Ligue 1",seguro,Menos de 3.5 goles,OU|3.5|under,0.7366,1.50,Bet365,1.36,0.1050,,si,G,
+2026-10-18 12:46,4735239,Lyon vs Niza,"Francia, Ligue 1",seguro,No hay empate,DC||12,0.7122,1.25,Bet365,1.40,-0.1097,,si,G,
+2026-10-18 12:46,4735239,Lyon vs Niza,"Francia, Ligue 1",arriesgado,Más de 4.5 tarjetas,CARDS|4.5|over,0.4107,2.20,Bet365,2.43,-0.0964,,si,G,
+2026-10-18 12:46,4735239,Lyon vs Niza,"Francia, Ligue 1",arriesgado,Menos de 0.5 goles en el 1T,OU1T|0.5|under,0.3242,3.40,Bet365,3.08,0.1023,,si,P,
+2026-10-18 12:46,4735239,Lyon vs Niza,"Francia, Ligue 1",modelo,Menos de 6.5 tarjetas,CARDS|6.5|under,0.7046,,,1.42,,,si,G,
+2026-10-18 12:46,4735239,Lyon vs Niza,"Francia, Ligue 1",modelo,Más de 6.5 córners,CORN|6.5|over,0.6817,,,1.47,,,si,G,
+2026-10-18 12:46,4735239,Lyon vs Niza,"Francia, Ligue 1",ticket,Menos de 2.5 goles,OU|2.5|under,0.5221,2.30,,1.92,0.2008,10.00,,P,-10.00
 2026-10-18 13:02,4732677,Juventus vs Lazio,"Italia, Serie A",seguro,No hay empate,DC||12,0.7341,1.25,Bet365,1.36,-0.0823,,si,G,
 2026-10-18 13:02,4732677,Juventus vs Lazio,"Italia, Serie A",seguro,Más de 1.5 goles,OU|1.5|over,0.7245,1.29,Bet365,1.38,-0.0653,,si,G,
 2026-10-18 13:02,4732677,Juventus vs Lazio,"Italia, Serie A",arriesgado,Empate,1X2||X,0.2644,3.90,Bet365,3.78,0.0312,,si,P,
@@ -1311,3 +1311,4 @@ fecha,game_id,partido,liga,tipo,mercado,clave,prob,cuota,casa,cuota_justa,ev,sta
 2026-10-18 15:40,4632638,Bahia vs Flamengo,"Brasil, Brasileirão",modelo,Más de 7.5 córners,CORN|7.5|over,0.6895,,,1.45,,,si,,
 2026-10-18 15:40,4632638,Bahia vs Flamengo,"Brasil, Brasileirão",modelo,Más de 2.5 tarjetas,CARDS|2.5|over,0.6687,,,1.50,,,si,,
 2026-10-18 15:40,4632638,Bahia vs Flamengo,"Brasil, Brasileirão",ticket,Menos de 2.5 goles,OU|2.5|under,0.4773,2.25,,2.10,0.0739,10.00,,,
+2026-10-18 15:50,4735239+4760804,Lyon vs Niza / FC Cajamarca vs CD Moquegua,,ticket2,Menos de 3.5 goles + FC Cajamarca o empate,,0.6047,1.80,,1.65,0.0884,10.00,,P,-10.00

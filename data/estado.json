@@ -3213,8 +3213,8 @@
    "partido": "Lyon vs Niza",
    "liga": "Francia, Ligue 1",
    "inicio": "2026-10-18T13:45:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1792356023.2102234,
+   "estado": "liquidado",
+   "ultimo": 1792356633.6070058,
    "pierna": [
     {
      "gid": "4735239",
@@ -3279,7 +3279,22 @@
    ],
    "en_ticket": true,
    "xi": "538174,568308,889649,12759586,42213317,48501418,55658592,65776157,71502222,75259442,77667697|26903,1766803,3136375,3413846,6261797,47429447,50568830,50676834,53769150,63192118,78409092",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 2,
+    "ag": 1,
+    "ht": [
+     2,
+     1
+    ],
+    "corners": 10.0,
+    "corners_h": 1.0,
+    "corners_a": 9.0,
+    "corners_1t": 2.0,
+    "cards": 5.0,
+    "cards_h": 1.0,
+    "cards_a": 4.0
+   }
   },
   "4735243": {
    "partido": "Le Havre vs Auxerre",
@@ -4118,33 +4133,5 @@
   "4760806": 1792314440740,
   "4760809": 1792314441234
  },
- "tickets": [
-  {
-   "piernas": [
-    {
-     "gid": "4735239",
-     "partido": "Lyon vs Niza",
-     "texto": "Menos de 3.5 goles",
-     "clave": "OU|3.5|under",
-     "p": 0.7366,
-     "cuota": 1.5,
-     "casa": "Bet365",
-     "inicio": "2026-10-18T13:45:00-05:00"
-    },
-    {
-     "gid": "4760804",
-     "partido": "FC Cajamarca vs CD Moquegua",
-     "texto": "FC Cajamarca o empate",
-     "clave": "DC||1X",
-     "p": 0.8209,
-     "cuota": 1.2,
-     "casa": "Bet365",
-     "inicio": "2026-10-18T13:15:00-05:00"
-    }
-   ],
-   "p": 0.60467494,
-   "cuota": 1.7999999999999998,
-   "t": 1792345584.189416
-  }
- ]
+ "tickets": []
 }
