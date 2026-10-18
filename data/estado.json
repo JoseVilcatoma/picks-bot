@@ -3214,8 +3214,52 @@
    "partido": "Nottingham Forest vs Arsenal",
    "liga": "Inglaterra, Premier League",
    "inicio": "2026-10-18T10:30:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1792333393.8505764
+   "estado": "enviado",
+   "ultimo": 1792333642.2680776,
+   "pierna": [
+    {
+     "gid": "4742033",
+     "partido": "Nottingham Forest vs Arsenal",
+     "texto": "Menos de 3.5 goles",
+     "clave": "OU|3.5|under",
+     "p": 0.7755,
+     "cuota": 1.4,
+     "casa": "Bet365",
+     "inicio": "2026-10-18T10:30:00-05:00"
+    },
+    {
+     "gid": "4742033",
+     "partido": "Nottingham Forest vs Arsenal",
+     "texto": "No hay empate",
+     "clave": "DC||12",
+     "p": 0.7283,
+     "cuota": 1.25,
+     "casa": "Bet365",
+     "inicio": "2026-10-18T10:30:00-05:00"
+    },
+    {
+     "gid": "4742033",
+     "partido": "Nottingham Forest vs Arsenal",
+     "texto": "Menos de 1.5 goles en el 1T",
+     "clave": "OU1T|1.5|under",
+     "p": 0.7119,
+     "cuota": 1.44,
+     "casa": "Bet365",
+     "inicio": "2026-10-18T10:30:00-05:00"
+    },
+    {
+     "gid": "4742033",
+     "partido": "Nottingham Forest vs Arsenal",
+     "texto": "Gana Arsenal",
+     "clave": "1X2||2",
+     "p": 0.5654,
+     "cuota": 1.57,
+     "casa": "Bet365",
+     "inicio": "2026-10-18T10:30:00-05:00"
+    }
+   ],
+   "xi": "335651,502298,666071,3248170,40902054,49499493,51429377,54943580,66457360,67689605,71675384|513371,537419,2985896,3055995,3070470,3071278,3135414,3211355,3373029,8024275,50424606",
+   "conf": true
   },
   "4742034": {
    "partido": "Leeds United vs Manchester United",
@@ -3395,7 +3439,7 @@
    "liga": "Alemania, Bundesliga",
    "inicio": "2026-10-18T10:30:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792333393.896013
+   "ultimo": 1792333642.8584464
   },
   "4755379": {
    "partido": "Bayer Leverkusen vs Friburgo",
