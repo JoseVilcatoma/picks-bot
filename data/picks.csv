@@ -1286,3 +1286,8 @@ fecha,game_id,partido,liga,tipo,mercado,clave,prob,cuota,casa,cuota_justa,ev,sta
 2026-10-18 13:02,4750823,Real Madrid vs Sevilla FC,"España, LaLiga",modelo,Menos de 11.5 córners,CORN|11.5|under,0.7399,,,1.35,,,si,,
 2026-10-18 13:02,4750823,Real Madrid vs Sevilla FC,"España, LaLiga",ticket,Más de 2.5 goles + Real Madrid recibe gol,OU|2.5|over&CS||local_no,0.4427,2.27,,2.26,0.0054,10.00,,,
 2026-10-18 13:02,4750823,Real Madrid vs Sevilla FC,"España, LaLiga",crear,No hay empate + Más de 1.5 goles + Menos de 13.5 córners,DC||12&OU|1.5|over&CORN|13.5|under,0.5882,,,1.70,,,,,
+2026-10-18 13:10,4632640,Grêmio vs Cruzeiro,"Brasil, Brasileirão",seguro,Grêmio recibe gol,CS||local_no,0.7797,1.22,Bet365,1.28,-0.0488,,si,,
+2026-10-18 13:10,4632640,Grêmio vs Cruzeiro,"Brasil, Brasileirão",seguro,Cruzeiro o empate,DC||X2,0.7373,1.30,Bet365,1.36,-0.0415,,si,,
+2026-10-18 13:10,4632640,Grêmio vs Cruzeiro,"Brasil, Brasileirão",arriesgado,Empate,1X2||X,0.2661,3.60,Bet365,3.76,-0.0422,,si,,
+2026-10-18 13:10,4632640,Grêmio vs Cruzeiro,"Brasil, Brasileirão",modelo,Menos de 13.5 córners,CORN|13.5|under,0.7090,,,1.41,,,si,,
+2026-10-18 13:10,4632640,Grêmio vs Cruzeiro,"Brasil, Brasileirão",modelo,Más de 2.5 tarjetas,CARDS|2.5|over,0.6755,,,1.48,,,si,,

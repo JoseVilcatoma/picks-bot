@@ -3377,15 +3377,79 @@
    "partido": "Grêmio vs Cruzeiro",
    "liga": "Brasil, Brasileirão",
    "inicio": "2026-10-18T14:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1792346812.214664
+   "estado": "enviado",
+   "ultimo": 1792347055.4484675,
+   "pierna": [
+    {
+     "gid": "4632640",
+     "partido": "Grêmio vs Cruzeiro",
+     "texto": "Grêmio recibe gol",
+     "clave": "CS||local_no",
+     "p": 0.7797,
+     "cuota": 1.22,
+     "casa": "Bet365",
+     "inicio": "2026-10-18T14:00:00-05:00"
+    },
+    {
+     "gid": "4632640",
+     "partido": "Grêmio vs Cruzeiro",
+     "texto": "Más de 1.5 goles",
+     "clave": "OU|1.5|over",
+     "p": 0.7633,
+     "cuota": 1.22,
+     "casa": "Bet365",
+     "inicio": "2026-10-18T14:00:00-05:00"
+    },
+    {
+     "gid": "4632640",
+     "partido": "Grêmio vs Cruzeiro",
+     "texto": "Cruzeiro o empate",
+     "clave": "DC||X2",
+     "p": 0.7373,
+     "cuota": 1.3,
+     "casa": "Bet365",
+     "inicio": "2026-10-18T14:00:00-05:00"
+    },
+    {
+     "gid": "4632640",
+     "partido": "Grêmio vs Cruzeiro",
+     "texto": "No hay empate",
+     "clave": "DC||12",
+     "p": 0.7317,
+     "cuota": 1.28,
+     "casa": "Bet365",
+     "inicio": "2026-10-18T14:00:00-05:00"
+    },
+    {
+     "gid": "4632640",
+     "partido": "Grêmio vs Cruzeiro",
+     "texto": "Más de 0.5 goles en el 1T",
+     "clave": "OU1T|0.5|over",
+     "p": 0.7085,
+     "cuota": 1.3,
+     "casa": "Bet365",
+     "inicio": "2026-10-18T14:00:00-05:00"
+    },
+    {
+     "gid": "4632640",
+     "partido": "Grêmio vs Cruzeiro",
+     "texto": "Cruzeiro recibe gol",
+     "clave": "CS||visita_no",
+     "p": 0.6885,
+     "cuota": 1.3,
+     "casa": "Bet365",
+     "inicio": "2026-10-18T14:00:00-05:00"
+    }
+   ],
+   "xi": "150439,262106,399003,483907,497328,535442,543870,1858355,2725238,66583321,71357414|139950,349582,379632,901268,973471,9932355,51220667,67641750,70120060,70751572,76902279",
+   "conf": true
   },
   "4632646": {
    "partido": "Fluminense vs Santos",
    "liga": "Brasil, Brasileirão",
    "inicio": "2026-10-18T14:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792346812.403619
+   "ultimo": 1792347056.2888014
   },
   "4735239": {
    "partido": "Lyon vs Niza",
