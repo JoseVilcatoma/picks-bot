@@ -2630,6 +2630,83 @@
     "cards_h": 2.0,
     "cards_a": 2.0
    }
+  },
+  "4732672": {
+   "partido": "Udinese vs Lecce",
+   "liga": "Italia, Serie A",
+   "inicio": "2026-10-18T05:30:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4732676": {
+   "partido": "AC Milan vs Atalanta",
+   "liga": "Italia, Serie A",
+   "inicio": "2026-10-18T11:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4732677": {
+   "partido": "Juventus vs Lazio",
+   "liga": "Italia, Serie A",
+   "inicio": "2026-10-18T13:45:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4732679": {
+   "partido": "Fiorentina vs Como",
+   "liga": "Italia, Serie A",
+   "inicio": "2026-10-18T08:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4735238": {
+   "partido": "Paris FC vs Rennes",
+   "liga": "Francia, Ligue 1",
+   "inicio": "2026-10-18T10:15:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4735240": {
+   "partido": "Lorient vs Monaco",
+   "liga": "Francia, Ligue 1",
+   "inicio": "2026-10-18T10:15:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4735244": {
+   "partido": "Angers vs Olympique Marsella",
+   "liga": "Francia, Ligue 1",
+   "inicio": "2026-10-18T08:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4750823": {
+   "partido": "Real Madrid vs Sevilla FC",
+   "liga": "España, LaLiga",
+   "inicio": "2026-10-18T14:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4750824": {
+   "partido": "Osasuna vs Racing de Santander",
+   "liga": "España, LaLiga",
+   "inicio": "2026-10-18T07:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4750825": {
+   "partido": "Málaga CF vs Real Sociedad",
+   "liga": "España, LaLiga",
+   "inicio": "2026-10-18T11:30:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4750829": {
+   "partido": "Celta de Vigo vs Alavés",
+   "liga": "España, LaLiga",
+   "inicio": "2026-10-18T09:15:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
   }
  },
  "web": {
@@ -2733,7 +2810,18 @@
   "4632641": 1792267090285,
   "4632644": 1792267091031,
   "4632645": 1792267089998,
-  "4760808": 1792267089203
+  "4760808": 1792267089203,
+  "4732672": 1792314424597,
+  "4732676": 1792314425398,
+  "4732677": 1792314426523,
+  "4732679": 1792314424905,
+  "4735238": 1792314432082,
+  "4735240": 1792314432522,
+  "4735244": 1792314430907,
+  "4750823": 1792314430366,
+  "4750824": 1792314428917,
+  "4750825": 1792314429378,
+  "4750829": 1792314428296
  },
  "tickets": []
 }
