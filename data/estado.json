@@ -2721,7 +2721,7 @@
    "liga": "Italia, Serie A",
    "inicio": "2026-10-18T08:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792325222.2654192
+   "ultimo": 1792325466.3638132
   },
   "4735238": {
    "partido": "Paris FC vs Rennes",
@@ -2741,8 +2741,72 @@
    "partido": "Angers vs Olympique Marsella",
    "liga": "Francia, Ligue 1",
    "inicio": "2026-10-18T08:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1792325222.4251492
+   "estado": "enviado",
+   "ultimo": 1792325466.5217953,
+   "pierna": [
+    {
+     "gid": "4735244",
+     "partido": "Angers vs Olympique Marsella",
+     "texto": "Más de 1.5 goles",
+     "clave": "OU|1.5|over",
+     "p": 0.7414,
+     "cuota": 1.2,
+     "casa": "Bet365",
+     "inicio": "2026-10-18T08:00:00-05:00"
+    },
+    {
+     "gid": "4735244",
+     "partido": "Angers vs Olympique Marsella",
+     "texto": "No hay empate",
+     "clave": "DC||12",
+     "p": 0.7245,
+     "cuota": 1.25,
+     "casa": "Bet365",
+     "inicio": "2026-10-18T08:00:00-05:00"
+    },
+    {
+     "gid": "4735244",
+     "partido": "Angers vs Olympique Marsella",
+     "texto": "Olympique Marsella recibe gol",
+     "clave": "CS||visita_no",
+     "p": 0.7013,
+     "cuota": 1.33,
+     "casa": "Bet365",
+     "inicio": "2026-10-18T08:00:00-05:00"
+    },
+    {
+     "gid": "4735244",
+     "partido": "Angers vs Olympique Marsella",
+     "texto": "Más de 0.5 goles en el 1T",
+     "clave": "OU1T|0.5|over",
+     "p": 0.6924,
+     "cuota": 1.29,
+     "casa": "Bet365",
+     "inicio": "2026-10-18T08:00:00-05:00"
+    },
+    {
+     "gid": "4735244",
+     "partido": "Angers vs Olympique Marsella",
+     "texto": "Ambos marcan: Sí",
+     "clave": "BTTS||si",
+     "p": 0.5388,
+     "cuota": 1.57,
+     "casa": "Bet365",
+     "inicio": "2026-10-18T08:00:00-05:00"
+    },
+    {
+     "gid": "4735244",
+     "partido": "Angers vs Olympique Marsella",
+     "texto": "Más de 2.5 goles",
+     "clave": "OU|2.5|over",
+     "p": 0.5011,
+     "cuota": 1.62,
+     "casa": "Bet365",
+     "inicio": "2026-10-18T08:00:00-05:00"
+    }
+   ],
+   "xi": "333004,432445,658840,50682074,64963284,66137744,66447261,67601451,67630530,70809809,77861327|328997,543231,3053170,3153777,3154243,12616002,13268816,50159654,63131014,75445196,77885631",
+   "conf": true
   },
   "4750823": {
    "partido": "Real Madrid vs Sevilla FC",
