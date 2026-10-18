@@ -3484,8 +3484,42 @@
    "partido": "Borussia Mönchengladbach vs Hoffenheim",
    "liga": "Alemania, Bundesliga",
    "inicio": "2026-10-18T10:30:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1792334379.6868505
+   "estado": "enviado",
+   "ultimo": 1792334622.95281,
+   "pierna": [
+    {
+     "gid": "4755376",
+     "partido": "Borussia Mönchengladbach vs Hoffenheim",
+     "texto": "No hay empate",
+     "clave": "DC||12",
+     "p": 0.7678,
+     "cuota": 1.22,
+     "casa": "Bet365",
+     "inicio": "2026-10-18T10:30:00-05:00"
+    },
+    {
+     "gid": "4755376",
+     "partido": "Borussia Mönchengladbach vs Hoffenheim",
+     "texto": "Más de 2.5 goles",
+     "clave": "OU|2.5|over",
+     "p": 0.6869,
+     "cuota": 1.3,
+     "casa": "Bet365",
+     "inicio": "2026-10-18T10:30:00-05:00"
+    },
+    {
+     "gid": "4755376",
+     "partido": "Borussia Mönchengladbach vs Hoffenheim",
+     "texto": "Ambos marcan: Sí",
+     "clave": "BTTS||si",
+     "p": 0.6857,
+     "cuota": 1.3,
+     "casa": "Bet365",
+     "inicio": "2026-10-18T10:30:00-05:00"
+    }
+   ],
+   "xi": "530622,972964,3094154,8448849,32435492,60935415,64329313,67638234,70842829,71547426,77485095|258327,334847,3130032,38075769,49513653,60938745,64195671,65068852,65068962,67771703,68006639",
+   "conf": true
   },
   "4755379": {
    "partido": "Bayer Leverkusen vs Friburgo",
