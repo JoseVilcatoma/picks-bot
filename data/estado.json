@@ -2807,7 +2807,7 @@
    "liga": "Francia, Ligue 1",
    "inicio": "2026-10-18T10:15:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792333266.7226272
+   "ultimo": 1792333516.1485639
   },
   "4735240": {
    "partido": "Lorient vs Monaco",
@@ -2878,7 +2878,8 @@
     }
    ],
    "xi": "348679,668918,3563832,50809236,64332608,66378868,66563611,70891587,71341938,72472125,76996630|356467,386642,556868,672103,6830594,38084580,53213421,58340457,63725306,67934945,70796239",
-   "conf": true
+   "conf": true,
+   "en_ticket": true
   },
   "4735244": {
    "partido": "Angers vs Olympique Marsella",
@@ -3141,8 +3142,73 @@
    "partido": "Le Havre vs Auxerre",
    "liga": "Francia, Ligue 1",
    "inicio": "2026-10-18T10:15:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1792333269.6825724
+   "estado": "enviado",
+   "ultimo": 1792333516.1972547,
+   "pierna": [
+    {
+     "gid": "4735243",
+     "partido": "Le Havre vs Auxerre",
+     "texto": "Más de 1.5 goles",
+     "clave": "OU|1.5|over",
+     "p": 0.8022,
+     "cuota": 1.22,
+     "casa": "Bet365",
+     "inicio": "2026-10-18T10:15:00-05:00"
+    },
+    {
+     "gid": "4735243",
+     "partido": "Le Havre vs Auxerre",
+     "texto": "Auxerre recibe gol",
+     "clave": "CS||visita_no",
+     "p": 0.8018,
+     "cuota": 1.22,
+     "casa": "Bet365",
+     "inicio": "2026-10-18T10:15:00-05:00"
+    },
+    {
+     "gid": "4735243",
+     "partido": "Le Havre vs Auxerre",
+     "texto": "No hay empate",
+     "clave": "DC||12",
+     "p": 0.743,
+     "cuota": 1.29,
+     "casa": "Bet365",
+     "inicio": "2026-10-18T10:15:00-05:00"
+    },
+    {
+     "gid": "4735243",
+     "partido": "Le Havre vs Auxerre",
+     "texto": "Más de 0.5 goles en el 1T",
+     "clave": "OU1T|0.5|over",
+     "p": 0.7319,
+     "cuota": 1.33,
+     "casa": "Bet365",
+     "inicio": "2026-10-18T10:15:00-05:00"
+    },
+    {
+     "gid": "4735243",
+     "partido": "Le Havre vs Auxerre",
+     "texto": "Le Havre recibe gol",
+     "clave": "CS||local_no",
+     "p": 0.7193,
+     "cuota": 1.33,
+     "casa": "Bet365",
+     "inicio": "2026-10-18T10:15:00-05:00"
+    },
+    {
+     "gid": "4735243",
+     "partido": "Le Havre vs Auxerre",
+     "texto": "Le Havre o empate",
+     "clave": "DC||1X",
+     "p": 0.7106,
+     "cuota": 1.36,
+     "casa": "Bet365",
+     "inicio": "2026-10-18T10:15:00-05:00"
+    }
+   ],
+   "en_ticket": true,
+   "xi": "379612,3096531,3153832,50454089,50482993,58990402,65615241,67967137,77001981,78983373|348719,1760084,3340298,5905572,38841445,52933383,62084810,64933542,66447403,67987633,70841063",
+   "conf": true
   },
   "4742033": {
    "partido": "Nottingham Forest vs Arsenal",
@@ -3551,5 +3617,33 @@
   "4760806": 1792314440740,
   "4760809": 1792314441234
  },
- "tickets": []
+ "tickets": [
+  {
+   "piernas": [
+    {
+     "gid": "4735243",
+     "partido": "Le Havre vs Auxerre",
+     "texto": "No hay empate",
+     "clave": "DC||12",
+     "p": 0.743,
+     "cuota": 1.29,
+     "casa": "Bet365",
+     "inicio": "2026-10-18T10:15:00-05:00"
+    },
+    {
+     "gid": "4735240",
+     "partido": "Lorient vs Monaco",
+     "texto": "Menos de 3.5 goles",
+     "clave": "OU|3.5|under",
+     "p": 0.8079,
+     "cuota": 1.33,
+     "casa": "Bet365",
+     "inicio": "2026-10-18T10:15:00-05:00"
+    }
+   ],
+   "p": 0.6002696999999999,
+   "cuota": 1.7157000000000002,
+   "t": 1792333517.8089204
+  }
+ ]
 }
