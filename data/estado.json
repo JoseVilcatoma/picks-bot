@@ -2707,6 +2707,118 @@
    "inicio": "2026-10-18T09:15:00-05:00",
    "estado": "pendiente",
    "ultimo": 0
+  },
+  "4632637": {
+   "partido": "Remo vs Bragantino",
+   "liga": "Brasil, Brasileirão",
+   "inicio": "2026-10-18T17:30:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4632638": {
+   "partido": "Bahia vs Flamengo",
+   "liga": "Brasil, Brasileirão",
+   "inicio": "2026-10-18T16:30:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4632640": {
+   "partido": "Grêmio vs Cruzeiro",
+   "liga": "Brasil, Brasileirão",
+   "inicio": "2026-10-18T14:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4632646": {
+   "partido": "Fluminense vs Santos",
+   "liga": "Brasil, Brasileirão",
+   "inicio": "2026-10-18T14:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4735239": {
+   "partido": "Lyon vs Niza",
+   "liga": "Francia, Ligue 1",
+   "inicio": "2026-10-18T13:45:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4735243": {
+   "partido": "Le Havre vs Auxerre",
+   "liga": "Francia, Ligue 1",
+   "inicio": "2026-10-18T10:15:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4742033": {
+   "partido": "Nottingham Forest vs Arsenal",
+   "liga": "Inglaterra, Premier League",
+   "inicio": "2026-10-18T10:30:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4742034": {
+   "partido": "Leeds United vs Manchester United",
+   "liga": "Inglaterra, Premier League",
+   "inicio": "2026-10-18T08:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4742037": {
+   "partido": "Brighton vs Crystal Palace",
+   "liga": "Inglaterra, Premier League",
+   "inicio": "2026-10-18T08:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4742039": {
+   "partido": "Bournemouth vs Sunderland",
+   "liga": "Inglaterra, Premier League",
+   "inicio": "2026-10-18T08:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4755376": {
+   "partido": "Borussia Mönchengladbach vs Hoffenheim",
+   "liga": "Alemania, Bundesliga",
+   "inicio": "2026-10-18T10:30:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4755379": {
+   "partido": "Bayer Leverkusen vs Friburgo",
+   "liga": "Alemania, Bundesliga",
+   "inicio": "2026-10-18T08:30:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4760803": {
+   "partido": "Sporting Cristal vs Comerciantes Unidos",
+   "liga": "Perú, Liga 1 - Clausura",
+   "inicio": "2026-10-18T11:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4760804": {
+   "partido": "FC Cajamarca vs CD Moquegua",
+   "liga": "Perú, Liga 1 - Clausura",
+   "inicio": "2026-10-18T13:15:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4760806": {
+   "partido": "Alianza Atletico vs Universitario",
+   "liga": "Perú, Liga 1 - Clausura",
+   "inicio": "2026-10-18T15:30:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4760809": {
+   "partido": "Cienciano vs UTC Cajamarca",
+   "liga": "Perú, Liga 1 - Clausura",
+   "inicio": "2026-10-18T18:30:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
   }
  },
  "web": {
@@ -2821,7 +2933,23 @@
   "4750823": 1792314430366,
   "4750824": 1792314428917,
   "4750825": 1792314429378,
-  "4750829": 1792314428296
+  "4750829": 1792314428296,
+  "4632637": 1792314443699,
+  "4632638": 1792314444068,
+  "4632640": 1792314442028,
+  "4632646": 1792314442589,
+  "4735239": 1792314434174,
+  "4735243": 1792314433813,
+  "4742033": 1792314437398,
+  "4742034": 1792314435244,
+  "4742037": 1792314435667,
+  "4742039": 1792314436960,
+  "4755376": 1792314438940,
+  "4755379": 1792314438527,
+  "4760803": 1792314439996,
+  "4760804": 1792314440354,
+  "4760806": 1792314440740,
+  "4760809": 1792314441234
  },
  "tickets": []
 }
