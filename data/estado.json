@@ -2886,7 +2886,7 @@
    "liga": "Francia, Ligue 1",
    "inicio": "2026-10-18T10:15:00-05:00",
    "estado": "enviado",
-   "ultimo": 1792334133.625205,
+   "ultimo": 1792343500.5494678,
    "pierna": [
     {
      "gid": "4735238",
@@ -2937,8 +2937,8 @@
    "partido": "Lorient vs Monaco",
    "liga": "Francia, Ligue 1",
    "inicio": "2026-10-18T10:15:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1792333266.785495,
+   "estado": "liquidado",
+   "ultimo": 1792343500.6112092,
    "pierna": [
     {
      "gid": "4735240",
@@ -3003,7 +3003,22 @@
    ],
    "xi": "348679,668918,3563832,50809236,64332608,66378868,66563611,70891587,71341938,72472125,76996630|356467,386642,556868,672103,6830594,38084580,53213421,58340457,63725306,67934945,70796239",
    "conf": true,
-   "en_ticket": true
+   "en_ticket": true,
+   "r": {
+    "hg": 1,
+    "ag": 0,
+    "ht": [
+     0,
+     0
+    ],
+    "corners": 7.0,
+    "corners_h": 3.0,
+    "corners_a": 4.0,
+    "corners_1t": 2.0,
+    "cards": 6.0,
+    "cards_h": 2.0,
+    "cards_a": 4.0
+   }
   },
   "4735244": {
    "partido": "Angers vs Olympique Marsella",
@@ -3361,8 +3376,8 @@
    "partido": "Le Havre vs Auxerre",
    "liga": "Francia, Ligue 1",
    "inicio": "2026-10-18T10:15:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1792333516.1972547,
+   "estado": "liquidado",
+   "ultimo": 1792343500.7363389,
    "pierna": [
     {
      "gid": "4735243",
@@ -3427,7 +3442,22 @@
    ],
    "en_ticket": true,
    "xi": "379612,3096531,3153832,50454089,50482993,58990402,65615241,67967137,77001981,78983373|348719,1760084,3340298,5905572,38841445,52933383,62084810,64933542,66447403,67987633,70841063",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 1,
+    "ag": 3,
+    "ht": [
+     0,
+     1
+    ],
+    "corners": 11.0,
+    "corners_h": 7.0,
+    "corners_a": 4.0,
+    "corners_1t": 7.0,
+    "cards": 3.0,
+    "cards_h": 1.0,
+    "cards_a": 2.0
+   }
   },
   "4742033": {
    "partido": "Nottingham Forest vs Arsenal",
@@ -4011,33 +4041,6 @@
   "4760809": 1792314441234
  },
  "tickets": [
-  {
-   "piernas": [
-    {
-     "gid": "4735243",
-     "partido": "Le Havre vs Auxerre",
-     "texto": "No hay empate",
-     "clave": "DC||12",
-     "p": 0.743,
-     "cuota": 1.29,
-     "casa": "Bet365",
-     "inicio": "2026-10-18T10:15:00-05:00"
-    },
-    {
-     "gid": "4735240",
-     "partido": "Lorient vs Monaco",
-     "texto": "Menos de 3.5 goles",
-     "clave": "OU|3.5|under",
-     "p": 0.8079,
-     "cuota": 1.33,
-     "casa": "Bet365",
-     "inicio": "2026-10-18T10:15:00-05:00"
-    }
-   ],
-   "p": 0.6002696999999999,
-   "cuota": 1.7157000000000002,
-   "t": 1792333517.8089204
-  },
   {
    "piernas": [
     {
