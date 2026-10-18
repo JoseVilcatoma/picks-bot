@@ -2321,8 +2321,8 @@
    "partido": "Juventus vs Lazio",
    "liga": "Italia, Serie A",
    "inicio": "2026-10-18T13:45:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1792346565.0670052,
+   "estado": "liquidado",
+   "ultimo": 1792356020.974329,
    "pierna": [
     {
      "gid": "4732677",
@@ -2356,7 +2356,22 @@
     }
    ],
    "xi": "553143,1006401,3094565,3144433,3229380,3260720,3456444,4873827,50999036,52338804,75535290|510933,3071410,15244106,26815119,29999056,41018240,49552142,62194167,64141744,65235149,66308500",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 0,
+    "ag": 3,
+    "ht": [
+     0,
+     1
+    ],
+    "corners": 12.0,
+    "corners_h": 5.0,
+    "corners_a": 7.0,
+    "corners_1t": 6.0,
+    "cards": 2.0,
+    "cards_h": 0.0,
+    "cards_a": 2.0
+   }
   },
   "4732679": {
    "partido": "Fiorentina vs Como",
@@ -2985,8 +3000,72 @@
    "partido": "Bahia vs Flamengo",
    "liga": "Brasil, Brasileirão",
    "inicio": "2026-10-18T16:30:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1792355776.9635143
+   "estado": "enviado",
+   "ultimo": 1792356021.2899854,
+   "pierna": [
+    {
+     "gid": "4632638",
+     "partido": "Bahia vs Flamengo",
+     "texto": "Más de 1.5 goles",
+     "clave": "OU|1.5|over",
+     "p": 0.7588,
+     "cuota": 1.2,
+     "casa": "Bet365",
+     "inicio": "2026-10-18T16:30:00-05:00"
+    },
+    {
+     "gid": "4632638",
+     "partido": "Bahia vs Flamengo",
+     "texto": "No hay empate",
+     "clave": "DC||12",
+     "p": 0.722,
+     "cuota": 1.29,
+     "casa": "Bet365",
+     "inicio": "2026-10-18T16:30:00-05:00"
+    },
+    {
+     "gid": "4632638",
+     "partido": "Bahia vs Flamengo",
+     "texto": "Flamengo o empate",
+     "clave": "DC||X2",
+     "p": 0.712,
+     "cuota": 1.25,
+     "casa": "Bet365",
+     "inicio": "2026-10-18T16:30:00-05:00"
+    },
+    {
+     "gid": "4632638",
+     "partido": "Bahia vs Flamengo",
+     "texto": "Flamengo recibe gol",
+     "clave": "CS||visita_no",
+     "p": 0.7112,
+     "cuota": 1.3,
+     "casa": "Bet365",
+     "inicio": "2026-10-18T16:30:00-05:00"
+    },
+    {
+     "gid": "4632638",
+     "partido": "Bahia vs Flamengo",
+     "texto": "Más de 0.5 goles en el 1T",
+     "clave": "OU1T|0.5|over",
+     "p": 0.7019,
+     "cuota": 1.3,
+     "casa": "Bet365",
+     "inicio": "2026-10-18T16:30:00-05:00"
+    },
+    {
+     "gid": "4632638",
+     "partido": "Bahia vs Flamengo",
+     "texto": "Menos de 3.5 goles",
+     "clave": "OU|3.5|under",
+     "p": 0.6865,
+     "cuota": 1.53,
+     "casa": "Bet365",
+     "inicio": "2026-10-18T16:30:00-05:00"
+    }
+   ],
+   "xi": "140693,481741,3218315,4247204,44078581,47124009,53889853,64890852,64985333,65190886,67933529|374092,436629,489068,506159,1651346,1900508,2992976,3088103,3232110,3263629,6738011",
+   "conf": true
   },
   "4632640": {
    "partido": "Grêmio vs Cruzeiro",
@@ -3135,7 +3214,7 @@
    "liga": "Francia, Ligue 1",
    "inicio": "2026-10-18T13:45:00-05:00",
    "estado": "enviado",
-   "ultimo": 1792345583.6010878,
+   "ultimo": 1792356023.2102234,
    "pierna": [
     {
      "gid": "4735239",
