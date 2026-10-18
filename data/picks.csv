@@ -1304,13 +1304,13 @@ fecha,game_id,partido,liga,tipo,mercado,clave,prob,cuota,casa,cuota_justa,ev,sta
 2026-10-18 14:57,4760806,Alianza Atletico vs Universitario,"Perú, Liga 1 - Clausura",modelo,Menos de 11.5 córners,CORN|11.5|under,0.7055,,,1.42,,,si,P,
 2026-10-18 14:57,4760806,Alianza Atletico vs Universitario,"Perú, Liga 1 - Clausura",modelo,Menos de 6.5 tarjetas,CARDS|6.5|under,0.6529,,,1.53,,,si,G,
 2026-10-18 14:57,4760806,Alianza Atletico vs Universitario,"Perú, Liga 1 - Clausura",ticket,Universitario recibe gol + Más de 1.5 goles,CS||visita_no&OU|1.5|over,0.6336,1.73,,1.58,0.0955,10.00,,G,7.30
-2026-10-18 15:40,4632638,Bahia vs Flamengo,"Brasil, Brasileirão",seguro,Bahia recibe gol,CS||local_no,0.7747,1.17,Bet365,1.29,-0.0936,,si,,
-2026-10-18 15:40,4632638,Bahia vs Flamengo,"Brasil, Brasileirão",seguro,No hay empate,DC||12,0.7220,1.29,Bet365,1.39,-0.0686,,si,,
-2026-10-18 15:40,4632638,Bahia vs Flamengo,"Brasil, Brasileirão",arriesgado,Ambos marcan: No,BTTS||no,0.4434,2.25,Bet365,2.26,-0.0025,,si,,
-2026-10-18 15:40,4632638,Bahia vs Flamengo,"Brasil, Brasileirão",arriesgado,Empate,1X2||X,0.2762,3.50,Bet365,3.62,-0.0332,,si,,
-2026-10-18 15:40,4632638,Bahia vs Flamengo,"Brasil, Brasileirão",modelo,Más de 7.5 córners,CORN|7.5|over,0.6895,,,1.45,,,si,,
-2026-10-18 15:40,4632638,Bahia vs Flamengo,"Brasil, Brasileirão",modelo,Más de 2.5 tarjetas,CARDS|2.5|over,0.6687,,,1.50,,,si,,
-2026-10-18 15:40,4632638,Bahia vs Flamengo,"Brasil, Brasileirão",ticket,Menos de 2.5 goles,OU|2.5|under,0.4773,2.25,,2.10,0.0739,10.00,,,
+2026-10-18 15:40,4632638,Bahia vs Flamengo,"Brasil, Brasileirão",seguro,Bahia recibe gol,CS||local_no,0.7747,1.17,Bet365,1.29,-0.0936,,si,G,
+2026-10-18 15:40,4632638,Bahia vs Flamengo,"Brasil, Brasileirão",seguro,No hay empate,DC||12,0.7220,1.29,Bet365,1.39,-0.0686,,si,G,
+2026-10-18 15:40,4632638,Bahia vs Flamengo,"Brasil, Brasileirão",arriesgado,Ambos marcan: No,BTTS||no,0.4434,2.25,Bet365,2.26,-0.0025,,si,G,
+2026-10-18 15:40,4632638,Bahia vs Flamengo,"Brasil, Brasileirão",arriesgado,Empate,1X2||X,0.2762,3.50,Bet365,3.62,-0.0332,,si,P,
+2026-10-18 15:40,4632638,Bahia vs Flamengo,"Brasil, Brasileirão",modelo,Más de 7.5 córners,CORN|7.5|over,0.6895,,,1.45,,,si,G,
+2026-10-18 15:40,4632638,Bahia vs Flamengo,"Brasil, Brasileirão",modelo,Más de 2.5 tarjetas,CARDS|2.5|over,0.6687,,,1.50,,,si,G,
+2026-10-18 15:40,4632638,Bahia vs Flamengo,"Brasil, Brasileirão",ticket,Menos de 2.5 goles,OU|2.5|under,0.4773,2.25,,2.10,0.0739,10.00,,P,-10.00
 2026-10-18 15:50,4735239+4760804,Lyon vs Niza / FC Cajamarca vs CD Moquegua,,ticket2,Menos de 3.5 goles + FC Cajamarca o empate,,0.6047,1.80,,1.65,0.0884,10.00,,P,-10.00
 2026-10-18 16:39,4632637,Remo vs Bragantino,"Brasil, Brasileirão",seguro,Remo recibe gol,CS||local_no,0.8029,1.20,Bet365,1.25,-0.0365,,si,,
 2026-10-18 16:39,4632637,Remo vs Bragantino,"Brasil, Brasileirão",seguro,No hay empate,DC||12,0.7415,1.29,Bet365,1.35,-0.0435,,si,,
