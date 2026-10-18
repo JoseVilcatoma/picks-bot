@@ -3853,8 +3853,8 @@
    "partido": "FC Cajamarca vs CD Moquegua",
    "liga": "Perú, Liga 1 - Clausura",
    "inicio": "2026-10-18T13:15:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1792345338.106326,
+   "estado": "liquidado",
+   "ultimo": 1792354308.9792597,
    "pierna": [
     {
      "gid": "4760804",
@@ -3909,7 +3909,22 @@
    ],
    "xi": "496030,549319,2547399,3226546,7835850,56700129,67631192,67939604,71161933,77695473,78946536|319980,484036,499074,514230,618911,6590900,48577293,52708695,61078193,66862577,67974745",
    "conf": true,
-   "en_ticket": true
+   "en_ticket": true,
+   "r": {
+    "hg": 0,
+    "ag": 1,
+    "ht": [
+     0,
+     0
+    ],
+    "corners": 8.0,
+    "corners_h": 4.0,
+    "corners_a": 4.0,
+    "corners_1t": 3.0,
+    "cards": 0.0,
+    "cards_h": 0.0,
+    "cards_a": 0.0
+   }
   },
   "4760806": {
    "partido": "Alianza Atletico vs Universitario",
