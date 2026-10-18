@@ -2898,8 +2898,8 @@
    "partido": "Osasuna vs Racing de Santander",
    "liga": "España, LaLiga",
    "inicio": "2026-10-18T07:00:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1792321314.334845,
+   "estado": "liquidado",
+   "ultimo": 1792331802.3403943,
    "pierna": [
     {
      "gid": "4750824",
@@ -2953,7 +2953,22 @@
     }
    ],
    "xi": "204239,350828,541593,542817,1898668,3224261,35158639,51408122,66261465,66318204,66362474|28334,1766700,10526467,15809523,51019318,60835756,64816557,66437445,66566911,71407785,75254319",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 2,
+    "ag": 0,
+    "ht": [
+     1,
+     0
+    ],
+    "corners": 11.0,
+    "corners_h": 7.0,
+    "corners_a": 4.0,
+    "corners_1t": 4.0,
+    "cards": 5.0,
+    "cards_h": 2.0,
+    "cards_a": 3.0
+   }
   },
   "4750825": {
    "partido": "Málaga CF vs Real Sociedad",
