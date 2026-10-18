@@ -2721,8 +2721,72 @@
    "partido": "AC Milan vs Atalanta",
    "liga": "Italia, Serie A",
    "inicio": "2026-10-18T11:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1792335970.3256392
+   "estado": "enviado",
+   "ultimo": 1792336216.214624,
+   "pierna": [
+    {
+     "gid": "4732676",
+     "partido": "AC Milan vs Atalanta",
+     "texto": "No hay empate",
+     "clave": "DC||12",
+     "p": 0.7428,
+     "cuota": 1.22,
+     "casa": "Bet365",
+     "inicio": "2026-10-18T11:00:00-05:00"
+    },
+    {
+     "gid": "4732676",
+     "partido": "AC Milan vs Atalanta",
+     "texto": "Más de 1.5 goles",
+     "clave": "OU|1.5|over",
+     "p": 0.7004,
+     "cuota": 1.2,
+     "casa": "Bet365",
+     "inicio": "2026-10-18T11:00:00-05:00"
+    },
+    {
+     "gid": "4732676",
+     "partido": "AC Milan vs Atalanta",
+     "texto": "Más de 0.5 goles en el 1T",
+     "clave": "OU1T|0.5|over",
+     "p": 0.6632,
+     "cuota": 1.29,
+     "casa": "Bet365",
+     "inicio": "2026-10-18T11:00:00-05:00"
+    },
+    {
+     "gid": "4732676",
+     "partido": "AC Milan vs Atalanta",
+     "texto": "AC Milan -0.5 (hándicap)",
+     "clave": "AH|-0.5|local",
+     "p": 0.5774,
+     "cuota": 1.6,
+     "casa": "Bet365",
+     "inicio": "2026-10-18T11:00:00-05:00"
+    },
+    {
+     "gid": "4732676",
+     "partido": "AC Milan vs Atalanta",
+     "texto": "Gana AC Milan",
+     "clave": "1X2||1",
+     "p": 0.575,
+     "cuota": 1.62,
+     "casa": "Bet365",
+     "inicio": "2026-10-18T11:00:00-05:00"
+    },
+    {
+     "gid": "4732676",
+     "partido": "AC Milan vs Atalanta",
+     "texto": "AC Milan recibe gol",
+     "clave": "CS||local_no",
+     "p": 0.5563,
+     "cuota": 1.4,
+     "casa": "Bet365",
+     "inicio": "2026-10-18T11:00:00-05:00"
+    }
+   ],
+   "xi": "26984,308108,513713,2055909,9830558,28043772,49915522,50790794,52683634,61032003,63094718|334658,383049,3071408,9589510,12655232,26803259,31283563,49463479,55165603,61716919,75452367",
+   "conf": true
   },
   "4732677": {
    "partido": "Juventus vs Lazio",
@@ -3661,8 +3725,42 @@
    "partido": "Sporting Cristal vs Comerciantes Unidos",
    "liga": "Perú, Liga 1 - Clausura",
    "inicio": "2026-10-18T11:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1792335970.7438195
+   "estado": "enviado",
+   "ultimo": 1792336217.2050326,
+   "pierna": [
+    {
+     "gid": "4760803",
+     "partido": "Sporting Cristal vs Comerciantes Unidos",
+     "texto": "Más de 0.5 goles en el 1T",
+     "clave": "OU1T|0.5|over",
+     "p": 0.7538,
+     "cuota": 1.25,
+     "casa": "Bet365",
+     "inicio": "2026-10-18T11:00:00-05:00"
+    },
+    {
+     "gid": "4760803",
+     "partido": "Sporting Cristal vs Comerciantes Unidos",
+     "texto": "Gana Sporting Cristal",
+     "clave": "1X2||1",
+     "p": 0.6793,
+     "cuota": 1.36,
+     "casa": "Bet365",
+     "inicio": "2026-10-18T11:00:00-05:00"
+    },
+    {
+     "gid": "4760803",
+     "partido": "Sporting Cristal vs Comerciantes Unidos",
+     "texto": "Más de 2.5 goles",
+     "clave": "OU|2.5|over",
+     "p": 0.6044,
+     "cuota": 1.57,
+     "casa": "Bet365",
+     "inicio": "2026-10-18T11:00:00-05:00"
+    }
+   ],
+   "xi": "357602,386754,389408,431628,485269,486424,5697711,15806567,25270975,50613999,71373581|3229005,6410080,11958892,14023190,57047593,58602352,65033286,66663681,67955361,70932142,71147110",
+   "conf": true
   },
   "4760804": {
    "partido": "FC Cajamarca vs CD Moquegua",
