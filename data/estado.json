@@ -2721,7 +2721,7 @@
    "liga": "Italia, Serie A",
    "inicio": "2026-10-18T08:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792324232.8475614
+   "ultimo": 1792324477.376336
   },
   "4735238": {
    "partido": "Paris FC vs Rennes",
@@ -2742,7 +2742,7 @@
    "liga": "Francia, Ligue 1",
    "inicio": "2026-10-18T08:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792324233.0247033
+   "ultimo": 1792324477.5364726
   },
   "4750823": {
    "partido": "Real Madrid vs Sevilla FC",
@@ -2879,22 +2879,174 @@
    "partido": "Leeds United vs Manchester United",
    "liga": "Inglaterra, Premier League",
    "inicio": "2026-10-18T08:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1792324233.1228862
+   "estado": "enviado",
+   "ultimo": 1792324477.675466,
+   "pierna": [
+    {
+     "gid": "4742034",
+     "partido": "Leeds United vs Manchester United",
+     "texto": "Menos de 3.5 goles",
+     "clave": "OU|3.5|under",
+     "p": 0.7384,
+     "cuota": 1.36,
+     "casa": "Bet365",
+     "inicio": "2026-10-18T08:00:00-05:00"
+    },
+    {
+     "gid": "4742034",
+     "partido": "Leeds United vs Manchester United",
+     "texto": "No hay empate",
+     "clave": "DC||12",
+     "p": 0.717,
+     "cuota": 1.3,
+     "casa": "Bet365",
+     "inicio": "2026-10-18T08:00:00-05:00"
+    },
+    {
+     "gid": "4742034",
+     "partido": "Leeds United vs Manchester United",
+     "texto": "Leeds United o empate",
+     "clave": "DC||1X",
+     "p": 0.7116,
+     "cuota": 1.4,
+     "casa": "Bet365",
+     "inicio": "2026-10-18T08:00:00-05:00"
+    },
+    {
+     "gid": "4742034",
+     "partido": "Leeds United vs Manchester United",
+     "texto": "Menos de 1.5 goles en el 1T",
+     "clave": "OU1T|1.5|under",
+     "p": 0.6738,
+     "cuota": 1.44,
+     "casa": "Bet365",
+     "inicio": "2026-10-18T08:00:00-05:00"
+    }
+   ],
+   "xi": "540689,649450,886874,907041,984482,3135966,4264302,7227288,51042324,51186926,58340010|332598,398065,435334,4201425,6813762,6835961,40765000,50729542,65131542,65397189,65521968",
+   "conf": true
   },
   "4742037": {
    "partido": "Brighton vs Crystal Palace",
    "liga": "Inglaterra, Premier League",
    "inicio": "2026-10-18T08:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1792324233.226015
+   "estado": "enviado",
+   "ultimo": 1792324479.460675,
+   "pierna": [
+    {
+     "gid": "4742037",
+     "partido": "Brighton vs Crystal Palace",
+     "texto": "Más de 0.5 goles en el 1T",
+     "clave": "OU1T|0.5|over",
+     "p": 0.7384,
+     "cuota": 1.25,
+     "casa": "Bet365",
+     "inicio": "2026-10-18T08:00:00-05:00"
+    },
+    {
+     "gid": "4742037",
+     "partido": "Brighton vs Crystal Palace",
+     "texto": "Brighton recibe gol",
+     "clave": "CS||local_no",
+     "p": 0.6321,
+     "cuota": 1.5,
+     "casa": "Bet365",
+     "inicio": "2026-10-18T08:00:00-05:00"
+    },
+    {
+     "gid": "4742037",
+     "partido": "Brighton vs Crystal Palace",
+     "texto": "Gana Brighton",
+     "clave": "1X2||1",
+     "p": 0.629,
+     "cuota": 1.51,
+     "casa": "1xBet",
+     "inicio": "2026-10-18T08:00:00-05:00"
+    },
+    {
+     "gid": "4742037",
+     "partido": "Brighton vs Crystal Palace",
+     "texto": "Más de 2.5 goles",
+     "clave": "OU|2.5|over",
+     "p": 0.5786,
+     "cuota": 1.57,
+     "casa": "Betsson",
+     "inicio": "2026-10-18T08:00:00-05:00"
+    }
+   ],
+   "xi": "236532,624429,891006,3071443,35002742,46557681,53614148,65296564,67771434,70953229,71047802|379422,571198,834589,3183310,49658641,50752231,52342774,64697647,66683658,75390595,75420191",
+   "conf": true
   },
   "4742039": {
    "partido": "Bournemouth vs Sunderland",
    "liga": "Inglaterra, Premier League",
    "inicio": "2026-10-18T08:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1792324233.3287466
+   "estado": "enviado",
+   "ultimo": 1792324483.8007982,
+   "pierna": [
+    {
+     "gid": "4742039",
+     "partido": "Bournemouth vs Sunderland",
+     "texto": "Sunderland recibe gol",
+     "clave": "CS||visita_no",
+     "p": 0.7855,
+     "cuota": 1.22,
+     "casa": "Bet365",
+     "inicio": "2026-10-18T08:00:00-05:00"
+    },
+    {
+     "gid": "4742039",
+     "partido": "Bournemouth vs Sunderland",
+     "texto": "Bournemouth o empate",
+     "clave": "DC||1X",
+     "p": 0.7786,
+     "cuota": 1.25,
+     "casa": "Bet365",
+     "inicio": "2026-10-18T08:00:00-05:00"
+    },
+    {
+     "gid": "4742039",
+     "partido": "Bournemouth vs Sunderland",
+     "texto": "Menos de 3.5 goles",
+     "clave": "OU|3.5|under",
+     "p": 0.7363,
+     "cuota": 1.33,
+     "casa": "Bet365",
+     "inicio": "2026-10-18T08:00:00-05:00"
+    },
+    {
+     "gid": "4742039",
+     "partido": "Bournemouth vs Sunderland",
+     "texto": "No hay empate",
+     "clave": "DC||12",
+     "p": 0.7311,
+     "cuota": 1.3,
+     "casa": "Bet365",
+     "inicio": "2026-10-18T08:00:00-05:00"
+    },
+    {
+     "gid": "4742039",
+     "partido": "Bournemouth vs Sunderland",
+     "texto": "Más de 1.5 goles",
+     "clave": "OU|1.5|over",
+     "p": 0.7264,
+     "cuota": 1.3,
+     "casa": "Bet365",
+     "inicio": "2026-10-18T08:00:00-05:00"
+    },
+    {
+     "gid": "4742039",
+     "partido": "Bournemouth vs Sunderland",
+     "texto": "Menos de 1.5 goles en el 1T",
+     "clave": "OU1T|1.5|under",
+     "p": 0.6748,
+     "cuota": 1.4,
+     "casa": "Bet365",
+     "inicio": "2026-10-18T08:00:00-05:00"
+    }
+   ],
+   "xi": "217078,332645,368648,894428,2753320,39229340,49980838,50445824,53212627,63094712,67626970|287803,668457,1169903,3069284,3218099,50444830,58122452,64744795,65566123,70904911,75250608",
+   "conf": true
   },
   "4755376": {
    "partido": "Borussia Mönchengladbach vs Hoffenheim",
