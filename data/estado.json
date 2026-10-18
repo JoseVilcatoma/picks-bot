@@ -2721,8 +2721,42 @@
    "partido": "Juventus vs Lazio",
    "liga": "Italia, Serie A",
    "inicio": "2026-10-18T13:45:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1792346320.4224067
+   "estado": "enviado",
+   "ultimo": 1792346565.0670052,
+   "pierna": [
+    {
+     "gid": "4732677",
+     "partido": "Juventus vs Lazio",
+     "texto": "No hay empate",
+     "clave": "DC||12",
+     "p": 0.7341,
+     "cuota": 1.25,
+     "casa": "Bet365",
+     "inicio": "2026-10-18T13:45:00-05:00"
+    },
+    {
+     "gid": "4732677",
+     "partido": "Juventus vs Lazio",
+     "texto": "Más de 1.5 goles",
+     "clave": "OU|1.5|over",
+     "p": 0.7245,
+     "cuota": 1.29,
+     "casa": "Bet365",
+     "inicio": "2026-10-18T13:45:00-05:00"
+    },
+    {
+     "gid": "4732677",
+     "partido": "Juventus vs Lazio",
+     "texto": "Más de 0.5 goles en el 1T",
+     "clave": "OU1T|0.5|over",
+     "p": 0.6761,
+     "cuota": 1.36,
+     "casa": "Bet365",
+     "inicio": "2026-10-18T13:45:00-05:00"
+    }
+   ],
+   "xi": "553143,1006401,3094565,3144433,3229380,3260720,3456444,4873827,50999036,52338804,75535290|510933,3071410,15244106,26815119,29999056,41018240,49552142,62194167,64141744,65235149,66308500",
+   "conf": true
   },
   "4732679": {
    "partido": "Fiorentina vs Como",
@@ -3054,8 +3088,52 @@
    "partido": "Real Madrid vs Sevilla FC",
    "liga": "España, LaLiga",
    "inicio": "2026-10-18T14:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1792346320.4851074
+   "estado": "enviado",
+   "ultimo": 1792346565.9920616,
+   "pierna": [
+    {
+     "gid": "4750823",
+     "partido": "Real Madrid vs Sevilla FC",
+     "texto": "Más de 0.5 goles en el 1T",
+     "clave": "OU1T|0.5|over",
+     "p": 0.765,
+     "cuota": 1.2,
+     "casa": "Bet365",
+     "inicio": "2026-10-18T14:00:00-05:00"
+    },
+    {
+     "gid": "4750823",
+     "partido": "Real Madrid vs Sevilla FC",
+     "texto": "Gana Real Madrid",
+     "clave": "1X2||1",
+     "p": 0.7199,
+     "cuota": 1.25,
+     "casa": "Bet365",
+     "inicio": "2026-10-18T14:00:00-05:00"
+    },
+    {
+     "gid": "4750823",
+     "partido": "Real Madrid vs Sevilla FC",
+     "texto": "Más de 2.5 goles",
+     "clave": "OU|2.5|over",
+     "p": 0.6449,
+     "cuota": 1.36,
+     "casa": "Bet365",
+     "inicio": "2026-10-18T14:00:00-05:00"
+    },
+    {
+     "gid": "4750823",
+     "partido": "Real Madrid vs Sevilla FC",
+     "texto": "Real Madrid -1.5 (hándicap)",
+     "clave": "AH|-1.5|local",
+     "p": 0.5173,
+     "cuota": 1.62,
+     "casa": "Bet365",
+     "inicio": "2026-10-18T14:00:00-05:00"
+    }
+   ],
+   "xi": "211012,480721,1589889,3216883,3568284,5052341,46440257,58949561,61736514,67547634,77099314|357316,893355,1765601,3520611,28726208,54191092,54826476,63090553,64404146,66308855,66608690",
+   "conf": true
   },
   "4750824": {
    "partido": "Osasuna vs Racing de Santander",
@@ -3300,14 +3378,14 @@
    "liga": "Brasil, Brasileirão",
    "inicio": "2026-10-18T14:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792346320.5403419
+   "ultimo": 1792346566.7361245
   },
   "4632646": {
    "partido": "Fluminense vs Santos",
    "liga": "Brasil, Brasileirão",
    "inicio": "2026-10-18T14:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792346320.598805
+   "ultimo": 1792346566.7886987
   },
   "4735239": {
    "partido": "Lyon vs Niza",
