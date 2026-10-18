@@ -2721,8 +2721,8 @@
    "partido": "AC Milan vs Atalanta",
    "liga": "Italia, Serie A",
    "inicio": "2026-10-18T11:00:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1792336216.214624,
+   "estado": "liquidado",
+   "ultimo": 1792346195.6954424,
    "pierna": [
     {
      "gid": "4732676",
@@ -2786,7 +2786,22 @@
     }
    ],
    "xi": "26984,308108,513713,2055909,9830558,28043772,49915522,50790794,52683634,61032003,63094718|334658,383049,3071408,9589510,12655232,26803259,31283563,49463479,55165603,61716919,75452367",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 3,
+    "ag": 2,
+    "ht": [
+     2,
+     0
+    ],
+    "corners": 4.0,
+    "corners_h": 2.0,
+    "corners_a": 2.0,
+    "corners_1t": 2.0,
+    "cards": 3.0,
+    "cards_h": 1.0,
+    "cards_a": 2.0
+   }
   },
   "4732677": {
    "partido": "Juventus vs Lazio",
@@ -3961,8 +3976,8 @@
    "partido": "Sporting Cristal vs Comerciantes Unidos",
    "liga": "Perú, Liga 1 - Clausura",
    "inicio": "2026-10-18T11:00:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1792336217.2050326,
+   "estado": "liquidado",
+   "ultimo": 1792346195.8290584,
    "pierna": [
     {
      "gid": "4760803",
@@ -3996,7 +4011,22 @@
     }
    ],
    "xi": "357602,386754,389408,431628,485269,486424,5697711,15806567,25270975,50613999,71373581|3229005,6410080,11958892,14023190,57047593,58602352,65033286,66663681,67955361,70932142,71147110",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 4,
+    "ag": 2,
+    "ht": [
+     1,
+     0
+    ],
+    "corners": 10.0,
+    "corners_h": 5.0,
+    "corners_a": 5.0,
+    "corners_1t": 5.0,
+    "cards": 1.0,
+    "cards_h": 1.0,
+    "cards_a": 0.0
+   }
   },
   "4760804": {
    "partido": "FC Cajamarca vs CD Moquegua",
