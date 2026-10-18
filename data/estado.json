@@ -3215,8 +3215,8 @@
    "partido": "Málaga CF vs Real Sociedad",
    "liga": "España, LaLiga",
    "inicio": "2026-10-18T11:30:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1792337073.4105382,
+   "estado": "liquidado",
+   "ultimo": 1792347910.3859754,
    "pierna": [
     {
      "gid": "4750825",
@@ -3281,7 +3281,22 @@
    ],
    "en_ticket": true,
    "xi": "3150477,3564140,43660628,49954430,54526904,62350130,70891971,71088716,75441691,77171236,77184029|627873,941400,1404536,12198058,12241544,14149512,65775413,67466102,70953097,70994144,75437926",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 2,
+    "ag": 5,
+    "ht": [
+     0,
+     2
+    ],
+    "corners": 9.0,
+    "corners_h": 4.0,
+    "corners_a": 5.0,
+    "corners_1t": 6.0,
+    "cards": 2.0,
+    "cards_h": 0.0,
+    "cards_a": 2.0
+   }
   },
   "4750829": {
    "partido": "Celta de Vigo vs Alavés",
@@ -4356,33 +4371,6 @@
   "4760809": 1792314441234
  },
  "tickets": [
-  {
-   "piernas": [
-    {
-     "gid": "4750825",
-     "partido": "Málaga CF vs Real Sociedad",
-     "texto": "Menos de 3.5 goles",
-     "clave": "OU|3.5|under",
-     "p": 0.7422,
-     "cuota": 1.5,
-     "casa": "Bet365",
-     "inicio": "2026-10-18T11:30:00-05:00"
-    },
-    {
-     "gid": "4755376",
-     "partido": "Borussia Mönchengladbach vs Hoffenheim",
-     "texto": "No hay empate",
-     "clave": "DC||12",
-     "p": 0.7678,
-     "cuota": 1.22,
-     "casa": "Bet365",
-     "inicio": "2026-10-18T10:30:00-05:00"
-    }
-   ],
-   "p": 0.56986116,
-   "cuota": 1.83,
-   "t": 1792337075.1572335
-  },
   {
    "piernas": [
     {

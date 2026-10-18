@@ -1251,13 +1251,13 @@ fecha,game_id,partido,liga,tipo,mercado,clave,prob,cuota,casa,cuota_justa,ev,sta
 2026-10-18 10:10,4760803,Sporting Cristal vs Comerciantes Unidos,"Perú, Liga 1 - Clausura",modelo,Menos de 13.5 córners,CORN|13.5|under,0.7013,,,1.43,,,si,G,
 2026-10-18 10:10,4760803,Sporting Cristal vs Comerciantes Unidos,"Perú, Liga 1 - Clausura",ticket,Más de 2.5 goles + No hay empate,OU|2.5|over&DC||12,0.5501,1.85,,1.82,0.0191,10.00,,G,8.50
 2026-10-18 10:10,4760803,Sporting Cristal vs Comerciantes Unidos,"Perú, Liga 1 - Clausura",crear,Sporting Cristal o empate + Más de 1.5 goles + Menos de 15.5 córners,DC||1X&OU|1.5|over&CORN|15.5|under,0.5818,,,1.72,,,,G,
-2026-10-18 10:24,4750825,Málaga CF vs Real Sociedad,"España, LaLiga",seguro,Menos de 3.5 goles,OU|3.5|under,0.7422,1.50,Bet365,1.35,0.1133,,si,,
-2026-10-18 10:24,4750825,Málaga CF vs Real Sociedad,"España, LaLiga",seguro,No hay empate,DC||12,0.7137,1.28,Bet365,1.40,-0.0864,,si,,
-2026-10-18 10:24,4750825,Málaga CF vs Real Sociedad,"España, LaLiga",arriesgado,Menos de 0.5 goles en el 1T,OU1T|0.5|under,0.3259,3.50,Bet365,3.07,0.1406,,si,,
-2026-10-18 10:24,4750825,Málaga CF vs Real Sociedad,"España, LaLiga",arriesgado,Empate,1X2||X,0.2872,3.60,Bet365,3.48,0.0339,,si,,
-2026-10-18 10:24,4750825,Málaga CF vs Real Sociedad,"España, LaLiga",modelo,Menos de 13.5 córners,CORN|13.5|under,0.7090,,,1.41,,,si,,
-2026-10-18 10:24,4750825,Málaga CF vs Real Sociedad,"España, LaLiga",modelo,Más de 2.5 tarjetas,CARDS|2.5|over,0.6614,,,1.51,,,si,,
-2026-10-18 10:24,4750825,Málaga CF vs Real Sociedad,"España, LaLiga",ticket,Menos de 2.5 goles,OU|2.5|under,0.5397,2.20,,1.85,0.1873,10.00,,,
+2026-10-18 10:24,4750825,Málaga CF vs Real Sociedad,"España, LaLiga",seguro,Menos de 3.5 goles,OU|3.5|under,0.7422,1.50,Bet365,1.35,0.1133,,si,P,
+2026-10-18 10:24,4750825,Málaga CF vs Real Sociedad,"España, LaLiga",seguro,No hay empate,DC||12,0.7137,1.28,Bet365,1.40,-0.0864,,si,G,
+2026-10-18 10:24,4750825,Málaga CF vs Real Sociedad,"España, LaLiga",arriesgado,Menos de 0.5 goles en el 1T,OU1T|0.5|under,0.3259,3.50,Bet365,3.07,0.1406,,si,P,
+2026-10-18 10:24,4750825,Málaga CF vs Real Sociedad,"España, LaLiga",arriesgado,Empate,1X2||X,0.2872,3.60,Bet365,3.48,0.0339,,si,P,
+2026-10-18 10:24,4750825,Málaga CF vs Real Sociedad,"España, LaLiga",modelo,Menos de 13.5 córners,CORN|13.5|under,0.7090,,,1.41,,,si,G,
+2026-10-18 10:24,4750825,Málaga CF vs Real Sociedad,"España, LaLiga",modelo,Más de 2.5 tarjetas,CARDS|2.5|over,0.6614,,,1.51,,,si,P,
+2026-10-18 10:24,4750825,Málaga CF vs Real Sociedad,"España, LaLiga",ticket,Menos de 2.5 goles,OU|2.5|under,0.5397,2.20,,1.85,0.1873,10.00,,P,-10.00
 2026-10-18 12:11,4735243+4735240,Le Havre vs Auxerre / Lorient vs Monaco,,ticket2,No hay empate + Menos de 3.5 goles,,0.6003,1.72,,1.67,0.0299,10.00,,G,7.16
 2026-10-18 12:25,4735238+4742033,Paris FC vs Rennes / Nottingham Forest vs Arsenal,,ticket2,Paris FC o empate + Menos de 3.5 goles,,0.6005,1.82,,1.67,0.0929,10.00,,G,8.20
 2026-10-18 12:42,4760804,FC Cajamarca vs CD Moquegua,"Perú, Liga 1 - Clausura",seguro,FC Cajamarca o empate,DC||1X,0.8209,1.20,Bet365,1.22,-0.0150,,si,,
@@ -1296,3 +1296,4 @@ fecha,game_id,partido,liga,tipo,mercado,clave,prob,cuota,casa,cuota_justa,ev,sta
 2026-10-18 13:15,4632646,Fluminense vs Santos,"Brasil, Brasileirão",arriesgado,Empate,1X2||X,0.2808,3.60,Bet365,3.56,0.0110,,si,,
 2026-10-18 13:15,4632646,Fluminense vs Santos,"Brasil, Brasileirão",modelo,Menos de 12.5 córners,CORN|12.5|under,0.7436,,,1.34,,,si,,
 2026-10-18 13:15,4632646,Fluminense vs Santos,"Brasil, Brasileirão",modelo,Más de 2.5 tarjetas,CARDS|2.5|over,0.6924,,,1.44,,,si,,
+2026-10-18 13:25,4750825+4755376,Málaga CF vs Real Sociedad / Borussia Mönchengladbach vs Hoffenheim,,ticket2,Menos de 3.5 goles + No hay empate,,0.5699,1.83,,1.75,0.0428,10.00,,P,-10.00
