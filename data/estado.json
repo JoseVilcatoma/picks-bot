@@ -2720,8 +2720,72 @@
    "partido": "Fiorentina vs Como",
    "liga": "Italia, Serie A",
    "inicio": "2026-10-18T08:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1792325958.074313
+   "estado": "enviado",
+   "ultimo": 1792326080.992714,
+   "pierna": [
+    {
+     "gid": "4732679",
+     "partido": "Fiorentina vs Como",
+     "texto": "Como recibe gol",
+     "clave": "CS||visita_no",
+     "p": 0.7456,
+     "cuota": 1.33,
+     "casa": "Bet365",
+     "inicio": "2026-10-18T08:00:00-05:00"
+    },
+    {
+     "gid": "4732679",
+     "partido": "Fiorentina vs Como",
+     "texto": "Más de 1.5 goles",
+     "clave": "OU|1.5|over",
+     "p": 0.737,
+     "cuota": 1.2,
+     "casa": "Bet365",
+     "inicio": "2026-10-18T08:00:00-05:00"
+    },
+    {
+     "gid": "4732679",
+     "partido": "Fiorentina vs Como",
+     "texto": "No hay empate",
+     "clave": "DC||12",
+     "p": 0.7196,
+     "cuota": 1.29,
+     "casa": "Bet365",
+     "inicio": "2026-10-18T08:00:00-05:00"
+    },
+    {
+     "gid": "4732679",
+     "partido": "Fiorentina vs Como",
+     "texto": "Más de 0.5 goles en el 1T",
+     "clave": "OU1T|0.5|over",
+     "p": 0.689,
+     "cuota": 1.29,
+     "casa": "Bet365",
+     "inicio": "2026-10-18T08:00:00-05:00"
+    },
+    {
+     "gid": "4732679",
+     "partido": "Fiorentina vs Como",
+     "texto": "Ambos marcan: Sí",
+     "clave": "BTTS||si",
+     "p": 0.536,
+     "cuota": 1.53,
+     "casa": "Bet365",
+     "inicio": "2026-10-18T08:00:00-05:00"
+    },
+    {
+     "gid": "4732679",
+     "partido": "Fiorentina vs Como",
+     "texto": "Más de 2.5 goles",
+     "clave": "OU|2.5|over",
+     "p": 0.4946,
+     "cuota": 1.62,
+     "casa": "Bet365",
+     "inicio": "2026-10-18T08:00:00-05:00"
+    }
+   ],
+   "xi": "88018,7776748,50586375,54588606,54901262,65156349,70860736,71088015,71370735,75435606,77066931|550367,671186,3064953,40742145,43470743,49579899,56471954,65895085,66186532,70914728,75251250",
+   "conf": false
   },
   "4735238": {
    "partido": "Paris FC vs Rennes",
