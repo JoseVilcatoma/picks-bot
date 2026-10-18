@@ -2755,8 +2755,62 @@
    "partido": "Osasuna vs Racing de Santander",
    "liga": "España, LaLiga",
    "inicio": "2026-10-18T07:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1792321070.3086908
+   "estado": "enviado",
+   "ultimo": 1792321314.334845,
+   "pierna": [
+    {
+     "gid": "4750824",
+     "partido": "Osasuna vs Racing de Santander",
+     "texto": "Más de 1.5 goles",
+     "clave": "OU|1.5|over",
+     "p": 0.7801,
+     "cuota": 1.2,
+     "casa": "Bet365",
+     "inicio": "2026-10-18T07:00:00-05:00"
+    },
+    {
+     "gid": "4750824",
+     "partido": "Osasuna vs Racing de Santander",
+     "texto": "No hay empate",
+     "clave": "DC||12",
+     "p": 0.7423,
+     "cuota": 1.25,
+     "casa": "Bet365",
+     "inicio": "2026-10-18T07:00:00-05:00"
+    },
+    {
+     "gid": "4750824",
+     "partido": "Osasuna vs Racing de Santander",
+     "texto": "Más de 0.5 goles en el 1T",
+     "clave": "OU1T|0.5|over",
+     "p": 0.721,
+     "cuota": 1.29,
+     "casa": "Bet365",
+     "inicio": "2026-10-18T07:00:00-05:00"
+    },
+    {
+     "gid": "4750824",
+     "partido": "Osasuna vs Racing de Santander",
+     "texto": "Osasuna recibe gol",
+     "clave": "CS||local_no",
+     "p": 0.71,
+     "cuota": 1.33,
+     "casa": "Bet365",
+     "inicio": "2026-10-18T07:00:00-05:00"
+    },
+    {
+     "gid": "4750824",
+     "partido": "Osasuna vs Racing de Santander",
+     "texto": "Ambos marcan: Sí",
+     "clave": "BTTS||si",
+     "p": 0.5921,
+     "cuota": 1.6,
+     "casa": "William Hill",
+     "inicio": "2026-10-18T07:00:00-05:00"
+    }
+   ],
+   "xi": "204239,350828,541593,542817,1898668,3224261,35158639,51408122,66261465,66318204,66362474|28334,1766700,10526467,15809523,51019318,60835756,64816557,66437445,66566911,71407785,75254319",
+   "conf": true
   },
   "4750825": {
    "partido": "Málaga CF vs Real Sociedad",
