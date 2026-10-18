@@ -2722,7 +2722,7 @@
    "liga": "Italia, Serie A",
    "inicio": "2026-10-18T11:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792335726.772722
+   "ultimo": 1792335970.3256392
   },
   "4732677": {
    "partido": "Juventus vs Lazio",
@@ -2735,8 +2735,8 @@
    "partido": "Fiorentina vs Como",
    "liga": "Italia, Serie A",
    "inicio": "2026-10-18T08:00:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1792335357.5568821,
+   "estado": "liquidado",
+   "ultimo": 1792335970.4588163,
    "pierna": [
     {
      "gid": "4732679",
@@ -2800,7 +2800,22 @@
     }
    ],
    "xi": "88018,3281000,32293257,50586375,54588606,54901262,65156349,68877009,70860736,71088015,71370735|345756,550367,671186,3064953,4828844,40742145,43470743,49579899,65895085,66186532,70940909",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 1,
+    "ag": 3,
+    "ht": [
+     1,
+     2
+    ],
+    "corners": 15.0,
+    "corners_h": 10.0,
+    "corners_a": 5.0,
+    "corners_1t": 6.0,
+    "cards": 5.0,
+    "cards_h": 2.0,
+    "cards_a": 3.0
+   }
   },
   "4735238": {
    "partido": "Paris FC vs Rennes",
@@ -3458,8 +3473,8 @@
    "partido": "Bournemouth vs Sunderland",
    "liga": "Inglaterra, Premier League",
    "inicio": "2026-10-18T08:00:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1792335358.0482562,
+   "estado": "liquidado",
+   "ultimo": 1792335970.6011531,
    "pierna": [
     {
      "gid": "4742039",
@@ -3523,7 +3538,22 @@
     }
    ],
    "xi": "217078,332645,368648,894428,2753320,39229340,49980838,50445824,53212627,63094712,67626970|287803,668457,1169903,3069284,3218099,50444830,58122452,64744795,65566123,70904911,75250608",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 2,
+    "ag": 0,
+    "ht": [
+     1,
+     0
+    ],
+    "corners": 8.0,
+    "corners_h": 5.0,
+    "corners_a": 3.0,
+    "corners_1t": 5.0,
+    "cards": 6.0,
+    "cards_h": 3.0,
+    "cards_a": 3.0
+   }
   },
   "4755376": {
    "partido": "Borussia Mönchengladbach vs Hoffenheim",
@@ -3632,7 +3662,7 @@
    "liga": "Perú, Liga 1 - Clausura",
    "inicio": "2026-10-18T11:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792335726.9217064
+   "ultimo": 1792335970.7438195
   },
   "4760804": {
    "partido": "FC Cajamarca vs CD Moquegua",
