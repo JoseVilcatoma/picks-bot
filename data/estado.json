@@ -2807,14 +2807,78 @@
    "liga": "Francia, Ligue 1",
    "inicio": "2026-10-18T10:15:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792333022.148216
+   "ultimo": 1792333266.7226272
   },
   "4735240": {
    "partido": "Lorient vs Monaco",
    "liga": "Francia, Ligue 1",
    "inicio": "2026-10-18T10:15:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1792333022.197742
+   "estado": "enviado",
+   "ultimo": 1792333266.785495,
+   "pierna": [
+    {
+     "gid": "4735240",
+     "partido": "Lorient vs Monaco",
+     "texto": "Menos de 3.5 goles",
+     "clave": "OU|3.5|under",
+     "p": 0.8079,
+     "cuota": 1.33,
+     "casa": "Bet365",
+     "inicio": "2026-10-18T10:15:00-05:00"
+    },
+    {
+     "gid": "4735240",
+     "partido": "Lorient vs Monaco",
+     "texto": "Menos de 1.5 goles en el 1T",
+     "clave": "OU1T|1.5|under",
+     "p": 0.7315,
+     "cuota": 1.4,
+     "casa": "Bet365",
+     "inicio": "2026-10-18T10:15:00-05:00"
+    },
+    {
+     "gid": "4735240",
+     "partido": "Lorient vs Monaco",
+     "texto": "No hay empate",
+     "clave": "DC||12",
+     "p": 0.6953,
+     "cuota": 1.29,
+     "casa": "Bet365",
+     "inicio": "2026-10-18T10:15:00-05:00"
+    },
+    {
+     "gid": "4735240",
+     "partido": "Lorient vs Monaco",
+     "texto": "Monaco recibe gol",
+     "clave": "CS||visita_no",
+     "p": 0.6614,
+     "cuota": 1.44,
+     "casa": "Bet365",
+     "inicio": "2026-10-18T10:15:00-05:00"
+    },
+    {
+     "gid": "4735240",
+     "partido": "Lorient vs Monaco",
+     "texto": "Lorient recibe gol",
+     "clave": "CS||local_no",
+     "p": 0.6608,
+     "cuota": 1.22,
+     "casa": "Bet365",
+     "inicio": "2026-10-18T10:15:00-05:00"
+    },
+    {
+     "gid": "4735240",
+     "partido": "Lorient vs Monaco",
+     "texto": "Más de 1.5 goles",
+     "clave": "OU|1.5|over",
+     "p": 0.6522,
+     "cuota": 1.3,
+     "casa": "Bet365",
+     "inicio": "2026-10-18T10:15:00-05:00"
+    }
+   ],
+   "xi": "348679,668918,3563832,50809236,64332608,66378868,66563611,70891587,71341938,72472125,76996630|356467,386642,556868,672103,6830594,38084580,53213421,58340457,63725306,67934945,70796239",
+   "conf": true
   },
   "4735244": {
    "partido": "Angers vs Olympique Marsella",
@@ -3078,7 +3142,7 @@
    "liga": "Francia, Ligue 1",
    "inicio": "2026-10-18T10:15:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792333022.2494137
+   "ultimo": 1792333269.6825724
   },
   "4742033": {
    "partido": "Nottingham Forest vs Arsenal",
