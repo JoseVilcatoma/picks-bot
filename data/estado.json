@@ -3448,8 +3448,72 @@
    "partido": "Fluminense vs Santos",
    "liga": "Brasil, Brasileirão",
    "inicio": "2026-10-18T14:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1792347056.2888014
+   "estado": "enviado",
+   "ultimo": 1792347301.3179731,
+   "pierna": [
+    {
+     "gid": "4632646",
+     "partido": "Fluminense vs Santos",
+     "texto": "Fluminense recibe gol",
+     "clave": "CS||local_no",
+     "p": 0.7263,
+     "cuota": 1.33,
+     "casa": "Bet365",
+     "inicio": "2026-10-18T14:00:00-05:00"
+    },
+    {
+     "gid": "4632646",
+     "partido": "Fluminense vs Santos",
+     "texto": "Más de 1.5 goles",
+     "clave": "OU|1.5|over",
+     "p": 0.7246,
+     "cuota": 1.25,
+     "casa": "Bet365",
+     "inicio": "2026-10-18T14:00:00-05:00"
+    },
+    {
+     "gid": "4632646",
+     "partido": "Fluminense vs Santos",
+     "texto": "No hay empate",
+     "clave": "DC||12",
+     "p": 0.7146,
+     "cuota": 1.29,
+     "casa": "Bet365",
+     "inicio": "2026-10-18T14:00:00-05:00"
+    },
+    {
+     "gid": "4632646",
+     "partido": "Fluminense vs Santos",
+     "texto": "Santos recibe gol",
+     "clave": "CS||visita_no",
+     "p": 0.7119,
+     "cuota": 1.2,
+     "casa": "Bet365",
+     "inicio": "2026-10-18T14:00:00-05:00"
+    },
+    {
+     "gid": "4632646",
+     "partido": "Fluminense vs Santos",
+     "texto": "Más de 0.5 goles en el 1T",
+     "clave": "OU1T|0.5|over",
+     "p": 0.6798,
+     "cuota": 1.33,
+     "casa": "Bet365",
+     "inicio": "2026-10-18T14:00:00-05:00"
+    },
+    {
+     "gid": "4632646",
+     "partido": "Fluminense vs Santos",
+     "texto": "Fluminense o empate",
+     "clave": "DC||1X",
+     "p": 0.6315,
+     "cuota": 1.33,
+     "casa": "Bet365",
+     "inicio": "2026-10-18T14:00:00-05:00"
+    }
+   ],
+   "xi": "102758,226984,336354,452767,457505,537128,543186,561160,3144702,64934362,65006822|76477,104066,479593,530809,543235,569870,2567397,9563934,60376096,76891180,76943195",
+   "conf": true
   },
   "4735239": {
    "partido": "Lyon vs Niza",
