@@ -4123,8 +4123,32 @@
    "partido": "Cienciano vs UTC Cajamarca",
    "liga": "Perú, Liga 1 - Clausura",
    "inicio": "2026-10-18T18:30:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1792363706.3436594
+   "estado": "enviado",
+   "ultimo": 1792363829.05175,
+   "pierna": [
+    {
+     "gid": "4760809",
+     "partido": "Cienciano vs UTC Cajamarca",
+     "texto": "Más de 0.5 goles en el 1T",
+     "clave": "OU1T|0.5|over",
+     "p": 0.7881,
+     "cuota": 1.2,
+     "casa": "Bet365",
+     "inicio": "2026-10-18T18:30:00-05:00"
+    },
+    {
+     "gid": "4760809",
+     "partido": "Cienciano vs UTC Cajamarca",
+     "texto": "Más de 2.5 goles",
+     "clave": "OU|2.5|over",
+     "p": 0.6658,
+     "cuota": 1.44,
+     "casa": "Bet365",
+     "inicio": "2026-10-18T18:30:00-05:00"
+    }
+   ],
+   "xi": "461402,470008,578343,3086656,3210157,4366058,4815065,6813304,13461121,47991870,64944309|212186,468362,943603,983229,3183651,3188390,4329678,6878973,13841475,56819961,75434168",
+   "conf": false
   }
  },
  "web": {
