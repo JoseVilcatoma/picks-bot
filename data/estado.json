@@ -2736,25 +2736,25 @@
    "liga": "Italia, Serie A",
    "inicio": "2026-10-18T08:00:00-05:00",
    "estado": "enviado",
-   "ultimo": 1792326080.992714,
+   "ultimo": 1792326454.4563277,
    "pierna": [
     {
      "gid": "4732679",
      "partido": "Fiorentina vs Como",
-     "texto": "Como recibe gol",
-     "clave": "CS||visita_no",
-     "p": 0.7456,
-     "cuota": 1.33,
+     "texto": "Más de 1.5 goles",
+     "clave": "OU|1.5|over",
+     "p": 0.7251,
+     "cuota": 1.2,
      "casa": "Bet365",
      "inicio": "2026-10-18T08:00:00-05:00"
     },
     {
      "gid": "4732679",
      "partido": "Fiorentina vs Como",
-     "texto": "Más de 1.5 goles",
-     "clave": "OU|1.5|over",
-     "p": 0.737,
-     "cuota": 1.2,
+     "texto": "Como recibe gol",
+     "clave": "CS||visita_no",
+     "p": 0.7214,
+     "cuota": 1.33,
      "casa": "Bet365",
      "inicio": "2026-10-18T08:00:00-05:00"
     },
@@ -2763,7 +2763,7 @@
      "partido": "Fiorentina vs Como",
      "texto": "No hay empate",
      "clave": "DC||12",
-     "p": 0.7196,
+     "p": 0.7127,
      "cuota": 1.29,
      "casa": "Bet365",
      "inicio": "2026-10-18T08:00:00-05:00"
@@ -2773,7 +2773,7 @@
      "partido": "Fiorentina vs Como",
      "texto": "Más de 0.5 goles en el 1T",
      "clave": "OU1T|0.5|over",
-     "p": 0.689,
+     "p": 0.6803,
      "cuota": 1.29,
      "casa": "Bet365",
      "inicio": "2026-10-18T08:00:00-05:00"
@@ -2783,7 +2783,7 @@
      "partido": "Fiorentina vs Como",
      "texto": "Ambos marcan: Sí",
      "clave": "BTTS||si",
-     "p": 0.536,
+     "p": 0.5287,
      "cuota": 1.53,
      "casa": "Bet365",
      "inicio": "2026-10-18T08:00:00-05:00"
@@ -2793,14 +2793,14 @@
      "partido": "Fiorentina vs Como",
      "texto": "Más de 2.5 goles",
      "clave": "OU|2.5|over",
-     "p": 0.4946,
+     "p": 0.479,
      "cuota": 1.62,
      "casa": "Bet365",
      "inicio": "2026-10-18T08:00:00-05:00"
     }
    ],
-   "xi": "88018,7776748,50586375,54588606,54901262,65156349,70860736,71088015,71370735,75435606,77066931|550367,671186,3064953,40742145,43470743,49579899,56471954,65895085,66186532,70914728,75251250",
-   "conf": false
+   "xi": "88018,3281000,32293257,50586375,54588606,54901262,65156349,68877009,70860736,71088015,71370735|345756,550367,671186,3064953,4828844,40742145,43470743,49579899,65895085,66186532,70940909",
+   "conf": true
   },
   "4735238": {
    "partido": "Paris FC vs Rennes",
@@ -3203,7 +3203,7 @@
    "liga": "Alemania, Bundesliga",
    "inicio": "2026-10-18T08:30:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792326206.9799747
+   "ultimo": 1792326454.8605683
   },
   "4760803": {
    "partido": "Sporting Cristal vs Comerciantes Unidos",
