@@ -3202,8 +3202,62 @@
    "partido": "Bayer Leverkusen vs Friburgo",
    "liga": "Alemania, Bundesliga",
    "inicio": "2026-10-18T08:30:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1792326944.7421482
+   "estado": "enviado",
+   "ultimo": 1792327188.8672123,
+   "pierna": [
+    {
+     "gid": "4755379",
+     "partido": "Bayer Leverkusen vs Friburgo",
+     "texto": "Más de 0.5 goles en el 1T",
+     "clave": "OU1T|0.5|over",
+     "p": 0.7609,
+     "cuota": 1.22,
+     "casa": "Bet365",
+     "inicio": "2026-10-18T08:30:00-05:00"
+    },
+    {
+     "gid": "4755379",
+     "partido": "Bayer Leverkusen vs Friburgo",
+     "texto": "Bayer Leverkusen recibe gol",
+     "clave": "CS||local_no",
+     "p": 0.6921,
+     "cuota": 1.33,
+     "casa": "Bet365",
+     "inicio": "2026-10-18T08:30:00-05:00"
+    },
+    {
+     "gid": "4755379",
+     "partido": "Bayer Leverkusen vs Friburgo",
+     "texto": "Más de 2.5 goles",
+     "clave": "OU|2.5|over",
+     "p": 0.6308,
+     "cuota": 1.44,
+     "casa": "Bet365",
+     "inicio": "2026-10-18T08:30:00-05:00"
+    },
+    {
+     "gid": "4755379",
+     "partido": "Bayer Leverkusen vs Friburgo",
+     "texto": "Ambos marcan: Sí",
+     "clave": "BTTS||si",
+     "p": 0.6074,
+     "cuota": 1.5,
+     "casa": "Bet365",
+     "inicio": "2026-10-18T08:30:00-05:00"
+    },
+    {
+     "gid": "4755379",
+     "partido": "Bayer Leverkusen vs Friburgo",
+     "texto": "Gana Bayer Leverkusen",
+     "clave": "1X2||1",
+     "p": 0.5823,
+     "cuota": 1.6,
+     "casa": "Bet365",
+     "inicio": "2026-10-18T08:30:00-05:00"
+    }
+   ],
+   "xi": "495388,511863,613840,3177765,7180298,30803774,50172386,56555504,63792363,67787322,67900705|220585,418057,593193,3071285,53464344,61066404,66221753,69040955,70767985,70780165,75439830",
+   "conf": true
   },
   "4760803": {
    "partido": "Sporting Cristal vs Comerciantes Unidos",
