@@ -1119,13 +1119,13 @@ fecha,game_id,partido,liga,tipo,mercado,clave,prob,cuota,casa,cuota_justa,ev,sta
 2026-10-17 15:41,4632641,Atlético Mineiro vs Coritiba,"Brasil, Brasileirão",modelo,Más de 2.5 tarjetas,CARDS|2.5|over,0.6533,,,1.53,,,si,P,
 2026-10-17 15:41,4632641,Atlético Mineiro vs Coritiba,"Brasil, Brasileirão",ticket,Atlético Mineiro recibe gol + Más de 1.5 goles,CS||local_no&OU|1.5|over,0.5395,1.87,,1.85,0.0070,10.00,,P,-10.00
 2026-10-17 15:55,4732673+4750822,AS Roma vs Genoa / Valencia CF vs Athletic Club,,ticket2,Menos de 3.5 goles + Menos de 1.5 goles en el 1T,,0.6056,1.77,,1.65,0.0713,10.00,,G,7.69
-2026-10-17 16:48,4632639,Athletico Paranaense vs Palmeiras,"Brasil, Brasileirão",seguro,Menos de 3.5 goles,OU|3.5|under,0.8028,1.33,Bet365,1.25,0.0677,,si,,
-2026-10-17 16:48,4632639,Athletico Paranaense vs Palmeiras,"Brasil, Brasileirão",seguro,No hay empate,DC||12,0.6927,1.30,Bet365,1.44,-0.0996,,si,,
-2026-10-17 16:48,4632639,Athletico Paranaense vs Palmeiras,"Brasil, Brasileirão",arriesgado,Menos de 0.5 goles en el 1T,OU1T|0.5|under,0.3763,2.75,Bet365,2.66,0.0349,,si,,
-2026-10-17 16:48,4632639,Athletico Paranaense vs Palmeiras,"Brasil, Brasileirão",arriesgado,Gana Athletico Paranaense,1X2||1,0.3516,3.08,BetOnline.ag,2.84,0.0830,,si,,
-2026-10-17 16:48,4632639,Athletico Paranaense vs Palmeiras,"Brasil, Brasileirão",modelo,Más de 8.5 córners,CORN|8.5|over,0.6768,,,1.48,,,si,,
-2026-10-17 16:48,4632639,Athletico Paranaense vs Palmeiras,"Brasil, Brasileirão",modelo,Menos de 6.5 tarjetas,CARDS|6.5|under,0.6753,,,1.48,,,si,,
-2026-10-17 16:48,4632639,Athletico Paranaense vs Palmeiras,"Brasil, Brasileirão",ticket,Menos de 2.5 goles,OU|2.5|under,0.5729,1.88,,1.75,0.0770,10.00,,,
+2026-10-17 16:48,4632639,Athletico Paranaense vs Palmeiras,"Brasil, Brasileirão",seguro,Menos de 3.5 goles,OU|3.5|under,0.8028,1.33,Bet365,1.25,0.0677,,si,G,
+2026-10-17 16:48,4632639,Athletico Paranaense vs Palmeiras,"Brasil, Brasileirão",seguro,No hay empate,DC||12,0.6927,1.30,Bet365,1.44,-0.0996,,si,G,
+2026-10-17 16:48,4632639,Athletico Paranaense vs Palmeiras,"Brasil, Brasileirão",arriesgado,Menos de 0.5 goles en el 1T,OU1T|0.5|under,0.3763,2.75,Bet365,2.66,0.0349,,si,P,
+2026-10-17 16:48,4632639,Athletico Paranaense vs Palmeiras,"Brasil, Brasileirão",arriesgado,Gana Athletico Paranaense,1X2||1,0.3516,3.08,BetOnline.ag,2.84,0.0830,,si,P,
+2026-10-17 16:48,4632639,Athletico Paranaense vs Palmeiras,"Brasil, Brasileirão",modelo,Más de 8.5 córners,CORN|8.5|over,0.6768,,,1.48,,,si,G,
+2026-10-17 16:48,4632639,Athletico Paranaense vs Palmeiras,"Brasil, Brasileirão",modelo,Menos de 6.5 tarjetas,CARDS|6.5|under,0.6753,,,1.48,,,si,G,
+2026-10-17 16:48,4632639,Athletico Paranaense vs Palmeiras,"Brasil, Brasileirão",ticket,Menos de 2.5 goles,OU|2.5|under,0.5729,1.88,,1.75,0.0770,10.00,,G,8.80
 2026-10-17 17:20,4760808,FBC Melgar vs Deportivo Garcilaso,"Perú, Liga 1 - Clausura",seguro,Más de 1.5 goles,OU|1.5|over,0.7904,1.18,Bet365,1.27,-0.0673,,probable,,
 2026-10-17 17:20,4760808,FBC Melgar vs Deportivo Garcilaso,"Perú, Liga 1 - Clausura",seguro,No hay empate,DC||12,0.7904,1.18,Bet365,1.27,-0.0673,,probable,,
 2026-10-17 17:20,4760808,FBC Melgar vs Deportivo Garcilaso,"Perú, Liga 1 - Clausura",arriesgado,Más de 1.5 goles en el 1T,OU1T|1.5|over,0.3816,2.38,Bet365,2.62,-0.0918,,probable,,

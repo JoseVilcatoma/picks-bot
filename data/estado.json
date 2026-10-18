@@ -2283,8 +2283,8 @@
    "partido": "Athletico Paranaense vs Palmeiras",
    "liga": "Brasil, Brasileirão",
    "inicio": "2026-10-17T17:30:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1792283176.5322175,
+   "estado": "liquidado",
+   "ultimo": 1792283783.60976,
    "pierna": [
     {
      "gid": "4632639",
@@ -2349,7 +2349,22 @@
    ],
    "xi": "203068,393754,516073,2754101,3123906,3246351,6880090,66636343,67778470,67818682,71146348|384001,552616,638801,892506,3228073,14889196,19463377,19840004,46803506,54050192,66228710",
    "conf": true,
-   "en_ticket": true
+   "en_ticket": true,
+   "r": {
+    "hg": 0,
+    "ag": 2,
+    "ht": [
+     0,
+     2
+    ],
+    "corners": 17.0,
+    "corners_h": 16.0,
+    "corners_a": 1.0,
+    "corners_1t": 4.0,
+    "cards": 5.0,
+    "cards_h": 2.0,
+    "cards_a": 3.0
+   }
   },
   "4632641": {
    "partido": "Atlético Mineiro vs Coritiba",
