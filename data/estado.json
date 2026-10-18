@@ -2436,8 +2436,8 @@
    "partido": "São Paulo vs Vasco Da Gama",
    "liga": "Brasil, Brasileirão",
    "inicio": "2026-10-17T19:00:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1792288533.3865178,
+   "estado": "liquidado",
+   "ultimo": 1792289138.9212584,
    "pierna": [
     {
      "gid": "4632644",
@@ -2501,7 +2501,22 @@
     }
    ],
    "xi": "270847,302560,400157,430655,543187,3219228,3320593,38074751,55416459,70897196,71071406|404923,480781,3066447,3072564,3235737,37877027,64798849,65176757,65227585,67666932,67668956",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 1,
+    "ag": 0,
+    "ht": [
+     0,
+     0
+    ],
+    "corners": 7.0,
+    "corners_h": 3.0,
+    "corners_a": 4.0,
+    "corners_1t": 4.0,
+    "cards": 4.0,
+    "cards_h": 2.0,
+    "cards_a": 2.0
+   }
   },
   "4632645": {
    "partido": "Botafogo vs Chapecoense",
