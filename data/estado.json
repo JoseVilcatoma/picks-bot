@@ -2885,8 +2885,8 @@
    "partido": "Paris FC vs Rennes",
    "liga": "Francia, Ligue 1",
    "inicio": "2026-10-18T10:15:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1792343500.5494678,
+   "estado": "liquidado",
+   "ultimo": 1792344112.4395638,
    "pierna": [
     {
      "gid": "4735238",
@@ -2931,7 +2931,22 @@
    ],
    "en_ticket": true,
    "xi": "334818,429463,533933,3083020,50676204,54686026,57682338,64473227,65776317,66134607,70767661|259180,335306,655566,921155,2810327,3055980,51243145,51284167,61710592,71357640,71384554",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 4,
+    "ag": 3,
+    "ht": [
+     2,
+     1
+    ],
+    "corners": 7.0,
+    "corners_h": 3.0,
+    "corners_a": 4.0,
+    "corners_1t": 3.0,
+    "cards": 7.0,
+    "cards_h": 3.0,
+    "cards_a": 4.0
+   }
   },
   "4735240": {
    "partido": "Lorient vs Monaco",
@@ -3893,7 +3908,7 @@
    "liga": "Perú, Liga 1 - Clausura",
    "inicio": "2026-10-18T13:15:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792343869.1158266
+   "ultimo": 1792344112.7150164
   },
   "4760806": {
    "partido": "Alianza Atletico vs Universitario",
