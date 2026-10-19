@@ -2285,8 +2285,42 @@
    "partido": "Corinthians vs Vitória",
    "liga": "Brasil, Brasileirão",
    "inicio": "2026-10-19T18:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1792447631.9803815
+   "estado": "enviado",
+   "ultimo": 1792447874.819555,
+   "pierna": [
+    {
+     "gid": "4632643",
+     "partido": "Corinthians vs Vitória",
+     "texto": "No hay empate",
+     "clave": "DC||12",
+     "p": 0.7228,
+     "cuota": 1.29,
+     "casa": "Bet365",
+     "inicio": "2026-10-19T18:00:00-05:00"
+    },
+    {
+     "gid": "4632643",
+     "partido": "Corinthians vs Vitória",
+     "texto": "Más de 1.5 goles",
+     "clave": "OU|1.5|over",
+     "p": 0.6882,
+     "cuota": 1.36,
+     "casa": "Bet365",
+     "inicio": "2026-10-19T18:00:00-05:00"
+    },
+    {
+     "gid": "4632643",
+     "partido": "Corinthians vs Vitória",
+     "texto": "Más de 0.5 goles en el 1T",
+     "clave": "OU1T|0.5|over",
+     "p": 0.6528,
+     "cuota": 1.4,
+     "casa": "Bet365",
+     "inicio": "2026-10-19T18:00:00-05:00"
+    }
+   ],
+   "xi": "369992,376333,394879,433045,444796,2479509,3235790,6687134,9289348,66083960,77409182|482461,3059914,3268277,4802802,12679086,13143233,64935008,65768674,66264863,71047587,71355882",
+   "conf": true
   },
   "4732674": {
    "partido": "Parma vs Torino",
