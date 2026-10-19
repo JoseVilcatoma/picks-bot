@@ -2578,7 +2578,7 @@
    "liga": "Inglaterra, Premier League",
    "inicio": "2026-10-19T14:00:00-05:00",
    "estado": "enviado",
-   "ultimo": 1792432698.419478,
+   "ultimo": 1792443381.8983233,
    "pierna": [
     {
      "gid": "4742032",
@@ -2649,8 +2649,8 @@
    "partido": "Getafe CF vs Rayo Vallecano",
    "liga": "España, LaLiga",
    "inicio": "2026-10-19T14:00:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1792432948.8640501,
+   "estado": "liquidado",
+   "ultimo": 1792443382.0060184,
    "pierna": [
     {
      "gid": "4750826",
@@ -2715,7 +2715,22 @@
    ],
    "xi": "243502,312745,392341,394713,552743,656339,914518,52283767,52892490,67621071,75411603|331103,379362,392629,416286,489306,530676,3205166,8165281,12650246,38786447,46477641",
    "conf": true,
-   "en_ticket": true
+   "en_ticket": true,
+   "r": {
+    "hg": 1,
+    "ag": 1,
+    "ht": [
+     0,
+     1
+    ],
+    "corners": 16.0,
+    "corners_h": 8.0,
+    "corners_a": 8.0,
+    "corners_1t": 7.0,
+    "cards": 10.0,
+    "cards_h": 7.0,
+    "cards_a": 3.0
+   }
   },
   "4757116": {
    "partido": "SC Braga vs Gil Vicente FC",
