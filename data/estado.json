@@ -2816,8 +2816,63 @@
    "partido": "Parma vs Torino",
    "liga": "Italia, Serie A",
    "inicio": "2026-10-19T13:45:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1792432576.009272
+   "estado": "enviado",
+   "ultimo": 1792432823.1354656,
+   "pierna": [
+    {
+     "gid": "4732674",
+     "partido": "Parma vs Torino",
+     "texto": "Menos de 3.5 goles",
+     "clave": "OU|3.5|under",
+     "p": 0.8101,
+     "cuota": 1.2,
+     "casa": "Bet365",
+     "inicio": "2026-10-19T13:45:00-05:00"
+    },
+    {
+     "gid": "4732674",
+     "partido": "Parma vs Torino",
+     "texto": "Menos de 1.5 goles en el 1T",
+     "clave": "OU1T|1.5|under",
+     "p": 0.7399,
+     "cuota": 1.29,
+     "casa": "Bet365",
+     "inicio": "2026-10-19T13:45:00-05:00"
+    },
+    {
+     "gid": "4732674",
+     "partido": "Parma vs Torino",
+     "texto": "Torino o empate",
+     "clave": "DC||X2",
+     "p": 0.7052,
+     "cuota": 1.36,
+     "casa": "Bet365",
+     "inicio": "2026-10-19T13:45:00-05:00"
+    },
+    {
+     "gid": "4732674",
+     "partido": "Parma vs Torino",
+     "texto": "No hay empate",
+     "clave": "DC||12",
+     "p": 0.6918,
+     "cuota": 1.36,
+     "casa": "Bet365",
+     "inicio": "2026-10-19T13:45:00-05:00"
+    },
+    {
+     "gid": "4732674",
+     "partido": "Parma vs Torino",
+     "texto": "Menos de 2.5 goles",
+     "clave": "OU|2.5|under",
+     "p": 0.6293,
+     "cuota": 1.53,
+     "casa": "Bet365",
+     "inicio": "2026-10-19T13:45:00-05:00"
+    }
+   ],
+   "en_ticket": true,
+   "xi": "292380,7773175,29631102,43896631,47401661,51582567,55974643,60968477,62341759,70810721,76776961|400857,503138,530850,550354,607972,3093438,51512703,53050235,70797490,70877609,77139772",
+   "conf": true
   },
   "4732675": {
    "partido": "Monza vs Cagliari",
@@ -2959,7 +3014,8 @@
     }
    ],
    "xi": "354502,512287,1132753,3143492,4785473,4870623,14775530,49463074,63108549,64522138,67877824|491504,3133496,3249227,3457622,8262598,49701146,49988861,51923671,68831133,70781510,75258798",
-   "conf": true
+   "conf": true,
+   "en_ticket": true
   },
   "4750826": {
    "partido": "Getafe CF vs Rayo Vallecano",
@@ -2973,7 +3029,7 @@
    "liga": "Portugal, Primeira Liga",
    "inicio": "2026-10-19T14:15:00-05:00",
    "estado": "pendiente",
-   "ultimo": 0
+   "ultimo": 1792432823.461117
   }
  },
  "web": {
@@ -3104,5 +3160,33 @@
   "4750826": 1792375674057,
   "4757116": 1792375677677
  },
- "tickets": []
+ "tickets": [
+  {
+   "piernas": [
+    {
+     "gid": "4732674",
+     "partido": "Parma vs Torino",
+     "texto": "Menos de 3.5 goles",
+     "clave": "OU|3.5|under",
+     "p": 0.8101,
+     "cuota": 1.2,
+     "casa": "Bet365",
+     "inicio": "2026-10-19T13:45:00-05:00"
+    },
+    {
+     "gid": "4742032",
+     "partido": "Tottenham vs Coventry",
+     "texto": "Menos de 3.5 goles",
+     "clave": "OU|3.5|under",
+     "p": 0.7497,
+     "cuota": 1.5,
+     "casa": "Bet365",
+     "inicio": "2026-10-19T14:00:00-05:00"
+    }
+   ],
+   "p": 0.60733197,
+   "cuota": 1.7999999999999998,
+   "t": 1792432823.4609556
+  }
+ ]
 }
