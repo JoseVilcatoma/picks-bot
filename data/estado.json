@@ -240,62 +240,6 @@
     "cards_a": 2.0
    }
   },
-  "4632645": {
-   "partido": "Botafogo vs Chapecoense",
-   "liga": "Brasil, Brasileirão",
-   "inicio": "2026-10-17T16:00:00-05:00",
-   "estado": "liquidado",
-   "ultimo": 1792278328.6242316,
-   "pierna": [
-    {
-     "gid": "4632645",
-     "partido": "Botafogo vs Chapecoense",
-     "texto": "Más de 0.5 goles en el 1T",
-     "clave": "OU1T|0.5|over",
-     "p": 0.7627,
-     "cuota": 1.22,
-     "casa": "Bet365",
-     "inicio": "2026-10-17T16:00:00-05:00"
-    },
-    {
-     "gid": "4632645",
-     "partido": "Botafogo vs Chapecoense",
-     "texto": "Gana Botafogo",
-     "clave": "1X2||1",
-     "p": 0.6902,
-     "cuota": 1.36,
-     "casa": "1xBet",
-     "inicio": "2026-10-17T16:00:00-05:00"
-    },
-    {
-     "gid": "4632645",
-     "partido": "Botafogo vs Chapecoense",
-     "texto": "Más de 2.5 goles",
-     "clave": "OU|2.5|over",
-     "p": 0.6367,
-     "cuota": 1.44,
-     "casa": "William Hill",
-     "inicio": "2026-10-17T16:00:00-05:00"
-    }
-   ],
-   "xi": "104190,221624,342737,350036,505448,1089549,3219341,7153495,50905347,56499975,71371289|278865,369720,3070487,6347690,12677895,17184737,54787499,64810556,65513422,67613403,76889464",
-   "conf": true,
-   "r": {
-    "hg": 1,
-    "ag": 0,
-    "ht": [
-     1,
-     0
-    ],
-    "corners": 8.0,
-    "corners_h": 4.0,
-    "corners_a": 4.0,
-    "corners_1t": 3.0,
-    "cards": 1.0,
-    "cards_h": 0.0,
-    "cards_a": 1.0
-   }
-  },
   "4760808": {
    "partido": "FBC Melgar vs Deportivo Garcilaso",
    "liga": "Perú, Liga 1 - Clausura",
