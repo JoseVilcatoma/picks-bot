@@ -3021,8 +3021,72 @@
    "partido": "Getafe CF vs Rayo Vallecano",
    "liga": "España, LaLiga",
    "inicio": "2026-10-19T14:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1792432698.6669383
+   "estado": "enviado",
+   "ultimo": 1792432948.8640501,
+   "pierna": [
+    {
+     "gid": "4750826",
+     "partido": "Getafe CF vs Rayo Vallecano",
+     "texto": "Menos de 1.5 goles en el 1T",
+     "clave": "OU1T|1.5|under",
+     "p": 0.7944,
+     "cuota": 1.22,
+     "casa": "Bet365",
+     "inicio": "2026-10-19T14:00:00-05:00"
+    },
+    {
+     "gid": "4750826",
+     "partido": "Getafe CF vs Rayo Vallecano",
+     "texto": "Menos de 2.5 goles",
+     "clave": "OU|2.5|under",
+     "p": 0.7204,
+     "cuota": 1.4,
+     "casa": "Bet365",
+     "inicio": "2026-10-19T14:00:00-05:00"
+    },
+    {
+     "gid": "4750826",
+     "partido": "Getafe CF vs Rayo Vallecano",
+     "texto": "Rayo Vallecano o empate",
+     "clave": "DC||X2",
+     "p": 0.7159,
+     "cuota": 1.36,
+     "casa": "Bet365",
+     "inicio": "2026-10-19T14:00:00-05:00"
+    },
+    {
+     "gid": "4750826",
+     "partido": "Getafe CF vs Rayo Vallecano",
+     "texto": "No hay empate",
+     "clave": "DC||12",
+     "p": 0.662,
+     "cuota": 1.4,
+     "casa": "Bet365",
+     "inicio": "2026-10-19T14:00:00-05:00"
+    },
+    {
+     "gid": "4750826",
+     "partido": "Getafe CF vs Rayo Vallecano",
+     "texto": "Getafe CF recibe gol",
+     "clave": "CS||local_no",
+     "p": 0.641,
+     "cuota": 1.4,
+     "casa": "Bet365",
+     "inicio": "2026-10-19T14:00:00-05:00"
+    },
+    {
+     "gid": "4750826",
+     "partido": "Getafe CF vs Rayo Vallecano",
+     "texto": "Ambos marcan: No",
+     "clave": "BTTS||no",
+     "p": 0.6211,
+     "cuota": 1.62,
+     "casa": "Bet365",
+     "inicio": "2026-10-19T14:00:00-05:00"
+    }
+   ],
+   "xi": "243502,312745,392341,394713,552743,656339,914518,52283767,52892490,67621071,75411603|331103,379362,392629,416286,489306,530676,3205166,8165281,12650246,38786447,46477641",
+   "conf": true
   },
   "4757116": {
    "partido": "SC Braga vs Gil Vicente FC",
