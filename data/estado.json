@@ -4118,6 +4118,48 @@
     "cards_h": 3.0,
     "cards_a": 2.0
    }
+  },
+  "4632643": {
+   "partido": "Corinthians vs Vitória",
+   "liga": "Brasil, Brasileirão",
+   "inicio": "2026-10-19T18:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4732674": {
+   "partido": "Parma vs Torino",
+   "liga": "Italia, Serie A",
+   "inicio": "2026-10-19T13:45:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4732675": {
+   "partido": "Monza vs Cagliari",
+   "liga": "Italia, Serie A",
+   "inicio": "2026-10-19T11:30:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4742032": {
+   "partido": "Tottenham vs Coventry",
+   "liga": "Inglaterra, Premier League",
+   "inicio": "2026-10-19T14:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4750826": {
+   "partido": "Getafe CF vs Rayo Vallecano",
+   "liga": "España, LaLiga",
+   "inicio": "2026-10-19T14:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4757116": {
+   "partido": "SC Braga vs Gil Vicente FC",
+   "liga": "Portugal, Primeira Liga",
+   "inicio": "2026-10-19T14:15:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
   }
  },
  "web": {
@@ -4248,7 +4290,13 @@
   "4760803": 1792314439996,
   "4760804": 1792314440354,
   "4760806": 1792314440740,
-  "4760809": 1792314441234
+  "4760809": 1792314441234,
+  "4632643": 1792375678211,
+  "4732674": 1792375673368,
+  "4732675": 1792375672696,
+  "4742032": 1792375674897,
+  "4750826": 1792375674057,
+  "4757116": 1792375677677
  },
  "tickets": []
 }
