@@ -2695,8 +2695,8 @@
    "partido": "SC Braga vs Gil Vicente FC",
    "liga": "Portugal, Primeira Liga",
    "inicio": "2026-10-19T14:15:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1792444236.0025504,
+   "estado": "liquidado",
+   "ultimo": 1792444841.1342566,
    "pierna": [
     {
      "gid": "4757116",
@@ -2731,7 +2731,22 @@
    ],
    "en_ticket": true,
    "xi": "84831,100802,358706,3071509,49552691,61880538,62356488,67332486,70953457,71311899,75422026|308775,896636,3064929,49955800,57607844,66301535,67974133,70862973,70950862,77080314,77711428",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 1,
+    "ag": 2,
+    "ht": [
+     1,
+     0
+    ],
+    "corners": 5.0,
+    "corners_h": 4.0,
+    "corners_a": 1.0,
+    "corners_1t": 2.0,
+    "cards": 6.0,
+    "cards_h": 3.0,
+    "cards_a": 3.0
+   }
   }
  },
  "web": {
@@ -2862,33 +2877,5 @@
   "4750826": 1792375674057,
   "4757116": 1792375677677
  },
- "tickets": [
-  {
-   "piernas": [
-    {
-     "gid": "4757116",
-     "partido": "SC Braga vs Gil Vicente FC",
-     "texto": "Menos de 3.5 goles",
-     "clave": "OU|3.5|under",
-     "p": 0.841,
-     "cuota": 1.25,
-     "casa": "Bet365",
-     "inicio": "2026-10-19T14:15:00-05:00"
-    },
-    {
-     "gid": "4750826",
-     "partido": "Getafe CF vs Rayo Vallecano",
-     "texto": "Menos de 2.5 goles",
-     "clave": "OU|2.5|under",
-     "p": 0.7204,
-     "cuota": 1.4,
-     "casa": "Bet365",
-     "inicio": "2026-10-19T14:00:00-05:00"
-    }
-   ],
-   "p": 0.6058564,
-   "cuota": 1.75,
-   "t": 1792434540.3045342
-  }
- ]
+ "tickets": []
 }

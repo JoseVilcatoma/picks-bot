@@ -1353,12 +1353,13 @@ fecha,game_id,partido,liga,tipo,mercado,clave,prob,cuota,casa,cuota_justa,ev,sta
 2026-10-19 13:02,4750826,Getafe CF vs Rayo Vallecano,"España, LaLiga",modelo,Menos de 13.5 córners,CORN|13.5|under,0.7243,,,1.38,,,si,P,
 2026-10-19 13:02,4750826,Getafe CF vs Rayo Vallecano,"España, LaLiga",ticket,Menos de 2.5 goles + Ambos marcan: No,OU|2.5|under&BTTS||no,0.5784,2.27,,1.73,0.3119,10.00,,P,-10.00
 2026-10-19 13:02,4750826,Getafe CF vs Rayo Vallecano,"España, LaLiga",crear,Más de 0.5 goles + Menos de 1.5 goles en el 1T + Menos de 16.5 córners,OU|0.5|over&OU1T|1.5|under&CORN|16.5|under,0.5275,,,1.90,,,,G,
-2026-10-19 13:29,4757116,SC Braga vs Gil Vicente FC,"Portugal, Primeira Liga",seguro,Menos de 3.5 goles,OU|3.5|under,0.8410,1.25,Bet365,1.19,0.0513,,si,,
-2026-10-19 13:29,4757116,SC Braga vs Gil Vicente FC,"Portugal, Primeira Liga",seguro,SC Braga o empate,DC||1X,0.7987,1.17,Bet365,1.25,-0.0655,,si,,
-2026-10-19 13:29,4757116,SC Braga vs Gil Vicente FC,"Portugal, Primeira Liga",arriesgado,Menos de 0.5 goles en el 1T,OU1T|0.5|under,0.4155,2.62,Bet365,2.41,0.0885,,si,,
-2026-10-19 13:29,4757116,SC Braga vs Gil Vicente FC,"Portugal, Primeira Liga",arriesgado,Empate,1X2||X,0.3113,3.40,Bet365,3.21,0.0584,,si,,
-2026-10-19 13:29,4757116,SC Braga vs Gil Vicente FC,"Portugal, Primeira Liga",modelo,Menos de 6.5 tarjetas,CARDS|6.5|under,0.7129,,,1.40,,,si,,
-2026-10-19 13:29,4757116,SC Braga vs Gil Vicente FC,"Portugal, Primeira Liga",modelo,Más de 6.5 córners,CORN|6.5|over,0.7071,,,1.41,,,si,,
-2026-10-19 13:29,4757116,SC Braga vs Gil Vicente FC,"Portugal, Primeira Liga",ticket,Ambos marcan: No,BTTS||no,0.6000,1.91,,1.67,0.1459,10.00,,,
-2026-10-19 13:29,4757116,SC Braga vs Gil Vicente FC,"Portugal, Primeira Liga",crear,Menos de 3.5 goles + Menos de 1.5 goles en el 1T + Menos de 12.5 córners,OU|3.5|under&OU1T|1.5|under&CORN|12.5|under,0.5689,,,1.76,,,,,
+2026-10-19 13:29,4757116,SC Braga vs Gil Vicente FC,"Portugal, Primeira Liga",seguro,Menos de 3.5 goles,OU|3.5|under,0.8410,1.25,Bet365,1.19,0.0513,,si,G,
+2026-10-19 13:29,4757116,SC Braga vs Gil Vicente FC,"Portugal, Primeira Liga",seguro,SC Braga o empate,DC||1X,0.7987,1.17,Bet365,1.25,-0.0655,,si,P,
+2026-10-19 13:29,4757116,SC Braga vs Gil Vicente FC,"Portugal, Primeira Liga",arriesgado,Menos de 0.5 goles en el 1T,OU1T|0.5|under,0.4155,2.62,Bet365,2.41,0.0885,,si,P,
+2026-10-19 13:29,4757116,SC Braga vs Gil Vicente FC,"Portugal, Primeira Liga",arriesgado,Empate,1X2||X,0.3113,3.40,Bet365,3.21,0.0584,,si,P,
+2026-10-19 13:29,4757116,SC Braga vs Gil Vicente FC,"Portugal, Primeira Liga",modelo,Menos de 6.5 tarjetas,CARDS|6.5|under,0.7129,,,1.40,,,si,G,
+2026-10-19 13:29,4757116,SC Braga vs Gil Vicente FC,"Portugal, Primeira Liga",modelo,Más de 6.5 córners,CORN|6.5|over,0.7071,,,1.41,,,si,P,
+2026-10-19 13:29,4757116,SC Braga vs Gil Vicente FC,"Portugal, Primeira Liga",ticket,Ambos marcan: No,BTTS||no,0.6000,1.91,,1.67,0.1459,10.00,,P,-10.00
+2026-10-19 13:29,4757116,SC Braga vs Gil Vicente FC,"Portugal, Primeira Liga",crear,Menos de 3.5 goles + Menos de 1.5 goles en el 1T + Menos de 12.5 córners,OU|3.5|under&OU1T|1.5|under&CORN|12.5|under,0.5689,,,1.76,,,,G,
 2026-10-19 16:06,4732674+4742032,Parma vs Torino / Tottenham vs Coventry,,ticket2,Menos de 3.5 goles + Menos de 3.5 goles,,0.6073,1.80,,1.65,0.0932,10.00,,P,-10.00
+2026-10-19 16:20,4757116+4750826,SC Braga vs Gil Vicente FC / Getafe CF vs Rayo Vallecano,,ticket2,Menos de 3.5 goles + Menos de 2.5 goles,,0.6059,1.75,,1.65,0.0602,10.00,,G,7.50
