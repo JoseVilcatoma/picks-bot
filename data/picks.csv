@@ -1332,13 +1332,13 @@ fecha,game_id,partido,liga,tipo,mercado,clave,prob,cuota,casa,cuota_justa,ev,sta
 2026-10-19 10:56,4732675,Monza vs Cagliari,"Italia, Serie A",modelo,Menos de 6.5 tarjetas,CARDS|6.5|under,0.7270,,,1.38,,,si,G,
 2026-10-19 10:56,4732675,Monza vs Cagliari,"Italia, Serie A",modelo,Más de 8.5 córners,CORN|8.5|over,0.6781,,,1.47,,,si,G,
 2026-10-19 10:56,4732675,Monza vs Cagliari,"Italia, Serie A",ticket,Más de 1.5 goles + Cagliari recibe gol,OU|1.5|over&CS||visita_no,0.6329,1.70,,1.58,0.0775,10.00,,G,7.00
-2026-10-19 12:58,4742032,Tottenham vs Coventry,"Inglaterra, Premier League",seguro,Menos de 3.5 goles,OU|3.5|under,0.7497,1.50,Bet365,1.33,0.1245,,si,,
-2026-10-19 12:58,4742032,Tottenham vs Coventry,"Inglaterra, Premier League",seguro,No hay empate,DC||12,0.7311,1.18,Bet365,1.37,-0.1374,,si,,
-2026-10-19 12:58,4742032,Tottenham vs Coventry,"Inglaterra, Premier League",arriesgado,Más de 3.5 tarjetas,CARDS|3.5|over,0.4434,2.10,Bet365,2.26,-0.0688,,si,,
-2026-10-19 12:58,4742032,Tottenham vs Coventry,"Inglaterra, Premier League",arriesgado,Menos de 0.5 goles en el 1T,OU1T|0.5|under,0.3290,3.50,Bet365,3.04,0.1515,,si,,
-2026-10-19 12:58,4742032,Tottenham vs Coventry,"Inglaterra, Premier League",modelo,Menos de 12.5 córners,CORN|12.5|under,0.7436,,,1.34,,,si,,
-2026-10-19 12:58,4742032,Tottenham vs Coventry,"Inglaterra, Premier League",modelo,Menos de 6.5 tarjetas,CARDS|6.5|under,0.7129,,,1.40,,,si,,
-2026-10-19 12:58,4742032,Tottenham vs Coventry,"Inglaterra, Premier League",ticket,Tottenham recibe gol + Más de 1.5 goles,CS||local_no&OU|1.5|over,0.5676,1.80,,1.76,0.0218,10.00,,,
+2026-10-19 12:58,4742032,Tottenham vs Coventry,"Inglaterra, Premier League",seguro,Menos de 3.5 goles,OU|3.5|under,0.7497,1.50,Bet365,1.33,0.1245,,si,P,
+2026-10-19 12:58,4742032,Tottenham vs Coventry,"Inglaterra, Premier League",seguro,No hay empate,DC||12,0.7311,1.18,Bet365,1.37,-0.1374,,si,G,
+2026-10-19 12:58,4742032,Tottenham vs Coventry,"Inglaterra, Premier League",arriesgado,Más de 3.5 tarjetas,CARDS|3.5|over,0.4434,2.10,Bet365,2.26,-0.0688,,si,G,
+2026-10-19 12:58,4742032,Tottenham vs Coventry,"Inglaterra, Premier League",arriesgado,Menos de 0.5 goles en el 1T,OU1T|0.5|under,0.3290,3.50,Bet365,3.04,0.1515,,si,P,
+2026-10-19 12:58,4742032,Tottenham vs Coventry,"Inglaterra, Premier League",modelo,Menos de 12.5 córners,CORN|12.5|under,0.7436,,,1.34,,,si,G,
+2026-10-19 12:58,4742032,Tottenham vs Coventry,"Inglaterra, Premier League",modelo,Menos de 6.5 tarjetas,CARDS|6.5|under,0.7129,,,1.40,,,si,G,
+2026-10-19 12:58,4742032,Tottenham vs Coventry,"Inglaterra, Premier League",ticket,Tottenham recibe gol + Más de 1.5 goles,CS||local_no&OU|1.5|over,0.5676,1.80,,1.76,0.0218,10.00,,G,8.00
 2026-10-19 13:00,4732674,Parma vs Torino,"Italia, Serie A",seguro,Menos de 3.5 goles,OU|3.5|under,0.8101,1.20,Bet365,1.23,-0.0279,,si,G,
 2026-10-19 13:00,4732674,Parma vs Torino,"Italia, Serie A",seguro,Torino o empate,DC||X2,0.7052,1.36,Bet365,1.42,-0.0410,,si,G,
 2026-10-19 13:00,4732674,Parma vs Torino,"Italia, Serie A",arriesgado,Torino -0.5 (hándicap),AH|0.5|visita,0.4057,2.35,Bet365,2.46,-0.0466,,si,G,
@@ -1361,3 +1361,4 @@ fecha,game_id,partido,liga,tipo,mercado,clave,prob,cuota,casa,cuota_justa,ev,sta
 2026-10-19 13:29,4757116,SC Braga vs Gil Vicente FC,"Portugal, Primeira Liga",modelo,Más de 6.5 córners,CORN|6.5|over,0.7071,,,1.41,,,si,,
 2026-10-19 13:29,4757116,SC Braga vs Gil Vicente FC,"Portugal, Primeira Liga",ticket,Ambos marcan: No,BTTS||no,0.6000,1.91,,1.67,0.1459,10.00,,,
 2026-10-19 13:29,4757116,SC Braga vs Gil Vicente FC,"Portugal, Primeira Liga",crear,Menos de 3.5 goles + Menos de 1.5 goles en el 1T + Menos de 12.5 córners,OU|3.5|under&OU1T|1.5|under&CORN|12.5|under,0.5689,,,1.76,,,,,
+2026-10-19 16:06,4732674+4742032,Parma vs Torino / Tottenham vs Coventry,,ticket2,Menos de 3.5 goles + Menos de 3.5 goles,,0.6073,1.80,,1.65,0.0932,10.00,,P,-10.00

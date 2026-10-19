@@ -2521,8 +2521,8 @@
    "partido": "Tottenham vs Coventry",
    "liga": "Inglaterra, Premier League",
    "inicio": "2026-10-19T14:00:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1792443381.8983233,
+   "estado": "liquidado",
+   "ultimo": 1792443990.9127288,
    "pierna": [
     {
      "gid": "4742032",
@@ -2587,7 +2587,22 @@
    ],
    "xi": "354502,512287,1132753,3143492,4785473,4870623,14775530,49463074,63108549,64522138,67877824|491504,3133496,3249227,3457622,8262598,49701146,49988861,51923671,68831133,70781510,75258798",
    "conf": true,
-   "en_ticket": true
+   "en_ticket": true,
+   "r": {
+    "hg": 3,
+    "ag": 1,
+    "ht": [
+     1,
+     0
+    ],
+    "corners": 8.0,
+    "corners_h": 4.0,
+    "corners_a": 4.0,
+    "corners_1t": 4.0,
+    "cards": 4.0,
+    "cards_h": 1.0,
+    "cards_a": 3.0
+   }
   },
   "4750826": {
    "partido": "Getafe CF vs Rayo Vallecano",
@@ -2848,33 +2863,6 @@
   "4757116": 1792375677677
  },
  "tickets": [
-  {
-   "piernas": [
-    {
-     "gid": "4732674",
-     "partido": "Parma vs Torino",
-     "texto": "Menos de 3.5 goles",
-     "clave": "OU|3.5|under",
-     "p": 0.8101,
-     "cuota": 1.2,
-     "casa": "Bet365",
-     "inicio": "2026-10-19T13:45:00-05:00"
-    },
-    {
-     "gid": "4742032",
-     "partido": "Tottenham vs Coventry",
-     "texto": "Menos de 3.5 goles",
-     "clave": "OU|3.5|under",
-     "p": 0.7497,
-     "cuota": 1.5,
-     "casa": "Bet365",
-     "inicio": "2026-10-19T14:00:00-05:00"
-    }
-   ],
-   "p": 0.60733197,
-   "cuota": 1.7999999999999998,
-   "t": 1792432823.4609556
-  },
   {
    "piernas": [
     {
