@@ -1271,7 +1271,7 @@
    "liga": "Europa, UEFA Champions League",
    "inicio": "2026-10-20T14:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792518809.4127023
+   "ultimo": 1792519057.8968246
   },
   "4828459": {
    "partido": "FC Porto vs PSV Eindhoven",
@@ -1338,22 +1338,174 @@
    "partido": "Stuttgart vs Atlético de Madrid",
    "liga": "Europa, UEFA Champions League",
    "inicio": "2026-10-20T14:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1792518810.2822452
+   "estado": "enviado",
+   "ultimo": 1792519058.0673873,
+   "pierna": [
+    {
+     "gid": "4828460",
+     "partido": "Stuttgart vs Atlético de Madrid",
+     "texto": "Atlético de Madrid recibe gol",
+     "clave": "CS||visita_no",
+     "p": 0.75,
+     "cuota": 1.25,
+     "casa": "Bet365",
+     "inicio": "2026-10-20T14:00:00-05:00"
+    },
+    {
+     "gid": "4828460",
+     "partido": "Stuttgart vs Atlético de Madrid",
+     "texto": "Menos de 4.5 goles",
+     "clave": "OU|4.5|under",
+     "p": 0.744,
+     "cuota": 1.29,
+     "casa": "Bet365",
+     "inicio": "2026-10-20T14:00:00-05:00"
+    },
+    {
+     "gid": "4828460",
+     "partido": "Stuttgart vs Atlético de Madrid",
+     "texto": "No hay empate",
+     "clave": "DC||12",
+     "p": 0.7383,
+     "cuota": 1.25,
+     "casa": "Bet365",
+     "inicio": "2026-10-20T14:00:00-05:00"
+    },
+    {
+     "gid": "4828460",
+     "partido": "Stuttgart vs Atlético de Madrid",
+     "texto": "Más de 0.5 goles en el 1T",
+     "clave": "OU1T|0.5|over",
+     "p": 0.7339,
+     "cuota": 1.22,
+     "casa": "Bet365",
+     "inicio": "2026-10-20T14:00:00-05:00"
+    },
+    {
+     "gid": "4828460",
+     "partido": "Stuttgart vs Atlético de Madrid",
+     "texto": "Atlético de Madrid o empate",
+     "clave": "DC||X2",
+     "p": 0.6399,
+     "cuota": 1.33,
+     "casa": "Bet365",
+     "inicio": "2026-10-20T14:00:00-05:00"
+    },
+    {
+     "gid": "4828460",
+     "partido": "Stuttgart vs Atlético de Madrid",
+     "texto": "Ambos marcan: Sí",
+     "clave": "BTTS||si",
+     "p": 0.6,
+     "cuota": 1.44,
+     "casa": "Bet365",
+     "inicio": "2026-10-20T14:00:00-05:00"
+    }
+   ],
+   "xi": "659085,909220,3726834,4802876,5332356,31371955,50497594,50665104,52232155,65139386,67921132|325326,527341,602979,2993226,3337446,3487471,9638719,49550597,60936288,63125761,64497047",
+   "conf": true
   },
   "4828461": {
    "partido": "PSG vs FC Barcelona",
    "liga": "Europa, UEFA Champions League",
    "inicio": "2026-10-20T14:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1792518810.3389442
+   "estado": "enviado",
+   "ultimo": 1792519058.782616,
+   "pierna": [
+    {
+     "gid": "4828461",
+     "partido": "PSG vs FC Barcelona",
+     "texto": "FC Barcelona o empate",
+     "clave": "DC||X2",
+     "p": 0.6067,
+     "cuota": 1.53,
+     "casa": "Bet365",
+     "inicio": "2026-10-20T14:00:00-05:00"
+    },
+    {
+     "gid": "4828461",
+     "partido": "PSG vs FC Barcelona",
+     "texto": "FC Barcelona +0.5 (hándicap)",
+     "clave": "AH|-0.5|visita",
+     "p": 0.598,
+     "cuota": 1.58,
+     "casa": "Bet365",
+     "inicio": "2026-10-20T14:00:00-05:00"
+    }
+   ],
+   "xi": "320209,485723,600030,1407007,3169055,3171738,14482806,40745412,46715751,65079212,66436913|384197,918164,1444592,33309233,41923868,52343752,67787784,70894814,70951545,70994145,71171245",
+   "conf": true
   },
   "4828462": {
    "partido": "Nápoles vs Bodo Glimt",
    "liga": "Europa, UEFA Champions League",
    "inicio": "2026-10-20T14:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1792518810.394738
+   "estado": "enviado",
+   "ultimo": 1792519059.5165524,
+   "pierna": [
+    {
+     "gid": "4828462",
+     "partido": "Nápoles vs Bodo Glimt",
+     "texto": "Menos de 4.5 goles",
+     "clave": "OU|4.5|under",
+     "p": 0.7619,
+     "cuota": 1.25,
+     "casa": "Bet365",
+     "inicio": "2026-10-20T14:00:00-05:00"
+    },
+    {
+     "gid": "4828462",
+     "partido": "Nápoles vs Bodo Glimt",
+     "texto": "No hay empate",
+     "clave": "DC||12",
+     "p": 0.7372,
+     "cuota": 1.22,
+     "casa": "Bet365",
+     "inicio": "2026-10-20T14:00:00-05:00"
+    },
+    {
+     "gid": "4828462",
+     "partido": "Nápoles vs Bodo Glimt",
+     "texto": "Más de 0.5 goles en el 1T",
+     "clave": "OU1T|0.5|over",
+     "p": 0.7122,
+     "cuota": 1.25,
+     "casa": "Bet365",
+     "inicio": "2026-10-20T14:00:00-05:00"
+    },
+    {
+     "gid": "4828462",
+     "partido": "Nápoles vs Bodo Glimt",
+     "texto": "Nápoles recibe gol",
+     "clave": "CS||local_no",
+     "p": 0.6881,
+     "cuota": 1.36,
+     "casa": "Bet365",
+     "inicio": "2026-10-20T14:00:00-05:00"
+    },
+    {
+     "gid": "4828462",
+     "partido": "Nápoles vs Bodo Glimt",
+     "texto": "Menos de 1.5 goles en el 1T",
+     "clave": "OU1T|1.5|under",
+     "p": 0.589,
+     "cuota": 1.57,
+     "casa": "Bet365",
+     "inicio": "2026-10-20T14:00:00-05:00"
+    },
+    {
+     "gid": "4828462",
+     "partido": "Nápoles vs Bodo Glimt",
+     "texto": "Menos de 3.5 goles",
+     "clave": "OU|3.5|under",
+     "p": 0.5867,
+     "cuota": 1.62,
+     "casa": "Bet365",
+     "inicio": "2026-10-20T14:00:00-05:00"
+    }
+   ],
+   "xi": "95182,385051,385087,550352,610717,612027,973073,3227448,4874431,50852472,62350133|3056855,3064578,7195793,15007514,15589104,21788847,42393327,49536956,51842632,58801375,65672410",
+   "conf": true
   },
   "4828463": {
    "partido": "Manchester City vs AEK Atenas",
@@ -1380,8 +1532,22 @@
    "partido": "AS Roma vs Slovan Bratislava",
    "liga": "Europa, UEFA Champions League",
    "inicio": "2026-10-20T14:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1792518811.504964
+   "estado": "enviado",
+   "ultimo": 1792519060.1525815,
+   "pierna": [
+    {
+     "gid": "4828464",
+     "partido": "AS Roma vs Slovan Bratislava",
+     "texto": "Más de 2.5 goles",
+     "clave": "OU|2.5|over",
+     "p": 0.5879,
+     "cuota": 1.25,
+     "casa": "Bet365",
+     "inicio": "2026-10-20T14:00:00-05:00"
+    }
+   ],
+   "xi": "280305,508029,542399,941464,1966291,3087180,9412443,64431234,65528561,67844197,70861688|2809685,3079764,3467482,4265770,13865865,50816657,62019085,64743874,65005406,67836364,71350333",
+   "conf": true
   },
   "4828465": {
    "partido": "Fenerbahce vs Slavia Praga",
