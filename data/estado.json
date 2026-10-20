@@ -1619,8 +1619,52 @@
    "partido": "Sabah vs Borussia Dortmund",
    "liga": "Europa, UEFA Champions League",
    "inicio": "2026-10-20T11:45:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1792510558.4435751
+   "estado": "enviado",
+   "ultimo": 1792510803.8944492,
+   "pierna": [
+    {
+     "gid": "4828466",
+     "partido": "Sabah vs Borussia Dortmund",
+     "texto": "Menos de 2.5 goles en el 1T",
+     "clave": "OU1T|2.5|under",
+     "p": 0.783,
+     "cuota": 1.2,
+     "casa": "Bet365",
+     "inicio": "2026-10-20T11:45:00-05:00"
+    },
+    {
+     "gid": "4828466",
+     "partido": "Sabah vs Borussia Dortmund",
+     "texto": "Más de 0.5 goles en el 1T",
+     "clave": "OU1T|0.5|over",
+     "p": 0.7193,
+     "cuota": 1.22,
+     "casa": "Bet365",
+     "inicio": "2026-10-20T11:45:00-05:00"
+    },
+    {
+     "gid": "4828466",
+     "partido": "Sabah vs Borussia Dortmund",
+     "texto": "Menos de 4.5 goles",
+     "clave": "OU|4.5|under",
+     "p": 0.7188,
+     "cuota": 1.33,
+     "casa": "Bet365",
+     "inicio": "2026-10-20T11:45:00-05:00"
+    },
+    {
+     "gid": "4828466",
+     "partido": "Sabah vs Borussia Dortmund",
+     "texto": "Más de 2.5 goles",
+     "clave": "OU|2.5|over",
+     "p": 0.5643,
+     "cuota": 1.4,
+     "casa": "Bet365",
+     "inicio": "2026-10-20T11:45:00-05:00"
+    }
+   ],
+   "xi": "491057,552358,3344699,3413136,4548091,32834575,50682101,60334467,66703784,67820172,77170789|366254,379069,532397,895074,943391,3276664,15028852,38249831,49359943,50878796,51042327",
+   "conf": true
   },
   "4856898": {
    "partido": "Vasco Da Gama vs Boca Juniors",

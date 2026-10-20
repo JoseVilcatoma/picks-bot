@@ -1375,3 +1375,8 @@ fecha,game_id,partido,liga,tipo,mercado,clave,prob,cuota,casa,cuota_justa,ev,sta
 2026-10-20 10:35,4828465,Fenerbahce vs Slavia Praga,"Europa, UEFA Champions League",modelo,Menos de 6.5 tarjetas,CARDS|6.5|under,0.8323,,,1.20,,,si,,
 2026-10-20 10:35,4828465,Fenerbahce vs Slavia Praga,"Europa, UEFA Champions League",modelo,Más de 1.5 goles,OU|1.5|over,0.7950,,,1.26,,,si,,
 2026-10-20 10:35,4828465,Fenerbahce vs Slavia Praga,"Europa, UEFA Champions League",crear,Más de 1.5 goles + Más de 4.5 córners + Menos de 6.5 tarjetas,OU|1.5|over&CORN|4.5|over&CARDS|6.5|under,0.5618,,,1.78,,,,,
+2026-10-20 10:40,4828466,Sabah vs Borussia Dortmund,"Europa, UEFA Champions League",seguro,Menos de 2.5 goles en el 1T,OU1T|2.5|under,0.8437,1.20,Bet365,1.19,0.0125,,si,,
+2026-10-20 10:40,4828466,Sabah vs Borussia Dortmund,"Europa, UEFA Champions League",seguro,Sabah +1.5 (hándicap),AH|1.5|local,0.5611,2.05,Bet365,1.78,0.1504,,si,,
+2026-10-20 10:40,4828466,Sabah vs Borussia Dortmund,"Europa, UEFA Champions League",modelo,Menos de 6.5 tarjetas,CARDS|6.5|under,0.7737,,,1.29,,,si,,
+2026-10-20 10:40,4828466,Sabah vs Borussia Dortmund,"Europa, UEFA Champions League",modelo,Más de 1.5 goles,OU|1.5|over,0.7671,,,1.30,,,si,,
+2026-10-20 10:40,4828466,Sabah vs Borussia Dortmund,"Europa, UEFA Champions League",crear,Menos de 4.5 goles + Más de 4.5 córners + Menos de 7.5 tarjetas,OU|4.5|under&CORN|4.5|over&CARDS|7.5|under,0.5831,,,1.72,,,,,
