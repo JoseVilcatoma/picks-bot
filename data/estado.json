@@ -2354,6 +2354,76 @@
    "inicio": "2026-10-21T17:00:00-05:00",
    "estado": "pendiente",
    "ultimo": 0
+  },
+  "4632631": {
+   "partido": "Cruzeiro vs Remo",
+   "liga": "Brasil, Brasileirão",
+   "inicio": "2026-10-23T18:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4732662": {
+   "partido": "Torino vs Monza",
+   "liga": "Italia, Serie A",
+   "inicio": "2026-10-23T13:45:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4735233": {
+   "partido": "Brest vs Niza",
+   "liga": "Francia, Ligue 1",
+   "inicio": "2026-10-23T13:45:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4742024": {
+   "partido": "Ipswich vs Nottingham Forest",
+   "liga": "Inglaterra, Premier League",
+   "inicio": "2026-10-23T14:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4750819": {
+   "partido": "Alavés vs Málaga CF",
+   "liga": "España, LaLiga",
+   "inicio": "2026-10-23T14:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4755369": {
+   "partido": "Stuttgart vs Borussia Mönchengladbach",
+   "liga": "Alemania, Bundesliga",
+   "inicio": "2026-10-23T13:30:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4757186": {
+   "partido": "Guimarães vs Maritimo",
+   "liga": "Portugal, Primeira Liga",
+   "inicio": "2026-10-23T14:45:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4760799": {
+   "partido": "UTC Cajamarca vs FBC Melgar",
+   "liga": "Perú, Liga 1 - Clausura",
+   "inicio": "2026-10-23T13:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4760800": {
+   "partido": "Grau vs ADT Tarma",
+   "liga": "Perú, Liga 1 - Clausura",
+   "inicio": "2026-10-23T15:15:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4858848": {
+   "partido": "Flamengo vs Estudiantes de La Plata",
+   "liga": "Sudamerica, CONMEBOL Copa Libertadores - Semifinales",
+   "inicio": "2026-10-22T19:30:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
   }
  },
  "web": {
@@ -2530,7 +2600,17 @@
   "4828922": 1792501171089,
   "4828923": 1792501166305,
   "4857350": 1792501162879,
-  "4858861": 1792501162069
+  "4858861": 1792501162069,
+  "4632631": 1792501193834,
+  "4732662": 1792501190917,
+  "4735233": 1792501190526,
+  "4742024": 1792501192811,
+  "4750819": 1792501191732,
+  "4755369": 1792501189812,
+  "4757186": 1792501193156,
+  "4760799": 1792501188601,
+  "4760800": 1792501189285,
+  "4858848": 1792501185873
  },
  "tickets": []
 }
