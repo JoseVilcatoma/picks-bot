@@ -1548,15 +1548,79 @@
    "partido": "Fenerbahce vs Slavia Praga",
    "liga": "Europa, UEFA Champions League",
    "inicio": "2026-10-20T11:45:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1792510313.4383829
+   "estado": "enviado",
+   "ultimo": 1792510557.3028717,
+   "pierna": [
+    {
+     "gid": "4828465",
+     "partido": "Fenerbahce vs Slavia Praga",
+     "texto": "Más de 0.5 goles en el 1T",
+     "clave": "OU1T|0.5|over",
+     "p": 0.7351,
+     "cuota": 1.22,
+     "casa": "Bet365",
+     "inicio": "2026-10-20T11:45:00-05:00"
+    },
+    {
+     "gid": "4828465",
+     "partido": "Fenerbahce vs Slavia Praga",
+     "texto": "Gana Fenerbahce",
+     "clave": "1X2||1",
+     "p": 0.6343,
+     "cuota": 1.5,
+     "casa": "Bet365",
+     "inicio": "2026-10-20T11:45:00-05:00"
+    },
+    {
+     "gid": "4828465",
+     "partido": "Fenerbahce vs Slavia Praga",
+     "texto": "Fenerbahce recibe gol",
+     "clave": "CS||local_no",
+     "p": 0.6024,
+     "cuota": 1.4,
+     "casa": "Bet365",
+     "inicio": "2026-10-20T11:45:00-05:00"
+    },
+    {
+     "gid": "4828465",
+     "partido": "Fenerbahce vs Slavia Praga",
+     "texto": "Slavia Praga +1.5 (hándicap)",
+     "clave": "AH|-1.5|visita",
+     "p": 0.5814,
+     "cuota": 1.62,
+     "casa": "Bet365",
+     "inicio": "2026-10-20T11:45:00-05:00"
+    },
+    {
+     "gid": "4828465",
+     "partido": "Fenerbahce vs Slavia Praga",
+     "texto": "Más de 2.5 goles",
+     "clave": "OU|2.5|over",
+     "p": 0.581,
+     "cuota": 1.44,
+     "casa": "Bet365",
+     "inicio": "2026-10-20T11:45:00-05:00"
+    },
+    {
+     "gid": "4828465",
+     "partido": "Fenerbahce vs Slavia Praga",
+     "texto": "Ambos marcan: Sí",
+     "clave": "BTTS||si",
+     "p": 0.5288,
+     "cuota": 1.57,
+     "casa": "Bet365",
+     "inicio": "2026-10-20T11:45:00-05:00"
+    }
+   ],
+   "xi": "330842,331719,356369,510360,550387,895283,3170743,8746866,60283480,61728093,67611102|12511677,23568317,24556770,39144009,60326040,67265374,68004477,71092804,77337423,77470673,77708923",
+   "conf": true
   },
   "4828466": {
    "partido": "Sabah vs Borussia Dortmund",
    "liga": "Europa, UEFA Champions League",
    "inicio": "2026-10-20T11:45:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792510313.6475592
+   "ultimo": 1792510558.4435751
   },
   "4856898": {
    "partido": "Vasco Da Gama vs Boca Juniors",
