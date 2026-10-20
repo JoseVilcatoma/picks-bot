@@ -727,130 +727,6 @@
     "cards_a": 4.0
    }
   },
-  "4742033": {
-   "partido": "Nottingham Forest vs Arsenal",
-   "liga": "Inglaterra, Premier League",
-   "inicio": "2026-10-18T10:30:00-05:00",
-   "estado": "liquidado",
-   "ultimo": 1792344357.6902761,
-   "pierna": [
-    {
-     "gid": "4742033",
-     "partido": "Nottingham Forest vs Arsenal",
-     "texto": "Menos de 3.5 goles",
-     "clave": "OU|3.5|under",
-     "p": 0.7755,
-     "cuota": 1.4,
-     "casa": "Bet365",
-     "inicio": "2026-10-18T10:30:00-05:00"
-    },
-    {
-     "gid": "4742033",
-     "partido": "Nottingham Forest vs Arsenal",
-     "texto": "No hay empate",
-     "clave": "DC||12",
-     "p": 0.7283,
-     "cuota": 1.25,
-     "casa": "Bet365",
-     "inicio": "2026-10-18T10:30:00-05:00"
-    },
-    {
-     "gid": "4742033",
-     "partido": "Nottingham Forest vs Arsenal",
-     "texto": "Menos de 1.5 goles en el 1T",
-     "clave": "OU1T|1.5|under",
-     "p": 0.7119,
-     "cuota": 1.44,
-     "casa": "Bet365",
-     "inicio": "2026-10-18T10:30:00-05:00"
-    },
-    {
-     "gid": "4742033",
-     "partido": "Nottingham Forest vs Arsenal",
-     "texto": "Gana Arsenal",
-     "clave": "1X2||2",
-     "p": 0.5654,
-     "cuota": 1.57,
-     "casa": "Bet365",
-     "inicio": "2026-10-18T10:30:00-05:00"
-    }
-   ],
-   "xi": "335651,502298,666071,3248170,40902054,49499493,51429377,54943580,66457360,67689605,71675384|513371,537419,2985896,3055995,3070470,3071278,3135414,3211355,3373029,8024275,50424606",
-   "conf": true,
-   "en_ticket": true,
-   "r": {
-    "hg": 0,
-    "ag": 1,
-    "ht": [
-     0,
-     0
-    ],
-    "corners": 14.0,
-    "corners_h": 8.0,
-    "corners_a": 6.0,
-    "corners_1t": 5.0,
-    "cards": 2.0,
-    "cards_h": 1.0,
-    "cards_a": 1.0
-   }
-  },
-  "4755376": {
-   "partido": "Borussia Mönchengladbach vs Hoffenheim",
-   "liga": "Alemania, Bundesliga",
-   "inicio": "2026-10-18T10:30:00-05:00",
-   "estado": "liquidado",
-   "ultimo": 1792344357.8849015,
-   "pierna": [
-    {
-     "gid": "4755376",
-     "partido": "Borussia Mönchengladbach vs Hoffenheim",
-     "texto": "No hay empate",
-     "clave": "DC||12",
-     "p": 0.7678,
-     "cuota": 1.22,
-     "casa": "Bet365",
-     "inicio": "2026-10-18T10:30:00-05:00"
-    },
-    {
-     "gid": "4755376",
-     "partido": "Borussia Mönchengladbach vs Hoffenheim",
-     "texto": "Más de 2.5 goles",
-     "clave": "OU|2.5|over",
-     "p": 0.6869,
-     "cuota": 1.3,
-     "casa": "Bet365",
-     "inicio": "2026-10-18T10:30:00-05:00"
-    },
-    {
-     "gid": "4755376",
-     "partido": "Borussia Mönchengladbach vs Hoffenheim",
-     "texto": "Ambos marcan: Sí",
-     "clave": "BTTS||si",
-     "p": 0.6857,
-     "cuota": 1.3,
-     "casa": "Bet365",
-     "inicio": "2026-10-18T10:30:00-05:00"
-    }
-   ],
-   "xi": "530622,972964,3094154,8448849,32435492,60935415,64329313,67638234,70842829,71547426,77485095|258327,334847,3130032,38075769,49513653,60938745,64195671,65068852,65068962,67771703,68006639",
-   "conf": true,
-   "en_ticket": true,
-   "r": {
-    "hg": 1,
-    "ag": 2,
-    "ht": [
-     0,
-     1
-    ],
-    "corners": 9.0,
-    "corners_h": 3.0,
-    "corners_a": 6.0,
-    "corners_1t": 3.0,
-    "cards": 4.0,
-    "cards_h": 2.0,
-    "cards_a": 2.0
-   }
-  },
   "4760803": {
    "partido": "Sporting Cristal vs Comerciantes Unidos",
    "liga": "Perú, Liga 1 - Clausura",
@@ -1673,14 +1549,14 @@
    "liga": "Europa, UEFA Champions League",
    "inicio": "2026-10-20T11:45:00-05:00",
    "estado": "pendiente",
-   "ultimo": 0
+   "ultimo": 1792510313.4383829
   },
   "4828466": {
    "partido": "Sabah vs Borussia Dortmund",
    "liga": "Europa, UEFA Champions League",
    "inicio": "2026-10-20T11:45:00-05:00",
    "estado": "pendiente",
-   "ultimo": 0
+   "ultimo": 1792510313.6475592
   },
   "4856898": {
    "partido": "Vasco Da Gama vs Boca Juniors",
