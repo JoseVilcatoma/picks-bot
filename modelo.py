@@ -266,7 +266,7 @@ def leer_cuotas(lineas, local="", visita=""):
                 clave = ("AH", val, sel)          # solo líneas .5 (sin devolución)
             elif lt == 15:
                 clave = ("DNB", None, sel)
-            elif lt == 9 and val is not None:
+            elif lt == 9 and val is not None and abs(val % 1 - 0.5) < 1e-6:   # solo .5 (sin devolución)
                 clave = ("OU1T", val, sel)
             elif val is not None and sel in ("over", "under") and (
                     lt == 137 or _tipo_corner(nombre_lt, local, visita)):
@@ -508,9 +508,10 @@ def seleccionar(cands, matriz=None):
     seguros = uno_por_familia(seguros, 3)
 
     # Arriesgados realistas: 25–45 % de probabilidad, cuota 2.00–4.00, los más probables primero
+    # Sin "gana X" (1X2): en 80 casos acertó 22% cuando se esperaba 31% (las sorpresas casi no salen)
     arr = [c for c in cands if c["cuota"] and C.ARR_PROB[0] <= c["p"] <= C.ARR_PROB[1]
            and C.ARR_CUOTA[0] <= c["cuota"] <= C.ARR_CUOTA[1] and c["ev"] >= -0.10
-           and not contradicho(c)]
+           and c["clave"][0] != "1X2" and not contradicho(c)]
     arr.sort(key=lambda c: -c["p"])
     arriesgados = uno_por_familia(arr, 2)
 
@@ -639,6 +640,13 @@ def evaluar_multi(claves, r):
     return "N" if all(x == "N" for x in res) else "G"
 
 
+def p_prudente(c):
+    """Para tickets: la menor entre la probabilidad del bot y la del mercado (Pinnacle si hay).
+    El modelo inflaba algunas selecciones; así el ticket solo sale si paga incluso según el mercado."""
+    q = c.get("p_ref") if c.get("p_ref") is not None else c.get("p_mercado")
+    return min(c["p"], q) if q is not None else c["p"]
+
+
 def _apta(c):
     return (c["cuota"] and c["fam"] in ("resultado", "goles") and not contradicho(c)
             and not c.get("discrepa") and c["clave"] != ("1X2", None, "X") and c["p"] >= 0.45)
@@ -653,7 +661,8 @@ def ticket_partido(cands, m):
     opciones = []
     for c in aptas:
         if lo <= c["cuota"] <= hi:
-            opciones.append({"piernas": [c], "p": c["p"], "cuota": c["cuota"]})
+            # Ticket de 1 selección: acertó 46% vs 58% esperado → probabilidad prudente
+            opciones.append({"piernas": [c], "p": p_prudente(c), "cuota": c["cuota"]})
     ft = [c for c in aptas if c["clave"][0] in TIPOS_FT and c["cuota"] < lo]
     n = len(m)
     for i in range(len(ft)):
@@ -673,6 +682,7 @@ def ticket_partido(cands, m):
                 continue
             if conj >= 0.97 * min(pa, pb):   # una selección contiene a la otra (ej. "gana local" + "no hay empate")
                 continue
+            # (las de 2 selecciones del mismo partido acertaron 64% vs 56% esperado: aquí no se recorta)
             p = min(a["p"] * b["p"] * conj / (pa * pb), a["p"], b["p"])
             opciones.append({"piernas": [a, b], "p": p, "cuota": cuota})
     opciones = [o for o in opciones if o["p"] * o["cuota"] - 1 >= C.TICKET_EV_MIN]   # cuota ≥ justa
@@ -684,7 +694,7 @@ def ticket_partido(cands, m):
 def piernas_seguras(cands, n=6):
     """Las selecciones más probables con cuota en TICKET_PIERNA (para combinar con otro partido)."""
     lo, hi = C.TICKET_PIERNA
-    aptas = [c for c in cands if _apta(c) and lo <= c["cuota"] <= hi]
+    aptas = [dict(c, p=p_prudente(c)) for c in cands if _apta(c) and lo <= c["cuota"] <= hi]
     return sorted(aptas, key=lambda c: -c["p"])[:n]
 
 

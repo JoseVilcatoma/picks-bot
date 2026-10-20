@@ -33,7 +33,6 @@ DIAS_CALENDARIO = 4          # hoy + 3 días
 # REGLAS DE PICKS (tus reglas)
 # ---------------------------------------------------------------
 BANCA = float(os.getenv("BANCA") or 1000)   # banca virtual en soles (paper trading)
-EV_MIN = 0.08                # EV mínimo para "apostable"
 CUOTA_MIN = 1.60             # cuota mínima para "apostable"
 CUOTA_MAX = 2.60             # cuota máxima para "apostable": por encima, en tu historial acertaron 15-19%
                              # cuando se esperaba ~33% (sesgo de los "batacazos"); entre 1.60 y 2.60 fue rentable
@@ -60,7 +59,6 @@ GOLES_POR_REMATE = 0.32      # conversión media remate a puerta → gol
 VENTANA_MIN = 75             # empieza a buscar alineaciones 75 min antes
 REVISAR_CADA_MIN = 4         # no consultar el mismo partido más seguido que esto
 PASADA_SEG = 120             # el vigilante revisa cada 2 minutos
-VIGILAR_MIN = 330            # cada ejecución vigila ~5.5 h y luego se relanza sola
 ENVIAR_SIN_ALINEACION_MIN = 40  # si a 40 min del inicio 365Scores no confirma, envía con la alineación probable
                                 # (y si luego se confirma distinta, manda una actualización)
 
@@ -72,6 +70,10 @@ ZONA = "America/Lima"
 ODDS_MERCADOS = "h2h,totals,btts"   # cada mercado devuelto cuesta 1 crédito (≈3 por partido)
 ODDS_RESERVA = 10                   # deja de consultar si quedan menos créditos que esto
 CASAS_EXCLUIR = ["betfair_ex_eu", "betfair_ex_uk", "matchbook"]   # exchanges (cobran comisión)
+# Casas donde SÍ puedes apostar (se compara con el nombre de la casa, sin mayúsculas).
+# Las demás se usan solo como referencia de precio, nunca se recomiendan.
+# Apuesta Total y Doradobet no están en The Odds API: se dejan por si algún día aparecen.
+CASAS_PERMITIDAS = ["bet365", "1xbet", "betsson", "betano", "apuesta total", "doradobet"]
 VALOR_APOSTABLE = 0.03             # apostable: la mejor cuota paga ≥ 3% más que la justa de Pinnacle
 VALOR_CASAS_MIN = 0.03              # "💎 valor entre casas": mejor cuota ≥ 3% sobre la justa de Pinnacle
 CUOTAS_VIEJAS_HORAS = 4             # si las cuotas de 365Scores no se movieron en 4 h, se marcan como viejas
@@ -94,6 +96,6 @@ BUILDER_REDUNDANTE = 0.95      # si una selección casi siempre sale cuando sale
 BUILDER_PMIN = {"goles": 0.75, "corners": 0.78, "tarjetas": 0.80}   # prob. mínima de cada selección
 BUILDER_HIST_MIN = 0.65        # si se cumplió en menos del 65% de sus partidos recientes/H2H, se descarta
 
-# Tarjetas: en tu historial el modelo prometía ~76% y acertaba ~58%. Sus probabilidades se acercan a 50%
-# a la mitad del camino (76% → 63%) hasta tener más datos.
-TARJ_ENCOGER = 0.5
+# Tarjetas: el modelo se pasa de optimista. Con 219 picks (12-20 oct) el mejor ajuste es acercar
+# sus probabilidades a 50% en un 30% del camino (ej. 81% → 72%).
+TARJ_ENCOGER = 0.7

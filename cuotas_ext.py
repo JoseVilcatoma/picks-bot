@@ -212,10 +212,10 @@ def obtener(gid, g, nombres_en=None):
             fair, ref = v[len(v) // 2], "consenso"
         else:
             continue
-        mejor_key = max((k for k in casas if k != "pinnacle"), key=lambda k: casas[k][0], default=None)
-        if not mejor_key:
-            mejor_key = "pinnacle"
-        out[clave] = {"cuota": casas[mejor_key][0], "casa": casas[mejor_key][1], "justa_p": fair,
+        # Mejor precio SOLO entre las casas donde puedes apostar (las demás sirven de referencia)
+        mejor_key = max((k for k in casas if permitida(casas[k][1])), key=lambda k: casas[k][0], default=None)
+        out[clave] = {"cuota": casas[mejor_key][0] if mejor_key else None,
+                      "casa": casas[mejor_key][1] if mejor_key else "", "justa_p": fair,
                       "ref": ref, "pinnacle": casas.get("pinnacle", (None,))[0],
                       "n": len(casas)}
     if not out:
@@ -234,6 +234,11 @@ def obtener(gid, g, nombres_en=None):
            "ref": "Pinnacle" if justa_pin else "consenso", "edad_min": edad}
     cache[ck] = {"t": time.time(), "d": res}
     return res
+
+
+def permitida(titulo):
+    t = (titulo or "").lower()
+    return any(c in t for c in C.CASAS_PERMITIDAS)
 
 
 def a_clave(s):

@@ -365,6 +365,14 @@ def texto_resumen():
             gan = sum(float(f["ganancia"] or 0) for f in fs)
             out.append(f"   Apostado S/ {st:.2f} · Ganancia S/ {gan:+.2f} · "
                        f"Yield {gan / st:+.1%}" if st else "")
+        if tipo == "ticket":
+            for nombre_g, grupo in (("1 selección", [f for f in fs if "&" not in f["clave"]]),
+                                    ("2 selecciones*", [f for f in fs if "&" in f["clave"]])):
+                if grupo:
+                    a = sum(f["resultado"] == "G" for f in grupo)
+                    gan = sum(float(f["ganancia"] or 0) for f in grupo)
+                    out.append(f"   {nombre_g}: {a}/{len(grupo)} ({a / len(grupo):.0%}) · S/ {gan:+.2f}")
+            out.append("   <i>*a la cuota multiplicada; en “Crear apuesta” Bet365 suele pagar menos.</i>")
     q = cuotas_ext.leer_quota()
     if q:
         out.append(f"\n💱 Créditos The Odds API: {q.get('restantes')} restantes este mes")
@@ -570,12 +578,14 @@ def analizar(gid, g, nombres, modo):
         for ks, v in ext["cuotas"].items():
             k = cuotas_ext.a_clave(ks)
             precio, casa = v["cuota"], v["casa"]
-            if k in mercado and not viejas and mercado[k][0] > precio:
+            if k in mercado and not viejas and (precio is None or mercado[k][0] > precio):
                 precio, casa = mercado[k][0], "Bet365"
-            mercado[k] = (precio, v["justa_p"])
+            mercado[k] = (precio, v["justa_p"])      # precio None = ninguna de tus casas lo ofrece
             casa_de[k] = casa
             if v["ref"] == "Pinnacle":
                 sharp.add(k)
+            if not precio:
+                continue
             ev_c = precio * v["justa_p"] - 1
             if v["ref"] == "Pinnacle" and ev_c >= C.VALOR_CASAS_MIN and v["justa_p"] >= 0.15:
                 valor_casas.append((ev_c, k, precio, casa, 1 / v["justa_p"]))
