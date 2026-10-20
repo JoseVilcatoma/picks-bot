@@ -67,7 +67,7 @@ ZONA = "America/Lima"
 # ---------------------------------------------------------------
 # CUOTAS DE VARIAS CASAS (The Odds API, plan gratis 500 créditos/mes)
 # ---------------------------------------------------------------
-ODDS_MERCADOS = "h2h,totals,btts"   # cada mercado devuelto cuesta 1 crédito (≈3 por partido)
+ODDS_MERCADOS = "h2h,totals"         # 2 créditos por partido (resultado y goles); "ambos marcan" casi no aportaba
 ODDS_RESERVA = 10                   # deja de consultar si quedan menos créditos que esto
 CASAS_EXCLUIR = ["betfair_ex_eu", "betfair_ex_uk", "matchbook"]   # exchanges (cobran comisión)
 # Casas donde SÍ puedes apostar (se compara con el nombre de la casa, sin mayúsculas).

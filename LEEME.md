@@ -42,7 +42,7 @@ Betano, Apuesta Total, Doradobet). Las demás se usan solo como referencia de pr
      portero o defensas, sube el del rival; 5+ cambios = rotación.
    - Córners y tarjetas: binomial negativa con los últimos 5 partidos. Las tarjetas se corrigen hacia 50%
      (`TARJ_ENCOGER`) porque el modelo era demasiado optimista.
-   - Cuotas: Bet365 vía 365Scores + The Odds API (500 créditos gratis/mes, ~3 por partido) con Pinnacle como referencia.
+   - Cuotas: Bet365 vía 365Scores + The Odds API (500 créditos gratis/mes, 2 por partido: resultado y goles) con Pinnacle como referencia.
 3. ~2 h después del inicio **liquida** los picks y te manda el resultado (espera hasta 8 h si faltan estadísticas).
 
 ## Archivos
