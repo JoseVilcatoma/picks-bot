@@ -984,8 +984,8 @@
    "partido": "PSG vs FC Barcelona",
    "liga": "Europa, UEFA Champions League",
    "inicio": "2026-10-20T14:00:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1792529762.5086265,
+   "estado": "liquidado",
+   "ultimo": 1792530375.9670613,
    "pierna": [
     {
      "gid": "4828461",
@@ -1009,7 +1009,22 @@
     }
    ],
    "xi": "320209,485723,600030,1407007,3169055,3171738,14482806,40745412,46715751,65079212,66436913|384197,918164,1444592,33309233,41923868,52343752,67787784,70894814,70951545,70994145,71171245",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 4,
+    "ag": 2,
+    "ht": [
+     1,
+     0
+    ],
+    "corners": 5.0,
+    "corners_h": 2.0,
+    "corners_a": 3.0,
+    "corners_1t": null,
+    "cards": 1.0,
+    "cards_h": 0.0,
+    "cards_a": 1.0
+   }
   },
   "4828462": {
    "partido": "Nápoles vs Bodo Glimt",
