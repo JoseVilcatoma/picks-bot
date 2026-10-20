@@ -736,8 +736,8 @@
    "partido": "Liverpool vs Villarreal CF",
    "liga": "Europa, UEFA Champions League",
    "inicio": "2026-10-20T14:00:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1792519308.299929,
+   "estado": "liquidado",
+   "ultimo": 1792529761.5350757,
    "pierna": [
     {
      "gid": "4828458",
@@ -801,14 +801,29 @@
     }
    ],
    "xi": "220953,558151,886827,3172767,3344160,3886928,39077601,67987366,70789335,70986024,75529942|335047,2793452,13313345,43875282,50260341,51147730,59016023,65211458,65992900,67627457,70892079",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 4,
+    "ag": 3,
+    "ht": [
+     2,
+     2
+    ],
+    "corners": 9.0,
+    "corners_h": 7.0,
+    "corners_a": 2.0,
+    "corners_1t": 5.0,
+    "cards": 2.0,
+    "cards_h": 0.0,
+    "cards_a": 2.0
+   }
   },
   "4828459": {
    "partido": "FC Porto vs PSV Eindhoven",
    "liga": "Europa, UEFA Champions League",
    "inicio": "2026-10-20T14:00:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1792518809.6034021,
+   "estado": "liquidado",
+   "ultimo": 1792529761.9191852,
    "pierna": [
     {
      "gid": "4828459",
@@ -862,14 +877,29 @@
     }
    ],
    "xi": "635177,911054,913383,12436614,13856477,33436214,51137406,70822610,70953015,71328020,75459496|27247,305312,3097855,3340161,4040127,4786658,43467357,50497600,65792666,67820371,70759850",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 0,
+    "ag": 1,
+    "ht": [
+     0,
+     0
+    ],
+    "corners": 5.0,
+    "corners_h": 2.0,
+    "corners_a": 3.0,
+    "corners_1t": 2.0,
+    "cards": 2.0,
+    "cards_h": 0.0,
+    "cards_a": 2.0
+   }
   },
   "4828460": {
    "partido": "Stuttgart vs Atlético de Madrid",
    "liga": "Europa, UEFA Champions League",
    "inicio": "2026-10-20T14:00:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1792519058.0673873,
+   "estado": "liquidado",
+   "ultimo": 1792529762.2104034,
    "pierna": [
     {
      "gid": "4828460",
@@ -933,14 +963,29 @@
     }
    ],
    "xi": "659085,909220,3726834,4802876,5332356,31371955,50497594,50665104,52232155,65139386,67921132|325326,527341,602979,2993226,3337446,3487471,9638719,49550597,60936288,63125761,64497047",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 1,
+    "ag": 1,
+    "ht": [
+     1,
+     0
+    ],
+    "corners": 13.0,
+    "corners_h": 9.0,
+    "corners_a": 4.0,
+    "corners_1t": 7.0,
+    "cards": 2.0,
+    "cards_h": 1.0,
+    "cards_a": 1.0
+   }
   },
   "4828461": {
    "partido": "PSG vs FC Barcelona",
    "liga": "Europa, UEFA Champions League",
    "inicio": "2026-10-20T14:00:00-05:00",
    "estado": "enviado",
-   "ultimo": 1792519058.782616,
+   "ultimo": 1792529762.5086265,
    "pierna": [
     {
      "gid": "4828461",
@@ -970,8 +1015,8 @@
    "partido": "Nápoles vs Bodo Glimt",
    "liga": "Europa, UEFA Champions League",
    "inicio": "2026-10-20T14:00:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1792519059.5165524,
+   "estado": "liquidado",
+   "ultimo": 1792529762.6113644,
    "pierna": [
     {
      "gid": "4828462",
@@ -1035,14 +1080,29 @@
     }
    ],
    "xi": "95182,385051,385087,550352,610717,612027,973073,3227448,4874431,50852472,62350133|3056855,3064578,7195793,15007514,15589104,21788847,42393327,49536956,51842632,58801375,65672410",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 4,
+    "ag": 3,
+    "ht": [
+     2,
+     1
+    ],
+    "corners": 7.0,
+    "corners_h": 2.0,
+    "corners_a": 5.0,
+    "corners_1t": 2.0,
+    "cards": 3.0,
+    "cards_h": 3.0,
+    "cards_a": 0.0
+   }
   },
   "4828463": {
    "partido": "Manchester City vs AEK Atenas",
    "liga": "Europa, UEFA Champions League",
    "inicio": "2026-10-20T14:00:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1792518810.4502144,
+   "estado": "liquidado",
+   "ultimo": 1792529762.917646,
    "pierna": [
     {
      "gid": "4828463",
@@ -1056,14 +1116,29 @@
     }
    ],
    "xi": "620429,1391166,3172759,25999342,40408252,48394475,51439135,63793924,67820202,76945914,77472464|405178,516543,544245,580583,666237,3090785,7140072,38159535,47559232,51582820,61292303",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 5,
+    "ag": 1,
+    "ht": [
+     2,
+     0
+    ],
+    "corners": 11.0,
+    "corners_h": 8.0,
+    "corners_a": 3.0,
+    "corners_1t": 5.0,
+    "cards": 1.0,
+    "cards_h": 1.0,
+    "cards_a": 0.0
+   }
   },
   "4828464": {
    "partido": "AS Roma vs Slovan Bratislava",
    "liga": "Europa, UEFA Champions League",
    "inicio": "2026-10-20T14:00:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1792519060.1525815,
+   "estado": "liquidado",
+   "ultimo": 1792529763.1895278,
    "pierna": [
     {
      "gid": "4828464",
@@ -1077,7 +1152,22 @@
     }
    ],
    "xi": "280305,508029,542399,941464,1966291,3087180,9412443,64431234,65528561,67844197,70861688|2809685,3079764,3467482,4265770,13865865,50816657,62019085,64743874,65005406,67836364,71350333",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 4,
+    "ag": 0,
+    "ht": [
+     2,
+     0
+    ],
+    "corners": 9.0,
+    "corners_h": 8.0,
+    "corners_a": 1.0,
+    "corners_1t": 3.0,
+    "cards": 3.0,
+    "cards_h": 0.0,
+    "cards_a": 3.0
+   }
   },
   "4828465": {
    "partido": "Fenerbahce vs Slavia Praga",
