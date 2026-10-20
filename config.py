@@ -75,7 +75,6 @@ CASAS_EXCLUIR = ["betfair_ex_eu", "betfair_ex_uk", "matchbook"]   # exchanges (c
 # Apuesta Total y Doradobet no están en The Odds API: se dejan por si algún día aparecen.
 CASAS_PERMITIDAS = ["bet365", "1xbet", "betsson", "betano", "apuesta total", "doradobet"]
 VALOR_APOSTABLE = 0.03             # apostable: la mejor cuota paga ≥ 3% más que la justa de Pinnacle
-VALOR_CASAS_MIN = 0.03              # "💎 valor entre casas": mejor cuota ≥ 3% sobre la justa de Pinnacle
 CUOTAS_VIEJAS_HORAS = 4             # si las cuotas de 365Scores no se movieron en 4 h, se marcan como viejas
 
 # ---------------------------------------------------------------

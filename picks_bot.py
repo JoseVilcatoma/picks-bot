@@ -595,7 +595,6 @@ def analizar(gid, g, nombres, modo):
     casa_de = {k: "Bet365" for k in mercado}
     sharp = set()
     ext = cuotas_ext.obtener(gid, g, nombres_ingles(gid))
-    valor_casas = []
     if ext:
         for ks, v in ext["cuotas"].items():
             k = cuotas_ext.a_clave(ks)
@@ -606,12 +605,6 @@ def analizar(gid, g, nombres, modo):
             casa_de[k] = casa
             if v["ref"] == "Pinnacle":
                 sharp.add(k)
-            if not precio:
-                continue
-            ev_c = precio * v["justa_p"] - 1
-            if v["ref"] == "Pinnacle" and ev_c >= C.VALOR_CASAS_MIN and v["justa_p"] >= 0.15:
-                valor_casas.append((ev_c, k, precio, casa, 1 / v["justa_p"]))
-        valor_casas.sort(reverse=True)
     # Base = lo que implica el mercado (75%) + forma/remates (25%); si no hay 1X2, solo forma
     lam_m = M.lambdas_mercado(mercado)
     if lam_m:
@@ -630,6 +623,8 @@ def analizar(gid, g, nombres, modo):
         c["ref_sharp"] = c["clave"] in sharp
         c["respaldo"] = criterios.respaldo(c["clave"], señales)
     seguros, arriesgados, apostables = M.seleccionar(cands, matriz)
+    seguros = seguros[:2]       # 2 bastan como resumen del partido
+    arriesgados = []            # quitados: bien calibrados pero sin ganancia (solo ocupaban espacio)
     modelos = M.solo_modelo(cands, {c["clave"] for c in seguros + arriesgados + apostables})
     bloqueados = []
     if viejas and not ext:
@@ -711,8 +706,6 @@ def analizar(gid, g, nombres, modo):
 
     lin.append("\n🟢 <b>SEGUROS</b> (lo más probable)")
     lin += [fila(c) for c in seguros] or ["• Ninguno claro"]
-    lin.append("\n🔴 <b>ARRIESGADOS</b> (difíciles pero posibles)")
-    lin += [fila(c) for c in arriesgados] or ["• Ninguno"]
     if modelos:
         lin.append("\n📐 <b>TARJETAS, CÓRNERS Y SOLO MODELO</b> (menos fiables: compara la “justa” en tu casa)")
         lin += [fila(c) for c in modelos]
@@ -738,11 +731,6 @@ def analizar(gid, g, nombres, modo):
     if dudosos:
         lin.append("⚠️ <i>Valor contra Pinnacle pero el modelo no lo respalda (descartados): "
                    + ", ".join(esc(c["texto"]) for c in sorted(dudosos, key=lambda c: -c["ev_ref"])[:3]) + "</i>")
-    if valor_casas:
-        lin.append("\n💎 <b>VALOR ENTRE CASAS</b> (mejor cuota vs. Pinnacle sin margen)")
-        for ev_c, k, precio, casa, justa in valor_casas[:3]:
-            lin.append(f"• {esc(M.texto_mercado(k, local, visita))} — {esc(casa)} {precio:.2f} "
-                       f"vs justa {justa:.2f} · EV {ev_c:+.1%}")
     ticket = M.ticket_partido(cands, matriz)
     if ticket:
         lin.append(f"\n🎟 <b>TICKET DEL PARTIDO</b> (cuota {C.TICKET_CUOTA[0]:.2f}–{C.TICKET_CUOTA[1]:.2f}, lo más seguro posible)")
@@ -758,36 +746,25 @@ def analizar(gid, g, nombres, modo):
                    "que pague al menos su cuota justa en este partido.")
     crear = M.crear_apuesta(cands, lh, la, esp, local, visita,
                             historial(gid, h["id"], a["id"], local, visita, res_l, res_v, st_l, st_v))
+    # Solo se muestra cuando conviene a la cuota que suele pagar Bet365; si no, se registra en silencio
+    # (sirve para la corrección por historial y para /resumen).
     if crear:
-        lin.append("\n🧱 <b>CREAR APUESTA</b> (todas del mismo partido, en “Crear apuesta” de Bet365)")
-        for x in crear["piernas"]:
-            t = f"• {esc(x['texto'])} — <b>{x['p']:.0%}</b>"
-            if x["hist"]:
-                t += f" <i>({esc(x['hist']['txt'])})</i>"
-            lin.append(t)
         f, aciertos, n = calib_crear()
         p_cal = min(0.95, crear["p"] * f)
         justa_cal = 1 / p_cal
-        if n:
-            lin.append(f"➡️ Probabilidad del modelo {crear['p']:.0%} · corregida con su historial "
-                       f"({aciertos}/{n} acertadas): <b>{p_cal:.0%}</b> · cuota justa <b>{justa_cal:.2f}</b>")
-        else:
-            lin.append(f"➡️ Probabilidad de que salgan todas <b>{p_cal:.0%}</b> · cuota justa <b>{justa_cal:.2f}</b>")
         est = C.BUILDER_CUOTA_BET365
         if est >= justa_cal:
-            lin.append(f"💰 Bet365 suele pagar ~{est:.2f} por esto: ✅ <b>conviene si te paga ≥ {justa_cal:.2f}</b>.")
-        else:
-            lin.append(f"💰 Bet365 suele pagar ~{est:.2f} por esto: ❌ <b>no conviene</b> salvo que te pague "
-                       f"≥ {justa_cal:.2f}.")
-    else:
-        if not esp.get("total") and not esp.get("k_local"):
-            motivo = "365Scores no tiene córners ni tarjetas de estos equipos, y solo con goles no se arma"
-        else:
-            motivo = (f"ninguna mezcla de 2–4 selecciones (cada una entre 75% y 90%, sin contradecir su historial) "
-                      f"llega a cuota justa {C.BUILDER_CUOTA[0]:.2f}")
-        lin.append(f"\n🧱 Crear apuesta: hoy no hay una segura. Motivo: {motivo}.")
+            lin.append("\n🧱 <b>CREAR APUESTA</b> (todas del mismo partido, en “Crear apuesta” de Bet365)")
+            for x in crear["piernas"]:
+                t = f"• {esc(x['texto'])} — <b>{x['p']:.0%}</b>"
+                if x["hist"]:
+                    t += f" <i>({esc(x['hist']['txt'])})</i>"
+                lin.append(t)
+            hist_txt = f" · corregida con su historial ({aciertos}/{n} acertadas)" if n else ""
+            lin.append(f"➡️ Probabilidad <b>{p_cal:.0%}</b>{hist_txt} · cuota justa <b>{justa_cal:.2f}</b>")
+            lin.append(f"💰 Bet365 suele pagar ~{est:.2f}: ✅ <b>conviene si te paga ≥ {justa_cal:.2f}</b>.")
     lin.append("\n<i>“justa” = cuota mínima que deberías aceptar en tu casa de apuestas. "
-               "Seguros/arriesgados sin valor son informativos, no apuestas.</i>")
+               "Los seguros son informativos: solo ✅ Apostables y el ticket están pensados para apostar.</i>")
     lin.append("🧪 Paper trading · cuotas: " + ("The Odds API + Bet365 (365Scores)" if ext else "Bet365 vía 365Scores"))
 
     filas = []
@@ -897,42 +874,6 @@ def liquidar(gid, s, log):
     return True
 
 
-def ticket_doble(estado, gid, log):
-    """Combina la selección más segura de este partido con la de otro partido aún no empezado."""
-    s = estado["seguidos"][gid]
-    lista_a = s.get("pierna") or []
-    if not lista_a or s.get("en_ticket"):
-        return
-    t = ahora()
-    mejor = None
-    for gid2, s2 in estado["seguidos"].items():
-        lista_b = s2.get("pierna") or []
-        if gid2 == gid or not lista_b or s2.get("en_ticket") or s2["estado"] != "enviado":
-            continue
-        if (iso(lista_b[0]["inicio"]) - t).total_seconds() < 5 * 60:      # ya empezó o está por empezar
-            continue
-        for a in lista_a:
-            for b in lista_b:
-                cuota = a["cuota"] * b["cuota"]
-                if C.TICKET_CUOTA[0] <= cuota <= C.TICKET_CUOTA[1]:
-                    p = a["p"] * b["p"]
-                    if p * cuota - 1 < C.TICKET_EV_MIN:      # cuota menor que la justa: no conviene
-                        continue
-                    if not mejor or p > mejor[0]:
-                        mejor = (p, cuota, gid2, a, b)
-    if not mejor:
-        return
-    p, cuota, gid2, a, b = mejor
-    s["en_ticket"] = estado["seguidos"][gid2]["en_ticket"] = True
-    estado.setdefault("tickets", []).append({"piernas": [a, b], "p": p, "cuota": cuota, "t": time.time()})
-    enviar("🎟🎟 <b>TICKET DE 2 PARTIDOS</b>\n"
-           + "\n".join(f"• {esc(x['partido'])}: <b>{esc(x['texto'])}</b> · {x['cuota']:.2f}"
-                        + (f" ({esc(x['casa'])})" if x.get("casa") else "") for x in (a, b))
-           + f"\n➡️ Cuota {cuota:.2f} · probabilidad <b>{p:.0%}</b> · justa {1 / p:.2f}"
-           + f"\n<i>Partidos distintos: la cuota sí es la multiplicación. Apuesta antes de que empiece "
-           + f"{esc(min((a, b), key=lambda x: x['inicio'])['partido'])}.</i>")
-
-
 def liquidar_tickets(estado, log):
     pend = []
     for tk in estado.get("tickets", []):
@@ -1017,7 +958,6 @@ def _partido(estado, log, t, gid, s):
             log += filas
             s["estado"] = "enviado"
             s["pierna"] = extra["pierna"]
-            ticket_doble(estado, gid, log)
             s["xi"], s["conf"] = firma, confirmada
     elif s["estado"] == "enviado" and mins < -115:
         if time.time() - s.get("ultimo", 0) >= 10 * 60:

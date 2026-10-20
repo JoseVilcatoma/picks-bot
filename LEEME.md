@@ -9,13 +9,14 @@ cada pick, lo liquida solo y `/resumen` te dice si acierta lo que promete.
 | Sección | Qué es |
 |---|---|
 | 🔎 Análisis | forma, localía, tabla, H2H, goles recientes, remates, descanso, altura, movimiento de cuotas y alineaciones |
-| 🟢 Seguros | lo más probable (55–88%), solo resultado y goles con cuota real. Informativos: a cuota 1.20–1.30 casi nunca hay ganancia |
-| 🔴 Arriesgados | 25–45% de probabilidad, cuota 2.00–4.00. Sin “gana X” (casi nunca salían). Informativos |
+| 🟢 Seguros | las 2 más probables (55–88%), solo resultado y goles con cuota real. Informativos: a cuota 1.20–1.30 casi nunca hay ganancia |
 | 📐 Tarjetas/córners | solo modelo, compara la “justa” con tu casa |
 | ✅ Apostables | **lo único pensado para apostar**: tu casa paga ≥ 3% más que la cuota justa de Pinnacle, cuota 1.60–2.60, el modelo no lo contradice. Stake ¼ Kelly (⅛ si prob. < 40%), máximo 3% de la banca |
-| 💎 Valor entre casas | mejor cuota de tus casas vs. Pinnacle sin margen |
 | 🎟 Ticket del partido | 1 o 2 selecciones con cuota total 1.70–2.30 que paguen al menos su justa |
-| 🧱 Crear apuesta | 2–4 selecciones del mismo partido (goles, resultado, 1T, córners) con su historial; anota lo que paga Bet365 con `/cuota` |
+| 🧱 Crear apuesta | 2–4 selecciones del mismo partido (goles, resultado, 1T, córners) con su historial. **Solo aparece cuando conviene** a la cuota que suele pagar Bet365 (~1.45, `BUILDER_CUOTA_BET365`); la probabilidad se corrige con lo que acertaron las anteriores |
+
+Se quitaron (octubre 2026): arriesgados (bien calibrados pero sin ganancia), valor entre casas (repetía los
+apostables sin filtros) y ticket de 2 partidos (acertaba 49% vs 57% prometido, −12%).
 
 Solo se recomiendan casas donde puedes apostar (`CASAS_PERMITIDAS` en `config.py`: Bet365, 1xBet, Betsson,
 Betano, Apuesta Total, Doradobet). Las demás se usan solo como referencia de precio.
@@ -27,7 +28,7 @@ Betano, Apuesta Total, Doradobet). Las demás se usan solo como referencia de pr
 | `/lista` | partidos que sigues y su estado |
 | `/quitar ID` | dejar de seguir |
 | `/resumen` | aciertos reales vs. esperados, ganancia y yield por tipo |
-| `/cuota ID 1.80` | anota lo que te paga Bet365 por el “Crear apuesta” de ese partido |
+| `/cuota ID 1.80` | opcional: anota lo que te pagó Bet365 por el “Crear apuesta” (si no, se usa ~1.45) |
 
 ## Cómo funciona por dentro
 1. **Calendario** (cada 2 h): descarga de 365Scores los partidos de hoy y los 3 días siguientes y publica la página.
