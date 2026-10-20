@@ -2338,6 +2338,139 @@
     "cards_h": 3.0,
     "cards_a": 3.0
    }
+  },
+  "4828449": {
+   "partido": "Brujas vs Lens",
+   "liga": "Europa, UEFA Champions League",
+   "inicio": "2026-10-21T14:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4828450": {
+   "partido": "Bayern Munich vs Arsenal",
+   "liga": "Europa, UEFA Champions League",
+   "inicio": "2026-10-21T14:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4828451": {
+   "partido": "Real Madrid vs RB Leipzig",
+   "liga": "Europa, UEFA Champions League",
+   "inicio": "2026-10-21T14:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4828452": {
+   "partido": "Real Betis vs Feyenoord",
+   "liga": "Europa, UEFA Champions League",
+   "inicio": "2026-10-21T14:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4828453": {
+   "partido": "Inter Milan vs Shakhtar Donetsk",
+   "liga": "Europa, UEFA Champions League",
+   "inicio": "2026-10-21T14:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4828454": {
+   "partido": "Aston Villa vs Viking",
+   "liga": "Europa, UEFA Champions League",
+   "inicio": "2026-10-21T14:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4828455": {
+   "partido": "Como vs Manchester United",
+   "liga": "Europa, UEFA Champions League",
+   "inicio": "2026-10-21T11:45:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4828456": {
+   "partido": "Sporting CP vs LASK Linz",
+   "liga": "Europa, UEFA Champions League",
+   "inicio": "2026-10-21T14:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4828457": {
+   "partido": "Lille vs Galatasaray",
+   "liga": "Europa, UEFA Champions League",
+   "inicio": "2026-10-21T11:45:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4828458": {
+   "partido": "Liverpool vs Villarreal CF",
+   "liga": "Europa, UEFA Champions League",
+   "inicio": "2026-10-20T14:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4828459": {
+   "partido": "FC Porto vs PSV Eindhoven",
+   "liga": "Europa, UEFA Champions League",
+   "inicio": "2026-10-20T14:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4828460": {
+   "partido": "Stuttgart vs Atlético de Madrid",
+   "liga": "Europa, UEFA Champions League",
+   "inicio": "2026-10-20T14:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4828461": {
+   "partido": "PSG vs FC Barcelona",
+   "liga": "Europa, UEFA Champions League",
+   "inicio": "2026-10-20T14:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4828462": {
+   "partido": "Nápoles vs Bodo Glimt",
+   "liga": "Europa, UEFA Champions League",
+   "inicio": "2026-10-20T14:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4828463": {
+   "partido": "Manchester City vs AEK Atenas",
+   "liga": "Europa, UEFA Champions League",
+   "inicio": "2026-10-20T14:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4828464": {
+   "partido": "AS Roma vs Slovan Bratislava",
+   "liga": "Europa, UEFA Champions League",
+   "inicio": "2026-10-20T14:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4828465": {
+   "partido": "Fenerbahce vs Slavia Praga",
+   "liga": "Europa, UEFA Champions League",
+   "inicio": "2026-10-20T11:45:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4828466": {
+   "partido": "Sabah vs Borussia Dortmund",
+   "liga": "Europa, UEFA Champions League",
+   "inicio": "2026-10-20T11:45:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4856898": {
+   "partido": "Vasco Da Gama vs Boca Juniors",
+   "liga": "Sudamerica, CONMEBOL Copa Sudamericana - Semifinales",
+   "inicio": "2026-10-20T19:30:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
   }
  },
  "web": {
@@ -2456,7 +2589,26 @@
   "4732675": 1792375672696,
   "4742032": 1792375674897,
   "4750826": 1792375674057,
-  "4757116": 1792375677677
+  "4757116": 1792375677677,
+  "4828449": 1792501156786,
+  "4828450": 1792501157159,
+  "4828451": 1792501157966,
+  "4828452": 1792501158335,
+  "4828453": 1792501159082,
+  "4828454": 1792501159626,
+  "4828455": 1792501155098,
+  "4828456": 1792501159962,
+  "4828457": 1792501156011,
+  "4828458": 1792501148232,
+  "4828459": 1792501149105,
+  "4828460": 1792501149411,
+  "4828461": 1792501150192,
+  "4828462": 1792501151025,
+  "4828463": 1792501151354,
+  "4828464": 1792501151731,
+  "4828465": 1792501147382,
+  "4828466": 1792501147891,
+  "4856898": 1792501152820
  },
  "tickets": []
 }
