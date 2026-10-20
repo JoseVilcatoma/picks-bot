@@ -95,6 +95,9 @@ BUILDER_PMAX = 0.90            # más seguras que esto no entran: Bet365 casi no
 BUILDER_REDUNDANTE = 0.95      # si una selección casi siempre sale cuando salen las otras, no aporta: fuera
 BUILDER_PMIN = {"goles": 0.75, "corners": 0.78, "tarjetas": 0.80}   # prob. mínima de cada selección
 BUILDER_HIST_MIN = 0.65        # si se cumplió en menos del 65% de sus partidos recientes/H2H, se descarta
+BUILDER_CUOTA_BET365 = 1.45    # lo que suele pagar Bet365 por estas combinadas (viste 1.40–1.49); se usa
+                               # para estimar la ganancia sin que tengas que anotar nada
+BUILDER_CALIB_K = 10           # la corrección por historial se suaviza como si hubiera 10 casos "neutros" más
 
 # Tarjetas: el modelo se pasa de optimista. Con 219 picks (12-20 oct) el mejor ajuste es acercar
 # sus probabilidades a 50% en un 30% del camino (ej. 81% → 72%).

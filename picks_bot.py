@@ -358,8 +358,18 @@ def texto_resumen():
                     if grupo:
                         gan = sum(float(f["ganancia"] or 0) for f in grupo)
                         out.append(f"   {nombre_g}: {len(grupo)} · S/ {gan:+.2f} (S/ {C.TICKET_STAKE:.0f} c/u)")
-            else:
-                out.append("   Anota lo que paga Bet365 con /cuota para medir si es rentable.")
+            est = C.BUILDER_CUOTA_BET365
+            sin = [f for f in fs if not f["cuota"]]
+            if sin:
+                gan = sum(C.TICKET_STAKE * ((est - 1) if f["resultado"] == "G" else -1) for f in sin)
+                fac, _, _ = calib_crear()
+                buenas = [f for f in sin if est * min(0.95, float(f["prob"]) * fac) >= 1]
+                gan_b = sum(C.TICKET_STAKE * ((est - 1) if f["resultado"] == "G" else -1) for f in buenas)
+                out.append(f"   Estimado a cuota ~{est:.2f} de Bet365 (S/ {C.TICKET_STAKE:.0f} c/u): "
+                           f"jugándolas todas S/ {gan:+.2f} ({gan / (len(sin) * C.TICKET_STAKE):+.1%})")
+                if buenas:
+                    out.append(f"   solo las marcadas ✅: {len(buenas)} · S/ {gan_b:+.2f}")
+                out.append(f"   Para no perder, a ~{est:.2f} deben acertar ≥ {1 / est:.0%}.")
         if tipo in ("apostable", "ticket", "ticket2"):
             st = sum(float(f["stake"] or 0) for f in fs)
             gan = sum(float(f["ganancia"] or 0) for f in fs)
@@ -384,6 +394,18 @@ def texto_resumen():
 
 
 # ======================= análisis =======================
+def calib_crear():
+    """Corrige la probabilidad de "Crear apuesta" con lo que realmente acertaron las anteriores.
+    Devuelve (factor, aciertos, total). factor > 1 = el modelo se quedaba corto."""
+    fs = [f for f in leer_log() if f["tipo"] == "crear" and f["resultado"] in ("G", "P")]
+    if not fs:
+        return 1.0, 0, 0
+    a = sum(f["resultado"] == "G" for f in fs)
+    esperado = sum(float(f["prob"]) for f in fs)
+    k = C.BUILDER_CALIB_K
+    return (a + k) / (esperado + k), a, len(fs)
+
+
 def stats_recientes(team_id, resultados, n=5):
     lista = []
     for gid, *_ in resultados[:n]:
@@ -743,10 +765,20 @@ def analizar(gid, g, nombres, modo):
             if x["hist"]:
                 t += f" <i>({esc(x['hist']['txt'])})</i>"
             lin.append(t)
-        lin.append(f"➡️ Probabilidad de que salgan todas <b>{crear['p']:.0%}</b> · cuota justa <b>{crear['justa']:.2f}</b>")
-        lin.append(f"<i>Juégala solo si Bet365 paga ≥ {crear['justa']:.2f}; si paga menos, no la juegues. "
-                   "Sin selecciones casi seguras (Bet365 no las paga).</i>")
-        lin.append(f"📝 Anota lo que te ofrece Bet365: <code>/cuota {gid} 1.80</code>")
+        f, aciertos, n = calib_crear()
+        p_cal = min(0.95, crear["p"] * f)
+        justa_cal = 1 / p_cal
+        if n:
+            lin.append(f"➡️ Probabilidad del modelo {crear['p']:.0%} · corregida con su historial "
+                       f"({aciertos}/{n} acertadas): <b>{p_cal:.0%}</b> · cuota justa <b>{justa_cal:.2f}</b>")
+        else:
+            lin.append(f"➡️ Probabilidad de que salgan todas <b>{p_cal:.0%}</b> · cuota justa <b>{justa_cal:.2f}</b>")
+        est = C.BUILDER_CUOTA_BET365
+        if est >= justa_cal:
+            lin.append(f"💰 Bet365 suele pagar ~{est:.2f} por esto: ✅ <b>conviene si te paga ≥ {justa_cal:.2f}</b>.")
+        else:
+            lin.append(f"💰 Bet365 suele pagar ~{est:.2f} por esto: ❌ <b>no conviene</b> salvo que te pague "
+                       f"≥ {justa_cal:.2f}.")
     else:
         if not esp.get("total") and not esp.get("k_local"):
             motivo = "365Scores no tiene córners ni tarjetas de estos equipos, y solo con goles no se arma"
