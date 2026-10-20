@@ -1271,49 +1271,117 @@
    "liga": "Europa, UEFA Champions League",
    "inicio": "2026-10-20T14:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792518565.5769868
+   "ultimo": 1792518809.4127023
   },
   "4828459": {
    "partido": "FC Porto vs PSV Eindhoven",
    "liga": "Europa, UEFA Champions League",
    "inicio": "2026-10-20T14:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1792518565.7740262
+   "estado": "enviado",
+   "ultimo": 1792518809.6034021,
+   "pierna": [
+    {
+     "gid": "4828459",
+     "partido": "FC Porto vs PSV Eindhoven",
+     "texto": "Más de 0.5 goles en el 1T",
+     "clave": "OU1T|0.5|over",
+     "p": 0.7362,
+     "cuota": 1.25,
+     "casa": "Bet365",
+     "inicio": "2026-10-20T14:00:00-05:00"
+    },
+    {
+     "gid": "4828459",
+     "partido": "FC Porto vs PSV Eindhoven",
+     "texto": "FC Porto recibe gol",
+     "clave": "CS||local_no",
+     "p": 0.625,
+     "cuota": 1.5,
+     "casa": "Bet365",
+     "inicio": "2026-10-20T14:00:00-05:00"
+    },
+    {
+     "gid": "4828459",
+     "partido": "FC Porto vs PSV Eindhoven",
+     "texto": "Más de 2.5 goles",
+     "clave": "OU|2.5|over",
+     "p": 0.5884,
+     "cuota": 1.5,
+     "casa": "Bet365",
+     "inicio": "2026-10-20T14:00:00-05:00"
+    },
+    {
+     "gid": "4828459",
+     "partido": "FC Porto vs PSV Eindhoven",
+     "texto": "Ambos marcan: Sí",
+     "clave": "BTTS||si",
+     "p": 0.5754,
+     "cuota": 1.62,
+     "casa": "Bet365",
+     "inicio": "2026-10-20T14:00:00-05:00"
+    },
+    {
+     "gid": "4828459",
+     "partido": "FC Porto vs PSV Eindhoven",
+     "texto": "Gana FC Porto",
+     "clave": "1X2||1",
+     "p": 0.5499,
+     "cuota": 1.5,
+     "casa": "Bet365",
+     "inicio": "2026-10-20T14:00:00-05:00"
+    }
+   ],
+   "xi": "635177,911054,913383,12436614,13856477,33436214,51137406,70822610,70953015,71328020,75459496|27247,305312,3097855,3340161,4040127,4786658,43467357,50497600,65792666,67820371,70759850",
+   "conf": true
   },
   "4828460": {
    "partido": "Stuttgart vs Atlético de Madrid",
    "liga": "Europa, UEFA Champions League",
    "inicio": "2026-10-20T14:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792518565.8235435
+   "ultimo": 1792518810.2822452
   },
   "4828461": {
    "partido": "PSG vs FC Barcelona",
    "liga": "Europa, UEFA Champions League",
    "inicio": "2026-10-20T14:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792518565.875284
+   "ultimo": 1792518810.3389442
   },
   "4828462": {
    "partido": "Nápoles vs Bodo Glimt",
    "liga": "Europa, UEFA Champions League",
    "inicio": "2026-10-20T14:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792518565.927135
+   "ultimo": 1792518810.394738
   },
   "4828463": {
    "partido": "Manchester City vs AEK Atenas",
    "liga": "Europa, UEFA Champions League",
    "inicio": "2026-10-20T14:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1792518565.9765878
+   "estado": "enviado",
+   "ultimo": 1792518810.4502144,
+   "pierna": [
+    {
+     "gid": "4828463",
+     "partido": "Manchester City vs AEK Atenas",
+     "texto": "Más de 2.5 goles",
+     "clave": "OU|2.5|over",
+     "p": 0.5789,
+     "cuota": 1.28,
+     "casa": "Bet365",
+     "inicio": "2026-10-20T14:00:00-05:00"
+    }
+   ],
+   "xi": "620429,1391166,3172759,25999342,40408252,48394475,51439135,63793924,67820202,76945914,77472464|405178,516543,544245,580583,666237,3090785,7140072,38159535,47559232,51582820,61292303",
+   "conf": true
   },
   "4828464": {
    "partido": "AS Roma vs Slovan Bratislava",
    "liga": "Europa, UEFA Champions League",
    "inicio": "2026-10-20T14:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792518566.026879
+   "ultimo": 1792518811.504964
   },
   "4828465": {
    "partido": "Fenerbahce vs Slavia Praga",
