@@ -1270,8 +1270,72 @@
    "partido": "Liverpool vs Villarreal CF",
    "liga": "Europa, UEFA Champions League",
    "inicio": "2026-10-20T14:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1792519057.8968246
+   "estado": "enviado",
+   "ultimo": 1792519308.299929,
+   "pierna": [
+    {
+     "gid": "4828458",
+     "partido": "Liverpool vs Villarreal CF",
+     "texto": "No hay empate",
+     "clave": "DC||12",
+     "p": 0.7418,
+     "cuota": 1.22,
+     "casa": "Bet365",
+     "inicio": "2026-10-20T14:00:00-05:00"
+    },
+    {
+     "gid": "4828458",
+     "partido": "Liverpool vs Villarreal CF",
+     "texto": "Más de 0.5 goles en el 1T",
+     "clave": "OU1T|0.5|over",
+     "p": 0.698,
+     "cuota": 1.25,
+     "casa": "Bet365",
+     "inicio": "2026-10-20T14:00:00-05:00"
+    },
+    {
+     "gid": "4828458",
+     "partido": "Liverpool vs Villarreal CF",
+     "texto": "Liverpool recibe gol",
+     "clave": "CS||local_no",
+     "p": 0.6169,
+     "cuota": 1.44,
+     "casa": "Bet365",
+     "inicio": "2026-10-20T14:00:00-05:00"
+    },
+    {
+     "gid": "4828458",
+     "partido": "Liverpool vs Villarreal CF",
+     "texto": "Gana Liverpool",
+     "clave": "1X2||1",
+     "p": 0.5428,
+     "cuota": 1.57,
+     "casa": "Bet365",
+     "inicio": "2026-10-20T14:00:00-05:00"
+    },
+    {
+     "gid": "4828458",
+     "partido": "Liverpool vs Villarreal CF",
+     "texto": "Ambos marcan: Sí",
+     "clave": "BTTS||si",
+     "p": 0.5205,
+     "cuota": 1.57,
+     "casa": "Bet365",
+     "inicio": "2026-10-20T14:00:00-05:00"
+    },
+    {
+     "gid": "4828458",
+     "partido": "Liverpool vs Villarreal CF",
+     "texto": "Más de 2.5 goles",
+     "clave": "OU|2.5|over",
+     "p": 0.5096,
+     "cuota": 1.53,
+     "casa": "Bet365",
+     "inicio": "2026-10-20T14:00:00-05:00"
+    }
+   ],
+   "xi": "220953,558151,886827,3172767,3344160,3886928,39077601,67987366,70789335,70986024,75529942|335047,2793452,13313345,43875282,50260341,51147730,59016023,65211458,65992900,67627457,70892079",
+   "conf": true
   },
   "4828459": {
    "partido": "FC Porto vs PSV Eindhoven",
