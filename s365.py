@@ -20,18 +20,28 @@ CACHE_PATH = os.path.join(os.path.dirname(__file__), "data", "cache.json")
 _cache = None
 
 
+FALLOS = 0   # consultas que fallaron en esta pasada (para no enviar análisis incompletos)
+
+
 def get(path, **params):
+    """Consulta 365Scores con 4 intentos y esperas crecientes. Solo avisa si fallan todos."""
+    global FALLOS
     p = dict(PARAMS)
     p.update(params)
-    for intento in range(3):
+    ultimo = ""
+    for intento in range(4):
         try:
-            r = _s.get(f"{BASE}/{path}/", params=p, headers=HEADERS, timeout=25)
+            r = _s.get(f"{BASE}/{path}/", params=p, headers=HEADERS, timeout=(6, 15))
             if r.status_code == 200:
                 return r.json()
-            print(f"[365] {path} -> HTTP {r.status_code}")
+            ultimo = f"HTTP {r.status_code}"
+            if r.status_code == 404:
+                break
         except (requests.RequestException, ValueError) as e:
-            print(f"[365] {path} error: {e}")
-        time.sleep(2 * (intento + 1))
+            ultimo = type(e).__name__
+        time.sleep(1.5 * 2 ** intento)       # 1.5 s, 3 s, 6 s
+    FALLOS += 1
+    print(f"[365] {path} no respondió tras 4 intentos ({ultimo})")
     return None
 
 
