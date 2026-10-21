@@ -369,43 +369,209 @@
    "partido": "Brujas vs Lens",
    "liga": "Europa, UEFA Champions League",
    "inicio": "2026-10-21T14:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1792605012.272811
+   "estado": "enviado",
+   "ultimo": 1792605257.506033,
+   "pierna": [
+    {
+     "gid": "4828449",
+     "partido": "Brujas vs Lens",
+     "texto": "No hay empate",
+     "clave": "DC||12",
+     "p": 0.7557,
+     "cuota": 1.22,
+     "casa": "Bet365",
+     "inicio": "2026-10-21T14:00:00-05:00"
+    },
+    {
+     "gid": "4828449",
+     "partido": "Brujas vs Lens",
+     "texto": "Brujas o empate",
+     "clave": "DC||1X",
+     "p": 0.7503,
+     "cuota": 1.25,
+     "casa": "Bet365",
+     "inicio": "2026-10-21T14:00:00-05:00"
+    },
+    {
+     "gid": "4828449",
+     "partido": "Brujas vs Lens",
+     "texto": "Más de 0.5 goles en el 1T",
+     "clave": "OU1T|0.5|over",
+     "p": 0.7419,
+     "cuota": 1.2,
+     "casa": "Bet365",
+     "inicio": "2026-10-21T14:00:00-05:00"
+    },
+    {
+     "gid": "4828449",
+     "partido": "Brujas vs Lens",
+     "texto": "Brujas recibe gol",
+     "clave": "CS||local_no",
+     "p": 0.694,
+     "cuota": 1.25,
+     "casa": "Bet365",
+     "inicio": "2026-10-21T14:00:00-05:00"
+    },
+    {
+     "gid": "4828449",
+     "partido": "Brujas vs Lens",
+     "texto": "Ambos marcan: Sí",
+     "clave": "BTTS||si",
+     "p": 0.5923,
+     "cuota": 1.4,
+     "casa": "Bet365",
+     "inicio": "2026-10-21T14:00:00-05:00"
+    },
+    {
+     "gid": "4828449",
+     "partido": "Brujas vs Lens",
+     "texto": "Más de 2.5 goles",
+     "clave": "OU|2.5|over",
+     "p": 0.5901,
+     "cuota": 1.4,
+     "casa": "Bet365",
+     "inicio": "2026-10-21T14:00:00-05:00"
+    }
+   ],
+   "xi": "347017,349116,505117,60973540,61767329,65280617,66680613,66693760,66693762,71890592,75535511|342805,533996,3049963,3180213,3424641,3590178,12231560,63090573,64944455,66384998,70796446",
+   "conf": true
   },
   "4828450": {
    "partido": "Bayern Munich vs Arsenal",
    "liga": "Europa, UEFA Champions League",
    "inicio": "2026-10-21T14:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792605012.4145336
+   "ultimo": 1792605258.5628114
   },
   "4828451": {
    "partido": "Real Madrid vs RB Leipzig",
    "liga": "Europa, UEFA Champions League",
    "inicio": "2026-10-21T14:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1792605012.5012157
+   "estado": "enviado",
+   "ultimo": 1792605258.6578114,
+   "pierna": [
+    {
+     "gid": "4828451",
+     "partido": "Real Madrid vs RB Leipzig",
+     "texto": "Gana Real Madrid",
+     "clave": "1X2||1",
+     "p": 0.6955,
+     "cuota": 1.22,
+     "casa": "Bet365",
+     "inicio": "2026-10-21T14:00:00-05:00"
+    }
+   ],
+   "xi": "211012,334865,384169,480721,1589889,3235657,16842003,46440257,61736514,63093096,67547634|565116,889605,3180934,4346740,8048881,50752875,58698523,59101484,61211738,62453007,67628271",
+   "conf": true
   },
   "4828452": {
    "partido": "Real Betis vs Feyenoord",
    "liga": "Europa, UEFA Champions League",
    "inicio": "2026-10-21T14:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1792605012.5836957
+   "estado": "enviado",
+   "ultimo": 1792605259.679701,
+   "pierna": [
+    {
+     "gid": "4828452",
+     "partido": "Real Betis vs Feyenoord",
+     "texto": "Más de 0.5 goles en el 1T",
+     "clave": "OU1T|0.5|over",
+     "p": 0.7754,
+     "cuota": 1.2,
+     "casa": "Bet365",
+     "inicio": "2026-10-21T14:00:00-05:00"
+    },
+    {
+     "gid": "4828452",
+     "partido": "Real Betis vs Feyenoord",
+     "texto": "Real Betis recibe gol",
+     "clave": "CS||local_no",
+     "p": 0.7322,
+     "cuota": 1.28,
+     "casa": "Bet365",
+     "inicio": "2026-10-21T14:00:00-05:00"
+    },
+    {
+     "gid": "4828452",
+     "partido": "Real Betis vs Feyenoord",
+     "texto": "Ambos marcan: Sí",
+     "clave": "BTTS||si",
+     "p": 0.6606,
+     "cuota": 1.4,
+     "casa": "Bet365",
+     "inicio": "2026-10-21T14:00:00-05:00"
+    },
+    {
+     "gid": "4828452",
+     "partido": "Real Betis vs Feyenoord",
+     "texto": "Más de 2.5 goles",
+     "clave": "OU|2.5|over",
+     "p": 0.6556,
+     "cuota": 1.4,
+     "casa": "Bet365",
+     "inicio": "2026-10-21T14:00:00-05:00"
+    }
+   ],
+   "xi": "106049,158746,435115,976812,3143139,6438371,18094605,30121643,46854548,50896962,62694855|608935,8866202,49625991,55334368,61322134,64780731,65226353,66449168,70767759,70880203,71401999",
+   "conf": true
   },
   "4828453": {
    "partido": "Inter Milan vs Shakhtar Donetsk",
    "liga": "Europa, UEFA Champions League",
    "inicio": "2026-10-21T14:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792605012.670624
+   "ultimo": 1792605260.5999784
   },
   "4828454": {
    "partido": "Aston Villa vs Viking",
    "liga": "Europa, UEFA Champions League",
    "inicio": "2026-10-21T14:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1792605012.7520297
+   "estado": "enviado",
+   "ultimo": 1792605260.6883972,
+   "pierna": [
+    {
+     "gid": "4828454",
+     "partido": "Aston Villa vs Viking",
+     "texto": "Más de 2.5 goles",
+     "clave": "OU|2.5|over",
+     "p": 0.6744,
+     "cuota": 1.25,
+     "casa": "Bet365",
+     "inicio": "2026-10-21T14:00:00-05:00"
+    },
+    {
+     "gid": "4828454",
+     "partido": "Aston Villa vs Viking",
+     "texto": "Gana Aston Villa",
+     "clave": "1X2||1",
+     "p": 0.6723,
+     "cuota": 1.25,
+     "casa": "Bet365",
+     "inicio": "2026-10-21T14:00:00-05:00"
+    },
+    {
+     "gid": "4828454",
+     "partido": "Aston Villa vs Viking",
+     "texto": "Aston Villa recibe gol",
+     "clave": "CS||local_no",
+     "p": 0.625,
+     "cuota": 1.5,
+     "casa": "Bet365",
+     "inicio": "2026-10-21T14:00:00-05:00"
+    },
+    {
+     "gid": "4828454",
+     "partido": "Aston Villa vs Viking",
+     "texto": "Ambos marcan: Sí",
+     "clave": "BTTS||si",
+     "p": 0.5876,
+     "cuota": 1.53,
+     "casa": "Bet365",
+     "inicio": "2026-10-21T14:00:00-05:00"
+    }
+   ],
+   "xi": "289556,327324,359032,501604,596221,3711904,4832569,46854554,52355416,74392670,75414393|498795,581735,3226815,9175607,12076407,17953805,47476276,48399376,49868872,58801579,72619034",
+   "conf": true
   },
   "4828455": {
    "partido": "Como vs Manchester United",
@@ -473,7 +639,7 @@
    "liga": "Europa, UEFA Champions League",
    "inicio": "2026-10-21T14:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792605012.8380582
+   "ultimo": 1792605261.7800448
   },
   "4828457": {
    "partido": "Lille vs Galatasaray",
