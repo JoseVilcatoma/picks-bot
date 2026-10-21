@@ -675,8 +675,8 @@
    "partido": "Como vs Manchester United",
    "liga": "Europa, UEFA Champions League",
    "inicio": "2026-10-21T11:45:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1792597690.947281,
+   "estado": "liquidado",
+   "ultimo": 1792608071.1349149,
    "pierna": [
     {
      "gid": "4828455",
@@ -730,7 +730,22 @@
     }
    ],
    "xi": "345756,550367,671186,40742145,43470743,49579899,56471954,64935156,65895085,66186532,70914728|332598,398065,435334,669066,1404172,3558647,5786329,6813762,6835961,50729542,65131542",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 4,
+    "ag": 1,
+    "ht": [
+     1,
+     0
+    ],
+    "corners": 5.0,
+    "corners_h": 1.0,
+    "corners_a": 4.0,
+    "corners_1t": 2.0,
+    "cards": 4.0,
+    "cards_h": 1.0,
+    "cards_a": 3.0
+   }
   },
   "4828456": {
    "partido": "Sporting CP vs LASK Linz",
@@ -787,8 +802,8 @@
    "partido": "Lille vs Galatasaray",
    "liga": "Europa, UEFA Champions League",
    "inicio": "2026-10-21T11:45:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1792597197.4084883,
+   "estado": "liquidado",
+   "ultimo": 1792608071.4290893,
    "pierna": [
     {
      "gid": "4828457",
@@ -852,7 +867,22 @@
     }
    ],
    "xi": "216415,445024,512926,3227707,50482968,58449710,58495051,60984745,67562585,75529803,77391776|481140,601998,843502,893771,911384,1086710,8687756,38456220,40808720,60875243,71673963",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 2,
+    "ag": 4,
+    "ht": [
+     2,
+     2
+    ],
+    "corners": 6.0,
+    "corners_h": 3.0,
+    "corners_a": 3.0,
+    "corners_1t": 1.0,
+    "cards": 4.0,
+    "cards_h": 3.0,
+    "cards_a": 1.0
+   }
   },
   "4828458": {
    "partido": "Liverpool vs Villarreal CF",
