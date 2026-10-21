@@ -1708,8 +1708,8 @@
    "partido": "Montevideo City Torque vs Atlético Mineiro",
    "liga": "Sudamerica, CONMEBOL Copa Sudamericana - Semifinales",
    "inicio": "2026-10-21T17:00:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1792616839.6666322,
+   "estado": "liquidado",
+   "ultimo": 1792627004.0792313,
    "pierna": [
     {
      "gid": "4858861",
@@ -1773,7 +1773,22 @@
     }
    ],
    "xi": "333862,516068,614741,3439310,3480237,47915693,50481285,52758161,65855447,67940110,71024051|87783,331101,518460,843611,3154559,3272094,15304246,53667285,60977794,65622503,67640814",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 2,
+    "ag": 0,
+    "ht": [
+     0,
+     0
+    ],
+    "corners": 10.0,
+    "corners_h": 9.0,
+    "corners_a": 1.0,
+    "corners_1t": 3.0,
+    "cards": 5.0,
+    "cards_h": 1.0,
+    "cards_a": 4.0
+   }
   },
   "4632631": {
    "partido": "Cruzeiro vs Remo",
