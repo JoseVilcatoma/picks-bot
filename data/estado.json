@@ -1637,8 +1637,72 @@
    "partido": "Palmeiras vs Fluminense",
    "liga": "Sudamerica, CONMEBOL Copa Libertadores - Semifinales",
    "inicio": "2026-10-21T19:30:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 0
+   "estado": "enviado",
+   "ultimo": 1792624579.501754,
+   "pierna": [
+    {
+     "gid": "4857350",
+     "partido": "Palmeiras vs Fluminense",
+     "texto": "Fluminense recibe gol",
+     "clave": "CS||visita_no",
+     "p": 0.783,
+     "cuota": 1.2,
+     "casa": "Bet365",
+     "inicio": "2026-10-21T19:30:00-05:00"
+    },
+    {
+     "gid": "4857350",
+     "partido": "Palmeiras vs Fluminense",
+     "texto": "Menos de 3.5 goles",
+     "clave": "OU|3.5|under",
+     "p": 0.783,
+     "cuota": 1.2,
+     "casa": "Bet365",
+     "inicio": "2026-10-21T19:30:00-05:00"
+    },
+    {
+     "gid": "4857350",
+     "partido": "Palmeiras vs Fluminense",
+     "texto": "No hay empate",
+     "clave": "DC||12",
+     "p": 0.7359,
+     "cuota": 1.29,
+     "casa": "Bet365",
+     "inicio": "2026-10-21T19:30:00-05:00"
+    },
+    {
+     "gid": "4857350",
+     "partido": "Palmeiras vs Fluminense",
+     "texto": "Menos de 1.5 goles en el 1T",
+     "clave": "OU1T|1.5|under",
+     "p": 0.7205,
+     "cuota": 1.3,
+     "casa": "Bet365",
+     "inicio": "2026-10-21T19:30:00-05:00"
+    },
+    {
+     "gid": "4857350",
+     "partido": "Palmeiras vs Fluminense",
+     "texto": "Más de 1.5 goles",
+     "clave": "OU|1.5|over",
+     "p": 0.6627,
+     "cuota": 1.4,
+     "casa": "Bet365",
+     "inicio": "2026-10-21T19:30:00-05:00"
+    },
+    {
+     "gid": "4857350",
+     "partido": "Palmeiras vs Fluminense",
+     "texto": "Más de 0.5 goles en el 1T",
+     "clave": "OU1T|0.5|over",
+     "p": 0.625,
+     "cuota": 1.5,
+     "casa": "Bet365",
+     "inicio": "2026-10-21T19:30:00-05:00"
+    }
+   ],
+   "xi": "334367,384001,552616,638801,659801,892506,3228073,5531840,54050192,65512282,66228710|28017,120107,279163,336354,430659,543186,554977,919758,2484221,3144702,64934362",
+   "conf": true
   },
   "4858861": {
    "partido": "Montevideo City Torque vs Atlético Mineiro",
