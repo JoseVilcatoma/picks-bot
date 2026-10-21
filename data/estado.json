@@ -583,8 +583,42 @@
    "partido": "Inter Milan vs Shakhtar Donetsk",
    "liga": "Europa, UEFA Champions League",
    "inicio": "2026-10-21T14:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1792605511.6360188
+   "estado": "enviado",
+   "ultimo": 1792605760.003141,
+   "pierna": [
+    {
+     "gid": "4828453",
+     "partido": "Inter Milan vs Shakhtar Donetsk",
+     "texto": "Gana Inter Milan",
+     "clave": "1X2||1",
+     "p": 0.7364,
+     "cuota": 1.25,
+     "casa": "Bet365",
+     "inicio": "2026-10-21T14:00:00-05:00"
+    },
+    {
+     "gid": "4828453",
+     "partido": "Inter Milan vs Shakhtar Donetsk",
+     "texto": "Más de 2.5 goles",
+     "clave": "OU|2.5|over",
+     "p": 0.687,
+     "cuota": 1.33,
+     "casa": "Bet365",
+     "inicio": "2026-10-21T14:00:00-05:00"
+    },
+    {
+     "gid": "4828453",
+     "partido": "Inter Milan vs Shakhtar Donetsk",
+     "texto": "Inter Milan recibe gol",
+     "clave": "CS||local_no",
+     "p": 0.589,
+     "cuota": 1.57,
+     "casa": "Bet365",
+     "inicio": "2026-10-21T14:00:00-05:00"
+    }
+   ],
+   "xi": "342428,458646,511549,598403,886858,3071407,3161656,6251312,43957321,52544831,67771832|886834,3263955,13285265,16515075,55162073,64319747,66226049,66334734,67685778,67895823,70282985",
+   "conf": true
   },
   "4828454": {
    "partido": "Aston Villa vs Viking",
