@@ -1220,8 +1220,72 @@
    "partido": "Levante UD vs Athletic Club",
    "liga": "España, LaLiga",
    "inicio": "2026-10-21T13:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1792602683.175581
+   "estado": "enviado",
+   "ultimo": 1792602927.1685762,
+   "pierna": [
+    {
+     "gid": "4750854",
+     "partido": "Levante UD vs Athletic Club",
+     "texto": "Menos de 3.5 goles",
+     "clave": "OU|3.5|under",
+     "p": 0.7292,
+     "cuota": 1.3,
+     "casa": "Bet365",
+     "inicio": "2026-10-21T13:00:00-05:00"
+    },
+    {
+     "gid": "4750854",
+     "partido": "Levante UD vs Athletic Club",
+     "texto": "Menos de 1.5 goles en el 1T",
+     "clave": "OU1T|1.5|under",
+     "p": 0.6881,
+     "cuota": 1.36,
+     "casa": "Bet365",
+     "inicio": "2026-10-21T13:00:00-05:00"
+    },
+    {
+     "gid": "4750854",
+     "partido": "Levante UD vs Athletic Club",
+     "texto": "Athletic Club o empate",
+     "clave": "DC||X2",
+     "p": 0.6752,
+     "cuota": 1.33,
+     "casa": "Bet365",
+     "inicio": "2026-10-21T13:00:00-05:00"
+    },
+    {
+     "gid": "4750854",
+     "partido": "Levante UD vs Athletic Club",
+     "texto": "No hay empate",
+     "clave": "DC||12",
+     "p": 0.6748,
+     "cuota": 1.36,
+     "casa": "Bet365",
+     "inicio": "2026-10-21T13:00:00-05:00"
+    },
+    {
+     "gid": "4750854",
+     "partido": "Levante UD vs Athletic Club",
+     "texto": "Levante UD recibe gol",
+     "clave": "CS||local_no",
+     "p": 0.6577,
+     "cuota": 1.25,
+     "casa": "Bet365",
+     "inicio": "2026-10-21T13:00:00-05:00"
+    },
+    {
+     "gid": "4750854",
+     "partido": "Levante UD vs Athletic Club",
+     "texto": "Athletic Club recibe gol",
+     "clave": "CS||visita_no",
+     "p": 0.6277,
+     "cuota": 1.44,
+     "casa": "Bet365",
+     "inicio": "2026-10-21T13:00:00-05:00"
+    }
+   ],
+   "xi": "308013,359945,512973,5329998,45578929,53282314,57920962,65824818,67917215,68022757,77357801|137290,330097,541584,641453,914591,987911,51188683,65561822,65769483,70943307,76993424",
+   "conf": true
   },
   "4828711": {
    "partido": "Viktoria Plzen vs Levski Sofia",

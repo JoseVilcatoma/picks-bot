@@ -1433,3 +1433,8 @@ fecha,game_id,partido,liga,tipo,mercado,clave,prob,cuota,casa,cuota_justa,ev,sta
 2026-10-21 10:48,4828455,Como vs Manchester United,"Europa, UEFA Champions League",modelo,Menos de 6.5 tarjetas,CARDS|6.5|under,0.7600,,,1.32,,,si,,
 2026-10-21 10:48,4828455,Como vs Manchester United,"Europa, UEFA Champions League",ticket,Ambos marcan: Sí + Más de 2.5 goles,BTTS||si&OU|2.5|over,0.4814,2.20,,2.08,0.0606,10.00,,,
 2026-10-21 10:48,4828455,Como vs Manchester United,"Europa, UEFA Champions League",crear,Más de 1.5 goles + Menos de 15.5 córners + Menos de 8.5 tarjetas,OU|1.5|over&CORN|15.5|under&CARDS|8.5|under,0.5313,,,1.88,,,,,
+2026-10-21 12:15,4750854,Levante UD vs Athletic Club,"España, LaLiga",seguro,Menos de 3.5 goles,OU|3.5|under,0.8240,1.30,Bet365,1.21,0.0712,,si,,
+2026-10-21 12:15,4750854,Levante UD vs Athletic Club,"España, LaLiga",seguro,Athletic Club o empate,DC||X2,0.6752,1.33,Bet365,1.48,-0.1020,,si,,
+2026-10-21 12:15,4750854,Levante UD vs Athletic Club,"España, LaLiga",modelo,Menos de 6.5 tarjetas,CARDS|6.5|under,0.7981,,,1.25,,,si,,
+2026-10-21 12:15,4750854,Levante UD vs Athletic Club,"España, LaLiga",modelo,Menos de 10.5 córners,CORN|10.5|under,0.7082,,,1.41,,,si,,
+2026-10-21 12:15,4750854,Levante UD vs Athletic Club,"España, LaLiga",crear,Más de 0.5 goles + Menos de 12.5 córners + Más de 0.5 tarjetas,OU|0.5|over&CORN|12.5|under&CARDS|0.5|over,0.5869,,,1.70,,,,,
