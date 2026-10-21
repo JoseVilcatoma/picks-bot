@@ -1250,8 +1250,8 @@
    "partido": "Levante UD vs Athletic Club",
    "liga": "España, LaLiga",
    "inicio": "2026-10-21T13:00:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1792612569.8988342,
+   "estado": "liquidado",
+   "ultimo": 1792613178.7247803,
    "pierna": [
     {
      "gid": "4750854",
@@ -1315,7 +1315,22 @@
     }
    ],
    "xi": "308013,359945,512973,5329998,45578929,53282314,57920962,65824818,67917215,68022757,77357801|137290,330097,541584,641453,914591,987911,51188683,65561822,65769483,70943307,76993424",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 3,
+    "ag": 1,
+    "ht": [
+     2,
+     0
+    ],
+    "corners": 12.0,
+    "corners_h": 3.0,
+    "corners_a": 9.0,
+    "corners_1t": 7.0,
+    "cards": 4.0,
+    "cards_h": 2.0,
+    "cards_a": 2.0
+   }
   },
   "4828711": {
    "partido": "Viktoria Plzen vs Levski Sofia",
