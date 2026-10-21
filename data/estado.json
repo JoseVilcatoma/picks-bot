@@ -497,8 +497,62 @@
    "partido": "Como vs Manchester United",
    "liga": "Europa, UEFA Champions League",
    "inicio": "2026-10-21T11:45:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1792597446.5592747
+   "estado": "enviado",
+   "ultimo": 1792597690.947281,
+   "pierna": [
+    {
+     "gid": "4828455",
+     "partido": "Como vs Manchester United",
+     "texto": "No hay empate",
+     "clave": "DC||12",
+     "p": 0.7342,
+     "cuota": 1.25,
+     "casa": "Bet365",
+     "inicio": "2026-10-21T11:45:00-05:00"
+    },
+    {
+     "gid": "4828455",
+     "partido": "Como vs Manchester United",
+     "texto": "Más de 0.5 goles en el 1T",
+     "clave": "OU1T|0.5|over",
+     "p": 0.724,
+     "cuota": 1.25,
+     "casa": "Bet365",
+     "inicio": "2026-10-21T11:45:00-05:00"
+    },
+    {
+     "gid": "4828455",
+     "partido": "Como vs Manchester United",
+     "texto": "Como o empate",
+     "clave": "DC||1X",
+     "p": 0.6261,
+     "cuota": 1.44,
+     "casa": "Bet365",
+     "inicio": "2026-10-21T11:45:00-05:00"
+    },
+    {
+     "gid": "4828455",
+     "partido": "Como vs Manchester United",
+     "texto": "Ambos marcan: Sí",
+     "clave": "BTTS||si",
+     "p": 0.5977,
+     "cuota": 1.44,
+     "casa": "Bet365",
+     "inicio": "2026-10-21T11:45:00-05:00"
+    },
+    {
+     "gid": "4828455",
+     "partido": "Como vs Manchester United",
+     "texto": "Más de 2.5 goles",
+     "clave": "OU|2.5|over",
+     "p": 0.5577,
+     "cuota": 1.53,
+     "casa": "Bet365",
+     "inicio": "2026-10-21T11:45:00-05:00"
+    }
+   ],
+   "xi": "345756,550367,671186,40742145,43470743,49579899,56471954,64935156,65895085,66186532,70914728|332598,398065,435334,669066,1404172,3558647,5786329,6813762,6835961,50729542,65131542",
+   "conf": true
   },
   "4828456": {
    "partido": "Sporting CP vs LASK Linz",
