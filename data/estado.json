@@ -440,8 +440,72 @@
    "partido": "Bayern Munich vs Arsenal",
    "liga": "Europa, UEFA Champions League",
    "inicio": "2026-10-21T14:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1792605258.5628114
+   "estado": "enviado",
+   "ultimo": 1792605510.46771,
+   "pierna": [
+    {
+     "gid": "4828450",
+     "partido": "Bayern Munich vs Arsenal",
+     "texto": "Bayern Munich recibe gol",
+     "clave": "CS||local_no",
+     "p": 0.7663,
+     "cuota": 1.22,
+     "casa": "Bet365",
+     "inicio": "2026-10-21T14:00:00-05:00"
+    },
+    {
+     "gid": "4828450",
+     "partido": "Bayern Munich vs Arsenal",
+     "texto": "No hay empate",
+     "clave": "DC||12",
+     "p": 0.7183,
+     "cuota": 1.29,
+     "casa": "Bet365",
+     "inicio": "2026-10-21T14:00:00-05:00"
+    },
+    {
+     "gid": "4828450",
+     "partido": "Bayern Munich vs Arsenal",
+     "texto": "Más de 0.5 goles en el 1T",
+     "clave": "OU1T|0.5|over",
+     "p": 0.6971,
+     "cuota": 1.29,
+     "casa": "Bet365",
+     "inicio": "2026-10-21T14:00:00-05:00"
+    },
+    {
+     "gid": "4828450",
+     "partido": "Bayern Munich vs Arsenal",
+     "texto": "Arsenal o empate",
+     "clave": "DC||X2",
+     "p": 0.61,
+     "cuota": 1.53,
+     "casa": "Bet365",
+     "inicio": "2026-10-21T14:00:00-05:00"
+    },
+    {
+     "gid": "4828450",
+     "partido": "Bayern Munich vs Arsenal",
+     "texto": "Arsenal +0.5 (hándicap)",
+     "clave": "AH|-0.5|visita",
+     "p": 0.6056,
+     "cuota": 1.55,
+     "casa": "Bet365",
+     "inicio": "2026-10-21T14:00:00-05:00"
+    },
+    {
+     "gid": "4828450",
+     "partido": "Bayern Munich vs Arsenal",
+     "texto": "Bayern Munich o empate",
+     "clave": "DC||1X",
+     "p": 0.5717,
+     "cuota": 1.4,
+     "casa": "Bet365",
+     "inicio": "2026-10-21T14:00:00-05:00"
+    }
+   ],
+   "xi": "80013,227604,405496,470279,898082,3095573,6450095,50607749,57861026,64744763,67864491|513371,537419,2985896,3055995,3070470,3071278,3373029,8024275,43390337,45211907,50424606",
+   "conf": true
   },
   "4828451": {
    "partido": "Real Madrid vs RB Leipzig",
@@ -520,7 +584,7 @@
    "liga": "Europa, UEFA Champions League",
    "inicio": "2026-10-21T14:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792605260.5999784
+   "ultimo": 1792605511.6360188
   },
   "4828454": {
    "partido": "Aston Villa vs Viking",
@@ -638,8 +702,52 @@
    "partido": "Sporting CP vs LASK Linz",
    "liga": "Europa, UEFA Champions League",
    "inicio": "2026-10-21T14:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1792605261.7800448
+   "estado": "enviado",
+   "ultimo": 1792605511.7494707,
+   "pierna": [
+    {
+     "gid": "4828456",
+     "partido": "Sporting CP vs LASK Linz",
+     "texto": "Más de 2.5 goles",
+     "clave": "OU|2.5|over",
+     "p": 0.7188,
+     "cuota": 1.33,
+     "casa": "Bet365",
+     "inicio": "2026-10-21T14:00:00-05:00"
+    },
+    {
+     "gid": "4828456",
+     "partido": "Sporting CP vs LASK Linz",
+     "texto": "Gana Sporting CP",
+     "clave": "1X2||1",
+     "p": 0.7152,
+     "cuota": 1.33,
+     "casa": "Bet365",
+     "inicio": "2026-10-21T14:00:00-05:00"
+    },
+    {
+     "gid": "4828456",
+     "partido": "Sporting CP vs LASK Linz",
+     "texto": "Sporting CP recibe gol",
+     "clave": "CS||local_no",
+     "p": 0.6453,
+     "cuota": 1.44,
+     "casa": "Bet365",
+     "inicio": "2026-10-21T14:00:00-05:00"
+    },
+    {
+     "gid": "4828456",
+     "partido": "Sporting CP vs LASK Linz",
+     "texto": "Ambos marcan: Sí",
+     "clave": "BTTS||si",
+     "p": 0.6087,
+     "cuota": 1.53,
+     "casa": "Bet365",
+     "inicio": "2026-10-21T14:00:00-05:00"
+    }
+   ],
+   "xi": "7244055,9157528,49491937,50072970,60677012,64317526,64656029,66850386,70860145,75430996,75529796|493197,663960,3554187,8166099,28685410,44018068,57569194,60938743,61768883,67816815,67839460",
+   "conf": true
   },
   "4828457": {
    "partido": "Lille vs Galatasaray",
