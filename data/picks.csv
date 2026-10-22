@@ -1682,3 +1682,9 @@ fecha,game_id,partido,liga,tipo,mercado,clave,prob,cuota,casa,cuota_justa,ev,sta
 2026-10-22 13:18,4828911,Monaco vs Friburgo,"Europa, UEFA Conference League",modelo,Menos de 10.5 córners,CORN|10.5|under,0.7267,,,1.38,,,si,P,
 2026-10-22 13:18,4828911,Monaco vs Friburgo,"Europa, UEFA Conference League",ticket,Monaco recibe gol + Friburgo o empate,CS||local_no&DC||X2,0.5340,2.04,,1.87,0.0900,10.00,,P,-10.00
 2026-10-22 13:18,4828911,Monaco vs Friburgo,"Europa, UEFA Conference League",crear,Menos de 4.5 goles + Más de 4.5 córners + Más de 0.5 tarjetas,OU|4.5|under&CORN|4.5|over&CARDS|0.5|over,0.5844,,,1.71,,,,G,
+2026-10-22 18:16,4858848,Flamengo vs Estudiantes de La Plata,"Sudamerica, CONMEBOL Copa Libertadores - Semifinales",seguro,Menos de 3.5 goles,OU|3.5|under,0.8297,1.20,Bet365,1.21,-0.0043,,si,,
+2026-10-22 18:16,4858848,Flamengo vs Estudiantes de La Plata,"Sudamerica, CONMEBOL Copa Libertadores - Semifinales",seguro,No hay empate,DC||12,0.7642,1.22,Bet365,1.31,-0.0677,,si,,
+2026-10-22 18:16,4858848,Flamengo vs Estudiantes de La Plata,"Sudamerica, CONMEBOL Copa Libertadores - Semifinales",modelo,Más de 2.5 tarjetas,CARDS|2.5|over,0.7362,,,1.36,,,si,,
+2026-10-22 18:16,4858848,Flamengo vs Estudiantes de La Plata,"Sudamerica, CONMEBOL Copa Libertadores - Semifinales",modelo,Menos de 12.5 córners,CORN|12.5|under,0.7356,,,1.36,,,si,,
+2026-10-22 18:16,4858848,Flamengo vs Estudiantes de La Plata,"Sudamerica, CONMEBOL Copa Libertadores - Semifinales",ticket,Menos de 3.5 goles + Ambos marcan: No,OU|3.5|under&BTTS||no,0.6382,1.80,,1.57,0.1488,10.00,,,
+2026-10-22 18:16,4858848,Flamengo vs Estudiantes de La Plata,"Sudamerica, CONMEBOL Copa Libertadores - Semifinales",crear,No hay empate + Menos de 3.5 goles + Menos de 15.5 córners,DC||12&OU|3.5|under&CORN|15.5|under,0.5309,,,1.88,,,,,
