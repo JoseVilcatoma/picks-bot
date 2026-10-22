@@ -1506,8 +1506,52 @@
    "partido": "Dinamo Zagreb vs N.E.C. Nijmegen",
    "liga": "Europa, UEFA Europa League",
    "inicio": "2026-10-22T11:45:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1792684027.4806826
+   "estado": "enviado",
+   "ultimo": 1792684281.9070928,
+   "pierna": [
+    {
+     "gid": "4828722",
+     "partido": "Dinamo Zagreb vs N.E.C. Nijmegen",
+     "texto": "Más de 0.5 goles en el 1T",
+     "clave": "OU1T|0.5|over",
+     "p": 0.7338,
+     "cuota": 1.25,
+     "casa": "Bet365",
+     "inicio": "2026-10-22T11:45:00-05:00"
+    },
+    {
+     "gid": "4828722",
+     "partido": "Dinamo Zagreb vs N.E.C. Nijmegen",
+     "texto": "Gana Dinamo Zagreb",
+     "clave": "1X2||1",
+     "p": 0.6175,
+     "cuota": 1.53,
+     "casa": "Bet365",
+     "inicio": "2026-10-22T11:45:00-05:00"
+    },
+    {
+     "gid": "4828722",
+     "partido": "Dinamo Zagreb vs N.E.C. Nijmegen",
+     "texto": "Dinamo Zagreb recibe gol",
+     "clave": "CS||local_no",
+     "p": 0.5985,
+     "cuota": 1.5,
+     "casa": "Bet365",
+     "inicio": "2026-10-22T11:45:00-05:00"
+    },
+    {
+     "gid": "4828722",
+     "partido": "Dinamo Zagreb vs N.E.C. Nijmegen",
+     "texto": "Más de 2.5 goles",
+     "clave": "OU|2.5|over",
+     "p": 0.5672,
+     "cuota": 1.57,
+     "casa": "Bet365",
+     "inicio": "2026-10-22T11:45:00-05:00"
+    }
+   ],
+   "xi": "485971,3685165,31270317,38249920,49516148,49539248,55540062,61677238,70789681,71046685,71531253|277817,394091,640285,2567417,35142231,49494494,50925295,65718561,66235862,70801363,77373192",
+   "conf": true
   },
   "4828723": {
    "partido": "Sturm Graz vs Olympique Marsella",
@@ -1748,7 +1792,7 @@
    "liga": "Europa, UEFA Europa League",
    "inicio": "2026-10-22T11:45:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792684029.6192477
+   "ultimo": 1792684282.9729972
   },
   "4828728": {
    "partido": "OFI Crete vs Bayer Leverkusen",
@@ -1842,14 +1886,14 @@
    "liga": "Europa, UEFA Conference League",
    "inicio": "2026-10-22T11:45:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792684030.262111
+   "ultimo": 1792684283.0215251
   },
   "4828915": {
    "partido": "Pafos FC vs Riga",
    "liga": "Europa, UEFA Conference League",
    "inicio": "2026-10-22T11:45:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792684030.3527372
+   "ultimo": 1792684283.0739727
   },
   "4828916": {
    "partido": "Inter Escaldes vs CS Universitatea Craiova",
@@ -1907,28 +1951,28 @@
    "liga": "Europa, UEFA Conference League",
    "inicio": "2026-10-22T11:45:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792684032.020288
+   "ultimo": 1792684283.1224473
   },
   "4828918": {
    "partido": "Kauno Zalgiris vs Brann",
    "liga": "Europa, UEFA Conference League",
    "inicio": "2026-10-22T11:45:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792684032.0727408
+   "ultimo": 1792684283.1799178
   },
   "4828919": {
    "partido": "FK Jablonec vs Brighton",
    "liga": "Europa, UEFA Conference League",
    "inicio": "2026-10-22T11:45:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792684032.1489327
+   "ultimo": 1792684283.2598784
   },
   "4828920": {
    "partido": "Estrella Roja Belgrado vs FC Copenhague",
    "liga": "Europa, UEFA Conference League",
    "inicio": "2026-10-22T11:45:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792684032.2007189
+   "ultimo": 1792684283.3163743
   },
   "4828921": {
    "partido": "FC Nordsjaelland vs CSKA Sofia",
@@ -1985,8 +2029,62 @@
    "partido": "FC Iberia 1999 vs Mjällby AIF",
    "liga": "Europa, UEFA Conference League",
    "inicio": "2026-10-22T11:45:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1792684033.596877
+   "estado": "enviado",
+   "ultimo": 1792684283.366231,
+   "pierna": [
+    {
+     "gid": "4828922",
+     "partido": "FC Iberia 1999 vs Mjällby AIF",
+     "texto": "Menos de 1.5 goles en el 1T",
+     "clave": "OU1T|1.5|under",
+     "p": 0.7096,
+     "cuota": 1.33,
+     "casa": "Bet365",
+     "inicio": "2026-10-22T11:45:00-05:00"
+    },
+    {
+     "gid": "4828922",
+     "partido": "FC Iberia 1999 vs Mjällby AIF",
+     "texto": "Menos de 3.5 goles",
+     "clave": "OU|3.5|under",
+     "p": 0.7096,
+     "cuota": 1.33,
+     "casa": "Bet365",
+     "inicio": "2026-10-22T11:45:00-05:00"
+    },
+    {
+     "gid": "4828922",
+     "partido": "FC Iberia 1999 vs Mjällby AIF",
+     "texto": "No hay empate",
+     "clave": "DC||12",
+     "p": 0.7041,
+     "cuota": 1.33,
+     "casa": "Bet365",
+     "inicio": "2026-10-22T11:45:00-05:00"
+    },
+    {
+     "gid": "4828922",
+     "partido": "FC Iberia 1999 vs Mjällby AIF",
+     "texto": "FC Iberia 1999 o empate",
+     "clave": "DC||1X",
+     "p": 0.6167,
+     "cuota": 1.53,
+     "casa": "Bet365",
+     "inicio": "2026-10-22T11:45:00-05:00"
+    },
+    {
+     "gid": "4828922",
+     "partido": "FC Iberia 1999 vs Mjällby AIF",
+     "texto": "FC Iberia 1999 +0.5 (hándicap)",
+     "clave": "AH|0.5|local",
+     "p": 0.6142,
+     "cuota": 1.52,
+     "casa": "Bet365",
+     "inicio": "2026-10-22T11:45:00-05:00"
+    }
+   ],
+   "xi": "244046,3136376,50159163,68098463,69482537,71522009,75385663,77037037,77096324,77112286,78037706|406746,16933345,33856001,51181200,56474433,58129534,65905279,66489376,67752257,71016853,77114753",
+   "conf": true
   },
   "4828923": {
    "partido": "Kairat Almaty vs Panathinaikos",
