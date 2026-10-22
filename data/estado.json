@@ -1803,8 +1803,8 @@
    "partido": "Union St. Gilloise vs Hapoel Beer Sheva",
    "liga": "Europa, UEFA Europa League",
    "inicio": "2026-10-22T11:45:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1792694454.138736,
+   "estado": "liquidado",
+   "ultimo": 1792695073.1416326,
    "pierna": [
     {
      "gid": "4828721",
@@ -1848,7 +1848,22 @@
     }
    ],
    "xi": "6428923,22310862,56077412,66271395,70813768,71882379,72768815,75259864,75440142,77654877,78318768|28491,516810,2957551,3131253,7659816,30150734,58253330,65089574,66319983,66614302,71323358",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 4,
+    "ag": 0,
+    "ht": [
+     1,
+     0
+    ],
+    "corners": 4.0,
+    "corners_h": 4.0,
+    "corners_a": 0.0,
+    "corners_1t": 2.0,
+    "cards": 5.0,
+    "cards_h": 2.0,
+    "cards_a": 3.0
+   }
   },
   "4828722": {
    "partido": "Dinamo Zagreb vs N.E.C. Nijmegen",
@@ -2062,8 +2077,8 @@
    "partido": "Juventus vs Rennes",
    "liga": "Europa, UEFA Europa League",
    "inicio": "2026-10-22T11:45:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1792694454.796809,
+   "estado": "liquidado",
+   "ultimo": 1792695073.403796,
    "pierna": [
     {
      "gid": "4828725",
@@ -2107,7 +2122,22 @@
     }
    ],
    "xi": "553143,3094565,3229380,3260720,3344568,3456444,3725457,4873827,40731942,52275621,61206789|259180,335306,489617,533912,2810327,8688144,9039245,51243145,51284167,71035001,76343359",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 2,
+    "ag": 2,
+    "ht": [
+     1,
+     2
+    ],
+    "corners": 12.0,
+    "corners_h": 7.0,
+    "corners_a": 5.0,
+    "corners_1t": 5.0,
+    "cards": 2.0,
+    "cards_h": 1.0,
+    "cards_a": 1.0
+   }
   },
   "4828726": {
    "partido": "FC Ararat-Armenia vs AZ Alkmaar",
@@ -2779,8 +2809,8 @@
    "partido": "Trabzonspor vs Hearts",
    "liga": "Europa, UEFA Conference League",
    "inicio": "2026-10-22T11:45:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1792694455.395759,
+   "estado": "liquidado",
+   "ultimo": 1792695073.548251,
    "pierna": [
     {
      "gid": "4828914",
@@ -2824,7 +2854,22 @@
     }
    ],
    "xi": "347901,612389,1858669,47164062,50854725,52332927,55063353,65471890,70796228,71360826,77464772|668972,3659142,15877878,49062755,50910524,67616238,68003324,70855302,75258843,77313271,77365650",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 2,
+    "ag": 0,
+    "ht": [
+     1,
+     0
+    ],
+    "corners": 7.0,
+    "corners_h": 6.0,
+    "corners_a": 1.0,
+    "corners_1t": 4.0,
+    "cards": 6.0,
+    "cards_h": 3.0,
+    "cards_a": 3.0
+   }
   },
   "4828915": {
    "partido": "Pafos FC vs Riga",
@@ -3236,8 +3281,8 @@
    "partido": "FC Nordsjaelland vs CSKA Sofia",
    "liga": "Europa, UEFA Conference League",
    "inicio": "2026-10-22T11:45:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1792694456.4075274,
+   "estado": "liquidado",
+   "ultimo": 1792695073.758722,
    "pierna": [
     {
      "gid": "4828921",
@@ -3281,7 +3326,22 @@
     }
    ],
    "xi": "3517524,25422288,38659971,43995204,52242860,58801387,71088302,75251267,76951442,76965023,77040713|471898,844352,918061,1553127,3261466,3575623,51484363,58229434,71899312,75375351,77783845",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 2,
+    "ag": 2,
+    "ht": [
+     0,
+     1
+    ],
+    "corners": 7.0,
+    "corners_h": 5.0,
+    "corners_a": 2.0,
+    "corners_1t": 2.0,
+    "cards": 9.0,
+    "cards_h": 5.0,
+    "cards_a": 4.0
+   }
   },
   "4828922": {
    "partido": "FC Iberia 1999 vs Mjällby AIF",
