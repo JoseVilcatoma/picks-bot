@@ -1919,8 +1919,52 @@
    "partido": "Trabzonspor vs Hearts",
    "liga": "Europa, UEFA Conference League",
    "inicio": "2026-10-22T11:45:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1792684784.2049818
+   "estado": "enviado",
+   "ultimo": 1792685028.215443,
+   "pierna": [
+    {
+     "gid": "4828914",
+     "partido": "Trabzonspor vs Hearts",
+     "texto": "Más de 0.5 goles en el 1T",
+     "clave": "OU1T|0.5|over",
+     "p": 0.7221,
+     "cuota": 1.2,
+     "casa": "Bet365",
+     "inicio": "2026-10-22T11:45:00-05:00"
+    },
+    {
+     "gid": "4828914",
+     "partido": "Trabzonspor vs Hearts",
+     "texto": "Gana Trabzonspor",
+     "clave": "1X2||1",
+     "p": 0.6479,
+     "cuota": 1.3,
+     "casa": "Bet365",
+     "inicio": "2026-10-22T11:45:00-05:00"
+    },
+    {
+     "gid": "4828914",
+     "partido": "Trabzonspor vs Hearts",
+     "texto": "Más de 2.5 goles",
+     "clave": "OU|2.5|over",
+     "p": 0.5588,
+     "cuota": 1.36,
+     "casa": "Bet365",
+     "inicio": "2026-10-22T11:45:00-05:00"
+    },
+    {
+     "gid": "4828914",
+     "partido": "Trabzonspor vs Hearts",
+     "texto": "Ambos marcan: Sí",
+     "clave": "BTTS||si",
+     "p": 0.5034,
+     "cuota": 1.62,
+     "casa": "Bet365",
+     "inicio": "2026-10-22T11:45:00-05:00"
+    }
+   ],
+   "xi": "347901,612389,1858669,47164062,50854725,52332927,55063353,65471890,70796228,71360826,77464772|668972,3659142,15877878,49062755,50910524,67616238,68003324,70855302,75258843,77313271,77365650",
+   "conf": true
   },
   "4828915": {
    "partido": "Pafos FC vs Riga",
@@ -2018,8 +2062,72 @@
    "partido": "Getafe CF vs FC Lugano",
    "liga": "Europa, UEFA Conference League",
    "inicio": "2026-10-22T11:45:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1792684784.3730114
+   "estado": "enviado",
+   "ultimo": 1792685029.1224194,
+   "pierna": [
+    {
+     "gid": "4828917",
+     "partido": "Getafe CF vs FC Lugano",
+     "texto": "Menos de 3.5 goles",
+     "clave": "OU|3.5|under",
+     "p": 0.7663,
+     "cuota": 1.22,
+     "casa": "Bet365",
+     "inicio": "2026-10-22T11:45:00-05:00"
+    },
+    {
+     "gid": "4828917",
+     "partido": "Getafe CF vs FC Lugano",
+     "texto": "Menos de 1.5 goles en el 1T",
+     "clave": "OU1T|1.5|under",
+     "p": 0.7234,
+     "cuota": 1.3,
+     "casa": "Bet365",
+     "inicio": "2026-10-22T11:45:00-05:00"
+    },
+    {
+     "gid": "4828917",
+     "partido": "Getafe CF vs FC Lugano",
+     "texto": "No hay empate",
+     "clave": "DC||12",
+     "p": 0.6834,
+     "cuota": 1.36,
+     "casa": "Bet365",
+     "inicio": "2026-10-22T11:45:00-05:00"
+    },
+    {
+     "gid": "4828917",
+     "partido": "Getafe CF vs FC Lugano",
+     "texto": "FC Lugano recibe gol",
+     "clave": "CS||visita_no",
+     "p": 0.6197,
+     "cuota": 1.22,
+     "casa": "Bet365",
+     "inicio": "2026-10-22T11:45:00-05:00"
+    },
+    {
+     "gid": "4828917",
+     "partido": "Getafe CF vs FC Lugano",
+     "texto": "Más de 1.5 goles",
+     "clave": "OU|1.5|over",
+     "p": 0.6064,
+     "cuota": 1.4,
+     "casa": "Bet365",
+     "inicio": "2026-10-22T11:45:00-05:00"
+    },
+    {
+     "gid": "4828917",
+     "partido": "Getafe CF vs FC Lugano",
+     "texto": "Más de 0.5 goles en el 1T",
+     "clave": "OU1T|0.5|over",
+     "p": 0.5912,
+     "cuota": 1.5,
+     "casa": "Bet365",
+     "inicio": "2026-10-22T11:45:00-05:00"
+    }
+   ],
+   "xi": "552743,656339,659807,914518,8712022,48233124,51552702,53029449,72053610,75411603,77382798|393371,470684,898444,3071295,3627551,50685666,55546056,60467214,63403575,66319800,71383542",
+   "conf": true
   },
   "4828918": {
    "partido": "Kauno Zalgiris vs Brann",
@@ -2076,15 +2184,39 @@
    "partido": "FK Jablonec vs Brighton",
    "liga": "Europa, UEFA Conference League",
    "inicio": "2026-10-22T11:45:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1792684784.4519079
+   "estado": "enviado",
+   "ultimo": 1792685029.9149892,
+   "pierna": [
+    {
+     "gid": "4828919",
+     "partido": "FK Jablonec vs Brighton",
+     "texto": "Más de 0.5 goles en el 1T",
+     "clave": "OU1T|0.5|over",
+     "p": 0.6835,
+     "cuota": 1.22,
+     "casa": "Bet365",
+     "inicio": "2026-10-22T11:45:00-05:00"
+    },
+    {
+     "gid": "4828919",
+     "partido": "FK Jablonec vs Brighton",
+     "texto": "Más de 2.5 goles",
+     "clave": "OU|2.5|over",
+     "p": 0.5038,
+     "cuota": 1.36,
+     "casa": "Bet365",
+     "inicio": "2026-10-22T11:45:00-05:00"
+    }
+   ],
+   "xi": "481652,535930,8551515,39608944,50194940,51032549,60932002,61003087,66423881,67660464,75258555|624429,891006,3462562,14450291,15399182,35002742,50058583,50684078,66592892,67751768,71092631",
+   "conf": true
   },
   "4828920": {
    "partido": "Estrella Roja Belgrado vs FC Copenhague",
    "liga": "Europa, UEFA Conference League",
    "inicio": "2026-10-22T11:45:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792684784.5082145
+   "ultimo": 1792685030.731389
   },
   "4828921": {
    "partido": "FC Nordsjaelland vs CSKA Sofia",
