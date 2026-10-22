@@ -1804,7 +1804,7 @@
    "liga": "Europa, UEFA Europa League",
    "inicio": "2026-10-22T11:45:00-05:00",
    "estado": "enviado",
-   "ultimo": 1792683534.2027783,
+   "ultimo": 1792694454.138736,
    "pierna": [
     {
      "gid": "4828721",
@@ -1854,8 +1854,8 @@
    "partido": "Dinamo Zagreb vs N.E.C. Nijmegen",
    "liga": "Europa, UEFA Europa League",
    "inicio": "2026-10-22T11:45:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1792684281.9070928,
+   "estado": "liquidado",
+   "ultimo": 1792694454.351637,
    "pierna": [
     {
      "gid": "4828722",
@@ -1899,14 +1899,29 @@
     }
    ],
    "xi": "485971,3685165,31270317,38249920,49516148,49539248,55540062,61677238,70789681,71046685,71531253|277817,394091,640285,2567417,35142231,49494494,50925295,65718561,66235862,70801363,77373192",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 2,
+    "ag": 4,
+    "ht": [
+     2,
+     2
+    ],
+    "corners": 7.0,
+    "corners_h": 5.0,
+    "corners_a": 2.0,
+    "corners_1t": 3.0,
+    "cards": 3.0,
+    "cards_h": 1.0,
+    "cards_a": 2.0
+   }
   },
   "4828723": {
    "partido": "Sturm Graz vs Olympique Marsella",
    "liga": "Europa, UEFA Europa League",
    "inicio": "2026-10-22T11:45:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1792684027.6761103,
+   "estado": "liquidado",
+   "ultimo": 1792694454.498973,
    "pierna": [
     {
      "gid": "4828723",
@@ -1960,14 +1975,29 @@
     }
    ],
    "xi": "528032,3519898,50548108,50585141,65156892,67182700,67763721,70934806,71125591,74081890,76842303|325472,328997,513169,3154243,4828912,8490982,12616002,61630362,72128122,77469153,77885631",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 1,
+    "ag": 0,
+    "ht": [
+     1,
+     0
+    ],
+    "corners": 6.0,
+    "corners_h": 2.0,
+    "corners_a": 4.0,
+    "corners_1t": 4.0,
+    "cards": 6.0,
+    "cards_h": 3.0,
+    "cards_a": 3.0
+   }
   },
   "4828724": {
    "partido": "Lech Poznan vs Sunderland",
    "liga": "Europa, UEFA Europa League",
    "inicio": "2026-10-22T11:45:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1792684028.3933268,
+   "estado": "liquidado",
+   "ultimo": 1792694454.6505787,
    "pierna": [
     {
      "gid": "4828724",
@@ -2011,14 +2041,29 @@
     }
    ],
    "xi": "179550,3059571,4874579,12409844,16353704,49915534,53264549,55252175,66473303,67639167,67843455|287803,435114,668457,1169903,58122452,59993290,64514449,65655970,75250608,75390596,77940839",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 1,
+    "ag": 1,
+    "ht": [
+     0,
+     1
+    ],
+    "corners": 9.0,
+    "corners_h": 3.0,
+    "corners_a": 6.0,
+    "corners_1t": 4.0,
+    "cards": 1.0,
+    "cards_h": 0.0,
+    "cards_a": 1.0
+   }
   },
   "4828725": {
    "partido": "Juventus vs Rennes",
    "liga": "Europa, UEFA Europa League",
    "inicio": "2026-10-22T11:45:00-05:00",
    "estado": "enviado",
-   "ultimo": 1792684029.048275,
+   "ultimo": 1792694454.796809,
    "pierna": [
     {
      "gid": "4828725",
@@ -2068,8 +2113,8 @@
    "partido": "FC Ararat-Armenia vs AZ Alkmaar",
    "liga": "Europa, UEFA Europa League",
    "inicio": "2026-10-22T11:45:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1792683536.2755778,
+   "estado": "liquidado",
+   "ultimo": 1792694454.8652709,
    "pierna": [
     {
      "gid": "4828726",
@@ -2133,14 +2178,29 @@
     }
    ],
    "xi": "440341,481238,897220,34446252,49517804,53803413,57183368,65519751,65840502,75430117,75439659|441798,3350252,60305265,61669015,63992917,64769252,65155411,66025729,67693833,71019775,77635655",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 0,
+    "ag": 4,
+    "ht": [
+     0,
+     2
+    ],
+    "corners": 11.0,
+    "corners_h": 5.0,
+    "corners_a": 6.0,
+    "corners_1t": 3.0,
+    "cards": 2.0,
+    "cards_h": 2.0,
+    "cards_a": 0.0
+   }
   },
   "4828727": {
    "partido": "Ferencvaros vs Torreense",
    "liga": "Europa, UEFA Europa League",
    "inicio": "2026-10-22T11:45:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1792684531.8521006,
+   "estado": "liquidado",
+   "ultimo": 1792694455.0352883,
    "pierna": [
     {
      "gid": "4828727",
@@ -2174,14 +2234,29 @@
     }
    ],
    "xi": "366446,387256,494280,1132809,4930944,47391347,57831054,59957431,61185914,68659348,77101373|513735,4805218,47660550,61063223,66504027,67352323,67918750,71170858,75254410,75400290,76812833",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 4,
+    "ag": 1,
+    "ht": [
+     1,
+     1
+    ],
+    "corners": 11.0,
+    "corners_h": 7.0,
+    "corners_a": 4.0,
+    "corners_1t": 5.0,
+    "cards": 6.0,
+    "cards_h": 4.0,
+    "cards_a": 2.0
+   }
   },
   "4828728": {
    "partido": "OFI Crete vs Bayer Leverkusen",
    "liga": "Europa, UEFA Europa League",
    "inicio": "2026-10-22T11:45:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1792684029.6694357,
+   "estado": "liquidado",
+   "ultimo": 1792694455.2405312,
    "pierna": [
     {
      "gid": "4828728",
@@ -2205,7 +2280,22 @@
     }
    ],
    "xi": "367286,435191,599610,924996,3139150,4874925,14627682,51982992,55323393,70900145,70995273|334863,342440,511863,529388,613840,7180298,50204547,50413540,56555504,63792363,67787322",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 0,
+    "ag": 2,
+    "ht": [
+     0,
+     2
+    ],
+    "corners": 15.0,
+    "corners_h": 5.0,
+    "corners_a": 10.0,
+    "corners_1t": 6.0,
+    "cards": 4.0,
+    "cards_h": 1.0,
+    "cards_a": 3.0
+   }
   },
   "4828906": {
    "partido": "SC Braga vs KAA Gent",
@@ -2690,7 +2780,7 @@
    "liga": "Europa, UEFA Conference League",
    "inicio": "2026-10-22T11:45:00-05:00",
    "estado": "enviado",
-   "ultimo": 1792685028.215443,
+   "ultimo": 1792694455.395759,
    "pierna": [
     {
      "gid": "4828914",
@@ -2740,8 +2830,8 @@
    "partido": "Pafos FC vs Riga",
    "liga": "Europa, UEFA Conference League",
    "inicio": "2026-10-22T11:45:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1792684533.9042544,
+   "estado": "liquidado",
+   "ultimo": 1792694455.4546506,
    "pierna": [
     {
      "gid": "4828915",
@@ -2775,14 +2865,29 @@
     }
    ],
    "xi": "74248,165006,476850,515142,529283,3143985,3263502,30803776,52301630,63136336,75403134|3183323,14849066,59825327,62814345,66828033,67843639,68018256,69753556,70809914,70873508,74975380",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 1,
+    "ag": 1,
+    "ht": [
+     0,
+     0
+    ],
+    "corners": 14.0,
+    "corners_h": 10.0,
+    "corners_a": 4.0,
+    "corners_1t": 2.0,
+    "cards": 3.0,
+    "cards_h": 2.0,
+    "cards_a": 1.0
+   }
   },
   "4828916": {
    "partido": "Inter Escaldes vs CS Universitatea Craiova",
    "liga": "Europa, UEFA Conference League",
    "inicio": "2026-10-22T11:45:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1792684030.409365,
+   "estado": "liquidado",
+   "ultimo": 1792694455.6122143,
    "pierna": [
     {
      "gid": "4828916",
@@ -2826,14 +2931,29 @@
     }
    ],
    "xi": "15557610,70016025,70206094,70206095,70206096,75228215,75235504,78063976,78067422,78067424,78770235|566656,889634,1206582,3070083,10207848,49634941,51140469,60366309,64925558,66285292,70761610",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 1,
+    "ag": 3,
+    "ht": [
+     0,
+     2
+    ],
+    "corners": 9.0,
+    "corners_h": 3.0,
+    "corners_a": 6.0,
+    "corners_1t": 4.0,
+    "cards": 2.0,
+    "cards_h": 1.0,
+    "cards_a": 1.0
+   }
   },
   "4828917": {
    "partido": "Getafe CF vs FC Lugano",
    "liga": "Europa, UEFA Conference League",
    "inicio": "2026-10-22T11:45:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1792685029.1224194,
+   "estado": "liquidado",
+   "ultimo": 1792694455.7826478,
    "pierna": [
     {
      "gid": "4828917",
@@ -2897,14 +3017,29 @@
     }
    ],
    "xi": "552743,656339,659807,914518,8712022,48233124,51552702,53029449,72053610,75411603,77382798|393371,470684,898444,3071295,3627551,50685666,55546056,60467214,63403575,66319800,71383542",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 2,
+    "ag": 5,
+    "ht": [
+     1,
+     3
+    ],
+    "corners": 17.0,
+    "corners_h": 15.0,
+    "corners_a": 2.0,
+    "corners_1t": 8.0,
+    "cards": 6.0,
+    "cards_h": 1.0,
+    "cards_a": 5.0
+   }
   },
   "4828918": {
    "partido": "Kauno Zalgiris vs Brann",
    "liga": "Europa, UEFA Conference League",
    "inicio": "2026-10-22T11:45:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1792684535.2939334,
+   "estado": "liquidado",
+   "ultimo": 1792694455.9312942,
    "pierna": [
     {
      "gid": "4828918",
@@ -2948,14 +3083,29 @@
     }
    ],
    "xi": "404719,526913,588494,31626905,48168517,50454077,50548080,50684401,68079275,77772216,77772241|592223,3195483,15579689,16052227,58801589,59020587,61361112,61406280,64728519,68056381,71341362",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 1,
+    "ag": 4,
+    "ht": [
+     1,
+     3
+    ],
+    "corners": 5.0,
+    "corners_h": 1.0,
+    "corners_a": 4.0,
+    "corners_1t": 3.0,
+    "cards": 6.0,
+    "cards_h": 5.0,
+    "cards_a": 1.0
+   }
   },
   "4828919": {
    "partido": "FK Jablonec vs Brighton",
    "liga": "Europa, UEFA Conference League",
    "inicio": "2026-10-22T11:45:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1792685029.9149892,
+   "estado": "liquidado",
+   "ultimo": 1792694456.0890107,
    "pierna": [
     {
      "gid": "4828919",
@@ -2979,14 +3129,29 @@
     }
    ],
    "xi": "481652,535930,8551515,39608944,50194940,51032549,60932002,61003087,66423881,67660464,75258555|624429,891006,3462562,14450291,15399182,35002742,50058583,50684078,66592892,67751768,71092631",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 0,
+    "ag": 0,
+    "ht": [
+     0,
+     0
+    ],
+    "corners": 9.0,
+    "corners_h": 2.0,
+    "corners_a": 7.0,
+    "corners_1t": 3.0,
+    "cards": 5.0,
+    "cards_h": 4.0,
+    "cards_a": 1.0
+   }
   },
   "4828920": {
    "partido": "Estrella Roja Belgrado vs FC Copenhague",
    "liga": "Europa, UEFA Conference League",
    "inicio": "2026-10-22T11:45:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1792685158.0092306,
+   "estado": "liquidado",
+   "ultimo": 1792694456.2478478,
    "pierna": [
     {
      "gid": "4828920",
@@ -3050,14 +3215,29 @@
     }
    ],
    "xi": "117757,548570,3051960,3527023,13420232,55500534,61072425,70775503,76946286,77387197,77387198|288281,298935,435691,567538,639671,57688527,57726142,67747944,68070314,71088016,71370747",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 2,
+    "ag": 2,
+    "ht": [
+     2,
+     1
+    ],
+    "corners": 10.0,
+    "corners_h": 4.0,
+    "corners_a": 6.0,
+    "corners_1t": 5.0,
+    "cards": 5.0,
+    "cards_h": 3.0,
+    "cards_a": 2.0
+   }
   },
   "4828921": {
    "partido": "FC Nordsjaelland vs CSKA Sofia",
    "liga": "Europa, UEFA Conference League",
    "inicio": "2026-10-22T11:45:00-05:00",
    "estado": "enviado",
-   "ultimo": 1792684032.2502668,
+   "ultimo": 1792694456.4075274,
    "pierna": [
     {
      "gid": "4828921",
@@ -3107,8 +3287,8 @@
    "partido": "FC Iberia 1999 vs Mjällby AIF",
    "liga": "Europa, UEFA Conference League",
    "inicio": "2026-10-22T11:45:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1792684283.366231,
+   "estado": "liquidado",
+   "ultimo": 1792694456.468602,
    "pierna": [
     {
      "gid": "4828922",
@@ -3162,7 +3342,22 @@
     }
    ],
    "xi": "244046,3136376,50159163,68098463,69482537,71522009,75385663,77037037,77096324,77112286,78037706|406746,16933345,33856001,51181200,56474433,58129534,65905279,66489376,67752257,71016853,77114753",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 1,
+    "ag": 1,
+    "ht": [
+     0,
+     0
+    ],
+    "corners": 9.0,
+    "corners_h": 2.0,
+    "corners_a": 7.0,
+    "corners_1t": 5.0,
+    "cards": 8.0,
+    "cards_h": 5.0,
+    "cards_a": 3.0
+   }
   },
   "4828923": {
    "partido": "Kairat Almaty vs Panathinaikos",
