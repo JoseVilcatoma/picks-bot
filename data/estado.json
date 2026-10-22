@@ -1732,8 +1732,72 @@
    "partido": "Celtic vs Celta de Vigo",
    "liga": "Europa, UEFA Europa League",
    "inicio": "2026-10-22T14:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1792692362.8310356
+   "estado": "enviado",
+   "ultimo": 1792692613.302054,
+   "pierna": [
+    {
+     "gid": "4828720",
+     "partido": "Celtic vs Celta de Vigo",
+     "texto": "Más de 1.5 goles",
+     "clave": "OU|1.5|over",
+     "p": 0.7885,
+     "cuota": 1.2,
+     "casa": "Bet365",
+     "inicio": "2026-10-22T14:00:00-05:00"
+    },
+    {
+     "gid": "4828720",
+     "partido": "Celtic vs Celta de Vigo",
+     "texto": "Celta de Vigo recibe gol",
+     "clave": "CS||visita_no",
+     "p": 0.75,
+     "cuota": 1.25,
+     "casa": "Bet365",
+     "inicio": "2026-10-22T14:00:00-05:00"
+    },
+    {
+     "gid": "4828720",
+     "partido": "Celtic vs Celta de Vigo",
+     "texto": "Celtic recibe gol",
+     "clave": "CS||local_no",
+     "p": 0.7427,
+     "cuota": 1.22,
+     "casa": "Bet365",
+     "inicio": "2026-10-22T14:00:00-05:00"
+    },
+    {
+     "gid": "4828720",
+     "partido": "Celtic vs Celta de Vigo",
+     "texto": "No hay empate",
+     "clave": "DC||12",
+     "p": 0.7234,
+     "cuota": 1.29,
+     "casa": "Bet365",
+     "inicio": "2026-10-22T14:00:00-05:00"
+    },
+    {
+     "gid": "4828720",
+     "partido": "Celtic vs Celta de Vigo",
+     "texto": "Más de 0.5 goles en el 1T",
+     "clave": "OU1T|0.5|over",
+     "p": 0.7234,
+     "cuota": 1.3,
+     "casa": "Bet365",
+     "inicio": "2026-10-22T14:00:00-05:00"
+    },
+    {
+     "gid": "4828720",
+     "partido": "Celtic vs Celta de Vigo",
+     "texto": "Celtic o empate",
+     "clave": "DC||1X",
+     "p": 0.6666,
+     "cuota": 1.4,
+     "casa": "Bet365",
+     "inicio": "2026-10-22T14:00:00-05:00"
+    }
+   ],
+   "xi": "365347,376772,656203,10355060,29385491,58254097,62814887,66717369,75233698,75439985,76530932|239183,285669,889139,3483114,4232616,51680202,61322133,64152922,71060391,72695371,77550718",
+   "conf": true
   },
   "4828721": {
    "partido": "Union St. Gilloise vs Hapoel Beer Sheva",
@@ -2220,7 +2284,7 @@
    "liga": "Europa, UEFA Conference League",
    "inicio": "2026-10-22T14:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792692363.848961
+   "ultimo": 1792692613.9660113
   },
   "4828909": {
    "partido": "FC Thun vs HNK Hajduk Split",
@@ -2369,7 +2433,7 @@
    "liga": "Europa, UEFA Conference League",
    "inicio": "2026-10-22T14:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792692363.9010649
+   "ultimo": 1792692614.0271602
   },
   "4828912": {
    "partido": "Aarhus vs KF Egnatia",
@@ -2426,8 +2490,72 @@
    "partido": "Ajax vs Atalanta",
    "liga": "Europa, UEFA Conference League",
    "inicio": "2026-10-22T14:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1792692363.956386
+   "estado": "enviado",
+   "ultimo": 1792692614.090187,
+   "pierna": [
+    {
+     "gid": "4828913",
+     "partido": "Ajax vs Atalanta",
+     "texto": "No hay empate",
+     "clave": "DC||12",
+     "p": 0.7509,
+     "cuota": 1.25,
+     "casa": "Bet365",
+     "inicio": "2026-10-22T14:00:00-05:00"
+    },
+    {
+     "gid": "4828913",
+     "partido": "Ajax vs Atalanta",
+     "texto": "Más de 0.5 goles en el 1T",
+     "clave": "OU1T|0.5|over",
+     "p": 0.7429,
+     "cuota": 1.22,
+     "casa": "Bet365",
+     "inicio": "2026-10-22T14:00:00-05:00"
+    },
+    {
+     "gid": "4828913",
+     "partido": "Ajax vs Atalanta",
+     "texto": "Ajax o empate",
+     "clave": "DC||1X",
+     "p": 0.7276,
+     "cuota": 1.29,
+     "casa": "Bet365",
+     "inicio": "2026-10-22T14:00:00-05:00"
+    },
+    {
+     "gid": "4828913",
+     "partido": "Ajax vs Atalanta",
+     "texto": "Ajax recibe gol",
+     "clave": "CS||local_no",
+     "p": 0.655,
+     "cuota": 1.22,
+     "casa": "Bet365",
+     "inicio": "2026-10-22T14:00:00-05:00"
+    },
+    {
+     "gid": "4828913",
+     "partido": "Ajax vs Atalanta",
+     "texto": "Más de 2.5 goles",
+     "clave": "OU|2.5|over",
+     "p": 0.6037,
+     "cuota": 1.4,
+     "casa": "Bet365",
+     "inicio": "2026-10-22T14:00:00-05:00"
+    },
+    {
+     "gid": "4828913",
+     "partido": "Ajax vs Atalanta",
+     "texto": "Ambos marcan: Sí",
+     "clave": "BTTS||si",
+     "p": 0.5724,
+     "cuota": 1.4,
+     "casa": "Bet365",
+     "inicio": "2026-10-22T14:00:00-05:00"
+    }
+   ],
+   "xi": "286053,391254,447669,571346,3071448,50413381,53845795,64807494,66805143,71001448,72470745|408094,2036121,3071408,3086707,9589510,12643461,12655232,15242890,26803259,55165603,75535353",
+   "conf": true
   },
   "4828914": {
    "partido": "Trabzonspor vs Hearts",
