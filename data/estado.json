@@ -1733,7 +1733,7 @@
    "liga": "Europa, UEFA Europa League",
    "inicio": "2026-10-22T14:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792692108.2429225
+   "ultimo": 1792692362.8310356
   },
   "4828721": {
    "partido": "Union St. Gilloise vs Hapoel Beer Sheva",
@@ -2147,8 +2147,52 @@
    "partido": "SC Braga vs KAA Gent",
    "liga": "Europa, UEFA Conference League",
    "inicio": "2026-10-22T14:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1792692108.296871
+   "estado": "enviado",
+   "ultimo": 1792692363.0432842,
+   "pierna": [
+    {
+     "gid": "4828906",
+     "partido": "SC Braga vs KAA Gent",
+     "texto": "Menos de 3.5 goles",
+     "clave": "OU|3.5|under",
+     "p": 0.7663,
+     "cuota": 1.22,
+     "casa": "Bet365",
+     "inicio": "2026-10-22T14:00:00-05:00"
+    },
+    {
+     "gid": "4828906",
+     "partido": "SC Braga vs KAA Gent",
+     "texto": "No hay empate",
+     "clave": "DC||12",
+     "p": 0.7147,
+     "cuota": 1.29,
+     "casa": "Bet365",
+     "inicio": "2026-10-22T14:00:00-05:00"
+    },
+    {
+     "gid": "4828906",
+     "partido": "SC Braga vs KAA Gent",
+     "texto": "Menos de 1.5 goles en el 1T",
+     "clave": "OU1T|1.5|under",
+     "p": 0.7096,
+     "cuota": 1.33,
+     "casa": "Bet365",
+     "inicio": "2026-10-22T14:00:00-05:00"
+    },
+    {
+     "gid": "4828906",
+     "partido": "SC Braga vs KAA Gent",
+     "texto": "Menos de 2.5 goles",
+     "clave": "OU|2.5|under",
+     "p": 0.5714,
+     "cuota": 1.65,
+     "casa": "Bet365",
+     "inicio": "2026-10-22T14:00:00-05:00"
+    }
+   ],
+   "xi": "100802,358706,39367800,49552691,50385705,50413538,58255524,61880538,62356488,70796241,75422026|441637,529618,50196876,51218728,55263647,57014364,61039848,67748901,71337718,77011972,77753429",
+   "conf": true
   },
   "4828907": {
    "partido": "Lincoln Red Imps vs Twente",
@@ -2176,7 +2220,7 @@
    "liga": "Europa, UEFA Conference League",
    "inicio": "2026-10-22T14:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792692110.8892422
+   "ultimo": 1792692363.848961
   },
   "4828909": {
    "partido": "FC Thun vs HNK Hajduk Split",
@@ -2325,7 +2369,7 @@
    "liga": "Europa, UEFA Conference League",
    "inicio": "2026-10-22T14:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792692111.9590242
+   "ultimo": 1792692363.9010649
   },
   "4828912": {
    "partido": "Aarhus vs KF Egnatia",
@@ -2383,7 +2427,7 @@
    "liga": "Europa, UEFA Conference League",
    "inicio": "2026-10-22T14:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792692112.0506938
+   "ultimo": 1792692363.956386
   },
   "4828914": {
    "partido": "Trabzonspor vs Hearts",
