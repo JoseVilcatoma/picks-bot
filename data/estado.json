@@ -1507,28 +1507,170 @@
    "liga": "Europa, UEFA Europa League",
    "inicio": "2026-10-22T11:45:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792683781.9746819
+   "ultimo": 1792684027.4806826
   },
   "4828723": {
    "partido": "Sturm Graz vs Olympique Marsella",
    "liga": "Europa, UEFA Europa League",
    "inicio": "2026-10-22T11:45:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1792683782.16266
+   "estado": "enviado",
+   "ultimo": 1792684027.6761103,
+   "pierna": [
+    {
+     "gid": "4828723",
+     "partido": "Sturm Graz vs Olympique Marsella",
+     "texto": "No hay empate",
+     "clave": "DC||12",
+     "p": 0.7244,
+     "cuota": 1.29,
+     "casa": "Bet365",
+     "inicio": "2026-10-22T11:45:00-05:00"
+    },
+    {
+     "gid": "4828723",
+     "partido": "Sturm Graz vs Olympique Marsella",
+     "texto": "Más de 0.5 goles en el 1T",
+     "clave": "OU1T|0.5|over",
+     "p": 0.7114,
+     "cuota": 1.25,
+     "casa": "Bet365",
+     "inicio": "2026-10-22T11:45:00-05:00"
+    },
+    {
+     "gid": "4828723",
+     "partido": "Sturm Graz vs Olympique Marsella",
+     "texto": "Olympique Marsella recibe gol",
+     "clave": "CS||visita_no",
+     "p": 0.6881,
+     "cuota": 1.36,
+     "casa": "Bet365",
+     "inicio": "2026-10-22T11:45:00-05:00"
+    },
+    {
+     "gid": "4828723",
+     "partido": "Sturm Graz vs Olympique Marsella",
+     "texto": "Ambos marcan: Sí",
+     "clave": "BTTS||si",
+     "p": 0.5643,
+     "cuota": 1.5,
+     "casa": "Bet365",
+     "inicio": "2026-10-22T11:45:00-05:00"
+    },
+    {
+     "gid": "4828723",
+     "partido": "Sturm Graz vs Olympique Marsella",
+     "texto": "Más de 2.5 goles",
+     "clave": "OU|2.5|over",
+     "p": 0.5339,
+     "cuota": 1.53,
+     "casa": "Bet365",
+     "inicio": "2026-10-22T11:45:00-05:00"
+    }
+   ],
+   "xi": "528032,3519898,50548108,50585141,65156892,67182700,67763721,70934806,71125591,74081890,76842303|325472,328997,513169,3154243,4828912,8490982,12616002,61630362,72128122,77469153,77885631",
+   "conf": true
   },
   "4828724": {
    "partido": "Lech Poznan vs Sunderland",
    "liga": "Europa, UEFA Europa League",
    "inicio": "2026-10-22T11:45:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1792683782.2111611
+   "estado": "enviado",
+   "ultimo": 1792684028.3933268,
+   "pierna": [
+    {
+     "gid": "4828724",
+     "partido": "Lech Poznan vs Sunderland",
+     "texto": "Más de 1.5 goles",
+     "clave": "OU|1.5|over",
+     "p": 0.7289,
+     "cuota": 1.22,
+     "casa": "Bet365",
+     "inicio": "2026-10-22T11:45:00-05:00"
+    },
+    {
+     "gid": "4828724",
+     "partido": "Lech Poznan vs Sunderland",
+     "texto": "No hay empate",
+     "clave": "DC||12",
+     "p": 0.7264,
+     "cuota": 1.25,
+     "casa": "Bet365",
+     "inicio": "2026-10-22T11:45:00-05:00"
+    },
+    {
+     "gid": "4828724",
+     "partido": "Lech Poznan vs Sunderland",
+     "texto": "Más de 0.5 goles en el 1T",
+     "clave": "OU1T|0.5|over",
+     "p": 0.683,
+     "cuota": 1.3,
+     "casa": "Bet365",
+     "inicio": "2026-10-22T11:45:00-05:00"
+    },
+    {
+     "gid": "4828724",
+     "partido": "Lech Poznan vs Sunderland",
+     "texto": "Sunderland recibe gol",
+     "clave": "CS||visita_no",
+     "p": 0.625,
+     "cuota": 1.5,
+     "casa": "Bet365",
+     "inicio": "2026-10-22T11:45:00-05:00"
+    }
+   ],
+   "xi": "179550,3059571,4874579,12409844,16353704,49915534,53264549,55252175,66473303,67639167,67843455|287803,435114,668457,1169903,58122452,59993290,64514449,65655970,75250608,75390596,77940839",
+   "conf": true
   },
   "4828725": {
    "partido": "Juventus vs Rennes",
    "liga": "Europa, UEFA Europa League",
    "inicio": "2026-10-22T11:45:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1792683782.2624013
+   "estado": "enviado",
+   "ultimo": 1792684029.048275,
+   "pierna": [
+    {
+     "gid": "4828725",
+     "partido": "Juventus vs Rennes",
+     "texto": "Más de 0.5 goles en el 1T",
+     "clave": "OU1T|0.5|over",
+     "p": 0.6649,
+     "cuota": 1.29,
+     "casa": "Bet365",
+     "inicio": "2026-10-22T11:45:00-05:00"
+    },
+    {
+     "gid": "4828725",
+     "partido": "Juventus vs Rennes",
+     "texto": "Gana Juventus",
+     "clave": "1X2||1",
+     "p": 0.6189,
+     "cuota": 1.42,
+     "casa": "Bet365",
+     "inicio": "2026-10-22T11:45:00-05:00"
+    },
+    {
+     "gid": "4828725",
+     "partido": "Juventus vs Rennes",
+     "texto": "Juventus recibe gol",
+     "clave": "CS||local_no",
+     "p": 0.5091,
+     "cuota": 1.62,
+     "casa": "Bet365",
+     "inicio": "2026-10-22T11:45:00-05:00"
+    },
+    {
+     "gid": "4828725",
+     "partido": "Juventus vs Rennes",
+     "texto": "Más de 2.5 goles",
+     "clave": "OU|2.5|over",
+     "p": 0.4519,
+     "cuota": 1.62,
+     "casa": "Bet365",
+     "inicio": "2026-10-22T11:45:00-05:00"
+    }
+   ],
+   "xi": "553143,3094565,3229380,3260720,3344568,3456444,3725457,4873827,40731942,52275621,61206789|259180,335306,489617,533912,2810327,8688144,9039245,51243145,51284167,71035001,76343359",
+   "conf": true
   },
   "4828726": {
    "partido": "FC Ararat-Armenia vs AZ Alkmaar",
@@ -1606,14 +1748,38 @@
    "liga": "Europa, UEFA Europa League",
    "inicio": "2026-10-22T11:45:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792683782.3145878
+   "ultimo": 1792684029.6192477
   },
   "4828728": {
    "partido": "OFI Crete vs Bayer Leverkusen",
    "liga": "Europa, UEFA Europa League",
    "inicio": "2026-10-22T11:45:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1792683782.36628
+   "estado": "enviado",
+   "ultimo": 1792684029.6694357,
+   "pierna": [
+    {
+     "gid": "4828728",
+     "partido": "OFI Crete vs Bayer Leverkusen",
+     "texto": "Gana Bayer Leverkusen",
+     "clave": "1X2||2",
+     "p": 0.6986,
+     "cuota": 1.2,
+     "casa": "Bet365",
+     "inicio": "2026-10-22T11:45:00-05:00"
+    },
+    {
+     "gid": "4828728",
+     "partido": "OFI Crete vs Bayer Leverkusen",
+     "texto": "Más de 2.5 goles",
+     "clave": "OU|2.5|over",
+     "p": 0.6063,
+     "cuota": 1.36,
+     "casa": "Bet365",
+     "inicio": "2026-10-22T11:45:00-05:00"
+    }
+   ],
+   "xi": "367286,435191,599610,924996,3139150,4874925,14627682,51982992,55323393,70900145,70995273|334863,342440,511863,529388,613840,7180298,50204547,50413540,56555504,63792363,67787322",
+   "conf": true
   },
   "4828906": {
    "partido": "SC Braga vs KAA Gent",
@@ -1676,63 +1842,151 @@
    "liga": "Europa, UEFA Conference League",
    "inicio": "2026-10-22T11:45:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792683782.421977
+   "ultimo": 1792684030.262111
   },
   "4828915": {
    "partido": "Pafos FC vs Riga",
    "liga": "Europa, UEFA Conference League",
    "inicio": "2026-10-22T11:45:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792683782.4745874
+   "ultimo": 1792684030.3527372
   },
   "4828916": {
    "partido": "Inter Escaldes vs CS Universitatea Craiova",
    "liga": "Europa, UEFA Conference League",
    "inicio": "2026-10-22T11:45:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1792683782.527155
+   "estado": "enviado",
+   "ultimo": 1792684030.409365,
+   "pierna": [
+    {
+     "gid": "4828916",
+     "partido": "Inter Escaldes vs CS Universitatea Craiova",
+     "texto": "No hay empate",
+     "clave": "DC||12",
+     "p": 0.7537,
+     "cuota": 1.22,
+     "casa": "Bet365",
+     "inicio": "2026-10-22T11:45:00-05:00"
+    },
+    {
+     "gid": "4828916",
+     "partido": "Inter Escaldes vs CS Universitatea Craiova",
+     "texto": "Más de 1.5 goles",
+     "clave": "OU|1.5|over",
+     "p": 0.7367,
+     "cuota": 1.25,
+     "casa": "Bet365",
+     "inicio": "2026-10-22T11:45:00-05:00"
+    },
+    {
+     "gid": "4828916",
+     "partido": "Inter Escaldes vs CS Universitatea Craiova",
+     "texto": "Más de 0.5 goles en el 1T",
+     "clave": "OU1T|0.5|over",
+     "p": 0.6936,
+     "cuota": 1.33,
+     "casa": "Bet365",
+     "inicio": "2026-10-22T11:45:00-05:00"
+    },
+    {
+     "gid": "4828916",
+     "partido": "Inter Escaldes vs CS Universitatea Craiova",
+     "texto": "Gana CS Universitatea Craiova",
+     "clave": "1X2||2",
+     "p": 0.5773,
+     "cuota": 1.45,
+     "casa": "Bet365",
+     "inicio": "2026-10-22T11:45:00-05:00"
+    }
+   ],
+   "xi": "15557610,70016025,70206094,70206095,70206096,75228215,75235504,78063976,78067422,78067424,78770235|566656,889634,1206582,3070083,10207848,49634941,51140469,60366309,64925558,66285292,70761610",
+   "conf": true
   },
   "4828917": {
    "partido": "Getafe CF vs FC Lugano",
    "liga": "Europa, UEFA Conference League",
    "inicio": "2026-10-22T11:45:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792683782.5829823
+   "ultimo": 1792684032.020288
   },
   "4828918": {
    "partido": "Kauno Zalgiris vs Brann",
    "liga": "Europa, UEFA Conference League",
    "inicio": "2026-10-22T11:45:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792683782.633216
+   "ultimo": 1792684032.0727408
   },
   "4828919": {
    "partido": "FK Jablonec vs Brighton",
    "liga": "Europa, UEFA Conference League",
    "inicio": "2026-10-22T11:45:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792683782.6898012
+   "ultimo": 1792684032.1489327
   },
   "4828920": {
    "partido": "Estrella Roja Belgrado vs FC Copenhague",
    "liga": "Europa, UEFA Conference League",
    "inicio": "2026-10-22T11:45:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792683782.7396445
+   "ultimo": 1792684032.2007189
   },
   "4828921": {
    "partido": "FC Nordsjaelland vs CSKA Sofia",
    "liga": "Europa, UEFA Conference League",
    "inicio": "2026-10-22T11:45:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1792683782.797691
+   "estado": "enviado",
+   "ultimo": 1792684032.2502668,
+   "pierna": [
+    {
+     "gid": "4828921",
+     "partido": "FC Nordsjaelland vs CSKA Sofia",
+     "texto": "Más de 0.5 goles en el 1T",
+     "clave": "OU1T|0.5|over",
+     "p": 0.74,
+     "cuota": 1.25,
+     "casa": "Bet365",
+     "inicio": "2026-10-22T11:45:00-05:00"
+    },
+    {
+     "gid": "4828921",
+     "partido": "FC Nordsjaelland vs CSKA Sofia",
+     "texto": "Gana FC Nordsjaelland",
+     "clave": "1X2||1",
+     "p": 0.603,
+     "cuota": 1.42,
+     "casa": "Bet365",
+     "inicio": "2026-10-22T11:45:00-05:00"
+    },
+    {
+     "gid": "4828921",
+     "partido": "FC Nordsjaelland vs CSKA Sofia",
+     "texto": "FC Nordsjaelland recibe gol",
+     "clave": "CS||local_no",
+     "p": 0.589,
+     "cuota": 1.57,
+     "casa": "Bet365",
+     "inicio": "2026-10-22T11:45:00-05:00"
+    },
+    {
+     "gid": "4828921",
+     "partido": "FC Nordsjaelland vs CSKA Sofia",
+     "texto": "Más de 2.5 goles",
+     "clave": "OU|2.5|over",
+     "p": 0.5834,
+     "cuota": 1.53,
+     "casa": "Bet365",
+     "inicio": "2026-10-22T11:45:00-05:00"
+    }
+   ],
+   "xi": "3517524,25422288,38659971,43995204,52242860,58801387,71088302,75251267,76951442,76965023,77040713|471898,844352,918061,1553127,3261466,3575623,51484363,58229434,71899312,75375351,77783845",
+   "conf": true
   },
   "4828922": {
    "partido": "FC Iberia 1999 vs Mjällby AIF",
    "liga": "Europa, UEFA Conference League",
    "inicio": "2026-10-22T11:45:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792683782.8485248
+   "ultimo": 1792684033.596877
   },
   "4828923": {
    "partido": "Kairat Almaty vs Panathinaikos",
