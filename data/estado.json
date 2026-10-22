@@ -1791,8 +1791,42 @@
    "partido": "Ferencvaros vs Torreense",
    "liga": "Europa, UEFA Europa League",
    "inicio": "2026-10-22T11:45:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1792684282.9729972
+   "estado": "enviado",
+   "ultimo": 1792684531.8521006,
+   "pierna": [
+    {
+     "gid": "4828727",
+     "partido": "Ferencvaros vs Torreense",
+     "texto": "Más de 0.5 goles en el 1T",
+     "clave": "OU1T|0.5|over",
+     "p": 0.7165,
+     "cuota": 1.25,
+     "casa": "Bet365",
+     "inicio": "2026-10-22T11:45:00-05:00"
+    },
+    {
+     "gid": "4828727",
+     "partido": "Ferencvaros vs Torreense",
+     "texto": "Gana Ferencvaros",
+     "clave": "1X2||1",
+     "p": 0.6636,
+     "cuota": 1.38,
+     "casa": "Bet365",
+     "inicio": "2026-10-22T11:45:00-05:00"
+    },
+    {
+     "gid": "4828727",
+     "partido": "Ferencvaros vs Torreense",
+     "texto": "Más de 2.5 goles",
+     "clave": "OU|2.5|over",
+     "p": 0.5351,
+     "cuota": 1.57,
+     "casa": "Bet365",
+     "inicio": "2026-10-22T11:45:00-05:00"
+    }
+   ],
+   "xi": "366446,387256,494280,1132809,4930944,47391347,57831054,59957431,61185914,68659348,77101373|513735,4805218,47660550,61063223,66504027,67352323,67918750,71170858,75254410,75400290,76812833",
+   "conf": true
   },
   "4828728": {
    "partido": "OFI Crete vs Bayer Leverkusen",
@@ -1886,14 +1920,48 @@
    "liga": "Europa, UEFA Conference League",
    "inicio": "2026-10-22T11:45:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792684283.0215251
+   "ultimo": 1792684533.855936
   },
   "4828915": {
    "partido": "Pafos FC vs Riga",
    "liga": "Europa, UEFA Conference League",
    "inicio": "2026-10-22T11:45:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1792684283.0739727
+   "estado": "enviado",
+   "ultimo": 1792684533.9042544,
+   "pierna": [
+    {
+     "gid": "4828915",
+     "partido": "Pafos FC vs Riga",
+     "texto": "No hay empate",
+     "clave": "DC||12",
+     "p": 0.7139,
+     "cuota": 1.25,
+     "casa": "Bet365",
+     "inicio": "2026-10-22T11:45:00-05:00"
+    },
+    {
+     "gid": "4828915",
+     "partido": "Pafos FC vs Riga",
+     "texto": "Menos de 3.5 goles",
+     "clave": "OU|3.5|under",
+     "p": 0.6627,
+     "cuota": 1.4,
+     "casa": "Bet365",
+     "inicio": "2026-10-22T11:45:00-05:00"
+    },
+    {
+     "gid": "4828915",
+     "partido": "Pafos FC vs Riga",
+     "texto": "Menos de 1.5 goles en el 1T",
+     "clave": "OU1T|1.5|under",
+     "p": 0.6453,
+     "cuota": 1.44,
+     "casa": "Bet365",
+     "inicio": "2026-10-22T11:45:00-05:00"
+    }
+   ],
+   "xi": "74248,165006,476850,515142,529283,3143985,3263502,30803776,52301630,63136336,75403134|3183323,14849066,59825327,62814345,66828033,67843639,68018256,69753556,70809914,70873508,74975380",
+   "conf": true
   },
   "4828916": {
    "partido": "Inter Escaldes vs CS Universitatea Craiova",
@@ -1951,28 +2019,72 @@
    "liga": "Europa, UEFA Conference League",
    "inicio": "2026-10-22T11:45:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792684283.1224473
+   "ultimo": 1792684535.2351713
   },
   "4828918": {
    "partido": "Kauno Zalgiris vs Brann",
    "liga": "Europa, UEFA Conference League",
    "inicio": "2026-10-22T11:45:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1792684283.1799178
+   "estado": "enviado",
+   "ultimo": 1792684535.2939334,
+   "pierna": [
+    {
+     "gid": "4828918",
+     "partido": "Kauno Zalgiris vs Brann",
+     "texto": "No hay empate",
+     "clave": "DC||12",
+     "p": 0.7321,
+     "cuota": 1.29,
+     "casa": "Bet365",
+     "inicio": "2026-10-22T11:45:00-05:00"
+    },
+    {
+     "gid": "4828918",
+     "partido": "Kauno Zalgiris vs Brann",
+     "texto": "Más de 1.5 goles",
+     "clave": "OU|1.5|over",
+     "p": 0.7307,
+     "cuota": 1.29,
+     "casa": "Bet365",
+     "inicio": "2026-10-22T11:45:00-05:00"
+    },
+    {
+     "gid": "4828918",
+     "partido": "Kauno Zalgiris vs Brann",
+     "texto": "Más de 0.5 goles en el 1T",
+     "clave": "OU1T|0.5|over",
+     "p": 0.6881,
+     "cuota": 1.36,
+     "casa": "Bet365",
+     "inicio": "2026-10-22T11:45:00-05:00"
+    },
+    {
+     "gid": "4828918",
+     "partido": "Kauno Zalgiris vs Brann",
+     "texto": "Brann recibe gol",
+     "clave": "CS||visita_no",
+     "p": 0.6453,
+     "cuota": 1.44,
+     "casa": "Bet365",
+     "inicio": "2026-10-22T11:45:00-05:00"
+    }
+   ],
+   "xi": "404719,526913,588494,31626905,48168517,50454077,50548080,50684401,68079275,77772216,77772241|592223,3195483,15579689,16052227,58801589,59020587,61361112,61406280,64728519,68056381,71341362",
+   "conf": true
   },
   "4828919": {
    "partido": "FK Jablonec vs Brighton",
    "liga": "Europa, UEFA Conference League",
    "inicio": "2026-10-22T11:45:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792684283.2598784
+   "ultimo": 1792684536.6065164
   },
   "4828920": {
    "partido": "Estrella Roja Belgrado vs FC Copenhague",
    "liga": "Europa, UEFA Conference League",
    "inicio": "2026-10-22T11:45:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792684283.3163743
+   "ultimo": 1792684536.652955
   },
   "4828921": {
    "partido": "FC Nordsjaelland vs CSKA Sofia",
