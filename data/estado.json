@@ -1233,8 +1233,52 @@
    "partido": "Viktoria Plzen vs Levski Sofia",
    "liga": "Europa, UEFA Europa League",
    "inicio": "2026-10-22T14:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1792691848.9942715
+   "estado": "enviado",
+   "ultimo": 1792692103.906226,
+   "pierna": [
+    {
+     "gid": "4828711",
+     "partido": "Viktoria Plzen vs Levski Sofia",
+     "texto": "Más de 1.5 goles",
+     "clave": "OU|1.5|over",
+     "p": 0.7307,
+     "cuota": 1.25,
+     "casa": "Bet365",
+     "inicio": "2026-10-22T14:00:00-05:00"
+    },
+    {
+     "gid": "4828711",
+     "partido": "Viktoria Plzen vs Levski Sofia",
+     "texto": "No hay empate",
+     "clave": "DC||12",
+     "p": 0.7292,
+     "cuota": 1.25,
+     "casa": "Bet365",
+     "inicio": "2026-10-22T14:00:00-05:00"
+    },
+    {
+     "gid": "4828711",
+     "partido": "Viktoria Plzen vs Levski Sofia",
+     "texto": "Más de 0.5 goles en el 1T",
+     "clave": "OU1T|0.5|over",
+     "p": 0.6739,
+     "cuota": 1.36,
+     "casa": "Bet365",
+     "inicio": "2026-10-22T14:00:00-05:00"
+    },
+    {
+     "gid": "4828711",
+     "partido": "Viktoria Plzen vs Levski Sofia",
+     "texto": "Viktoria Plzen recibe gol",
+     "clave": "CS||local_no",
+     "p": 0.6453,
+     "cuota": 1.44,
+     "casa": "Bet365",
+     "inicio": "2026-10-22T14:00:00-05:00"
+    }
+   ],
+   "xi": "498410,674581,31873488,50055888,52916137,55008552,67867317,67877641,75232123,75232127,75491438|681545,3274593,12998507,15496320,19463543,51432973,63955520,65731990,66504926,71351587,75414379",
+   "conf": true
   },
   "4828712": {
    "partido": "Lillestrom vs Real Sociedad",
@@ -1403,8 +1447,72 @@
    "partido": "Jagiellonia vs Anderlecht",
    "liga": "Europa, UEFA Europa League",
    "inicio": "2026-10-22T14:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1792691851.7310135
+   "estado": "enviado",
+   "ultimo": 1792692105.2500696,
+   "pierna": [
+    {
+     "gid": "4828715",
+     "partido": "Jagiellonia vs Anderlecht",
+     "texto": "Jagiellonia recibe gol",
+     "clave": "CS||local_no",
+     "p": 0.783,
+     "cuota": 1.2,
+     "casa": "Bet365",
+     "inicio": "2026-10-22T14:00:00-05:00"
+    },
+    {
+     "gid": "4828715",
+     "partido": "Jagiellonia vs Anderlecht",
+     "texto": "Más de 1.5 goles",
+     "clave": "OU|1.5|over",
+     "p": 0.7268,
+     "cuota": 1.22,
+     "casa": "Bet365",
+     "inicio": "2026-10-22T14:00:00-05:00"
+    },
+    {
+     "gid": "4828715",
+     "partido": "Jagiellonia vs Anderlecht",
+     "texto": "No hay empate",
+     "clave": "DC||12",
+     "p": 0.722,
+     "cuota": 1.29,
+     "casa": "Bet365",
+     "inicio": "2026-10-22T14:00:00-05:00"
+    },
+    {
+     "gid": "4828715",
+     "partido": "Jagiellonia vs Anderlecht",
+     "texto": "Anderlecht o empate",
+     "clave": "DC||X2",
+     "p": 0.6848,
+     "cuota": 1.36,
+     "casa": "Bet365",
+     "inicio": "2026-10-22T14:00:00-05:00"
+    },
+    {
+     "gid": "4828715",
+     "partido": "Jagiellonia vs Anderlecht",
+     "texto": "Más de 0.5 goles en el 1T",
+     "clave": "OU1T|0.5|over",
+     "p": 0.6754,
+     "cuota": 1.33,
+     "casa": "Bet365",
+     "inicio": "2026-10-22T14:00:00-05:00"
+    },
+    {
+     "gid": "4828715",
+     "partido": "Jagiellonia vs Anderlecht",
+     "texto": "Menos de 3.5 goles",
+     "clave": "OU|3.5|under",
+     "p": 0.6563,
+     "cuota": 1.44,
+     "casa": "Bet365",
+     "inicio": "2026-10-22T14:00:00-05:00"
+    }
+   ],
+   "xi": "14658213,42687055,49706215,50728585,50975287,55784280,59015620,61740578,64075017,70865984,75948396|335680,5053693,8428047,51175440,54857672,61122888,62005360,67024337,67364224,70915839,78392049",
+   "conf": true
   },
   "4828716": {
    "partido": "Besiktas vs Crystal Palace",
@@ -1481,8 +1589,62 @@
    "partido": "Hoffenheim vs Lyon",
    "liga": "Europa, UEFA Europa League",
    "inicio": "2026-10-22T14:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1792691852.2245545
+   "estado": "enviado",
+   "ultimo": 1792692106.628605,
+   "pierna": [
+    {
+     "gid": "4828717",
+     "partido": "Hoffenheim vs Lyon",
+     "texto": "No hay empate",
+     "clave": "DC||12",
+     "p": 0.7467,
+     "cuota": 1.22,
+     "casa": "Bet365",
+     "inicio": "2026-10-22T14:00:00-05:00"
+    },
+    {
+     "gid": "4828717",
+     "partido": "Hoffenheim vs Lyon",
+     "texto": "Más de 0.5 goles en el 1T",
+     "clave": "OU1T|0.5|over",
+     "p": 0.699,
+     "cuota": 1.22,
+     "casa": "Bet365",
+     "inicio": "2026-10-22T14:00:00-05:00"
+    },
+    {
+     "gid": "4828717",
+     "partido": "Hoffenheim vs Lyon",
+     "texto": "Hoffenheim recibe gol",
+     "clave": "CS||local_no",
+     "p": 0.6417,
+     "cuota": 1.25,
+     "casa": "Bet365",
+     "inicio": "2026-10-22T14:00:00-05:00"
+    },
+    {
+     "gid": "4828717",
+     "partido": "Hoffenheim vs Lyon",
+     "texto": "Ambos marcan: Sí",
+     "clave": "BTTS||si",
+     "p": 0.5281,
+     "cuota": 1.44,
+     "casa": "Bet365",
+     "inicio": "2026-10-22T14:00:00-05:00"
+    },
+    {
+     "gid": "4828717",
+     "partido": "Hoffenheim vs Lyon",
+     "texto": "Más de 2.5 goles",
+     "clave": "OU|2.5|over",
+     "p": 0.5133,
+     "cuota": 1.44,
+     "casa": "Bet365",
+     "inicio": "2026-10-22T14:00:00-05:00"
+    }
+   ],
+   "xi": "258327,334847,350528,3339632,49513653,60938745,65068852,65068962,65404524,67771703,68006639|538174,844534,4941908,48501418,55658592,60972902,62195479,71502222,77565705,77667697,77803154",
+   "conf": true
   },
   "4828718": {
    "partido": "Omonia vs Benfica",
@@ -1529,15 +1691,49 @@
    "partido": "Olympiacos vs Sparta Praga",
    "liga": "Europa, UEFA Europa League",
    "inicio": "2026-10-22T14:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1792691852.993837
+   "estado": "enviado",
+   "ultimo": 1792692107.4051156,
+   "pierna": [
+    {
+     "gid": "4828719",
+     "partido": "Olympiacos vs Sparta Praga",
+     "texto": "Menos de 3.5 goles",
+     "clave": "OU|3.5|under",
+     "p": 0.6563,
+     "cuota": 1.44,
+     "casa": "Bet365",
+     "inicio": "2026-10-22T14:00:00-05:00"
+    },
+    {
+     "gid": "4828719",
+     "partido": "Olympiacos vs Sparta Praga",
+     "texto": "Gana Olympiacos",
+     "clave": "1X2||1",
+     "p": 0.6399,
+     "cuota": 1.44,
+     "casa": "Bet365",
+     "inicio": "2026-10-22T14:00:00-05:00"
+    },
+    {
+     "gid": "4828719",
+     "partido": "Olympiacos vs Sparta Praga",
+     "texto": "Menos de 1.5 goles en el 1T",
+     "clave": "OU1T|1.5|under",
+     "p": 0.625,
+     "cuota": 1.5,
+     "casa": "Bet365",
+     "inicio": "2026-10-22T14:00:00-05:00"
+    }
+   ],
+   "xi": "90491,424051,433418,475644,490310,538926,668938,46615882,47525532,66286268,66630057|897986,39084404,50730202,52916133,62578837,63004033,64933136,66379368,71932360,75260165,77710804",
+   "conf": true
   },
   "4828720": {
    "partido": "Celtic vs Celta de Vigo",
    "liga": "Europa, UEFA Europa League",
    "inicio": "2026-10-22T14:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792691853.0576952
+   "ultimo": 1792692108.2429225
   },
   "4828721": {
    "partido": "Union St. Gilloise vs Hapoel Beer Sheva",
@@ -1952,28 +2148,106 @@
    "liga": "Europa, UEFA Conference League",
    "inicio": "2026-10-22T14:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792691853.1723473
+   "ultimo": 1792692108.296871
   },
   "4828907": {
    "partido": "Lincoln Red Imps vs Twente",
    "liga": "Europa, UEFA Conference League",
    "inicio": "2026-10-22T14:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1792691853.2263827
+   "estado": "enviado",
+   "ultimo": 1792692108.3748302,
+   "pierna": [
+    {
+     "gid": "4828907",
+     "partido": "Lincoln Red Imps vs Twente",
+     "texto": "Más de 2.5 goles",
+     "clave": "OU|2.5|over",
+     "p": 0.5703,
+     "cuota": 1.36,
+     "casa": "Bet365",
+     "inicio": "2026-10-22T14:00:00-05:00"
+    }
+   ],
+   "xi": "174163,568348,3176296,3199841,3205149,3885813,50945736,55908240,65830083,78064812,78064827|345634,345676,351303,598685,9051012,44385163,50445972,50584228,66025734,69466414,76961028",
+   "conf": true
   },
   "4828908": {
    "partido": "Borac Banjaluka vs KuPS",
    "liga": "Europa, UEFA Conference League",
    "inicio": "2026-10-22T14:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792691853.2877636
+   "ultimo": 1792692110.8892422
   },
   "4828909": {
    "partido": "FC Thun vs HNK Hajduk Split",
    "liga": "Europa, UEFA Conference League",
    "inicio": "2026-10-22T14:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1792691853.3485258
+   "estado": "enviado",
+   "ultimo": 1792692110.9410672,
+   "pierna": [
+    {
+     "gid": "4828909",
+     "partido": "FC Thun vs HNK Hajduk Split",
+     "texto": "HNK Hajduk Split recibe gol",
+     "clave": "CS||visita_no",
+     "p": 0.7601,
+     "cuota": 1.22,
+     "casa": "Bet365",
+     "inicio": "2026-10-22T14:00:00-05:00"
+    },
+    {
+     "gid": "4828909",
+     "partido": "FC Thun vs HNK Hajduk Split",
+     "texto": "Más de 0.5 goles en el 1T",
+     "clave": "OU1T|0.5|over",
+     "p": 0.75,
+     "cuota": 1.25,
+     "casa": "Bet365",
+     "inicio": "2026-10-22T14:00:00-05:00"
+    },
+    {
+     "gid": "4828909",
+     "partido": "FC Thun vs HNK Hajduk Split",
+     "texto": "No hay empate",
+     "clave": "DC||12",
+     "p": 0.7291,
+     "cuota": 1.29,
+     "casa": "Bet365",
+     "inicio": "2026-10-22T14:00:00-05:00"
+    },
+    {
+     "gid": "4828909",
+     "partido": "FC Thun vs HNK Hajduk Split",
+     "texto": "HNK Hajduk Split o empate",
+     "clave": "DC||X2",
+     "p": 0.6718,
+     "cuota": 1.4,
+     "casa": "Bet365",
+     "inicio": "2026-10-22T14:00:00-05:00"
+    },
+    {
+     "gid": "4828909",
+     "partido": "FC Thun vs HNK Hajduk Split",
+     "texto": "Ambos marcan: Sí",
+     "clave": "BTTS||si",
+     "p": 0.6345,
+     "cuota": 1.44,
+     "casa": "Bet365",
+     "inicio": "2026-10-22T14:00:00-05:00"
+    },
+    {
+     "gid": "4828909",
+     "partido": "FC Thun vs HNK Hajduk Split",
+     "texto": "Más de 2.5 goles",
+     "clave": "OU|2.5|over",
+     "p": 0.613,
+     "cuota": 1.5,
+     "casa": "Bet365",
+     "inicio": "2026-10-22T14:00:00-05:00"
+    }
+   ],
+   "xi": "348678,921950,2383922,3649182,31376196,49518905,50177184,51037284,71465273,77121680,77402048|639667,7138817,51243526,60122988,62692130,66139767,66266273,66353927,67693943,71059400,77442683",
+   "conf": true
   },
   "4828910": {
    "partido": "FC Midtjylland vs STVV",
@@ -2051,7 +2325,7 @@
    "liga": "Europa, UEFA Conference League",
    "inicio": "2026-10-22T14:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792691854.2565463
+   "ultimo": 1792692111.9590242
   },
   "4828912": {
    "partido": "Aarhus vs KF Egnatia",
@@ -2109,7 +2383,7 @@
    "liga": "Europa, UEFA Conference League",
    "inicio": "2026-10-22T14:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792691854.3274271
+   "ultimo": 1792692112.0506938
   },
   "4828914": {
    "partido": "Trabzonspor vs Hearts",
