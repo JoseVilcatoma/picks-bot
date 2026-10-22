@@ -2215,8 +2215,72 @@
    "partido": "Estrella Roja Belgrado vs FC Copenhague",
    "liga": "Europa, UEFA Conference League",
    "inicio": "2026-10-22T11:45:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1792685030.731389
+   "estado": "enviado",
+   "ultimo": 1792685158.0092306,
+   "pierna": [
+    {
+     "gid": "4828920",
+     "partido": "Estrella Roja Belgrado vs FC Copenhague",
+     "texto": "FC Copenhague recibe gol",
+     "clave": "CS||visita_no",
+     "p": 0.7483,
+     "cuota": 1.25,
+     "casa": "Bet365",
+     "inicio": "2026-10-22T11:45:00-05:00"
+    },
+    {
+     "gid": "4828920",
+     "partido": "Estrella Roja Belgrado vs FC Copenhague",
+     "texto": "No hay empate",
+     "clave": "DC||12",
+     "p": 0.7197,
+     "cuota": 1.29,
+     "casa": "Bet365",
+     "inicio": "2026-10-22T11:45:00-05:00"
+    },
+    {
+     "gid": "4828920",
+     "partido": "Estrella Roja Belgrado vs FC Copenhague",
+     "texto": "Estrella Roja Belgrado o empate",
+     "clave": "DC||1X",
+     "p": 0.6972,
+     "cuota": 1.36,
+     "casa": "Bet365",
+     "inicio": "2026-10-22T11:45:00-05:00"
+    },
+    {
+     "gid": "4828920",
+     "partido": "Estrella Roja Belgrado vs FC Copenhague",
+     "texto": "Más de 1.5 goles",
+     "clave": "OU|1.5|over",
+     "p": 0.6965,
+     "cuota": 1.22,
+     "casa": "Bet365",
+     "inicio": "2026-10-22T11:45:00-05:00"
+    },
+    {
+     "gid": "4828920",
+     "partido": "Estrella Roja Belgrado vs FC Copenhague",
+     "texto": "Menos de 3.5 goles",
+     "clave": "OU|3.5|under",
+     "p": 0.6627,
+     "cuota": 1.4,
+     "casa": "Bet365",
+     "inicio": "2026-10-22T11:45:00-05:00"
+    },
+    {
+     "gid": "4828920",
+     "partido": "Estrella Roja Belgrado vs FC Copenhague",
+     "texto": "Más de 0.5 goles en el 1T",
+     "clave": "OU1T|0.5|over",
+     "p": 0.6589,
+     "cuota": 1.33,
+     "casa": "Bet365",
+     "inicio": "2026-10-22T11:45:00-05:00"
+    }
+   ],
+   "xi": "117757,548570,3051960,3527023,13420232,55500534,61072425,70775503,76946286,77387197,77387198|288281,298935,435691,567538,639671,57688527,57726142,67747944,68070314,71088016,71370747",
+   "conf": true
   },
   "4828921": {
    "partido": "FC Nordsjaelland vs CSKA Sofia",
