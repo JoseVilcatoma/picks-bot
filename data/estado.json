@@ -3100,8 +3100,8 @@
    "partido": "Guimarães vs Maritimo",
    "liga": "Portugal, Primeira Liga",
    "inicio": "2026-10-23T14:45:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1792781766.106433,
+   "estado": "liquidado",
+   "ultimo": 1792791710.2811499,
    "pierna": [
     {
      "gid": "4757186",
@@ -3165,7 +3165,22 @@
     }
    ],
    "xi": "553524,2753309,3855117,61426990,67086004,67647506,67819771,67938045,68076685,75258021,75532586|398966,458644,888149,895282,7410799,15243431,43499092,61436794,64239532,68356307,70812981",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 5,
+    "ag": 0,
+    "ht": [
+     1,
+     0
+    ],
+    "corners": 11.0,
+    "corners_h": 6.0,
+    "corners_a": 5.0,
+    "corners_1t": 4.0,
+    "cards": 7.0,
+    "cards_h": 4.0,
+    "cards_a": 3.0
+   }
   },
   "4760799": {
    "partido": "UTC Cajamarca vs FBC Melgar",
