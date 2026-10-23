@@ -2617,8 +2617,52 @@
    "partido": "Cruzeiro vs Remo",
    "liga": "Brasil, Brasileirão",
    "inicio": "2026-10-23T18:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1792793172.321183
+   "estado": "enviado",
+   "ultimo": 1792793415.6178243,
+   "pierna": [
+    {
+     "gid": "4632631",
+     "partido": "Cruzeiro vs Remo",
+     "texto": "Más de 0.5 goles en el 1T",
+     "clave": "OU1T|0.5|over",
+     "p": 0.7716,
+     "cuota": 1.2,
+     "casa": "Bet365",
+     "inicio": "2026-10-23T18:00:00-05:00"
+    },
+    {
+     "gid": "4632631",
+     "partido": "Cruzeiro vs Remo",
+     "texto": "Gana Cruzeiro",
+     "clave": "1X2||1",
+     "p": 0.7049,
+     "cuota": 1.27,
+     "casa": "Bet365",
+     "inicio": "2026-10-23T18:00:00-05:00"
+    },
+    {
+     "gid": "4632631",
+     "partido": "Cruzeiro vs Remo",
+     "texto": "Más de 2.5 goles",
+     "clave": "OU|2.5|over",
+     "p": 0.6546,
+     "cuota": 1.36,
+     "casa": "Bet365",
+     "inicio": "2026-10-23T18:00:00-05:00"
+    },
+    {
+     "gid": "4632631",
+     "partido": "Cruzeiro vs Remo",
+     "texto": "Cruzeiro recibe gol",
+     "clave": "CS||local_no",
+     "p": 0.589,
+     "cuota": 1.57,
+     "casa": "Bet365",
+     "inicio": "2026-10-23T18:00:00-05:00"
+    }
+   ],
+   "xi": "139950,349582,379632,901268,973471,3072682,9932355,67641750,70120060,70751572,76902279|350333,452796,516436,531152,977650,1767076,1858293,12709324,50486080,67976922,70842359",
+   "conf": true
   },
   "4732662": {
    "partido": "Torino vs Monza",
@@ -3167,7 +3211,7 @@
    "liga": "Perú, Liga 1 - Clausura",
    "inicio": "2026-10-23T15:15:00-05:00",
    "estado": "enviado",
-   "ultimo": 1792783821.2858257,
+   "ultimo": 1792793416.4324136,
    "pierna": [
     {
      "gid": "4760800",
