@@ -2882,8 +2882,8 @@
    "partido": "Ipswich vs Nottingham Forest",
    "liga": "Inglaterra, Premier League",
    "inicio": "2026-10-23T14:00:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1792788918.0063226,
+   "estado": "liquidado",
+   "ultimo": 1792789526.1386464,
    "pierna": [
     {
      "gid": "4742024",
@@ -2947,7 +2947,22 @@
     }
    ],
    "xi": "534537,1140554,1404731,3153685,10968460,32246907,44421294,56421007,64721834,65255094,71354644|335651,502298,666071,3060939,3211399,40902054,49499493,51429377,54943580,66457360,71675384",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 1,
+    "ag": 1,
+    "ht": [
+     1,
+     1
+    ],
+    "corners": 5.0,
+    "corners_h": 0.0,
+    "corners_a": 5.0,
+    "corners_1t": 2.0,
+    "cards": 2.0,
+    "cards_h": 1.0,
+    "cards_a": 1.0
+   }
   },
   "4750819": {
    "partido": "Alavés vs Málaga CF",
