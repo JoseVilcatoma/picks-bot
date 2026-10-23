@@ -1727,12 +1727,12 @@ fecha,game_id,partido,liga,tipo,mercado,clave,prob,cuota,casa,cuota_justa,ev,sta
 2026-10-23 13:56,4757186,Guimarães vs Maritimo,"Portugal, Primeira Liga",modelo,Más de 2.5 tarjetas,CARDS|2.5|over,0.7055,,,1.42,,,si,G,
 2026-10-23 13:56,4757186,Guimarães vs Maritimo,"Portugal, Primeira Liga",ticket,Guimarães recibe gol + Más de 1.5 goles,CS||local_no&OU|1.5|over,0.5207,2.09,,1.92,0.0870,10.00,,P,-10.00
 2026-10-23 13:56,4757186,Guimarães vs Maritimo,"Portugal, Primeira Liga",crear,Guimarães o empate + Menos de 4.5 goles + Menos de 8.5 tarjetas,DC||1X&OU|4.5|under&CARDS|8.5|under,0.5879,,,1.70,,,,P,
-2026-10-23 14:30,4760800,Grau vs ADT Tarma,"Perú, Liga 1 - Clausura",seguro,Grau o empate,DC||1X,0.7895,1.18,Bet365,1.27,-0.0684,,si,,
-2026-10-23 14:30,4760800,Grau vs ADT Tarma,"Perú, Liga 1 - Clausura",seguro,Más de 1.5 goles,OU|1.5|over,0.7503,1.25,Bet365,1.33,-0.0621,,si,,
-2026-10-23 14:30,4760800,Grau vs ADT Tarma,"Perú, Liga 1 - Clausura",modelo,Más de 2.5 tarjetas,CARDS|2.5|over,0.7543,,,1.33,,,si,,
-2026-10-23 14:30,4760800,Grau vs ADT Tarma,"Perú, Liga 1 - Clausura",modelo,Menos de 12.5 córners,CORN|12.5|under,0.7195,,,1.39,,,si,,
-2026-10-23 14:30,4760800,Grau vs ADT Tarma,"Perú, Liga 1 - Clausura",ticket,Más de 1.5 goles + Grau recibe gol,OU|1.5|over&CS||local_no,0.5484,1.96,,1.82,0.0762,10.00,,,
-2026-10-23 14:30,4760800,Grau vs ADT Tarma,"Perú, Liga 1 - Clausura",crear,Grau o empate + Menos de 4.5 goles + Menos de 15.5 córners,DC||1X&OU|4.5|under&CORN|15.5|under,0.5810,,,1.72,,,,,
+2026-10-23 14:30,4760800,Grau vs ADT Tarma,"Perú, Liga 1 - Clausura",seguro,Grau o empate,DC||1X,0.7895,1.18,Bet365,1.27,-0.0684,,si,G,
+2026-10-23 14:30,4760800,Grau vs ADT Tarma,"Perú, Liga 1 - Clausura",seguro,Más de 1.5 goles,OU|1.5|over,0.7503,1.25,Bet365,1.33,-0.0621,,si,G,
+2026-10-23 14:30,4760800,Grau vs ADT Tarma,"Perú, Liga 1 - Clausura",modelo,Más de 2.5 tarjetas,CARDS|2.5|over,0.7543,,,1.33,,,si,G,
+2026-10-23 14:30,4760800,Grau vs ADT Tarma,"Perú, Liga 1 - Clausura",modelo,Menos de 12.5 córners,CORN|12.5|under,0.7195,,,1.39,,,si,G,
+2026-10-23 14:30,4760800,Grau vs ADT Tarma,"Perú, Liga 1 - Clausura",ticket,Más de 1.5 goles + Grau recibe gol,OU|1.5|over&CS||local_no,0.5484,1.96,,1.82,0.0762,10.00,,G,9.60
+2026-10-23 14:30,4760800,Grau vs ADT Tarma,"Perú, Liga 1 - Clausura",crear,Grau o empate + Menos de 4.5 goles + Menos de 15.5 córners,DC||1X&OU|4.5|under&CORN|15.5|under,0.5810,,,1.72,,,,G,
 2026-10-23 17:10,4632631,Cruzeiro vs Remo,"Brasil, Brasileirão",seguro,Más de 0.5 goles en el 1T,OU1T|0.5|over,0.7716,1.20,Bet365,1.30,-0.0741,,si,,
 2026-10-23 17:10,4632631,Cruzeiro vs Remo,"Brasil, Brasileirão",seguro,Gana Cruzeiro,1X2||1,0.7049,1.27,Bet365,1.42,-0.1048,,si,,
 2026-10-23 17:10,4632631,Cruzeiro vs Remo,"Brasil, Brasileirão",modelo,Más de 1.5 goles,OU|1.5|over,0.8485,,,1.18,,,si,,

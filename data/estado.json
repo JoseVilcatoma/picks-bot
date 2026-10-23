@@ -3210,8 +3210,8 @@
    "partido": "Grau vs ADT Tarma",
    "liga": "Perú, Liga 1 - Clausura",
    "inicio": "2026-10-23T15:15:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1792794023.9113734,
+   "estado": "liquidado",
+   "ultimo": 1792794629.6012864,
    "pierna": [
     {
      "gid": "4760800",
@@ -3265,7 +3265,22 @@
     }
    ],
    "xi": "478774,545750,1858727,2547425,3123514,3138164,3218403,7495947,14703780,50978322,66107234|225239,358569,457528,497371,541787,618875,3137770,54920557,67902927,70823016,72047532",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 1,
+    "ag": 1,
+    "ht": [
+     1,
+     0
+    ],
+    "corners": 7.0,
+    "corners_h": 3.0,
+    "corners_a": 4.0,
+    "corners_1t": 3.0,
+    "cards": 11.0,
+    "cards_h": 5.0,
+    "cards_a": 6.0
+   }
   },
   "4858848": {
    "partido": "Flamengo vs Estudiantes de La Plata",
