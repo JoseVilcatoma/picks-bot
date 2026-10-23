@@ -3147,8 +3147,62 @@
    "partido": "Grau vs ADT Tarma",
    "liga": "Perú, Liga 1 - Clausura",
    "inicio": "2026-10-23T15:15:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1792783577.8173184
+   "estado": "enviado",
+   "ultimo": 1792783821.2858257,
+   "pierna": [
+    {
+     "gid": "4760800",
+     "partido": "Grau vs ADT Tarma",
+     "texto": "Más de 1.5 goles",
+     "clave": "OU|1.5|over",
+     "p": 0.75,
+     "cuota": 1.25,
+     "casa": "Bet365",
+     "inicio": "2026-10-23T15:15:00-05:00"
+    },
+    {
+     "gid": "4760800",
+     "partido": "Grau vs ADT Tarma",
+     "texto": "No hay empate",
+     "clave": "DC||12",
+     "p": 0.731,
+     "cuota": 1.3,
+     "casa": "Bet365",
+     "inicio": "2026-10-23T15:15:00-05:00"
+    },
+    {
+     "gid": "4760800",
+     "partido": "Grau vs ADT Tarma",
+     "texto": "Más de 0.5 goles en el 1T",
+     "clave": "OU1T|0.5|over",
+     "p": 0.6881,
+     "cuota": 1.36,
+     "casa": "Bet365",
+     "inicio": "2026-10-23T15:15:00-05:00"
+    },
+    {
+     "gid": "4760800",
+     "partido": "Grau vs ADT Tarma",
+     "texto": "Grau recibe gol",
+     "clave": "CS||local_no",
+     "p": 0.589,
+     "cuota": 1.57,
+     "casa": "Bet365",
+     "inicio": "2026-10-23T15:15:00-05:00"
+    },
+    {
+     "gid": "4760800",
+     "partido": "Grau vs ADT Tarma",
+     "texto": "Grau -0.5 (hándicap)",
+     "clave": "AH|-0.5|local",
+     "p": 0.5426,
+     "cuota": 1.65,
+     "casa": "Bet365",
+     "inicio": "2026-10-23T15:15:00-05:00"
+    }
+   ],
+   "xi": "478774,545750,1858727,2547425,3123514,3138164,3218403,7495947,14703780,50978322,66107234|225239,358569,457528,497371,541787,618875,3137770,54920557,67902927,70823016,72047532",
+   "conf": true
   },
   "4858848": {
    "partido": "Flamengo vs Estudiantes de La Plata",
