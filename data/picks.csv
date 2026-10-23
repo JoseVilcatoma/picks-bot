@@ -1700,3 +1700,8 @@ fecha,game_id,partido,liga,tipo,mercado,clave,prob,cuota,casa,cuota_justa,ev,sta
 2026-10-23 12:46,4735233,Brest vs Niza,"Francia, Ligue 1",modelo,Menos de 10.5 córners,CORN|10.5|under,0.7175,,,1.39,,,si,,
 2026-10-23 12:46,4735233,Brest vs Niza,"Francia, Ligue 1",ticket,Más de 2.5 goles + Niza recibe gol,OU|2.5|over&CS||visita_no,0.5285,2.00,,1.89,0.0591,10.00,,,
 2026-10-23 12:46,4735233,Brest vs Niza,"Francia, Ligue 1",crear,Menos de 4.5 goles + Menos de 13.5 córners + Menos de 6.5 tarjetas,OU|4.5|under&CORN|13.5|under&CARDS|6.5|under,0.5802,,,1.72,,,,,
+2026-10-23 12:48,4755369,Stuttgart vs Borussia Mönchengladbach,"Alemania, Bundesliga",seguro,Más de 0.5 goles en el 1T,OU1T|0.5|over,0.7338,1.17,Bet365,1.36,-0.1414,,si,,
+2026-10-23 12:48,4755369,Stuttgart vs Borussia Mönchengladbach,"Alemania, Bundesliga",seguro,Gana Stuttgart,1X2||1,0.5803,1.33,Bet365,1.72,-0.2282,,si,,
+2026-10-23 12:48,4755369,Stuttgart vs Borussia Mönchengladbach,"Alemania, Bundesliga",modelo,Más de 1.5 goles,OU|1.5|over,0.7913,,,1.26,,,si,,
+2026-10-23 12:48,4755369,Stuttgart vs Borussia Mönchengladbach,"Alemania, Bundesliga",modelo,Menos de 6.5 tarjetas,CARDS|6.5|under,0.7865,,,1.27,,,si,,
+2026-10-23 12:48,4755369,Stuttgart vs Borussia Mönchengladbach,"Alemania, Bundesliga",crear,Stuttgart o empate + Más de 5.5 córners + Menos de 7.5 tarjetas,DC||1X&CORN|5.5|over&CARDS|7.5|under,0.5583,,,1.79,,,,,
