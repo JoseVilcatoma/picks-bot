@@ -3172,8 +3172,72 @@
    "partido": "Torino vs Monza",
    "liga": "Italia, Serie A",
    "inicio": "2026-10-23T13:45:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1792778350.1531749
+   "estado": "enviado",
+   "ultimo": 1792778598.519538,
+   "pierna": [
+    {
+     "gid": "4732662",
+     "partido": "Torino vs Monza",
+     "texto": "Monza recibe gol",
+     "clave": "CS||visita_no",
+     "p": 0.7717,
+     "cuota": 1.2,
+     "casa": "Bet365",
+     "inicio": "2026-10-23T13:45:00-05:00"
+    },
+    {
+     "gid": "4732662",
+     "partido": "Torino vs Monza",
+     "texto": "Más de 1.5 goles",
+     "clave": "OU|1.5|over",
+     "p": 0.7419,
+     "cuota": 1.25,
+     "casa": "Bet365",
+     "inicio": "2026-10-23T13:45:00-05:00"
+    },
+    {
+     "gid": "4732662",
+     "partido": "Torino vs Monza",
+     "texto": "Torino o empate",
+     "clave": "DC||1X",
+     "p": 0.724,
+     "cuota": 1.29,
+     "casa": "Bet365",
+     "inicio": "2026-10-23T13:45:00-05:00"
+    },
+    {
+     "gid": "4732662",
+     "partido": "Torino vs Monza",
+     "texto": "No hay empate",
+     "clave": "DC||12",
+     "p": 0.7226,
+     "cuota": 1.29,
+     "casa": "Bet365",
+     "inicio": "2026-10-23T13:45:00-05:00"
+    },
+    {
+     "gid": "4732662",
+     "partido": "Torino vs Monza",
+     "texto": "Más de 0.5 goles en el 1T",
+     "clave": "OU1T|0.5|over",
+     "p": 0.6927,
+     "cuota": 1.33,
+     "casa": "Bet365",
+     "inicio": "2026-10-23T13:45:00-05:00"
+    },
+    {
+     "gid": "4732662",
+     "partido": "Torino vs Monza",
+     "texto": "Torino recibe gol",
+     "clave": "CS||local_no",
+     "p": 0.6734,
+     "cuota": 1.36,
+     "casa": "Bet365",
+     "inicio": "2026-10-23T13:45:00-05:00"
+    }
+   ],
+   "xi": "400857,503138,530850,550354,607972,3093438,53050235,54341649,70797490,70877609,77139772|3059117,3167997,8929693,49661699,50441571,68025729,70865619,71067514,71342972,71356912,75479557",
+   "conf": true
   },
   "4735233": {
    "partido": "Brest vs Niza",
@@ -3322,7 +3386,7 @@
    "liga": "España, LaLiga",
    "inicio": "2026-10-23T14:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792778351.110149
+   "ultimo": 1792778599.5176105
   },
   "4755369": {
    "partido": "Stuttgart vs Borussia Mönchengladbach",
