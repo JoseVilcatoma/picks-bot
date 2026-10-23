@@ -1694,12 +1694,12 @@ fecha,game_id,partido,liga,tipo,mercado,clave,prob,cuota,casa,cuota_justa,ev,sta
 2026-10-23 12:26,4760799,UTC Cajamarca vs FBC Melgar,"Perú, Liga 1 - Clausura",modelo,Más de 2.5 tarjetas,CARDS|2.5|over,0.7259,,,1.38,,,si,G,
 2026-10-23 12:26,4760799,UTC Cajamarca vs FBC Melgar,"Perú, Liga 1 - Clausura",ticket,Más de 1.5 goles + FBC Melgar recibe gol,OU|1.5|over&CS||visita_no,0.5817,1.77,,1.72,0.0295,10.00,,G,7.70
 2026-10-23 12:26,4760799,UTC Cajamarca vs FBC Melgar,"Perú, Liga 1 - Clausura",crear,FBC Melgar o empate + Menos de 4.5 goles + Menos de 15.5 córners,DC||X2&OU|4.5|under&CORN|15.5|under,0.5844,,,1.71,,,,G,
-2026-10-23 12:46,4735233,Brest vs Niza,"Francia, Ligue 1",seguro,Niza recibe gol,CS||visita_no,0.7924,1.20,Bet365,1.26,-0.0491,,si,,
-2026-10-23 12:46,4735233,Brest vs Niza,"Francia, Ligue 1",seguro,No hay empate,DC||12,0.7324,1.29,Bet365,1.37,-0.0552,,si,,
-2026-10-23 12:46,4735233,Brest vs Niza,"Francia, Ligue 1",modelo,Menos de 6.5 tarjetas,CARDS|6.5|under,0.7865,,,1.27,,,si,,
-2026-10-23 12:46,4735233,Brest vs Niza,"Francia, Ligue 1",modelo,Menos de 10.5 córners,CORN|10.5|under,0.7175,,,1.39,,,si,,
-2026-10-23 12:46,4735233,Brest vs Niza,"Francia, Ligue 1",ticket,Más de 2.5 goles + Niza recibe gol,OU|2.5|over&CS||visita_no,0.5285,2.00,,1.89,0.0591,10.00,,,
-2026-10-23 12:46,4735233,Brest vs Niza,"Francia, Ligue 1",crear,Menos de 4.5 goles + Menos de 13.5 córners + Menos de 6.5 tarjetas,OU|4.5|under&CORN|13.5|under&CARDS|6.5|under,0.5802,,,1.72,,,,,
+2026-10-23 12:46,4735233,Brest vs Niza,"Francia, Ligue 1",seguro,Niza recibe gol,CS||visita_no,0.7924,1.20,Bet365,1.26,-0.0491,,si,G,
+2026-10-23 12:46,4735233,Brest vs Niza,"Francia, Ligue 1",seguro,No hay empate,DC||12,0.7324,1.29,Bet365,1.37,-0.0552,,si,G,
+2026-10-23 12:46,4735233,Brest vs Niza,"Francia, Ligue 1",modelo,Menos de 6.5 tarjetas,CARDS|6.5|under,0.7865,,,1.27,,,si,P,
+2026-10-23 12:46,4735233,Brest vs Niza,"Francia, Ligue 1",modelo,Menos de 10.5 córners,CORN|10.5|under,0.7175,,,1.39,,,si,G,
+2026-10-23 12:46,4735233,Brest vs Niza,"Francia, Ligue 1",ticket,Más de 2.5 goles + Niza recibe gol,OU|2.5|over&CS||visita_no,0.5285,2.00,,1.89,0.0591,10.00,,G,10.00
+2026-10-23 12:46,4735233,Brest vs Niza,"Francia, Ligue 1",crear,Menos de 4.5 goles + Menos de 13.5 córners + Menos de 6.5 tarjetas,OU|4.5|under&CORN|13.5|under&CARDS|6.5|under,0.5802,,,1.72,,,,P,
 2026-10-23 12:48,4755369,Stuttgart vs Borussia Mönchengladbach,"Alemania, Bundesliga",seguro,Más de 0.5 goles en el 1T,OU1T|0.5|over,0.7338,1.17,Bet365,1.36,-0.1414,,si,G,
 2026-10-23 12:48,4755369,Stuttgart vs Borussia Mönchengladbach,"Alemania, Bundesliga",seguro,Gana Stuttgart,1X2||1,0.5803,1.33,Bet365,1.72,-0.2282,,si,P,
 2026-10-23 12:48,4755369,Stuttgart vs Borussia Mönchengladbach,"Alemania, Bundesliga",modelo,Más de 1.5 goles,OU|1.5|over,0.7913,,,1.26,,,si,G,
