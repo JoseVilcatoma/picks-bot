@@ -2883,7 +2883,7 @@
    "liga": "Inglaterra, Premier League",
    "inicio": "2026-10-23T14:00:00-05:00",
    "estado": "enviado",
-   "ultimo": 1792778350.3429716,
+   "ultimo": 1792788918.0063226,
    "pierna": [
     {
      "gid": "4742024",
@@ -2953,8 +2953,8 @@
    "partido": "Alavés vs Málaga CF",
    "liga": "España, LaLiga",
    "inicio": "2026-10-23T14:00:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1792778845.1354842,
+   "estado": "liquidado",
+   "ultimo": 1792788918.0693898,
    "pierna": [
     {
      "gid": "4750819",
@@ -2998,7 +2998,22 @@
     }
    ],
    "xi": "426827,475853,536869,572322,3183042,55008946,58257558,66421361,67617790,70865617,76964282|446896,3150477,49709300,49954430,62350130,64368032,70891971,70953535,71694662,77171236,77184029",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 1,
+    "ag": 1,
+    "ht": [
+     0,
+     1
+    ],
+    "corners": 9.0,
+    "corners_h": 7.0,
+    "corners_a": 2.0,
+    "corners_1t": 4.0,
+    "cards": 3.0,
+    "cards_h": 2.0,
+    "cards_a": 1.0
+   }
   },
   "4755369": {
    "partido": "Stuttgart vs Borussia Mönchengladbach",
