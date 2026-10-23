@@ -3487,8 +3487,72 @@
    "partido": "Guimarães vs Maritimo",
    "liga": "Portugal, Primeira Liga",
    "inicio": "2026-10-23T14:45:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1792781522.6011014
+   "estado": "enviado",
+   "ultimo": 1792781766.106433,
+   "pierna": [
+    {
+     "gid": "4757186",
+     "partido": "Guimarães vs Maritimo",
+     "texto": "No hay empate",
+     "clave": "DC||12",
+     "p": 0.7575,
+     "cuota": 1.22,
+     "casa": "Bet365",
+     "inicio": "2026-10-23T14:45:00-05:00"
+    },
+    {
+     "gid": "4757186",
+     "partido": "Guimarães vs Maritimo",
+     "texto": "Más de 1.5 goles",
+     "clave": "OU|1.5|over",
+     "p": 0.7397,
+     "cuota": 1.25,
+     "casa": "Bet365",
+     "inicio": "2026-10-23T14:45:00-05:00"
+    },
+    {
+     "gid": "4757186",
+     "partido": "Guimarães vs Maritimo",
+     "texto": "Menos de 3.5 goles",
+     "clave": "OU|3.5|under",
+     "p": 0.6881,
+     "cuota": 1.36,
+     "casa": "Bet365",
+     "inicio": "2026-10-23T14:45:00-05:00"
+    },
+    {
+     "gid": "4757186",
+     "partido": "Guimarães vs Maritimo",
+     "texto": "Más de 0.5 goles en el 1T",
+     "clave": "OU1T|0.5|over",
+     "p": 0.6851,
+     "cuota": 1.36,
+     "casa": "Bet365",
+     "inicio": "2026-10-23T14:45:00-05:00"
+    },
+    {
+     "gid": "4757186",
+     "partido": "Guimarães vs Maritimo",
+     "texto": "Menos de 1.5 goles en el 1T",
+     "clave": "OU1T|1.5|under",
+     "p": 0.6453,
+     "cuota": 1.44,
+     "casa": "Bet365",
+     "inicio": "2026-10-23T14:45:00-05:00"
+    },
+    {
+     "gid": "4757186",
+     "partido": "Guimarães vs Maritimo",
+     "texto": "Gana Guimarães",
+     "clave": "1X2||1",
+     "p": 0.5777,
+     "cuota": 1.5,
+     "casa": "Bet365",
+     "inicio": "2026-10-23T14:45:00-05:00"
+    }
+   ],
+   "xi": "553524,2753309,3855117,61426990,67086004,67647506,67819771,67938045,68076685,75258021,75532586|398966,458644,888149,895282,7410799,15243431,43499092,61436794,64239532,68356307,70812981",
+   "conf": true
   },
   "4760799": {
    "partido": "UTC Cajamarca vs FBC Melgar",
