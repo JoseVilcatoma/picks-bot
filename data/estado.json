@@ -2974,8 +2974,8 @@
    "partido": "Stuttgart vs Borussia Mönchengladbach",
    "liga": "Alemania, Bundesliga",
    "inicio": "2026-10-23T13:30:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1792777737.826309,
+   "estado": "liquidado",
+   "ultimo": 1792787215.938166,
    "pierna": [
     {
      "gid": "4755369",
@@ -3019,7 +3019,22 @@
     }
    ],
    "xi": "909220,982954,5332356,6241304,50497594,50584064,52232155,67231985,67921132,68000227,71054280|972964,3094154,4008340,8448849,32435492,56601658,64329313,67638234,70842829,71547426,77485095",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 2,
+    "ag": 3,
+    "ht": [
+     1,
+     1
+    ],
+    "corners": 11.0,
+    "corners_h": 6.0,
+    "corners_a": 5.0,
+    "corners_1t": 5.0,
+    "cards": 6.0,
+    "cards_h": 2.0,
+    "cards_a": 4.0
+   }
   },
   "4757186": {
    "partido": "Guimarães vs Maritimo",
