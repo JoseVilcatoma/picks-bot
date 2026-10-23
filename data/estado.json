@@ -3259,28 +3259,92 @@
    "liga": "Italia, Serie A",
    "inicio": "2026-10-23T13:45:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792777365.9659464
+   "ultimo": 1792777611.6011615
   },
   "4735233": {
    "partido": "Brest vs Niza",
    "liga": "Francia, Ligue 1",
    "inicio": "2026-10-23T13:45:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1792777366.0231822
+   "estado": "enviado",
+   "ultimo": 1792777611.6606936,
+   "pierna": [
+    {
+     "gid": "4735233",
+     "partido": "Brest vs Niza",
+     "texto": "Más de 1.5 goles",
+     "clave": "OU|1.5|over",
+     "p": 0.7895,
+     "cuota": 1.2,
+     "casa": "Bet365",
+     "inicio": "2026-10-23T13:45:00-05:00"
+    },
+    {
+     "gid": "4735233",
+     "partido": "Brest vs Niza",
+     "texto": "Niza recibe gol",
+     "clave": "CS||visita_no",
+     "p": 0.783,
+     "cuota": 1.2,
+     "casa": "Bet365",
+     "inicio": "2026-10-23T13:45:00-05:00"
+    },
+    {
+     "gid": "4735233",
+     "partido": "Brest vs Niza",
+     "texto": "Brest recibe gol",
+     "clave": "CS||local_no",
+     "p": 0.7387,
+     "cuota": 1.25,
+     "casa": "Bet365",
+     "inicio": "2026-10-23T13:45:00-05:00"
+    },
+    {
+     "gid": "4735233",
+     "partido": "Brest vs Niza",
+     "texto": "Más de 0.5 goles en el 1T",
+     "clave": "OU1T|0.5|over",
+     "p": 0.7234,
+     "cuota": 1.3,
+     "casa": "Bet365",
+     "inicio": "2026-10-23T13:45:00-05:00"
+    },
+    {
+     "gid": "4735233",
+     "partido": "Brest vs Niza",
+     "texto": "No hay empate",
+     "clave": "DC||12",
+     "p": 0.722,
+     "cuota": 1.29,
+     "casa": "Bet365",
+     "inicio": "2026-10-23T13:45:00-05:00"
+    },
+    {
+     "gid": "4735233",
+     "partido": "Brest vs Niza",
+     "texto": "Brest o empate",
+     "clave": "DC||1X",
+     "p": 0.6848,
+     "cuota": 1.36,
+     "casa": "Bet365",
+     "inicio": "2026-10-23T13:45:00-05:00"
+    }
+   ],
+   "xi": "333600,403251,468684,610301,943483,3187609,17127543,33778155,61457548,64206036,70788967|26903,1766803,3136375,3413846,6261797,47429447,50568830,50676834,50682331,53769150,63192118",
+   "conf": true
   },
   "4742024": {
    "partido": "Ipswich vs Nottingham Forest",
    "liga": "Inglaterra, Premier League",
    "inicio": "2026-10-23T14:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 0
+   "ultimo": 1792777612.3777566
   },
   "4750819": {
    "partido": "Alavés vs Málaga CF",
    "liga": "España, LaLiga",
    "inicio": "2026-10-23T14:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 0
+   "ultimo": 1792777612.4302776
   },
   "4755369": {
    "partido": "Stuttgart vs Borussia Mönchengladbach",
