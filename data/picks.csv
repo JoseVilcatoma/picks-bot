@@ -1688,3 +1688,8 @@ fecha,game_id,partido,liga,tipo,mercado,clave,prob,cuota,casa,cuota_justa,ev,sta
 2026-10-22 18:16,4858848,Flamengo vs Estudiantes de La Plata,"Sudamerica, CONMEBOL Copa Libertadores - Semifinales",modelo,Menos de 12.5 córners,CORN|12.5|under,0.7356,,,1.36,,,si,G,
 2026-10-22 18:16,4858848,Flamengo vs Estudiantes de La Plata,"Sudamerica, CONMEBOL Copa Libertadores - Semifinales",ticket,Menos de 3.5 goles + Ambos marcan: No,OU|3.5|under&BTTS||no,0.6382,1.80,,1.57,0.1488,10.00,,G,8.00
 2026-10-22 18:16,4858848,Flamengo vs Estudiantes de La Plata,"Sudamerica, CONMEBOL Copa Libertadores - Semifinales",crear,No hay empate + Menos de 3.5 goles + Menos de 15.5 córners,DC||12&OU|3.5|under&CORN|15.5|under,0.5309,,,1.88,,,,P,
+2026-10-23 12:20,4760799,UTC Cajamarca vs FBC Melgar,"Perú, Liga 1 - Clausura",seguro,No hay empate,DC||12,0.7980,1.20,Bet365,1.25,-0.0424,,probable,,
+2026-10-23 12:20,4760799,UTC Cajamarca vs FBC Melgar,"Perú, Liga 1 - Clausura",seguro,Más de 1.5 goles,OU|1.5|over,0.7823,1.18,Bet365,1.28,-0.0769,,probable,,
+2026-10-23 12:20,4760799,UTC Cajamarca vs FBC Melgar,"Perú, Liga 1 - Clausura",modelo,Menos de 12.5 córners,CORN|12.5|under,0.7276,,,1.37,,,probable,,
+2026-10-23 12:20,4760799,UTC Cajamarca vs FBC Melgar,"Perú, Liga 1 - Clausura",modelo,Más de 2.5 tarjetas,CARDS|2.5|over,0.7259,,,1.38,,,probable,,
+2026-10-23 12:20,4760799,UTC Cajamarca vs FBC Melgar,"Perú, Liga 1 - Clausura",crear,FBC Melgar o empate + Menos de 4.5 goles + Menos de 9.5 tarjetas,DC||X2&OU|4.5|under&CARDS|9.5|under,0.5843,,,1.71,,,,,
