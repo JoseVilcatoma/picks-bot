@@ -1910,8 +1910,8 @@
    "partido": "Atlético de Madrid vs RC Deportivo",
    "liga": "España, LaLiga",
    "inicio": "2026-10-24T14:00:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1792865158.9384668,
+   "estado": "liquidado",
+   "ultimo": 1792875416.0930417,
    "pierna": [
     {
      "gid": "4750818",
@@ -1945,7 +1945,22 @@
     }
    ],
    "xi": "325326,527341,602979,1333417,2993226,3487471,5533521,9638719,49550597,63125761,64497047|412242,3680517,48477961,51404167,54644483,64385811,65561869,66501021,67428962,75251248,77551112",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 1,
+    "ag": 0,
+    "ht": [
+     0,
+     0
+    ],
+    "corners": 7.0,
+    "corners_h": 3.0,
+    "corners_a": 4.0,
+    "corners_1t": 4.0,
+    "cards": 6.0,
+    "cards_h": 4.0,
+    "cards_a": 2.0
+   }
   },
   "4755362": {
    "partido": "SC Paderborn 07 vs Hamburgo SV",
