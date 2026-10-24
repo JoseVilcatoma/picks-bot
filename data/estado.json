@@ -3859,8 +3859,8 @@
    "partido": "SC Paderborn 07 vs Hamburgo SV",
    "liga": "Alemania, Bundesliga",
    "inicio": "2026-10-24T08:30:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1792844846.0016284,
+   "estado": "liquidado",
+   "ultimo": 1792855580.7678573,
    "pierna": [
     {
      "gid": "4755362",
@@ -3924,14 +3924,29 @@
     }
    ],
    "xi": "3138034,50568553,51290169,65045584,65417618,65670736,66303155,67687520,68323301,70776744,70839583|485593,562120,951739,3071304,13299329,49490708,49513021,52901773,58801584,61123536,61684480",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 1,
+    "ag": 0,
+    "ht": [
+     0,
+     0
+    ],
+    "corners": 9.0,
+    "corners_h": 6.0,
+    "corners_a": 3.0,
+    "corners_1t": 5.0,
+    "cards": 3.0,
+    "cards_h": 1.0,
+    "cards_a": 2.0
+   }
   },
   "4755363": {
    "partido": "1. FC Köln vs Schalke 04",
    "liga": "Alemania, Bundesliga",
    "inicio": "2026-10-24T08:30:00-05:00",
    "estado": "enviado",
-   "ultimo": 1792845831.202107,
+   "ultimo": 1792855580.948389,
    "pierna": [
     {
      "gid": "4755363",
@@ -4002,7 +4017,7 @@
    "liga": "Alemania, Bundesliga",
    "inicio": "2026-10-24T08:30:00-05:00",
    "estado": "enviado",
-   "ultimo": 1792845094.562887,
+   "ultimo": 1792855581.0121143,
    "pierna": [
     {
      "gid": "4755365",
@@ -4062,8 +4077,8 @@
    "partido": "FC Augsburg vs Union Berlin",
    "liga": "Alemania, Bundesliga",
    "inicio": "2026-10-24T08:30:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1792845585.2189076,
+   "estado": "liquidado",
+   "ultimo": 1792855581.0703654,
    "pierna": [
     {
      "gid": "4755366",
@@ -4117,14 +4132,29 @@
     }
    ],
    "xi": "334820,571332,6009963,7041874,15399180,52013613,64192496,64687233,71102545,71148524,75383430|253890,335092,342465,905043,3094152,3154796,6875557,13659727,55685520,63126596,75386990",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 1,
+    "ag": 1,
+    "ht": [
+     0,
+     0
+    ],
+    "corners": 6.0,
+    "corners_h": 5.0,
+    "corners_a": 1.0,
+    "corners_1t": 3.0,
+    "cards": 5.0,
+    "cards_h": 1.0,
+    "cards_a": 4.0
+   }
   },
   "4755370": {
    "partido": "RB Leipzig vs SV 07 Elversberg",
    "liga": "Alemania, Bundesliga",
    "inicio": "2026-10-24T08:30:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1792844847.6705062,
+   "estado": "liquidado",
+   "ultimo": 1792855581.2136207,
    "pierna": [
     {
      "gid": "4755370",
@@ -4158,7 +4188,22 @@
     }
    ],
    "xi": "548126,565116,943400,51131240,59101484,60727851,61211738,64157972,70859051,70866182,75522153|3074635,9692144,50799028,60134466,60870648,61457020,66359447,67633948,75383424,75399256,76165365",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 4,
+    "ag": 0,
+    "ht": [
+     0,
+     0
+    ],
+    "corners": 10.0,
+    "corners_h": 4.0,
+    "corners_a": 6.0,
+    "corners_1t": 6.0,
+    "cards": 2.0,
+    "cards_h": 1.0,
+    "cards_a": 1.0
+   }
   },
   "4755371": {
    "partido": "Borussia Dortmund vs Eintracht Frankfurt",
