@@ -2560,8 +2560,8 @@
    "partido": "Chelsea vs Tottenham",
    "liga": "Inglaterra, Premier League",
    "inicio": "2026-10-24T11:30:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1792855706.8298957,
+   "estado": "liquidado",
+   "ultimo": 1792866384.9984293,
    "pierna": [
     {
      "gid": "4742028",
@@ -2625,7 +2625,22 @@
     }
    ],
    "xi": "126125,2558704,39270918,49733543,50800163,54701553,60927957,66692825,67747139,71073935,71682582|354502,3143492,4785473,4870623,14775530,49463074,60978968,63108549,64522138,66565948,67877824",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 0,
+    "ag": 2,
+    "ht": [
+     0,
+     0
+    ],
+    "corners": 10.0,
+    "corners_h": 4.0,
+    "corners_a": 6.0,
+    "corners_1t": 5.0,
+    "cards": 7.0,
+    "cards_h": 4.0,
+    "cards_a": 3.0
+   }
   },
   "4742030": {
    "partido": "Aston Villa vs Manchester City",
@@ -2774,7 +2789,7 @@
    "liga": "España, LaLiga",
    "inicio": "2026-10-24T11:30:00-05:00",
    "estado": "enviado",
-   "ultimo": 1792856939.1739848,
+   "ultimo": 1792866385.3219783,
    "pierna": [
     {
      "gid": "4750812",
@@ -3417,8 +3432,8 @@
    "partido": "Borussia Dortmund vs Eintracht Frankfurt",
    "liga": "Alemania, Bundesliga",
    "inicio": "2026-10-24T11:30:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1792856691.5482092,
+   "estado": "liquidado",
+   "ultimo": 1792866385.446372,
    "pierna": [
     {
      "gid": "4755371",
@@ -3462,7 +3477,22 @@
     }
    ],
    "xi": "351003,366254,379069,532397,895074,943391,3276664,15028852,38249831,50878796,51042327|646522,3155273,8687950,50444832,50584956,60085508,61213413,66253459,70955868,71155061,76952737",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 1,
+    "ag": 0,
+    "ht": [
+     0,
+     0
+    ],
+    "corners": 14.0,
+    "corners_h": 13.0,
+    "corners_a": 1.0,
+    "corners_1t": 8.0,
+    "cards": 2.0,
+    "cards_h": 0.0,
+    "cards_a": 2.0
+   }
   },
   "4757178": {
    "partido": "Alverca vs Arouca",
