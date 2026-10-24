@@ -1821,3 +1821,8 @@ fecha,game_id,partido,liga,tipo,mercado,clave,prob,cuota,casa,cuota_justa,ev,sta
 2026-10-24 10:28,4742028,Chelsea vs Tottenham,"Inglaterra, Premier League",modelo,Más de 1.5 goles,OU|1.5|over,0.8030,,,1.25,,,si,,
 2026-10-24 10:28,4742028,Chelsea vs Tottenham,"Inglaterra, Premier League",ticket,Más de 2.5 goles + Chelsea recibe gol,OU|2.5|over&CS||local_no,0.4943,2.04,,2.02,0.0088,10.00,,,
 2026-10-24 10:28,4742028,Chelsea vs Tottenham,"Inglaterra, Premier League",crear,Más de 1.5 goles + Menos de 16.5 córners + Menos de 8.5 tarjetas,OU|1.5|over&CORN|16.5|under&CARDS|8.5|under,0.5478,,,1.83,,,,,
+2026-10-24 10:44,4755371,Borussia Dortmund vs Eintracht Frankfurt,"Alemania, Bundesliga",seguro,No hay empate,DC||12,0.7867,1.17,Bet365,1.27,-0.0795,,si,,
+2026-10-24 10:44,4755371,Borussia Dortmund vs Eintracht Frankfurt,"Alemania, Bundesliga",seguro,Más de 0.5 goles en el 1T,OU1T|0.5|over,0.7546,1.18,Bet365,1.33,-0.1095,,si,,
+2026-10-24 10:44,4755371,Borussia Dortmund vs Eintracht Frankfurt,"Alemania, Bundesliga",modelo,Más de 1.5 goles,OU|1.5|over,0.8283,,,1.21,,,si,,
+2026-10-24 10:44,4755371,Borussia Dortmund vs Eintracht Frankfurt,"Alemania, Bundesliga",modelo,Menos de 12.5 córners,CORN|12.5|under,0.7356,,,1.36,,,si,,
+2026-10-24 10:44,4755371,Borussia Dortmund vs Eintracht Frankfurt,"Alemania, Bundesliga",crear,Más de 1.5 goles + Menos de 15.5 córners + Más de 0.5 tarjetas,OU|1.5|over&CORN|15.5|under&CARDS|0.5|over,0.5829,,,1.72,,,,,

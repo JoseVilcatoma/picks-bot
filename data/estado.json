@@ -3773,7 +3773,7 @@
    "liga": "España, LaLiga",
    "inicio": "2026-10-24T11:30:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792856447.6469016
+   "ultimo": 1792856691.4024544
   },
   "4750814": {
    "partido": "Rayo Vallecano vs Elche CF",
@@ -4303,8 +4303,52 @@
    "partido": "Borussia Dortmund vs Eintracht Frankfurt",
    "liga": "Alemania, Bundesliga",
    "inicio": "2026-10-24T11:30:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1792856447.8380764
+   "estado": "enviado",
+   "ultimo": 1792856691.5482092,
+   "pierna": [
+    {
+     "gid": "4755371",
+     "partido": "Borussia Dortmund vs Eintracht Frankfurt",
+     "texto": "Borussia Dortmund recibe gol",
+     "clave": "CS||local_no",
+     "p": 0.6371,
+     "cuota": 1.36,
+     "casa": "Bet365",
+     "inicio": "2026-10-24T11:30:00-05:00"
+    },
+    {
+     "gid": "4755371",
+     "partido": "Borussia Dortmund vs Eintracht Frankfurt",
+     "texto": "Gana Borussia Dortmund",
+     "clave": "1X2||1",
+     "p": 0.6343,
+     "cuota": 1.45,
+     "casa": "Bet365",
+     "inicio": "2026-10-24T11:30:00-05:00"
+    },
+    {
+     "gid": "4755371",
+     "partido": "Borussia Dortmund vs Eintracht Frankfurt",
+     "texto": "Más de 2.5 goles",
+     "clave": "OU|2.5|over",
+     "p": 0.624,
+     "cuota": 1.33,
+     "casa": "Bet365",
+     "inicio": "2026-10-24T11:30:00-05:00"
+    },
+    {
+     "gid": "4755371",
+     "partido": "Borussia Dortmund vs Eintracht Frankfurt",
+     "texto": "Ambos marcan: Sí",
+     "clave": "BTTS||si",
+     "p": 0.5749,
+     "cuota": 1.44,
+     "casa": "Bet365",
+     "inicio": "2026-10-24T11:30:00-05:00"
+    }
+   ],
+   "xi": "351003,366254,379069,532397,895074,943391,3276664,15028852,38249831,50878796,51042327|646522,3155273,8687950,50444832,50584956,60085508,61213413,66253459,70955868,71155061,76952737",
+   "conf": true
   },
   "4757178": {
    "partido": "Alverca vs Arouca",
