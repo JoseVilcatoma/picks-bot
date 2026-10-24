@@ -2200,8 +2200,42 @@
    "partido": "Lazio vs Parma",
    "liga": "Italia, Serie A",
    "inicio": "2026-10-24T13:45:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1792864783.2628179
+   "estado": "enviado",
+   "ultimo": 1792865033.1225598,
+   "pierna": [
+    {
+     "gid": "4732665",
+     "partido": "Lazio vs Parma",
+     "texto": "Más de 1.5 goles",
+     "clave": "OU|1.5|over",
+     "p": 0.744,
+     "cuota": 1.29,
+     "casa": "Bet365",
+     "inicio": "2026-10-24T13:45:00-05:00"
+    },
+    {
+     "gid": "4732665",
+     "partido": "Lazio vs Parma",
+     "texto": "Más de 0.5 goles en el 1T",
+     "clave": "OU1T|0.5|over",
+     "p": 0.6881,
+     "cuota": 1.36,
+     "casa": "Bet365",
+     "inicio": "2026-10-24T13:45:00-05:00"
+    },
+    {
+     "gid": "4732665",
+     "partido": "Lazio vs Parma",
+     "texto": "Gana Lazio",
+     "clave": "1X2||1",
+     "p": 0.6645,
+     "cuota": 1.42,
+     "casa": "Bet365",
+     "inicio": "2026-10-24T13:45:00-05:00"
+    }
+   ],
+   "xi": "510933,3071410,15244106,26815119,29999056,41018240,49552142,62194167,64141744,65235149,66308500|292380,659658,7773175,43896631,47401661,51582567,55974643,60968477,67617239,70810721,77672771",
+   "conf": true
   },
   "4732668": {
    "partido": "Como vs Sassuolo",

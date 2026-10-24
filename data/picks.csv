@@ -1847,3 +1847,8 @@ fecha,game_id,partido,liga,tipo,mercado,clave,prob,cuota,casa,cuota_justa,ev,sta
 2026-10-24 12:59,4735232,Lens vs Paris FC,"Francia, Ligue 1",modelo,Más de 2.5 tarjetas,CARDS|2.5|over,0.7146,,,1.40,,,si,,
 2026-10-24 12:59,4735232,Lens vs Paris FC,"Francia, Ligue 1",ticket,Lens o empate + Paris FC recibe gol,DC||1X&CS||visita_no,0.5991,1.76,,1.67,0.0525,10.00,,,
 2026-10-24 12:59,4735232,Lens vs Paris FC,"Francia, Ligue 1",crear,Más de 1.5 goles + Menos de 13.5 córners + Más de 0.5 tarjetas,OU|1.5|over&CORN|13.5|under&CARDS|0.5|over,0.5809,,,1.72,,,,,
+2026-10-24 13:03,4732665,Lazio vs Parma,"Italia, Serie A",seguro,No hay empate,DC||12,0.7974,1.18,Bet365,1.25,-0.0591,,si,,
+2026-10-24 13:03,4732665,Lazio vs Parma,"Italia, Serie A",seguro,Más de 1.5 goles,OU|1.5|over,0.7568,1.29,Bet365,1.32,-0.0237,,si,,
+2026-10-24 13:03,4732665,Lazio vs Parma,"Italia, Serie A",modelo,Menos de 6.5 tarjetas,CARDS|6.5|under,0.8156,,,1.23,,,si,,
+2026-10-24 13:03,4732665,Lazio vs Parma,"Italia, Serie A",modelo,Más de 7.5 córners,CORN|7.5|over,0.6947,,,1.44,,,si,,
+2026-10-24 13:03,4732665,Lazio vs Parma,"Italia, Serie A",crear,Lazio o empate + Menos de 14.5 córners + Más de 0.5 tarjetas,DC||1X&CORN|14.5|under&CARDS|0.5|over,0.5857,,,1.71,,,,,
