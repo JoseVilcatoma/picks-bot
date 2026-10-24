@@ -3475,8 +3475,72 @@
    "partido": "Coventry vs Fulham",
    "liga": "Inglaterra, Premier League",
    "inicio": "2026-10-24T09:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1792846443.4580007
+   "estado": "enviado",
+   "ultimo": 1792846690.2134655,
+   "pierna": [
+    {
+     "gid": "4742027",
+     "partido": "Coventry vs Fulham",
+     "texto": "Coventry recibe gol",
+     "clave": "CS||local_no",
+     "p": 0.783,
+     "cuota": 1.2,
+     "casa": "Bet365",
+     "inicio": "2026-10-24T09:00:00-05:00"
+    },
+    {
+     "gid": "4742027",
+     "partido": "Coventry vs Fulham",
+     "texto": "Más de 1.5 goles",
+     "clave": "OU|1.5|over",
+     "p": 0.7802,
+     "cuota": 1.22,
+     "casa": "Bet365",
+     "inicio": "2026-10-24T09:00:00-05:00"
+    },
+    {
+     "gid": "4742027",
+     "partido": "Coventry vs Fulham",
+     "texto": "No hay empate",
+     "clave": "DC||12",
+     "p": 0.7251,
+     "cuota": 1.3,
+     "casa": "Bet365",
+     "inicio": "2026-10-24T09:00:00-05:00"
+    },
+    {
+     "gid": "4742027",
+     "partido": "Coventry vs Fulham",
+     "texto": "Fulham recibe gol",
+     "clave": "CS||visita_no",
+     "p": 0.7233,
+     "cuota": 1.3,
+     "casa": "Bet365",
+     "inicio": "2026-10-24T09:00:00-05:00"
+    },
+    {
+     "gid": "4742027",
+     "partido": "Coventry vs Fulham",
+     "texto": "Más de 0.5 goles en el 1T",
+     "clave": "OU1T|0.5|over",
+     "p": 0.7096,
+     "cuota": 1.33,
+     "casa": "Bet365",
+     "inicio": "2026-10-24T09:00:00-05:00"
+    },
+    {
+     "gid": "4742027",
+     "partido": "Coventry vs Fulham",
+     "texto": "Fulham o empate",
+     "clave": "DC||X2",
+     "p": 0.6931,
+     "cuota": 1.36,
+     "casa": "Bet365",
+     "inicio": "2026-10-24T09:00:00-05:00"
+    }
+   ],
+   "xi": "491504,3133496,3249227,3457622,8262598,49701146,49988861,51923671,68831133,70781510,75258798|334784,441799,598010,8950563,50208640,55239130,61717953,65246896,65848500,68056120,75402193",
+   "conf": true
   },
   "4742028": {
    "partido": "Chelsea vs Tottenham",
