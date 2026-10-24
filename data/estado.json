@@ -2094,21 +2094,21 @@
    "liga": "Brasil, Brasileirão",
    "inicio": "2026-10-24T14:30:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792866755.2375255
+   "ultimo": 1792866999.5985663
   },
   "4632629": {
    "partido": "Internacional vs Botafogo",
    "liga": "Brasil, Brasileirão",
    "inicio": "2026-10-24T14:30:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792866755.4775994
+   "ultimo": 1792866999.8538392
   },
   "4632632": {
    "partido": "Mirassol vs São Paulo",
    "liga": "Brasil, Brasileirão",
    "inicio": "2026-10-24T14:30:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792866755.5880294
+   "ultimo": 1792866999.9600701
   },
   "4732663": {
    "partido": "Nápoles vs AS Roma",
@@ -2788,8 +2788,8 @@
    "partido": "Valencia CF vs Villarreal CF",
    "liga": "España, LaLiga",
    "inicio": "2026-10-24T11:30:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1792866385.3219783,
+   "estado": "liquidado",
+   "ultimo": 1792867000.0691156,
    "pierna": [
     {
      "gid": "4750812",
@@ -2853,7 +2853,22 @@
     }
    ],
    "xi": "441765,502893,557843,561247,676819,1132718,1760855,50481885,64248760,64759691,71134406|335047,336482,403681,3219207,13313345,50260341,63096456,65211458,66678159,67627457,77617094",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 1,
+    "ag": 2,
+    "ht": [
+     1,
+     0
+    ],
+    "corners": 15.0,
+    "corners_h": 6.0,
+    "corners_a": 9.0,
+    "corners_1t": 8.0,
+    "cards": 9.0,
+    "cards_h": 5.0,
+    "cards_a": 4.0
+   }
   },
   "4750814": {
    "partido": "Rayo Vallecano vs Elche CF",
@@ -3635,8 +3650,52 @@
    "partido": "Gil Vicente FC vs FC Porto",
    "liga": "Portugal, Primeira Liga",
    "inicio": "2026-10-24T14:30:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1792866755.6913106
+   "estado": "enviado",
+   "ultimo": 1792867000.2993634,
+   "pierna": [
+    {
+     "gid": "4757181",
+     "partido": "Gil Vicente FC vs FC Porto",
+     "texto": "No hay empate",
+     "clave": "DC||12",
+     "p": 0.7716,
+     "cuota": 1.22,
+     "casa": "Bet365",
+     "inicio": "2026-10-24T14:30:00-05:00"
+    },
+    {
+     "gid": "4757181",
+     "partido": "Gil Vicente FC vs FC Porto",
+     "texto": "Más de 1.5 goles",
+     "clave": "OU|1.5|over",
+     "p": 0.7274,
+     "cuota": 1.25,
+     "casa": "Bet365",
+     "inicio": "2026-10-24T14:30:00-05:00"
+    },
+    {
+     "gid": "4757181",
+     "partido": "Gil Vicente FC vs FC Porto",
+     "texto": "Más de 0.5 goles en el 1T",
+     "clave": "OU1T|0.5|over",
+     "p": 0.6766,
+     "cuota": 1.36,
+     "casa": "Bet365",
+     "inicio": "2026-10-24T14:30:00-05:00"
+    },
+    {
+     "gid": "4757181",
+     "partido": "Gil Vicente FC vs FC Porto",
+     "texto": "Gana FC Porto",
+     "clave": "1X2||2",
+     "p": 0.6466,
+     "cuota": 1.42,
+     "casa": "Bet365",
+     "inicio": "2026-10-24T14:30:00-05:00"
+    }
+   ],
+   "xi": "308775,896636,3064929,49629711,49955800,57607844,66301535,67974133,70862973,71347019,77080314|635177,648418,911054,913383,12436614,13856477,33436214,51137406,70953015,71328020,75459496",
+   "conf": true
   },
   "4760796": {
    "partido": "Cusco FC vs Sporting Cristal",
