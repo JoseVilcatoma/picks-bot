@@ -3503,8 +3503,8 @@
    "partido": "Coventry vs Fulham",
    "liga": "Inglaterra, Premier League",
    "inicio": "2026-10-24T09:00:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1792846690.2134655,
+   "estado": "liquidado",
+   "ultimo": 1792857307.3490045,
    "pierna": [
     {
      "gid": "4742027",
@@ -3568,7 +3568,22 @@
     }
    ],
    "xi": "491504,3133496,3249227,3457622,8262598,49701146,49988861,51923671,68831133,70781510,75258798|334784,441799,598010,8950563,50208640,55239130,61717953,65246896,65848500,68056120,75402193",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 0,
+    "ag": 1,
+    "ht": [
+     0,
+     0
+    ],
+    "corners": 10.0,
+    "corners_h": 4.0,
+    "corners_a": 6.0,
+    "corners_1t": 3.0,
+    "cards": 2.0,
+    "cards_h": 0.0,
+    "cards_a": 2.0
+   }
   },
   "4742028": {
    "partido": "Chelsea vs Tottenham",
@@ -3732,7 +3747,7 @@
    "liga": "Inglaterra, Premier League",
    "inicio": "2026-10-24T09:00:00-05:00",
    "estado": "enviado",
-   "ultimo": 1792846443.6337044,
+   "ultimo": 1792857307.5952613,
    "pierna": [
     {
      "gid": "4742031",
@@ -4419,7 +4434,7 @@
    "liga": "Portugal, Primeira Liga",
    "inicio": "2026-10-24T12:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792857064.1035411
+   "ultimo": 1792857307.6564074
   },
   "4757179": {
    "partido": "Estrela da Amadora vs Casa Pia AC",
