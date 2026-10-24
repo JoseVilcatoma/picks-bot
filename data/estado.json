@@ -3687,8 +3687,8 @@
    "partido": "Rayo Vallecano vs Elche CF",
    "liga": "España, LaLiga",
    "inicio": "2026-10-24T07:00:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1792850103.835384,
+   "estado": "liquidado",
+   "ultimo": 1792850710.7646294,
    "pierna": [
     {
      "gid": "4750814",
@@ -3732,7 +3732,22 @@
     }
    ],
    "xi": "331103,379362,392629,416286,489306,530676,1384725,3205166,8165281,38786447,46477641|399311,462402,951705,46887693,50586397,52641513,60025387,62020562,66170333,71110290,77859605",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 0,
+    "ag": 3,
+    "ht": [
+     0,
+     2
+    ],
+    "corners": 6.0,
+    "corners_h": 3.0,
+    "corners_a": 3.0,
+    "corners_1t": 1.0,
+    "cards": 6.0,
+    "cards_h": 3.0,
+    "cards_a": 3.0
+   }
   },
   "4750816": {
    "partido": "Racing de Santander vs RCD Espanyol",
