@@ -2675,8 +2675,8 @@
    "partido": "Cusco FC vs Sporting Cristal",
    "liga": "Perú, Liga 1 - Clausura",
    "inicio": "2026-10-24T15:15:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1792869454.007734,
+   "estado": "liquidado",
+   "ultimo": 1792879914.5581884,
    "pierna": [
     {
      "gid": "4760796",
@@ -2730,7 +2730,22 @@
     }
    ],
    "xi": "541797,547480,612085,832539,838440,2809735,3218454,3366544,8783445,14220059,47407662|357602,386754,389408,431628,485269,486424,5697711,15806567,25270975,50613999,71373581",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 3,
+    "ag": 1,
+    "ht": [
+     2,
+     0
+    ],
+    "corners": 14.0,
+    "corners_h": 2.0,
+    "corners_a": 12.0,
+    "corners_1t": 6.0,
+    "cards": 3.0,
+    "cards_h": 3.0,
+    "cards_a": 0.0
+   }
   },
   "4760801": {
    "partido": "Sport Huancayo vs Alianza Atletico",
