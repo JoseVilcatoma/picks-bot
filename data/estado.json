@@ -3476,7 +3476,7 @@
    "liga": "Inglaterra, Premier League",
    "inicio": "2026-10-24T09:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792846199.9355083
+   "ultimo": 1792846443.4580007
   },
   "4742028": {
    "partido": "Chelsea vs Tottenham",
@@ -3560,8 +3560,42 @@
    "partido": "Arsenal vs Everton",
    "liga": "Inglaterra, Premier League",
    "inicio": "2026-10-24T09:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1792846200.0656705
+   "estado": "enviado",
+   "ultimo": 1792846443.6337044,
+   "pierna": [
+    {
+     "gid": "4742031",
+     "partido": "Arsenal vs Everton",
+     "texto": "Menos de 3.5 goles",
+     "clave": "OU|3.5|under",
+     "p": 0.6818,
+     "cuota": 1.4,
+     "casa": "Bet365",
+     "inicio": "2026-10-24T09:00:00-05:00"
+    },
+    {
+     "gid": "4742031",
+     "partido": "Arsenal vs Everton",
+     "texto": "Menos de 1.5 goles en el 1T",
+     "clave": "OU1T|1.5|under",
+     "p": 0.625,
+     "cuota": 1.5,
+     "casa": "Bet365",
+     "inicio": "2026-10-24T09:00:00-05:00"
+    },
+    {
+     "gid": "4742031",
+     "partido": "Arsenal vs Everton",
+     "texto": "Gana Arsenal",
+     "clave": "1X2||1",
+     "p": 0.5214,
+     "cuota": 1.42,
+     "casa": "Bet365",
+     "inicio": "2026-10-24T09:00:00-05:00"
+    }
+   ],
+   "xi": "513371,537419,562084,2985896,3055995,3070470,3135414,3211355,3287853,45211907,67102513|355086,478397,3071263,12433748,25965721,50763260,53419038,65454051,70782880,70889317,75441450",
+   "conf": true
   },
   "4750812": {
    "partido": "Valencia CF vs Villarreal CF",
