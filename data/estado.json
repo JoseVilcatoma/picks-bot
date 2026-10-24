@@ -3773,7 +3773,7 @@
    "liga": "España, LaLiga",
    "inicio": "2026-10-24T11:30:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792855958.1427681
+   "ultimo": 1792856201.706187
   },
   "4750814": {
    "partido": "Rayo Vallecano vs Elche CF",
@@ -4009,8 +4009,8 @@
    "partido": "1. FC Köln vs Schalke 04",
    "liga": "Alemania, Bundesliga",
    "inicio": "2026-10-24T08:30:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1792855580.948389,
+   "estado": "liquidado",
+   "ultimo": 1792856201.862593,
    "pierna": [
     {
      "gid": "4755363",
@@ -4074,14 +4074,29 @@
     }
    ],
    "xi": "541007,569179,7354235,8692945,10279281,33849977,51195599,65291044,70951372,72478393,75412214|334751,449711,938102,3345229,29409781,43495348,50080221,50678415,60936151,65396639,65670937",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 0,
+    "ag": 0,
+    "ht": [
+     0,
+     0
+    ],
+    "corners": 11.0,
+    "corners_h": 6.0,
+    "corners_a": 5.0,
+    "corners_1t": 7.0,
+    "cards": 5.0,
+    "cards_h": 2.0,
+    "cards_a": 3.0
+   }
   },
   "4755365": {
    "partido": "Mainz 05 vs Werder Bremen",
    "liga": "Alemania, Bundesliga",
    "inicio": "2026-10-24T08:30:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1792855581.0121143,
+   "estado": "liquidado",
+   "ultimo": 1792856201.9892576,
    "pierna": [
     {
      "gid": "4755365",
@@ -4135,7 +4150,22 @@
     }
    ],
    "xi": "335039,488950,500733,508224,525630,581528,2809566,3132952,3231067,67774532,77401906|274859,502585,556207,3754113,13339521,14868299,40779181,49494429,50967039,65328217,70942380",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 2,
+    "ag": 3,
+    "ht": [
+     1,
+     2
+    ],
+    "corners": 12.0,
+    "corners_h": 6.0,
+    "corners_a": 6.0,
+    "corners_1t": 3.0,
+    "cards": 5.0,
+    "cards_h": 3.0,
+    "cards_a": 2.0
+   }
   },
   "4755366": {
    "partido": "FC Augsburg vs Union Berlin",
@@ -4274,7 +4304,7 @@
    "liga": "Alemania, Bundesliga",
    "inicio": "2026-10-24T11:30:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792855958.329674
+   "ultimo": 1792856202.115427
   },
   "4757178": {
    "partido": "Alverca vs Arouca",
