@@ -3939,8 +3939,8 @@
    "partido": "Racing de Santander vs RCD Espanyol",
    "liga": "España, LaLiga",
    "inicio": "2026-10-24T09:15:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1792848523.149077,
+   "estado": "liquidado",
+   "ultimo": 1792858288.6738493,
    "pierna": [
     {
      "gid": "4750816",
@@ -4004,7 +4004,22 @@
     }
    ],
    "xi": "28334,9634326,10526467,15809523,51019318,60835756,64816557,66437445,66566911,71407785,75254319|329279,3333331,9051014,33455180,51162060,56247324,58466098,64384015,66320143,70887742,75445278",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 2,
+    "ag": 1,
+    "ht": [
+     0,
+     0
+    ],
+    "corners": 13.0,
+    "corners_h": 9.0,
+    "corners_a": 4.0,
+    "corners_1t": 4.0,
+    "cards": 7.0,
+    "cards_h": 3.0,
+    "cards_a": 4.0
+   }
   },
   "4750818": {
    "partido": "Atlético de Madrid vs RC Deportivo",
