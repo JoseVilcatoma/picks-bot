@@ -3639,36 +3639,134 @@
    "partido": "SC Paderborn 07 vs Hamburgo SV",
    "liga": "Alemania, Bundesliga",
    "inicio": "2026-10-24T08:30:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1792844602.1694648
+   "estado": "enviado",
+   "ultimo": 1792844846.0016284,
+   "pierna": [
+    {
+     "gid": "4755362",
+     "partido": "SC Paderborn 07 vs Hamburgo SV",
+     "texto": "Más de 1.5 goles",
+     "clave": "OU|1.5|over",
+     "p": 0.7895,
+     "cuota": 1.2,
+     "casa": "Bet365",
+     "inicio": "2026-10-24T08:30:00-05:00"
+    },
+    {
+     "gid": "4755362",
+     "partido": "SC Paderborn 07 vs Hamburgo SV",
+     "texto": "SC Paderborn 07 recibe gol",
+     "clave": "CS||local_no",
+     "p": 0.75,
+     "cuota": 1.25,
+     "casa": "Bet365",
+     "inicio": "2026-10-24T08:30:00-05:00"
+    },
+    {
+     "gid": "4755362",
+     "partido": "SC Paderborn 07 vs Hamburgo SV",
+     "texto": "Más de 0.5 goles en el 1T",
+     "clave": "OU1T|0.5|over",
+     "p": 0.7307,
+     "cuota": 1.29,
+     "casa": "Bet365",
+     "inicio": "2026-10-24T08:30:00-05:00"
+    },
+    {
+     "gid": "4755362",
+     "partido": "SC Paderborn 07 vs Hamburgo SV",
+     "texto": "No hay empate",
+     "clave": "DC||12",
+     "p": 0.7291,
+     "cuota": 1.29,
+     "casa": "Bet365",
+     "inicio": "2026-10-24T08:30:00-05:00"
+    },
+    {
+     "gid": "4755362",
+     "partido": "SC Paderborn 07 vs Hamburgo SV",
+     "texto": "Ambos marcan: Sí",
+     "clave": "BTTS||si",
+     "p": 0.6087,
+     "cuota": 1.53,
+     "casa": "Bet365",
+     "inicio": "2026-10-24T08:30:00-05:00"
+    },
+    {
+     "gid": "4755362",
+     "partido": "SC Paderborn 07 vs Hamburgo SV",
+     "texto": "Hamburgo SV o empate",
+     "clave": "DC||X2",
+     "p": 0.5989,
+     "cuota": 1.57,
+     "casa": "Bet365",
+     "inicio": "2026-10-24T08:30:00-05:00"
+    }
+   ],
+   "xi": "3138034,50568553,51290169,65045584,65417618,65670736,66303155,67687520,68323301,70776744,70839583|485593,562120,951739,3071304,13299329,49490708,49513021,52901773,58801584,61123536,61684480",
+   "conf": true
   },
   "4755363": {
    "partido": "1. FC Köln vs Schalke 04",
    "liga": "Alemania, Bundesliga",
    "inicio": "2026-10-24T08:30:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792844602.3881364
+   "ultimo": 1792844847.479037
   },
   "4755365": {
    "partido": "Mainz 05 vs Werder Bremen",
    "liga": "Alemania, Bundesliga",
    "inicio": "2026-10-24T08:30:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792844602.4861813
+   "ultimo": 1792844847.5276923
   },
   "4755366": {
    "partido": "FC Augsburg vs Union Berlin",
    "liga": "Alemania, Bundesliga",
    "inicio": "2026-10-24T08:30:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792844602.5607803
+   "ultimo": 1792844847.6193602
   },
   "4755370": {
    "partido": "RB Leipzig vs SV 07 Elversberg",
    "liga": "Alemania, Bundesliga",
    "inicio": "2026-10-24T08:30:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1792844602.6135056
+   "estado": "enviado",
+   "ultimo": 1792844847.6705062,
+   "pierna": [
+    {
+     "gid": "4755370",
+     "partido": "RB Leipzig vs SV 07 Elversberg",
+     "texto": "RB Leipzig recibe gol",
+     "clave": "CS||local_no",
+     "p": 0.7096,
+     "cuota": 1.33,
+     "casa": "Bet365",
+     "inicio": "2026-10-24T08:30:00-05:00"
+    },
+    {
+     "gid": "4755370",
+     "partido": "RB Leipzig vs SV 07 Elversberg",
+     "texto": "Más de 2.5 goles",
+     "clave": "OU|2.5|over",
+     "p": 0.6752,
+     "cuota": 1.25,
+     "casa": "Bet365",
+     "inicio": "2026-10-24T08:30:00-05:00"
+    },
+    {
+     "gid": "4755370",
+     "partido": "RB Leipzig vs SV 07 Elversberg",
+     "texto": "Ambos marcan: Sí",
+     "clave": "BTTS||si",
+     "p": 0.6533,
+     "cuota": 1.4,
+     "casa": "Bet365",
+     "inicio": "2026-10-24T08:30:00-05:00"
+    }
+   ],
+   "xi": "548126,565116,943400,51131240,59101484,60727851,61211738,64157972,70859051,70866182,75522153|3074635,9692144,50799028,60134466,60870648,61457020,66359447,67633948,75383424,75399256,76165365",
+   "conf": true
   },
   "4755371": {
    "partido": "Borussia Dortmund vs Eintracht Frankfurt",
