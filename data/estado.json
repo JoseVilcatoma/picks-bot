@@ -2114,8 +2114,8 @@
    "partido": "Nápoles vs AS Roma",
    "liga": "Italia, Serie A",
    "inicio": "2026-10-24T11:00:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1792854845.7225335,
+   "estado": "liquidado",
+   "ultimo": 1792864535.3188684,
    "pierna": [
     {
      "gid": "4732663",
@@ -2179,14 +2179,29 @@
     }
    ],
    "xi": "95182,385087,550352,610717,973073,3049924,3227448,4286903,4874431,50852472,62350133|280305,329430,542399,583374,941464,3087180,3143068,15244103,60980758,64431234,67844197",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 3,
+    "ag": 3,
+    "ht": [
+     1,
+     0
+    ],
+    "corners": 13.0,
+    "corners_h": 2.0,
+    "corners_a": 11.0,
+    "corners_1t": 4.0,
+    "cards": 5.0,
+    "cards_h": 1.0,
+    "cards_a": 4.0
+   }
   },
   "4732665": {
    "partido": "Lazio vs Parma",
    "liga": "Italia, Serie A",
    "inicio": "2026-10-24T13:45:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792864290.013483
+   "ultimo": 1792864535.6532753
   },
   "4732668": {
    "partido": "Como vs Sassuolo",
@@ -2355,7 +2370,7 @@
    "liga": "Francia, Ligue 1",
    "inicio": "2026-10-24T13:45:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792864290.1347835
+   "ultimo": 1792864535.7650938
   },
   "4742027": {
    "partido": "Coventry vs Fulham",
