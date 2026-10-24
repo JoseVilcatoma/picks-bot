@@ -2631,8 +2631,8 @@
    "partido": "Sport Huancayo vs Alianza Atletico",
    "liga": "Perú, Liga 1 - Clausura",
    "inicio": "2026-10-24T12:45:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1792861456.650943,
+   "estado": "liquidado",
+   "ultimo": 1792870916.6715693,
    "pierna": [
     {
      "gid": "4760801",
@@ -2696,7 +2696,22 @@
     }
    ],
    "xi": "254063,460626,481922,528520,621036,645547,893500,3242808,51321013,67955411,68885995|428984,506167,560810,3222005,3384002,56651133,56700055,56897445,65304004,71885210,77715226",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 4,
+    "ag": 1,
+    "ht": [
+     4,
+     0
+    ],
+    "corners": 11.0,
+    "corners_h": 6.0,
+    "corners_a": 5.0,
+    "corners_1t": 7.0,
+    "cards": 2.0,
+    "cards_h": 1.0,
+    "cards_a": 1.0
+   }
   },
   "4632630": {
    "partido": "Coritiba vs Grêmio",
