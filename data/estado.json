@@ -3746,8 +3746,8 @@
    "partido": "Arsenal vs Everton",
    "liga": "Inglaterra, Premier League",
    "inicio": "2026-10-24T09:00:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1792857307.5952613,
+   "estado": "liquidado",
+   "ultimo": 1792857922.0475614,
    "pierna": [
     {
      "gid": "4742031",
@@ -3781,7 +3781,22 @@
     }
    ],
    "xi": "513371,537419,562084,2985896,3055995,3070470,3135414,3211355,3287853,45211907,67102513|355086,478397,3071263,12433748,25965721,50763260,53419038,65454051,70782880,70889317,75441450",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 2,
+    "ag": 0,
+    "ht": [
+     1,
+     0
+    ],
+    "corners": 15.0,
+    "corners_h": 12.0,
+    "corners_a": 3.0,
+    "corners_1t": 13.0,
+    "cards": 4.0,
+    "cards_h": 1.0,
+    "cards_a": 3.0
+   }
   },
   "4750812": {
    "partido": "Valencia CF vs Villarreal CF",
