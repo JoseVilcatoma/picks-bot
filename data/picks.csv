@@ -1862,3 +1862,8 @@ fecha,game_id,partido,liga,tipo,mercado,clave,prob,cuota,casa,cuota_justa,ev,sta
 2026-10-24 13:36,4757181,Gil Vicente FC vs FC Porto,"Portugal, Primeira Liga",modelo,Menos de 9.5 córners,CORN|9.5|under,0.7413,,,1.35,,,si,,
 2026-10-24 13:36,4757181,Gil Vicente FC vs FC Porto,"Portugal, Primeira Liga",modelo,Más de 2.5 tarjetas,CARDS|2.5|over,0.7023,,,1.42,,,si,,
 2026-10-24 13:36,4757181,Gil Vicente FC vs FC Porto,"Portugal, Primeira Liga",crear,No hay empate + Menos de 4.5 goles + Menos de 12.5 córners,DC||12&OU|4.5|under&CORN|12.5|under,0.5710,,,1.75,,,,,
+2026-10-24 13:40,4632632,Mirassol vs São Paulo,"Brasil, Brasileirão",seguro,Menos de 3.5 goles,OU|3.5|under,0.7965,1.30,Bet365,1.26,0.0355,,si,,
+2026-10-24 13:40,4632632,Mirassol vs São Paulo,"Brasil, Brasileirão",seguro,Mirassol o empate,DC||1X,0.7859,1.30,Bet365,1.27,0.0217,,si,,
+2026-10-24 13:40,4632632,Mirassol vs São Paulo,"Brasil, Brasileirão",modelo,Menos de 6.5 tarjetas,CARDS|6.5|under,0.7300,,,1.37,,,si,,
+2026-10-24 13:40,4632632,Mirassol vs São Paulo,"Brasil, Brasileirão",modelo,Menos de 12.5 córners,CORN|12.5|under,0.7033,,,1.42,,,si,,
+2026-10-24 13:40,4632632,Mirassol vs São Paulo,"Brasil, Brasileirão",crear,Mirassol o empate + Más de 0.5 goles + Más de 5.5 córners,DC||1X&OU|0.5|over&CORN|5.5|over,0.5683,,,1.76,,,,,
