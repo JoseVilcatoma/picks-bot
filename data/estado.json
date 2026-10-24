@@ -2570,8 +2570,62 @@
    "partido": "Cusco FC vs Sporting Cristal",
    "liga": "Perú, Liga 1 - Clausura",
    "inicio": "2026-10-24T15:15:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1792869209.830267
+   "estado": "enviado",
+   "ultimo": 1792869454.007734,
+   "pierna": [
+    {
+     "gid": "4760796",
+     "partido": "Cusco FC vs Sporting Cristal",
+     "texto": "Más de 1.5 goles",
+     "clave": "OU|1.5|over",
+     "p": 0.7802,
+     "cuota": 1.2,
+     "casa": "Bet365",
+     "inicio": "2026-10-24T15:15:00-05:00"
+    },
+    {
+     "gid": "4760796",
+     "partido": "Cusco FC vs Sporting Cristal",
+     "texto": "No hay empate",
+     "clave": "DC||12",
+     "p": 0.7368,
+     "cuota": 1.29,
+     "casa": "Bet365",
+     "inicio": "2026-10-24T15:15:00-05:00"
+    },
+    {
+     "gid": "4760796",
+     "partido": "Cusco FC vs Sporting Cristal",
+     "texto": "Más de 0.5 goles en el 1T",
+     "clave": "OU1T|0.5|over",
+     "p": 0.7203,
+     "cuota": 1.3,
+     "casa": "Bet365",
+     "inicio": "2026-10-24T15:15:00-05:00"
+    },
+    {
+     "gid": "4760796",
+     "partido": "Cusco FC vs Sporting Cristal",
+     "texto": "Cusco FC recibe gol",
+     "clave": "CS||local_no",
+     "p": 0.6881,
+     "cuota": 1.36,
+     "casa": "Bet365",
+     "inicio": "2026-10-24T15:15:00-05:00"
+    },
+    {
+     "gid": "4760796",
+     "partido": "Cusco FC vs Sporting Cristal",
+     "texto": "Ambos marcan: Sí",
+     "clave": "BTTS||si",
+     "p": 0.5752,
+     "cuota": 1.62,
+     "casa": "Bet365",
+     "inicio": "2026-10-24T15:15:00-05:00"
+    }
+   ],
+   "xi": "541797,547480,612085,832539,838440,2809735,3218454,3366544,8783445,14220059,47407662|357602,386754,389408,431628,485269,486424,5697711,15806567,25270975,50613999,71373581",
+   "conf": true
   },
   "4760801": {
    "partido": "Sport Huancayo vs Alianza Atletico",
