@@ -1739,12 +1739,12 @@ fecha,game_id,partido,liga,tipo,mercado,clave,prob,cuota,casa,cuota_justa,ev,sta
 2026-10-23 17:10,4632631,Cruzeiro vs Remo,"Brasil, Brasileirão",modelo,Más de 2.5 tarjetas,CARDS|2.5|over,0.7023,,,1.42,,,si,G,
 2026-10-23 17:10,4632631,Cruzeiro vs Remo,"Brasil, Brasileirão",ticket,Cruzeiro recibe gol + Más de 2.5 goles,CS||local_no&OU|2.5|over,0.4714,2.14,,2.12,0.0066,10.00,,P,-10.00
 2026-10-23 17:10,4632631,Cruzeiro vs Remo,"Brasil, Brasileirão",crear,Más de 1.5 goles + Más de 0.5 goles en el 1T + Menos de 18.5 córners,OU|1.5|over&OU1T|0.5|over&CORN|18.5|under,0.5797,,,1.72,,,,P,
-2026-10-24 05:24,4742030,Aston Villa vs Manchester City,"Inglaterra, Premier League",seguro,No hay empate,DC||12,0.7759,1.18,Bet365,1.29,-0.0844,,si,,
-2026-10-24 05:24,4742030,Aston Villa vs Manchester City,"Inglaterra, Premier League",seguro,Más de 0.5 goles en el 1T,OU1T|0.5|over,0.7604,1.25,Bet365,1.32,-0.0495,,si,,
-2026-10-24 05:24,4742030,Aston Villa vs Manchester City,"Inglaterra, Premier League",modelo,Más de 1.5 goles,OU|1.5|over,0.8627,,,1.16,,,si,,
-2026-10-24 05:24,4742030,Aston Villa vs Manchester City,"Inglaterra, Premier League",modelo,Menos de 6.5 tarjetas,CARDS|6.5|under,0.8377,,,1.19,,,si,,
-2026-10-24 05:24,4742030,Aston Villa vs Manchester City,"Inglaterra, Premier League",ticket,Más de 2.5 goles + Manchester City recibe gol,OU|2.5|over&CS||visita_no,0.5666,1.81,,1.76,0.0249,10.00,,,
-2026-10-24 05:24,4742030,Aston Villa vs Manchester City,"Inglaterra, Premier League",crear,Menos de 5.5 goles + Menos de 15.5 córners + Menos de 6.5 tarjetas,OU|5.5|under&CORN|15.5|under&CARDS|6.5|under,0.5881,,,1.70,,,,,
+2026-10-24 05:24,4742030,Aston Villa vs Manchester City,"Inglaterra, Premier League",seguro,No hay empate,DC||12,0.7759,1.18,Bet365,1.29,-0.0844,,si,G,
+2026-10-24 05:24,4742030,Aston Villa vs Manchester City,"Inglaterra, Premier League",seguro,Más de 0.5 goles en el 1T,OU1T|0.5|over,0.7604,1.25,Bet365,1.32,-0.0495,,si,G,
+2026-10-24 05:24,4742030,Aston Villa vs Manchester City,"Inglaterra, Premier League",modelo,Más de 1.5 goles,OU|1.5|over,0.8627,,,1.16,,,si,G,
+2026-10-24 05:24,4742030,Aston Villa vs Manchester City,"Inglaterra, Premier League",modelo,Menos de 6.5 tarjetas,CARDS|6.5|under,0.8377,,,1.19,,,si,P,
+2026-10-24 05:24,4742030,Aston Villa vs Manchester City,"Inglaterra, Premier League",ticket,Más de 2.5 goles + Manchester City recibe gol,OU|2.5|over&CS||visita_no,0.5666,1.81,,1.76,0.0249,10.00,,G,8.10
+2026-10-24 05:24,4742030,Aston Villa vs Manchester City,"Inglaterra, Premier League",crear,Menos de 5.5 goles + Menos de 15.5 córners + Menos de 6.5 tarjetas,OU|5.5|under&CORN|15.5|under&CARDS|6.5|under,0.5881,,,1.70,,,,P,
 2026-10-24 05:50,4750814,Rayo Vallecano vs Elche CF,"España, LaLiga",seguro,Rayo Vallecano o empate,DC||1X,0.7728,1.18,Bet365,1.29,-0.0881,,si,,
 2026-10-24 05:50,4750814,Rayo Vallecano vs Elche CF,"España, LaLiga",seguro,Más de 1.5 goles,OU|1.5|over,0.7574,1.22,Bet365,1.32,-0.0759,,si,,
 2026-10-24 05:50,4750814,Rayo Vallecano vs Elche CF,"España, LaLiga",modelo,Más de 2.5 tarjetas,CARDS|2.5|over,0.7693,,,1.30,,,si,,

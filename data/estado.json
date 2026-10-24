@@ -3553,8 +3553,8 @@
    "partido": "Aston Villa vs Manchester City",
    "liga": "Inglaterra, Premier League",
    "inicio": "2026-10-24T06:30:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1792837459.4960577,
+   "estado": "liquidado",
+   "ultimo": 1792848398.7837546,
    "pierna": [
     {
      "gid": "4742030",
@@ -3618,7 +3618,22 @@
     }
    ],
    "xi": "327324,501604,534043,3132520,3711904,4832569,15244101,46854554,52355416,71391398,74392670|620429,1391166,3072169,8048871,25999342,39079597,40408252,48394475,51439135,55058114,67820202",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 2,
+    "ag": 1,
+    "ht": [
+     1,
+     0
+    ],
+    "corners": 11.0,
+    "corners_h": 4.0,
+    "corners_a": 7.0,
+    "corners_1t": 8.0,
+    "cards": 8.0,
+    "cards_h": 4.0,
+    "cards_a": 4.0
+   }
   },
   "4742031": {
    "partido": "Arsenal vs Everton",
