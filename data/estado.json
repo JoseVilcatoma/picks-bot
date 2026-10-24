@@ -3397,8 +3397,72 @@
    "partido": "Cagliari vs Bologna",
    "liga": "Italia, Serie A",
    "inicio": "2026-10-24T08:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1792844110.0179076
+   "estado": "enviado",
+   "ultimo": 1792844355.5071137,
+   "pierna": [
+    {
+     "gid": "4732669",
+     "partido": "Cagliari vs Bologna",
+     "texto": "Menos de 3.5 goles",
+     "clave": "OU|3.5|under",
+     "p": 0.7802,
+     "cuota": 1.22,
+     "casa": "Bet365",
+     "inicio": "2026-10-24T08:00:00-05:00"
+    },
+    {
+     "gid": "4732669",
+     "partido": "Cagliari vs Bologna",
+     "texto": "Menos de 1.5 goles en el 1T",
+     "clave": "OU1T|1.5|under",
+     "p": 0.7096,
+     "cuota": 1.33,
+     "casa": "Bet365",
+     "inicio": "2026-10-24T08:00:00-05:00"
+    },
+    {
+     "gid": "4732669",
+     "partido": "Cagliari vs Bologna",
+     "texto": "No hay empate",
+     "clave": "DC||12",
+     "p": 0.675,
+     "cuota": 1.4,
+     "casa": "Bet365",
+     "inicio": "2026-10-24T08:00:00-05:00"
+    },
+    {
+     "gid": "4732669",
+     "partido": "Cagliari vs Bologna",
+     "texto": "Cagliari o empate",
+     "clave": "DC||1X",
+     "p": 0.63,
+     "cuota": 1.5,
+     "casa": "Bet365",
+     "inicio": "2026-10-24T08:00:00-05:00"
+    },
+    {
+     "gid": "4732669",
+     "partido": "Cagliari vs Bologna",
+     "texto": "Cagliari +0.5 (hándicap)",
+     "clave": "AH|0.5|local",
+     "p": 0.625,
+     "cuota": 1.5,
+     "casa": "Bet365",
+     "inicio": "2026-10-24T08:00:00-05:00"
+    },
+    {
+     "gid": "4732669",
+     "partido": "Cagliari vs Bologna",
+     "texto": "Menos de 2.5 goles",
+     "clave": "OU|2.5|under",
+     "p": 0.5867,
+     "cuota": 1.62,
+     "casa": "Bet365",
+     "inicio": "2026-10-24T08:00:00-05:00"
+    }
+   ],
+   "xi": "472806,909981,9401336,42946303,46512017,61426991,61685045,66186413,67891435,71690691,77743469|285835,348628,478842,3195499,3488107,3835966,4947373,33902941,33913784,50528133,51594637",
+   "conf": true
   },
   "4735232": {
    "partido": "Lens vs Paris FC",
@@ -3576,35 +3640,35 @@
    "liga": "Alemania, Bundesliga",
    "inicio": "2026-10-24T08:30:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792844110.0706623
+   "ultimo": 1792844356.5812707
   },
   "4755363": {
    "partido": "1. FC Köln vs Schalke 04",
    "liga": "Alemania, Bundesliga",
    "inicio": "2026-10-24T08:30:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792844110.1223524
+   "ultimo": 1792844356.6350691
   },
   "4755365": {
    "partido": "Mainz 05 vs Werder Bremen",
    "liga": "Alemania, Bundesliga",
    "inicio": "2026-10-24T08:30:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792844110.1759188
+   "ultimo": 1792844356.7141821
   },
   "4755366": {
    "partido": "FC Augsburg vs Union Berlin",
    "liga": "Alemania, Bundesliga",
    "inicio": "2026-10-24T08:30:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792844110.254575
+   "ultimo": 1792844356.7742357
   },
   "4755370": {
    "partido": "RB Leipzig vs SV 07 Elversberg",
    "liga": "Alemania, Bundesliga",
    "inicio": "2026-10-24T08:30:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792844110.3096888
+   "ultimo": 1792844356.8271043
   },
   "4755371": {
    "partido": "Borussia Dortmund vs Eintracht Frankfurt",

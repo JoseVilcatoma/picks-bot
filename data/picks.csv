@@ -1756,3 +1756,8 @@ fecha,game_id,partido,liga,tipo,mercado,clave,prob,cuota,casa,cuota_justa,ev,sta
 2026-10-24 07:15,4732668,Como vs Sassuolo,"Italia, Serie A",modelo,Más de 1.5 goles,OU|1.5|over,0.7959,,,1.26,,,si,,
 2026-10-24 07:15,4732668,Como vs Sassuolo,"Italia, Serie A",modelo,Menos de 6.5 tarjetas,CARDS|6.5|under,0.7865,,,1.27,,,si,,
 2026-10-24 07:15,4732668,Como vs Sassuolo,"Italia, Serie A",crear,Como o empate + Más de 1.5 goles + Menos de 15.5 córners,DC||1X&OU|1.5|over&CORN|15.5|under,0.5578,,,1.79,,,,,
+2026-10-24 07:19,4732669,Cagliari vs Bologna,"Italia, Serie A",seguro,Menos de 3.5 goles,OU|3.5|under,0.8003,1.22,Bet365,1.25,-0.0236,,si,,
+2026-10-24 07:19,4732669,Cagliari vs Bologna,"Italia, Serie A",seguro,No hay empate,DC||12,0.6843,1.40,Bet365,1.46,-0.0420,,si,,
+2026-10-24 07:19,4732669,Cagliari vs Bologna,"Italia, Serie A",modelo,Menos de 6.5 tarjetas,CARDS|6.5|under,0.8086,,,1.24,,,si,,
+2026-10-24 07:19,4732669,Cagliari vs Bologna,"Italia, Serie A",modelo,Menos de 12.5 córners,CORN|12.5|under,0.6787,,,1.47,,,si,,
+2026-10-24 07:19,4732669,Cagliari vs Bologna,"Italia, Serie A",crear,Más de 0.5 goles + Más de 6.5 córners + Menos de 7.5 tarjetas,OU|0.5|over&CORN|6.5|over&CARDS|7.5|under,0.5828,,,1.72,,,,,
