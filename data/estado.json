@@ -3574,8 +3574,72 @@
    "partido": "Chelsea vs Tottenham",
    "liga": "Inglaterra, Premier League",
    "inicio": "2026-10-24T11:30:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1792855457.897349
+   "estado": "enviado",
+   "ultimo": 1792855706.8298957,
+   "pierna": [
+    {
+     "gid": "4742028",
+     "partido": "Chelsea vs Tottenham",
+     "texto": "No hay empate",
+     "clave": "DC||12",
+     "p": 0.7353,
+     "cuota": 1.29,
+     "casa": "Bet365",
+     "inicio": "2026-10-24T11:30:00-05:00"
+    },
+    {
+     "gid": "4742028",
+     "partido": "Chelsea vs Tottenham",
+     "texto": "Más de 0.5 goles en el 1T",
+     "clave": "OU1T|0.5|over",
+     "p": 0.7319,
+     "cuota": 1.25,
+     "casa": "Bet365",
+     "inicio": "2026-10-24T11:30:00-05:00"
+    },
+    {
+     "gid": "4742028",
+     "partido": "Chelsea vs Tottenham",
+     "texto": "Chelsea o empate",
+     "clave": "DC||1X",
+     "p": 0.7181,
+     "cuota": 1.29,
+     "casa": "Bet365",
+     "inicio": "2026-10-24T11:30:00-05:00"
+    },
+    {
+     "gid": "4742028",
+     "partido": "Chelsea vs Tottenham",
+     "texto": "Chelsea recibe gol",
+     "clave": "CS||local_no",
+     "p": 0.7168,
+     "cuota": 1.3,
+     "casa": "Bet365",
+     "inicio": "2026-10-24T11:30:00-05:00"
+    },
+    {
+     "gid": "4742028",
+     "partido": "Chelsea vs Tottenham",
+     "texto": "Ambos marcan: Sí",
+     "clave": "BTTS||si",
+     "p": 0.5956,
+     "cuota": 1.5,
+     "casa": "Bet365",
+     "inicio": "2026-10-24T11:30:00-05:00"
+    },
+    {
+     "gid": "4742028",
+     "partido": "Chelsea vs Tottenham",
+     "texto": "Más de 2.5 goles",
+     "clave": "OU|2.5|over",
+     "p": 0.5635,
+     "cuota": 1.57,
+     "casa": "Bet365",
+     "inicio": "2026-10-24T11:30:00-05:00"
+    }
+   ],
+   "xi": "126125,2558704,39270918,49733543,50800163,54701553,60927957,66692825,67747139,71073935,71682582|354502,3143492,4785473,4870623,14775530,49463074,60978968,63108549,64522138,66565948,67877824",
+   "conf": true
   },
   "4742030": {
    "partido": "Aston Villa vs Manchester City",
@@ -3709,7 +3773,7 @@
    "liga": "España, LaLiga",
    "inicio": "2026-10-24T11:30:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792855458.0696392
+   "ultimo": 1792855707.585295
   },
   "4750814": {
    "partido": "Rayo Vallecano vs Elche CF",
@@ -4210,7 +4274,7 @@
    "liga": "Alemania, Bundesliga",
    "inicio": "2026-10-24T11:30:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792855458.183128
+   "ultimo": 1792855707.645139
   },
   "4757178": {
    "partido": "Alverca vs Arouca",
