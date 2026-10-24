@@ -3371,8 +3371,72 @@
    "partido": "Aston Villa vs Manchester City",
    "liga": "Inglaterra, Premier League",
    "inicio": "2026-10-24T06:30:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1792837216.5660396
+   "estado": "enviado",
+   "ultimo": 1792837459.4960577,
+   "pierna": [
+    {
+     "gid": "4742030",
+     "partido": "Aston Villa vs Manchester City",
+     "texto": "Más de 0.5 goles en el 1T",
+     "clave": "OU1T|0.5|over",
+     "p": 0.75,
+     "cuota": 1.25,
+     "casa": "Bet365",
+     "inicio": "2026-10-24T06:30:00-05:00"
+    },
+    {
+     "gid": "4742030",
+     "partido": "Aston Villa vs Manchester City",
+     "texto": "Manchester City recibe gol",
+     "clave": "CS||visita_no",
+     "p": 0.7096,
+     "cuota": 1.33,
+     "casa": "Bet365",
+     "inicio": "2026-10-24T06:30:00-05:00"
+    },
+    {
+     "gid": "4742030",
+     "partido": "Aston Villa vs Manchester City",
+     "texto": "Más de 2.5 goles",
+     "clave": "OU|2.5|over",
+     "p": 0.6684,
+     "cuota": 1.36,
+     "casa": "Bet365",
+     "inicio": "2026-10-24T06:30:00-05:00"
+    },
+    {
+     "gid": "4742030",
+     "partido": "Aston Villa vs Manchester City",
+     "texto": "Ambos marcan: Sí",
+     "clave": "BTTS||si",
+     "p": 0.6443,
+     "cuota": 1.44,
+     "casa": "Bet365",
+     "inicio": "2026-10-24T06:30:00-05:00"
+    },
+    {
+     "gid": "4742030",
+     "partido": "Aston Villa vs Manchester City",
+     "texto": "Gana Manchester City",
+     "clave": "1X2||2",
+     "p": 0.5292,
+     "cuota": 1.65,
+     "casa": "Bet365",
+     "inicio": "2026-10-24T06:30:00-05:00"
+    },
+    {
+     "gid": "4742030",
+     "partido": "Aston Villa vs Manchester City",
+     "texto": "Manchester City -0.5 (hándicap)",
+     "clave": "AH|0.5|visita",
+     "p": 0.5264,
+     "cuota": 1.65,
+     "casa": "Bet365",
+     "inicio": "2026-10-24T06:30:00-05:00"
+    }
+   ],
+   "xi": "327324,501604,534043,3132520,3711904,4832569,15244101,46854554,52355416,71391398,74392670|620429,1391166,3072169,8048871,25999342,39079597,40408252,48394475,51439135,55058114,67820202",
+   "conf": true
   },
   "4742031": {
    "partido": "Arsenal vs Everton",
