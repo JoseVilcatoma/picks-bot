@@ -3472,8 +3472,72 @@
    "partido": "Sport Huancayo vs Alianza Atletico",
    "liga": "Perú, Liga 1 - Clausura",
    "inicio": "2026-10-24T12:45:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1792861212.9922066
+   "estado": "enviado",
+   "ultimo": 1792861456.650943,
+   "pierna": [
+    {
+     "gid": "4760801",
+     "partido": "Sport Huancayo vs Alianza Atletico",
+     "texto": "No hay empate",
+     "clave": "DC||12",
+     "p": 0.7877,
+     "cuota": 1.2,
+     "casa": "Bet365",
+     "inicio": "2026-10-24T12:45:00-05:00"
+    },
+    {
+     "gid": "4760801",
+     "partido": "Sport Huancayo vs Alianza Atletico",
+     "texto": "Más de 0.5 goles en el 1T",
+     "clave": "OU1T|0.5|over",
+     "p": 0.7389,
+     "cuota": 1.25,
+     "casa": "Bet365",
+     "inicio": "2026-10-24T12:45:00-05:00"
+    },
+    {
+     "gid": "4760801",
+     "partido": "Sport Huancayo vs Alianza Atletico",
+     "texto": "Gana Sport Huancayo",
+     "clave": "1X2||1",
+     "p": 0.6435,
+     "cuota": 1.44,
+     "casa": "Bet365",
+     "inicio": "2026-10-24T12:45:00-05:00"
+    },
+    {
+     "gid": "4760801",
+     "partido": "Sport Huancayo vs Alianza Atletico",
+     "texto": "Sport Huancayo recibe gol",
+     "clave": "CS||local_no",
+     "p": 0.5767,
+     "cuota": 1.53,
+     "casa": "Bet365",
+     "inicio": "2026-10-24T12:45:00-05:00"
+    },
+    {
+     "gid": "4760801",
+     "partido": "Sport Huancayo vs Alianza Atletico",
+     "texto": "Más de 2.5 goles",
+     "clave": "OU|2.5|over",
+     "p": 0.5755,
+     "cuota": 1.57,
+     "casa": "Bet365",
+     "inicio": "2026-10-24T12:45:00-05:00"
+    },
+    {
+     "gid": "4760801",
+     "partido": "Sport Huancayo vs Alianza Atletico",
+     "texto": "Ambos marcan: Sí",
+     "clave": "BTTS||si",
+     "p": 0.5301,
+     "cuota": 1.62,
+     "casa": "Bet365",
+     "inicio": "2026-10-24T12:45:00-05:00"
+    }
+   ],
+   "xi": "254063,460626,481922,528520,621036,645547,893500,3242808,51321013,67955411,68885995|428984,506167,560810,3222005,3384002,56651133,56700055,56897445,65304004,71885210,77715226",
+   "conf": true
   },
   "4632630": {
    "partido": "Coritiba vs Grêmio",
