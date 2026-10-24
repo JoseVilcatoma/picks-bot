@@ -4534,8 +4534,8 @@
    "partido": "Estrela da Amadora vs Casa Pia AC",
    "liga": "Portugal, Primeira Liga",
    "inicio": "2026-10-24T09:30:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1792859139.740508,
+   "estado": "liquidado",
+   "ultimo": 1792859747.6796324,
    "pierna": [
     {
      "gid": "4757179",
@@ -4579,7 +4579,22 @@
     }
    ],
    "xi": "103744,6741396,40742149,58229167,58880750,63195457,65824827,67170074,70794195,77153726,77692187|221087,291511,560805,13686712,46866946,56749969,66219943,70855518,70953163,71690926,77071555",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 0,
+    "ag": 2,
+    "ht": [
+     0,
+     1
+    ],
+    "corners": 12.0,
+    "corners_h": 7.0,
+    "corners_a": 5.0,
+    "corners_1t": 7.0,
+    "cards": 3.0,
+    "cards_h": 1.0,
+    "cards_a": 2.0
+   }
   },
   "4757181": {
    "partido": "Gil Vicente FC vs FC Porto",
@@ -4600,7 +4615,7 @@
    "liga": "Perú, Liga 1 - Clausura",
    "inicio": "2026-10-24T12:45:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792859504.2208328
+   "ultimo": 1792859747.9690168
   },
   "4632630": {
    "partido": "Coritiba vs Grêmio",
