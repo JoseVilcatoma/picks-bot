@@ -3711,7 +3711,7 @@
    "liga": "Alemania, Bundesliga",
    "inicio": "2026-10-24T08:30:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792845341.4780006
+   "ultimo": 1792845585.070947
   },
   "4755365": {
    "partido": "Mainz 05 vs Werder Bremen",
@@ -3778,8 +3778,62 @@
    "partido": "FC Augsburg vs Union Berlin",
    "liga": "Alemania, Bundesliga",
    "inicio": "2026-10-24T08:30:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1792845341.6498823
+   "estado": "enviado",
+   "ultimo": 1792845585.2189076,
+   "pierna": [
+    {
+     "gid": "4755366",
+     "partido": "FC Augsburg vs Union Berlin",
+     "texto": "Más de 0.5 goles en el 1T",
+     "clave": "OU1T|0.5|over",
+     "p": 0.7609,
+     "cuota": 1.22,
+     "casa": "Bet365",
+     "inicio": "2026-10-24T08:30:00-05:00"
+    },
+    {
+     "gid": "4755366",
+     "partido": "FC Augsburg vs Union Berlin",
+     "texto": "No hay empate",
+     "clave": "DC||12",
+     "p": 0.7599,
+     "cuota": 1.22,
+     "casa": "Bet365",
+     "inicio": "2026-10-24T08:30:00-05:00"
+    },
+    {
+     "gid": "4755366",
+     "partido": "FC Augsburg vs Union Berlin",
+     "texto": "FC Augsburg recibe gol",
+     "clave": "CS||local_no",
+     "p": 0.7234,
+     "cuota": 1.3,
+     "casa": "Bet365",
+     "inicio": "2026-10-24T08:30:00-05:00"
+    },
+    {
+     "gid": "4755366",
+     "partido": "FC Augsburg vs Union Berlin",
+     "texto": "Más de 2.5 goles",
+     "clave": "OU|2.5|over",
+     "p": 0.6306,
+     "cuota": 1.44,
+     "casa": "Bet365",
+     "inicio": "2026-10-24T08:30:00-05:00"
+    },
+    {
+     "gid": "4755366",
+     "partido": "FC Augsburg vs Union Berlin",
+     "texto": "Ambos marcan: Sí",
+     "clave": "BTTS||si",
+     "p": 0.6241,
+     "cuota": 1.5,
+     "casa": "Bet365",
+     "inicio": "2026-10-24T08:30:00-05:00"
+    }
+   ],
+   "xi": "334820,571332,6009963,7041874,15399180,52013613,64192496,64687233,71102545,71148524,75383430|253890,335092,342465,905043,3094152,3154796,6875557,13659727,55685520,63126596,75386990",
+   "conf": true
   },
   "4755370": {
    "partido": "RB Leipzig vs SV 07 Elversberg",
