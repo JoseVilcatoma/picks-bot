@@ -2201,7 +2201,7 @@
    "liga": "Italia, Serie A",
    "inicio": "2026-10-24T13:45:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792864535.6532753
+   "ultimo": 1792864783.2628179
   },
   "4732668": {
    "partido": "Como vs Sassuolo",
@@ -2369,8 +2369,72 @@
    "partido": "Lens vs Paris FC",
    "liga": "Francia, Ligue 1",
    "inicio": "2026-10-24T13:45:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1792864535.7650938
+   "estado": "enviado",
+   "ultimo": 1792864783.3726802,
+   "pierna": [
+    {
+     "gid": "4735232",
+     "partido": "Lens vs Paris FC",
+     "texto": "Más de 1.5 goles",
+     "clave": "OU|1.5|over",
+     "p": 0.7895,
+     "cuota": 1.2,
+     "casa": "Bet365",
+     "inicio": "2026-10-24T13:45:00-05:00"
+    },
+    {
+     "gid": "4735232",
+     "partido": "Lens vs Paris FC",
+     "texto": "Lens recibe gol",
+     "clave": "CS||local_no",
+     "p": 0.7663,
+     "cuota": 1.22,
+     "casa": "Bet365",
+     "inicio": "2026-10-24T13:45:00-05:00"
+    },
+    {
+     "gid": "4735232",
+     "partido": "Lens vs Paris FC",
+     "texto": "Paris FC recibe gol",
+     "clave": "CS||visita_no",
+     "p": 0.7663,
+     "cuota": 1.22,
+     "casa": "Bet365",
+     "inicio": "2026-10-24T13:45:00-05:00"
+    },
+    {
+     "gid": "4735232",
+     "partido": "Lens vs Paris FC",
+     "texto": "No hay empate",
+     "clave": "DC||12",
+     "p": 0.7257,
+     "cuota": 1.29,
+     "casa": "Bet365",
+     "inicio": "2026-10-24T13:45:00-05:00"
+    },
+    {
+     "gid": "4735232",
+     "partido": "Lens vs Paris FC",
+     "texto": "Más de 0.5 goles en el 1T",
+     "clave": "OU1T|0.5|over",
+     "p": 0.7234,
+     "cuota": 1.3,
+     "casa": "Bet365",
+     "inicio": "2026-10-24T13:45:00-05:00"
+    },
+    {
+     "gid": "4735232",
+     "partido": "Lens vs Paris FC",
+     "texto": "Lens o empate",
+     "clave": "DC||1X",
+     "p": 0.6501,
+     "cuota": 1.44,
+     "casa": "Bet365",
+     "inicio": "2026-10-24T13:45:00-05:00"
+    }
+   ],
+   "xi": "277482,490031,533996,3049963,3424641,3590178,9052006,12231560,63090573,66384998,70796446|533933,3083020,13431039,50676204,51151147,51595762,57682338,64473227,65776317,66134607,70767661",
+   "conf": true
   },
   "4742027": {
    "partido": "Coventry vs Fulham",
