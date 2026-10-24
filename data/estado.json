@@ -3336,15 +3336,69 @@
    "partido": "Como vs Sassuolo",
    "liga": "Italia, Serie A",
    "inicio": "2026-10-24T08:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1792843865.902828
+   "estado": "enviado",
+   "ultimo": 1792844109.2656882,
+   "pierna": [
+    {
+     "gid": "4732668",
+     "partido": "Como vs Sassuolo",
+     "texto": "Más de 0.5 goles en el 1T",
+     "clave": "OU1T|0.5|over",
+     "p": 0.7265,
+     "cuota": 1.2,
+     "casa": "Bet365",
+     "inicio": "2026-10-24T08:00:00-05:00"
+    },
+    {
+     "gid": "4732668",
+     "partido": "Como vs Sassuolo",
+     "texto": "Gana Como",
+     "clave": "1X2||1",
+     "p": 0.6168,
+     "cuota": 1.5,
+     "casa": "Bet365",
+     "inicio": "2026-10-24T08:00:00-05:00"
+    },
+    {
+     "gid": "4732668",
+     "partido": "Como vs Sassuolo",
+     "texto": "Como recibe gol",
+     "clave": "CS||local_no",
+     "p": 0.6025,
+     "cuota": 1.36,
+     "casa": "Bet365",
+     "inicio": "2026-10-24T08:00:00-05:00"
+    },
+    {
+     "gid": "4732668",
+     "partido": "Como vs Sassuolo",
+     "texto": "Más de 2.5 goles",
+     "clave": "OU|2.5|over",
+     "p": 0.5701,
+     "cuota": 1.36,
+     "casa": "Bet365",
+     "inicio": "2026-10-24T08:00:00-05:00"
+    },
+    {
+     "gid": "4732668",
+     "partido": "Como vs Sassuolo",
+     "texto": "Ambos marcan: Sí",
+     "clave": "BTTS||si",
+     "p": 0.5257,
+     "cuota": 1.5,
+     "casa": "Bet365",
+     "inicio": "2026-10-24T08:00:00-05:00"
+    }
+   ],
+   "xi": "345756,550367,4828844,33880238,40742145,43470743,49579899,56471954,64935156,66200279,70953549|292149,348551,527000,40438608,49527834,50136909,64350651,66430657,70206104,75399738,76144645",
+   "conf": true
   },
   "4732669": {
    "partido": "Cagliari vs Bologna",
    "liga": "Italia, Serie A",
    "inicio": "2026-10-24T08:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792843866.0291789
+   "ultimo": 1792844110.0179076
   },
   "4735232": {
    "partido": "Lens vs Paris FC",
@@ -3522,35 +3576,35 @@
    "liga": "Alemania, Bundesliga",
    "inicio": "2026-10-24T08:30:00-05:00",
    "estado": "pendiente",
-   "ultimo": 0
+   "ultimo": 1792844110.0706623
   },
   "4755363": {
    "partido": "1. FC Köln vs Schalke 04",
    "liga": "Alemania, Bundesliga",
    "inicio": "2026-10-24T08:30:00-05:00",
    "estado": "pendiente",
-   "ultimo": 0
+   "ultimo": 1792844110.1223524
   },
   "4755365": {
    "partido": "Mainz 05 vs Werder Bremen",
    "liga": "Alemania, Bundesliga",
    "inicio": "2026-10-24T08:30:00-05:00",
    "estado": "pendiente",
-   "ultimo": 0
+   "ultimo": 1792844110.1759188
   },
   "4755366": {
    "partido": "FC Augsburg vs Union Berlin",
    "liga": "Alemania, Bundesliga",
    "inicio": "2026-10-24T08:30:00-05:00",
    "estado": "pendiente",
-   "ultimo": 0
+   "ultimo": 1792844110.254575
   },
   "4755370": {
    "partido": "RB Leipzig vs SV 07 Elversberg",
    "liga": "Alemania, Bundesliga",
    "inicio": "2026-10-24T08:30:00-05:00",
    "estado": "pendiente",
-   "ultimo": 0
+   "ultimo": 1792844110.3096888
   },
   "4755371": {
    "partido": "Borussia Dortmund vs Eintracht Frankfurt",

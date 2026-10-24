@@ -1751,3 +1751,8 @@ fecha,game_id,partido,liga,tipo,mercado,clave,prob,cuota,casa,cuota_justa,ev,sta
 2026-10-24 05:50,4750814,Rayo Vallecano vs Elche CF,"España, LaLiga",modelo,Menos de 12.5 córners,CORN|12.5|under,0.6951,,,1.44,,,si,,
 2026-10-24 05:50,4750814,Rayo Vallecano vs Elche CF,"España, LaLiga",ticket,Rayo Vallecano recibe gol + Más de 1.5 goles,CS||local_no&OU|1.5|over,0.5715,1.83,,1.75,0.0458,10.00,,,
 2026-10-24 05:50,4750814,Rayo Vallecano vs Elche CF,"España, LaLiga",crear,Rayo Vallecano o empate + Menos de 4.5 goles + Más de 5.5 córners,DC||1X&OU|4.5|under&CORN|5.5|over,0.5665,,,1.77,,,,,
+2026-10-24 07:15,4732668,Como vs Sassuolo,"Italia, Serie A",seguro,Como o empate,DC||1X,0.8317,1.17,Bet365,1.20,-0.0269,,si,,
+2026-10-24 07:15,4732668,Como vs Sassuolo,"Italia, Serie A",seguro,Más de 0.5 goles en el 1T,OU1T|0.5|over,0.7265,1.20,Bet365,1.38,-0.1282,,si,,
+2026-10-24 07:15,4732668,Como vs Sassuolo,"Italia, Serie A",modelo,Más de 1.5 goles,OU|1.5|over,0.7959,,,1.26,,,si,,
+2026-10-24 07:15,4732668,Como vs Sassuolo,"Italia, Serie A",modelo,Menos de 6.5 tarjetas,CARDS|6.5|under,0.7865,,,1.27,,,si,,
+2026-10-24 07:15,4732668,Como vs Sassuolo,"Italia, Serie A",crear,Como o empate + Más de 1.5 goles + Menos de 15.5 córners,DC||1X&OU|1.5|over&CORN|15.5|under,0.5578,,,1.79,,,,,
