@@ -4071,8 +4071,8 @@
    "partido": "Sporting CP vs Viseu",
    "liga": "Portugal, Primeira Liga",
    "inicio": "2026-10-25T15:30:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1792967113.564799,
+   "estado": "liquidado",
+   "ultimo": 1792967720.7680235,
    "pierna": [
     {
      "gid": "4757184",
@@ -4096,7 +4096,22 @@
     }
    ],
    "xi": "7244055,9157528,50072970,64317526,64656029,66850386,67636921,70860145,71917231,75430996,77374784|343399,2614253,7314720,15069774,46523888,50978598,60491993,60869761,65521818,70810400,71408242",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 1,
+    "ag": 2,
+    "ht": [
+     0,
+     1
+    ],
+    "corners": 10.0,
+    "corners_h": 10.0,
+    "corners_a": 0.0,
+    "corners_1t": 6.0,
+    "cards": 6.0,
+    "cards_h": 2.0,
+    "cards_a": 4.0
+   }
   },
   "4757185": {
    "partido": "Santa Clara vs Benfica",
@@ -4181,7 +4196,7 @@
    "liga": "Perú, Liga 1 - Clausura",
    "inicio": "2026-10-25T15:30:00-05:00",
    "estado": "enviado",
-   "ultimo": 1792967113.7398934,
+   "ultimo": 1792967721.052054,
    "pierna": [
     {
      "gid": "4760795",
