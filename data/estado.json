@@ -2840,15 +2840,79 @@
    "partido": "Genoa vs Venezia",
    "liga": "Italia, Serie A",
    "inicio": "2026-10-25T09:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1792933550.1312616
+   "estado": "enviado",
+   "ultimo": 1792933793.6696727,
+   "pierna": [
+    {
+     "gid": "4732667",
+     "partido": "Genoa vs Venezia",
+     "texto": "Venezia recibe gol",
+     "clave": "CS||visita_no",
+     "p": 0.75,
+     "cuota": 1.25,
+     "casa": "Bet365",
+     "inicio": "2026-10-25T09:00:00-05:00"
+    },
+    {
+     "gid": "4732667",
+     "partido": "Genoa vs Venezia",
+     "texto": "Más de 1.5 goles",
+     "clave": "OU|1.5|over",
+     "p": 0.7292,
+     "cuota": 1.3,
+     "casa": "Bet365",
+     "inicio": "2026-10-25T09:00:00-05:00"
+    },
+    {
+     "gid": "4732667",
+     "partido": "Genoa vs Venezia",
+     "texto": "No hay empate",
+     "clave": "DC||12",
+     "p": 0.7251,
+     "cuota": 1.3,
+     "casa": "Bet365",
+     "inicio": "2026-10-25T09:00:00-05:00"
+    },
+    {
+     "gid": "4732667",
+     "partido": "Genoa vs Venezia",
+     "texto": "Genoa o empate",
+     "clave": "DC||1X",
+     "p": 0.6931,
+     "cuota": 1.36,
+     "casa": "Bet365",
+     "inicio": "2026-10-25T09:00:00-05:00"
+    },
+    {
+     "gid": "4732667",
+     "partido": "Genoa vs Venezia",
+     "texto": "Genoa recibe gol",
+     "clave": "CS||local_no",
+     "p": 0.6627,
+     "cuota": 1.4,
+     "casa": "Bet365",
+     "inicio": "2026-10-25T09:00:00-05:00"
+    },
+    {
+     "gid": "4732667",
+     "partido": "Genoa vs Venezia",
+     "texto": "Más de 0.5 goles en el 1T",
+     "clave": "OU1T|0.5|over",
+     "p": 0.6627,
+     "cuota": 1.4,
+     "casa": "Bet365",
+     "inicio": "2026-10-25T09:00:00-05:00"
+    }
+   ],
+   "xi": "290593,568955,3453817,3949075,13854543,32042542,51378142,53085455,61672509,66733291,77746600|341951,542023,902494,2383747,4913062,8022349,47788915,49709059,65712453,66243378,67665528",
+   "conf": true
   },
   "4732670": {
    "partido": "Atalanta vs Frosinone",
    "liga": "Italia, Serie A",
    "inicio": "2026-10-25T09:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792933550.3054864
+   "ultimo": 1792933794.6208186
   },
   "4735227": {
    "partido": "PSG vs Lyon",
@@ -2876,7 +2940,7 @@
    "liga": "Francia, Ligue 1",
    "inicio": "2026-10-25T09:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792933550.3570035
+   "ultimo": 1792933794.6798587
   },
   "4735231": {
    "partido": "Olympique Marsella vs Le Havre",
