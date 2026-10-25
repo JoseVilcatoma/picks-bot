@@ -2984,8 +2984,62 @@
    "partido": "Toulouse vs Troyes",
    "liga": "Francia, Ligue 1",
    "inicio": "2026-10-25T11:15:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1792941832.8764446
+   "estado": "enviado",
+   "ultimo": 1792942080.0094275,
+   "pierna": [
+    {
+     "gid": "4735228",
+     "partido": "Toulouse vs Troyes",
+     "texto": "No hay empate",
+     "clave": "DC||12",
+     "p": 0.7687,
+     "cuota": 1.22,
+     "casa": "Bet365",
+     "inicio": "2026-10-25T11:15:00-05:00"
+    },
+    {
+     "gid": "4735228",
+     "partido": "Toulouse vs Troyes",
+     "texto": "Más de 0.5 goles en el 1T",
+     "clave": "OU1T|0.5|over",
+     "p": 0.75,
+     "cuota": 1.25,
+     "casa": "Bet365",
+     "inicio": "2026-10-25T11:15:00-05:00"
+    },
+    {
+     "gid": "4735228",
+     "partido": "Toulouse vs Troyes",
+     "texto": "Gana Toulouse",
+     "clave": "1X2||1",
+     "p": 0.6176,
+     "cuota": 1.53,
+     "casa": "Bet365",
+     "inicio": "2026-10-25T11:15:00-05:00"
+    },
+    {
+     "gid": "4735228",
+     "partido": "Toulouse vs Troyes",
+     "texto": "Toulouse recibe gol",
+     "clave": "CS||local_no",
+     "p": 0.612,
+     "cuota": 1.5,
+     "casa": "Bet365",
+     "inicio": "2026-10-25T11:15:00-05:00"
+    },
+    {
+     "gid": "4735228",
+     "partido": "Toulouse vs Troyes",
+     "texto": "Más de 2.5 goles",
+     "clave": "OU|2.5|over",
+     "p": 0.5867,
+     "cuota": 1.62,
+     "casa": "Bet365",
+     "inicio": "2026-10-25T11:15:00-05:00"
+    }
+   ],
+   "xi": "474941,3488262,7495369,39729553,51179941,65799938,67840731,67952105,71521869,72473407,75433697|326286,15242983,38273453,50682939,50810316,66534684,66662859,67878051,70855197,71328715,75439759",
+   "conf": true
   },
   "4735229": {
    "partido": "Rennes vs Estrasburgo",
@@ -3134,7 +3188,7 @@
    "liga": "Francia, Ligue 1",
    "inicio": "2026-10-25T11:15:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792941833.5396683
+   "ultimo": 1792942080.6123757
   },
   "4735234": {
    "partido": "Auxerre vs Le Mans",
@@ -3262,8 +3316,72 @@
    "partido": "Sunderland vs Leeds United",
    "liga": "Inglaterra, Premier League",
    "inicio": "2026-10-25T11:30:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1792941834.8819973
+   "estado": "enviado",
+   "ultimo": 1792942080.636954,
+   "pierna": [
+    {
+     "gid": "4742021",
+     "partido": "Sunderland vs Leeds United",
+     "texto": "Menos de 3.5 goles",
+     "clave": "OU|3.5|under",
+     "p": 0.7619,
+     "cuota": 1.25,
+     "casa": "Bet365",
+     "inicio": "2026-10-25T11:30:00-05:00"
+    },
+    {
+     "gid": "4742021",
+     "partido": "Sunderland vs Leeds United",
+     "texto": "Menos de 1.5 goles en el 1T",
+     "clave": "OU1T|1.5|under",
+     "p": 0.7096,
+     "cuota": 1.33,
+     "casa": "Bet365",
+     "inicio": "2026-10-25T11:30:00-05:00"
+    },
+    {
+     "gid": "4742021",
+     "partido": "Sunderland vs Leeds United",
+     "texto": "Sunderland recibe gol",
+     "clave": "CS||local_no",
+     "p": 0.699,
+     "cuota": 1.33,
+     "casa": "Bet365",
+     "inicio": "2026-10-25T11:30:00-05:00"
+    },
+    {
+     "gid": "4742021",
+     "partido": "Sunderland vs Leeds United",
+     "texto": "Leeds United o empate",
+     "clave": "DC||X2",
+     "p": 0.6881,
+     "cuota": 1.36,
+     "casa": "Bet365",
+     "inicio": "2026-10-25T11:30:00-05:00"
+    },
+    {
+     "gid": "4742021",
+     "partido": "Sunderland vs Leeds United",
+     "texto": "No hay empate",
+     "clave": "DC||12",
+     "p": 0.6878,
+     "cuota": 1.36,
+     "casa": "Bet365",
+     "inicio": "2026-10-25T11:30:00-05:00"
+    },
+    {
+     "gid": "4742021",
+     "partido": "Sunderland vs Leeds United",
+     "texto": "Más de 1.5 goles",
+     "clave": "OU|1.5|over",
+     "p": 0.6672,
+     "cuota": 1.36,
+     "casa": "Bet365",
+     "inicio": "2026-10-25T11:30:00-05:00"
+    }
+   ],
+   "xi": "287803,435114,1169903,3218099,50444830,58122452,59993290,64514449,64744795,65566123,70904911|649450,886874,907041,984482,3135966,3146175,3476512,7227288,13895915,51042324,58340010",
+   "conf": true
   },
   "4742022": {
    "partido": "Manchester United vs Bournemouth",
@@ -3712,7 +3830,7 @@
    "liga": "Alemania, Bundesliga",
    "inicio": "2026-10-25T11:30:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792941834.9061966
+   "ultimo": 1792942081.029896
   },
   "4755368": {
    "partido": "Hoffenheim vs Bayer Leverkusen",
