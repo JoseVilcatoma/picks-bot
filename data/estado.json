@@ -4330,8 +4330,72 @@
    "partido": "Rio Ave vs Famalicão",
    "liga": "Portugal, Primeira Liga",
    "inicio": "2026-10-25T13:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1792948183.7415504
+   "estado": "enviado",
+   "ultimo": 1792948431.9654367,
+   "pierna": [
+    {
+     "gid": "4757183",
+     "partido": "Rio Ave vs Famalicão",
+     "texto": "Rio Ave recibe gol",
+     "clave": "CS||local_no",
+     "p": 0.7663,
+     "cuota": 1.22,
+     "casa": "Bet365",
+     "inicio": "2026-10-25T13:00:00-05:00"
+    },
+    {
+     "gid": "4757183",
+     "partido": "Rio Ave vs Famalicão",
+     "texto": "Famalicão o empate",
+     "clave": "DC||X2",
+     "p": 0.7257,
+     "cuota": 1.29,
+     "casa": "Bet365",
+     "inicio": "2026-10-25T13:00:00-05:00"
+    },
+    {
+     "gid": "4757183",
+     "partido": "Rio Ave vs Famalicão",
+     "texto": "No hay empate",
+     "clave": "DC||12",
+     "p": 0.7248,
+     "cuota": 1.3,
+     "casa": "Bet365",
+     "inicio": "2026-10-25T13:00:00-05:00"
+    },
+    {
+     "gid": "4757183",
+     "partido": "Rio Ave vs Famalicão",
+     "texto": "Más de 1.5 goles",
+     "clave": "OU|1.5|over",
+     "p": 0.7234,
+     "cuota": 1.3,
+     "casa": "Bet365",
+     "inicio": "2026-10-25T13:00:00-05:00"
+    },
+    {
+     "gid": "4757183",
+     "partido": "Rio Ave vs Famalicão",
+     "texto": "Menos de 3.5 goles",
+     "clave": "OU|3.5|under",
+     "p": 0.7096,
+     "cuota": 1.33,
+     "casa": "Bet365",
+     "inicio": "2026-10-25T13:00:00-05:00"
+    },
+    {
+     "gid": "4757183",
+     "partido": "Rio Ave vs Famalicão",
+     "texto": "Más de 0.5 goles en el 1T",
+     "clave": "OU1T|0.5|over",
+     "p": 0.6881,
+     "cuota": 1.36,
+     "casa": "Bet365",
+     "inicio": "2026-10-25T13:00:00-05:00"
+    }
+   ],
+   "xi": "1335607,49517813,56082037,63094701,64982843,66704397,70795642,71545449,75491601,76143758,78674293|3071450,14354634,40742165,50260095,56082052,61322129,64122354,70809810,70855817,71130429,75381479",
+   "conf": true
   },
   "4757184": {
    "partido": "Sporting CP vs Viseu",
@@ -4437,7 +4501,7 @@
    "liga": "Perú, Liga 1 - Clausura",
    "inicio": "2026-10-25T13:15:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792948183.7757936
+   "ultimo": 1792948441.1677942
   }
  },
  "web": {
