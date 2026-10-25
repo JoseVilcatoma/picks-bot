@@ -2841,14 +2841,14 @@
    "liga": "Italia, Serie A",
    "inicio": "2026-10-25T09:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792932811.5844104
+   "ultimo": 1792933060.3071299
   },
   "4732670": {
    "partido": "Atalanta vs Frosinone",
    "liga": "Italia, Serie A",
    "inicio": "2026-10-25T09:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792932811.7361887
+   "ultimo": 1792933060.4417343
   },
   "4735227": {
    "partido": "PSG vs Lyon",
@@ -2876,7 +2876,7 @@
    "liga": "Francia, Ligue 1",
    "inicio": "2026-10-25T09:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792932811.7967813
+   "ultimo": 1792933060.5013278
   },
   "4735231": {
    "partido": "Olympique Marsella vs Le Havre",
@@ -3052,8 +3052,62 @@
    "partido": "Hull City vs Brentford",
    "liga": "Inglaterra, Premier League",
    "inicio": "2026-10-25T09:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1792932813.2745044
+   "estado": "enviado",
+   "ultimo": 1792933060.5526335,
+   "pierna": [
+    {
+     "gid": "4742025",
+     "partido": "Hull City vs Brentford",
+     "texto": "Más de 1.5 goles",
+     "clave": "OU|1.5|over",
+     "p": 0.7444,
+     "cuota": 1.2,
+     "casa": "Bet365",
+     "inicio": "2026-10-25T09:00:00-05:00"
+    },
+    {
+     "gid": "4742025",
+     "partido": "Hull City vs Brentford",
+     "texto": "No hay empate",
+     "clave": "DC||12",
+     "p": 0.7428,
+     "cuota": 1.22,
+     "casa": "Bet365",
+     "inicio": "2026-10-25T09:00:00-05:00"
+    },
+    {
+     "gid": "4742025",
+     "partido": "Hull City vs Brentford",
+     "texto": "Más de 0.5 goles en el 1T",
+     "clave": "OU1T|0.5|over",
+     "p": 0.6913,
+     "cuota": 1.3,
+     "casa": "Bet365",
+     "inicio": "2026-10-25T09:00:00-05:00"
+    },
+    {
+     "gid": "4742025",
+     "partido": "Hull City vs Brentford",
+     "texto": "Brentford recibe gol",
+     "clave": "CS||visita_no",
+     "p": 0.6317,
+     "cuota": 1.44,
+     "casa": "Bet365",
+     "inicio": "2026-10-25T09:00:00-05:00"
+    },
+    {
+     "gid": "4742025",
+     "partido": "Hull City vs Brentford",
+     "texto": "Brentford -0.5 (hándicap)",
+     "clave": "AH|0.5|visita",
+     "p": 0.5202,
+     "cuota": 1.65,
+     "casa": "Bet365",
+     "inicio": "2026-10-25T09:00:00-05:00"
+    }
+   ],
+   "xi": "435138,526669,1381354,1761369,8663013,49727649,51755120,60362691,62416928,70798951,76712965|72966,556319,557975,3517523,6533360,12234457,32237766,51392565,61456616,66306372,67428963",
+   "conf": true
   },
   "4742026": {
    "partido": "Crystal Palace vs Newcastle United",
