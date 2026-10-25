@@ -2634,7 +2634,7 @@
    "liga": "Italia, Serie A",
    "inicio": "2026-10-25T14:45:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792953066.1811836
+   "ultimo": 1792953309.2816565
   },
   "4732664": {
    "partido": "Lecce vs Juventus",
@@ -4059,8 +4059,8 @@
    "partido": "Friburgo vs Bayern Munich",
    "liga": "Alemania, Bundesliga",
    "inicio": "2026-10-25T11:30:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1792952700.3418462,
+   "estado": "liquidado",
+   "ultimo": 1792953309.429091,
    "pierna": [
     {
      "gid": "4755367",
@@ -4094,7 +4094,22 @@
     }
    ],
    "xi": "220585,408400,418057,593193,3071285,49988887,61066404,61406653,66221753,69040955,70780165|227604,405496,412127,470279,898082,14755144,57861026,60976669,64744763,66044210,76643976",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 1,
+    "ag": 3,
+    "ht": [
+     0,
+     2
+    ],
+    "corners": 11.0,
+    "corners_h": 5.0,
+    "corners_a": 6.0,
+    "corners_1t": 3.0,
+    "cards": 4.0,
+    "cards_h": 3.0,
+    "cards_a": 1.0
+   }
   },
   "4755368": {
    "partido": "Hoffenheim vs Bayer Leverkusen",
