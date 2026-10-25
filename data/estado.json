@@ -2779,8 +2779,62 @@
    "partido": "Inter Milan vs Fiorentina",
    "liga": "Italia, Serie A",
    "inicio": "2026-10-25T06:30:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1792924806.3015158
+   "estado": "enviado",
+   "ultimo": 1792925049.7379172,
+   "pierna": [
+    {
+     "gid": "4732666",
+     "partido": "Inter Milan vs Fiorentina",
+     "texto": "Más de 0.5 goles en el 1T",
+     "clave": "OU1T|0.5|over",
+     "p": 0.7729,
+     "cuota": 1.2,
+     "casa": "Bet365",
+     "inicio": "2026-10-25T06:30:00-05:00"
+    },
+    {
+     "gid": "4732666",
+     "partido": "Inter Milan vs Fiorentina",
+     "texto": "Más de 2.5 goles",
+     "clave": "OU|2.5|over",
+     "p": 0.6606,
+     "cuota": 1.36,
+     "casa": "Bet365",
+     "inicio": "2026-10-25T06:30:00-05:00"
+    },
+    {
+     "gid": "4732666",
+     "partido": "Inter Milan vs Fiorentina",
+     "texto": "Inter Milan recibe gol",
+     "clave": "CS||local_no",
+     "p": 0.625,
+     "cuota": 1.5,
+     "casa": "Bet365",
+     "inicio": "2026-10-25T06:30:00-05:00"
+    },
+    {
+     "gid": "4732666",
+     "partido": "Inter Milan vs Fiorentina",
+     "texto": "Ambos marcan: Sí",
+     "clave": "BTTS||si",
+     "p": 0.589,
+     "cuota": 1.57,
+     "casa": "Bet365",
+     "inicio": "2026-10-25T06:30:00-05:00"
+    },
+    {
+     "gid": "4732666",
+     "partido": "Inter Milan vs Fiorentina",
+     "texto": "Gana Inter Milan",
+     "clave": "1X2||1",
+     "p": 0.588,
+     "cuota": 1.36,
+     "casa": "Bet365",
+     "inicio": "2026-10-25T06:30:00-05:00"
+    }
+   ],
+   "xi": "292141,342428,458646,511549,886858,3071407,4802874,4874448,6251312,58810177,68000276|88018,3281000,30466531,50586375,54588606,54901262,65156349,70860736,71088015,71370735,77066931",
+   "conf": true
   },
   "4732667": {
    "partido": "Genoa vs Venezia",
