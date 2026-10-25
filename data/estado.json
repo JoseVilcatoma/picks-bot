@@ -4127,8 +4127,8 @@
    "partido": "Hoffenheim vs Bayer Leverkusen",
    "liga": "Alemania, Bundesliga",
    "inicio": "2026-10-25T09:30:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1792945506.2673838,
+   "estado": "liquidado",
+   "ultimo": 1792946113.664611,
    "pierna": [
     {
      "gid": "4755368",
@@ -4172,7 +4172,22 @@
     }
    ],
    "xi": "258327,334847,3130032,3339632,4581497,38075769,60938745,64195671,65404524,67771703,68006639|495388,511863,613840,3177765,7180298,30803774,49633242,50172386,56555504,63792363,67900705",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 3,
+    "ag": 0,
+    "ht": [
+     0,
+     0
+    ],
+    "corners": 8.0,
+    "corners_h": 5.0,
+    "corners_a": 3.0,
+    "corners_1t": 4.0,
+    "cards": 7.0,
+    "cards_h": 4.0,
+    "cards_a": 3.0
+   }
   },
   "4757180": {
    "partido": "Estoril vs Moreirense",
