@@ -4245,14 +4245,14 @@
    "liga": "Portugal, Primeira Liga",
    "inicio": "2026-10-25T13:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792947693.1490695
+   "ultimo": 1792947937.3291192
   },
   "4757183": {
    "partido": "Rio Ave vs Famalicão",
    "liga": "Portugal, Primeira Liga",
    "inicio": "2026-10-25T13:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792947693.2028682
+   "ultimo": 1792947937.4584472
   },
   "4757184": {
    "partido": "Sporting CP vs Viseu",
@@ -4358,7 +4358,7 @@
    "liga": "Perú, Liga 1 - Clausura",
    "inicio": "2026-10-25T13:15:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792947693.236234
+   "ultimo": 1792947937.492108
   }
  },
  "web": {
