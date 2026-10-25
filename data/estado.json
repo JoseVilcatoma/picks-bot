@@ -3410,8 +3410,8 @@
    "partido": "FC Barcelona vs Real Madrid",
    "liga": "España, LaLiga",
    "inicio": "2026-10-25T15:00:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1792965401.2143314,
+   "estado": "liquidado",
+   "ultimo": 1792966010.872575,
    "pierna": [
     {
      "gid": "4750514",
@@ -3445,7 +3445,22 @@
     }
    ],
    "xi": "384197,1444592,1761371,33309233,41923868,52343752,63765805,67787784,70894814,70951545,71171245|384169,480721,1589889,3171745,3216883,3568284,5052341,46440257,61736514,67547634,77099314",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 1,
+    "ag": 2,
+    "ht": [
+     0,
+     1
+    ],
+    "corners": 12.0,
+    "corners_h": 6.0,
+    "corners_a": 6.0,
+    "corners_1t": 4.0,
+    "cards": 6.0,
+    "cards_h": 3.0,
+    "cards_a": 3.0
+   }
   },
   "4750813": {
    "partido": "Sevilla FC vs Osasuna",
@@ -4095,7 +4110,7 @@
    "liga": "Perú, Liga 1 - Clausura",
    "inicio": "2026-10-25T18:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792965767.1147873
+   "ultimo": 1792966011.176394
   },
   "4760795": {
    "partido": "Sport Boys vs FC Cajamarca",
