@@ -4132,8 +4132,52 @@
    "partido": "Sport Boys vs FC Cajamarca",
    "liga": "Perú, Liga 1 - Clausura",
    "inicio": "2026-10-25T15:30:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1792957704.4015276
+   "estado": "enviado",
+   "ultimo": 1792957826.48495,
+   "pierna": [
+    {
+     "gid": "4760795",
+     "partido": "Sport Boys vs FC Cajamarca",
+     "texto": "Más de 1.5 goles",
+     "clave": "OU|1.5|over",
+     "p": 0.783,
+     "cuota": 1.2,
+     "casa": "Bet365",
+     "inicio": "2026-10-25T15:30:00-05:00"
+    },
+    {
+     "gid": "4760795",
+     "partido": "Sport Boys vs FC Cajamarca",
+     "texto": "No hay empate",
+     "clave": "DC||12",
+     "p": 0.7669,
+     "cuota": 1.22,
+     "casa": "Bet365",
+     "inicio": "2026-10-25T15:30:00-05:00"
+    },
+    {
+     "gid": "4760795",
+     "partido": "Sport Boys vs FC Cajamarca",
+     "texto": "Más de 0.5 goles en el 1T",
+     "clave": "OU1T|0.5|over",
+     "p": 0.7229,
+     "cuota": 1.3,
+     "casa": "Bet365",
+     "inicio": "2026-10-25T15:30:00-05:00"
+    },
+    {
+     "gid": "4760795",
+     "partido": "Sport Boys vs FC Cajamarca",
+     "texto": "Sport Boys recibe gol",
+     "clave": "CS||local_no",
+     "p": 0.625,
+     "cuota": 1.5,
+     "casa": "Bet365",
+     "inicio": "2026-10-25T15:30:00-05:00"
+    }
+   ],
+   "xi": "533478,616301,892587,2614926,12728006,15806566,17101463,47441568,50785894,56915241,67756954|496030,549319,2547399,3226546,7835850,56700129,67631192,67939604,71161933,77695473,78946536",
+   "conf": false
   },
   "4760797": {
    "partido": "Comerciantes Unidos vs Cienciano",
