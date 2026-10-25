@@ -3946,7 +3946,7 @@
    "liga": "Portugal, Primeira Liga",
    "inicio": "2026-10-25T13:00:00-05:00",
    "estado": "enviado",
-   "ultimo": 1792948181.7142437,
+   "ultimo": 1792958200.413153,
    "pierna": [
     {
      "gid": "4757182",
@@ -4016,8 +4016,8 @@
    "partido": "Rio Ave vs Famalicão",
    "liga": "Portugal, Primeira Liga",
    "inicio": "2026-10-25T13:00:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1792948431.9654367,
+   "estado": "liquidado",
+   "ultimo": 1792958200.552816,
    "pierna": [
     {
      "gid": "4757183",
@@ -4081,7 +4081,22 @@
     }
    ],
    "xi": "1335607,49517813,56082037,63094701,64982843,66704397,70795642,71545449,75491601,76143758,78674293|3071450,14354634,40742165,50260095,56082052,61322129,64122354,70809810,70855817,71130429,75381479",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 0,
+    "ag": 4,
+    "ht": [
+     0,
+     0
+    ],
+    "corners": 6.0,
+    "corners_h": 4.0,
+    "corners_a": 2.0,
+    "corners_1t": 2.0,
+    "cards": 3.0,
+    "cards_h": 3.0,
+    "cards_a": 0.0
+   }
   },
   "4757184": {
    "partido": "Sporting CP vs Viseu",
@@ -4133,7 +4148,7 @@
    "liga": "Perú, Liga 1 - Clausura",
    "inicio": "2026-10-25T15:30:00-05:00",
    "estado": "enviado",
-   "ultimo": 1792957826.48495,
+   "ultimo": 1792958200.7283943,
    "pierna": [
     {
      "gid": "4760795",
