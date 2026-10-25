@@ -4173,8 +4173,32 @@
    "partido": "Sporting CP vs Viseu",
    "liga": "Portugal, Primeira Liga",
    "inicio": "2026-10-25T15:30:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1792956239.2908497
+   "estado": "enviado",
+   "ultimo": 1792956485.7549872,
+   "pierna": [
+    {
+     "gid": "4757184",
+     "partido": "Sporting CP vs Viseu",
+     "texto": "Gana Sporting CP",
+     "clave": "1X2||1",
+     "p": 0.7616,
+     "cuota": 1.22,
+     "casa": "Bet365",
+     "inicio": "2026-10-25T15:30:00-05:00"
+    },
+    {
+     "gid": "4757184",
+     "partido": "Sporting CP vs Viseu",
+     "texto": "Más de 2.5 goles",
+     "clave": "OU|2.5|over",
+     "p": 0.6654,
+     "cuota": 1.36,
+     "casa": "Bet365",
+     "inicio": "2026-10-25T15:30:00-05:00"
+    }
+   ],
+   "xi": "7244055,9157528,50072970,64317526,64656029,66850386,67636921,70860145,71917231,75430996,77374784|343399,2614253,7314720,15069774,46523888,50978598,60491993,60869761,65521818,70810400,71408242",
+   "conf": true
   },
   "4757185": {
    "partido": "Santa Clara vs Benfica",
@@ -4195,7 +4219,7 @@
    "liga": "Perú, Liga 1 - Clausura",
    "inicio": "2026-10-25T15:30:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792956239.4353738
+   "ultimo": 1792956486.4597688
   },
   "4760797": {
    "partido": "Comerciantes Unidos vs Cienciano",
