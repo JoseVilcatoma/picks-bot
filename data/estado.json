@@ -3463,8 +3463,8 @@
    "partido": "Athletic Club vs Getafe CF",
    "liga": "España, LaLiga",
    "inicio": "2026-10-25T08:00:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1792929293.0564702,
+   "estado": "liquidado",
+   "ultimo": 1792940144.9971051,
    "pierna": [
     {
      "gid": "4750820",
@@ -3518,7 +3518,22 @@
     }
    ],
    "xi": "137290,428230,541584,641453,914591,987911,50832850,54368445,65561822,75384403,76993424|243502,312745,392341,552743,656339,51552702,52283767,52892490,53029449,67621071,75411603",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 4,
+    "ag": 0,
+    "ht": [
+     2,
+     0
+    ],
+    "corners": 6.0,
+    "corners_h": 2.0,
+    "corners_a": 4.0,
+    "corners_1t": 3.0,
+    "cards": 5.0,
+    "cards_h": 1.0,
+    "cards_a": 4.0
+   }
   },
   "4755367": {
    "partido": "Friburgo vs Bayern Munich",

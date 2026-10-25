@@ -1890,12 +1890,12 @@ fecha,game_id,partido,liga,tipo,mercado,clave,prob,cuota,casa,cuota_justa,ev,sta
 2026-10-25 05:44,4732666,Inter Milan vs Fiorentina,"Italia, Serie A",modelo,Más de 4.5 córners,CORN|4.5|over,0.7522,,,1.33,,,si,G,
 2026-10-25 05:44,4732666,Inter Milan vs Fiorentina,"Italia, Serie A",ticket,Más de 2.5 goles + Inter Milan recibe gol,OU|2.5|over&CS||local_no,0.5341,2.04,,1.87,0.0896,10.00,,G,10.40
 2026-10-25 05:44,4732666,Inter Milan vs Fiorentina,"Italia, Serie A",crear,Menos de 5.5 goles + Más de 0.5 goles en el 1T + Más de 2.5 córners,OU|5.5|under&OU1T|0.5|over&CORN|2.5|over,0.5817,,,1.72,,,,P,
-2026-10-25 06:54,4750820,Athletic Club vs Getafe CF,"España, LaLiga",seguro,Menos de 3.5 goles,OU|3.5|under,0.7747,1.29,Bet365,1.29,-0.0006,,si,,
-2026-10-25 06:54,4750820,Athletic Club vs Getafe CF,"España, LaLiga",seguro,No hay empate,DC||12,0.7572,1.22,Bet365,1.32,-0.0763,,si,,
-2026-10-25 06:54,4750820,Athletic Club vs Getafe CF,"España, LaLiga",modelo,Más de 2.5 tarjetas,CARDS|2.5|over,0.7362,,,1.36,,,si,,
-2026-10-25 06:54,4750820,Athletic Club vs Getafe CF,"España, LaLiga",modelo,Menos de 13.5 córners,CORN|13.5|under,0.7090,,,1.41,,,si,,
-2026-10-25 06:54,4750820,Athletic Club vs Getafe CF,"España, LaLiga",ticket,Menos de 3.5 goles + Ambos marcan: No,OU|3.5|under&BTTS||no,0.5414,2.09,,1.85,0.1313,10.00,,,
-2026-10-25 06:54,4750820,Athletic Club vs Getafe CF,"España, LaLiga",crear,Athletic Club o empate + Menos de 3.5 goles + Menos de 16.5 córners,DC||1X&OU|3.5|under&CORN|16.5|under,0.5431,,,1.84,,,,,
+2026-10-25 06:54,4750820,Athletic Club vs Getafe CF,"España, LaLiga",seguro,Menos de 3.5 goles,OU|3.5|under,0.7747,1.29,Bet365,1.29,-0.0006,,si,P,
+2026-10-25 06:54,4750820,Athletic Club vs Getafe CF,"España, LaLiga",seguro,No hay empate,DC||12,0.7572,1.22,Bet365,1.32,-0.0763,,si,G,
+2026-10-25 06:54,4750820,Athletic Club vs Getafe CF,"España, LaLiga",modelo,Más de 2.5 tarjetas,CARDS|2.5|over,0.7362,,,1.36,,,si,G,
+2026-10-25 06:54,4750820,Athletic Club vs Getafe CF,"España, LaLiga",modelo,Menos de 13.5 córners,CORN|13.5|under,0.7090,,,1.41,,,si,G,
+2026-10-25 06:54,4750820,Athletic Club vs Getafe CF,"España, LaLiga",ticket,Menos de 3.5 goles + Ambos marcan: No,OU|3.5|under&BTTS||no,0.5414,2.09,,1.85,0.1313,10.00,,P,-10.00
+2026-10-25 06:54,4750820,Athletic Club vs Getafe CF,"España, LaLiga",crear,Athletic Club o empate + Menos de 3.5 goles + Menos de 16.5 córners,DC||1X&OU|3.5|under&CORN|16.5|under,0.5431,,,1.84,,,,P,
 2026-10-25 07:53,4742022,Manchester United vs Bournemouth,"Inglaterra, Premier League",seguro,Manchester United recibe gol,CS||local_no,0.7433,1.28,Bet365,1.35,-0.0486,,si,,
 2026-10-25 07:53,4742022,Manchester United vs Bournemouth,"Inglaterra, Premier League",seguro,No hay empate,DC||12,0.7140,1.30,Bet365,1.40,-0.0717,,si,,
 2026-10-25 07:53,4742022,Manchester United vs Bournemouth,"Inglaterra, Premier League",modelo,Más de 2.5 tarjetas,CARDS|2.5|over,0.7023,,,1.42,,,si,,
