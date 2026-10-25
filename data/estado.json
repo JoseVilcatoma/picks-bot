@@ -3468,8 +3468,8 @@
    "partido": "Sunderland vs Leeds United",
    "liga": "Inglaterra, Premier League",
    "inicio": "2026-10-25T11:30:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1792942080.636954,
+   "estado": "liquidado",
+   "ultimo": 1792952700.2099822,
    "pierna": [
     {
      "gid": "4742021",
@@ -3533,7 +3533,22 @@
     }
    ],
    "xi": "287803,435114,1169903,3218099,50444830,58122452,59993290,64514449,64744795,65566123,70904911|649450,886874,907041,984482,3135966,3146175,3476512,7227288,13895915,51042324,58340010",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 0,
+    "ag": 0,
+    "ht": [
+     0,
+     0
+    ],
+    "corners": 9.0,
+    "corners_h": 4.0,
+    "corners_a": 5.0,
+    "corners_1t": 2.0,
+    "cards": 3.0,
+    "cards_h": 1.0,
+    "cards_a": 2.0
+   }
   },
   "4742022": {
    "partido": "Manchester United vs Bournemouth",
@@ -4111,7 +4126,7 @@
    "liga": "Alemania, Bundesliga",
    "inicio": "2026-10-25T11:30:00-05:00",
    "estado": "enviado",
-   "ultimo": 1792943061.687071,
+   "ultimo": 1792952700.3418462,
    "pierna": [
     {
      "gid": "4755367",
