@@ -2309,15 +2309,59 @@
    "partido": "Udinese vs AC Milan",
    "liga": "Italia, Serie A",
    "inicio": "2026-10-25T14:45:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1792955019.4282072
+   "estado": "enviado",
+   "ultimo": 1792955141.6200864,
+   "pierna": [
+    {
+     "gid": "4732661",
+     "partido": "Udinese vs AC Milan",
+     "texto": "No hay empate",
+     "clave": "DC||12",
+     "p": 0.6998,
+     "cuota": 1.29,
+     "casa": "Bet365",
+     "inicio": "2026-10-25T14:45:00-05:00"
+    },
+    {
+     "gid": "4732661",
+     "partido": "Udinese vs AC Milan",
+     "texto": "Más de 1.5 goles",
+     "clave": "OU|1.5|over",
+     "p": 0.697,
+     "cuota": 1.25,
+     "casa": "Bet365",
+     "inicio": "2026-10-25T14:45:00-05:00"
+    },
+    {
+     "gid": "4732661",
+     "partido": "Udinese vs AC Milan",
+     "texto": "Más de 0.5 goles en el 1T",
+     "clave": "OU1T|0.5|over",
+     "p": 0.6602,
+     "cuota": 1.33,
+     "casa": "Bet365",
+     "inicio": "2026-10-25T14:45:00-05:00"
+    },
+    {
+     "gid": "4732661",
+     "partido": "Udinese vs AC Milan",
+     "texto": "AC Milan recibe gol",
+     "clave": "CS||visita_no",
+     "p": 0.625,
+     "cuota": 1.5,
+     "casa": "Bet365",
+     "inicio": "2026-10-25T14:45:00-05:00"
+    }
+   ],
+   "xi": "375123,489221,529485,1407048,2383725,3052014,3335711,4882805,47484495,66220481,72688033|26984,513713,638781,951725,2055909,28043772,49907423,49915522,50790794,52683634,67774436",
+   "conf": false
   },
   "4732664": {
    "partido": "Lecce vs Juventus",
    "liga": "Italia, Serie A",
    "inicio": "2026-10-25T12:00:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1792954531.9882584,
+   "estado": "liquidado",
+   "ultimo": 1792955142.2845519,
    "pierna": [
     {
      "gid": "4732664",
@@ -2361,7 +2405,22 @@
     }
    ],
    "xi": "453730,3476562,4870199,35341115,51584979,60984293,64864265,66406095,67874128,71384454,71392451|1006401,3094565,3229380,3260720,3456444,3725457,4873827,40731942,50999036,52275621,61206789",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 0,
+    "ag": 2,
+    "ht": [
+     0,
+     2
+    ],
+    "corners": 8.0,
+    "corners_h": 5.0,
+    "corners_a": 3.0,
+    "corners_1t": 1.0,
+    "cards": 2.0,
+    "cards_h": 2.0,
+    "cards_a": 0.0
+   }
   },
   "4732666": {
    "partido": "Inter Milan vs Fiorentina",
