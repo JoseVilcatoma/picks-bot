@@ -2779,8 +2779,8 @@
    "partido": "Inter Milan vs Fiorentina",
    "liga": "Italia, Serie A",
    "inicio": "2026-10-25T06:30:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1792934779.7317538,
+   "estado": "liquidado",
+   "ultimo": 1792935388.840146,
    "pierna": [
     {
      "gid": "4732666",
@@ -2834,7 +2834,22 @@
     }
    ],
    "xi": "292141,342428,458646,511549,886858,3071407,4802874,4874448,6251312,58810177,68000276|88018,3281000,30466531,50586375,54588606,54901262,65156349,70860736,71088015,71370735,77066931",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 2,
+    "ag": 1,
+    "ht": [
+     0,
+     0
+    ],
+    "corners": 7.0,
+    "corners_h": 6.0,
+    "corners_a": 1.0,
+    "corners_1t": 3.0,
+    "cards": 2.0,
+    "cards_h": 0.0,
+    "cards_a": 2.0
+   }
   },
   "4732667": {
    "partido": "Genoa vs Venezia",
@@ -3453,7 +3468,7 @@
    "liga": "Alemania, Bundesliga",
    "inicio": "2026-10-25T09:30:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792935145.5780766
+   "ultimo": 1792935389.1030028
   },
   "4757180": {
    "partido": "Estoril vs Moreirense",
