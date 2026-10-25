@@ -4378,8 +4378,8 @@
    "partido": "Comerciantes Unidos vs Cienciano",
    "liga": "Perú, Liga 1 - Clausura",
    "inicio": "2026-10-25T11:00:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1792950993.0561385,
+   "estado": "liquidado",
+   "ultimo": 1792951600.347179,
    "pierna": [
     {
      "gid": "4760797",
@@ -4443,7 +4443,22 @@
     }
    ],
    "xi": "6410080,11958892,14023190,57047593,58602352,65033286,66663681,67627458,67936311,67955361,71147110|461402,470008,578343,591032,941108,3086656,3170524,4366058,4815065,13461121,47991870",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 3,
+    "ag": 1,
+    "ht": [
+     1,
+     0
+    ],
+    "corners": 7.0,
+    "corners_h": 6.0,
+    "corners_a": 1.0,
+    "corners_1t": 4.0,
+    "cards": 5.0,
+    "cards_h": 2.0,
+    "cards_a": 3.0
+   }
   },
   "4760798": {
    "partido": "CD Moquegua vs Alianza Lima",
