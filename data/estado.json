@@ -2985,14 +2985,78 @@
    "liga": "Francia, Ligue 1",
    "inicio": "2026-10-25T11:15:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792941587.8460205
+   "ultimo": 1792941832.8764446
   },
   "4735229": {
    "partido": "Rennes vs Estrasburgo",
    "liga": "Francia, Ligue 1",
    "inicio": "2026-10-25T11:15:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1792941587.9084208
+   "estado": "enviado",
+   "ultimo": 1792941832.9680233,
+   "pierna": [
+    {
+     "gid": "4735229",
+     "partido": "Rennes vs Estrasburgo",
+     "texto": "No hay empate",
+     "clave": "DC||12",
+     "p": 0.7437,
+     "cuota": 1.2,
+     "casa": "Bet365",
+     "inicio": "2026-10-25T11:15:00-05:00"
+    },
+    {
+     "gid": "4735229",
+     "partido": "Rennes vs Estrasburgo",
+     "texto": "Más de 0.5 goles en el 1T",
+     "clave": "OU1T|0.5|over",
+     "p": 0.7158,
+     "cuota": 1.22,
+     "casa": "Bet365",
+     "inicio": "2026-10-25T11:15:00-05:00"
+    },
+    {
+     "gid": "4735229",
+     "partido": "Rennes vs Estrasburgo",
+     "texto": "Rennes recibe gol",
+     "clave": "CS||local_no",
+     "p": 0.7089,
+     "cuota": 1.28,
+     "casa": "Bet365",
+     "inicio": "2026-10-25T11:15:00-05:00"
+    },
+    {
+     "gid": "4735229",
+     "partido": "Rennes vs Estrasburgo",
+     "texto": "Rennes o empate",
+     "clave": "DC||1X",
+     "p": 0.7086,
+     "cuota": 1.25,
+     "casa": "Bet365",
+     "inicio": "2026-10-25T11:15:00-05:00"
+    },
+    {
+     "gid": "4735229",
+     "partido": "Rennes vs Estrasburgo",
+     "texto": "Ambos marcan: Sí",
+     "clave": "BTTS||si",
+     "p": 0.5758,
+     "cuota": 1.44,
+     "casa": "Bet365",
+     "inicio": "2026-10-25T11:15:00-05:00"
+    },
+    {
+     "gid": "4735229",
+     "partido": "Rennes vs Estrasburgo",
+     "texto": "Más de 2.5 goles",
+     "clave": "OU|2.5|over",
+     "p": 0.5436,
+     "cuota": 1.44,
+     "casa": "Bet365",
+     "inicio": "2026-10-25T11:15:00-05:00"
+    }
+   ],
+   "xi": "335306,489617,533912,655566,3055980,8688144,9039245,51243145,51284167,71035001,76343359|43951837,50736377,54901981,56978378,67166934,68028328,71340815,75512013,76872509,76963138,77038325",
+   "conf": true
   },
   "4735230": {
    "partido": "Monaco vs Lille",
@@ -3070,14 +3134,78 @@
    "liga": "Francia, Ligue 1",
    "inicio": "2026-10-25T11:15:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792941587.9426758
+   "ultimo": 1792941833.5396683
   },
   "4735234": {
    "partido": "Auxerre vs Le Mans",
    "liga": "Francia, Ligue 1",
    "inicio": "2026-10-25T11:15:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1792941587.9638264
+   "estado": "enviado",
+   "ultimo": 1792941833.5618184,
+   "pierna": [
+    {
+     "gid": "4735234",
+     "partido": "Auxerre vs Le Mans",
+     "texto": "Más de 1.5 goles",
+     "clave": "OU|1.5|over",
+     "p": 0.7802,
+     "cuota": 1.22,
+     "casa": "Bet365",
+     "inicio": "2026-10-25T11:15:00-05:00"
+    },
+    {
+     "gid": "4735234",
+     "partido": "Auxerre vs Le Mans",
+     "texto": "No hay empate",
+     "clave": "DC||12",
+     "p": 0.7305,
+     "cuota": 1.29,
+     "casa": "Bet365",
+     "inicio": "2026-10-25T11:15:00-05:00"
+    },
+    {
+     "gid": "4735234",
+     "partido": "Auxerre vs Le Mans",
+     "texto": "Auxerre o empate",
+     "clave": "DC||1X",
+     "p": 0.7248,
+     "cuota": 1.3,
+     "casa": "Bet365",
+     "inicio": "2026-10-25T11:15:00-05:00"
+    },
+    {
+     "gid": "4735234",
+     "partido": "Auxerre vs Le Mans",
+     "texto": "Más de 0.5 goles en el 1T",
+     "clave": "OU1T|0.5|over",
+     "p": 0.7096,
+     "cuota": 1.33,
+     "casa": "Bet365",
+     "inicio": "2026-10-25T11:15:00-05:00"
+    },
+    {
+     "gid": "4735234",
+     "partido": "Auxerre vs Le Mans",
+     "texto": "Auxerre recibe gol",
+     "clave": "CS||local_no",
+     "p": 0.7046,
+     "cuota": 1.3,
+     "casa": "Bet365",
+     "inicio": "2026-10-25T11:15:00-05:00"
+    },
+    {
+     "gid": "4735234",
+     "partido": "Auxerre vs Le Mans",
+     "texto": "Ambos marcan: Sí",
+     "clave": "BTTS||si",
+     "p": 0.589,
+     "cuota": 1.57,
+     "casa": "Bet365",
+     "inicio": "2026-10-25T11:15:00-05:00"
+    }
+   ],
+   "xi": "348719,1760084,3340298,5905572,38841445,52933383,62084810,64933542,66447403,67987633,70841063|306308,917090,1841519,3865790,16137941,50683665,52916063,62975357,64816018,76541349,77374568",
+   "conf": true
   },
   "4735235": {
    "partido": "Angers vs Lorient",
@@ -3135,7 +3263,7 @@
    "liga": "Inglaterra, Premier League",
    "inicio": "2026-10-25T11:30:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792941588.2776608
+   "ultimo": 1792941834.8819973
   },
   "4742022": {
    "partido": "Manchester United vs Bournemouth",
@@ -3584,7 +3712,7 @@
    "liga": "Alemania, Bundesliga",
    "inicio": "2026-10-25T11:30:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792941588.2963352
+   "ultimo": 1792941834.9061966
   },
   "4755368": {
    "partido": "Hoffenheim vs Bayer Leverkusen",
