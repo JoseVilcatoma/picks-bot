@@ -391,72 +391,6 @@
     "cards_a": 1.0
    }
   },
-  "4755369": {
-   "partido": "Stuttgart vs Borussia Mönchengladbach",
-   "liga": "Alemania, Bundesliga",
-   "inicio": "2026-10-23T13:30:00-05:00",
-   "estado": "liquidado",
-   "ultimo": 1792787215.938166,
-   "pierna": [
-    {
-     "gid": "4755369",
-     "partido": "Stuttgart vs Borussia Mönchengladbach",
-     "texto": "Stuttgart recibe gol",
-     "clave": "CS||local_no",
-     "p": 0.6555,
-     "cuota": 1.36,
-     "casa": "Bet365",
-     "inicio": "2026-10-23T13:30:00-05:00"
-    },
-    {
-     "gid": "4755369",
-     "partido": "Stuttgart vs Borussia Mönchengladbach",
-     "texto": "Gana Stuttgart",
-     "clave": "1X2||1",
-     "p": 0.5803,
-     "cuota": 1.33,
-     "casa": "Bet365",
-     "inicio": "2026-10-23T13:30:00-05:00"
-    },
-    {
-     "gid": "4755369",
-     "partido": "Stuttgart vs Borussia Mönchengladbach",
-     "texto": "Más de 2.5 goles",
-     "clave": "OU|2.5|over",
-     "p": 0.5789,
-     "cuota": 1.29,
-     "casa": "Bet365",
-     "inicio": "2026-10-23T13:30:00-05:00"
-    },
-    {
-     "gid": "4755369",
-     "partido": "Stuttgart vs Borussia Mönchengladbach",
-     "texto": "Ambos marcan: Sí",
-     "clave": "BTTS||si",
-     "p": 0.557,
-     "cuota": 1.5,
-     "casa": "Bet365",
-     "inicio": "2026-10-23T13:30:00-05:00"
-    }
-   ],
-   "xi": "909220,982954,5332356,6241304,50497594,50584064,52232155,67231985,67921132,68000227,71054280|972964,3094154,4008340,8448849,32435492,56601658,64329313,67638234,70842829,71547426,77485095",
-   "conf": true,
-   "r": {
-    "hg": 2,
-    "ag": 3,
-    "ht": [
-     1,
-     1
-    ],
-    "corners": 11.0,
-    "corners_h": 6.0,
-    "corners_a": 5.0,
-    "corners_1t": 5.0,
-    "cards": 6.0,
-    "cards_h": 2.0,
-    "cards_a": 4.0
-   }
-  },
   "4757186": {
    "partido": "Guimarães vs Maritimo",
    "liga": "Portugal, Primeira Liga",
@@ -2700,7 +2634,7 @@
    "liga": "Italia, Serie A",
    "inicio": "2026-10-25T14:45:00-05:00",
    "estado": "pendiente",
-   "ultimo": 0
+   "ultimo": 1792953066.1811836
   },
   "4732664": {
    "partido": "Lecce vs Juventus",
