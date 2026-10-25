@@ -4244,15 +4244,79 @@
    "partido": "Nacional Madeira vs SC Braga",
    "liga": "Portugal, Primeira Liga",
    "inicio": "2026-10-25T13:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1792947937.3291192
+   "estado": "enviado",
+   "ultimo": 1792948181.7142437,
+   "pierna": [
+    {
+     "gid": "4757182",
+     "partido": "Nacional Madeira vs SC Braga",
+     "texto": "No hay empate",
+     "clave": "DC||12",
+     "p": 0.7768,
+     "cuota": 1.22,
+     "casa": "Bet365",
+     "inicio": "2026-10-25T13:00:00-05:00"
+    },
+    {
+     "gid": "4757182",
+     "partido": "Nacional Madeira vs SC Braga",
+     "texto": "Más de 1.5 goles",
+     "clave": "OU|1.5|over",
+     "p": 0.7306,
+     "cuota": 1.22,
+     "casa": "Bet365",
+     "inicio": "2026-10-25T13:00:00-05:00"
+    },
+    {
+     "gid": "4757182",
+     "partido": "Nacional Madeira vs SC Braga",
+     "texto": "Menos de 3.5 goles",
+     "clave": "OU|3.5|under",
+     "p": 0.6881,
+     "cuota": 1.36,
+     "casa": "Bet365",
+     "inicio": "2026-10-25T13:00:00-05:00"
+    },
+    {
+     "gid": "4757182",
+     "partido": "Nacional Madeira vs SC Braga",
+     "texto": "Más de 0.5 goles en el 1T",
+     "clave": "OU1T|0.5|over",
+     "p": 0.684,
+     "cuota": 1.33,
+     "casa": "Bet365",
+     "inicio": "2026-10-25T13:00:00-05:00"
+    },
+    {
+     "gid": "4757182",
+     "partido": "Nacional Madeira vs SC Braga",
+     "texto": "Gana SC Braga",
+     "clave": "1X2||2",
+     "p": 0.6489,
+     "cuota": 1.42,
+     "casa": "Bet365",
+     "inicio": "2026-10-25T13:00:00-05:00"
+    },
+    {
+     "gid": "4757182",
+     "partido": "Nacional Madeira vs SC Braga",
+     "texto": "Menos de 1.5 goles en el 1T",
+     "clave": "OU1T|1.5|under",
+     "p": 0.6453,
+     "cuota": 1.44,
+     "casa": "Bet365",
+     "inicio": "2026-10-25T13:00:00-05:00"
+    }
+   ],
+   "xi": "7951019,51069440,57110354,58253141,59438356,65893880,68024950,70795530,70903228,71329623,79590358|358706,39367800,49552691,50385705,50413538,53015075,61880538,62356488,70796241,75422026,75535526",
+   "conf": true
   },
   "4757183": {
    "partido": "Rio Ave vs Famalicão",
    "liga": "Portugal, Primeira Liga",
    "inicio": "2026-10-25T13:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792947937.4584472
+   "ultimo": 1792948183.7415504
   },
   "4757184": {
    "partido": "Sporting CP vs Viseu",
@@ -4358,7 +4422,7 @@
    "liga": "Perú, Liga 1 - Clausura",
    "inicio": "2026-10-25T13:15:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792947937.492108
+   "ultimo": 1792948183.7757936
   }
  },
  "web": {
