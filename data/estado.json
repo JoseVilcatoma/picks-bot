@@ -2983,8 +2983,72 @@
    "partido": "Monaco vs Lille",
    "liga": "Francia, Ligue 1",
    "inicio": "2026-10-25T09:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1792934041.010507
+   "estado": "enviado",
+   "ultimo": 1792934287.8062406,
+   "pierna": [
+    {
+     "gid": "4735230",
+     "partido": "Monaco vs Lille",
+     "texto": "Monaco o empate",
+     "clave": "DC||1X",
+     "p": 0.7656,
+     "cuota": 1.22,
+     "casa": "Bet365",
+     "inicio": "2026-10-25T09:00:00-05:00"
+    },
+    {
+     "gid": "4735230",
+     "partido": "Monaco vs Lille",
+     "texto": "Más de 1.5 goles",
+     "clave": "OU|1.5|over",
+     "p": 0.7343,
+     "cuota": 1.22,
+     "casa": "Bet365",
+     "inicio": "2026-10-25T09:00:00-05:00"
+    },
+    {
+     "gid": "4735230",
+     "partido": "Monaco vs Lille",
+     "texto": "No hay empate",
+     "clave": "DC||12",
+     "p": 0.724,
+     "cuota": 1.29,
+     "casa": "Bet365",
+     "inicio": "2026-10-25T09:00:00-05:00"
+    },
+    {
+     "gid": "4735230",
+     "partido": "Monaco vs Lille",
+     "texto": "Más de 0.5 goles en el 1T",
+     "clave": "OU1T|0.5|over",
+     "p": 0.6876,
+     "cuota": 1.3,
+     "casa": "Bet365",
+     "inicio": "2026-10-25T09:00:00-05:00"
+    },
+    {
+     "gid": "4735230",
+     "partido": "Monaco vs Lille",
+     "texto": "Menos de 3.5 goles",
+     "clave": "OU|3.5|under",
+     "p": 0.6563,
+     "cuota": 1.44,
+     "casa": "Bet365",
+     "inicio": "2026-10-25T09:00:00-05:00"
+    },
+    {
+     "gid": "4735230",
+     "partido": "Monaco vs Lille",
+     "texto": "Menos de 1.5 goles en el 1T",
+     "clave": "OU1T|1.5|under",
+     "p": 0.625,
+     "cuota": 1.5,
+     "casa": "Bet365",
+     "inicio": "2026-10-25T09:00:00-05:00"
+    }
+   ],
+   "xi": "386642,556868,672103,8955000,38084580,53213421,63725306,67934945,70796239,70951426,71167753|216415,445024,3212320,3227707,29409785,58449710,58495051,60984745,67157415,67562585,75529803",
+   "conf": true
   },
   "4735231": {
    "partido": "Olympique Marsella vs Le Havre",

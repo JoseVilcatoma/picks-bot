@@ -1929,3 +1929,8 @@ fecha,game_id,partido,liga,tipo,mercado,clave,prob,cuota,casa,cuota_justa,ev,sta
 2026-10-25 08:14,4732670,Atalanta vs Frosinone,"Italia, Serie A",modelo,Menos de 13.5 córners,CORN|13.5|under,0.6705,,,1.49,,,si,,
 2026-10-25 08:14,4732670,Atalanta vs Frosinone,"Italia, Serie A",ticket,Ambos marcan: Sí + Más de 2.5 goles,BTTS||si&OU|2.5|over,0.6192,1.77,,1.62,0.0952,10.00,,,
 2026-10-25 08:14,4732670,Atalanta vs Frosinone,"Italia, Serie A",crear,Más de 1.5 goles + Más de 6.5 córners + Menos de 5.5 tarjetas,OU|1.5|over&CORN|6.5|over&CARDS|5.5|under,0.5797,,,1.72,,,,,
+2026-10-25 08:18,4735230,Monaco vs Lille,"Francia, Ligue 1",seguro,Lille recibe gol,CS||visita_no,0.7973,1.17,Bet365,1.25,-0.0672,,si,,
+2026-10-25 08:18,4735230,Monaco vs Lille,"Francia, Ligue 1",seguro,Monaco o empate,DC||1X,0.7869,1.22,Bet365,1.27,-0.0399,,si,,
+2026-10-25 08:18,4735230,Monaco vs Lille,"Francia, Ligue 1",modelo,Menos de 6.5 tarjetas,CARDS|6.5|under,0.7635,,,1.31,,,si,,
+2026-10-25 08:18,4735230,Monaco vs Lille,"Francia, Ligue 1",modelo,Menos de 11.5 córners,CORN|11.5|under,0.7357,,,1.36,,,si,,
+2026-10-25 08:18,4735230,Monaco vs Lille,"Francia, Ligue 1",crear,Monaco o empate + Menos de 4.5 goles + Menos de 13.5 córners,DC||1X&OU|4.5|under&CORN|13.5|under,0.5765,,,1.73,,,,,
