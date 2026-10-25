@@ -2911,8 +2911,52 @@
    "partido": "Atalanta vs Frosinone",
    "liga": "Italia, Serie A",
    "inicio": "2026-10-25T09:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1792933794.6208186
+   "estado": "enviado",
+   "ultimo": 1792934039.9954062,
+   "pierna": [
+    {
+     "gid": "4732670",
+     "partido": "Atalanta vs Frosinone",
+     "texto": "Atalanta recibe gol",
+     "clave": "CS||local_no",
+     "p": 0.783,
+     "cuota": 1.2,
+     "casa": "Bet365",
+     "inicio": "2026-10-25T09:00:00-05:00"
+    },
+    {
+     "gid": "4732670",
+     "partido": "Atalanta vs Frosinone",
+     "texto": "No hay empate",
+     "clave": "DC||12",
+     "p": 0.7707,
+     "cuota": 1.22,
+     "casa": "Bet365",
+     "inicio": "2026-10-25T09:00:00-05:00"
+    },
+    {
+     "gid": "4732670",
+     "partido": "Atalanta vs Frosinone",
+     "texto": "Más de 2.5 goles",
+     "clave": "OU|2.5|over",
+     "p": 0.709,
+     "cuota": 1.33,
+     "casa": "Bet365",
+     "inicio": "2026-10-25T09:00:00-05:00"
+    },
+    {
+     "gid": "4732670",
+     "partido": "Atalanta vs Frosinone",
+     "texto": "Ambos marcan: Sí",
+     "clave": "BTTS||si",
+     "p": 0.7038,
+     "cuota": 1.33,
+     "casa": "Bet365",
+     "inicio": "2026-10-25T09:00:00-05:00"
+    }
+   ],
+   "xi": "3071408,3086707,9589510,12643461,12655232,26803259,31283563,55165603,61716919,75452367,75535353|3069419,3072025,50677836,64713067,64797503,66455851,67172903,70812661,70812663,70859652,71327308",
+   "conf": true
   },
   "4735227": {
    "partido": "PSG vs Lyon",
@@ -2940,7 +2984,7 @@
    "liga": "Francia, Ligue 1",
    "inicio": "2026-10-25T09:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792933794.6798587
+   "ultimo": 1792934041.010507
   },
   "4735231": {
    "partido": "Olympique Marsella vs Le Havre",
