@@ -2985,14 +2985,14 @@
    "liga": "Francia, Ligue 1",
    "inicio": "2026-10-25T11:15:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792941341.2972512
+   "ultimo": 1792941587.8460205
   },
   "4735229": {
    "partido": "Rennes vs Estrasburgo",
    "liga": "Francia, Ligue 1",
    "inicio": "2026-10-25T11:15:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792941341.4465168
+   "ultimo": 1792941587.9084208
   },
   "4735230": {
    "partido": "Monaco vs Lille",
@@ -3070,28 +3070,72 @@
    "liga": "Francia, Ligue 1",
    "inicio": "2026-10-25T11:15:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792941341.467078
+   "ultimo": 1792941587.9426758
   },
   "4735234": {
    "partido": "Auxerre vs Le Mans",
    "liga": "Francia, Ligue 1",
    "inicio": "2026-10-25T11:15:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792941341.519038
+   "ultimo": 1792941587.9638264
   },
   "4735235": {
    "partido": "Angers vs Lorient",
    "liga": "Francia, Ligue 1",
    "inicio": "2026-10-25T11:15:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1792941341.5481744
+   "estado": "enviado",
+   "ultimo": 1792941587.9898276,
+   "pierna": [
+    {
+     "gid": "4735235",
+     "partido": "Angers vs Lorient",
+     "texto": "Menos de 3.5 goles",
+     "clave": "OU|3.5|under",
+     "p": 0.7292,
+     "cuota": 1.3,
+     "casa": "Bet365",
+     "inicio": "2026-10-25T11:15:00-05:00"
+    },
+    {
+     "gid": "4735235",
+     "partido": "Angers vs Lorient",
+     "texto": "No hay empate",
+     "clave": "DC||12",
+     "p": 0.7024,
+     "cuota": 1.33,
+     "casa": "Bet365",
+     "inicio": "2026-10-25T11:15:00-05:00"
+    },
+    {
+     "gid": "4735235",
+     "partido": "Angers vs Lorient",
+     "texto": "Menos de 1.5 goles en el 1T",
+     "clave": "OU1T|1.5|under",
+     "p": 0.6881,
+     "cuota": 1.36,
+     "casa": "Bet365",
+     "inicio": "2026-10-25T11:15:00-05:00"
+    },
+    {
+     "gid": "4735235",
+     "partido": "Angers vs Lorient",
+     "texto": "Lorient o empate",
+     "clave": "DC||X2",
+     "p": 0.6716,
+     "cuota": 1.36,
+     "casa": "Bet365",
+     "inicio": "2026-10-25T11:15:00-05:00"
+    }
+   ],
+   "xi": "333004,432445,658840,3124708,50482992,66137744,66447261,67601451,67630530,75439905,77144042|348679,668918,3563832,50809236,64332608,66378868,66563611,67752392,70891587,71341938,72472125",
+   "conf": true
   },
   "4742021": {
    "partido": "Sunderland vs Leeds United",
    "liga": "Inglaterra, Premier League",
    "inicio": "2026-10-25T11:30:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792941341.5855193
+   "ultimo": 1792941588.2776608
   },
   "4742022": {
    "partido": "Manchester United vs Bournemouth",
@@ -3540,7 +3584,7 @@
    "liga": "Alemania, Bundesliga",
    "inicio": "2026-10-25T11:30:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792941341.6147478
+   "ultimo": 1792941588.2963352
   },
   "4755368": {
    "partido": "Hoffenheim vs Bayer Leverkusen",
