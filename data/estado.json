@@ -3187,8 +3187,62 @@
    "partido": "Olympique Marsella vs Le Havre",
    "liga": "Francia, Ligue 1",
    "inicio": "2026-10-25T11:15:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1792942326.076389
+   "estado": "enviado",
+   "ultimo": 1792942568.9545634,
+   "pierna": [
+    {
+     "gid": "4735231",
+     "partido": "Olympique Marsella vs Le Havre",
+     "texto": "Más de 0.5 goles en el 1T",
+     "clave": "OU1T|0.5|over",
+     "p": 0.7146,
+     "cuota": 1.22,
+     "casa": "Bet365",
+     "inicio": "2026-10-25T11:15:00-05:00"
+    },
+    {
+     "gid": "4735231",
+     "partido": "Olympique Marsella vs Le Havre",
+     "texto": "Gana Olympique Marsella",
+     "clave": "1X2||1",
+     "p": 0.5974,
+     "cuota": 1.44,
+     "casa": "Bet365",
+     "inicio": "2026-10-25T11:15:00-05:00"
+    },
+    {
+     "gid": "4735231",
+     "partido": "Olympique Marsella vs Le Havre",
+     "texto": "Olympique Marsella recibe gol",
+     "clave": "CS||local_no",
+     "p": 0.5958,
+     "cuota": 1.5,
+     "casa": "Bet365",
+     "inicio": "2026-10-25T11:15:00-05:00"
+    },
+    {
+     "gid": "4735231",
+     "partido": "Olympique Marsella vs Le Havre",
+     "texto": "Más de 2.5 goles",
+     "clave": "OU|2.5|over",
+     "p": 0.5328,
+     "cuota": 1.5,
+     "casa": "Bet365",
+     "inicio": "2026-10-25T11:15:00-05:00"
+    },
+    {
+     "gid": "4735231",
+     "partido": "Olympique Marsella vs Le Havre",
+     "texto": "Ambos marcan: Sí",
+     "clave": "BTTS||si",
+     "p": 0.5154,
+     "cuota": 1.62,
+     "casa": "Bet365",
+     "inicio": "2026-10-25T11:15:00-05:00"
+    }
+   ],
+   "xi": "543231,3053170,3153777,3154243,4828912,8490982,12616002,13268816,50159654,63131014,75445196|379612,3153832,14468763,50454089,50482993,58990402,65615241,67967137,77038841,77480266,78983373",
+   "conf": false
   },
   "4735234": {
    "partido": "Auxerre vs Le Mans",
@@ -3830,7 +3884,7 @@
    "liga": "Alemania, Bundesliga",
    "inicio": "2026-10-25T11:30:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792942326.155854
+   "ultimo": 1792942570.0038753
   },
   "4755368": {
    "partido": "Hoffenheim vs Bayer Leverkusen",
