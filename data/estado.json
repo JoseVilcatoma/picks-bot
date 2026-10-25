@@ -2966,8 +2966,62 @@
    "partido": "Athletic Club vs Getafe CF",
    "liga": "España, LaLiga",
    "inicio": "2026-10-25T08:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1792929049.4494576
+   "estado": "enviado",
+   "ultimo": 1792929293.0564702,
+   "pierna": [
+    {
+     "gid": "4750820",
+     "partido": "Athletic Club vs Getafe CF",
+     "texto": "No hay empate",
+     "clave": "DC||12",
+     "p": 0.7572,
+     "cuota": 1.22,
+     "casa": "Bet365",
+     "inicio": "2026-10-25T08:00:00-05:00"
+    },
+    {
+     "gid": "4750820",
+     "partido": "Athletic Club vs Getafe CF",
+     "texto": "Menos de 3.5 goles",
+     "clave": "OU|3.5|under",
+     "p": 0.744,
+     "cuota": 1.29,
+     "casa": "Bet365",
+     "inicio": "2026-10-25T08:00:00-05:00"
+    },
+    {
+     "gid": "4750820",
+     "partido": "Athletic Club vs Getafe CF",
+     "texto": "Menos de 1.5 goles en el 1T",
+     "clave": "OU1T|1.5|under",
+     "p": 0.6881,
+     "cuota": 1.36,
+     "casa": "Bet365",
+     "inicio": "2026-10-25T08:00:00-05:00"
+    },
+    {
+     "gid": "4750820",
+     "partido": "Athletic Club vs Getafe CF",
+     "texto": "Gana Athletic Club",
+     "clave": "1X2||1",
+     "p": 0.6126,
+     "cuota": 1.55,
+     "casa": "Bet365",
+     "inicio": "2026-10-25T08:00:00-05:00"
+    },
+    {
+     "gid": "4750820",
+     "partido": "Athletic Club vs Getafe CF",
+     "texto": "Ambos marcan: No",
+     "clave": "BTTS||no",
+     "p": 0.5759,
+     "cuota": 1.62,
+     "casa": "Bet365",
+     "inicio": "2026-10-25T08:00:00-05:00"
+    }
+   ],
+   "xi": "137290,428230,541584,641453,914591,987911,50832850,54368445,65561822,75384403,76993424|243502,312745,392341,552743,656339,51552702,52283767,52892490,53029449,67621071,75411603",
+   "conf": true
   },
   "4755367": {
    "partido": "Friburgo vs Bayern Munich",
