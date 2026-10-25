@@ -2985,14 +2985,14 @@
    "liga": "Francia, Ligue 1",
    "inicio": "2026-10-25T11:15:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792941000.47981
+   "ultimo": 1792941341.2972512
   },
   "4735229": {
    "partido": "Rennes vs Estrasburgo",
    "liga": "Francia, Ligue 1",
    "inicio": "2026-10-25T11:15:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792941000.6688628
+   "ultimo": 1792941341.4465168
   },
   "4735230": {
    "partido": "Monaco vs Lille",
@@ -3070,28 +3070,28 @@
    "liga": "Francia, Ligue 1",
    "inicio": "2026-10-25T11:15:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792941000.729624
+   "ultimo": 1792941341.467078
   },
   "4735234": {
    "partido": "Auxerre vs Le Mans",
    "liga": "Francia, Ligue 1",
    "inicio": "2026-10-25T11:15:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792941000.7789135
+   "ultimo": 1792941341.519038
   },
   "4735235": {
    "partido": "Angers vs Lorient",
    "liga": "Francia, Ligue 1",
    "inicio": "2026-10-25T11:15:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792941000.8360333
+   "ultimo": 1792941341.5481744
   },
   "4742021": {
    "partido": "Sunderland vs Leeds United",
    "liga": "Inglaterra, Premier League",
    "inicio": "2026-10-25T11:30:00-05:00",
    "estado": "pendiente",
-   "ultimo": 0
+   "ultimo": 1792941341.5855193
   },
   "4742022": {
    "partido": "Manchester United vs Bournemouth",
@@ -3540,7 +3540,7 @@
    "liga": "Alemania, Bundesliga",
    "inicio": "2026-10-25T11:30:00-05:00",
    "estado": "pendiente",
-   "ultimo": 0
+   "ultimo": 1792941341.6147478
   },
   "4755368": {
    "partido": "Hoffenheim vs Bayer Leverkusen",
@@ -3690,8 +3690,72 @@
    "partido": "Comerciantes Unidos vs Cienciano",
    "liga": "Perú, Liga 1 - Clausura",
    "inicio": "2026-10-25T11:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1792941000.9087331
+   "estado": "enviado",
+   "ultimo": 1792941341.6788983,
+   "pierna": [
+    {
+     "gid": "4760797",
+     "partido": "Comerciantes Unidos vs Cienciano",
+     "texto": "Comerciantes Unidos recibe gol",
+     "clave": "CS||local_no",
+     "p": 0.7161,
+     "cuota": 1.2,
+     "casa": "Bet365",
+     "inicio": "2026-10-25T11:00:00-05:00"
+    },
+    {
+     "gid": "4760797",
+     "partido": "Comerciantes Unidos vs Cienciano",
+     "texto": "No hay empate",
+     "clave": "DC||12",
+     "p": 0.7067,
+     "cuota": 1.3,
+     "casa": "Bet365",
+     "inicio": "2026-10-25T11:00:00-05:00"
+    },
+    {
+     "gid": "4760797",
+     "partido": "Comerciantes Unidos vs Cienciano",
+     "texto": "Más de 1.5 goles",
+     "clave": "OU|1.5|over",
+     "p": 0.7048,
+     "cuota": 1.22,
+     "casa": "Bet365",
+     "inicio": "2026-10-25T11:00:00-05:00"
+    },
+    {
+     "gid": "4760797",
+     "partido": "Comerciantes Unidos vs Cienciano",
+     "texto": "Cienciano recibe gol",
+     "clave": "CS||visita_no",
+     "p": 0.6894,
+     "cuota": 1.33,
+     "casa": "Bet365",
+     "inicio": "2026-10-25T11:00:00-05:00"
+    },
+    {
+     "gid": "4760797",
+     "partido": "Comerciantes Unidos vs Cienciano",
+     "texto": "Más de 0.5 goles en el 1T",
+     "clave": "OU1T|0.5|over",
+     "p": 0.6641,
+     "cuota": 1.33,
+     "casa": "Bet365",
+     "inicio": "2026-10-25T11:00:00-05:00"
+    },
+    {
+     "gid": "4760797",
+     "partido": "Comerciantes Unidos vs Cienciano",
+     "texto": "Cienciano o empate",
+     "clave": "DC||X2",
+     "p": 0.654,
+     "cuota": 1.4,
+     "casa": "Bet365",
+     "inicio": "2026-10-25T11:00:00-05:00"
+    }
+   ],
+   "xi": "6410080,11958892,14023190,57047593,58602352,65033286,66663681,67627458,67936311,67955361,71147110|461402,470008,578343,591032,941108,3086656,3170524,4366058,4815065,13461121,47991870",
+   "conf": true
   },
   "4760798": {
    "partido": "CD Moquegua vs Alianza Lima",

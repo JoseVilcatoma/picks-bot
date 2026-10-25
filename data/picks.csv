@@ -1948,3 +1948,7 @@ fecha,game_id,partido,liga,tipo,mercado,clave,prob,cuota,casa,cuota_justa,ev,sta
 2026-10-25 09:47,4757180,Estoril vs Moreirense,"Portugal, Primeira Liga",modelo,Menos de 10.5 córners,CORN|10.5|under,0.7359,,,1.36,,,si,,
 2026-10-25 09:47,4757180,Estoril vs Moreirense,"Portugal, Primeira Liga",modelo,Más de 2.5 tarjetas,CARDS|2.5|over,0.7146,,,1.40,,,si,,
 2026-10-25 09:47,4757180,Estoril vs Moreirense,"Portugal, Primeira Liga",ticket,Más de 1.5 goles + Estoril recibe gol,OU|1.5|over&CS||local_no,0.5631,1.94,,1.78,0.0895,10.00,,,
+2026-10-25 10:15,4760797,Comerciantes Unidos vs Cienciano,"Perú, Liga 1 - Clausura",seguro,Comerciantes Unidos recibe gol,CS||local_no,0.7161,1.20,Bet365,1.40,-0.1407,,si,,
+2026-10-25 10:15,4760797,Comerciantes Unidos vs Cienciano,"Perú, Liga 1 - Clausura",seguro,No hay empate,DC||12,0.7067,1.30,Bet365,1.41,-0.0812,,si,,
+2026-10-25 10:15,4760797,Comerciantes Unidos vs Cienciano,"Perú, Liga 1 - Clausura",modelo,Más de 2.5 tarjetas,CARDS|2.5|over,0.7362,,,1.36,,,si,,
+2026-10-25 10:15,4760797,Comerciantes Unidos vs Cienciano,"Perú, Liga 1 - Clausura",modelo,Menos de 12.5 córners,CORN|12.5|under,0.6705,,,1.49,,,si,,
