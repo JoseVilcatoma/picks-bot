@@ -2462,14 +2462,14 @@
    "liga": "Italia, Serie A",
    "inicio": "2026-10-25T14:45:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792954285.678334
+   "ultimo": 1792954531.9174488
   },
   "4732664": {
    "partido": "Lecce vs Juventus",
    "liga": "Italia, Serie A",
    "inicio": "2026-10-25T12:00:00-05:00",
    "estado": "enviado",
-   "ultimo": 1792944894.5946825,
+   "ultimo": 1792954531.9882584,
    "pierna": [
     {
      "gid": "4732664",
