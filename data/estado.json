@@ -3392,8 +3392,72 @@
    "partido": "Celta de Vigo vs Real Betis",
    "liga": "España, LaLiga",
    "inicio": "2026-10-25T10:15:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1792937579.07707
+   "estado": "enviado",
+   "ultimo": 1792937823.7494535,
+   "pierna": [
+    {
+     "gid": "4750817",
+     "partido": "Celta de Vigo vs Real Betis",
+     "texto": "Celta de Vigo recibe gol",
+     "clave": "CS||local_no",
+     "p": 0.7196,
+     "cuota": 1.2,
+     "casa": "Bet365",
+     "inicio": "2026-10-25T10:15:00-05:00"
+    },
+    {
+     "gid": "4750817",
+     "partido": "Celta de Vigo vs Real Betis",
+     "texto": "Real Betis recibe gol",
+     "clave": "CS||visita_no",
+     "p": 0.7006,
+     "cuota": 1.3,
+     "casa": "Bet365",
+     "inicio": "2026-10-25T10:15:00-05:00"
+    },
+    {
+     "gid": "4750817",
+     "partido": "Celta de Vigo vs Real Betis",
+     "texto": "Más de 1.5 goles",
+     "clave": "OU|1.5|over",
+     "p": 0.6924,
+     "cuota": 1.3,
+     "casa": "Bet365",
+     "inicio": "2026-10-25T10:15:00-05:00"
+    },
+    {
+     "gid": "4750817",
+     "partido": "Celta de Vigo vs Real Betis",
+     "texto": "No hay empate",
+     "clave": "DC||12",
+     "p": 0.6923,
+     "cuota": 1.36,
+     "casa": "Bet365",
+     "inicio": "2026-10-25T10:15:00-05:00"
+    },
+    {
+     "gid": "4750817",
+     "partido": "Celta de Vigo vs Real Betis",
+     "texto": "Real Betis o empate",
+     "clave": "DC||X2",
+     "p": 0.6637,
+     "cuota": 1.36,
+     "casa": "Bet365",
+     "inicio": "2026-10-25T10:15:00-05:00"
+    },
+    {
+     "gid": "4750817",
+     "partido": "Celta de Vigo vs Real Betis",
+     "texto": "Más de 0.5 goles en el 1T",
+     "clave": "OU1T|0.5|over",
+     "p": 0.6452,
+     "cuota": 1.4,
+     "casa": "Bet365",
+     "inicio": "2026-10-25T10:15:00-05:00"
+    }
+   ],
+   "xi": "239183,889139,3086651,3483114,54721275,64152922,66765066,70855872,71060391,72695371,72695372|106049,329571,584859,3143139,6438371,18094605,46854548,56196972,62694855,65112544,76770352",
+   "conf": true
   },
   "4750820": {
    "partido": "Athletic Club vs Getafe CF",
