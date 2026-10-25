@@ -2841,14 +2841,14 @@
    "liga": "Italia, Serie A",
    "inicio": "2026-10-25T09:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792932568.033113
+   "ultimo": 1792932811.5844104
   },
   "4732670": {
    "partido": "Atalanta vs Frosinone",
    "liga": "Italia, Serie A",
    "inicio": "2026-10-25T09:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792932568.159866
+   "ultimo": 1792932811.7361887
   },
   "4735227": {
    "partido": "PSG vs Lyon",
@@ -2876,7 +2876,7 @@
    "liga": "Francia, Ligue 1",
    "inicio": "2026-10-25T09:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792932568.2099993
+   "ultimo": 1792932811.7967813
   },
   "4735231": {
    "partido": "Olympique Marsella vs Le Havre",
@@ -2910,29 +2910,221 @@
    "partido": "Manchester United vs Bournemouth",
    "liga": "Inglaterra, Premier League",
    "inicio": "2026-10-25T09:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1792932568.262793
+   "estado": "enviado",
+   "ultimo": 1792932811.856811,
+   "pierna": [
+    {
+     "gid": "4742022",
+     "partido": "Manchester United vs Bournemouth",
+     "texto": "Manchester United recibe gol",
+     "clave": "CS||local_no",
+     "p": 0.7322,
+     "cuota": 1.28,
+     "casa": "Bet365",
+     "inicio": "2026-10-25T09:00:00-05:00"
+    },
+    {
+     "gid": "4742022",
+     "partido": "Manchester United vs Bournemouth",
+     "texto": "Más de 1.5 goles",
+     "clave": "OU|1.5|over",
+     "p": 0.7291,
+     "cuota": 1.25,
+     "casa": "Bet365",
+     "inicio": "2026-10-25T09:00:00-05:00"
+    },
+    {
+     "gid": "4742022",
+     "partido": "Manchester United vs Bournemouth",
+     "texto": "No hay empate",
+     "clave": "DC||12",
+     "p": 0.714,
+     "cuota": 1.3,
+     "casa": "Bet365",
+     "inicio": "2026-10-25T09:00:00-05:00"
+    },
+    {
+     "gid": "4742022",
+     "partido": "Manchester United vs Bournemouth",
+     "texto": "Bournemouth recibe gol",
+     "clave": "CS||visita_no",
+     "p": 0.6971,
+     "cuota": 1.22,
+     "casa": "Bet365",
+     "inicio": "2026-10-25T09:00:00-05:00"
+    },
+    {
+     "gid": "4742022",
+     "partido": "Manchester United vs Bournemouth",
+     "texto": "Más de 0.5 goles en el 1T",
+     "clave": "OU1T|0.5|over",
+     "p": 0.6835,
+     "cuota": 1.33,
+     "casa": "Bet365",
+     "inicio": "2026-10-25T09:00:00-05:00"
+    },
+    {
+     "gid": "4742022",
+     "partido": "Manchester United vs Bournemouth",
+     "texto": "Menos de 3.5 goles",
+     "clave": "OU|3.5|under",
+     "p": 0.6818,
+     "cuota": 1.4,
+     "casa": "Bet365",
+     "inicio": "2026-10-25T09:00:00-05:00"
+    }
+   ],
+   "xi": "332598,398065,1404172,6813762,6835961,40765000,50729542,65131542,65397189,65521968,70953412|217078,332645,894428,2753320,3049155,39229340,49980838,50445824,53212627,63094712,67626970",
+   "conf": true
   },
   "4742023": {
    "partido": "Liverpool vs Brighton",
    "liga": "Inglaterra, Premier League",
    "inicio": "2026-10-25T09:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1792932568.3129818
+   "estado": "enviado",
+   "ultimo": 1792932812.600934,
+   "pierna": [
+    {
+     "gid": "4742023",
+     "partido": "Liverpool vs Brighton",
+     "texto": "No hay empate",
+     "clave": "DC||12",
+     "p": 0.7528,
+     "cuota": 1.25,
+     "casa": "Bet365",
+     "inicio": "2026-10-25T09:00:00-05:00"
+    },
+    {
+     "gid": "4742023",
+     "partido": "Liverpool vs Brighton",
+     "texto": "Más de 0.5 goles en el 1T",
+     "clave": "OU1T|0.5|over",
+     "p": 0.7455,
+     "cuota": 1.25,
+     "casa": "Bet365",
+     "inicio": "2026-10-25T09:00:00-05:00"
+    },
+    {
+     "gid": "4742023",
+     "partido": "Liverpool vs Brighton",
+     "texto": "Liverpool recibe gol",
+     "clave": "CS||local_no",
+     "p": 0.7453,
+     "cuota": 1.25,
+     "casa": "Bet365",
+     "inicio": "2026-10-25T09:00:00-05:00"
+    },
+    {
+     "gid": "4742023",
+     "partido": "Liverpool vs Brighton",
+     "texto": "Liverpool o empate",
+     "clave": "DC||1X",
+     "p": 0.7044,
+     "cuota": 1.33,
+     "casa": "Bet365",
+     "inicio": "2026-10-25T09:00:00-05:00"
+    },
+    {
+     "gid": "4742023",
+     "partido": "Liverpool vs Brighton",
+     "texto": "Ambos marcan: Sí",
+     "clave": "BTTS||si",
+     "p": 0.6256,
+     "cuota": 1.44,
+     "casa": "Bet365",
+     "inicio": "2026-10-25T09:00:00-05:00"
+    },
+    {
+     "gid": "4742023",
+     "partido": "Liverpool vs Brighton",
+     "texto": "Más de 2.5 goles",
+     "clave": "OU|2.5|over",
+     "p": 0.5987,
+     "cuota": 1.53,
+     "casa": "Bet365",
+     "inicio": "2026-10-25T09:00:00-05:00"
+    }
+   ],
+   "xi": "220953,558151,1286508,3172767,3344160,3886928,39077601,49449655,60734154,60909490,67987366|236532,624429,891006,3071443,35002742,46557681,53614148,65296564,67771434,70953229,71047802",
+   "conf": true
   },
   "4742025": {
    "partido": "Hull City vs Brentford",
    "liga": "Inglaterra, Premier League",
    "inicio": "2026-10-25T09:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1792932568.3631017
+   "ultimo": 1792932813.2745044
   },
   "4742026": {
    "partido": "Crystal Palace vs Newcastle United",
    "liga": "Inglaterra, Premier League",
    "inicio": "2026-10-25T09:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1792932568.431485
+   "estado": "enviado",
+   "ultimo": 1792932813.3346708,
+   "pierna": [
+    {
+     "gid": "4742026",
+     "partido": "Crystal Palace vs Newcastle United",
+     "texto": "Newcastle United recibe gol",
+     "clave": "CS||visita_no",
+     "p": 0.7663,
+     "cuota": 1.22,
+     "casa": "Bet365",
+     "inicio": "2026-10-25T09:00:00-05:00"
+    },
+    {
+     "gid": "4742026",
+     "partido": "Crystal Palace vs Newcastle United",
+     "texto": "No hay empate",
+     "clave": "DC||12",
+     "p": 0.727,
+     "cuota": 1.28,
+     "casa": "Bet365",
+     "inicio": "2026-10-25T09:00:00-05:00"
+    },
+    {
+     "gid": "4742026",
+     "partido": "Crystal Palace vs Newcastle United",
+     "texto": "Más de 0.5 goles en el 1T",
+     "clave": "OU1T|0.5|over",
+     "p": 0.7179,
+     "cuota": 1.29,
+     "casa": "Bet365",
+     "inicio": "2026-10-25T09:00:00-05:00"
+    },
+    {
+     "gid": "4742026",
+     "partido": "Crystal Palace vs Newcastle United",
+     "texto": "Ambos marcan: Sí",
+     "clave": "BTTS||si",
+     "p": 0.5837,
+     "cuota": 1.5,
+     "casa": "Bet365",
+     "inicio": "2026-10-25T09:00:00-05:00"
+    },
+    {
+     "gid": "4742026",
+     "partido": "Crystal Palace vs Newcastle United",
+     "texto": "Newcastle United o empate",
+     "clave": "DC||X2",
+     "p": 0.5769,
+     "cuota": 1.4,
+     "casa": "Bet365",
+     "inicio": "2026-10-25T09:00:00-05:00"
+    },
+    {
+     "gid": "4742026",
+     "partido": "Crystal Palace vs Newcastle United",
+     "texto": "Más de 2.5 goles",
+     "clave": "OU|2.5|over",
+     "p": 0.5556,
+     "cuota": 1.57,
+     "casa": "Bet365",
+     "inicio": "2026-10-25T09:00:00-05:00"
+    }
+   ],
+   "xi": "379422,571198,834589,1838950,3157652,8186925,49658641,52342774,64697647,66683658,75390595|306680,402279,481823,507392,3153841,3659747,55401980,60982502,63092591,63157356,67900851",
+   "conf": true
   },
   "4750514": {
    "partido": "FC Barcelona vs Real Madrid",
