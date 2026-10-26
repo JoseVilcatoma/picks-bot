@@ -3369,6 +3369,97 @@
     "cards_h": 1.0,
     "cards_a": 1.0
    }
+  },
+  "4732651": {
+   "partido": "Venezia vs Inter Milan",
+   "liga": "Italia, Serie A",
+   "inicio": "2026-10-28T12:30:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4732652": {
+   "partido": "Torino vs Como",
+   "liga": "Italia, Serie A",
+   "inicio": "2026-10-27T14:45:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4732653": {
+   "partido": "Sassuolo vs Lazio",
+   "liga": "Italia, Serie A",
+   "inicio": "2026-10-27T12:30:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4732654": {
+   "partido": "AS Roma vs Cagliari",
+   "liga": "Italia, Serie A",
+   "inicio": "2026-10-27T14:45:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4732655": {
+   "partido": "Parma vs Udinese",
+   "liga": "Italia, Serie A",
+   "inicio": "2026-10-28T12:30:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4732656": {
+   "partido": "Monza vs Nápoles",
+   "liga": "Italia, Serie A",
+   "inicio": "2026-10-28T14:45:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4732657": {
+   "partido": "AC Milan vs Bologna",
+   "liga": "Italia, Serie A",
+   "inicio": "2026-10-28T12:30:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4732658": {
+   "partido": "Genoa vs Juventus",
+   "liga": "Italia, Serie A",
+   "inicio": "2026-10-28T14:45:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4760786": {
+   "partido": "ADT Tarma vs CD Moquegua",
+   "liga": "Perú, Liga 1 - Clausura",
+   "inicio": "2026-10-28T11:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4760788": {
+   "partido": "Cienciano vs Grau",
+   "liga": "Perú, Liga 1 - Clausura",
+   "inicio": "2026-10-28T19:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4760789": {
+   "partido": "Juan Pablo II College vs Sport Huancayo",
+   "liga": "Perú, Liga 1 - Clausura",
+   "inicio": "2026-10-27T15:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4760790": {
+   "partido": "Alianza Atletico vs Deportivo Garcilaso",
+   "liga": "Perú, Liga 1 - Clausura",
+   "inicio": "2026-10-28T15:30:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4760792": {
+   "partido": "FC Cajamarca vs UTC Cajamarca",
+   "liga": "Perú, Liga 1 - Clausura",
+   "inicio": "2026-10-28T13:15:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
   }
  },
  "web": {
@@ -3501,7 +3592,20 @@
   "4760794": 1792762187097,
   "4760795": 1792762186743,
   "4760797": 1792762186014,
-  "4760798": 1792762186382
+  "4760798": 1792762186382,
+  "4732651": 1793025493626,
+  "4732652": 1793025476767,
+  "4732653": 1793025476347,
+  "4732654": 1793025477157,
+  "4732655": 1793025493900,
+  "4732656": 1793025495222,
+  "4732657": 1793025494806,
+  "4732658": 1793025495754,
+  "4760786": 1793025491380,
+  "4760788": 1793025492392,
+  "4760789": 1793025477604,
+  "4760790": 1793025492074,
+  "4760792": 1793025491750
  },
  "tickets": [],
  "sin_creditos": true
