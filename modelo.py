@@ -691,15 +691,8 @@ def ticket_partido(cands, m):
     return max(opciones, key=lambda o: (o["p"], -abs(o["cuota"] - 2.0)))
 
 
-def piernas_seguras(cands, n=6):
-    """Las selecciones más probables con cuota en TICKET_PIERNA (para combinar con otro partido)."""
-    lo, hi = C.TICKET_PIERNA
-    aptas = [dict(c, p=p_prudente(c)) for c in cands if _apta(c) and lo <= c["cuota"] <= hi]
-    return sorted(aptas, key=lambda c: -c["p"])[:n]
-
-
 # =================================================================
-# Crear apuesta (bet builder de un partido: 3-5 selecciones muy probables)
+# Crear apuesta (bet builder de un partido: 2-4 selecciones muy probables)
 # =================================================================
 R_CORNERS_CONS = 7    # dispersión más ancha que la normal (12): probabilidades más prudentes
 R_TARJ_CONS = 5       # ídem tarjetas (8): el modelo de tarjetas es el más débil

@@ -69,19 +69,22 @@ ZONA = "America/Lima"
 # ---------------------------------------------------------------
 ODDS_MERCADOS = "h2h,totals"         # 2 créditos por partido (resultado y goles); "ambos marcan" casi no aportaba
 ODDS_RESERVA = 10                   # deja de consultar si quedan menos créditos que esto
+ODDS_CREDITOS_DIA = 14              # tope por día (~7 partidos) para que los 500 créditos alcancen todo el mes
+ODDS_CUPO_CIERRE = 6                # extra diario reservado para la cuota de cierre (CLV) de los apostables
+CLV_MIN_ANTES = 5                  # minutos antes del inicio en que se pide la cuota de cierre
 CASAS_EXCLUIR = ["betfair_ex_eu", "betfair_ex_uk", "matchbook"]   # exchanges (cobran comisión)
 # Casas donde SÍ puedes apostar (se compara con el nombre de la casa, sin mayúsculas).
 # Las demás se usan solo como referencia de precio, nunca se recomiendan.
 # Apuesta Total y Doradobet no están en The Odds API: se dejan por si algún día aparecen.
 CASAS_PERMITIDAS = ["bet365", "1xbet", "betsson", "betano", "apuesta total", "doradobet"]
 VALOR_APOSTABLE = 0.03             # apostable: la mejor cuota paga ≥ 3% más que la justa de Pinnacle
+CONTROL_CUOTAS_MAX = 0.08          # si Bet365 y Pinnacle difieren más de 8 puntos en el 1X2, se descartan las externas
 CUOTAS_VIEJAS_HORAS = 4             # si las cuotas de 365Scores no se movieron en 4 h, se marcan como viejas
 
 # ---------------------------------------------------------------
 # TICKETS (combinadas lo más seguras posible)
 # ---------------------------------------------------------------
 TICKET_CUOTA = (1.70, 2.30)   # cuota total buscada
-TICKET_PIERNA = (1.20, 1.65)  # cuota de cada selección para el ticket de 2 partidos
 TICKET_STAKE = 10.0           # stake fijo (paper trading) para medir los tickets
 TICKET_EV_MIN = 0.0           # el ticket debe pagar al menos su cuota justa
 

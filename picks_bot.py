@@ -36,7 +36,7 @@ SEGUIDOS_PUB = os.path.join(DIR, "seguidos.json")
 SELECCION = os.path.join(DIR, "seleccion.json")   # lo escribe la página web
 LOG = os.path.join(DIR, "picks.csv")
 CAMPOS = ["fecha", "game_id", "partido", "liga", "tipo", "mercado", "clave", "prob", "cuota", "casa",
-          "cuota_justa", "ev", "stake", "alineacion", "resultado", "ganancia"]
+          "cuota_justa", "ev", "stake", "alineacion", "resultado", "ganancia", "clv"]
 
 
 # ======================= utilidades =======================
@@ -165,7 +165,7 @@ AYUDA = (
     "• <code>/resumen</code> resultados del paper trading\n"
     "• <code>/cuota ID 1.80</code> anota lo que paga Bet365 por el “Crear apuesta”\n\n"
     "Los picks llegan cuando se confirman las alineaciones (normalmente ~1 hora antes).\n"
-    "Ojo: el bot revisa cada ~5-10 min, así que tus comandos se responden con ese retraso."
+    "El bot revisa cada 2 min (los cambios del calendario, en menos de 1 min)."
 )
 
 
@@ -375,6 +375,15 @@ def texto_resumen():
             gan = sum(float(f["ganancia"] or 0) for f in fs)
             out.append(f"   Apostado S/ {st:.2f} · Ganancia S/ {gan:+.2f} · "
                        f"Yield {gan / st:+.1%}" if st else "")
+        if tipo == "apostable":
+            cl = [float(f["clv"]) for f in fs if f.get("clv")]
+            if cl:
+                pos = sum(1 for x in cl if x > 0)
+                out.append(f"   CLV (vs. cierre de Pinnacle): promedio {sum(cl) / len(cl):+.1%} · "
+                           f"{pos}/{len(cl)} le ganaron al cierre")
+                out.append("   <i>CLV positivo y constante = ventaja real, aunque los resultados tarden.</i>")
+            else:
+                out.append("   CLV: aún sin datos (se mide desde el 25/10 en los apostables nuevos).")
         if tipo == "ticket":
             for nombre_g, grupo in (("1 selección", [f for f in fs if "&" not in f["clave"]]),
                                     ("2 selecciones*", [f for f in fs if "&" in f["clave"]])):
@@ -595,6 +604,19 @@ def analizar(gid, g, nombres, modo):
     casa_de = {k: "Bet365" for k in mercado}
     sharp = set()
     ext = cuotas_ext.obtener(gid, g, nombres_ingles(gid))
+    motivo_ext = cuotas_ext.MOTIVO
+    if ext and not viejas:      # (si las de Bet365 están viejas no sirven para controlar)
+        # Control: Pinnacle (The Odds API) y Bet365 (365Scores) deben contar la misma historia en el 1X2.
+        # Si difieren mucho, probablemente se emparejó mal el partido: mejor no usar esas cuotas.
+        for s_ in ("1", "X", "2"):
+            k = ("1X2", None, s_)
+            v = ext["cuotas"].get(f"1X2||{s_}")
+            if v and k in mercado and abs(mercado[k][1] - v["justa_p"]) > C.CONTROL_CUOTAS_MAX:
+                print(f"[odds] {local} vs {visita}: Bet365 {mercado[k][1]:.0%} vs Pinnacle {v['justa_p']:.0%} "
+                      f"en {s_}: cuotas externas descartadas")
+                ext = None
+                motivo_ext = "otras casas no coinciden con Bet365, posible partido equivocado"
+                break
     if ext:
         for ks, v in ext["cuotas"].items():
             k = cuotas_ext.a_clave(ks)
@@ -717,7 +739,8 @@ def analizar(gid, g, nombres, modo):
                    "revísalo tú en la app (" + ", ".join(f"{esc(c['texto'])} ≥ {c['justa']:.2f}"
                                                       for c in bloqueados) + ")")
     elif not sharp:
-        lin.append("• Sin referencia de Pinnacle para este partido: no se marcan apostables.")
+        lin.append(f"• Sin referencia de Pinnacle ({esc(motivo_ext or 'Pinnacle no cotiza este partido')}): "
+                   "no se marcan apostables.")
     else:
         lin.append(f"• Ninguno cumple las reglas (valor ≥ 3% vs Pinnacle, cuota {C.CUOTA_MIN:.2f}–{C.CUOTA_MAX:.2f}, prob. ≥ 25%, "
                    "modelo a favor). No apostar también es una decisión.")
@@ -802,10 +825,9 @@ def analizar(gid, g, nombres, modo):
             "cuota_justa": f"{crear['justa']:.2f}", "ev": "", "stake": "", "alineacion": "",
             "resultado": "", "ganancia": "",
         })
-    extra = {"pierna": [{
-        "gid": gid, "partido": f"{local} vs {visita}", "texto": c["texto"], "clave": clave_str(c["clave"]),
-        "p": round(c["p"], 4), "cuota": c["cuota"], "casa": c.get("casa", ""), "inicio": g["startTime"]}
-        for c in M.piernas_seguras(cands)]}
+    # Apostables con referencia de Pinnacle: se les mide el CLV con la cuota de cierre
+    extra = {"clv": [{"clave": clave_str(c["clave"]), "cuota": c["cuota"], "texto": c["texto"]}
+                     for c in apostables if c.get("ref_sharp")]}
     return "\n".join(lin), filas, extra
 
 
@@ -865,7 +887,8 @@ def liquidar(gid, s, log):
             f["ganancia"] = f"{stake * (float(f['cuota']) - 1):.2f}" if res == "G" else (
                 f"{-stake:.2f}" if res == "P" else "0")
         out.append(f"{iconos[res]} [{f['tipo']}] {esc(f['mercado'])}"
-                   + (f" · S/ {float(f['ganancia']):+.2f}" if f["ganancia"] else ""))
+                   + (f" · S/ {float(f['ganancia']):+.2f}" if f["ganancia"] else "")
+                   + (f" · CLV {float(f['clv']):+.1%}" if f.get("clv") else ""))
         if res == "?":
             f["resultado"] = "?"
     s["estado"] = "liquidado"
@@ -911,10 +934,36 @@ def liquidar_tickets(estado, log):
 
 
 # ======================= ciclo principal =======================
+def cierre_clv(gid, s, log):
+    """Pide la cuota de Pinnacle justo antes del inicio (la de cierre, la más precisa que existe) y calcula el
+    CLV de cada apostable: cuánto valía de verdad la cuota que se tomó. CLV > 0 de forma constante = ventaja real."""
+    g, _ = s365.detalle(gid)
+    if not g:
+        return
+    ext = cuotas_ext.obtener(gid, g, nombres_ingles(gid), fresco=True, cupo_extra=C.ODDS_CUPO_CIERRE)
+    if not ext:
+        print(f"[clv] {s['partido']}: sin cuota de cierre ({cuotas_ext.MOTIVO})")
+        return
+    for a in s["clv"]:
+        v = ext["cuotas"].get(a["clave"])
+        if not v or v.get("ref") != "Pinnacle":
+            continue
+        clv = a["cuota"] * v["justa_p"] - 1
+        a["clv"] = round(clv, 4)
+        for f in log:
+            if f["game_id"] == gid and f["tipo"] == "apostable" and f["clave"] == a["clave"] and not f["resultado"]:
+                f["clv"] = f"{clv:.4f}"
+        print(f"[clv] {s['partido']}: {a['texto']} tomada a {a['cuota']:.2f} · cierre justo "
+              f"{1 / v['justa_p']:.2f} · CLV {clv:+.1%}")
+    s["clv_ok"] = True
+
+
 def _partido(estado, log, t, gid, s):
     """Procesa un partido seguido (enviar picks, actualizar, liquidar)."""
     inicio = iso(s["inicio"])
     mins = (inicio - t).total_seconds() / 60
+    if s.get("clv") and not s.get("clv_ok") and -10 < mins <= C.CLV_MIN_ANTES:
+        cierre_clv(gid, s, log)
     if s["estado"] == "pendiente":
         if mins > C.VENTANA_MIN:
             return
@@ -957,7 +1006,7 @@ def _partido(estado, log, t, gid, s):
             enviar(texto)
             log += filas
             s["estado"] = "enviado"
-            s["pierna"] = extra["pierna"]
+            s["clv"], s["clv_ok"] = extra["clv"], False
             s["xi"], s["conf"] = firma, confirmada
     elif s["estado"] == "enviado" and mins < -115:
         if time.time() - s.get("ultimo", 0) >= 10 * 60:
@@ -980,7 +1029,7 @@ def _partido(estado, log, t, gid, s):
                    "iguales a la probable. Los picks se mantienen.")
             return
         texto, filas, extra = analizar(gid, g, nombres, "confirmada")
-        s["pierna"] = extra["pierna"]
+        s["clv"], s["clv_ok"] = extra["clv"], False
         log[:] = [f for f in log if not (f["game_id"] == gid and not f["resultado"])]
         log += filas
         s["xi"] = firma
@@ -988,6 +1037,23 @@ def _partido(estado, log, t, gid, s):
                "Estos picks reemplazan a los anteriores.\n\n" + texto)
     elif s["estado"] in ("liquidado", "cancelado") and mins < -2 * 24 * 60:
         del estado["seguidos"][gid]
+
+
+def aviso_creditos(estado):
+    """Avisa una vez cuando se acaban los créditos de The Odds API y otra cuando se renuevan."""
+    cuotas_ext.revisar_renovacion()
+    q = cuotas_ext.leer_quota()
+    if not q:
+        return
+    sin = q.get("restantes", 999) < C.ODDS_RESERVA
+    if sin and not estado.get("sin_creditos"):
+        estado["sin_creditos"] = True
+        enviar("⚠️ <b>Se acabaron los créditos de The Odds API</b> (quedan "
+               f"{q.get('restantes')}). Hasta que se renueven no habrá ✅ Apostables; lo demás sigue igual. "
+               "Te aviso cuando vuelvan.")
+    elif not sin and estado.get("sin_creditos"):
+        estado["sin_creditos"] = False
+        enviar(f"✅ <b>Créditos de The Odds API renovados</b> ({q.get('restantes')}). Vuelven los apostables.")
 
 
 def pasada():
@@ -1007,6 +1073,7 @@ def pasada():
             if s["errores"] == 3 and s.get("estado") == "pendiente":
                 enviar(f"⚠️ No pude analizar {esc(s.get('partido', gid))} por un error interno. Sigo intentando.")
     liquidar_tickets(estado, log)
+    aviso_creditos(estado)
     escribir_log(log)
     guardar_estado(estado)
     guardar_cola()

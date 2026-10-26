@@ -43,6 +43,11 @@ Betano, Apuesta Total, Doradobet). Las demás se usan solo como referencia de pr
    - Córners y tarjetas: binomial negativa con los últimos 5 partidos. Las tarjetas se corrigen hacia 50%
      (`TARJ_ENCOGER`) porque el modelo era demasiado optimista.
    - Cuotas: Bet365 vía 365Scores + The Odds API (500 créditos gratis/mes, 2 por partido: resultado y goles) con Pinnacle como referencia.
+     Tope de 14 créditos por día (`ODDS_CREDITOS_DIA`) para que alcancen todo el mes; si se acaban, te avisa por
+     Telegram y revisa cada 6 h (gratis) si ya se renovaron. Control: si Pinnacle y Bet365 difieren más de 8 puntos
+     en el 1X2 (posible partido mal emparejado), descarta las cuotas externas.
+   - **CLV**: 5 min antes del inicio pide la cuota de cierre de Pinnacle para cada apostable y calcula cuánto valía
+     la cuota que se tomó. Sale en el mensaje de resultado y en `/resumen`. CLV positivo y constante = ventaja real.
 3. ~2 h después del inicio **liquida** los picks y te manda el resultado (espera hasta 8 h si faltan estadísticas).
 
 ## Archivos

@@ -11,6 +11,7 @@ import re
 import time
 import unicodedata
 from datetime import datetime, timedelta, timezone
+from zoneinfo import ZoneInfo
 
 import requests
 
@@ -18,6 +19,7 @@ import config as C
 import s365
 
 KEY = os.getenv("ODDS_API_KEY", "")
+MOTIVO = ""   # por qué la última consulta no trajo cuotas (para mostrarlo en el mensaje)
 BASE = "https://api.the-odds-api.com/v4"
 QUOTA = os.path.join(os.path.dirname(__file__), "data", "odds_quota.json")
 
@@ -59,13 +61,50 @@ def leer_quota():
         return {}
 
 
+def _hoy():
+    return datetime.now(ZoneInfo(C.ZONA)).date().isoformat()
+
+
+def revisar_renovacion():
+    """Si nos quedamos sin créditos, consulta cada 6 h un endpoint gratis (/sports) para saber si ya se
+    renovaron (sin esto el bot nunca se enteraba y se quedaba sin cuotas para siempre)."""
+    if not KEY:
+        return
+    q = leer_quota()
+    if not q or q.get("restantes", 999) >= C.ODDS_RESERVA:
+        return
+    if time.time() - q.get("revisado", 0) < 6 * 3600:
+        return
+    _get("sports")                      # no gasta créditos; actualiza el contador con sus cabeceras
+    q = leer_quota()
+    q["revisado"] = time.time()
+    with open(QUOTA, "w", encoding="utf-8") as f:
+        json.dump(q, f)
+
+
+def gastados_hoy():
+    q = leer_quota()
+    if not q or q.get("dia") != _hoy():
+        return 0
+    return max(0, q.get("usados", 0) - q.get("usados_dia_ini", q.get("usados", 0)))
+
+
 def _guardar_quota(r):
     rem, used = r.headers.get("x-requests-remaining"), r.headers.get("x-requests-used")
     if rem is None:
         return
+    used = int(float(used or 0))
+    prev = leer_quota()
+    hoy = _hoy()
+    if prev.get("dia") == hoy and used >= prev.get("usados", 0):
+        ini = prev.get("usados_dia_ini", prev.get("usados", 0))
+    elif used >= prev.get("usados", 0):
+        ini = prev.get("usados", used)        # primer uso del día: lo gastado antes de esta consulta
+    else:
+        ini = 0                               # se renovaron los créditos del mes
     os.makedirs(os.path.dirname(QUOTA), exist_ok=True)
     with open(QUOTA, "w", encoding="utf-8") as f:
-        json.dump({"restantes": int(float(rem)), "usados": int(float(used or 0)),
+        json.dump({"restantes": int(float(rem)), "usados": used, "dia": hoy, "usados_dia_ini": ini,
                    "ultimo_costo": r.headers.get("x-requests-last"), "t": time.time()}, f)
 
 
@@ -144,29 +183,42 @@ def _sel(market, nombre, ev):
     return None
 
 
-def obtener(gid, g, nombres_en=None):
-    """Devuelve {"cuotas": {clave: {...}}, "n_casas", "ref", "edad_min"} o None.
-    nombres_en: (local, visita) en inglés para emparejar mejor."""
+def obtener(gid, g, nombres_en=None, fresco=False, cupo_extra=0):
+    """Devuelve {"cuotas": {clave: {...}}, "n_casas", "ref", "edad_min"} o None (y deja el motivo en MOTIVO).
+    nombres_en: (local, visita) en inglés para emparejar mejor.
+    fresco=True ignora la caché (para la cuota de cierre); cupo_extra permite pasar un poco el límite diario."""
+    global MOTIVO
+    MOTIVO = ""
     if not KEY:
+        MOTIVO = "sin clave de The Odds API"
         return None
     sport = sport_de(g)
     if not sport:
+        MOTIVO = "liga sin cobertura en The Odds API"
         return None
     cache = s365._c()
     ck = f"odds:{gid}"
-    if ck in cache and time.time() - cache[ck]["t"] < 10 * 60:
+    if not fresco and ck in cache and time.time() - cache[ck]["t"] < 10 * 60:
         return cache[ck]["d"]
     q = leer_quota()
     if q and q.get("restantes", 999) < C.ODDS_RESERVA:
+        MOTIVO = f"créditos de The Odds API agotados (quedan {q['restantes']}); se renuevan cada mes"
         print(f"[odds] solo quedan {q['restantes']} créditos: no consulto")
+        return None
+    costo = len(C.ODDS_MERCADOS.split(","))
+    if gastados_hoy() + costo > C.ODDS_CREDITOS_DIA + cupo_extra:
+        MOTIVO = f"límite diario de créditos alcanzado ({C.ODDS_CREDITOS_DIA}); mañana vuelve"
+        print("[odds] límite diario alcanzado: no consulto")
         return None
     local, visita = nombres_en or (g["homeCompetitor"]["name"], g["awayCompetitor"]["name"])
     ev = buscar_evento(sport, g["startTime"], local, visita)
     if not ev:
+        MOTIVO = "no encontré el partido en The Odds API"
         return None
     data = _get(f"sports/{sport}/events/{ev['id']}/odds", regions="eu",
                 markets=C.ODDS_MERCADOS, oddsFormat="decimal")
     if not data or not data.get("bookmakers"):
+        MOTIVO = "The Odds API no devolvió cuotas"
         return None
 
     # precios por clave y casa
@@ -219,6 +271,7 @@ def obtener(gid, g, nombres_en=None):
                       "ref": ref, "pinnacle": casas.get("pinnacle", (None,))[0],
                       "n": len(casas)}
     if not out:
+        MOTIVO = "sin cuotas de referencia"
         return None
     edad = None
     fechas = []
