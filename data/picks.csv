@@ -2043,3 +2043,8 @@ fecha,game_id,partido,liga,tipo,mercado,clave,prob,cuota,casa,cuota_justa,ev,sta
 2026-10-25 17:19,4760794,Deportivo Garcilaso vs Los Chankas,"Perú, Liga 1 - Clausura",modelo,Menos de 12.5 córners,CORN|12.5|under,0.7195,,,1.39,,,si,G,,
 2026-10-25 17:19,4760794,Deportivo Garcilaso vs Los Chankas,"Perú, Liga 1 - Clausura",modelo,Menos de 6.5 tarjetas,CARDS|6.5|under,0.6976,,,1.43,,,si,G,,
 2026-10-25 17:19,4760794,Deportivo Garcilaso vs Los Chankas,"Perú, Liga 1 - Clausura",crear,No hay empate + Menos de 2.5 goles en el 1T + Menos de 15.5 córners,DC||12&OU1T|2.5|under&CORN|15.5|under,0.5670,,,1.76,,,,G,,
+2026-10-26 12:47,4757185,Santa Clara vs Benfica,"Portugal, Primeira Liga",seguro,No hay empate,DC||12,0.7781,1.18,Bet365,1.29,-0.0819,,si,,,
+2026-10-26 12:47,4757185,Santa Clara vs Benfica,"Portugal, Primeira Liga",seguro,Más de 1.5 goles,OU|1.5|over,0.7588,1.18,Bet365,1.32,-0.1046,,si,,,
+2026-10-26 12:47,4757185,Santa Clara vs Benfica,"Portugal, Primeira Liga",modelo,Más de 2.5 tarjetas,CARDS|2.5|over,0.8117,,,1.23,,,si,,,
+2026-10-26 12:47,4757185,Santa Clara vs Benfica,"Portugal, Primeira Liga",modelo,Menos de 12.5 córners,CORN|12.5|under,0.6951,,,1.44,,,si,,,
+2026-10-26 12:47,4757185,Santa Clara vs Benfica,"Portugal, Primeira Liga",crear,Benfica o empate + Menos de 4.5 goles + Menos de 14.5 córners,DC||X2&OU|4.5|under&CORN|14.5|under,0.5827,,,1.72,,,,,,

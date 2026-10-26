@@ -2567,8 +2567,12 @@
    "partido": "Santa Clara vs Benfica",
    "liga": "Portugal, Primeira Liga",
    "inicio": "2026-10-26T13:45:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1793036609.49232
+   "estado": "enviado",
+   "ultimo": 1793036854.0667663,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "3047294,3161778,3210686,4006187,40501175,51183321,66024582,71048205,71055054,75430155,75430487|248241,340562,541978,668937,906897,3152786,51394932,51813758,56751723,65471889,65642981",
+   "conf": true
   },
   "4760794": {
    "partido": "Deportivo Garcilaso vs Los Chankas",
