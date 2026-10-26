@@ -3460,6 +3460,97 @@
    "inicio": "2026-10-28T13:15:00-05:00",
    "estado": "pendiente",
    "ultimo": 0
+  },
+  "4632617": {
+   "partido": "Remo vs Botafogo",
+   "liga": "Brasil, Brasileirão",
+   "inicio": "2026-10-28T19:30:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4632618": {
+   "partido": "Bahia vs São Paulo",
+   "liga": "Brasil, Brasileirão",
+   "inicio": "2026-10-28T19:30:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4632620": {
+   "partido": "Grêmio vs Athletico Paranaense",
+   "liga": "Brasil, Brasileirão",
+   "inicio": "2026-10-29T19:30:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4632621": {
+   "partido": "Atlético Mineiro vs Cruzeiro",
+   "liga": "Brasil, Brasileirão",
+   "inicio": "2026-10-29T17:30:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4632622": {
+   "partido": "Bragantino vs Chapecoense",
+   "liga": "Brasil, Brasileirão",
+   "inicio": "2026-10-28T17:30:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4632624": {
+   "partido": "Santos vs Palmeiras",
+   "liga": "Brasil, Brasileirão",
+   "inicio": "2026-10-28T17:30:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4632625": {
+   "partido": "Vasco Da Gama vs Flamengo",
+   "liga": "Brasil, Brasileirão",
+   "inicio": "2026-10-29T18:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4632627": {
+   "partido": "Fluminense vs Internacional",
+   "liga": "Brasil, Brasileirão",
+   "inicio": "2026-10-28T17:30:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4732659": {
+   "partido": "Frosinone vs Lecce",
+   "liga": "Italia, Serie A",
+   "inicio": "2026-10-29T12:30:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4732660": {
+   "partido": "Fiorentina vs Atalanta",
+   "liga": "Italia, Serie A",
+   "inicio": "2026-10-29T14:45:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4760785": {
+   "partido": "FBC Melgar vs Comerciantes Unidos",
+   "liga": "Perú, Liga 1 - Clausura",
+   "inicio": "2026-10-29T19:30:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4760791": {
+   "partido": "Sporting Cristal vs Alianza Lima",
+   "liga": "Perú, Liga 1 - Clausura",
+   "inicio": "2026-10-29T15:30:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4760793": {
+   "partido": "Los Chankas vs Cusco FC",
+   "liga": "Perú, Liga 1 - Clausura",
+   "inicio": "2026-10-29T13:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
   }
  },
  "web": {
@@ -3605,7 +3696,20 @@
   "4760788": 1793025492392,
   "4760789": 1793025477604,
   "4760790": 1793025492074,
-  "4760792": 1793025491750
+  "4760792": 1793025491750,
+  "4632617": 1793025498234,
+  "4632618": 1793025498566,
+  "4632620": 1793025506402,
+  "4632621": 1793025505539,
+  "4632622": 1793025496739,
+  "4632624": 1793025497648,
+  "4632625": 1793025505826,
+  "4632627": 1793025497934,
+  "4732659": 1793025501493,
+  "4732660": 1793025502740,
+  "4760785": 1793025504693,
+  "4760791": 1793025504404,
+  "4760793": 1793025503692
  },
  "tickets": [],
  "sin_creditos": true
