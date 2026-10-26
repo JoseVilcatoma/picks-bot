@@ -121,13 +121,21 @@ def cuotas(game_id):
     return (j or {}).get("lines") or []
 
 
+def _sin_ceros_falsos(d):
+    """Algunos partidos (ligas chicas, amistosos) vienen con córners y remates en 0 para los dos equipos:
+    no es que no hubo, es que 365Scores no tiene el dato. Se quitan para no ensuciar promedios ni liquidar mal."""
+    if len(d) == 2 and all(x.get("c") == 0 and x.get("s", 0) == 0 for x in d.values()):
+        d = {t: {k: v for k, v in x.items() if k not in ("c", "s")} for t, x in d.items()}
+    return d
+
+
 def stats_partido(game_id, primer_tiempo=False):
     """{competitorId: {'c': córners, 'y': amarillas, 'r': rojas}} (cacheado).
     primer_tiempo=True devuelve solo el 1er tiempo (filterId=6)."""
     c = _c()
     k = f"st2{'1t' if primer_tiempo else ''}:{game_id}"
     if k in c:
-        return {int(x): v for x, v in c[k]["d"].items()}
+        return _sin_ceros_falsos({int(x): v for x, v in c[k]["d"].items()})
     if primer_tiempo:
         j = get("game/stats", games=game_id, filterId=6)
     else:
@@ -151,6 +159,7 @@ def stats_partido(game_id, primer_tiempo=False):
             v = _num(s.get("value"))
             if v is not None:
                 out.setdefault(cid, {})[campo] = v
+    out = _sin_ceros_falsos(out)
     if out:
         c[k] = {"t": time.time(), "d": out}
     return out
