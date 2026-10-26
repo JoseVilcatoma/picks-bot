@@ -4058,8 +4058,8 @@
    "partido": "Deportivo Garcilaso vs Los Chankas",
    "liga": "Perú, Liga 1 - Clausura",
    "inicio": "2026-10-25T18:00:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1792976208.758227,
+   "estado": "liquidado",
+   "ultimo": 1792976816.1281812,
    "pierna": [
     {
      "gid": "4760794",
@@ -4123,7 +4123,22 @@
     }
    ],
    "xi": "254603,514232,519405,616408,617235,890934,3138410,3249546,3347310,57621318,59059576|481196,615398,3182404,5774594,7863154,13093514,14049021,47420072,54842240,56700220,59045608",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 4,
+    "ag": 1,
+    "ht": [
+     1,
+     0
+    ],
+    "corners": 8.0,
+    "corners_h": 5.0,
+    "corners_a": 3.0,
+    "corners_1t": 5.0,
+    "cards": 6.0,
+    "cards_h": 2.0,
+    "cards_a": 4.0
+   }
   },
   "4760795": {
    "partido": "Sport Boys vs FC Cajamarca",
