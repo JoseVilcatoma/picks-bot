@@ -105,52 +105,6 @@
     "cards_a": 2.0
    }
   },
-  "4757184": {
-   "partido": "Sporting CP vs Viseu",
-   "liga": "Portugal, Primeira Liga",
-   "inicio": "2026-10-25T15:30:00-05:00",
-   "estado": "liquidado",
-   "ultimo": 1792967720.7680235,
-   "pierna": [
-    {
-     "gid": "4757184",
-     "partido": "Sporting CP vs Viseu",
-     "texto": "Gana Sporting CP",
-     "clave": "1X2||1",
-     "p": 0.7616,
-     "cuota": 1.22,
-     "casa": "Bet365",
-     "inicio": "2026-10-25T15:30:00-05:00"
-    },
-    {
-     "gid": "4757184",
-     "partido": "Sporting CP vs Viseu",
-     "texto": "Más de 2.5 goles",
-     "clave": "OU|2.5|over",
-     "p": 0.6654,
-     "cuota": 1.36,
-     "casa": "Bet365",
-     "inicio": "2026-10-25T15:30:00-05:00"
-    }
-   ],
-   "xi": "7244055,9157528,50072970,64317526,64656029,66850386,67636921,70860145,71917231,75430996,77374784|343399,2614253,7314720,15069774,46523888,50978598,60491993,60869761,65521818,70810400,71408242",
-   "conf": true,
-   "r": {
-    "hg": 1,
-    "ag": 2,
-    "ht": [
-     0,
-     1
-    ],
-    "corners": 10.0,
-    "corners_h": 10.0,
-    "corners_a": 0.0,
-    "corners_1t": 6.0,
-    "cards": 6.0,
-    "cards_h": 2.0,
-    "cards_a": 4.0
-   }
-  },
   "4757185": {
    "partido": "Santa Clara vs Benfica",
    "liga": "Portugal, Primeira Liga",
@@ -261,72 +215,6 @@
     "cards": 6.0,
     "cards_h": 2.0,
     "cards_a": 4.0
-   }
-  },
-  "4760795": {
-   "partido": "Sport Boys vs FC Cajamarca",
-   "liga": "Perú, Liga 1 - Clausura",
-   "inicio": "2026-10-25T15:30:00-05:00",
-   "estado": "liquidado",
-   "ultimo": 1792968330.0360599,
-   "pierna": [
-    {
-     "gid": "4760795",
-     "partido": "Sport Boys vs FC Cajamarca",
-     "texto": "No hay empate",
-     "clave": "DC||12",
-     "p": 0.7661,
-     "cuota": 1.22,
-     "casa": "Bet365",
-     "inicio": "2026-10-25T15:30:00-05:00"
-    },
-    {
-     "gid": "4760795",
-     "partido": "Sport Boys vs FC Cajamarca",
-     "texto": "Más de 1.5 goles",
-     "clave": "OU|1.5|over",
-     "p": 0.7516,
-     "cuota": 1.22,
-     "casa": "Bet365",
-     "inicio": "2026-10-25T15:30:00-05:00"
-    },
-    {
-     "gid": "4760795",
-     "partido": "Sport Boys vs FC Cajamarca",
-     "texto": "Más de 0.5 goles en el 1T",
-     "clave": "OU1T|0.5|over",
-     "p": 0.7054,
-     "cuota": 1.3,
-     "casa": "Bet365",
-     "inicio": "2026-10-25T15:30:00-05:00"
-    },
-    {
-     "gid": "4760795",
-     "partido": "Sport Boys vs FC Cajamarca",
-     "texto": "Sport Boys recibe gol",
-     "clave": "CS||local_no",
-     "p": 0.5885,
-     "cuota": 1.5,
-     "casa": "Bet365",
-     "inicio": "2026-10-25T15:30:00-05:00"
-    }
-   ],
-   "xi": "205892,383033,533478,616301,916301,2614926,12728006,17101463,47441568,50785894,67756954|496030,549319,2547399,3226546,7835850,55751030,56700129,57792016,67631192,71161933,77695473",
-   "conf": true,
-   "r": {
-    "hg": 4,
-    "ag": 2,
-    "ht": [
-     2,
-     1
-    ],
-    "corners": 7.0,
-    "corners_h": 4.0,
-    "corners_a": 3.0,
-    "corners_1t": 5.0,
-    "cards": 2.0,
-    "cards_h": 2.0,
-    "cards_a": 0.0
    }
   },
   "4732651": {
