@@ -537,8 +537,12 @@
    "partido": "Juan Pablo II College vs Sport Huancayo",
    "liga": "Perú, Liga 1 - Clausura",
    "inicio": "2026-10-27T15:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1793128667.2866542
+   "estado": "enviado",
+   "ultimo": 1793128911.3002174,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "484523,504685,1839203,3370754,14220056,14627599,64944305,66862580,67119647,67165511,67977474|254063,460626,481922,528520,621036,645547,893500,3242808,51321013,67955411,68885995",
+   "conf": true
   },
   "4760790": {
    "partido": "Alianza Atletico vs Deportivo Garcilaso",
