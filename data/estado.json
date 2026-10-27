@@ -462,8 +462,12 @@
    "partido": "Torino vs Como",
    "liga": "Italia, Serie A",
    "inicio": "2026-10-27T14:45:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1793127686.0810852
+   "estado": "enviado",
+   "ultimo": 1793127930.3273,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "400857,503138,530850,607972,3093438,51512703,53050235,54341649,70797490,70877609,77139772|345756,671186,4828844,32238602,40742145,43470743,49579899,64935156,65895085,66186532,70914728",
+   "conf": true
   },
   "4732653": {
    "partido": "Sassuolo vs Lazio",
@@ -534,7 +538,7 @@
    "liga": "Perú, Liga 1 - Clausura",
    "inicio": "2026-10-27T15:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1793127686.212307
+   "ultimo": 1793127931.223746
   },
   "4760790": {
    "partido": "Alianza Atletico vs Deportivo Garcilaso",
