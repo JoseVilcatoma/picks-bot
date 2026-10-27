@@ -463,7 +463,7 @@
    "liga": "Italia, Serie A",
    "inicio": "2026-10-27T14:45:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1793127191.137454
+   "ultimo": 1793127436.7635608
   },
   "4732653": {
    "partido": "Sassuolo vs Lazio",
@@ -480,8 +480,12 @@
    "partido": "AS Roma vs Cagliari",
    "liga": "Italia, Serie A",
    "inicio": "2026-10-27T14:45:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1793127191.2821298
+   "estado": "enviado",
+   "ultimo": 1793127436.9653327,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "280305,329430,542399,583374,941464,1966291,3087180,3143068,60980758,64431234,67844197|416379,909981,9401336,42946303,46512017,61426991,61685045,66186413,67891435,71690691,77743469",
+   "conf": true
   },
   "4732655": {
    "partido": "Parma vs Udinese",
@@ -530,7 +534,7 @@
    "liga": "Perú, Liga 1 - Clausura",
    "inicio": "2026-10-27T15:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1793127191.3416243
+   "ultimo": 1793127437.8460555
   },
   "4760790": {
    "partido": "Alianza Atletico vs Deportivo Garcilaso",
