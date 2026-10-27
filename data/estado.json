@@ -211,92 +211,6 @@
     "cards_a": 1.0
    }
   },
-  "4742021": {
-   "partido": "Sunderland vs Leeds United",
-   "liga": "Inglaterra, Premier League",
-   "inicio": "2026-10-25T11:30:00-05:00",
-   "estado": "liquidado",
-   "ultimo": 1792952700.2099822,
-   "pierna": [
-    {
-     "gid": "4742021",
-     "partido": "Sunderland vs Leeds United",
-     "texto": "Menos de 3.5 goles",
-     "clave": "OU|3.5|under",
-     "p": 0.7619,
-     "cuota": 1.25,
-     "casa": "Bet365",
-     "inicio": "2026-10-25T11:30:00-05:00"
-    },
-    {
-     "gid": "4742021",
-     "partido": "Sunderland vs Leeds United",
-     "texto": "Menos de 1.5 goles en el 1T",
-     "clave": "OU1T|1.5|under",
-     "p": 0.7096,
-     "cuota": 1.33,
-     "casa": "Bet365",
-     "inicio": "2026-10-25T11:30:00-05:00"
-    },
-    {
-     "gid": "4742021",
-     "partido": "Sunderland vs Leeds United",
-     "texto": "Sunderland recibe gol",
-     "clave": "CS||local_no",
-     "p": 0.699,
-     "cuota": 1.33,
-     "casa": "Bet365",
-     "inicio": "2026-10-25T11:30:00-05:00"
-    },
-    {
-     "gid": "4742021",
-     "partido": "Sunderland vs Leeds United",
-     "texto": "Leeds United o empate",
-     "clave": "DC||X2",
-     "p": 0.6881,
-     "cuota": 1.36,
-     "casa": "Bet365",
-     "inicio": "2026-10-25T11:30:00-05:00"
-    },
-    {
-     "gid": "4742021",
-     "partido": "Sunderland vs Leeds United",
-     "texto": "No hay empate",
-     "clave": "DC||12",
-     "p": 0.6878,
-     "cuota": 1.36,
-     "casa": "Bet365",
-     "inicio": "2026-10-25T11:30:00-05:00"
-    },
-    {
-     "gid": "4742021",
-     "partido": "Sunderland vs Leeds United",
-     "texto": "Más de 1.5 goles",
-     "clave": "OU|1.5|over",
-     "p": 0.6672,
-     "cuota": 1.36,
-     "casa": "Bet365",
-     "inicio": "2026-10-25T11:30:00-05:00"
-    }
-   ],
-   "xi": "287803,435114,1169903,3218099,50444830,58122452,59993290,64514449,64744795,65566123,70904911|649450,886874,907041,984482,3135966,3146175,3476512,7227288,13895915,51042324,58340010",
-   "conf": true,
-   "r": {
-    "hg": 0,
-    "ag": 0,
-    "ht": [
-     0,
-     0
-    ],
-    "corners": 9.0,
-    "corners_h": 4.0,
-    "corners_a": 5.0,
-    "corners_1t": 2.0,
-    "cards": 3.0,
-    "cards_h": 1.0,
-    "cards_a": 2.0
-   }
-  },
   "4750514": {
    "partido": "FC Barcelona vs Real Madrid",
    "liga": "España, LaLiga",
@@ -453,62 +367,6 @@
     "cards": 4.0,
     "cards_h": 1.0,
     "cards_a": 3.0
-   }
-  },
-  "4755367": {
-   "partido": "Friburgo vs Bayern Munich",
-   "liga": "Alemania, Bundesliga",
-   "inicio": "2026-10-25T11:30:00-05:00",
-   "estado": "liquidado",
-   "ultimo": 1792953309.429091,
-   "pierna": [
-    {
-     "gid": "4755367",
-     "partido": "Friburgo vs Bayern Munich",
-     "texto": "Bayern Munich recibe gol",
-     "clave": "CS||visita_no",
-     "p": 0.7096,
-     "cuota": 1.33,
-     "casa": "Bet365",
-     "inicio": "2026-10-25T11:30:00-05:00"
-    },
-    {
-     "gid": "4755367",
-     "partido": "Friburgo vs Bayern Munich",
-     "texto": "Más de 2.5 goles",
-     "clave": "OU|2.5|over",
-     "p": 0.6353,
-     "cuota": 1.3,
-     "casa": "Bet365",
-     "inicio": "2026-10-25T11:30:00-05:00"
-    },
-    {
-     "gid": "4755367",
-     "partido": "Friburgo vs Bayern Munich",
-     "texto": "Ambos marcan: Sí",
-     "clave": "BTTS||si",
-     "p": 0.624,
-     "cuota": 1.44,
-     "casa": "Bet365",
-     "inicio": "2026-10-25T11:30:00-05:00"
-    }
-   ],
-   "xi": "220585,408400,418057,593193,3071285,49988887,61066404,61406653,66221753,69040955,70780165|227604,405496,412127,470279,898082,14755144,57861026,60976669,64744763,66044210,76643976",
-   "conf": true,
-   "r": {
-    "hg": 1,
-    "ag": 3,
-    "ht": [
-     0,
-     2
-    ],
-    "corners": 11.0,
-    "corners_h": 5.0,
-    "corners_a": 6.0,
-    "corners_1t": 3.0,
-    "cards": 4.0,
-    "cards_h": 3.0,
-    "cards_a": 1.0
    }
   },
   "4757182": {
@@ -992,7 +850,7 @@
    "liga": "Italia, Serie A",
    "inicio": "2026-10-27T12:30:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1793118457.2790103
+   "ultimo": 1793118702.4466164
   },
   "4732654": {
    "partido": "AS Roma vs Cagliari",
