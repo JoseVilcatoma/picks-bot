@@ -388,6 +388,55 @@
    "inicio": "2026-10-29T13:00:00-05:00",
    "estado": "pendiente",
    "ultimo": 0
+  },
+  "4632623": {
+   "partido": "Corinthians vs Mirassol",
+   "liga": "Brasil, Brasileirão",
+   "inicio": "2026-10-30T18:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4735221": {
+   "partido": "Niza vs Rennes",
+   "liga": "Francia, Ligue 1",
+   "inicio": "2026-10-30T13:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4735225": {
+   "partido": "Lille vs Lens",
+   "liga": "Francia, Ligue 1",
+   "inicio": "2026-10-30T15:05:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4735226": {
+   "partido": "Le Havre vs PSG",
+   "liga": "Francia, Ligue 1",
+   "inicio": "2026-10-30T13:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4750802": {
+   "partido": "Villarreal CF vs RCD Espanyol",
+   "liga": "España, LaLiga",
+   "inicio": "2026-10-30T15:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4755354": {
+   "partido": "SV 07 Elversberg vs Mainz 05",
+   "liga": "Alemania, Bundesliga",
+   "inicio": "2026-10-30T14:30:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4757191": {
+   "partido": "Casa Pia AC vs Sporting CP",
+   "liga": "Portugal, Primeira Liga",
+   "inicio": "2026-10-30T15:15:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
   }
  },
  "web": {
@@ -478,7 +527,14 @@
   "4732660": 1793025502740,
   "4760785": 1793025504693,
   "4760791": 1793025504404,
-  "4760793": 1793025503692
+  "4760793": 1793025503692,
+  "4632623": 1793144515773,
+  "4735221": 1793144518114,
+  "4735225": 1793144517548,
+  "4735226": 1793144517823,
+  "4750802": 1793144516350,
+  "4755354": 1793144516683,
+  "4757191": 1793144516068
  },
  "tickets": [],
  "sin_creditos": true
