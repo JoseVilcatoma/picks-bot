@@ -79,62 +79,6 @@
     "cards_a": 1.0
    }
   },
-  "4750514": {
-   "partido": "FC Barcelona vs Real Madrid",
-   "liga": "España, LaLiga",
-   "inicio": "2026-10-25T15:00:00-05:00",
-   "estado": "liquidado",
-   "ultimo": 1792966010.872575,
-   "pierna": [
-    {
-     "gid": "4750514",
-     "partido": "FC Barcelona vs Real Madrid",
-     "texto": "FC Barcelona o empate",
-     "clave": "DC||1X",
-     "p": 0.752,
-     "cuota": 1.25,
-     "casa": "Bet365",
-     "inicio": "2026-10-25T15:00:00-05:00"
-    },
-    {
-     "gid": "4750514",
-     "partido": "FC Barcelona vs Real Madrid",
-     "texto": "FC Barcelona recibe gol",
-     "clave": "CS||local_no",
-     "p": 0.6835,
-     "cuota": 1.2,
-     "casa": "Bet365",
-     "inicio": "2026-10-25T15:00:00-05:00"
-    },
-    {
-     "gid": "4750514",
-     "partido": "FC Barcelona vs Real Madrid",
-     "texto": "Gana FC Barcelona",
-     "clave": "1X2||1",
-     "p": 0.6009,
-     "cuota": 1.57,
-     "casa": "Bet365",
-     "inicio": "2026-10-25T15:00:00-05:00"
-    }
-   ],
-   "xi": "384197,1444592,1761371,33309233,41923868,52343752,63765805,67787784,70894814,70951545,71171245|384169,480721,1589889,3171745,3216883,3568284,5052341,46440257,61736514,67547634,77099314",
-   "conf": true,
-   "r": {
-    "hg": 1,
-    "ag": 2,
-    "ht": [
-     0,
-     1
-    ],
-    "corners": 12.0,
-    "corners_h": 6.0,
-    "corners_a": 6.0,
-    "corners_1t": 4.0,
-    "cards": 6.0,
-    "cards_h": 3.0,
-    "cards_a": 3.0
-   }
-  },
   "4750813": {
    "partido": "Sevilla FC vs Osasuna",
    "liga": "España, LaLiga",
