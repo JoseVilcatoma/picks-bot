@@ -109,12 +109,27 @@
    "partido": "Venezia vs Inter Milan",
    "liga": "Italia, Serie A",
    "inicio": "2026-10-28T12:30:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1793205960.7324421,
+   "estado": "liquidado",
+   "ultimo": 1793215533.0262914,
    "clv": [],
    "clv_ok": false,
    "xi": "542023,2383747,4875406,8022349,31254172,47788915,49576923,49709059,65712453,66243378,67665528|329313,598403,886858,3071407,4802874,4874448,6251312,52544831,58810177,66559097,67771832",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 0,
+    "ag": 2,
+    "ht": [
+     0,
+     0
+    ],
+    "corners": 9.0,
+    "corners_h": 3.0,
+    "corners_a": 6.0,
+    "corners_1t": 2.0,
+    "cards": 2.0,
+    "cards_h": 0.0,
+    "cards_a": 2.0
+   }
   },
   "4732652": {
    "partido": "Torino vs Como",
@@ -198,12 +213,27 @@
    "partido": "Parma vs Udinese",
    "liga": "Italia, Serie A",
    "inicio": "2026-10-28T12:30:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1793205961.8278072,
+   "estado": "liquidado",
+   "ultimo": 1793215533.218453,
    "clv": [],
    "clv_ok": false,
    "xi": "659658,7773175,29631102,47401661,55974643,59158153,60968477,64392751,70810721,76776961,77672771|375123,489221,529485,2383725,3209608,3335711,4882805,47484495,62046323,66220481,72688033",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 0,
+    "ag": 0,
+    "ht": [
+     0,
+     0
+    ],
+    "corners": 9.0,
+    "corners_h": 3.0,
+    "corners_a": 6.0,
+    "corners_1t": 4.0,
+    "cards": 3.0,
+    "cards_h": 1.0,
+    "cards_a": 2.0
+   }
   },
   "4732656": {
    "partido": "Monza vs Nápoles",
@@ -220,12 +250,27 @@
    "partido": "AC Milan vs Bologna",
    "liga": "Italia, Serie A",
    "inicio": "2026-10-28T12:30:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1793205632.2764137,
+   "estado": "liquidado",
+   "ultimo": 1793215533.3957632,
    "clv": [],
    "clv_ok": false,
    "xi": "513713,638781,951725,28043772,49866513,49915522,50790794,52683634,63992002,66223800,67774436|285835,348628,478842,3195499,3488107,4947373,33902941,33913784,50528133,67874646,71682895",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 2,
+    "ag": 4,
+    "ht": [
+     2,
+     1
+    ],
+    "corners": 5.0,
+    "corners_h": 2.0,
+    "corners_a": 3.0,
+    "corners_1t": 2.0,
+    "cards": 2.0,
+    "cards_h": 0.0,
+    "cards_a": 2.0
+   }
   },
   "4732658": {
    "partido": "Genoa vs Juventus",
