@@ -305,12 +305,27 @@
    "partido": "FC Cajamarca vs UTC Cajamarca",
    "liga": "Perú, Liga 1 - Clausura",
    "inicio": "2026-10-28T13:15:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1793208783.8955474,
+   "estado": "liquidado",
+   "ultimo": 1793218235.4943275,
    "clv": [],
    "clv_ok": false,
    "xi": "496030,549319,2547399,3226546,4483040,7835850,55751030,57792016,67939604,77110983,77695473|212186,468362,943603,983229,3183651,3188390,4329678,6878973,12728003,56819961,72043548",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 1,
+    "ag": 3,
+    "ht": [
+     0,
+     1
+    ],
+    "corners": 7.0,
+    "corners_h": 3.0,
+    "corners_a": 4.0,
+    "corners_1t": 3.0,
+    "cards": 3.0,
+    "cards_h": 1.0,
+    "cards_a": 2.0
+   }
   },
   "4632617": {
    "partido": "Remo vs Botafogo",
