@@ -360,14 +360,18 @@
    "liga": "Brasil, Brasileirão",
    "inicio": "2026-10-28T17:30:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1793223187.87859
+   "ultimo": 1793223432.1194658
   },
   "4632624": {
    "partido": "Santos vs Palmeiras",
    "liga": "Brasil, Brasileirão",
    "inicio": "2026-10-28T17:30:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1793223188.0949383
+   "estado": "enviado",
+   "ultimo": 1793223432.2621846,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "104066,479593,530809,543235,569870,3231386,9563934,60376096,76891180,76943195,77180994|334367,384001,552616,638801,659801,892506,3228073,5531840,54050192,65512282,66228710",
+   "conf": true
   },
   "4632625": {
    "partido": "Vasco Da Gama vs Flamengo",
@@ -381,7 +385,7 @@
    "liga": "Brasil, Brasileirão",
    "inicio": "2026-10-28T17:30:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1793223188.1537607
+   "ultimo": 1793223434.1385574
   },
   "4732659": {
    "partido": "Frosinone vs Lecce",
