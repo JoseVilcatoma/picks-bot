@@ -2155,3 +2155,7 @@ fecha,game_id,partido,liga,tipo,mercado,clave,prob,cuota,casa,cuota_justa,ev,sta
 2026-10-28 18:27,4760788,Cienciano vs Grau,"Perú, Liga 1 - Clausura",modelo,Más de 1.5 goles,OU|1.5|over,0.7991,,,1.25,,,si,,,
 2026-10-28 18:27,4760788,Cienciano vs Grau,"Perú, Liga 1 - Clausura",modelo,Más de 2.5 tarjetas,CARDS|2.5|over,0.7621,,,1.31,,,si,,,
 2026-10-28 18:27,4760788,Cienciano vs Grau,"Perú, Liga 1 - Clausura",crear,No hay empate + Más de 1.5 goles + Menos de 13.5 córners,DC||12&OU|1.5|over&CORN|13.5|under,0.5702,,,1.75,,,,,,
+2026-10-28 18:41,4632618,Bahia vs São Paulo,"Brasil, Brasileirão",seguro,No hay empate,DC||12,0.7294,1.29,Bet365,1.37,-0.0590,,si,,,
+2026-10-28 18:41,4632618,Bahia vs São Paulo,"Brasil, Brasileirão",seguro,Más de 1.5 goles,OU|1.5|over,0.7268,1.25,Bet365,1.38,-0.0915,,si,,,
+2026-10-28 18:41,4632618,Bahia vs São Paulo,"Brasil, Brasileirão",modelo,Menos de 6.5 tarjetas,CARDS|6.5|under,0.7300,,,1.37,,,si,,,
+2026-10-28 18:41,4632618,Bahia vs São Paulo,"Brasil, Brasileirão",modelo,Menos de 14.5 córners,CORN|14.5|under,0.6632,,,1.51,,,si,,,
