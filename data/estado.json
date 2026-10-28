@@ -320,8 +320,12 @@
    "partido": "Alianza Atletico vs Deportivo Garcilaso",
    "liga": "Perú, Liga 1 - Clausura",
    "inicio": "2026-10-28T15:30:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1793216645.6192756
+   "estado": "enviado",
+   "ultimo": 1793216891.6914723,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "506167,3222005,13891409,14016837,29976047,56700055,56897445,64866387,71345428,71885210,77715226|254603,514232,519405,537985,616408,890934,3138410,3347310,3768524,57621318,77006336",
+   "conf": true
   },
   "4760792": {
    "partido": "FC Cajamarca vs UTC Cajamarca",
