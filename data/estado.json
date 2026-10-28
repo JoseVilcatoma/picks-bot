@@ -210,7 +210,7 @@
    "liga": "Italia, Serie A",
    "inicio": "2026-10-28T14:45:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1793213930.16507
+   "ultimo": 1793214174.5917733
   },
   "4732657": {
    "partido": "AC Milan vs Bologna",
@@ -227,8 +227,12 @@
    "partido": "Genoa vs Juventus",
    "liga": "Italia, Serie A",
    "inicio": "2026-10-28T14:45:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1793213930.323192
+   "estado": "enviado",
+   "ultimo": 1793214174.8121026,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "557325,568955,3453817,3488037,13854543,52672619,53085455,53916978,61672509,67627173,70844116|1006401,3094565,3229380,3260720,3456444,4873827,50999036,52275621,52338804,61206789,75535290",
+   "conf": true
   },
   "4760786": {
    "partido": "ADT Tarma vs CD Moquegua",
