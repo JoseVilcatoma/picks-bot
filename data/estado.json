@@ -53,32 +53,6 @@
     "cards_a": 1.0
    }
   },
-  "4735227": {
-   "partido": "PSG vs Lyon",
-   "liga": "Francia, Ligue 1",
-   "inicio": "2026-10-26T14:30:00-05:00",
-   "estado": "liquidado",
-   "ultimo": 1793050002.081182,
-   "clv": [],
-   "clv_ok": false,
-   "xi": "600030,3169055,3171738,3948590,40745412,46715751,50754213,64040929,65079212,66206302,66436913|403672,568308,844534,12759586,48501418,54261156,60972902,65776157,66430617,75259442,77138837",
-   "conf": true,
-   "r": {
-    "hg": 2,
-    "ag": 0,
-    "ht": [
-     0,
-     0
-    ],
-    "corners": 11.0,
-    "corners_h": 7.0,
-    "corners_a": 4.0,
-    "corners_1t": 8.0,
-    "cards": 3.0,
-    "cards_h": 2.0,
-    "cards_a": 1.0
-   }
-  },
   "4750813": {
    "partido": "Sevilla FC vs Osasuna",
    "liga": "España, LaLiga",
@@ -347,7 +321,7 @@
    "liga": "Perú, Liga 1 - Clausura",
    "inicio": "2026-10-28T15:30:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1793215662.1492298
+   "ultimo": 1793215909.0310209
   },
   "4760792": {
    "partido": "FC Cajamarca vs UTC Cajamarca",
