@@ -105,32 +105,6 @@
     "cards_a": 2.0
    }
   },
-  "4757185": {
-   "partido": "Santa Clara vs Benfica",
-   "liga": "Portugal, Primeira Liga",
-   "inicio": "2026-10-26T13:45:00-05:00",
-   "estado": "liquidado",
-   "ultimo": 1793047301.337782,
-   "clv": [],
-   "clv_ok": false,
-   "xi": "3047294,3161778,3210686,4006187,40501175,51183321,66024582,71048205,71055054,75430155,75430487|248241,340562,541978,668937,906897,3152786,51394932,51813758,56751723,65471889,65642981",
-   "conf": true,
-   "r": {
-    "hg": 1,
-    "ag": 2,
-    "ht": [
-     1,
-     0
-    ],
-    "corners": 5.0,
-    "corners_h": 2.0,
-    "corners_a": 3.0,
-    "corners_1t": 2.0,
-    "cards": 9.0,
-    "cards_h": 4.0,
-    "cards_a": 5.0
-   }
-  },
   "4732651": {
    "partido": "Venezia vs Inter Milan",
    "liga": "Italia, Serie A",
@@ -236,7 +210,7 @@
    "liga": "Italia, Serie A",
    "inicio": "2026-10-28T14:45:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1793212948.5265677
+   "ultimo": 1793213193.369136
   },
   "4732657": {
    "partido": "AC Milan vs Bologna",
@@ -254,7 +228,7 @@
    "liga": "Italia, Serie A",
    "inicio": "2026-10-28T14:45:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1793212948.7510676
+   "ultimo": 1793213193.5110288
   },
   "4760786": {
    "partido": "ADT Tarma vs CD Moquegua",
