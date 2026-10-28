@@ -53,32 +53,6 @@
     "cards_a": 1.0
    }
   },
-  "4750813": {
-   "partido": "Sevilla FC vs Osasuna",
-   "liga": "España, LaLiga",
-   "inicio": "2026-10-26T15:00:00-05:00",
-   "estado": "liquidado",
-   "ultimo": 1793052329.9495916,
-   "clv": [],
-   "clv_ok": false,
-   "xi": "357316,893355,1765601,15499512,28726208,54191092,54826476,63090553,64404146,66029772,67615192|204239,350828,414858,541593,542817,1898668,3224261,35158639,51408122,66318204,66362474",
-   "conf": true,
-   "r": {
-    "hg": 2,
-    "ag": 0,
-    "ht": [
-     1,
-     0
-    ],
-    "corners": 11.0,
-    "corners_h": 7.0,
-    "corners_a": 4.0,
-    "corners_1t": 4.0,
-    "cards": 3.0,
-    "cards_h": 1.0,
-    "cards_a": 2.0
-   }
-  },
   "4732651": {
    "partido": "Venezia vs Inter Milan",
    "liga": "Italia, Serie A",
