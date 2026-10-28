@@ -136,7 +136,7 @@
    "liga": "Italia, Serie A",
    "inicio": "2026-10-28T12:30:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1793205382.5302062
+   "ultimo": 1793205631.9970129
   },
   "4732652": {
    "partido": "Torino vs Como",
@@ -221,7 +221,7 @@
    "liga": "Italia, Serie A",
    "inicio": "2026-10-28T12:30:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1793205382.6934116
+   "ultimo": 1793205632.1885972
   },
   "4732656": {
    "partido": "Monza vs Nápoles",
@@ -234,8 +234,12 @@
    "partido": "AC Milan vs Bologna",
    "liga": "Italia, Serie A",
    "inicio": "2026-10-28T12:30:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1793205382.8382308
+   "estado": "enviado",
+   "ultimo": 1793205632.2764137,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "513713,638781,951725,28043772,49866513,49915522,50790794,52683634,63992002,66223800,67774436|285835,348628,478842,3195499,3488107,4947373,33902941,33913784,50528133,67874646,71682895",
+   "conf": true
   },
   "4732658": {
    "partido": "Genoa vs Juventus",
