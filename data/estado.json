@@ -239,8 +239,12 @@
    "partido": "Cienciano vs Grau",
    "liga": "Perú, Liga 1 - Clausura",
    "inicio": "2026-10-28T19:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1793229542.7901902
+   "estado": "enviado",
+   "ultimo": 1793229665.1296735,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "461402,470008,578343,591032,617159,3086656,3210157,4366058,13461121,47991870,64944309|478774,890895,1858727,2547425,3123514,3138164,3218403,14703780,50978322,60986868,65227415",
+   "conf": false
   },
   "4760789": {
    "partido": "Juan Pablo II College vs Sport Huancayo",
@@ -325,14 +329,14 @@
    "liga": "Brasil, Brasileirão",
    "inicio": "2026-10-28T19:30:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1793229420.5447967
+   "ultimo": 1793229665.948455
   },
   "4632618": {
    "partido": "Bahia vs São Paulo",
    "liga": "Brasil, Brasileirão",
    "inicio": "2026-10-28T19:30:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1793229420.56922
+   "ultimo": 1793229665.9624386
   },
   "4632620": {
    "partido": "Grêmio vs Athletico Paranaense",
