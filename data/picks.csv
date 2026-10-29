@@ -2165,3 +2165,8 @@ fecha,game_id,partido,liga,tipo,mercado,clave,prob,cuota,casa,cuota_justa,ev,sta
 2026-10-28 18:57,4632617,Remo vs Botafogo,"Brasil, Brasileirão",modelo,Menos de 15.5 córners,CORN|15.5|under,0.7052,,,1.42,,,si,G,,
 2026-10-28 18:57,4632617,Remo vs Botafogo,"Brasil, Brasileirão",ticket,Remo o empate + Menos de 3.5 goles,DC||1X&OU|3.5|under,0.4920,2.16,,2.03,0.0627,10.00,,G,11.60,
 2026-10-28 18:57,4632617,Remo vs Botafogo,"Brasil, Brasileirão",crear,Menos de 2.5 goles en el 1T + Menos de 18.5 córners + Menos de 7.5 tarjetas,OU1T|2.5|under&CORN|18.5|under&CARDS|7.5|under,0.5821,,,1.72,,,,G,,
+2026-10-29 11:44,4732659,Frosinone vs Lecce,"Italia, Serie A",seguro,Frosinone o empate,DC||1X,0.8352,1.20,Bet365,1.20,0.0022,,si,,,
+2026-10-29 11:44,4732659,Frosinone vs Lecce,"Italia, Serie A",seguro,Más de 0.5 goles en el 1T,OU1T|0.5|over,0.7586,1.20,Bet365,1.32,-0.0896,,si,,,
+2026-10-29 11:44,4732659,Frosinone vs Lecce,"Italia, Serie A",modelo,Más de 1.5 goles,OU|1.5|over,0.8330,,,1.20,,,si,,,
+2026-10-29 11:44,4732659,Frosinone vs Lecce,"Italia, Serie A",modelo,Menos de 6.5 tarjetas,CARDS|6.5|under,0.8086,,,1.24,,,si,,,
+2026-10-29 11:44,4732659,Frosinone vs Lecce,"Italia, Serie A",crear,Frosinone o empate + Más de 1.5 goles + Más de 5.5 córners,DC||1X&OU|1.5|over&CORN|5.5|over,0.5878,,,1.70,,,,,,
