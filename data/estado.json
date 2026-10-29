@@ -468,12 +468,27 @@
    "partido": "Frosinone vs Lecce",
    "liga": "Italia, Serie A",
    "inicio": "2026-10-29T12:30:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1793301987.6795442,
+   "estado": "liquidado",
+   "ultimo": 1793302598.9081624,
    "clv": [],
    "clv_ok": false,
    "xi": "3069419,3072025,9268558,43872810,50677836,64797503,67172903,70812661,70812663,71327308,75404158|453730,3476562,4870199,35341115,49486243,51148547,51187646,64864265,66406095,70780603,71384454",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 5,
+    "ag": 1,
+    "ht": [
+     2,
+     0
+    ],
+    "corners": 13.0,
+    "corners_h": 10.0,
+    "corners_a": 3.0,
+    "corners_1t": 7.0,
+    "cards": 3.0,
+    "cards_h": 0.0,
+    "cards_a": 3.0
+   }
   },
   "4732660": {
    "partido": "Fiorentina vs Atalanta",
