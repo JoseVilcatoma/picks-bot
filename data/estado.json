@@ -597,6 +597,146 @@
    "inicio": "2026-10-31T10:00:00-05:00",
    "estado": "pendiente",
    "ultimo": 0
+  },
+  "4632619": {
+   "partido": "Coritiba vs Vitória",
+   "liga": "Brasil, Brasileirão",
+   "inicio": "2026-10-31T14:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4732641": {
+   "partido": "Udinese vs AS Roma",
+   "liga": "Italia, Serie A",
+   "inicio": "2026-10-31T12:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4732643": {
+   "partido": "AC Milan vs Inter Milan",
+   "liga": "Italia, Serie A",
+   "inicio": "2026-10-31T14:45:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4732649": {
+   "partido": "Bologna vs Monza",
+   "liga": "Italia, Serie A",
+   "inicio": "2026-10-31T09:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4735218": {
+   "partido": "Troyes vs Le Mans",
+   "liga": "Francia, Ligue 1",
+   "inicio": "2026-10-31T14:45:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4742019": {
+   "partido": "Aston Villa vs Fulham",
+   "liga": "Inglaterra, Premier League",
+   "inicio": "2026-10-31T15:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4742029": {
+   "partido": "Tottenham vs Crystal Palace",
+   "liga": "Inglaterra, Premier League",
+   "inicio": "2026-10-31T12:30:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4750803": {
+   "partido": "Rayo Vallecano vs Celta de Vigo",
+   "liga": "España, LaLiga",
+   "inicio": "2026-10-31T10:15:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4750805": {
+   "partido": "Levante UD vs Atlético de Madrid",
+   "liga": "España, LaLiga",
+   "inicio": "2026-10-31T08:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4750807": {
+   "partido": "FC Barcelona vs Alavés",
+   "liga": "España, LaLiga",
+   "inicio": "2026-10-31T15:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4750809": {
+   "partido": "Real Betis vs Málaga CF",
+   "liga": "España, LaLiga",
+   "inicio": "2026-10-31T12:30:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4755355": {
+   "partido": "Schalke 04 vs RB Leipzig",
+   "liga": "Alemania, Bundesliga",
+   "inicio": "2026-10-31T09:30:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4755356": {
+   "partido": "Werder Bremen vs Hoffenheim",
+   "liga": "Alemania, Bundesliga",
+   "inicio": "2026-10-31T09:30:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4755357": {
+   "partido": "Borussia Mönchengladbach vs SC Paderborn 07",
+   "liga": "Alemania, Bundesliga",
+   "inicio": "2026-10-31T09:30:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4755359": {
+   "partido": "FC Augsburg vs Friburgo",
+   "liga": "Alemania, Bundesliga",
+   "inicio": "2026-10-31T09:30:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4755361": {
+   "partido": "Bayer Leverkusen vs Stuttgart",
+   "liga": "Alemania, Bundesliga",
+   "inicio": "2026-10-31T09:30:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4755364": {
+   "partido": "Bayern Munich vs Borussia Dortmund",
+   "liga": "Alemania, Bundesliga",
+   "inicio": "2026-10-31T12:30:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4757192": {
+   "partido": "Moreirense vs Estrela da Amadora",
+   "liga": "Portugal, Primeira Liga",
+   "inicio": "2026-10-31T10:30:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4757195": {
+   "partido": "FC Porto vs Estoril",
+   "liga": "Portugal, Primeira Liga",
+   "inicio": "2026-10-31T15:30:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4760784": {
+   "partido": "Alianza Atletico vs Juan Pablo II College",
+   "liga": "Perú, Liga 1 - Clausura",
+   "inicio": "2026-10-31T15:30:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
   }
  },
  "web": {
@@ -700,7 +840,27 @@
   "4742016": 1793295989015,
   "4742017": 1793295987849,
   "4742018": 1793295989402,
-  "4742020": 1793295989765
+  "4742020": 1793295989765,
+  "4632619": 1793296000788,
+  "4732641": 1793295994738,
+  "4732643": 1793295995431,
+  "4732649": 1793295994463,
+  "4735218": 1793296001399,
+  "4742019": 1793295991106,
+  "4742029": 1793295990787,
+  "4750803": 1793295993533,
+  "4750805": 1793295991889,
+  "4750807": 1793295993169,
+  "4750809": 1793295992493,
+  "4755355": 1793295996400,
+  "4755356": 1793295996737,
+  "4755357": 1793295997201,
+  "4755359": 1793295997511,
+  "4755361": 1793295997956,
+  "4755364": 1793295998317,
+  "4757192": 1793295999388,
+  "4757195": 1793295999669,
+  "4760784": 1793296003240
  },
  "tickets": [],
  "sin_creditos": true
