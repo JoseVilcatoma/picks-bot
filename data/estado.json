@@ -362,7 +362,7 @@
    "liga": "Brasil, Brasileirão",
    "inicio": "2026-10-29T18:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1793310381.085057
+   "ultimo": 1793310625.2757776
   },
   "4632627": {
    "partido": "Fluminense vs Internacional",
@@ -420,12 +420,27 @@
    "partido": "Fiorentina vs Atalanta",
    "liga": "Italia, Serie A",
    "inicio": "2026-10-29T14:45:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1793310013.9932892,
+   "estado": "liquidado",
+   "ultimo": 1793310625.4524493,
    "clv": [],
    "clv_ok": false,
    "xi": "88018,30466531,49531772,50586375,54588606,54901262,65156349,68877009,70860736,71088015,71370735|408094,3086707,9589510,12643461,12655232,15242890,26803259,31283563,55165603,75452367,75535353",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 2,
+    "ag": 2,
+    "ht": [
+     0,
+     1
+    ],
+    "corners": 10.0,
+    "corners_h": 8.0,
+    "corners_a": 2.0,
+    "corners_1t": 5.0,
+    "cards": 5.0,
+    "cards_h": 3.0,
+    "cards_a": 2.0
+   }
   },
   "4760785": {
    "partido": "FBC Melgar vs Comerciantes Unidos",
