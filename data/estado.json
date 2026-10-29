@@ -497,8 +497,12 @@
    "partido": "Sporting Cristal vs Alianza Lima",
    "liga": "Perú, Liga 1 - Clausura",
    "inicio": "2026-10-29T15:30:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1793301865.0534086
+   "estado": "enviado",
+   "ultimo": 1793302110.1099367,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "261791,357602,386754,389408,485269,486424,5697711,15806567,25270975,50613999,71373581|375417,400833,470773,482699,485232,558809,2511193,3096298,12095969,14309928,56651794",
+   "conf": true
   },
   "4760793": {
    "partido": "Los Chankas vs Cusco FC",
