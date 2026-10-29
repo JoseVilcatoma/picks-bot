@@ -457,12 +457,27 @@
    "partido": "Sporting Cristal vs Alianza Lima",
    "liga": "Perú, Liga 1 - Clausura",
    "inicio": "2026-10-29T15:30:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1793312701.9930916,
+   "estado": "liquidado",
+   "ultimo": 1793313309.5657647,
    "clv": [],
    "clv_ok": false,
    "xi": "261791,357602,386754,389408,485269,486424,5697711,15806567,25270975,50613999,71373581|375417,400833,470773,482699,485232,558809,2511193,3096298,12095969,14309928,56651794",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 3,
+    "ag": 2,
+    "ht": [
+     2,
+     2
+    ],
+    "corners": 9.0,
+    "corners_h": 4.0,
+    "corners_a": 5.0,
+    "corners_1t": 5.0,
+    "cards": 7.0,
+    "cards_h": 3.0,
+    "cards_a": 4.0
+   }
   },
   "4760793": {
    "partido": "Los Chankas vs Cusco FC",
