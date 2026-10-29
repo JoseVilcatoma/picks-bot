@@ -555,6 +555,48 @@
    "inicio": "2026-10-30T15:15:00-05:00",
    "estado": "pendiente",
    "ultimo": 0
+  },
+  "4742013": {
+   "partido": "Manchester City vs Brighton",
+   "liga": "Inglaterra, Premier League",
+   "inicio": "2026-10-31T10:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4742015": {
+   "partido": "Hull City vs Ipswich",
+   "liga": "Inglaterra, Premier League",
+   "inicio": "2026-10-31T10:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4742016": {
+   "partido": "Coventry vs Sunderland",
+   "liga": "Inglaterra, Premier League",
+   "inicio": "2026-10-31T10:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4742017": {
+   "partido": "Chelsea vs Manchester United",
+   "liga": "Inglaterra, Premier League",
+   "inicio": "2026-10-31T07:30:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4742018": {
+   "partido": "Brentford vs Nottingham Forest",
+   "liga": "Inglaterra, Premier League",
+   "inicio": "2026-10-31T10:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4742020": {
+   "partido": "Bournemouth vs Leeds United",
+   "liga": "Inglaterra, Premier League",
+   "inicio": "2026-10-31T10:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
   }
  },
  "web": {
@@ -652,7 +694,13 @@
   "4735226": 1793144517823,
   "4750802": 1793144516350,
   "4755354": 1793144516683,
-  "4757191": 1793144516068
+  "4757191": 1793144516068,
+  "4742013": 1793295988197,
+  "4742015": 1793295988503,
+  "4742016": 1793295989015,
+  "4742017": 1793295987849,
+  "4742018": 1793295989402,
+  "4742020": 1793295989765
  },
  "tickets": [],
  "sin_creditos": true
