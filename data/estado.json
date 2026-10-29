@@ -423,12 +423,27 @@
    "partido": "Fluminense vs Internacional",
    "liga": "Brasil, Brasileirão",
    "inicio": "2026-10-28T17:30:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1793233567.1456559,
+   "estado": "liquidado",
+   "ultimo": 1793234176.387882,
    "clv": [],
    "clv_ok": false,
    "xi": "28017,102758,120107,279163,336354,430659,452767,543186,919758,3144702,64934362|79031,344226,570831,612803,3091821,3235788,38421152,40429890,50387690,52685662,75479787",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 2,
+    "ag": 1,
+    "ht": [
+     0,
+     0
+    ],
+    "corners": 13.0,
+    "corners_h": 8.0,
+    "corners_a": 5.0,
+    "corners_1t": 3.0,
+    "cards": 4.0,
+    "cards_h": 2.0,
+    "cards_a": 2.0
+   }
   },
   "4732659": {
    "partido": "Frosinone vs Lecce",
