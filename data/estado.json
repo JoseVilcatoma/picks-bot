@@ -131,32 +131,6 @@
     "cards_a": 1.0
    }
   },
-  "4760786": {
-   "partido": "ADT Tarma vs CD Moquegua",
-   "liga": "Perú, Liga 1 - Clausura",
-   "inicio": "2026-10-28T11:00:00-05:00",
-   "estado": "liquidado",
-   "ultimo": 1793210130.3741868,
-   "clv": [],
-   "clv_ok": false,
-   "xi": "225239,358569,457528,497371,541787,618875,3137770,47449751,54920557,70823016,72047532|319980,499074,514230,574428,618911,5258603,6590900,48577293,52708695,66862577,67974745",
-   "conf": true,
-   "r": {
-    "hg": 2,
-    "ag": 0,
-    "ht": [
-     1,
-     0
-    ],
-    "corners": 8.0,
-    "corners_h": 5.0,
-    "corners_a": 3.0,
-    "corners_1t": 2.0,
-    "cards": 8.0,
-    "cards_h": 4.0,
-    "cards_a": 4.0
-   }
-  },
   "4760788": {
    "partido": "Cienciano vs Grau",
    "liga": "Perú, Liga 1 - Clausura",
