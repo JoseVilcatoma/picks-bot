@@ -291,12 +291,27 @@
    "partido": "Grêmio vs Athletico Paranaense",
    "liga": "Brasil, Brasileirão",
    "inicio": "2026-10-29T19:30:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1793327148.9139218,
+   "estado": "liquidado",
+   "ultimo": 1793327756.7647693,
    "clv": [],
    "clv_ok": false,
    "xi": "399003,481004,497328,543870,555058,1858355,2725238,3246360,66583321,67955153,69472574|203068,2754101,3123906,3246351,6880090,15330300,52708689,66636343,66681996,67818682,71146348",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 2,
+    "ag": 0,
+    "ht": [
+     1,
+     0
+    ],
+    "corners": 14.0,
+    "corners_h": 6.0,
+    "corners_a": 8.0,
+    "corners_1t": 5.0,
+    "cards": 7.0,
+    "cards_h": 4.0,
+    "cards_a": 3.0
+   }
   },
   "4632621": {
    "partido": "Atlético Mineiro vs Cruzeiro",
@@ -484,12 +499,27 @@
    "partido": "FBC Melgar vs Comerciantes Unidos",
    "liga": "Perú, Liga 1 - Clausura",
    "inicio": "2026-10-29T19:30:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1793327149.1033154,
+   "estado": "liquidado",
+   "ultimo": 1793327757.1633084,
    "clv": [],
    "clv_ok": false,
    "xi": "137980,275266,347470,350022,648658,6708278,8379121,13334880,50627852,50635855,52833089|6410080,11958892,57047593,58602352,61637054,65033286,66663681,67627458,67936311,67955361,71147110",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 1,
+    "ag": 1,
+    "ht": [
+     1,
+     0
+    ],
+    "corners": 10.0,
+    "corners_h": 6.0,
+    "corners_a": 4.0,
+    "corners_1t": 3.0,
+    "cards": 7.0,
+    "cards_h": 2.0,
+    "cards_a": 5.0
+   }
   },
   "4760791": {
    "partido": "Sporting Cristal vs Alianza Lima",
