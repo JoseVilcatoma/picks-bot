@@ -2214,3 +2214,8 @@ fecha,game_id,partido,liga,tipo,mercado,clave,prob,cuota,casa,cuota_justa,ev,sta
 2026-10-30 12:06,4735221,Niza vs Rennes,"Francia, Ligue 1",modelo,Menos de 12.5 córners,CORN|12.5|under,0.7195,,,1.39,,,si,,,
 2026-10-30 12:06,4735221,Niza vs Rennes,"Francia, Ligue 1",ticket,Rennes recibe gol + Niza o empate,CS||visita_no&DC||1X,0.6266,1.76,,1.60,0.1008,10.00,,,,
 2026-10-30 12:06,4735221,Niza vs Rennes,"Francia, Ligue 1",crear,Menos de 4.5 goles + Menos de 15.5 córners + Menos de 8.5 tarjetas,OU|4.5|under&CORN|15.5|under&CARDS|8.5|under,0.5726,,,1.75,,,,,,
+2026-10-30 12:20,4735226,Le Havre vs PSG,"Francia, Ligue 1",seguro,Más de 0.5 goles en el 1T,OU1T|0.5|over,0.7138,1.22,Bet365,1.40,-0.1292,,si,,,
+2026-10-30 12:20,4735226,Le Havre vs PSG,"Francia, Ligue 1",seguro,Gana PSG,1X2||2,0.6304,1.33,Bet365,1.59,-0.1615,,si,,,
+2026-10-30 12:20,4735226,Le Havre vs PSG,"Francia, Ligue 1",modelo,Menos de 6.5 tarjetas,CARDS|6.5|under,0.8257,,,1.21,,,si,,,
+2026-10-30 12:20,4735226,Le Havre vs PSG,"Francia, Ligue 1",modelo,Más de 1.5 goles,OU|1.5|over,0.7853,,,1.27,,,si,,,
+2026-10-30 12:20,4735226,Le Havre vs PSG,"Francia, Ligue 1",crear,PSG o empate + Más de 1.5 goles + Más de 4.5 córners,DC||X2&OU|1.5|over&CORN|4.5|over,0.5862,,,1.71,,,,,,
