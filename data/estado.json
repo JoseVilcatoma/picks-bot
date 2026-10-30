@@ -483,8 +483,12 @@
    "partido": "Villarreal CF vs RCD Espanyol",
    "liga": "España, LaLiga",
    "inicio": "2026-10-30T15:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1793386888.14554
+   "estado": "enviado",
+   "ultimo": 1793387134.1021264,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "335047,336482,2793452,13313345,43875282,51147730,59016023,65211458,67627457,70892079,77617094|329279,3333331,9051014,51162060,56247324,58466098,64384015,71033944,75445278,77060079,79280518",
+   "conf": true
   },
   "4755354": {
    "partido": "SV 07 Elversberg vs Mainz 05",
@@ -502,7 +506,7 @@
    "liga": "Portugal, Primeira Liga",
    "inicio": "2026-10-30T15:15:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1793386888.253939
+   "ultimo": 1793387136.5335865
   },
   "4742013": {
    "partido": "Manchester City vs Brighton",
