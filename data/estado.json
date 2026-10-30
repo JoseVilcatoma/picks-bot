@@ -450,12 +450,27 @@
    "partido": "SV 07 Elversberg vs Mainz 05",
    "liga": "Alemania, Bundesliga",
    "inicio": "2026-10-30T14:30:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1793385412.825533,
+   "estado": "liquidado",
+   "ultimo": 1793395544.9954565,
    "clv": [],
    "clv_ok": false,
    "xi": "9692144,50799028,60134466,60870648,61457020,66359447,67633948,71340077,74664900,75399256,76165365|439872,488950,500733,508224,581528,2809566,3132952,3231067,51120783,67774532,77401906",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 4,
+    "ag": 1,
+    "ht": [
+     3,
+     0
+    ],
+    "corners": 16.0,
+    "corners_h": 5.0,
+    "corners_a": 11.0,
+    "corners_1t": 12.0,
+    "cards": 5.0,
+    "cards_h": 0.0,
+    "cards_a": 5.0
+   }
   },
   "4757191": {
    "partido": "Casa Pia AC vs Sporting CP",
