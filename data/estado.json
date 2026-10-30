@@ -439,12 +439,27 @@
    "partido": "Villarreal CF vs RCD Espanyol",
    "liga": "España, LaLiga",
    "inicio": "2026-10-30T15:00:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1793387134.1021264,
+   "estado": "liquidado",
+   "ultimo": 1793397373.9769707,
    "clv": [],
    "clv_ok": false,
    "xi": "335047,336482,2793452,13313345,43875282,51147730,59016023,65211458,67627457,70892079,77617094|329279,3333331,9051014,51162060,56247324,58466098,64384015,71033944,75445278,77060079,79280518",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 0,
+    "ag": 1,
+    "ht": [
+     0,
+     0
+    ],
+    "corners": 10.0,
+    "corners_h": 7.0,
+    "corners_a": 3.0,
+    "corners_1t": 5.0,
+    "cards": 6.0,
+    "cards_h": 3.0,
+    "cards_a": 3.0
+   }
   },
   "4755354": {
    "partido": "SV 07 Elversberg vs Mainz 05",
