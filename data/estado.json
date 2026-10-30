@@ -131,58 +131,6 @@
     "cards_a": 5.0
    }
   },
-  "4632622": {
-   "partido": "Bragantino vs Chapecoense",
-   "liga": "Brasil, Brasileirão",
-   "inicio": "2026-10-28T17:30:00-05:00",
-   "estado": "liquidado",
-   "ultimo": 1793233566.7394106,
-   "clv": [],
-   "clv_ok": false,
-   "xi": "242646,377132,888633,1302805,3079211,3311037,56162393,57889982,66162422,71359568,77715397|278865,401413,3070487,3272448,6347690,12677895,50469491,53329678,64810556,67613403,77190271",
-   "conf": true,
-   "r": {
-    "hg": 3,
-    "ag": 0,
-    "ht": [
-     1,
-     0
-    ],
-    "corners": 11.0,
-    "corners_h": 7.0,
-    "corners_a": 4.0,
-    "corners_1t": 7.0,
-    "cards": 0.0,
-    "cards_h": 0.0,
-    "cards_a": 0.0
-   }
-  },
-  "4632624": {
-   "partido": "Santos vs Palmeiras",
-   "liga": "Brasil, Brasileirão",
-   "inicio": "2026-10-28T17:30:00-05:00",
-   "estado": "liquidado",
-   "ultimo": 1793233566.9772725,
-   "clv": [],
-   "clv_ok": false,
-   "xi": "104066,479593,530809,543235,569870,3231386,9563934,60376096,76891180,76943195,77180994|334367,384001,552616,638801,659801,892506,3228073,5531840,54050192,65512282,66228710",
-   "conf": true,
-   "r": {
-    "hg": 0,
-    "ag": 0,
-    "ht": [
-     0,
-     0
-    ],
-    "corners": 4.0,
-    "corners_h": 1.0,
-    "corners_a": 3.0,
-    "corners_1t": 1.0,
-    "cards": 7.0,
-    "cards_h": 3.0,
-    "cards_a": 4.0
-   }
-  },
   "4632625": {
    "partido": "Vasco Da Gama vs Flamengo",
    "liga": "Brasil, Brasileirão",
@@ -206,32 +154,6 @@
     "corners_1t": 6.0,
     "cards": 2.0,
     "cards_h": 0.0,
-    "cards_a": 2.0
-   }
-  },
-  "4632627": {
-   "partido": "Fluminense vs Internacional",
-   "liga": "Brasil, Brasileirão",
-   "inicio": "2026-10-28T17:30:00-05:00",
-   "estado": "liquidado",
-   "ultimo": 1793234176.387882,
-   "clv": [],
-   "clv_ok": false,
-   "xi": "28017,102758,120107,279163,336354,430659,452767,543186,919758,3144702,64934362|79031,344226,570831,612803,3091821,3235788,38421152,40429890,50387690,52685662,75479787",
-   "conf": true,
-   "r": {
-    "hg": 2,
-    "ag": 1,
-    "ht": [
-     0,
-     0
-    ],
-    "corners": 13.0,
-    "corners_h": 8.0,
-    "corners_a": 5.0,
-    "corners_1t": 3.0,
-    "cards": 4.0,
-    "cards_h": 2.0,
     "cards_a": 2.0
    }
   },
