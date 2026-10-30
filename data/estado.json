@@ -558,8 +558,12 @@
    "partido": "Niza vs Rennes",
    "liga": "Francia, Ligue 1",
    "inicio": "2026-10-30T13:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1793379743.7134328
+   "estado": "enviado",
+   "ultimo": 1793379987.3124747,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "1766803,3413846,6261797,8770364,47429447,50568830,50676834,53769150,63192118,76875194,78409092|259180,489617,533912,637892,655566,3055980,9039245,51243145,51284167,71035001,76343359",
+   "conf": true
   },
   "4735225": {
    "partido": "Lille vs Lens",
@@ -573,7 +577,7 @@
    "liga": "Francia, Ligue 1",
    "inicio": "2026-10-30T13:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1793379743.8704576
+   "ultimo": 1793379988.3866997
   },
   "4750802": {
    "partido": "Villarreal CF vs RCD Espanyol",
