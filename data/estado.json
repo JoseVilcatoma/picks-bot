@@ -27,32 +27,6 @@
     "cards_a": 2.0
    }
   },
-  "4760790": {
-   "partido": "Alianza Atletico vs Deportivo Garcilaso",
-   "liga": "Perú, Liga 1 - Clausura",
-   "inicio": "2026-10-28T15:30:00-05:00",
-   "estado": "liquidado",
-   "ultimo": 1793226376.1559393,
-   "clv": [],
-   "clv_ok": false,
-   "xi": "506167,3222005,13891409,14016837,29976047,56700055,56897445,64866387,71345428,71885210,77715226|254603,514232,519405,537985,616408,890934,3138410,3347310,3768524,57621318,77006336",
-   "conf": true,
-   "r": {
-    "hg": 3,
-    "ag": 2,
-    "ht": [
-     3,
-     0
-    ],
-    "corners": 11.0,
-    "corners_h": 6.0,
-    "corners_a": 5.0,
-    "corners_1t": 6.0,
-    "cards": 2.0,
-    "cards_h": 0.0,
-    "cards_a": 2.0
-   }
-  },
   "4632617": {
    "partido": "Remo vs Botafogo",
    "liga": "Brasil, Brasileirão",
