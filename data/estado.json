@@ -510,12 +510,27 @@
    "partido": "Casa Pia AC vs Sporting CP",
    "liga": "Portugal, Primeira Liga",
    "inicio": "2026-10-30T15:15:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1793398237.3076968,
+   "estado": "liquidado",
+   "ultimo": 1793398849.097582,
    "clv": [],
    "clv_ok": false,
    "xi": "221087,560805,13686712,46866946,51802465,56749969,66219943,70855518,70953163,71690926,77071555|7244055,9157528,49491937,50072970,64317526,64656029,66084121,66850386,67636921,70860145,70939626",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 0,
+    "ag": 2,
+    "ht": [
+     0,
+     1
+    ],
+    "corners": 7.0,
+    "corners_h": 3.0,
+    "corners_a": 4.0,
+    "corners_1t": 2.0,
+    "cards": 4.0,
+    "cards_h": 2.0,
+    "cards_a": 2.0
+   }
   },
   "4742013": {
    "partido": "Manchester City vs Brighton",
