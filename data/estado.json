@@ -302,12 +302,27 @@
    "partido": "Atlético Mineiro vs Cruzeiro",
    "liga": "Brasil, Brasileirão",
    "inicio": "2026-10-29T17:30:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1793320004.0860121,
+   "estado": "liquidado",
+   "ultimo": 1793320611.6756098,
    "clv": [],
    "clv_ok": false,
    "xi": "518460,827596,843611,3154559,3374658,15304246,46933489,53667285,60977794,65622503,67640814|139950,349582,379632,901268,973471,9932355,51220667,67641750,70120060,70751572,76902279",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 0,
+    "ag": 1,
+    "ht": [
+     0,
+     1
+    ],
+    "corners": 9.0,
+    "corners_h": 7.0,
+    "corners_a": 2.0,
+    "corners_1t": 4.0,
+    "cards": 7.0,
+    "cards_h": 2.0,
+    "cards_a": 5.0
+   }
   },
   "4632622": {
    "partido": "Bragantino vs Chapecoense",
