@@ -803,6 +803,167 @@
    "inicio": "2026-10-31T15:30:00-05:00",
    "estado": "pendiente",
    "ultimo": 0
+  },
+  "4732644": {
+   "partido": "Lecce vs Genoa",
+   "liga": "Italia, Serie A",
+   "inicio": "2026-11-01T12:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4732645": {
+   "partido": "Lazio vs Cagliari",
+   "liga": "Italia, Serie A",
+   "inicio": "2026-11-01T09:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4732646": {
+   "partido": "Juventus vs Nápoles",
+   "liga": "Italia, Serie A",
+   "inicio": "2026-11-01T14:45:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4732647": {
+   "partido": "Frosinone vs Torino",
+   "liga": "Italia, Serie A",
+   "inicio": "2026-11-01T09:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4732648": {
+   "partido": "Como vs Venezia",
+   "liga": "Italia, Serie A",
+   "inicio": "2026-11-01T06:30:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4735219": {
+   "partido": "Estrasburgo vs Auxerre",
+   "liga": "Francia, Ligue 1",
+   "inicio": "2026-11-01T09:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4735220": {
+   "partido": "Paris FC vs Monaco",
+   "liga": "Francia, Ligue 1",
+   "inicio": "2026-11-01T11:15:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4735222": {
+   "partido": "Olympique Marsella vs Toulouse",
+   "liga": "Francia, Ligue 1",
+   "inicio": "2026-11-01T14:45:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4735223": {
+   "partido": "Lyon vs Angers",
+   "liga": "Francia, Ligue 1",
+   "inicio": "2026-11-01T11:15:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4742014": {
+   "partido": "Liverpool vs Arsenal",
+   "liga": "Inglaterra, Premier League",
+   "inicio": "2026-11-01T11:30:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4750804": {
+   "partido": "Racing de Santander vs Real Madrid",
+   "liga": "España, LaLiga",
+   "inicio": "2026-11-01T10:15:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4750806": {
+   "partido": "Getafe CF vs Sevilla FC",
+   "liga": "España, LaLiga",
+   "inicio": "2026-11-01T08:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4750808": {
+   "partido": "Elche CF vs Valencia CF",
+   "liga": "España, LaLiga",
+   "inicio": "2026-11-01T12:30:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4750811": {
+   "partido": "Athletic Club vs Real Sociedad",
+   "liga": "España, LaLiga",
+   "inicio": "2026-11-01T15:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4755358": {
+   "partido": "Union Berlin vs 1. FC Köln",
+   "liga": "Alemania, Bundesliga",
+   "inicio": "2026-11-01T09:30:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4755360": {
+   "partido": "Eintracht Frankfurt vs Hamburgo SV",
+   "liga": "Alemania, Bundesliga",
+   "inicio": "2026-11-01T11:30:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4757187": {
+   "partido": "Viseu vs Rio Ave",
+   "liga": "Portugal, Primeira Liga",
+   "inicio": "2026-11-01T13:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4757188": {
+   "partido": "Arouca vs Nacional Madeira",
+   "liga": "Portugal, Primeira Liga",
+   "inicio": "2026-11-01T10:30:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4757189": {
+   "partido": "SC Braga vs Famalicão",
+   "liga": "Portugal, Primeira Liga",
+   "inicio": "2026-11-01T15:30:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4757193": {
+   "partido": "Maritimo vs Santa Clara",
+   "liga": "Portugal, Primeira Liga",
+   "inicio": "2026-11-01T13:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4760776": {
+   "partido": "CD Moquegua vs Los Chankas",
+   "liga": "Perú, Liga 1 - Clausura",
+   "inicio": "2026-11-01T11:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4760777": {
+   "partido": "Cusco FC vs Sport Boys",
+   "liga": "Perú, Liga 1 - Clausura",
+   "inicio": "2026-11-01T13:15:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4760779": {
+   "partido": "Grau vs Universitario",
+   "liga": "Perú, Liga 1 - Clausura",
+   "inicio": "2026-11-01T15:30:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
   }
  },
  "web": {
@@ -926,7 +1087,30 @@
   "4755364": 1793295998317,
   "4757192": 1793295999388,
   "4757195": 1793295999669,
-  "4760784": 1793296003240
+  "4760784": 1793296003240,
+  "4732644": 1793330673961,
+  "4732645": 1793330672805,
+  "4732646": 1793330674256,
+  "4732647": 1793330673197,
+  "4732648": 1793330672468,
+  "4735219": 1793330677650,
+  "4735220": 1793330677959,
+  "4735222": 1793330678641,
+  "4735223": 1793330678282,
+  "4742014": 1793330685025,
+  "4750804": 1793330675483,
+  "4750806": 1793330675207,
+  "4750808": 1793330676090,
+  "4750811": 1793330676463,
+  "4755358": 1793330679669,
+  "4755360": 1793330679978,
+  "4757187": 1793330681888,
+  "4757188": 1793330680797,
+  "4757189": 1793330682553,
+  "4757193": 1793330682214,
+  "4760776": 1793330683309,
+  "4760777": 1793330683655,
+  "4760779": 1793330684061
  },
  "tickets": [],
  "sin_creditos": true
