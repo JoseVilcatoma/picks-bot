@@ -402,12 +402,27 @@
    "partido": "Niza vs Rennes",
    "liga": "Francia, Ligue 1",
    "inicio": "2026-10-30T13:00:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1793379987.3124747,
+   "estado": "liquidado",
+   "ultimo": 1793390197.6622689,
    "clv": [],
    "clv_ok": false,
    "xi": "1766803,3413846,6261797,8770364,47429447,50568830,50676834,53769150,63192118,76875194,78409092|259180,489617,533912,637892,655566,3055980,9039245,51243145,51284167,71035001,76343359",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 5,
+    "ag": 2,
+    "ht": [
+     3,
+     1
+    ],
+    "corners": 11.0,
+    "corners_h": 4.0,
+    "corners_a": 7.0,
+    "corners_1t": 7.0,
+    "cards": 7.0,
+    "cards_h": 4.0,
+    "cards_a": 3.0
+   }
   },
   "4735225": {
    "partido": "Lille vs Lens",
@@ -424,12 +439,27 @@
    "partido": "Le Havre vs PSG",
    "liga": "Francia, Ligue 1",
    "inicio": "2026-10-30T13:00:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1793380845.2249882,
+   "estado": "liquidado",
+   "ultimo": 1793390198.116337,
    "clv": [],
    "clv_ok": false,
    "xi": "3096531,3153832,3343493,14468763,58990402,65615241,67967137,77001981,77038841,78983373,79219363|228272,485723,3169055,3171738,3948590,50754213,64040929,66206302,67181711,70951406,77106374",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 1,
+    "ag": 5,
+    "ht": [
+     1,
+     2
+    ],
+    "corners": 8.0,
+    "corners_h": 5.0,
+    "corners_a": 3.0,
+    "corners_1t": 3.0,
+    "cards": 0.0,
+    "cards_h": 0.0,
+    "cards_a": 0.0
+   }
   },
   "4750802": {
    "partido": "Villarreal CF vs RCD Espanyol",
