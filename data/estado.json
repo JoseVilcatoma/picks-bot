@@ -596,8 +596,12 @@
    "partido": "Real Betis vs Málaga CF",
    "liga": "España, LaLiga",
    "inicio": "2026-10-31T12:30:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1793464192.2528865
+   "estado": "enviado",
+   "ultimo": 1793464438.5938232,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "106049,158746,435115,976812,3143139,18094605,30121643,30465820,46854548,50896962,62694855|446896,3150477,3564140,49709300,49954430,62350130,64368032,70891971,70953535,71694662,77184029",
+   "conf": true
   },
   "4755355": {
    "partido": "Schalke 04 vs RB Leipzig",
@@ -734,7 +738,7 @@
    "liga": "Alemania, Bundesliga",
    "inicio": "2026-10-31T12:30:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1793464192.338929
+   "ultimo": 1793464440.4809465
   },
   "4757192": {
    "partido": "Moreirense vs Estrela da Amadora",
