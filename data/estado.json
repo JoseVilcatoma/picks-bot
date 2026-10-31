@@ -499,12 +499,27 @@
    "partido": "AC Milan vs Inter Milan",
    "liga": "Italia, Serie A",
    "inicio": "2026-10-31T14:45:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1793482901.569222,
+   "estado": "liquidado",
+   "ultimo": 1793483509.0302372,
    "clv": [],
    "clv_ok": false,
    "xi": "26984,308108,513713,2055909,28043772,49915522,50790794,52683634,61032003,63094718,66983607|342428,458646,511549,886858,3071407,3161656,4802874,6251312,43957321,58810177,67771832",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 3,
+    "ag": 1,
+    "ht": [
+     3,
+     1
+    ],
+    "corners": 14.0,
+    "corners_h": 3.0,
+    "corners_a": 11.0,
+    "corners_1t": 8.0,
+    "cards": 3.0,
+    "cards_h": 2.0,
+    "cards_a": 1.0
+   }
   },
   "4732649": {
    "partido": "Bologna vs Monza",
