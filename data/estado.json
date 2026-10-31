@@ -157,32 +157,6 @@
     "cards_a": 4.0
    }
   },
-  "4760793": {
-   "partido": "Los Chankas vs Cusco FC",
-   "liga": "Perú, Liga 1 - Clausura",
-   "inicio": "2026-10-29T13:00:00-05:00",
-   "estado": "liquidado",
-   "ultimo": 1793304423.5802004,
-   "clv": [],
-   "clv_ok": false,
-   "xi": "615398,3182404,6593783,7863154,13093514,13884537,47420072,54842240,56700220,59045608,72047163|541797,547480,612085,832539,838440,2809735,3218454,3366544,14220059,47407662,47455797",
-   "conf": true,
-   "r": {
-    "hg": 0,
-    "ag": 1,
-    "ht": [
-     0,
-     0
-    ],
-    "corners": 7.0,
-    "corners_h": 4.0,
-    "corners_a": 3.0,
-    "corners_1t": 3.0,
-    "cards": 5.0,
-    "cards_h": 3.0,
-    "cards_a": 2.0
-   }
-  },
   "4632623": {
    "partido": "Corinthians vs Mirassol",
    "liga": "Brasil, Brasileirão",
@@ -526,7 +500,7 @@
    "liga": "Brasil, Brasileirão",
    "inicio": "2026-10-31T14:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1793469452.5888772
+   "ultimo": 1793469696.7238975
   },
   "4732641": {
    "partido": "Udinese vs AS Roma",
