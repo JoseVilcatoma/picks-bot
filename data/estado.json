@@ -510,12 +510,27 @@
    "partido": "Udinese vs AS Roma",
    "liga": "Italia, Serie A",
    "inicio": "2026-10-31T12:00:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1793463567.9299388,
+   "estado": "liquidado",
+   "ultimo": 1793472995.5600483,
    "clv": [],
    "clv_ok": false,
    "xi": "375123,489221,529485,2383725,3052014,3209608,4882805,47484495,66220481,66627147,72688033|280305,329430,542399,941464,1966291,3087180,3143068,60980758,64431234,65528561,70861688",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 2,
+    "ag": 5,
+    "ht": [
+     0,
+     4
+    ],
+    "corners": 11.0,
+    "corners_h": 7.0,
+    "corners_a": 4.0,
+    "corners_1t": 5.0,
+    "cards": 2.0,
+    "cards_h": 1.0,
+    "cards_a": 1.0
+   }
   },
   "4732643": {
    "partido": "AC Milan vs Inter Milan",
