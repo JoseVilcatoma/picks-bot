@@ -428,12 +428,27 @@
    "partido": "Chelsea vs Manchester United",
    "liga": "Inglaterra, Premier League",
    "inicio": "2026-10-31T07:30:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1793456710.6112556,
+   "estado": "liquidado",
+   "ultimo": 1793457320.4107306,
    "clv": [],
    "clv_ok": false,
    "xi": "2558704,17018827,39270918,49733543,54701553,54943579,60927957,67122760,67747139,67989376,71073935|332598,435334,3558647,4201425,6813762,6835961,40765000,50729542,65131542,65397189,65521968",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 2,
+    "ag": 0,
+    "ht": [
+     0,
+     0
+    ],
+    "corners": 15.0,
+    "corners_h": 8.0,
+    "corners_a": 7.0,
+    "corners_1t": 9.0,
+    "cards": 7.0,
+    "cards_h": 1.0,
+    "cards_a": 6.0
+   }
   },
   "4742018": {
    "partido": "Brentford vs Nottingham Forest",
@@ -613,7 +628,7 @@
    "liga": "Portugal, Primeira Liga",
    "inicio": "2026-10-31T10:30:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1793457076.6039588
+   "ultimo": 1793457320.7855828
   },
   "4757195": {
    "partido": "FC Porto vs Estoril",
