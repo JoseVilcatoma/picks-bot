@@ -213,12 +213,27 @@
    "partido": "Corinthians vs Mirassol",
    "liga": "Brasil, Brasileirão",
    "inicio": "2026-10-30T18:00:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1793408141.4651256,
+   "estado": "liquidado",
+   "ultimo": 1793408749.412628,
    "clv": [],
    "clv_ok": false,
    "xi": "376333,433045,472811,2479509,3235790,6687134,9289348,16699960,66083960,67631833,77409182|28189,543250,545444,547799,3092063,6663965,12677899,65016772,65555265,66558006,75394285",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 2,
+    "ag": 0,
+    "ht": [
+     0,
+     0
+    ],
+    "corners": 6.0,
+    "corners_h": 4.0,
+    "corners_a": 2.0,
+    "corners_1t": 3.0,
+    "cards": 4.0,
+    "cards_h": 2.0,
+    "cards_a": 2.0
+   }
   },
   "4735221": {
    "partido": "Niza vs Rennes",
