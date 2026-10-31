@@ -2345,3 +2345,8 @@ fecha,game_id,partido,liga,tipo,mercado,clave,prob,cuota,casa,cuota_justa,ev,sta
 2026-10-31 11:34,4750809,Real Betis vs Málaga CF,"España, LaLiga",modelo,Más de 1.5 goles,OU|1.5|over,0.8199,,,1.22,,,si,,,
 2026-10-31 11:34,4750809,Real Betis vs Málaga CF,"España, LaLiga",modelo,Menos de 6.5 tarjetas,CARDS|6.5|under,0.7300,,,1.37,,,si,,,
 2026-10-31 11:34,4750809,Real Betis vs Málaga CF,"España, LaLiga",crear,Real Betis o empate + Más de 1.5 goles + Menos de 12.5 córners,DC||1X&OU|1.5|over&CORN|12.5|under,0.5877,,,1.70,,,,,,
+2026-10-31 11:42,4755364,Bayern Munich vs Borussia Dortmund,"Alemania, Bundesliga",seguro,Más de 2.5 goles,OU|2.5|over,0.6940,1.25,Bet365,1.44,-0.1325,,si,,,
+2026-10-31 11:42,4755364,Bayern Munich vs Borussia Dortmund,"Alemania, Bundesliga",seguro,Gana Bayern Munich,1X2||1,0.6549,1.33,Bet365,1.53,-0.1290,,si,,,
+2026-10-31 11:42,4755364,Bayern Munich vs Borussia Dortmund,"Alemania, Bundesliga",modelo,Más de 1.5 goles,OU|1.5|over,0.8695,,,1.15,,,si,,,
+2026-10-31 11:42,4755364,Bayern Munich vs Borussia Dortmund,"Alemania, Bundesliga",modelo,Menos de 6.5 tarjetas,CARDS|6.5|under,0.8086,,,1.24,,,si,,,
+2026-10-31 11:42,4755364,Bayern Munich vs Borussia Dortmund,"Alemania, Bundesliga",crear,Bayern Munich o empate + Menos de 5.5 goles + Más de 6.5 córners,DC||1X&OU|5.5|under&CORN|6.5|over,0.5873,,,1.70,,,,,,

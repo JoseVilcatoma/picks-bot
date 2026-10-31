@@ -737,8 +737,12 @@
    "partido": "Bayern Munich vs Borussia Dortmund",
    "liga": "Alemania, Bundesliga",
    "inicio": "2026-10-31T12:30:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1793464686.532816
+   "estado": "enviado",
+   "ultimo": 1793464930.4575002,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "227604,405496,470279,485309,898082,3095573,6450095,14755144,50607749,60976669,67864491|379069,943391,3276664,15028852,38249831,47516152,49359943,50878796,51042327,64350505,70951404",
+   "conf": true
   },
   "4757192": {
    "partido": "Moreirense vs Estrela da Amadora",
