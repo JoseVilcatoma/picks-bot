@@ -1,32 +1,6 @@
 {
  "offset": 344577788,
  "seguidos": {
-  "4760788": {
-   "partido": "Cienciano vs Grau",
-   "liga": "Perú, Liga 1 - Clausura",
-   "inicio": "2026-10-28T19:00:00-05:00",
-   "estado": "liquidado",
-   "ultimo": 1793239537.0364902,
-   "clv": [],
-   "clv_ok": false,
-   "xi": "461402,470008,578343,591032,617159,3086656,3170524,3210157,4366058,47991870,64944309|556341,890895,1858727,2547425,3123514,3172114,3218403,65227415,66107234,67756953,72468725",
-   "conf": true,
-   "r": {
-    "hg": 3,
-    "ag": 0,
-    "ht": [
-     0,
-     0
-    ],
-    "corners": 12.0,
-    "corners_h": 7.0,
-    "corners_a": 5.0,
-    "corners_1t": 5.0,
-    "cards": 3.0,
-    "cards_h": 1.0,
-    "cards_a": 2.0
-   }
-  },
   "4632617": {
    "partido": "Remo vs Botafogo",
    "liga": "Brasil, Brasileirão",
