@@ -536,8 +536,12 @@
    "partido": "AC Milan vs Inter Milan",
    "liga": "Italia, Serie A",
    "inicio": "2026-10-31T14:45:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1793472872.698035
+   "estado": "enviado",
+   "ultimo": 1793473120.4896934,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "26984,308108,513713,2055909,28043772,49915522,50790794,52683634,61032003,63094718,66983607|342428,458646,511549,886858,3071407,3161656,4802874,6251312,43957321,58810177,67771832",
+   "conf": true
   },
   "4732649": {
    "partido": "Bologna vs Monza",
@@ -580,8 +584,12 @@
    "partido": "Aston Villa vs Fulham",
    "liga": "Inglaterra, Premier League",
    "inicio": "2026-10-31T15:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1793472872.8208675
+   "estado": "enviado",
+   "ultimo": 1793473121.5878663,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "327324,345565,501604,534043,3132520,3711904,4832569,15244101,52355416,71391398,74392670|334784,441799,598010,841159,8950563,50208640,55239130,61717953,65848500,68056120,75402193",
+   "conf": true
   },
   "4742029": {
    "partido": "Tottenham vs Crystal Palace",
@@ -651,7 +659,7 @@
    "liga": "España, LaLiga",
    "inicio": "2026-10-31T15:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1793472872.9039512
+   "ultimo": 1793473139.3093493
   },
   "4750809": {
    "partido": "Real Betis vs Málaga CF",
