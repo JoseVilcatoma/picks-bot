@@ -684,12 +684,27 @@
    "partido": "Real Betis vs Málaga CF",
    "liga": "España, LaLiga",
    "inicio": "2026-10-31T12:30:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1793474733.8011696,
+   "estado": "liquidado",
+   "ultimo": 1793475351.5276961,
    "clv": [],
    "clv_ok": false,
    "xi": "106049,158746,435115,976812,3143139,18094605,30121643,30465820,46854548,50896962,62694855|446896,3150477,3564140,49709300,49954430,62350130,64368032,70891971,70953535,71694662,77184029",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 2,
+    "ag": 1,
+    "ht": [
+     2,
+     0
+    ],
+    "corners": 13.0,
+    "corners_h": 10.0,
+    "corners_a": 3.0,
+    "corners_1t": 6.0,
+    "cards": 4.0,
+    "cards_h": 2.0,
+    "cards_a": 2.0
+   }
   },
   "4755355": {
    "partido": "Schalke 04 vs RB Leipzig",
@@ -825,12 +840,27 @@
    "partido": "Bayern Munich vs Borussia Dortmund",
    "liga": "Alemania, Bundesliga",
    "inicio": "2026-10-31T12:30:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1793474733.885097,
+   "estado": "liquidado",
+   "ultimo": 1793475351.784185,
    "clv": [],
    "clv_ok": false,
    "xi": "227604,405496,470279,485309,898082,3095573,6450095,14755144,50607749,60976669,67864491|379069,943391,3276664,15028852,38249831,47516152,49359943,50878796,51042327,64350505,70951404",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 2,
+    "ag": 2,
+    "ht": [
+     1,
+     0
+    ],
+    "corners": 7.0,
+    "corners_h": 5.0,
+    "corners_a": 2.0,
+    "corners_1t": 1.0,
+    "cards": 3.0,
+    "cards_h": 2.0,
+    "cards_a": 1.0
+   }
   },
   "4757192": {
    "partido": "Moreirense vs Estrela da Amadora",
@@ -863,7 +893,7 @@
    "liga": "Portugal, Primeira Liga",
    "inicio": "2026-10-31T15:30:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1793475103.031368
+   "ultimo": 1793475352.0158963
   },
   "4760784": {
    "partido": "Alianza Atletico vs Juan Pablo II College",
