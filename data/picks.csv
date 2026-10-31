@@ -2372,3 +2372,6 @@ fecha,game_id,partido,liga,tipo,mercado,clave,prob,cuota,casa,cuota_justa,ev,sta
 2026-10-31 13:58,4742019,Aston Villa vs Fulham,"Inglaterra, Premier League",modelo,Menos de 6.5 tarjetas,CARDS|6.5|under,0.7140,,,1.40,,,si,,,
 2026-10-31 13:58,4742019,Aston Villa vs Fulham,"Inglaterra, Premier League",modelo,Menos de 13.5 córners,CORN|13.5|under,0.7090,,,1.41,,,si,,,
 2026-10-31 13:58,4742019,Aston Villa vs Fulham,"Inglaterra, Premier League",crear,Menos de 4.5 goles + Más de 6.5 córners + Menos de 8.5 tarjetas,OU|4.5|under&CORN|6.5|over&CARDS|8.5|under,0.5765,,,1.73,,,,,,
+2026-10-31 14:11,4750807,FC Barcelona vs Alavés,"España, LaLiga",modelo,Menos de 6.5 tarjetas,CARDS|6.5|under,0.8257,,,1.21,,,si,,,
+2026-10-31 14:11,4750807,FC Barcelona vs Alavés,"España, LaLiga",modelo,Más de 5.5 córners,CORN|5.5|over,0.7191,,,1.39,,,si,,,
+2026-10-31 14:11,4750807,FC Barcelona vs Alavés,"España, LaLiga",crear,No hay empate + Más de 4.5 córners + Más de 0.5 tarjetas,DC||12&CORN|4.5|over&CARDS|0.5|over,0.5571,,,1.79,,,,,,
