@@ -514,8 +514,12 @@
    "partido": "Rayo Vallecano vs Celta de Vigo",
    "liga": "España, LaLiga",
    "inicio": "2026-10-31T10:15:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1793455730.286977
+   "estado": "enviado",
+   "ultimo": 1793455973.8980012,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "379362,392629,416286,489306,530676,912959,1384725,3205166,8165281,13439688,46477641|889139,3086651,3483114,4232616,54721275,61322133,64152922,70855872,71060391,72695371,72695372",
+   "conf": true
   },
   "4750805": {
    "partido": "Levante UD vs Atlético de Madrid",
