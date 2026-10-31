@@ -522,7 +522,7 @@
    "liga": "Italia, Serie A",
    "inicio": "2026-10-31T14:45:00-05:00",
    "estado": "pendiente",
-   "ultimo": 0
+   "ultimo": 1793471403.7008777
   },
   "4732649": {
    "partido": "Bologna vs Monza",
@@ -554,8 +554,12 @@
    "partido": "Troyes vs Le Mans",
    "liga": "Francia, Ligue 1",
    "inicio": "2026-10-31T14:45:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 0
+   "estado": "enviado",
+   "ultimo": 1793471403.8289146,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "326286,15242983,38273453,50682939,50810316,66534684,66662859,67878051,70855197,71328715,75439759|917090,1841519,3865790,16137941,50683665,52916063,62975357,64816018,76541349,77374568,77374570",
+   "conf": true
   },
   "4742019": {
    "partido": "Aston Villa vs Fulham",
