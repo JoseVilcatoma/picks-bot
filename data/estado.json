@@ -416,8 +416,12 @@
    "partido": "Chelsea vs Manchester United",
    "liga": "Inglaterra, Premier League",
    "inicio": "2026-10-31T07:30:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1793445817.9786985
+   "estado": "enviado",
+   "ultimo": 1793446061.9727437,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "2558704,17018827,39270918,49733543,54701553,54943579,60927957,67122760,67747139,67989376,71073935|332598,435334,3558647,4201425,6813762,6835961,40765000,50729542,65131542,65397189,65521968",
+   "conf": true
   },
   "4742018": {
    "partido": "Brentford vs Nottingham Forest",
