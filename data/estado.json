@@ -577,12 +577,27 @@
    "partido": "Aston Villa vs Fulham",
    "liga": "Inglaterra, Premier League",
    "inicio": "2026-10-31T15:00:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1793483758.2531068,
+   "estado": "liquidado",
+   "ultimo": 1793484371.4324162,
    "clv": [],
    "clv_ok": false,
    "xi": "327324,345565,501604,534043,3132520,3711904,4832569,15244101,52355416,71391398,74392670|334784,441799,598010,841159,8950563,50208640,55239130,61717953,65848500,68056120,75402193",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 1,
+    "ag": 1,
+    "ht": [
+     1,
+     0
+    ],
+    "corners": 14.0,
+    "corners_h": 7.0,
+    "corners_a": 7.0,
+    "corners_1t": 7.0,
+    "cards": 4.0,
+    "cards_h": 1.0,
+    "cards_a": 3.0
+   }
   },
   "4742029": {
    "partido": "Tottenham vs Crystal Palace",
@@ -666,12 +681,27 @@
    "partido": "FC Barcelona vs Alavés",
    "liga": "España, LaLiga",
    "inicio": "2026-10-31T15:00:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1793483758.6987848,
+   "estado": "liquidado",
+   "ultimo": 1793484372.1265953,
    "clv": [],
    "clv_ok": false,
    "xi": "384197,888484,1444592,1761371,33309233,40179660,52343752,63765805,67787784,70894814,71046688|333584,444306,475853,536869,661200,3061320,3183042,67617790,70865617,70991943,76964282",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 6,
+    "ag": 1,
+    "ht": [
+     4,
+     0
+    ],
+    "corners": 6.0,
+    "corners_h": 3.0,
+    "corners_a": 3.0,
+    "corners_1t": 5.0,
+    "cards": 5.0,
+    "cards_h": 2.0,
+    "cards_a": 3.0
+   }
   },
   "4750809": {
    "partido": "Real Betis vs Málaga CF",
