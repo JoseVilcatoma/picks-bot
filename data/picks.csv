@@ -2253,3 +2253,8 @@ fecha,game_id,partido,liga,tipo,mercado,clave,prob,cuota,casa,cuota_justa,ev,sta
 2026-10-31 06:27,4742017,Chelsea vs Manchester United,"Inglaterra, Premier League",modelo,Menos de 11.5 córners,CORN|11.5|under,0.7399,,,1.35,,,si,,,
 2026-10-31 06:27,4742017,Chelsea vs Manchester United,"Inglaterra, Premier League",modelo,Más de 2.5 tarjetas,CARDS|2.5|over,0.7146,,,1.40,,,si,,,
 2026-10-31 06:27,4742017,Chelsea vs Manchester United,"Inglaterra, Premier League",ticket,Chelsea recibe gol + Manchester United o empate,CS||local_no&DC||X2,0.5343,2.20,,1.87,0.1772,10.00,,,,
+2026-10-31 07:10,4750805,Levante UD vs Atlético de Madrid,"España, LaLiga",seguro,No hay empate,DC||12,0.7665,1.18,Bet365,1.30,-0.0956,,si,,,
+2026-10-31 07:10,4750805,Levante UD vs Atlético de Madrid,"España, LaLiga",seguro,Más de 0.5 goles en el 1T,OU1T|0.5|over,0.7148,1.25,Bet365,1.40,-0.1064,,si,,,
+2026-10-31 07:10,4750805,Levante UD vs Atlético de Madrid,"España, LaLiga",modelo,Más de 1.5 goles,OU|1.5|over,0.7717,,,1.30,,,si,,,
+2026-10-31 07:10,4750805,Levante UD vs Atlético de Madrid,"España, LaLiga",modelo,Menos de 11.5 córners,CORN|11.5|under,0.7314,,,1.37,,,si,,,
+2026-10-31 07:10,4750805,Levante UD vs Atlético de Madrid,"España, LaLiga",crear,Atlético de Madrid o empate + Más de 4.5 córners + Menos de 8.5 tarjetas,DC||X2&CORN|4.5|over&CARDS|8.5|under,0.5616,,,1.78,,,,,,
