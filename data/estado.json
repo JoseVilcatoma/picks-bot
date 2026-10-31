@@ -541,8 +541,12 @@
    "partido": "Tottenham vs Crystal Palace",
    "liga": "Inglaterra, Premier League",
    "inicio": "2026-10-31T12:30:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1793463938.7921236
+   "estado": "enviado",
+   "ultimo": 1793464188.760789,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "354502,512287,4785473,4870623,14775530,49463074,60978968,63108549,64522138,66565948,67877824|571198,834589,1838950,3157652,3232280,8186925,49658641,50484078,52342774,64697647,75390595",
+   "conf": true
   },
   "4750803": {
    "partido": "Rayo Vallecano vs Celta de Vigo",
@@ -593,7 +597,7 @@
    "liga": "España, LaLiga",
    "inicio": "2026-10-31T12:30:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1793463938.9028234
+   "ultimo": 1793464192.2528865
   },
   "4755355": {
    "partido": "Schalke 04 vs RB Leipzig",
@@ -730,7 +734,7 @@
    "liga": "Alemania, Bundesliga",
    "inicio": "2026-10-31T12:30:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1793463940.23445
+   "ultimo": 1793464192.338929
   },
   "4757192": {
    "partido": "Moreirense vs Estrela da Amadora",
