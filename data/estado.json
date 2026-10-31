@@ -538,21 +538,25 @@
    "liga": "Alemania, Bundesliga",
    "inicio": "2026-10-31T09:30:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1793453750.8287096
+   "ultimo": 1793453994.8888092
   },
   "4755357": {
    "partido": "Borussia Mönchengladbach vs SC Paderborn 07",
    "liga": "Alemania, Bundesliga",
    "inicio": "2026-10-31T09:30:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1793453751.0823605
+   "ultimo": 1793453995.0961888
   },
   "4755359": {
    "partido": "FC Augsburg vs Friburgo",
    "liga": "Alemania, Bundesliga",
    "inicio": "2026-10-31T09:30:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1793453751.1739395
+   "estado": "enviado",
+   "ultimo": 1793453995.189769,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "220799,334820,6009963,7041874,15399180,44364810,51185449,52013613,64192496,64687233,75383430|220585,359225,408400,418057,593193,3071285,49988887,61066404,66221753,70767985,70780165",
+   "conf": true
   },
   "4755361": {
    "partido": "Bayer Leverkusen vs Stuttgart",
