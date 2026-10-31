@@ -915,12 +915,27 @@
    "partido": "Alianza Atletico vs Juan Pablo II College",
    "liga": "Perú, Liga 1 - Clausura",
    "inicio": "2026-10-31T15:30:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1793485601.9648256,
+   "estado": "liquidado",
+   "ultimo": 1793486218.643321,
    "clv": [],
    "clv_ok": false,
    "xi": "614516,3222005,3384002,14016837,29976047,56651796,56700055,56897445,67902596,71885210,77715226|484523,1839203,2803564,3370754,14220056,14627599,64944305,67119647,67165511,67899346,67977474",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 1,
+    "ag": 0,
+    "ht": [
+     0,
+     0
+    ],
+    "corners": 11.0,
+    "corners_h": 6.0,
+    "corners_a": 5.0,
+    "corners_1t": 5.0,
+    "cards": 4.0,
+    "cards_h": 1.0,
+    "cards_a": 3.0
+   }
   },
   "4732644": {
    "partido": "Lecce vs Genoa",
