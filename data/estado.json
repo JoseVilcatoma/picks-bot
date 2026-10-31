@@ -395,22 +395,30 @@
    "partido": "Manchester City vs Brighton",
    "liga": "Inglaterra, Premier League",
    "inicio": "2026-10-31T10:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1793454618.2948925
+   "estado": "enviado",
+   "ultimo": 1793454862.3181517,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "620429,1391166,3072169,8048871,25999342,48394475,49491936,51439135,55058114,67820202,71003385|236532,624429,891006,35002742,46557681,50058583,53614148,65296564,67771434,70953229,71047802",
+   "conf": true
   },
   "4742015": {
    "partido": "Hull City vs Ipswich",
    "liga": "Inglaterra, Premier League",
    "inicio": "2026-10-31T10:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1793454618.4941714
+   "estado": "enviado",
+   "ultimo": 1793454863.9136086,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "435138,526669,1381354,1761369,8663013,49727649,51755120,60362691,62416928,67935655,70798951|534537,1140554,1404731,3153685,10968460,32246907,44421294,56421007,64721834,65255094,71354644",
+   "conf": true
   },
   "4742016": {
    "partido": "Coventry vs Sunderland",
    "liga": "Inglaterra, Premier League",
    "inicio": "2026-10-31T10:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1793454618.6063592
+   "ultimo": 1793454865.769217
   },
   "4742017": {
    "partido": "Chelsea vs Manchester United",
@@ -428,14 +436,14 @@
    "liga": "Inglaterra, Premier League",
    "inicio": "2026-10-31T10:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1793454618.698076
+   "ultimo": 1793454865.8576455
   },
   "4742020": {
    "partido": "Bournemouth vs Leeds United",
    "liga": "Inglaterra, Premier League",
    "inicio": "2026-10-31T10:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1793454618.7966437
+   "ultimo": 1793454865.9484074
   },
   "4632619": {
    "partido": "Coritiba vs Vitória",
