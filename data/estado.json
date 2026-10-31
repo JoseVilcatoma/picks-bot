@@ -526,36 +526,44 @@
    "partido": "Schalke 04 vs RB Leipzig",
    "liga": "Alemania, Bundesliga",
    "inicio": "2026-10-31T09:30:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1793453254.287252
+   "estado": "enviado",
+   "ultimo": 1793453500.0553412,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "334751,420080,938102,3345229,29409781,43495348,50080221,65396639,65670937,75232828,77161148|565116,943400,3180934,8048881,51131240,58698523,59101484,61211738,62453007,64157972,67628271",
+   "conf": true
   },
   "4755356": {
    "partido": "Werder Bremen vs Hoffenheim",
    "liga": "Alemania, Bundesliga",
    "inicio": "2026-10-31T09:30:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1793453254.3803585
+   "ultimo": 1793453502.3199978
   },
   "4755357": {
    "partido": "Borussia Mönchengladbach vs SC Paderborn 07",
    "liga": "Alemania, Bundesliga",
    "inicio": "2026-10-31T09:30:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1793453254.4720435
+   "ultimo": 1793453502.4164124
   },
   "4755359": {
    "partido": "FC Augsburg vs Friburgo",
    "liga": "Alemania, Bundesliga",
    "inicio": "2026-10-31T09:30:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1793453254.5711057
+   "ultimo": 1793453502.5052226
   },
   "4755361": {
    "partido": "Bayer Leverkusen vs Stuttgart",
    "liga": "Alemania, Bundesliga",
    "inicio": "2026-10-31T09:30:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1793453254.6610947
+   "estado": "enviado",
+   "ultimo": 1793453502.5960484,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "495388,511863,529388,613840,7180298,30803774,50172386,56555504,63792363,67787322,67900705|659085,982954,3726834,5332356,6241304,31371955,50497594,50665104,64473697,65139386,67921132",
+   "conf": true
   },
   "4755364": {
    "partido": "Bayern Munich vs Borussia Dortmund",
