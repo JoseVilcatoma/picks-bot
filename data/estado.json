@@ -1045,12 +1045,27 @@
    "partido": "Athletic Club vs Real Sociedad",
    "liga": "España, LaLiga",
    "inicio": "2026-11-01T15:00:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1793570129.6632729,
+   "estado": "liquidado",
+   "ultimo": 1793570749.8003428,
    "clv": [],
    "clv_ok": false,
    "xi": "137290,330097,428230,914591,987911,8280928,54368445,65561822,75384403,76993424,77382984|541991,571305,627873,941400,1404536,12241544,15288590,50752876,67466102,70953097,75437926",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 2,
+    "ag": 1,
+    "ht": [
+     2,
+     1
+    ],
+    "corners": 13.0,
+    "corners_h": 5.0,
+    "corners_a": 8.0,
+    "corners_1t": 7.0,
+    "cards": 5.0,
+    "cards_h": 2.0,
+    "cards_a": 3.0
+   }
   },
   "4755358": {
    "partido": "Union Berlin vs 1. FC Köln",
