@@ -1193,8 +1193,12 @@
    "partido": "SC Braga vs Famalicão",
    "liga": "Portugal, Primeira Liga",
    "inicio": "2026-11-01T15:30:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1793561844.2245536
+   "estado": "enviado",
+   "ultimo": 1793562088.3127394,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "84831,100802,358706,39367800,53015075,58255524,61003328,66491447,70780056,71311899,75422026|3071450,14354634,40742165,50260095,56082052,61322129,64122354,64349458,70809810,70855817,71130429",
+   "conf": true
   },
   "4757193": {
    "partido": "Maritimo vs Santa Clara",
@@ -1249,7 +1253,7 @@
    "liga": "Perú, Liga 1 - Clausura",
    "inicio": "2026-11-01T15:30:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1793561844.415579
+   "ultimo": 1793562090.3303766
   },
   "4632612": {
    "partido": "Bragantino vs Santos",
