@@ -1025,12 +1025,27 @@
    "partido": "Racing de Santander vs Real Madrid",
    "liga": "España, LaLiga",
    "inicio": "2026-11-01T10:15:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1793553016.3165672,
+   "estado": "liquidado",
+   "ultimo": 1793553633.451321,
    "clv": [],
    "clv_ok": false,
    "xi": "28334,3051727,10526467,15809523,51019318,60835756,64816557,66437445,66566911,70950981,71407785|211012,384169,670092,1589889,3216883,3568284,5052341,46440257,61736514,67547634,77099314",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 0,
+    "ag": 3,
+    "ht": [
+     0,
+     3
+    ],
+    "corners": 10.0,
+    "corners_h": 4.0,
+    "corners_a": 6.0,
+    "corners_1t": 6.0,
+    "cards": 2.0,
+    "cards_h": 2.0,
+    "cards_a": 0.0
+   }
   },
   "4750806": {
    "partido": "Getafe CF vs Sevilla FC",
@@ -1169,7 +1184,7 @@
    "liga": "Perú, Liga 1 - Clausura",
    "inicio": "2026-11-01T13:15:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1793553384.3887568
+   "ultimo": 1793553633.6563187
   },
   "4760779": {
    "partido": "Grau vs Universitario",
