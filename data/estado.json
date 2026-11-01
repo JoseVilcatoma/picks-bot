@@ -1193,12 +1193,27 @@
    "partido": "Cusco FC vs Sport Boys",
    "liga": "Perú, Liga 1 - Clausura",
    "inicio": "2026-11-01T13:15:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1793563808.1135886,
+   "estado": "liquidado",
+   "ultimo": 1793564417.4555593,
    "clv": [],
    "clv_ok": false,
    "xi": "547480,553009,612085,832539,838440,2809735,3218454,3366544,8783445,14220059,47407662|205892,533478,616301,892587,916301,12728006,17101463,47441568,50785894,67756954,77817509",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 0,
+    "ag": 1,
+    "ht": [
+     0,
+     0
+    ],
+    "corners": 13.0,
+    "corners_h": 12.0,
+    "corners_a": 1.0,
+    "corners_1t": 6.0,
+    "cards": 3.0,
+    "cards_h": 1.0,
+    "cards_a": 2.0
+   }
   },
   "4760779": {
    "partido": "Grau vs Universitario",
