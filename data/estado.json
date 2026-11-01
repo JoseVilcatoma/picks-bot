@@ -849,7 +849,7 @@
    "liga": "Italia, Serie A",
    "inicio": "2026-11-01T14:45:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1793558651.453938
+   "ultimo": 1793558897.1972156
   },
   "4732647": {
    "partido": "Frosinone vs Torino",
@@ -959,8 +959,12 @@
    "partido": "Olympique Marsella vs Toulouse",
    "liga": "Francia, Ligue 1",
    "inicio": "2026-11-01T14:45:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1793558651.650367
+   "estado": "enviado",
+   "ultimo": 1793558897.2745748,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "405252,543231,3053170,3153777,3154243,8490982,12616002,13268816,50159654,63131014,75445196|474941,3488262,7495369,39729553,51179941,65799938,67840731,67952105,71521869,75433697,78913677",
+   "conf": true
   },
   "4735223": {
    "partido": "Lyon vs Angers",
