@@ -864,18 +864,33 @@
    "liga": "Italia, Serie A",
    "inicio": "2026-11-01T12:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1793548979.4994485
+   "ultimo": 1793549223.6428332
   },
   "4732645": {
    "partido": "Lazio vs Cagliari",
    "liga": "Italia, Serie A",
    "inicio": "2026-11-01T09:00:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1793548610.516231,
+   "estado": "liquidado",
+   "ultimo": 1793549223.847698,
    "clv": [],
    "clv_ok": false,
    "xi": "510933,3071410,15244106,26815119,29999056,41018240,49552142,62194167,64141744,65235149,66308500|909981,4870265,9401336,42946303,46512017,49550591,61426991,61685045,64760757,67891435,71690691",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 2,
+    "ag": 1,
+    "ht": [
+     1,
+     1
+    ],
+    "corners": 4.0,
+    "corners_h": 2.0,
+    "corners_a": 2.0,
+    "corners_1t": 0.0,
+    "cards": 5.0,
+    "cards_h": 1.0,
+    "cards_a": 4.0
+   }
   },
   "4732646": {
    "partido": "Juventus vs Nápoles",
@@ -940,12 +955,27 @@
    "partido": "Estrasburgo vs Auxerre",
    "liga": "Francia, Ligue 1",
    "inicio": "2026-11-01T09:00:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1793548610.8477275,
+   "estado": "liquidado",
+   "ultimo": 1793549224.0415266,
    "clv": [],
    "clv_ok": false,
    "xi": "43951837,50683661,50736377,56978378,67038494,67639490,68028328,71167707,71340815,75512013,77038325|348719,1760084,3340298,5905572,38841445,52933383,62084810,64933542,66447403,67987633,70841063",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 5,
+    "ag": 1,
+    "ht": [
+     1,
+     0
+    ],
+    "corners": 5.0,
+    "corners_h": 5.0,
+    "corners_a": 0.0,
+    "corners_1t": 2.0,
+    "cards": 5.0,
+    "cards_h": 0.0,
+    "cards_a": 5.0
+   }
   },
   "4735220": {
    "partido": "Paris FC vs Monaco",
