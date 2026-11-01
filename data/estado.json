@@ -1076,12 +1076,27 @@
    "partido": "Union Berlin vs 1. FC Köln",
    "liga": "Alemania, Bundesliga",
    "inicio": "2026-11-01T09:30:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1793540389.3409154,
+   "estado": "liquidado",
+   "ultimo": 1793550329.6073081,
    "clv": [],
    "clv_ok": false,
    "xi": "253890,335092,342465,476035,905043,3154796,3473178,13659727,50575160,55685520,75386990|541007,569179,4800962,7354235,8692945,10279281,33849977,51403495,65291044,70951372,75412214",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 1,
+    "ag": 1,
+    "ht": [
+     1,
+     0
+    ],
+    "corners": 8.0,
+    "corners_h": 2.0,
+    "corners_a": 6.0,
+    "corners_1t": 4.0,
+    "cards": 7.0,
+    "cards_h": 4.0,
+    "cards_a": 3.0
+   }
   },
   "4755360": {
    "partido": "Eintracht Frankfurt vs Hamburgo SV",
