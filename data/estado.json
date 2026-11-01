@@ -27,32 +27,6 @@
     "cards_a": 2.0
    }
   },
-  "4735225": {
-   "partido": "Lille vs Lens",
-   "liga": "Francia, Ligue 1",
-   "inicio": "2026-10-30T15:05:00-05:00",
-   "estado": "liquidado",
-   "ultimo": 1793397621.800474,
-   "clv": [],
-   "clv_ok": false,
-   "xi": "216415,445024,3212320,3227707,58449710,58495051,60984745,67157415,67562585,75529803,77391776|277482,342805,490031,533996,3049963,3424641,3590178,9052006,12231560,63090573,66384998",
-   "conf": true,
-   "r": {
-    "hg": 1,
-    "ag": 0,
-    "ht": [
-     0,
-     0
-    ],
-    "corners": 12.0,
-    "corners_h": 10.0,
-    "corners_a": 2.0,
-    "corners_1t": 7.0,
-    "cards": 1.0,
-    "cards_h": 0.0,
-    "cards_a": 1.0
-   }
-  },
   "4757191": {
    "partido": "Casa Pia AC vs Sporting CP",
    "liga": "Portugal, Primeira Liga",
@@ -1130,12 +1104,27 @@
    "partido": "Viseu vs Rio Ave",
    "liga": "Portugal, Primeira Liga",
    "inicio": "2026-11-01T13:00:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1793562949.9441626,
+   "estado": "liquidado",
+   "ultimo": 1793563561.7577372,
    "clv": [],
    "clv_ok": false,
    "xi": "343399,2614253,7314720,15069774,46523888,50978598,60491993,60869761,65521818,70810400,71408242|1335607,49517813,50688680,63094701,66704397,66873553,70795642,71545449,75491601,76143758,78674293",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 2,
+    "ag": 1,
+    "ht": [
+     0,
+     1
+    ],
+    "corners": 11.0,
+    "corners_h": 5.0,
+    "corners_a": 6.0,
+    "corners_1t": 4.0,
+    "cards": 4.0,
+    "cards_h": 1.0,
+    "cards_a": 3.0
+   }
   },
   "4757188": {
    "partido": "Arouca vs Nacional Madeira",
