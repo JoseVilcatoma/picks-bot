@@ -2507,3 +2507,8 @@ fecha,game_id,partido,liga,tipo,mercado,clave,prob,cuota,casa,cuota_justa,ev,sta
 2026-11-01 14:41,4757189,SC Braga vs Famalicão,"Portugal, Primeira Liga",modelo,Menos de 11.5 córners,CORN|11.5|under,0.7568,,,1.32,,,si,,,
 2026-11-01 14:41,4757189,SC Braga vs Famalicão,"Portugal, Primeira Liga",modelo,Menos de 6.5 tarjetas,CARDS|6.5|under,0.6976,,,1.43,,,si,,,
 2026-11-01 14:41,4757189,SC Braga vs Famalicão,"Portugal, Primeira Liga",ticket,Más de 1.5 goles + SC Braga recibe gol,OU|1.5|over&CS||local_no,0.4874,2.15,,2.05,0.0501,10.00,,,,
+2026-11-01 14:49,4760779,Grau vs Universitario,"Perú, Liga 1 - Clausura",seguro,No hay empate,DC||12,0.8074,1.18,Bet365,1.24,-0.0473,,si,,,
+2026-11-01 14:49,4760779,Grau vs Universitario,"Perú, Liga 1 - Clausura",seguro,Más de 1.5 goles,OU|1.5|over,0.7286,1.33,Bet365,1.37,-0.0309,,si,,,
+2026-11-01 14:49,4760779,Grau vs Universitario,"Perú, Liga 1 - Clausura",modelo,Menos de 12.5 córners,CORN|12.5|under,0.7276,,,1.37,,,si,,,
+2026-11-01 14:49,4760779,Grau vs Universitario,"Perú, Liga 1 - Clausura",modelo,Más de 2.5 tarjetas,CARDS|2.5|over,0.7146,,,1.40,,,si,,,
+2026-11-01 14:49,4760779,Grau vs Universitario,"Perú, Liga 1 - Clausura",crear,Menos de 4.5 goles + Menos de 15.5 córners + Menos de 9.5 tarjetas,OU|4.5|under&CORN|15.5|under&CARDS|9.5|under,0.5882,,,1.70,,,,,,
