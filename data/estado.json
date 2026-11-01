@@ -937,7 +937,7 @@
    "liga": "Francia, Ligue 1",
    "inicio": "2026-11-01T11:15:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1793545279.5732179
+   "ultimo": 1793545525.0630255
   },
   "4735222": {
    "partido": "Olympique Marsella vs Toulouse",
@@ -951,7 +951,7 @@
    "liga": "Francia, Ligue 1",
    "inicio": "2026-11-01T11:15:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1793545279.647778
+   "ultimo": 1793545525.1368606
   },
   "4742014": {
    "partido": "Liverpool vs Arsenal",
@@ -975,12 +975,27 @@
    "partido": "Getafe CF vs Sevilla FC",
    "liga": "España, LaLiga",
    "inicio": "2026-11-01T08:00:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1793544912.4661381,
+   "estado": "liquidado",
+   "ultimo": 1793545525.2091749,
    "clv": [],
    "clv_ok": false,
    "xi": "243502,312745,394713,552743,914518,48233124,51552702,52283767,52892490,66735137,75411603|357316,893355,1765601,15499512,28726208,54191092,54826476,63090553,64404146,66029772,67615192",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 3,
+    "ag": 1,
+    "ht": [
+     0,
+     1
+    ],
+    "corners": 4.0,
+    "corners_h": 2.0,
+    "corners_a": 2.0,
+    "corners_1t": 3.0,
+    "cards": 7.0,
+    "cards_h": 2.0,
+    "cards_a": 5.0
+   }
   },
   "4750808": {
    "partido": "Elche CF vs Valencia CF",
