@@ -849,7 +849,7 @@
    "liga": "Italia, Serie A",
    "inicio": "2026-11-01T14:45:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1793557915.4499156
+   "ultimo": 1793558159.7578578
   },
   "4732647": {
    "partido": "Frosinone vs Torino",
@@ -960,7 +960,7 @@
    "liga": "Francia, Ligue 1",
    "inicio": "2026-11-01T14:45:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1793557915.6282508
+   "ultimo": 1793558159.918146
   },
   "4735223": {
    "partido": "Lyon vs Angers",
@@ -992,12 +992,27 @@
    "partido": "Liverpool vs Arsenal",
    "liga": "Inglaterra, Premier League",
    "inicio": "2026-11-01T11:30:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1793557549.9613,
+   "estado": "liquidado",
+   "ultimo": 1793558159.9968755,
    "clv": [],
    "clv_ok": false,
    "xi": "220953,558151,1286508,3172767,3344160,3886928,49449655,60734154,60909490,67987366,70986024|513371,537419,2985896,3055995,3070470,3071278,3373029,43390337,45211907,49514151,50424606",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 0,
+    "ag": 1,
+    "ht": [
+     0,
+     1
+    ],
+    "corners": 11.0,
+    "corners_h": 7.0,
+    "corners_a": 4.0,
+    "corners_1t": 7.0,
+    "cards": 8.0,
+    "cards_h": 4.0,
+    "cards_a": 4.0
+   }
   },
   "4750804": {
    "partido": "Racing de Santander vs Real Madrid",
@@ -1099,12 +1114,27 @@
    "partido": "Eintracht Frankfurt vs Hamburgo SV",
    "liga": "Alemania, Bundesliga",
    "inicio": "2026-11-01T11:30:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1793557550.1636438,
+   "estado": "liquidado",
+   "ultimo": 1793558160.2112443,
    "clv": [],
    "clv_ok": false,
    "xi": "646522,3155273,50444832,60085508,61213413,66253459,67450295,70955868,71155061,71901098,76952737|485593,493409,951739,4266463,46850341,49513021,52901773,58801584,64543956,77378674,77625227",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 3,
+    "ag": 1,
+    "ht": [
+     1,
+     1
+    ],
+    "corners": 12.0,
+    "corners_h": 6.0,
+    "corners_a": 6.0,
+    "corners_1t": 8.0,
+    "cards": 6.0,
+    "cards_h": 2.0,
+    "cards_a": 4.0
+   }
   },
   "4757187": {
    "partido": "Viseu vs Rio Ave",
