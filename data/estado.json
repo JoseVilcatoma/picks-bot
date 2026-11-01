@@ -1118,7 +1118,7 @@
    "liga": "Portugal, Primeira Liga",
    "inicio": "2026-11-01T13:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1793552031.4462843
+   "ultimo": 1793552275.599574
   },
   "4757188": {
    "partido": "Arouca vs Nacional Madeira",
@@ -1142,8 +1142,12 @@
    "partido": "Maritimo vs Santa Clara",
    "liga": "Portugal, Primeira Liga",
    "inicio": "2026-11-01T13:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1793552031.6475403
+   "estado": "enviado",
+   "ultimo": 1793552275.8043547,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "398966,888149,895282,7410799,43499092,58126795,61436794,64239532,66424468,68356307,70812981|488135,3161778,3210686,4006187,40501175,66024582,71048205,71055054,75430155,75430487,77171181",
+   "conf": true
   },
   "4760776": {
    "partido": "CD Moquegua vs Los Chankas",
