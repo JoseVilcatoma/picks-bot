@@ -1175,12 +1175,27 @@
    "partido": "SC Braga vs Famalicão",
    "liga": "Portugal, Primeira Liga",
    "inicio": "2026-11-01T15:30:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1793562088.3127394,
+   "estado": "liquidado",
+   "ultimo": 1793571993.9018505,
    "clv": [],
    "clv_ok": false,
    "xi": "84831,100802,358706,39367800,53015075,58255524,61003328,66491447,70780056,71311899,75422026|3071450,14354634,40742165,50260095,56082052,61322129,64122354,64349458,70809810,70855817,71130429",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 3,
+    "ag": 0,
+    "ht": [
+     0,
+     0
+    ],
+    "corners": 8.0,
+    "corners_h": 7.0,
+    "corners_a": 1.0,
+    "corners_1t": 4.0,
+    "cards": 10.0,
+    "cards_h": 5.0,
+    "cards_a": 5.0
+   }
   },
   "4757193": {
    "partido": "Maritimo vs Santa Clara",
@@ -1264,12 +1279,27 @@
    "partido": "Grau vs Universitario",
    "liga": "Perú, Liga 1 - Clausura",
    "inicio": "2026-11-01T15:30:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1793562580.5277858,
+   "estado": "liquidado",
+   "ultimo": 1793571994.44389,
    "clv": [],
    "clv_ok": false,
    "xi": "478774,545750,556341,1858727,2547425,3123514,3172114,3218403,65227415,66107234,67756953|393797,478387,505190,531129,3234845,3780031,3993952,4710874,47844909,50778574,64944308",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 1,
+    "ag": 3,
+    "ht": [
+     1,
+     1
+    ],
+    "corners": 9.0,
+    "corners_h": 4.0,
+    "corners_a": 5.0,
+    "corners_1t": 2.0,
+    "cards": 3.0,
+    "cards_h": 1.0,
+    "cards_a": 2.0
+   }
   },
   "4632612": {
    "partido": "Bragantino vs Santos",
