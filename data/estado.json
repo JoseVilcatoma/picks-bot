@@ -1173,6 +1173,20 @@
    "inicio": "2026-11-03T12:45:00-05:00",
    "estado": "pendiente",
    "ultimo": 0
+  },
+  "4632608": {
+   "partido": "Chapecoense vs Mirassol",
+   "liga": "Brasil, Brasileirão",
+   "inicio": "2026-11-03T17:30:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4632610": {
+   "partido": "Internacional vs Coritiba",
+   "liga": "Brasil, Brasileirão",
+   "inicio": "2026-11-03T19:30:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
   }
  },
  "web": {
@@ -1279,7 +1293,9 @@
   "4828445": 1793511301158,
   "4828446": 1793511301723,
   "4828447": 1793511297793,
-  "4828448": 1793511298076
+  "4828448": 1793511298076,
+  "4632608": 1793511304734,
+  "4632610": 1793511305134
  },
  "tickets": [],
  "sin_creditos": false
