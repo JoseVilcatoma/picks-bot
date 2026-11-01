@@ -958,7 +958,7 @@
    "liga": "Inglaterra, Premier League",
    "inicio": "2026-11-01T11:30:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1793546141.4680152
+   "ultimo": 1793546386.9929478
   },
   "4750804": {
    "partido": "Racing de Santander vs Real Madrid",
@@ -1027,7 +1027,7 @@
    "liga": "Alemania, Bundesliga",
    "inicio": "2026-11-01T11:30:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1793546141.5394788
+   "ultimo": 1793546387.05356
   },
   "4757187": {
    "partido": "Viseu vs Rio Ave",
@@ -1065,8 +1065,12 @@
    "partido": "CD Moquegua vs Los Chankas",
    "liga": "Perú, Liga 1 - Clausura",
    "inicio": "2026-11-01T11:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1793546141.6191278
+   "estado": "enviado",
+   "ultimo": 1793546387.116452,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "319980,499074,514230,574428,6590900,48577293,52708695,61078193,67955161,67974745,67990841|615398,3371368,6593783,7863154,13093514,13884537,47420072,56663073,56700220,59045608,72047163",
+   "conf": true
   },
   "4760777": {
    "partido": "Cusco FC vs Sport Boys",
