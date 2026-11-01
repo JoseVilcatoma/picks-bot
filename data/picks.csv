@@ -2426,3 +2426,8 @@ fecha,game_id,partido,liga,tipo,mercado,clave,prob,cuota,casa,cuota_justa,ev,sta
 2026-11-01 09:08,4750804,Racing de Santander vs Real Madrid,"España, LaLiga",modelo,Más de 7.5 córners,CORN|7.5|over,0.6895,,,1.45,,,si,,,
 2026-11-01 09:08,4750804,Racing de Santander vs Real Madrid,"España, LaLiga",ticket,Ambos marcan: Sí + Más de 2.5 goles,BTTS||si&OU|2.5|over,0.5185,1.93,,1.93,0.0013,10.00,,,,
 2026-11-01 09:08,4750804,Racing de Santander vs Real Madrid,"España, LaLiga",crear,No hay empate + Más de 0.5 goles en el 1T + Menos de 13.5 córners,DC||12&OU1T|0.5|over&CORN|13.5|under,0.5787,,,1.73,,,,,,
+2026-11-01 09:44,4757188,Arouca vs Nacional Madeira,"Portugal, Primeira Liga",seguro,No hay empate,DC||12,0.7730,1.22,Bet365,1.29,-0.0570,,si,,,
+2026-11-01 09:44,4757188,Arouca vs Nacional Madeira,"Portugal, Primeira Liga",seguro,Menos de 3.5 goles,OU|3.5|under,0.7305,1.33,Bet365,1.37,-0.0284,,si,,,
+2026-11-01 09:44,4757188,Arouca vs Nacional Madeira,"Portugal, Primeira Liga",modelo,Menos de 11.5 córners,CORN|11.5|under,0.7568,,,1.32,,,si,,,
+2026-11-01 09:44,4757188,Arouca vs Nacional Madeira,"Portugal, Primeira Liga",modelo,Menos de 6.5 tarjetas,CARDS|6.5|under,0.6976,,,1.43,,,si,,,
+2026-11-01 09:44,4757188,Arouca vs Nacional Madeira,"Portugal, Primeira Liga",crear,No hay empate + Menos de 2.5 goles en el 1T + Menos de 14.5 córners,DC||12&OU1T|2.5|under&CORN|14.5|under,0.5879,,,1.70,,,,,,
