@@ -910,8 +910,12 @@
    "partido": "Estrasburgo vs Auxerre",
    "liga": "Francia, Ligue 1",
    "inicio": "2026-11-01T09:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1793538917.7428725
+   "estado": "enviado",
+   "ultimo": 1793539162.0617611,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "43951837,50683661,50736377,56978378,67038494,67639490,68028328,71167707,71340815,75512013,77038325|348719,1760084,3340298,5905572,38841445,52933383,62084810,64933542,66447403,67987633,70841063",
+   "conf": true
   },
   "4735220": {
    "partido": "Paris FC vs Monaco",
@@ -978,7 +982,7 @@
    "liga": "Alemania, Bundesliga",
    "inicio": "2026-11-01T09:30:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1793538917.9519594
+   "ultimo": 1793539163.6712103
   },
   "4755360": {
    "partido": "Eintracht Frankfurt vs Hamburgo SV",
