@@ -1438,6 +1438,111 @@
    "inicio": "2026-11-03T19:30:00-05:00",
    "estado": "pendiente",
    "ultimo": 0
+  },
+  "4632609": {
+   "partido": "Athletico Paranaense vs Vasco Da Gama",
+   "liga": "Brasil, Brasileirão",
+   "inicio": "2026-11-04T17:30:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4632614": {
+   "partido": "São Paulo vs Corinthians",
+   "liga": "Brasil, Brasileirão",
+   "inicio": "2026-11-04T19:30:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4632615": {
+   "partido": "Botafogo vs Atlético Mineiro",
+   "liga": "Brasil, Brasileirão",
+   "inicio": "2026-11-04T19:30:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4632616": {
+   "partido": "Flamengo vs Grêmio",
+   "liga": "Brasil, Brasileirão",
+   "inicio": "2026-11-04T17:30:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4760787": {
+   "partido": "Universitario vs Sport Boys",
+   "liga": "Perú, Liga 1 - Clausura",
+   "inicio": "2026-11-04T20:30:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4828431": {
+   "partido": "FC Porto vs Nápoles",
+   "liga": "Europa, UEFA Champions League",
+   "inicio": "2026-11-04T15:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4828432": {
+   "partido": "Viking vs Sabah",
+   "liga": "Europa, UEFA Champions League",
+   "inicio": "2026-11-04T15:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4828433": {
+   "partido": "PSV Eindhoven vs Brujas",
+   "liga": "Europa, UEFA Champions League",
+   "inicio": "2026-11-04T15:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4828434": {
+   "partido": "Slavia Praga vs Arsenal",
+   "liga": "Europa, UEFA Champions League",
+   "inicio": "2026-11-04T15:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4828435": {
+   "partido": "Borussia Dortmund vs Real Betis",
+   "liga": "Europa, UEFA Champions League",
+   "inicio": "2026-11-04T15:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4828436": {
+   "partido": "Lens vs Como",
+   "liga": "Europa, UEFA Champions League",
+   "inicio": "2026-11-04T15:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4828437": {
+   "partido": "Fenerbahce vs Liverpool",
+   "liga": "Europa, UEFA Champions League",
+   "inicio": "2026-11-04T12:45:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4828438": {
+   "partido": "RB Leipzig vs Manchester City",
+   "liga": "Europa, UEFA Champions League",
+   "inicio": "2026-11-04T15:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4828439": {
+   "partido": "AEK Atenas vs Real Madrid",
+   "liga": "Europa, UEFA Champions League",
+   "inicio": "2026-11-04T12:45:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4828710": {
+   "partido": "Rennes vs Olympiacos",
+   "liga": "Europa, UEFA Europa League",
+   "inicio": "2026-11-04T10:30:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
   }
  },
  "web": {
@@ -1546,7 +1651,22 @@
   "4828447": 1793511297793,
   "4828448": 1793511298076,
   "4632608": 1793511304734,
-  "4632610": 1793511305134
+  "4632610": 1793511305134,
+  "4632609": 1793571123706,
+  "4632614": 1793571124329,
+  "4632615": 1793571125916,
+  "4632616": 1793571124019,
+  "4760787": 1793571126293,
+  "4828431": 1793571118658,
+  "4828432": 1793571120482,
+  "4828433": 1793571120201,
+  "4828434": 1793571121591,
+  "4828435": 1793571121925,
+  "4828436": 1793571122267,
+  "4828437": 1793571117664,
+  "4828438": 1793571122561,
+  "4828439": 1793571117980,
+  "4828710": 1793571117099
  },
  "tickets": [],
  "sin_creditos": false
