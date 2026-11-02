@@ -603,8 +603,12 @@
    "partido": "Bragantino vs Santos",
    "liga": "Brasil, Brasileirão",
    "inicio": "2026-11-02T18:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1793656973.8521183
+   "estado": "enviado",
+   "ultimo": 1793657219.7946835,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "377132,502310,888633,1302805,3079211,56162393,57889982,61417696,66400482,71359568,77715397|104066,479593,530809,543235,569870,3231386,9563934,60376096,76891180,76943195,77180994",
+   "conf": true
   },
   "4732642": {
    "partido": "Sassuolo vs Fiorentina",
@@ -688,12 +692,27 @@
    "partido": "Newcastle United vs Everton",
    "liga": "Inglaterra, Premier League",
    "inicio": "2026-11-02T15:00:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1793656601.0411353,
+   "estado": "liquidado",
+   "ultimo": 1793657221.6163917,
    "clv": [],
    "clv_ok": false,
    "xi": "306680,481823,507392,3153841,3659747,55401980,57787354,60982502,63092591,63157356,67900851|355086,478397,3071263,12433748,49684197,50763260,53419038,65454051,70782880,70889317,75441450",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 0,
+    "ag": 1,
+    "ht": [
+     0,
+     0
+    ],
+    "corners": 9.0,
+    "corners_h": 4.0,
+    "corners_a": 5.0,
+    "corners_1t": 2.0,
+    "cards": 6.0,
+    "cards_h": 4.0,
+    "cards_a": 2.0
+   }
   },
   "4750810": {
    "partido": "RC Deportivo vs Osasuna",
