@@ -1,58 +1,6 @@
 {
  "offset": 344577788,
  "seguidos": {
-  "4757195": {
-   "partido": "FC Porto vs Estoril",
-   "liga": "Portugal, Primeira Liga",
-   "inicio": "2026-10-31T15:30:00-05:00",
-   "estado": "liquidado",
-   "ultimo": 1793485601.0502279,
-   "clv": [],
-   "clv_ok": false,
-   "xi": "635177,911054,913383,12436614,13856477,33436214,35286777,51137406,70822610,70953015,71328020|13434674,30973259,50739134,57110263,61768555,67976902,70801244,71404926,76834193,77444998,78556430",
-   "conf": true,
-   "r": {
-    "hg": 4,
-    "ag": 0,
-    "ht": [
-     1,
-     0
-    ],
-    "corners": 8.0,
-    "corners_h": 8.0,
-    "corners_a": 0.0,
-    "corners_1t": 7.0,
-    "cards": 1.0,
-    "cards_h": 1.0,
-    "cards_a": 0.0
-   }
-  },
-  "4760784": {
-   "partido": "Alianza Atletico vs Juan Pablo II College",
-   "liga": "Perú, Liga 1 - Clausura",
-   "inicio": "2026-10-31T15:30:00-05:00",
-   "estado": "liquidado",
-   "ultimo": 1793486218.643321,
-   "clv": [],
-   "clv_ok": false,
-   "xi": "614516,3222005,3384002,14016837,29976047,56651796,56700055,56897445,67902596,71885210,77715226|484523,1839203,2803564,3370754,14220056,14627599,64944305,67119647,67165511,67899346,67977474",
-   "conf": true,
-   "r": {
-    "hg": 1,
-    "ag": 0,
-    "ht": [
-     0,
-     0
-    ],
-    "corners": 11.0,
-    "corners_h": 6.0,
-    "corners_a": 5.0,
-    "corners_1t": 5.0,
-    "cards": 4.0,
-    "cards_h": 1.0,
-    "cards_a": 3.0
-   }
-  },
   "4732644": {
    "partido": "Lecce vs Genoa",
    "liga": "Italia, Serie A",
