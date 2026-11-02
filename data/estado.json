@@ -770,12 +770,27 @@
    "partido": "Benfica vs Alverca",
    "liga": "Portugal, Primeira Liga",
    "inicio": "2026-11-02T15:15:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1793657470.372879,
+   "estado": "liquidado",
+   "ultimo": 1793658082.925758,
    "clv": [],
    "clv_ok": false,
    "xi": "248241,541978,668937,906897,1160659,3152786,51394932,55352581,56751723,65471889,65642981|541781,50294305,50385486,55627088,56180119,64034030,66437023,70953488,71503110,75414669,77392601",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 1,
+    "ag": 0,
+    "ht": [
+     0,
+     0
+    ],
+    "corners": 13.0,
+    "corners_h": 8.0,
+    "corners_a": 5.0,
+    "corners_1t": 7.0,
+    "cards": 4.0,
+    "cards_h": 1.0,
+    "cards_a": 3.0
+   }
   },
   "4760778": {
    "partido": "Sporting Cristal vs FC Cajamarca",
