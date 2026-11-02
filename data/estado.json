@@ -209,32 +209,6 @@
     "cards_a": 1.0
    }
   },
-  "4732649": {
-   "partido": "Bologna vs Monza",
-   "liga": "Italia, Serie A",
-   "inicio": "2026-10-31T09:00:00-05:00",
-   "estado": "liquidado",
-   "ultimo": 1793462186.5057063,
-   "clv": [],
-   "clv_ok": false,
-   "xi": "348628,478842,3195499,3488107,3835966,4947373,33902941,33913784,50528133,50545365,51594637|3059117,3167997,8929693,50441571,52482257,67111784,70865619,71067514,71342972,71356912,75407538",
-   "conf": true,
-   "r": {
-    "hg": 2,
-    "ag": 1,
-    "ht": [
-     1,
-     1
-    ],
-    "corners": 7.0,
-    "corners_h": 5.0,
-    "corners_a": 2.0,
-    "corners_1t": 3.0,
-    "cards": 7.0,
-    "cards_h": 4.0,
-    "cards_a": 3.0
-   }
-  },
   "4735218": {
    "partido": "Troyes vs Le Mans",
    "liga": "Francia, Ligue 1",
@@ -1495,6 +1469,160 @@
    "inicio": "2026-11-04T10:30:00-05:00",
    "estado": "pendiente",
    "ultimo": 0
+  },
+  "4828702": {
+   "partido": "N.E.C. Nijmegen vs Omonia",
+   "liga": "Europa, UEFA Europa League",
+   "inicio": "2026-11-05T12:45:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4828703": {
+   "partido": "AC Milan vs Ferencvaros",
+   "liga": "Europa, UEFA Europa League",
+   "inicio": "2026-11-05T12:45:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4828704": {
+   "partido": "Crystal Palace vs Hoffenheim",
+   "liga": "Europa, UEFA Europa League",
+   "inicio": "2026-11-05T12:45:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4828705": {
+   "partido": "Lillestrom vs Viktoria Plzen",
+   "liga": "Europa, UEFA Europa League",
+   "inicio": "2026-11-05T12:45:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4828888": {
+   "partido": "CS Universitatea Craiova vs KF Egnatia",
+   "liga": "Europa, UEFA Conference League",
+   "inicio": "2026-11-05T15:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4828889": {
+   "partido": "Riga vs FK Jablonec",
+   "liga": "Europa, UEFA Conference League",
+   "inicio": "2026-11-05T15:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4828890": {
+   "partido": "Panathinaikos vs CSKA Sofia",
+   "liga": "Europa, UEFA Conference League",
+   "inicio": "2026-11-05T15:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4828891": {
+   "partido": "STVV vs Brann",
+   "liga": "Europa, UEFA Conference League",
+   "inicio": "2026-11-05T15:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4828892": {
+   "partido": "Getafe CF vs Brighton",
+   "liga": "Europa, UEFA Conference League",
+   "inicio": "2026-11-05T15:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4828893": {
+   "partido": "Twente vs Pafos FC",
+   "liga": "Europa, UEFA Conference League",
+   "inicio": "2026-11-05T15:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4828894": {
+   "partido": "FC Lugano vs Kauno Zalgiris",
+   "liga": "Europa, UEFA Conference League",
+   "inicio": "2026-11-05T15:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4828895": {
+   "partido": "FC Copenhague vs FC Iberia 1999",
+   "liga": "Europa, UEFA Conference League",
+   "inicio": "2026-11-05T15:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4828896": {
+   "partido": "Monaco vs FC Nordsjaelland",
+   "liga": "Europa, UEFA Conference League",
+   "inicio": "2026-11-05T15:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4828897": {
+   "partido": "Trabzonspor vs Friburgo",
+   "liga": "Europa, UEFA Conference League",
+   "inicio": "2026-11-05T12:45:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4828898": {
+   "partido": "Mjällby AIF vs Borac Banjaluka",
+   "liga": "Europa, UEFA Conference League",
+   "inicio": "2026-11-05T12:45:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4828899": {
+   "partido": "Lincoln Red Imps vs HNK Hajduk Split",
+   "liga": "Europa, UEFA Conference League",
+   "inicio": "2026-11-05T12:45:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4828900": {
+   "partido": "KuPS vs KAA Gent",
+   "liga": "Europa, UEFA Conference League",
+   "inicio": "2026-11-05T12:45:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4828901": {
+   "partido": "Estrella Roja Belgrado vs Inter Escaldes",
+   "liga": "Europa, UEFA Conference League",
+   "inicio": "2026-11-05T12:45:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4828902": {
+   "partido": "FC Thun vs Hearts",
+   "liga": "Europa, UEFA Conference League",
+   "inicio": "2026-11-05T12:45:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4828903": {
+   "partido": "FC Midtjylland vs Ajax",
+   "liga": "Europa, UEFA Conference League",
+   "inicio": "2026-11-05T12:45:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4828904": {
+   "partido": "Atalanta vs Kairat Almaty",
+   "liga": "Europa, UEFA Conference League",
+   "inicio": "2026-11-05T12:45:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4828905": {
+   "partido": "Aarhus vs SC Braga",
+   "liga": "Europa, UEFA Conference League",
+   "inicio": "2026-11-05T12:45:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
   }
  },
  "web": {
@@ -1618,7 +1746,29 @@
   "4828437": 1793571117664,
   "4828438": 1793571122561,
   "4828439": 1793571117980,
-  "4828710": 1793571117099
+  "4828710": 1793571117099,
+  "4828702": 1793627994439,
+  "4828703": 1793627994860,
+  "4828704": 1793627995251,
+  "4828705": 1793627995599,
+  "4828888": 1793627987360,
+  "4828889": 1793627988570,
+  "4828890": 1793627989141,
+  "4828891": 1793627990210,
+  "4828892": 1793627990584,
+  "4828893": 1793627990949,
+  "4828894": 1793627991354,
+  "4828895": 1793627991734,
+  "4828896": 1793627992188,
+  "4828897": 1793627977929,
+  "4828898": 1793627978271,
+  "4828899": 1793627978681,
+  "4828900": 1793627979040,
+  "4828901": 1793627979370,
+  "4828902": 1793627979695,
+  "4828903": 1793627980060,
+  "4828904": 1793627981592,
+  "4828905": 1793627984319
  },
  "tickets": [],
  "sin_creditos": false
