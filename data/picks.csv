@@ -2527,3 +2527,8 @@ fecha,game_id,partido,liga,tipo,mercado,clave,prob,cuota,casa,cuota_justa,ev,sta
 2026-11-02 12:36,4760781,UTC Cajamarca vs Deportivo Garcilaso,"Perú, Liga 1 - Clausura",modelo,Menos de 10.5 córners,CORN|10.5|under,0.7082,,,1.41,,,si,,,
 2026-11-02 12:36,4760781,UTC Cajamarca vs Deportivo Garcilaso,"Perú, Liga 1 - Clausura",modelo,Menos de 6.5 tarjetas,CARDS|6.5|under,0.6976,,,1.43,,,si,,,
 2026-11-02 12:36,4760781,UTC Cajamarca vs Deportivo Garcilaso,"Perú, Liga 1 - Clausura",crear,Menos de 4.5 goles + Menos de 13.5 córners + Menos de 9.5 tarjetas,OU|4.5|under&CORN|13.5|under&CARDS|9.5|under,0.5791,,,1.73,,,,,,
+2026-11-02 13:55,4735224,Lorient vs Brest,"Francia, Ligue 1",seguro,Brest recibe gol,CS||visita_no,0.7212,1.30,Bet365,1.39,-0.0625,,si,,,
+2026-11-02 13:55,4735224,Lorient vs Brest,"Francia, Ligue 1",seguro,No hay empate,DC||12,0.7014,1.36,Bet365,1.43,-0.0461,,si,,,
+2026-11-02 13:55,4735224,Lorient vs Brest,"Francia, Ligue 1",modelo,Menos de 6.5 tarjetas,CARDS|6.5|under,0.7895,,,1.27,,,si,,,
+2026-11-02 13:55,4735224,Lorient vs Brest,"Francia, Ligue 1",modelo,Menos de 11.5 córners,CORN|11.5|under,0.7314,,,1.37,,,si,,,
+2026-11-02 13:55,4735224,Lorient vs Brest,"Francia, Ligue 1",ticket,Brest recibe gol + Más de 1.5 goles,CS||visita_no&OU|1.5|over,0.6152,1.77,,1.63,0.0876,10.00,,,,
