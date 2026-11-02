@@ -2553,3 +2553,7 @@ fecha,game_id,partido,liga,tipo,mercado,clave,prob,cuota,casa,cuota_justa,ev,sta
 2026-11-02 14:12,4757190,Gil Vicente FC vs Guimarães,"Portugal, Primeira Liga",modelo,Menos de 6.5 tarjetas,CARDS|6.5|under,0.6934,,,1.44,,,si,,,
 2026-11-02 14:12,4757190,Gil Vicente FC vs Guimarães,"Portugal, Primeira Liga",modelo,Más de 7.5 córners,CORN|7.5|over,0.6895,,,1.45,,,si,,,
 2026-11-02 14:12,4757190,Gil Vicente FC vs Guimarães,"Portugal, Primeira Liga",crear,Menos de 3.5 goles + Más de 4.5 córners + Menos de 8.5 tarjetas,OU|3.5|under&CORN|4.5|over&CARDS|8.5|under,0.5467,,,1.83,,,,,,
+2026-11-02 14:28,4757194,Benfica vs Alverca,"Portugal, Primeira Liga",seguro,Más de 2.5 goles,OU|2.5|over,0.6851,1.25,Bet365,1.46,-0.1436,,si,,,
+2026-11-02 14:28,4757194,Benfica vs Alverca,"Portugal, Primeira Liga",modelo,Más de 1.5 goles,OU|1.5|over,0.8583,,,1.17,,,si,,,
+2026-11-02 14:28,4757194,Benfica vs Alverca,"Portugal, Primeira Liga",modelo,Más de 2.5 tarjetas,CARDS|2.5|over,0.7146,,,1.40,,,si,,,
+2026-11-02 14:28,4757194,Benfica vs Alverca,"Portugal, Primeira Liga",crear,No hay empate + Menos de 5.5 goles + Menos de 13.5 córners,DC||12&OU|5.5|under&CORN|13.5|under,0.5872,,,1.70,,,,,,

@@ -847,15 +847,19 @@
    "partido": "Benfica vs Alverca",
    "liga": "Portugal, Primeira Liga",
    "inicio": "2026-11-02T15:15:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1793647472.3455038
+   "estado": "enviado",
+   "ultimo": 1793647720.8119516,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "248241,541978,668937,906897,1160659,3152786,51394932,55352581,56751723,65471889,65642981|541781,50294305,50385486,55627088,56180119,64034030,66437023,70953488,71503110,75414669,77392601",
+   "conf": true
   },
   "4760778": {
    "partido": "Sporting Cristal vs FC Cajamarca",
    "liga": "Perú, Liga 1 - Clausura",
    "inicio": "2026-11-02T15:30:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1793647472.4917483
+   "ultimo": 1793647722.832558
   },
   "4760780": {
    "partido": "Alianza Lima vs Cienciano",
