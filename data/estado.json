@@ -821,15 +821,19 @@
    "partido": "Gil Vicente FC vs Guimarães",
    "liga": "Portugal, Primeira Liga",
    "inicio": "2026-11-02T15:15:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1793646493.929557
+   "estado": "enviado",
+   "ultimo": 1793646737.8266985,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "308775,896636,3064929,49955800,66301535,67974133,70858333,70862973,71347019,76872480,77080314|553524,2753309,3855117,61426990,67086004,67647506,67819771,67938045,68076685,75258021,75532586",
+   "conf": true
   },
   "4757194": {
    "partido": "Benfica vs Alverca",
    "liga": "Portugal, Primeira Liga",
    "inicio": "2026-11-02T15:15:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1793646494.0447323
+   "ultimo": 1793646739.122027
   },
   "4760778": {
    "partido": "Sporting Cristal vs FC Cajamarca",
