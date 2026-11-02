@@ -1623,6 +1623,111 @@
    "inicio": "2026-11-05T12:45:00-05:00",
    "estado": "pendiente",
    "ultimo": 0
+  },
+  "4632611": {
+   "partido": "Cruzeiro vs Bahia",
+   "liga": "Brasil, Brasileirão",
+   "inicio": "2026-11-05T19:30:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4632613": {
+   "partido": "Palmeiras vs Remo",
+   "liga": "Brasil, Brasileirão",
+   "inicio": "2026-11-05T17:30:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4828692": {
+   "partido": "AZ Alkmaar vs Juventus",
+   "liga": "Europa, UEFA Europa League",
+   "inicio": "2026-11-05T15:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4828694": {
+   "partido": "Torreense vs FC Ararat-Armenia",
+   "liga": "Europa, UEFA Europa League",
+   "inicio": "2026-11-05T15:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4828695": {
+   "partido": "Sunderland vs Dinamo Zagreb",
+   "liga": "Europa, UEFA Europa League",
+   "inicio": "2026-11-05T15:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4828696": {
+   "partido": "Celtic vs Besiktas",
+   "liga": "Europa, UEFA Europa League",
+   "inicio": "2026-11-05T15:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4828697": {
+   "partido": "Sturm Graz vs NK Celje",
+   "liga": "Europa, UEFA Europa League",
+   "inicio": "2026-11-05T15:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4828698": {
+   "partido": "Benfica vs Lech Poznan",
+   "liga": "Europa, UEFA Europa League",
+   "inicio": "2026-11-05T15:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4828699": {
+   "partido": "Bayer Leverkusen vs Olympique Marsella",
+   "liga": "Europa, UEFA Europa League",
+   "inicio": "2026-11-05T15:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4828700": {
+   "partido": "Celta de Vigo vs Union St. Gilloise",
+   "liga": "Europa, UEFA Europa League",
+   "inicio": "2026-11-05T15:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4828701": {
+   "partido": "Hapoel Beer Sheva vs OFI Crete",
+   "liga": "Europa, UEFA Europa League",
+   "inicio": "2026-11-05T15:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4828706": {
+   "partido": "Sparta Praga vs Bournemouth",
+   "liga": "Europa, UEFA Europa League",
+   "inicio": "2026-11-05T12:45:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4828707": {
+   "partido": "Levski Sofia vs Jagiellonia",
+   "liga": "Europa, UEFA Europa League",
+   "inicio": "2026-11-05T12:45:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4828708": {
+   "partido": "Real Sociedad vs Lyon",
+   "liga": "Europa, UEFA Europa League",
+   "inicio": "2026-11-05T12:45:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4828709": {
+   "partido": "Anderlecht vs Red Bull Salzburgo",
+   "liga": "Europa, UEFA Europa League",
+   "inicio": "2026-11-05T12:45:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
   }
  },
  "web": {
@@ -1768,7 +1873,22 @@
   "4828902": 1793627979695,
   "4828903": 1793627980060,
   "4828904": 1793627981592,
-  "4828905": 1793627984319
+  "4828905": 1793627984319,
+  "4632611": 1793628004559,
+  "4632613": 1793628004069,
+  "4828692": 1793627998482,
+  "4828694": 1793627999121,
+  "4828695": 1793627999527,
+  "4828696": 1793628000643,
+  "4828697": 1793628000983,
+  "4828698": 1793628001439,
+  "4828699": 1793628001880,
+  "4828700": 1793628002999,
+  "4828701": 1793628003583,
+  "4828706": 1793627996680,
+  "4828707": 1793627996950,
+  "4828708": 1793627997513,
+  "4828709": 1793627998113
  },
  "tickets": [],
  "sin_creditos": false
