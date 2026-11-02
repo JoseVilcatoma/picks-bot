@@ -2512,3 +2512,7 @@ fecha,game_id,partido,liga,tipo,mercado,clave,prob,cuota,casa,cuota_justa,ev,sta
 2026-11-01 14:49,4760779,Grau vs Universitario,"Perú, Liga 1 - Clausura",modelo,Menos de 12.5 córners,CORN|12.5|under,0.7276,,,1.37,,,si,G,,
 2026-11-01 14:49,4760779,Grau vs Universitario,"Perú, Liga 1 - Clausura",modelo,Más de 2.5 tarjetas,CARDS|2.5|over,0.7146,,,1.40,,,si,G,,
 2026-11-01 14:49,4760779,Grau vs Universitario,"Perú, Liga 1 - Clausura",crear,Menos de 4.5 goles + Menos de 15.5 córners + Menos de 9.5 tarjetas,OU|4.5|under&CORN|15.5|under&CARDS|9.5|under,0.5882,,,1.70,,,,G,,
+2026-11-02 10:15,4760782,Sport Huancayo vs FBC Melgar,"Perú, Liga 1 - Clausura",seguro,FBC Melgar recibe gol,CS||visita_no,0.7924,1.18,Bet365,1.26,-0.0649,,si,,,
+2026-11-02 10:15,4760782,Sport Huancayo vs FBC Melgar,"Perú, Liga 1 - Clausura",seguro,Sport Huancayo o empate,DC||1X,0.7681,1.36,Bet365,1.30,0.0446,,si,,,
+2026-11-02 10:15,4760782,Sport Huancayo vs FBC Melgar,"Perú, Liga 1 - Clausura",modelo,Más de 2.5 tarjetas,CARDS|2.5|over,0.7259,,,1.38,,,si,,,
+2026-11-02 10:15,4760782,Sport Huancayo vs FBC Melgar,"Perú, Liga 1 - Clausura",modelo,Menos de 12.5 córners,CORN|12.5|under,0.6787,,,1.47,,,si,,,
