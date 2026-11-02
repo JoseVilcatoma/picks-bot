@@ -859,8 +859,12 @@
    "partido": "UTC Cajamarca vs Deportivo Garcilaso",
    "liga": "Perú, Liga 1 - Clausura",
    "inicio": "2026-11-02T13:15:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1793640818.1364686
+   "estado": "enviado",
+   "ultimo": 1793640940.4802527,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "212186,468362,943603,983229,3068142,3183651,3188390,4329678,6878973,12728003,56819961|254603,519405,616408,890934,3138410,3347310,3768524,47441571,51058037,51627546,57621318",
+   "conf": true
   },
   "4760782": {
    "partido": "Sport Huancayo vs FBC Melgar",
