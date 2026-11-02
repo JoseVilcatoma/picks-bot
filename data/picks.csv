@@ -2543,3 +2543,8 @@ fecha,game_id,partido,liga,tipo,mercado,clave,prob,cuota,casa,cuota_justa,ev,sta
 2026-11-02 13:57,4750810,RC Deportivo vs Osasuna,"España, LaLiga",modelo,Menos de 12.5 córners,CORN|12.5|under,0.7195,,,1.39,,,si,,,
 2026-11-02 13:57,4750810,RC Deportivo vs Osasuna,"España, LaLiga",ticket,Osasuna recibe gol + Más de 1.5 goles,CS||visita_no&OU|1.5|over,0.6239,1.75,,1.60,0.0918,10.00,,,,
 2026-11-02 13:57,4750810,RC Deportivo vs Osasuna,"España, LaLiga",crear,Menos de 4.5 goles + Menos de 2.5 goles en el 1T + Más de 5.5 córners + Menos de 8.5 tarjetas,OU|4.5|under&OU1T|2.5|under&CORN|5.5|over&CARDS|8.5|under,0.5777,,,1.73,,,,,,
+2026-11-02 14:00,4732650,Atalanta vs Parma,"Italia, Serie A",seguro,No hay empate,DC||12,0.7853,1.17,Bet365,1.27,-0.0812,,si,,,
+2026-11-02 14:00,4732650,Atalanta vs Parma,"Italia, Serie A",seguro,Más de 0.5 goles en el 1T,OU1T|0.5|over,0.7329,1.22,Bet365,1.36,-0.1058,,si,,,
+2026-11-02 14:00,4732650,Atalanta vs Parma,"Italia, Serie A",modelo,Menos de 6.5 tarjetas,CARDS|6.5|under,0.8086,,,1.24,,,si,,,
+2026-11-02 14:00,4732650,Atalanta vs Parma,"Italia, Serie A",modelo,Más de 1.5 goles,OU|1.5|over,0.7978,,,1.25,,,si,,,
+2026-11-02 14:00,4732650,Atalanta vs Parma,"Italia, Serie A",crear,Atalanta o empate + Más de 4.5 córners + Menos de 7.5 tarjetas,DC||1X&CORN|4.5|over&CARDS|7.5|under,0.5665,,,1.77,,,,,,

@@ -1,32 +1,6 @@
 {
  "offset": 344577788,
  "seguidos": {
-  "4632619": {
-   "partido": "Coritiba vs Vitória",
-   "liga": "Brasil, Brasileirão",
-   "inicio": "2026-10-31T14:00:00-05:00",
-   "estado": "liquidado",
-   "ultimo": 1793480713.238585,
-   "clv": [],
-   "clv_ok": false,
-   "xi": "154142,170083,331006,484719,624467,1838709,3221436,3232567,55798074,65212009,70768696|353876,482461,3059914,3268277,12679086,65768674,71047587,71348854,71355882,76901957,77094590",
-   "conf": true,
-   "r": {
-    "hg": 2,
-    "ag": 0,
-    "ht": [
-     0,
-     0
-    ],
-    "corners": 12.0,
-    "corners_h": 7.0,
-    "corners_a": 5.0,
-    "corners_1t": 6.0,
-    "cards": 2.0,
-    "cards_h": 1.0,
-    "cards_a": 1.0
-   }
-  },
   "4732643": {
    "partido": "AC Milan vs Inter Milan",
    "liga": "Italia, Serie A",
@@ -803,8 +777,12 @@
    "partido": "Atalanta vs Parma",
    "liga": "Italia, Serie A",
    "inicio": "2026-11-02T14:45:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1793645743.6456103
+   "estado": "enviado",
+   "ultimo": 1793646002.057266,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "383049,408094,9589510,12655232,15242890,26803259,31283563,52859220,61716919,75452367,75535353|659658,7773175,47401661,51582567,59158153,60968477,62341759,70810721,76776961,77557356,77672771",
+   "conf": true
   },
   "4735224": {
    "partido": "Lorient vs Brest",
@@ -844,14 +822,14 @@
    "liga": "Portugal, Primeira Liga",
    "inicio": "2026-11-02T15:15:00-05:00",
    "estado": "pendiente",
-   "ultimo": 0
+   "ultimo": 1793646002.96377
   },
   "4757194": {
    "partido": "Benfica vs Alverca",
    "liga": "Portugal, Primeira Liga",
    "inicio": "2026-11-02T15:15:00-05:00",
    "estado": "pendiente",
-   "ultimo": 0
+   "ultimo": 1793646002.9830096
   },
   "4760778": {
    "partido": "Sporting Cristal vs FC Cajamarca",
