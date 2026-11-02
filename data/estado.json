@@ -636,23 +636,53 @@
    "partido": "Atalanta vs Parma",
    "liga": "Italia, Serie A",
    "inicio": "2026-11-02T14:45:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1793646002.057266,
+   "estado": "liquidado",
+   "ultimo": 1793655615.0826743,
    "clv": [],
    "clv_ok": false,
    "xi": "383049,408094,9589510,12655232,15242890,26803259,31283563,52859220,61716919,75452367,75535353|659658,7773175,47401661,51582567,59158153,60968477,62341759,70810721,76776961,77557356,77672771",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 0,
+    "ag": 3,
+    "ht": [
+     0,
+     1
+    ],
+    "corners": 12.0,
+    "corners_h": 8.0,
+    "corners_a": 4.0,
+    "corners_1t": 8.0,
+    "cards": 0.0,
+    "cards_h": 0.0,
+    "cards_a": 0.0
+   }
   },
   "4735224": {
    "partido": "Lorient vs Brest",
    "liga": "Francia, Ligue 1",
    "inicio": "2026-11-02T14:45:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1793645743.652467,
+   "estado": "liquidado",
+   "ultimo": 1793655615.4667664,
    "clv": [],
    "clv_ok": false,
    "xi": "348679,668918,3563832,50809236,64332608,66378868,66563611,67752392,70891587,71341938,72472125|333600,403251,468684,610301,943483,3187609,17127543,33778155,61457548,64206036,70788967",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 0,
+    "ag": 2,
+    "ht": [
+     0,
+     0
+    ],
+    "corners": 10.0,
+    "corners_h": 8.0,
+    "corners_a": 2.0,
+    "corners_1t": 6.0,
+    "cards": 2.0,
+    "cards_h": 1.0,
+    "cards_a": 1.0
+   }
   },
   "4742012": {
    "partido": "Newcastle United vs Everton",
