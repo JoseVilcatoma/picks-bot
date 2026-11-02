@@ -766,12 +766,27 @@
    "partido": "Sassuolo vs Fiorentina",
    "liga": "Italia, Serie A",
    "inicio": "2026-11-02T12:30:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1793637870.5720103,
+   "estado": "liquidado",
+   "ultimo": 1793647596.4256692,
    "clv": [],
    "clv_ok": false,
    "xi": "292149,348551,527000,14668157,29951241,40438608,50403658,50445965,70206104,76144645,77390085|88018,30466531,49531772,50586375,54588606,54901262,65156349,68877009,70860736,71088015,71370735",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 2,
+    "ag": 4,
+    "ht": [
+     1,
+     1
+    ],
+    "corners": 8.0,
+    "corners_h": 5.0,
+    "corners_a": 3.0,
+    "corners_1t": 2.0,
+    "cards": 5.0,
+    "cards_h": 2.0,
+    "cards_a": 3.0
+   }
   },
   "4732650": {
    "partido": "Atalanta vs Parma",
