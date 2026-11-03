@@ -429,56 +429,80 @@
    "liga": "Perú, Liga 1 - Clausura",
    "inicio": "2026-11-03T15:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1793731805.2253547
+   "ultimo": 1793732083.8808272
   },
   "4828440": {
    "partido": "Feyenoord vs Inter Milan",
    "liga": "Europa, UEFA Champions League",
    "inicio": "2026-11-03T15:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1793731805.4286587
+   "estado": "enviado",
+   "ultimo": 1793732084.0257444,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "8866202,49625991,55334368,61322134,64780731,65226353,66449168,70767759,70880203,71401999,76228716|329313,342428,458646,511549,598403,886858,3161656,4802874,6251312,43957321,68000276",
+   "conf": true
   },
   "4828441": {
    "partido": "Manchester United vs AS Roma",
    "liga": "Europa, UEFA Champions League",
    "inicio": "2026-11-03T15:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1793731805.4861114
+   "estado": "enviado",
+   "ultimo": 1793732085.4720087,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "332598,435334,3558647,6813762,6835961,40765000,50729542,65397189,65521968,67023583,70953412|280305,329430,583374,941464,2382938,3087180,9412443,15244103,60980758,64431234,70861688",
+   "conf": true
   },
   "4828442": {
    "partido": "Bodo Glimt vs Lille",
    "liga": "Europa, UEFA Champions League",
    "inicio": "2026-11-03T15:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1793731805.5376256
+   "ultimo": 1793732086.5178201
   },
   "4828443": {
    "partido": "LASK Linz vs Slovan Bratislava",
    "liga": "Europa, UEFA Champions League",
    "inicio": "2026-11-03T15:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1793731805.5855906
+   "estado": "enviado",
+   "ultimo": 1793732086.567236,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "493197,663960,8166099,16881242,28685410,57569194,59040821,61768883,65729616,67816815,67839460|270192,345852,3246156,4265770,13865865,48992621,49572985,64743874,70762503,75379139,75532401",
+   "conf": true
   },
   "4828444": {
    "partido": "Atlético de Madrid vs Bayern Munich",
    "liga": "Europa, UEFA Champions League",
    "inicio": "2026-11-03T15:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1793731805.6418912
+   "estado": "enviado",
+   "ultimo": 1793732089.520967,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "325326,392549,527341,602979,2993226,9101477,9638719,49550597,60936288,63125761,64497047|80013,227604,412127,470279,485309,898082,3095573,14755144,57861026,64744763,76643976",
+   "conf": true
   },
   "4828445": {
    "partido": "FC Barcelona vs Aston Villa",
    "liga": "Europa, UEFA Champions League",
    "inicio": "2026-11-03T15:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1793731805.6921544
+   "estado": "enviado",
+   "ultimo": 1793732090.6682763,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "384197,1444592,1761371,33309233,41923868,52343752,63765805,67787784,70894814,71046688,71171245|327324,501604,534043,596221,3132520,3711904,4832569,15244101,46854554,52355416,71391398",
+   "conf": true
   },
   "4828446": {
    "partido": "Villarreal CF vs PSG",
    "liga": "Europa, UEFA Champions League",
    "inicio": "2026-11-03T15:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1793731805.74758
+   "estado": "enviado",
+   "ultimo": 1793732091.6029117,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "335047,403681,2793452,3136442,13313345,50260341,65211458,66261491,66678159,67627457,77617094|485723,600030,3169055,3171738,40745412,46715751,50754213,64040929,65079212,66436913,70951406",
+   "conf": true
   },
   "4828447": {
    "partido": "Shakhtar Donetsk vs Sporting CP",
