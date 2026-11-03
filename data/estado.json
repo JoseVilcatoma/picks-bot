@@ -428,8 +428,12 @@
    "partido": "Comerciantes Unidos vs ADT Tarma",
    "liga": "Perú, Liga 1 - Clausura",
    "inicio": "2026-11-03T15:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1793732984.948746
+   "estado": "enviado",
+   "ultimo": 1793733259.3867025,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "485823,6410080,11958892,14023190,58602352,65033286,66663681,67627458,67936311,67955361,71147110|225239,358569,457528,497371,541787,618875,47449751,54920557,70823016,72047532,75375974",
+   "conf": true
   },
   "4828440": {
    "partido": "Feyenoord vs Inter Milan",
