@@ -429,7 +429,7 @@
    "liga": "Perú, Liga 1 - Clausura",
    "inicio": "2026-11-03T15:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1793732394.3050227
+   "ultimo": 1793732685.4603302
   },
   "4828440": {
    "partido": "Feyenoord vs Inter Milan",
@@ -457,8 +457,12 @@
    "partido": "Bodo Glimt vs Lille",
    "liga": "Europa, UEFA Champions League",
    "inicio": "2026-11-03T15:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1793732394.492175
+   "estado": "enviado",
+   "ultimo": 1793732685.6720753,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "294509,3056855,3064578,7195793,15007514,15589104,21788847,42393327,49536956,51842632,65672410|216415,512926,3227707,29409785,50482968,56008747,58449710,58495051,67562585,75529803,76179737",
+   "conf": true
   },
   "4828443": {
    "partido": "LASK Linz vs Slovan Bratislava",
