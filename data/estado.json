@@ -615,14 +615,18 @@
    "liga": "Europa, UEFA Champions League",
    "inicio": "2026-11-03T12:45:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1793723717.7391727
+   "ultimo": 1793723964.4423199
   },
   "4828448": {
    "partido": "Galatasaray vs Stuttgart",
    "liga": "Europa, UEFA Champions League",
    "inicio": "2026-11-03T12:45:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1793723717.8781116
+   "estado": "enviado",
+   "ultimo": 1793723964.6235626,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "333237,481140,601998,843502,893771,911384,1086710,8687756,40808720,60875243,71673963|466112,659085,909220,982954,3726834,5332356,6241304,31371955,50497594,50665104,65139386",
+   "conf": true
   },
   "4632608": {
    "partido": "Chapecoense vs Mirassol",
