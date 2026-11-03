@@ -261,32 +261,6 @@
     "cards_a": 3.0
    }
   },
-  "4757188": {
-   "partido": "Arouca vs Nacional Madeira",
-   "liga": "Portugal, Primeira Liga",
-   "inicio": "2026-11-01T10:30:00-05:00",
-   "estado": "liquidado",
-   "ultimo": 1793554015.4588668,
-   "clv": [],
-   "clv_ok": false,
-   "xi": "638433,17595806,33427449,35737436,47415963,47442624,49625993,50895456,64367225,70775085,75389219|7951019,51069440,57110354,58253141,59438356,65893880,68024950,70795530,70903228,71329623,79590358",
-   "conf": true,
-   "r": {
-    "hg": 1,
-    "ag": 0,
-    "ht": [
-     0,
-     0
-    ],
-    "corners": 10.0,
-    "corners_h": 8.0,
-    "corners_a": 2.0,
-    "corners_1t": 4.0,
-    "cards": 4.0,
-    "cards_h": 2.0,
-    "cards_a": 2.0
-   }
-  },
   "4757189": {
    "partido": "SC Braga vs Famalicão",
    "liga": "Portugal, Primeira Liga",
