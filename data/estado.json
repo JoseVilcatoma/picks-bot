@@ -614,8 +614,12 @@
    "partido": "Shakhtar Donetsk vs Sporting CP",
    "liga": "Europa, UEFA Champions League",
    "inicio": "2026-11-03T12:45:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1793723964.4423199
+   "estado": "enviado",
+   "ultimo": 1793724217.7931972,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "886834,3369615,13285265,16515075,55162073,64319747,66226049,66334734,67685778,67895823,70282985|416870,7244055,9157528,49491937,50072970,51611636,60677012,70860145,70939626,75430996,75529792",
+   "conf": true
   },
   "4828448": {
    "partido": "Galatasaray vs Stuttgart",

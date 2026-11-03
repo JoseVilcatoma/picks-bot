@@ -2575,3 +2575,8 @@ fecha,game_id,partido,liga,tipo,mercado,clave,prob,cuota,casa,cuota_justa,ev,sta
 2026-11-03 11:39,4828448,Galatasaray vs Stuttgart,"Europa, UEFA Champions League",modelo,Menos de 14.5 córners,CORN|14.5|under,0.7142,,,1.40,,,si,,,
 2026-11-03 11:39,4828448,Galatasaray vs Stuttgart,"Europa, UEFA Champions League",ticket,Gana Galatasaray,1X2||1,0.4958,2.05,,2.02,0.0163,10.00,,,,
 2026-11-03 11:39,4828448,Galatasaray vs Stuttgart,"Europa, UEFA Champions League",crear,No hay empate + Más de 1.5 goles + Menos de 17.5 córners,DC||12&OU|1.5|over&CORN|17.5|under,0.5854,,,1.71,,,,,,
+2026-11-03 11:43,4828447,Shakhtar Donetsk vs Sporting CP,"Europa, UEFA Champions League",seguro,No hay empate,DC||12,0.7272,1.29,Bet365,1.38,-0.0619,,si,,,
+2026-11-03 11:43,4828447,Shakhtar Donetsk vs Sporting CP,"Europa, UEFA Champions League",seguro,Menos de 3.5 goles,OU|3.5|under,0.6905,1.44,Bet365,1.45,-0.0057,,si,,,
+2026-11-03 11:43,4828447,Shakhtar Donetsk vs Sporting CP,"Europa, UEFA Champions League",modelo,Menos de 6.5 tarjetas,CARDS|6.5|under,0.7600,,,1.32,,,si,,,
+2026-11-03 11:43,4828447,Shakhtar Donetsk vs Sporting CP,"Europa, UEFA Champions League",modelo,Menos de 11.5 córners,CORN|11.5|under,0.6968,,,1.44,,,si,,,
+2026-11-03 11:43,4828447,Shakhtar Donetsk vs Sporting CP,"Europa, UEFA Champions League",ticket,Menos de 2.5 goles,OU|2.5|under,0.4482,2.26,,2.23,0.0129,10.00,,,,
