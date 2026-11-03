@@ -438,8 +438,12 @@
    "partido": "Chapecoense vs Mirassol",
    "liga": "Brasil, Brasileirão",
    "inicio": "2026-11-03T17:30:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1793741941.8662758
+   "estado": "enviado",
+   "ultimo": 1793742213.7482195,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "278865,369720,401413,3070487,3272448,12677895,13138144,17184737,65513422,67613403,76889464|28189,543250,545444,547799,1767342,2384056,3092063,7093168,12677899,65016772,66212496",
+   "conf": true
   },
   "4632610": {
    "partido": "Internacional vs Coritiba",
