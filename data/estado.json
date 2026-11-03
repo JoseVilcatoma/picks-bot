@@ -603,12 +603,27 @@
    "partido": "Bragantino vs Santos",
    "liga": "Brasil, Brasileirão",
    "inicio": "2026-11-02T18:00:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1793667329.5256784,
+   "estado": "liquidado",
+   "ultimo": 1793667938.1529653,
    "clv": [],
    "clv_ok": false,
    "xi": "377132,502310,888633,1302805,3079211,56162393,57889982,61417696,66400482,71359568,77715397|104066,479593,530809,543235,569870,3231386,9563934,60376096,76891180,76943195,77180994",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 2,
+    "ag": 1,
+    "ht": [
+     2,
+     1
+    ],
+    "corners": 12.0,
+    "corners_h": 7.0,
+    "corners_a": 5.0,
+    "corners_1t": 3.0,
+    "cards": 4.0,
+    "cards_h": 1.0,
+    "cards_a": 3.0
+   }
   },
   "4732642": {
    "partido": "Sassuolo vs Fiorentina",
