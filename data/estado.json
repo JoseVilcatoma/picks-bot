@@ -879,6 +879,55 @@
    "inicio": "2026-11-05T12:45:00-05:00",
    "estado": "pendiente",
    "ultimo": 0
+  },
+  "4732631": {
+   "partido": "Venezia vs Udinese",
+   "liga": "Italia, Serie A",
+   "inicio": "2026-11-06T14:45:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4735210": {
+   "partido": "Toulouse vs Estrasburgo",
+   "liga": "Francia, Ligue 1",
+   "inicio": "2026-11-06T14:45:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4742008": {
+   "partido": "Everton vs Coventry",
+   "liga": "Inglaterra, Premier League",
+   "inicio": "2026-11-06T15:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4750794": {
+   "partido": "Sevilla FC vs Alavés",
+   "liga": "España, LaLiga",
+   "inicio": "2026-11-06T15:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4755347": {
+   "partido": "Hamburgo SV vs Borussia Mönchengladbach",
+   "liga": "Alemania, Bundesliga",
+   "inicio": "2026-11-06T14:30:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4757199": {
+   "partido": "Famalicão vs Arouca",
+   "liga": "Portugal, Primeira Liga",
+   "inicio": "2026-11-06T15:45:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4760775": {
+   "partido": "Grau vs Cusco FC",
+   "liga": "Perú, Liga 1 - Clausura",
+   "inicio": "2026-11-06T15:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
   }
  },
  "web": {
@@ -1013,7 +1062,14 @@
   "4828706": 1793627996680,
   "4828707": 1793627996950,
   "4828708": 1793627997513,
-  "4828709": 1793627998113
+  "4828709": 1793627998113,
+  "4732631": 1793731257633,
+  "4735210": 1793731257188,
+  "4742008": 1793731260227,
+  "4750794": 1793731258427,
+  "4755347": 1793731256762,
+  "4757199": 1793731260661,
+  "4760775": 1793731258945
  },
  "tickets": [],
  "sin_creditos": false
