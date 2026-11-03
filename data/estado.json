@@ -53,32 +53,6 @@
     "cards_a": 1.0
    }
   },
-  "4750808": {
-   "partido": "Elche CF vs Valencia CF",
-   "liga": "España, LaLiga",
-   "inicio": "2026-11-01T12:30:00-05:00",
-   "estado": "liquidado",
-   "ultimo": 1793561107.8074965,
-   "clv": [],
-   "clv_ok": false,
-   "xi": "399311,462402,951705,46887693,50586397,52641513,60025387,62020562,66170333,71110290,77859605|441765,502893,557843,561247,676819,1132718,1760855,61679599,64248760,64759691,77755397",
-   "conf": true,
-   "r": {
-    "hg": 0,
-    "ag": 1,
-    "ht": [
-     0,
-     0
-    ],
-    "corners": 8.0,
-    "corners_h": 6.0,
-    "corners_a": 2.0,
-    "corners_1t": 2.0,
-    "cards": 5.0,
-    "cards_h": 3.0,
-    "cards_a": 2.0
-   }
-  },
   "4750811": {
    "partido": "Athletic Club vs Real Sociedad",
    "liga": "España, LaLiga",
