@@ -1,58 +1,6 @@
 {
  "offset": 344577788,
  "seguidos": {
-  "4732646": {
-   "partido": "Juventus vs Nápoles",
-   "liga": "Italia, Serie A",
-   "inicio": "2026-11-01T14:45:00-05:00",
-   "estado": "liquidado",
-   "ultimo": 1793569273.22863,
-   "clv": [],
-   "clv_ok": false,
-   "xi": "1006401,3094565,3229380,3260720,3456444,3725457,4873827,28607589,40731942,50999036,75535290|95182,385087,550352,610717,973073,3049924,3227448,4874431,61684779,62350133,70877151",
-   "conf": true,
-   "r": {
-    "hg": 2,
-    "ag": 0,
-    "ht": [
-     0,
-     0
-    ],
-    "corners": 17.0,
-    "corners_h": 13.0,
-    "corners_a": 4.0,
-    "corners_1t": 9.0,
-    "cards": 6.0,
-    "cards_h": 3.0,
-    "cards_a": 3.0
-   }
-  },
-  "4735222": {
-   "partido": "Olympique Marsella vs Toulouse",
-   "liga": "Francia, Ligue 1",
-   "inicio": "2026-11-01T14:45:00-05:00",
-   "estado": "liquidado",
-   "ultimo": 1793569883.414112,
-   "clv": [],
-   "clv_ok": false,
-   "xi": "405252,543231,3053170,3153777,3154243,8490982,12616002,13268816,50159654,63131014,75445196|474941,3488262,7495369,39729553,51179941,65799938,67840731,67952105,71521869,75433697,78913677",
-   "conf": true,
-   "r": {
-    "hg": 2,
-    "ag": 0,
-    "ht": [
-     2,
-     0
-    ],
-    "corners": 7.0,
-    "corners_h": 4.0,
-    "corners_a": 3.0,
-    "corners_1t": 4.0,
-    "cards": 3.0,
-    "cards_h": 2.0,
-    "cards_a": 1.0
-   }
-  },
   "4750811": {
    "partido": "Athletic Club vs Real Sociedad",
    "liga": "España, LaLiga",
