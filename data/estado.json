@@ -516,23 +516,53 @@
    "partido": "Shakhtar Donetsk vs Sporting CP",
    "liga": "Europa, UEFA Champions League",
    "inicio": "2026-11-03T12:45:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1793724217.7931972,
+   "estado": "liquidado",
+   "ultimo": 1793734821.158037,
    "clv": [],
    "clv_ok": false,
    "xi": "886834,3369615,13285265,16515075,55162073,64319747,66226049,66334734,67685778,67895823,70282985|416870,7244055,9157528,49491937,50072970,51611636,60677012,70860145,70939626,75430996,75529792",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 0,
+    "ag": 1,
+    "ht": [
+     0,
+     0
+    ],
+    "corners": 9.0,
+    "corners_h": 7.0,
+    "corners_a": 2.0,
+    "corners_1t": 5.0,
+    "cards": 2.0,
+    "cards_h": 1.0,
+    "cards_a": 1.0
+   }
   },
   "4828448": {
    "partido": "Galatasaray vs Stuttgart",
    "liga": "Europa, UEFA Champions League",
    "inicio": "2026-11-03T12:45:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1793723964.6235626,
+   "estado": "liquidado",
+   "ultimo": 1793734821.4149318,
    "clv": [],
    "clv_ok": false,
    "xi": "333237,481140,601998,843502,893771,911384,1086710,8687756,40808720,60875243,71673963|466112,659085,909220,982954,3726834,5332356,6241304,31371955,50497594,50665104,65139386",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 2,
+    "ag": 0,
+    "ht": [
+     2,
+     0
+    ],
+    "corners": 10.0,
+    "corners_h": 6.0,
+    "corners_a": 4.0,
+    "corners_1t": 6.0,
+    "cards": 8.0,
+    "cards_h": 3.0,
+    "cards_a": 5.0
+   }
   },
   "4632608": {
    "partido": "Chapecoense vs Mirassol",
