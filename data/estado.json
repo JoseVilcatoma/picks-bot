@@ -313,32 +313,6 @@
     "cards_a": 3.0
    }
   },
-  "4760776": {
-   "partido": "CD Moquegua vs Los Chankas",
-   "liga": "Perú, Liga 1 - Clausura",
-   "inicio": "2026-11-01T11:00:00-05:00",
-   "estado": "liquidado",
-   "ultimo": 1793556327.3171256,
-   "clv": [],
-   "clv_ok": false,
-   "xi": "319980,499074,514230,574428,6590900,48577293,52708695,61078193,67955161,67974745,67990841|615398,3371368,6593783,7863154,13093514,13884537,47420072,56663073,56700220,59045608,72047163",
-   "conf": true,
-   "r": {
-    "hg": 0,
-    "ag": 0,
-    "ht": [
-     0,
-     0
-    ],
-    "corners": 11.0,
-    "corners_h": 5.0,
-    "corners_a": 6.0,
-    "corners_1t": 2.0,
-    "cards": 3.0,
-    "cards_h": 0.0,
-    "cards_a": 3.0
-   }
-  },
   "4760777": {
    "partido": "Cusco FC vs Sport Boys",
    "liga": "Perú, Liga 1 - Clausura",
