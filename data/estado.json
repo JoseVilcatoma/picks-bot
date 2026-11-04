@@ -709,12 +709,27 @@
    "partido": "Rennes vs Olympiacos",
    "liga": "Europa, UEFA Europa League",
    "inicio": "2026-11-04T10:30:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1793802223.4397898,
+   "estado": "liquidado",
+   "ultimo": 1793813184.790439,
    "clv": [],
    "clv_ok": false,
    "xi": "259180,335306,489617,2810327,3055980,8688144,9039245,51243145,51284167,71035001,75535194|302047,475644,490310,668938,839118,38086022,47525532,53215602,65820461,66630057,67613261",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 0,
+    "ag": 0,
+    "ht": [
+     0,
+     0
+    ],
+    "corners": 6.0,
+    "corners_h": 3.0,
+    "corners_a": 3.0,
+    "corners_1t": 5.0,
+    "cards": 1.0,
+    "cards_h": 1.0,
+    "cards_a": 0.0
+   }
   },
   "4828702": {
    "partido": "N.E.C. Nijmegen vs Omonia",
