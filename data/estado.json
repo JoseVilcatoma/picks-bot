@@ -598,7 +598,7 @@
    "liga": "Europa, UEFA Champions League",
    "inicio": "2026-11-04T15:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1793818410.9271705
+   "ultimo": 1793818658.1874304
   },
   "4828433": {
    "partido": "PSV Eindhoven vs Brujas",
@@ -615,22 +615,30 @@
    "partido": "Slavia Praga vs Arsenal",
    "liga": "Europa, UEFA Champions League",
    "inicio": "2026-11-04T15:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1793818412.2633746
+   "estado": "enviado",
+   "ultimo": 1793818658.4136417,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "518327,3153645,23568317,39144009,60326040,68004477,71092804,75403160,77337423,77470673,77708923|537419,562084,2985896,3055995,3070470,3135414,3211355,3287853,45211907,47426590,50457607",
+   "conf": true
   },
   "4828435": {
    "partido": "Borussia Dortmund vs Real Betis",
    "liga": "Europa, UEFA Champions League",
    "inicio": "2026-11-04T15:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1793818412.295355
+   "estado": "enviado",
+   "ultimo": 1793818659.638181,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "366254,379069,532397,895074,943391,3276664,15028852,38249831,50878796,51042327,64350505|329571,584859,6438371,18094605,30121643,46854548,56196972,62694855,64352162,65112544,76770352",
+   "conf": true
   },
   "4828436": {
    "partido": "Lens vs Como",
    "liga": "Europa, UEFA Champions League",
    "inicio": "2026-11-04T15:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1793818412.342607
+   "ultimo": 1793818660.157209
   },
   "4828437": {
    "partido": "Fenerbahce vs Liverpool",
@@ -647,8 +655,12 @@
    "partido": "RB Leipzig vs Manchester City",
    "liga": "Europa, UEFA Champions League",
    "inicio": "2026-11-04T15:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1793818412.3755093
+   "estado": "enviado",
+   "ultimo": 1793818660.181309,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "565116,3180934,4346740,8048881,13860928,58698523,59101484,61211738,62453007,64157972,67628271|620429,3072169,3172759,39079597,40408252,48394475,49491936,51439135,55058114,67820202,68032675",
+   "conf": true
   },
   "4828439": {
    "partido": "AEK Atenas vs Real Madrid",
