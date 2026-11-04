@@ -652,12 +652,27 @@
    "partido": "Fenerbahce vs Liverpool",
    "liga": "Europa, UEFA Champions League",
    "inicio": "2026-11-04T12:45:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1793810124.5170536,
+   "estado": "liquidado",
+   "ultimo": 1793821219.3846068,
    "clv": [],
    "clv_ok": false,
    "xi": "79885,330842,356369,510360,550408,895283,3170743,8746866,54840196,60283480,67938054|220953,392021,558151,886827,3374464,3886928,60909490,67987366,70896126,70986024,75529942",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 3,
+    "ag": 2,
+    "ht": [
+     1,
+     1
+    ],
+    "corners": 16.0,
+    "corners_h": 4.0,
+    "corners_a": 12.0,
+    "corners_1t": 8.0,
+    "cards": 2.0,
+    "cards_h": 1.0,
+    "cards_a": 1.0
+   }
   },
   "4828438": {
    "partido": "RB Leipzig vs Manchester City",
@@ -674,12 +689,27 @@
    "partido": "AEK Atenas vs Real Madrid",
    "liga": "Europa, UEFA Champions League",
    "inicio": "2026-11-04T12:45:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1793810372.398182,
+   "estado": "liquidado",
+   "ultimo": 1793821219.5119019,
    "clv": [],
    "clv_ok": false,
    "xi": "516543,580583,666237,1404520,3090785,3659571,38159535,47559232,49579706,51582820,61292303|211012,334865,384169,1589889,3083456,3235657,3353264,3568284,16842003,46440257,77099314",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 2,
+    "ag": 3,
+    "ht": [
+     1,
+     1
+    ],
+    "corners": 7.0,
+    "corners_h": 0.0,
+    "corners_a": 7.0,
+    "corners_1t": 3.0,
+    "cards": 2.0,
+    "cards_h": 1.0,
+    "cards_a": 1.0
+   }
   },
   "4828710": {
    "partido": "Rennes vs Olympiacos",
