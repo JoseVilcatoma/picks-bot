@@ -680,8 +680,12 @@
    "partido": "Fenerbahce vs Liverpool",
    "liga": "Europa, UEFA Champions League",
    "inicio": "2026-11-04T12:45:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1793809880.1135287
+   "estado": "enviado",
+   "ultimo": 1793810124.5170536,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "79885,330842,356369,510360,550408,895283,3170743,8746866,54840196,60283480,67938054|220953,392021,558151,886827,3374464,3886928,60909490,67987366,70896126,70986024,75529942",
+   "conf": true
   },
   "4828438": {
    "partido": "RB Leipzig vs Manchester City",
@@ -695,7 +699,7 @@
    "liga": "Europa, UEFA Champions League",
    "inicio": "2026-11-04T12:45:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1793809880.2459936
+   "ultimo": 1793810125.2666938
   },
   "4828710": {
    "partido": "Rennes vs Olympiacos",
