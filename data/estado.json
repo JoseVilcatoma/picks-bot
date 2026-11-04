@@ -239,12 +239,27 @@
    "partido": "Alianza Lima vs Cienciano",
    "liga": "Perú, Liga 1 - Clausura",
    "inicio": "2026-11-03T20:00:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1793760928.118295,
+   "estado": "liquidado",
+   "ultimo": 1793761535.763144,
    "clv": [],
    "clv_ok": false,
    "xi": "351317,375417,470773,482699,485232,2511193,3096298,12095969,53156719,56651794,67643639|461402,470008,578343,591032,941108,3086656,3210157,4366058,13461121,47991870,64944309",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 1,
+    "ag": 0,
+    "ht": [
+     0,
+     0
+    ],
+    "corners": 9.0,
+    "corners_h": 7.0,
+    "corners_a": 2.0,
+    "corners_1t": 3.0,
+    "cards": 5.0,
+    "cards_h": 2.0,
+    "cards_a": 3.0
+   }
   },
   "4760781": {
    "partido": "UTC Cajamarca vs Deportivo Garcilaso",
