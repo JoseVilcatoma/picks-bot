@@ -516,12 +516,27 @@
    "partido": "Borussia Dortmund vs Real Betis",
    "liga": "Europa, UEFA Champions League",
    "inicio": "2026-11-04T15:00:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1793829338.5189147,
+   "estado": "liquidado",
+   "ultimo": 1793829953.189932,
    "clv": [],
    "clv_ok": false,
    "xi": "366254,379069,532397,895074,943391,3276664,15028852,38249831,50878796,51042327,64350505|329571,584859,6438371,18094605,30121643,46854548,56196972,62694855,64352162,65112544,76770352",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 2,
+    "ag": 1,
+    "ht": [
+     0,
+     0
+    ],
+    "corners": 7.0,
+    "corners_h": 2.0,
+    "corners_a": 5.0,
+    "corners_1t": 3.0,
+    "cards": 8.0,
+    "cards_h": 4.0,
+    "cards_a": 4.0
+   }
   },
   "4828436": {
    "partido": "Lens vs Como",
