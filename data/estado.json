@@ -597,8 +597,12 @@
    "partido": "Viking vs Sabah",
    "liga": "Europa, UEFA Champions League",
    "inicio": "2026-11-04T15:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1793818658.1874304
+   "estado": "enviado",
+   "ultimo": 1793818907.367856,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "375135,498795,581735,3226815,3249580,12076407,47476276,49523494,49868872,60049298,72619034|491057,3344699,3413136,4548091,32834575,50682101,52290838,67820172,71388405,77170789,77300070",
+   "conf": true
   },
   "4828433": {
    "partido": "PSV Eindhoven vs Brujas",
@@ -638,7 +642,7 @@
    "liga": "Europa, UEFA Champions League",
    "inicio": "2026-11-04T15:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1793818660.157209
+   "ultimo": 1793818907.962279
   },
   "4828437": {
    "partido": "Fenerbahce vs Liverpool",

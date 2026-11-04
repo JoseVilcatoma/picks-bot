@@ -2686,3 +2686,8 @@ fecha,game_id,partido,liga,tipo,mercado,clave,prob,cuota,casa,cuota_justa,ev,sta
 2026-11-04 13:57,4828438,RB Leipzig vs Manchester City,"Europa, UEFA Champions League",modelo,Menos de 12.5 córners,CORN|12.5|under,0.7356,,,1.36,,,si,,,
 2026-11-04 13:57,4828438,RB Leipzig vs Manchester City,"Europa, UEFA Champions League",ticket,Ambos marcan: Sí + Más de 2.5 goles,BTTS||si&OU|2.5|over,0.6011,1.81,,1.66,0.0856,10.00,,,,
 2026-11-04 13:57,4828438,RB Leipzig vs Manchester City,"Europa, UEFA Champions League",crear,Menos de 5.5 goles + Menos de 15.5 córners + Menos de 7.5 tarjetas,OU|5.5|under&CORN|15.5|under&CARDS|7.5|under,0.5851,,,1.71,,,,,,
+2026-11-04 14:01,4828432,Viking vs Sabah,"Europa, UEFA Champions League",seguro,No hay empate,DC||12,0.7666,1.18,Bet365,1.30,-0.0954,,si,,,
+2026-11-04 14:01,4828432,Viking vs Sabah,"Europa, UEFA Champions League",seguro,Más de 0.5 goles en el 1T,OU1T|0.5|over,0.7351,1.17,Bet365,1.36,-0.1400,,si,,,
+2026-11-04 14:01,4828432,Viking vs Sabah,"Europa, UEFA Champions League",modelo,Más de 1.5 goles,OU|1.5|over,0.7856,,,1.27,,,si,,,
+2026-11-04 14:01,4828432,Viking vs Sabah,"Europa, UEFA Champions League",modelo,Más de 2.5 tarjetas,CARDS|2.5|over,0.7146,,,1.40,,,si,,,
+2026-11-04 14:01,4828432,Viking vs Sabah,"Europa, UEFA Champions League",crear,Más de 1.5 goles + Menos de 16.5 córners + Menos de 8.5 tarjetas,OU|1.5|over&CORN|16.5|under&CARDS|8.5|under,0.5312,,,1.88,,,,,,
