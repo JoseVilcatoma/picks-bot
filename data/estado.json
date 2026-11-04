@@ -412,52 +412,112 @@
    "partido": "FC Porto vs Nápoles",
    "liga": "Europa, UEFA Champions League",
    "inicio": "2026-11-04T15:00:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1793818410.0937629,
+   "estado": "liquidado",
+   "ultimo": 1793829337.1490514,
    "clv": [],
    "clv_ok": false,
    "xi": "635177,648418,911054,913383,12436614,13856477,35286777,44030290,51137406,70953015,71328020|95182,385087,550352,610717,612027,973073,34691016,50852472,61666841,62350133,64456948",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 4,
+    "ag": 1,
+    "ht": [
+     1,
+     1
+    ],
+    "corners": 10.0,
+    "corners_h": 5.0,
+    "corners_a": 5.0,
+    "corners_1t": 6.0,
+    "cards": 6.0,
+    "cards_h": 1.0,
+    "cards_a": 5.0
+   }
   },
   "4828432": {
    "partido": "Viking vs Sabah",
    "liga": "Europa, UEFA Champions League",
    "inicio": "2026-11-04T15:00:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1793818907.367856,
+   "estado": "liquidado",
+   "ultimo": 1793829337.5420015,
    "clv": [],
    "clv_ok": false,
    "xi": "375135,498795,581735,3226815,3249580,12076407,47476276,49523494,49868872,60049298,72619034|491057,3344699,3413136,4548091,32834575,50682101,52290838,67820172,71388405,77170789,77300070",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 4,
+    "ag": 1,
+    "ht": [
+     1,
+     1
+    ],
+    "corners": 16.0,
+    "corners_h": 10.0,
+    "corners_a": 6.0,
+    "corners_1t": 5.0,
+    "cards": 5.0,
+    "cards_h": 2.0,
+    "cards_a": 3.0
+   }
   },
   "4828433": {
    "partido": "PSV Eindhoven vs Brujas",
    "liga": "Europa, UEFA Champions League",
    "inicio": "2026-11-04T15:00:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1793818410.950424,
+   "estado": "liquidado",
+   "ultimo": 1793829337.85775,
    "clv": [],
    "clv_ok": false,
    "xi": "27247,305312,3097855,3340161,4040127,4222302,4786658,43467357,50497600,66460054,67820371|347017,349116,505117,3267706,61767329,65280617,66680613,66693760,66693762,71890592,75535511",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 1,
+    "ag": 2,
+    "ht": [
+     0,
+     1
+    ],
+    "corners": 13.0,
+    "corners_h": 8.0,
+    "corners_a": 5.0,
+    "corners_1t": 6.0,
+    "cards": 3.0,
+    "cards_h": 0.0,
+    "cards_a": 3.0
+   }
   },
   "4828434": {
    "partido": "Slavia Praga vs Arsenal",
    "liga": "Europa, UEFA Champions League",
    "inicio": "2026-11-04T15:00:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1793818658.4136417,
+   "estado": "liquidado",
+   "ultimo": 1793829338.1637485,
    "clv": [],
    "clv_ok": false,
    "xi": "518327,3153645,23568317,39144009,60326040,68004477,71092804,75403160,77337423,77470673,77708923|537419,562084,2985896,3055995,3070470,3135414,3211355,3287853,45211907,47426590,50457607",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 1,
+    "ag": 2,
+    "ht": [
+     0,
+     2
+    ],
+    "corners": 6.0,
+    "corners_h": 4.0,
+    "corners_a": 2.0,
+    "corners_1t": 2.0,
+    "cards": 3.0,
+    "cards_h": 1.0,
+    "cards_a": 2.0
+   }
   },
   "4828435": {
    "partido": "Borussia Dortmund vs Real Betis",
    "liga": "Europa, UEFA Champions League",
    "inicio": "2026-11-04T15:00:00-05:00",
    "estado": "enviado",
-   "ultimo": 1793818659.638181,
+   "ultimo": 1793829338.5189147,
    "clv": [],
    "clv_ok": false,
    "xi": "366254,379069,532397,895074,943391,3276664,15028852,38249831,50878796,51042327,64350505|329571,584859,6438371,18094605,30121643,46854548,56196972,62694855,64352162,65112544,76770352",
@@ -467,12 +527,27 @@
    "partido": "Lens vs Como",
    "liga": "Europa, UEFA Champions League",
    "inicio": "2026-11-04T15:00:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1793819154.076475,
+   "estado": "liquidado",
+   "ultimo": 1793829338.6284084,
    "clv": [],
    "clv_ok": false,
    "xi": "277482,342805,533996,3049963,3180213,3424641,3590178,63090573,66384998,70796446,70953336|345756,550367,671186,4828844,40742145,43470743,49579899,64935156,65895085,66186532,70914728",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 1,
+    "ag": 9,
+    "ht": [
+     0,
+     3
+    ],
+    "corners": 10.0,
+    "corners_h": 5.0,
+    "corners_a": 5.0,
+    "corners_1t": 5.0,
+    "cards": 2.0,
+    "cards_h": 2.0,
+    "cards_a": 0.0
+   }
   },
   "4828437": {
    "partido": "Fenerbahce vs Liverpool",
@@ -504,12 +579,27 @@
    "partido": "RB Leipzig vs Manchester City",
    "liga": "Europa, UEFA Champions League",
    "inicio": "2026-11-04T15:00:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1793818660.181309,
+   "estado": "liquidado",
+   "ultimo": 1793829338.9675672,
    "clv": [],
    "clv_ok": false,
    "xi": "565116,3180934,4346740,8048881,13860928,58698523,59101484,61211738,62453007,64157972,67628271|620429,3072169,3172759,39079597,40408252,48394475,49491936,51439135,55058114,67820202,68032675",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 2,
+    "ag": 3,
+    "ht": [
+     0,
+     1
+    ],
+    "corners": 8.0,
+    "corners_h": 5.0,
+    "corners_a": 3.0,
+    "corners_1t": 3.0,
+    "cards": 6.0,
+    "cards_h": 4.0,
+    "cards_a": 2.0
+   }
   },
   "4828439": {
    "partido": "AEK Atenas vs Real Madrid",
