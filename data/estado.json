@@ -369,8 +369,12 @@
    "partido": "Athletico Paranaense vs Vasco Da Gama",
    "liga": "Brasil, Brasileirão",
    "inicio": "2026-11-04T17:30:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1793828475.1510575
+   "estado": "enviado",
+   "ultimo": 1793828724.1046715,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "203068,516073,2754101,3123906,3246351,5115154,6880090,52708689,56207483,66636343,72093850|243575,404923,480781,593190,3120151,64798849,65176757,65227585,67354179,67666932,67668956",
+   "conf": true
   },
   "4632614": {
    "partido": "São Paulo vs Corinthians",
