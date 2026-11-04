@@ -354,15 +354,19 @@
    "partido": "São Paulo vs Corinthians",
    "liga": "Brasil, Brasileirão",
    "inicio": "2026-11-04T19:30:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1793835675.0644977
+   "estado": "enviado",
+   "ultimo": 1793835919.4374263,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "270847,302560,347912,430655,543187,3219228,3320593,55416459,70897196,71071406,77691484|376333,433045,472811,3235790,6687134,9289348,16699960,66083960,66705981,67631833,77409182",
+   "conf": true
   },
   "4632615": {
    "partido": "Botafogo vs Atlético Mineiro",
    "liga": "Brasil, Brasileirão",
    "inicio": "2026-11-04T19:30:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1793835675.165092
+   "ultimo": 1793835920.9979982
   },
   "4632616": {
    "partido": "Flamengo vs Grêmio",
