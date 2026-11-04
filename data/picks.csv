@@ -2651,3 +2651,8 @@ fecha,game_id,partido,liga,tipo,mercado,clave,prob,cuota,casa,cuota_justa,ev,sta
 2026-11-04 11:35,4828437,Fenerbahce vs Liverpool,"Europa, UEFA Champions League",modelo,Más de 1.5 goles,OU|1.5|over,0.7630,,,1.31,,,si,,,
 2026-11-04 11:35,4828437,Fenerbahce vs Liverpool,"Europa, UEFA Champions League",modelo,Más de 2.5 tarjetas,CARDS|2.5|over,0.7023,,,1.42,,,si,,,
 2026-11-04 11:35,4828437,Fenerbahce vs Liverpool,"Europa, UEFA Champions League",crear,Liverpool o empate + Menos de 14.5 córners,DC||X2&CORN|14.5|under,0.5873,,,1.70,,,,,,
+2026-11-04 11:39,4828439,AEK Atenas vs Real Madrid,"Europa, UEFA Champions League",seguro,Más de 0.5 goles en el 1T,OU1T|0.5|over,0.7619,1.17,Bet365,1.31,-0.1085,,si,,,
+2026-11-04 11:39,4828439,AEK Atenas vs Real Madrid,"Europa, UEFA Champions League",seguro,Gana Real Madrid,1X2||2,0.7398,1.26,1xBet,1.35,-0.0679,,si,,,
+2026-11-04 11:39,4828439,AEK Atenas vs Real Madrid,"Europa, UEFA Champions League",modelo,Más de 1.5 goles,OU|1.5|over,0.8284,,,1.21,,,si,,,
+2026-11-04 11:39,4828439,AEK Atenas vs Real Madrid,"Europa, UEFA Champions League",modelo,Menos de 6.5 tarjetas,CARDS|6.5|under,0.7600,,,1.32,,,si,,,
+2026-11-04 11:39,4828439,AEK Atenas vs Real Madrid,"Europa, UEFA Champions League",crear,No hay empate + Menos de 5.5 goles + Menos de 13.5 córners,DC||12&OU|5.5|under&CORN|13.5|under,0.5870,,,1.70,,,,,,
