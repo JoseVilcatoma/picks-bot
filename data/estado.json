@@ -586,43 +586,51 @@
    "partido": "FC Porto vs Nápoles",
    "liga": "Europa, UEFA Champions League",
    "inicio": "2026-11-04T15:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1793818165.9452102
+   "estado": "enviado",
+   "ultimo": 1793818410.0937629,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "635177,648418,911054,913383,12436614,13856477,35286777,44030290,51137406,70953015,71328020|95182,385087,550352,610717,612027,973073,34691016,50852472,61666841,62350133,64456948",
+   "conf": true
   },
   "4828432": {
    "partido": "Viking vs Sabah",
    "liga": "Europa, UEFA Champions League",
    "inicio": "2026-11-04T15:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1793818166.0920362
+   "ultimo": 1793818410.9271705
   },
   "4828433": {
    "partido": "PSV Eindhoven vs Brujas",
    "liga": "Europa, UEFA Champions League",
    "inicio": "2026-11-04T15:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1793818166.1190972
+   "estado": "enviado",
+   "ultimo": 1793818410.950424,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "27247,305312,3097855,3340161,4040127,4222302,4786658,43467357,50497600,66460054,67820371|347017,349116,505117,3267706,61767329,65280617,66680613,66693760,66693762,71890592,75535511",
+   "conf": true
   },
   "4828434": {
    "partido": "Slavia Praga vs Arsenal",
    "liga": "Europa, UEFA Champions League",
    "inicio": "2026-11-04T15:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1793818166.1451752
+   "ultimo": 1793818412.2633746
   },
   "4828435": {
    "partido": "Borussia Dortmund vs Real Betis",
    "liga": "Europa, UEFA Champions League",
    "inicio": "2026-11-04T15:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1793818166.1788564
+   "ultimo": 1793818412.295355
   },
   "4828436": {
    "partido": "Lens vs Como",
    "liga": "Europa, UEFA Champions League",
    "inicio": "2026-11-04T15:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1793818166.2041035
+   "ultimo": 1793818412.342607
   },
   "4828437": {
    "partido": "Fenerbahce vs Liverpool",
@@ -640,7 +648,7 @@
    "liga": "Europa, UEFA Champions League",
    "inicio": "2026-11-04T15:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1793818166.2301397
+   "ultimo": 1793818412.3755093
   },
   "4828439": {
    "partido": "AEK Atenas vs Real Madrid",
