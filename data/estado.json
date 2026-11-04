@@ -239,8 +239,12 @@
    "partido": "Alianza Lima vs Cienciano",
    "liga": "Perú, Liga 1 - Clausura",
    "inicio": "2026-11-03T20:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1793750571.6185865
+   "estado": "enviado",
+   "ultimo": 1793750815.2789063,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "351317,375417,470773,482699,485232,2511193,3096298,12095969,53156719,56651794,67643639|461402,470008,578343,591032,941108,3086656,3210157,4366058,13461121,47991870,64944309",
+   "conf": true
   },
   "4760781": {
    "partido": "UTC Cajamarca vs Deportivo Garcilaso",
