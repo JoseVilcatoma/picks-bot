@@ -370,7 +370,7 @@
    "liga": "Brasil, Brasileirão",
    "inicio": "2026-11-04T17:30:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1793828138.8847568
+   "ultimo": 1793828475.1510575
   },
   "4632614": {
    "partido": "São Paulo vs Corinthians",
@@ -390,8 +390,12 @@
    "partido": "Flamengo vs Grêmio",
    "liga": "Brasil, Brasileirão",
    "inicio": "2026-11-04T17:30:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1793828138.954018
+   "estado": "enviado",
+   "ultimo": 1793828475.2923725,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "367429,374092,436629,489068,506159,1103284,1651346,1900508,2992976,3088103,3263629|262106,342877,456402,497328,666429,12770714,12998385,57388997,66583321,67955153,71355715",
+   "conf": true
   },
   "4760787": {
    "partido": "Universitario vs Sport Boys",
