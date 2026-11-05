@@ -813,8 +813,12 @@
    "partido": "Monaco vs FC Nordsjaelland",
    "liga": "Europa, UEFA Conference League",
    "inicio": "2026-11-05T15:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1793905319.3343976
+   "estado": "enviado",
+   "ultimo": 1793905578.863964,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "300142,356467,386642,672103,8955000,39050280,66794325,67452514,70951426,76873889,77474682|1535959,3517524,3517657,15572558,25422288,71088302,71895672,76951442,76965023,77028819,77742062",
+   "conf": true
   },
   "4828897": {
    "partido": "Trabzonspor vs Friburgo",
@@ -945,21 +949,25 @@
    "liga": "Europa, UEFA Europa League",
    "inicio": "2026-11-05T15:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1793905319.4154727
+   "ultimo": 1793905580.770802
   },
   "4828695": {
    "partido": "Sunderland vs Dinamo Zagreb",
    "liga": "Europa, UEFA Europa League",
    "inicio": "2026-11-05T15:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1793905319.49506
+   "ultimo": 1793905580.8399923
   },
   "4828696": {
    "partido": "Celtic vs Besiktas",
    "liga": "Europa, UEFA Europa League",
    "inicio": "2026-11-05T15:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1793905319.5743434
+   "estado": "enviado",
+   "ultimo": 1793905580.9093337,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "82149,365347,376772,656203,2576057,3064600,7717231,10075353,29385491,62814887,66717369|350731,549592,631711,668561,906343,3054846,50203633,51783000,61666843,65281760,67614969",
+   "conf": true
   },
   "4828697": {
    "partido": "Sturm Graz vs NK Celje",
