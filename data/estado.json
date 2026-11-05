@@ -369,12 +369,27 @@
    "partido": "São Paulo vs Corinthians",
    "liga": "Brasil, Brasileirão",
    "inicio": "2026-11-04T19:30:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1793845567.7406328,
+   "estado": "liquidado",
+   "ultimo": 1793846179.058792,
    "clv": [],
    "clv_ok": false,
    "xi": "270847,302560,347912,430655,543187,3219228,3320593,55416459,70897196,71071406,77691484|376333,433045,472811,3235790,6687134,9289348,16699960,66083960,66705981,67631833,77409182",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 0,
+    "ag": 0,
+    "ht": [
+     0,
+     0
+    ],
+    "corners": 14.0,
+    "corners_h": 6.0,
+    "corners_a": 8.0,
+    "corners_1t": 12.0,
+    "cards": 10.0,
+    "cards_h": 5.0,
+    "cards_a": 5.0
+   }
   },
   "4632615": {
    "partido": "Botafogo vs Atlético Mineiro",
