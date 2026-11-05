@@ -447,12 +447,27 @@
    "partido": "Universitario vs Sport Boys",
    "liga": "Perú, Liga 1 - Clausura",
    "inicio": "2026-11-04T20:30:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1793849134.613361,
+   "estado": "liquidado",
+   "ultimo": 1793849741.7201989,
    "clv": [],
    "clv_ok": false,
    "xi": "393797,478387,505190,531129,671434,3234845,3780031,3993952,4710874,47844909,64944308|205892,383033,533478,616301,916301,2614926,12728006,47441568,50785894,56915241,67756954",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 2,
+    "ag": 2,
+    "ht": [
+     0,
+     1
+    ],
+    "corners": 9.0,
+    "corners_h": 7.0,
+    "corners_a": 2.0,
+    "corners_1t": 6.0,
+    "cards": 5.0,
+    "cards_h": 1.0,
+    "cards_a": 4.0
+   }
   },
   "4828431": {
    "partido": "FC Porto vs Nápoles",
