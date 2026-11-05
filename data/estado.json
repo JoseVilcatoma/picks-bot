@@ -725,8 +725,12 @@
    "partido": "CS Universitatea Craiova vs KF Egnatia",
    "liga": "Europa, UEFA Conference League",
    "inicio": "2026-11-05T15:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1793905044.7929757
+   "estado": "enviado",
+   "ultimo": 1793905310.8939517,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "566656,889634,1206582,3070083,10207848,49634941,51140469,60366309,64925558,66285292,70761610|1704275,4262966,30416727,50214085,56468628,67644460,67666217,70776778,77305556,77667704,78070682",
+   "conf": true
   },
   "4828889": {
    "partido": "Riga vs FK Jablonec",
@@ -754,8 +758,12 @@
    "partido": "STVV vs Brann",
    "liga": "Europa, UEFA Conference League",
    "inicio": "2026-11-05T15:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1793905049.676587
+   "estado": "enviado",
+   "ultimo": 1793905313.3960514,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "549877,834460,30546461,38276104,64142383,66135941,67021875,67669111,70767918,70905405,77755436|592223,12337663,16052227,50752233,55784278,58801589,59020587,59035527,61361112,64728519,68056381",
+   "conf": true
   },
   "4828892": {
    "partido": "Getafe CF vs Brighton",
@@ -772,8 +780,12 @@
    "partido": "Twente vs Pafos FC",
    "liga": "Europa, UEFA Conference League",
    "inicio": "2026-11-05T15:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1793905049.7581108
+   "estado": "enviado",
+   "ultimo": 1793905314.8827753,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "345634,345676,598685,44385163,50445972,50584228,66025734,69466414,70909233,71917172,76961028|74248,476850,515142,529283,951716,3143985,4264487,30803776,63136336,67051149,75403134",
+   "conf": true
   },
   "4828894": {
    "partido": "FC Lugano vs Kauno Zalgiris",
@@ -790,15 +802,19 @@
    "partido": "FC Copenhague vs FC Iberia 1999",
    "liga": "Europa, UEFA Conference League",
    "inicio": "2026-11-05T15:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1793905052.2697566
+   "estado": "enviado",
+   "ultimo": 1793905316.3524094,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "298935,344972,435691,894735,12940517,57688527,67747944,71088016,71370747,72469545,77742335|244046,3136376,50159163,68098463,71522009,75385663,77037037,77096324,77112286,78037706,79258258",
+   "conf": true
   },
   "4828896": {
    "partido": "Monaco vs FC Nordsjaelland",
    "liga": "Europa, UEFA Conference League",
    "inicio": "2026-11-05T15:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1793905052.3547583
+   "ultimo": 1793905319.3343976
   },
   "4828897": {
    "partido": "Trabzonspor vs Friburgo",
@@ -929,35 +945,43 @@
    "liga": "Europa, UEFA Europa League",
    "inicio": "2026-11-05T15:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1793905052.4541767
+   "ultimo": 1793905319.4154727
   },
   "4828695": {
    "partido": "Sunderland vs Dinamo Zagreb",
    "liga": "Europa, UEFA Europa League",
    "inicio": "2026-11-05T15:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1793905052.5352855
+   "ultimo": 1793905319.49506
   },
   "4828696": {
    "partido": "Celtic vs Besiktas",
    "liga": "Europa, UEFA Europa League",
    "inicio": "2026-11-05T15:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1793905052.6154034
+   "ultimo": 1793905319.5743434
   },
   "4828697": {
    "partido": "Sturm Graz vs NK Celje",
    "liga": "Europa, UEFA Europa League",
    "inicio": "2026-11-05T15:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1793905056.3321555
+   "estado": "enviado",
+   "ultimo": 1793905319.6741424,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "528032,3519898,50548108,50585141,65156892,67182700,67763721,68058507,70934806,74081890,76842303|357492,54999503,55285540,55506220,57110258,61132480,64281515,65841403,66221740,77028698,77061715",
+   "conf": true
   },
   "4828698": {
    "partido": "Benfica vs Lech Poznan",
    "liga": "Europa, UEFA Europa League",
    "inicio": "2026-11-05T15:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1793905056.4329479
+   "estado": "enviado",
+   "ultimo": 1793905322.9471664,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "340562,13285267,35045013,50445964,51394932,51813758,55352581,64392622,67025663,67901581,77377966|3059571,4874579,12409844,16353704,49915534,53264549,55252175,65138625,66473303,67639167,67843455",
+   "conf": true
   },
   "4828699": {
    "partido": "Bayer Leverkusen vs Olympique Marsella",
@@ -974,8 +998,12 @@
    "partido": "Celta de Vigo vs Union St. Gilloise",
    "liga": "Europa, UEFA Europa League",
    "inicio": "2026-11-05T15:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1793905057.450309
+   "estado": "enviado",
+   "ultimo": 1793905324.778169,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "239183,889139,3483114,51680202,60412600,64152922,66765066,71060391,72695371,72695372,77550718|6428923,56077412,61458939,65328414,66271395,70813768,71882379,72768815,75259864,75440142,78318768",
+   "conf": true
   },
   "4828701": {
    "partido": "Hapoel Beer Sheva vs OFI Crete",
