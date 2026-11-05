@@ -936,12 +936,27 @@
    "partido": "Lincoln Red Imps vs HNK Hajduk Split",
    "liga": "Europa, UEFA Conference League",
    "inicio": "2026-11-05T12:45:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1793907608.0354934,
+   "estado": "liquidado",
+   "ultimo": 1793908221.9181297,
    "clv": [],
    "clv_ok": false,
    "xi": "174163,568348,3176296,3199841,50945736,55908240,65830083,75230896,78064588,78064812,78067349|639667,12970573,51243526,60122988,62692130,66139767,66266273,66353927,67693943,71059400,77442683",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 1,
+    "ag": 0,
+    "ht": [
+     0,
+     0
+    ],
+    "corners": 8.0,
+    "corners_h": 0.0,
+    "corners_a": 8.0,
+    "corners_1t": 4.0,
+    "cards": 7.0,
+    "cards_h": 3.0,
+    "cards_a": 4.0
+   }
   },
   "4828900": {
    "partido": "KuPS vs KAA Gent",
@@ -973,30 +988,60 @@
    "partido": "Estrella Roja Belgrado vs Inter Escaldes",
    "liga": "Europa, UEFA Conference League",
    "inicio": "2026-11-05T12:45:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1793907608.1375065,
+   "estado": "liquidado",
+   "ultimo": 1793908222.0745869,
    "clv": [],
    "clv_ok": false,
    "xi": "117757,347730,445469,548570,3051960,13420232,50968078,61072425,76946286,77387197,78049224|15557610,70016025,70206094,70206095,70206096,75228215,75235504,78063976,78067422,78067424,78770235",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 2,
+    "ag": 1,
+    "ht": [
+     0,
+     0
+    ],
+    "corners": 9.0,
+    "corners_h": 6.0,
+    "corners_a": 3.0,
+    "corners_1t": 3.0,
+    "cards": 8.0,
+    "cards_h": 3.0,
+    "cards_a": 5.0
+   }
   },
   "4828902": {
    "partido": "FC Thun vs Hearts",
    "liga": "Europa, UEFA Conference League",
    "inicio": "2026-11-05T12:45:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1793907608.183508,
+   "estado": "liquidado",
+   "ultimo": 1793908222.1638196,
    "clv": [],
    "clv_ok": false,
    "xi": "348678,921950,2383922,3649182,31376196,50177184,51037284,67020072,71465273,77121680,77402048|162829,480952,3659142,49062755,50910524,61535702,70855302,75258843,77313271,77343146,77378553",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 3,
+    "ag": 1,
+    "ht": [
+     2,
+     0
+    ],
+    "corners": 9.0,
+    "corners_h": 4.0,
+    "corners_a": 5.0,
+    "corners_1t": 1.0,
+    "cards": 5.0,
+    "cards_h": 4.0,
+    "cards_a": 1.0
+   }
   },
   "4828903": {
    "partido": "FC Midtjylland vs Ajax",
    "liga": "Europa, UEFA Conference League",
    "inicio": "2026-11-05T12:45:00-05:00",
    "estado": "enviado",
-   "ultimo": 1793907608.2216644,
+   "ultimo": 1793908222.2259774,
    "clv": [],
    "clv_ok": false,
    "xi": "491380,2722318,3517741,46556476,63636140,64731446,64878964,67629182,67639508,70951427,71895673|286053,391254,596433,3071448,51550259,53845795,64807494,66805143,70889311,71001448,77373233",
@@ -1171,12 +1216,27 @@
    "partido": "Sparta Praga vs Bournemouth",
    "liga": "Europa, UEFA Europa League",
    "inicio": "2026-11-05T12:45:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1793907608.380982,
+   "estado": "liquidado",
+   "ultimo": 1793908222.2580528,
    "clv": [],
    "clv_ok": false,
    "xi": "897986,3483240,16815565,39084404,59230904,61362421,63004033,64933136,66379368,67757751,71932360|217078,332645,368648,2035533,3091419,3161318,44382887,49980838,64589868,65524246,66632879",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 1,
+    "ag": 3,
+    "ht": [
+     1,
+     0
+    ],
+    "corners": 13.0,
+    "corners_h": 3.0,
+    "corners_a": 10.0,
+    "corners_1t": 6.0,
+    "cards": 6.0,
+    "cards_h": 4.0,
+    "cards_a": 2.0
+   }
   },
   "4828707": {
    "partido": "Levski Sofia vs Jagiellonia",
@@ -1234,12 +1294,27 @@
    "partido": "Anderlecht vs Red Bull Salzburgo",
    "liga": "Europa, UEFA Europa League",
    "inicio": "2026-11-05T12:45:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1793907608.552389,
+   "estado": "liquidado",
+   "ultimo": 1793908222.3250718,
    "clv": [],
    "clv_ok": false,
    "xi": "335680,405487,5053693,14163963,50854706,54857672,62005360,67024337,70915839,75439825,78166387|348681,53245194,67764124,67944771,70843741,72042091,74975668,75241962,76828411,77016894,77428669",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 2,
+    "ag": 0,
+    "ht": [
+     1,
+     0
+    ],
+    "corners": 9.0,
+    "corners_h": 5.0,
+    "corners_a": 4.0,
+    "corners_1t": 6.0,
+    "cards": 7.0,
+    "cards_h": 4.0,
+    "cards_a": 3.0
+   }
   },
   "4732631": {
    "partido": "Venezia vs Udinese",
