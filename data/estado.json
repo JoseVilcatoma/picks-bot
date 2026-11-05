@@ -734,28 +734,28 @@
    "liga": "Europa, UEFA Europa League",
    "inicio": "2026-11-05T12:45:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1793896314.22956
+   "ultimo": 1793896560.9234369
   },
   "4828703": {
    "partido": "AC Milan vs Ferencvaros",
    "liga": "Europa, UEFA Europa League",
    "inicio": "2026-11-05T12:45:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1793896314.335521
+   "ultimo": 1793896561.0402913
   },
   "4828704": {
    "partido": "Crystal Palace vs Hoffenheim",
    "liga": "Europa, UEFA Europa League",
    "inicio": "2026-11-05T12:45:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1793896314.4054055
+   "ultimo": 1793896561.1383567
   },
   "4828705": {
    "partido": "Lillestrom vs Viktoria Plzen",
    "liga": "Europa, UEFA Europa League",
    "inicio": "2026-11-05T12:45:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1793896314.4752512
+   "ultimo": 1793896561.2199054
   },
   "4828888": {
    "partido": "CS Universitatea Craiova vs KF Egnatia",
@@ -825,63 +825,67 @@
    "liga": "Europa, UEFA Conference League",
    "inicio": "2026-11-05T12:45:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1793896314.5441036
+   "ultimo": 1793896561.301995
   },
   "4828898": {
    "partido": "Mjällby AIF vs Borac Banjaluka",
    "liga": "Europa, UEFA Conference League",
    "inicio": "2026-11-05T12:45:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1793896314.61139
+   "ultimo": 1793896561.436698
   },
   "4828899": {
    "partido": "Lincoln Red Imps vs HNK Hajduk Split",
    "liga": "Europa, UEFA Conference League",
    "inicio": "2026-11-05T12:45:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1793896314.6848989
+   "ultimo": 1793896561.5193973
   },
   "4828900": {
    "partido": "KuPS vs KAA Gent",
    "liga": "Europa, UEFA Conference League",
    "inicio": "2026-11-05T12:45:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1793896314.7545395
+   "ultimo": 1793896561.6056237
   },
   "4828901": {
    "partido": "Estrella Roja Belgrado vs Inter Escaldes",
    "liga": "Europa, UEFA Conference League",
    "inicio": "2026-11-05T12:45:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1793896314.823058
+   "ultimo": 1793896561.6912668
   },
   "4828902": {
    "partido": "FC Thun vs Hearts",
    "liga": "Europa, UEFA Conference League",
    "inicio": "2026-11-05T12:45:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1793896314.8896072
+   "estado": "enviado",
+   "ultimo": 1793896561.7710755,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "348678,921950,2383922,3649182,31376196,50177184,51037284,67020072,71465273,77121680,77402048|162829,480952,3659142,49062755,50910524,61535702,70855302,75258843,77313271,77343146,77378553",
+   "conf": true
   },
   "4828903": {
    "partido": "FC Midtjylland vs Ajax",
    "liga": "Europa, UEFA Conference League",
    "inicio": "2026-11-05T12:45:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1793896314.961793
+   "ultimo": 1793896564.4715486
   },
   "4828904": {
    "partido": "Atalanta vs Kairat Almaty",
    "liga": "Europa, UEFA Conference League",
    "inicio": "2026-11-05T12:45:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1793896315.0307925
+   "ultimo": 1793896564.5603588
   },
   "4828905": {
    "partido": "Aarhus vs SC Braga",
    "liga": "Europa, UEFA Conference League",
    "inicio": "2026-11-05T12:45:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1793896315.0976117
+   "ultimo": 1793896564.6453073
   },
   "4632611": {
    "partido": "Cruzeiro vs Bahia",
@@ -965,28 +969,32 @@
    "liga": "Europa, UEFA Europa League",
    "inicio": "2026-11-05T12:45:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1793896315.1679106
+   "ultimo": 1793896564.7254856
   },
   "4828707": {
    "partido": "Levski Sofia vs Jagiellonia",
    "liga": "Europa, UEFA Europa League",
    "inicio": "2026-11-05T12:45:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1793896315.238845
+   "ultimo": 1793896564.8096955
   },
   "4828708": {
    "partido": "Real Sociedad vs Lyon",
    "liga": "Europa, UEFA Europa League",
    "inicio": "2026-11-05T12:45:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1793896315.3090074
+   "ultimo": 1793896564.8944886
   },
   "4828709": {
    "partido": "Anderlecht vs Red Bull Salzburgo",
    "liga": "Europa, UEFA Europa League",
    "inicio": "2026-11-05T12:45:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1793896315.3780932
+   "estado": "enviado",
+   "ultimo": 1793896565.0138974,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "335680,405487,5053693,14163963,50854706,54857672,62005360,67024337,70915839,75439825,78166387|348681,53245194,67764124,67944771,70843741,72042091,74975668,75241962,76828411,77016894,77428669",
+   "conf": true
   },
   "4732631": {
    "partido": "Venezia vs Udinese",
