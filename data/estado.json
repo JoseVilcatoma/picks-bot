@@ -1063,23 +1063,53 @@
    "partido": "AZ Alkmaar vs Juventus",
    "liga": "Europa, UEFA Europa League",
    "inicio": "2026-11-05T15:00:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1793915755.8504422,
+   "estado": "liquidado",
+   "ultimo": 1793916371.6433659,
    "clv": [],
    "clv_ok": false,
    "xi": "3170850,3350252,60305265,61669015,64113057,64463871,64769252,66025729,67095021,67693833,67693842|1006401,3229380,3344568,3725457,4873827,40731942,50999036,52275621,52338804,61206789,75535290",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 1,
+    "ag": 2,
+    "ht": [
+     0,
+     2
+    ],
+    "corners": 6.0,
+    "corners_h": 4.0,
+    "corners_a": 2.0,
+    "corners_1t": 1.0,
+    "cards": 4.0,
+    "cards_h": 1.0,
+    "cards_a": 3.0
+   }
   },
   "4828694": {
    "partido": "Torreense vs FC Ararat-Armenia",
    "liga": "Europa, UEFA Europa League",
    "inicio": "2026-11-05T15:00:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1793915755.8937452,
+   "estado": "liquidado",
+   "ultimo": 1793916371.7994478,
    "clv": [],
    "clv_ok": false,
    "xi": "4805218,47660550,49110160,61063223,64680412,66504027,67352323,67918750,71170858,75400290,76812833|440341,481238,501039,3139419,34446252,49517804,53803413,57183368,65519751,65840502,75430117",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 3,
+    "ag": 2,
+    "ht": [
+     1,
+     1
+    ],
+    "corners": 10.0,
+    "corners_h": 4.0,
+    "corners_a": 6.0,
+    "corners_1t": 4.0,
+    "cards": 9.0,
+    "cards_h": 3.0,
+    "cards_a": 6.0
+   }
   },
   "4828695": {
    "partido": "Sunderland vs Dinamo Zagreb",
