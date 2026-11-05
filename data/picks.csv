@@ -2804,3 +2804,8 @@ fecha,game_id,partido,liga,tipo,mercado,clave,prob,cuota,casa,cuota_justa,ev,sta
 2026-11-05 11:49,4828707,Levski Sofia vs Jagiellonia,"Europa, UEFA Europa League",modelo,Menos de 12.5 córners,CORN|12.5|under,0.7114,,,1.41,,,si,,,
 2026-11-05 11:49,4828707,Levski Sofia vs Jagiellonia,"Europa, UEFA Europa League",ticket,Menos de 2.5 goles + Levski Sofia o empate,OU|2.5|under&DC||1X,0.5195,2.09,,1.92,0.0844,10.00,,,,
 2026-11-05 11:49,4828707,Levski Sofia vs Jagiellonia,"Europa, UEFA Europa League",crear,Levski Sofia o empate + Menos de 15.5 córners + Menos de 6.5 tarjetas,DC||1X&CORN|15.5|under&CARDS|6.5|under,0.5730,,,1.75,,,,,,
+2026-11-05 12:01,4828897,Trabzonspor vs Friburgo,"Europa, UEFA Conference League",seguro,Friburgo recibe gol,CS||visita_no,0.7283,1.18,Bet365,1.37,-0.1406,,si,,,
+2026-11-05 12:01,4828897,Trabzonspor vs Friburgo,"Europa, UEFA Conference League",seguro,No hay empate,DC||12,0.7076,1.29,Bet365,1.41,-0.0872,,si,,,
+2026-11-05 12:01,4828897,Trabzonspor vs Friburgo,"Europa, UEFA Conference League",modelo,Menos de 6.5 tarjetas,CARDS|6.5|under,0.7737,,,1.29,,,si,,,
+2026-11-05 12:01,4828897,Trabzonspor vs Friburgo,"Europa, UEFA Conference League",modelo,Menos de 11.5 córners,CORN|11.5|under,0.7314,,,1.37,,,si,,,
+2026-11-05 12:01,4828897,Trabzonspor vs Friburgo,"Europa, UEFA Conference League",crear,Menos de 4.5 goles + Menos de 14.5 córners + Menos de 7.5 tarjetas,OU|4.5|under&CORN|14.5|under&CARDS|7.5|under,0.5759,,,1.74,,,,,,

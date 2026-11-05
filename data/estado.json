@@ -840,8 +840,12 @@
    "partido": "Trabzonspor vs Friburgo",
    "liga": "Europa, UEFA Conference League",
    "inicio": "2026-11-05T12:45:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1793897842.832202
+   "estado": "enviado",
+   "ultimo": 1793898087.918485,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "84369,347901,525431,612389,6477720,47164062,52332927,55971503,70789585,71003037,77464772|220585,335061,359225,418057,593193,53464344,61066404,70767985,70780165,75439830,75462629",
+   "conf": true
   },
   "4828898": {
    "partido": "Mjällby AIF vs Borac Banjaluka",
