@@ -1294,14 +1294,14 @@
    "liga": "Inglaterra, Premier League",
    "inicio": "2026-11-06T15:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 0
+   "ultimo": 1793990769.91872
   },
   "4750794": {
    "partido": "Sevilla FC vs Alavés",
    "liga": "España, LaLiga",
    "inicio": "2026-11-06T15:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 0
+   "ultimo": 1793990770.0099108
   },
   "4755347": {
    "partido": "Hamburgo SV vs Borussia Mönchengladbach",
@@ -1326,7 +1326,7 @@
    "liga": "Perú, Liga 1 - Clausura",
    "inicio": "2026-11-06T15:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 0
+   "ultimo": 1793990770.0945523
   },
   "4632607": {
    "partido": "Vitória vs Fluminense",
