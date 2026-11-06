@@ -1175,12 +1175,27 @@
    "partido": "Famalicão vs Arouca",
    "liga": "Portugal, Primeira Liga",
    "inicio": "2026-11-06T15:45:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1793995192.6361346,
+   "estado": "liquidado",
+   "ultimo": 1794004816.3116236,
    "clv": [],
    "clv_ok": false,
    "xi": "3071450,40742165,50260095,56082052,61322129,64349458,67709514,70755188,70809810,70855817,71130429|638433,17595806,33427449,35737436,47415963,47442624,49625993,50895456,64367225,70775085,75389219",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 1,
+    "ag": 0,
+    "ht": [
+     0,
+     0
+    ],
+    "corners": 10.0,
+    "corners_h": 9.0,
+    "corners_a": 1.0,
+    "corners_1t": 4.0,
+    "cards": 5.0,
+    "cards_h": 2.0,
+    "cards_a": 3.0
+   }
   },
   "4760775": {
    "partido": "Grau vs Cusco FC",
