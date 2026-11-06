@@ -2911,3 +2911,8 @@ fecha,game_id,partido,liga,tipo,mercado,clave,prob,cuota,casa,cuota_justa,ev,sta
 2026-11-05 18:45,4632611,Cruzeiro vs Bahia,"Brasil, Brasileirão",modelo,Menos de 6.5 tarjetas,CARDS|6.5|under,0.6976,,,1.43,,,si,G,,
 2026-11-05 18:45,4632611,Cruzeiro vs Bahia,"Brasil, Brasileirão",modelo,Menos de 16.5 córners,CORN|16.5|under,0.6904,,,1.45,,,si,G,,
 2026-11-05 18:45,4632611,Cruzeiro vs Bahia,"Brasil, Brasileirão",crear,No hay empate + Menos de 4.5 goles + Menos de 19.5 córners,DC||12&OU|4.5|under&CORN|19.5|under,0.4912,,,2.04,,,,P,,
+2026-11-06 13:35,4755347,Hamburgo SV vs Borussia Mönchengladbach,"Alemania, Bundesliga",seguro,Más de 1.5 goles,OU|1.5|over,0.7673,1.25,Bet365,1.30,-0.0408,,si,,,
+2026-11-06 13:35,4755347,Hamburgo SV vs Borussia Mönchengladbach,"Alemania, Bundesliga",seguro,No hay empate,DC||12,0.7252,1.30,Bet365,1.38,-0.0572,,si,,,
+2026-11-06 13:35,4755347,Hamburgo SV vs Borussia Mönchengladbach,"Alemania, Bundesliga",modelo,Menos de 6.5 tarjetas,CARDS|6.5|under,0.7300,,,1.37,,,si,,,
+2026-11-06 13:35,4755347,Hamburgo SV vs Borussia Mönchengladbach,"Alemania, Bundesliga",modelo,Menos de 12.5 córners,CORN|12.5|under,0.7195,,,1.39,,,si,,,
+2026-11-06 13:35,4755347,Hamburgo SV vs Borussia Mönchengladbach,"Alemania, Bundesliga",crear,Menos de 4.5 goles + Más de 5.5 córners + Más de 0.5 tarjetas,OU|4.5|under&CORN|5.5|over&CARDS|0.5|over,0.5781,,,1.73,,,,,,

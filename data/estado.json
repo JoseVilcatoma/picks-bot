@@ -1280,14 +1280,14 @@
    "liga": "Italia, Serie A",
    "inicio": "2026-11-06T14:45:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1793989909.5143917
+   "ultimo": 1793990153.8869164
   },
   "4735210": {
    "partido": "Toulouse vs Estrasburgo",
    "liga": "Francia, Ligue 1",
    "inicio": "2026-11-06T14:45:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1793989909.7183175
+   "ultimo": 1793990154.0784566
   },
   "4742008": {
    "partido": "Everton vs Coventry",
@@ -1307,8 +1307,12 @@
    "partido": "Hamburgo SV vs Borussia Mönchengladbach",
    "liga": "Alemania, Bundesliga",
    "inicio": "2026-11-06T14:30:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1793989909.8393674
+   "estado": "enviado",
+   "ultimo": 1793990154.1828704,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "485593,951739,1904061,3071304,4266463,49513021,52901773,58801584,61684480,64543956,77378674|345952,3094154,4632964,8448849,13366904,32435492,56601658,64329313,70842829,71547426,77485095",
+   "conf": true
   },
   "4757199": {
    "partido": "Famalicão vs Arouca",
