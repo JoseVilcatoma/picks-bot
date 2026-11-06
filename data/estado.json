@@ -1599,6 +1599,202 @@
    "inicio": "2026-11-07T18:00:00-05:00",
    "estado": "pendiente",
    "ultimo": 0
+  },
+  "4735209": {
+   "partido": "Lens vs Olympique Marsella",
+   "liga": "Francia, Ligue 1",
+   "inicio": "2026-11-08T14:45:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4735211": {
+   "partido": "Rennes vs Lille",
+   "liga": "Francia, Ligue 1",
+   "inicio": "2026-11-08T09:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4735213": {
+   "partido": "Le Mans vs Monaco",
+   "liga": "Francia, Ligue 1",
+   "inicio": "2026-11-08T11:15:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4735214": {
+   "partido": "Le Havre vs Lorient",
+   "liga": "Francia, Ligue 1",
+   "inicio": "2026-11-08T11:15:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4735215": {
+   "partido": "Brest vs Lyon",
+   "liga": "Francia, Ligue 1",
+   "inicio": "2026-11-08T11:15:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4735217": {
+   "partido": "Angers vs Niza",
+   "liga": "Francia, Ligue 1",
+   "inicio": "2026-11-08T11:15:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4742002": {
+   "partido": "Sunderland vs Chelsea",
+   "liga": "Inglaterra, Premier League",
+   "inicio": "2026-11-08T09:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4742004": {
+   "partido": "Manchester United vs Aston Villa",
+   "liga": "Inglaterra, Premier League",
+   "inicio": "2026-11-08T11:30:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4742006": {
+   "partido": "Ipswich vs Bournemouth",
+   "liga": "Inglaterra, Premier League",
+   "inicio": "2026-11-08T09:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4742009": {
+   "partido": "Crystal Palace vs Liverpool",
+   "liga": "Inglaterra, Premier League",
+   "inicio": "2026-11-08T09:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4742010": {
+   "partido": "Brighton vs Brentford",
+   "liga": "Inglaterra, Premier League",
+   "inicio": "2026-11-08T09:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4750792": {
+   "partido": "Villarreal CF vs Getafe CF",
+   "liga": "España, LaLiga",
+   "inicio": "2026-11-08T12:30:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4750795": {
+   "partido": "Real Sociedad vs Rayo Vallecano",
+   "liga": "España, LaLiga",
+   "inicio": "2026-11-08T10:15:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4750799": {
+   "partido": "Elche CF vs Real Betis",
+   "liga": "España, LaLiga",
+   "inicio": "2026-11-08T08:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4750800": {
+   "partido": "Celta de Vigo vs Levante UD",
+   "liga": "España, LaLiga",
+   "inicio": "2026-11-08T12:30:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4750801": {
+   "partido": "Atlético de Madrid vs FC Barcelona",
+   "liga": "España, LaLiga",
+   "inicio": "2026-11-08T15:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4755346": {
+   "partido": "1. FC Köln vs Bayer Leverkusen",
+   "liga": "Alemania, Bundesliga",
+   "inicio": "2026-11-08T09:30:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4755349": {
+   "partido": "Friburgo vs Union Berlin",
+   "liga": "Alemania, Bundesliga",
+   "inicio": "2026-11-08T11:30:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4755350": {
+   "partido": "Hoffenheim vs Schalke 04",
+   "liga": "Alemania, Bundesliga",
+   "inicio": "2026-11-08T13:30:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4757197": {
+   "partido": "Estoril vs Maritimo",
+   "liga": "Portugal, Primeira Liga",
+   "inicio": "2026-11-08T10:30:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4757198": {
+   "partido": "Estrela da Amadora vs Benfica",
+   "liga": "Portugal, Primeira Liga",
+   "inicio": "2026-11-08T15:30:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4757200": {
+   "partido": "Rio Ave vs SC Braga",
+   "liga": "Portugal, Primeira Liga",
+   "inicio": "2026-11-08T15:30:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4757202": {
+   "partido": "Santa Clara vs Gil Vicente FC",
+   "liga": "Portugal, Primeira Liga",
+   "inicio": "2026-11-08T10:30:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4757204": {
+   "partido": "Guimarães vs FC Porto",
+   "liga": "Portugal, Primeira Liga",
+   "inicio": "2026-11-08T13:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4760767": {
+   "partido": "Deportivo Garcilaso vs Comerciantes Unidos",
+   "liga": "Perú, Liga 1 - Clausura",
+   "inicio": "2026-11-08T18:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4760768": {
+   "partido": "Universitario vs CD Moquegua",
+   "liga": "Perú, Liga 1 - Clausura",
+   "inicio": "2026-11-08T20:30:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4760770": {
+   "partido": "Los Chankas vs Alianza Lima",
+   "liga": "Perú, Liga 1 - Clausura",
+   "inicio": "2026-11-08T13:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4760772": {
+   "partido": "Sport Boys vs UTC Cajamarca",
+   "liga": "Perú, Liga 1 - Clausura",
+   "inicio": "2026-11-08T15:30:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
   }
  },
  "web": {
@@ -1716,7 +1912,35 @@
   "4760769": 1793982520355,
   "4760771": 1793982521463,
   "4760773": 1793982520627,
-  "4760774": 1793982520918
+  "4760774": 1793982520918,
+  "4735209": 1793982532700,
+  "4735211": 1793982530694,
+  "4735213": 1793982530977,
+  "4735214": 1793982531272,
+  "4735215": 1793982532040,
+  "4735217": 1793982532407,
+  "4742002": 1793982533587,
+  "4742004": 1793982534767,
+  "4742006": 1793982533853,
+  "4742009": 1793982534160,
+  "4742010": 1793982534444,
+  "4750792": 1793982528702,
+  "4750795": 1793982528355,
+  "4750799": 1793982528104,
+  "4750800": 1793982529064,
+  "4750801": 1793982529796,
+  "4755346": 1793982535623,
+  "4755349": 1793982536083,
+  "4755350": 1793982536713,
+  "4757197": 1793982537460,
+  "4757198": 1793982538570,
+  "4757200": 1793982539024,
+  "4757202": 1793982537819,
+  "4757204": 1793982538269,
+  "4760767": 1793982540830,
+  "4760768": 1793982541170,
+  "4760770": 1793982540230,
+  "4760772": 1793982540554
  },
  "tickets": [],
  "sin_creditos": false
