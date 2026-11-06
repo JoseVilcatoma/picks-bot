@@ -2938,3 +2938,8 @@ fecha,game_id,partido,liga,tipo,mercado,clave,prob,cuota,casa,cuota_justa,ev,sta
 2026-11-06 14:13,4732631,Venezia vs Udinese,"Italia, Serie A",modelo,Más de 7.5 córners,CORN|7.5|over,0.6895,,,1.45,,,si,,,
 2026-11-06 14:13,4732631,Venezia vs Udinese,"Italia, Serie A",ticket,Udinese o empate + Venezia recibe gol,DC||X2&CS||local_no,0.5019,2.11,,1.99,0.0570,10.00,,,,
 2026-11-06 14:13,4732631,Venezia vs Udinese,"Italia, Serie A",crear,Menos de 4.5 goles + Más de 5.5 córners + Menos de 6.5 tarjetas,OU|4.5|under&CORN|5.5|over&CARDS|6.5|under,0.5864,,,1.71,,,,,,
+2026-11-06 14:15,4760775,Grau vs Cusco FC,"Perú, Liga 1 - Clausura",seguro,Grau recibe gol,CS||local_no,0.7391,1.25,Bet365,1.35,-0.0761,,si,,,
+2026-11-06 14:15,4760775,Grau vs Cusco FC,"Perú, Liga 1 - Clausura",seguro,No hay empate,DC||12,0.7161,1.29,Bet365,1.40,-0.0762,,si,,,
+2026-11-06 14:15,4760775,Grau vs Cusco FC,"Perú, Liga 1 - Clausura",modelo,Menos de 6.5 tarjetas,CARDS|6.5|under,0.6976,,,1.43,,,si,,,
+2026-11-06 14:15,4760775,Grau vs Cusco FC,"Perú, Liga 1 - Clausura",modelo,Menos de 11.5 córners,CORN|11.5|under,0.6968,,,1.44,,,si,,,
+2026-11-06 14:15,4760775,Grau vs Cusco FC,"Perú, Liga 1 - Clausura",ticket,Cusco FC o empate + Grau recibe gol,DC||X2&CS||local_no,0.5858,1.91,,1.71,0.1203,10.00,,,,
