@@ -1280,14 +1280,14 @@
    "liga": "Italia, Serie A",
    "inicio": "2026-11-06T14:45:00-05:00",
    "estado": "pendiente",
-   "ultimo": 0
+   "ultimo": 1793989909.5143917
   },
   "4735210": {
    "partido": "Toulouse vs Estrasburgo",
    "liga": "Francia, Ligue 1",
    "inicio": "2026-11-06T14:45:00-05:00",
    "estado": "pendiente",
-   "ultimo": 0
+   "ultimo": 1793989909.7183175
   },
   "4742008": {
    "partido": "Everton vs Coventry",
@@ -1308,7 +1308,7 @@
    "liga": "Alemania, Bundesliga",
    "inicio": "2026-11-06T14:30:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1793989665.4527817
+   "ultimo": 1793989909.8393674
   },
   "4757199": {
    "partido": "Famalicão vs Arouca",
