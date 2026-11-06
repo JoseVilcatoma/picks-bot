@@ -967,12 +967,27 @@
    "partido": "Cruzeiro vs Bahia",
    "liga": "Brasil, Brasileirão",
    "inicio": "2026-11-05T19:30:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1793931915.066403,
+   "estado": "liquidado",
+   "ultimo": 1793932523.2643871,
    "clv": [],
    "clv_ok": false,
    "xi": "139950,349582,376756,842200,3072682,3261397,9932355,67641750,70120060,70751572,76902279|140693,278320,481741,3283662,4247204,12976848,44078581,47124009,53889853,64890852,64985333",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 3,
+    "ag": 2,
+    "ht": [
+     1,
+     1
+    ],
+    "corners": 12.0,
+    "corners_h": 5.0,
+    "corners_a": 7.0,
+    "corners_1t": 6.0,
+    "cards": 5.0,
+    "cards_h": 3.0,
+    "cards_a": 2.0
+   }
   },
   "4632613": {
    "partido": "Palmeiras vs Remo",
