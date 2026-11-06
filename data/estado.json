@@ -1382,6 +1382,223 @@
    "inicio": "2026-11-06T18:00:00-05:00",
    "estado": "pendiente",
    "ultimo": 0
+  },
+  "4732632": {
+   "partido": "Torino vs Lecce",
+   "liga": "Italia, Serie A",
+   "inicio": "2026-11-07T09:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4732633": {
+   "partido": "AS Roma vs Sassuolo",
+   "liga": "Italia, Serie A",
+   "inicio": "2026-11-07T14:45:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4732634": {
+   "partido": "Parma vs Bologna",
+   "liga": "Italia, Serie A",
+   "inicio": "2026-11-07T12:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4732635": {
+   "partido": "Nápoles vs Lazio",
+   "liga": "Italia, Serie A",
+   "inicio": "2026-11-08T06:30:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4732636": {
+   "partido": "Monza vs Atalanta",
+   "liga": "Italia, Serie A",
+   "inicio": "2026-11-08T09:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4732637": {
+   "partido": "Inter Milan vs Como",
+   "liga": "Italia, Serie A",
+   "inicio": "2026-11-08T12:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4732638": {
+   "partido": "Genoa vs AC Milan",
+   "liga": "Italia, Serie A",
+   "inicio": "2026-11-08T09:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4732639": {
+   "partido": "Fiorentina vs Juventus",
+   "liga": "Italia, Serie A",
+   "inicio": "2026-11-08T14:45:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4732640": {
+   "partido": "Cagliari vs Frosinone",
+   "liga": "Italia, Serie A",
+   "inicio": "2026-11-07T09:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4735212": {
+   "partido": "PSG vs Troyes",
+   "liga": "Francia, Ligue 1",
+   "inicio": "2026-11-07T15:05:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4735216": {
+   "partido": "Auxerre vs Paris FC",
+   "liga": "Francia, Ligue 1",
+   "inicio": "2026-11-07T13:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4742003": {
+   "partido": "Nottingham Forest vs Manchester City",
+   "liga": "Inglaterra, Premier League",
+   "inicio": "2026-11-07T12:30:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4742005": {
+   "partido": "Leeds United vs Tottenham",
+   "liga": "Inglaterra, Premier League",
+   "inicio": "2026-11-07T07:30:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4742007": {
+   "partido": "Fulham vs Newcastle United",
+   "liga": "Inglaterra, Premier League",
+   "inicio": "2026-11-07T10:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4742011": {
+   "partido": "Arsenal vs Hull City",
+   "liga": "Inglaterra, Premier League",
+   "inicio": "2026-11-07T10:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4750793": {
+   "partido": "Valencia CF vs Real Madrid",
+   "liga": "España, LaLiga",
+   "inicio": "2026-11-07T15:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4750796": {
+   "partido": "Osasuna vs Athletic Club",
+   "liga": "España, LaLiga",
+   "inicio": "2026-11-07T12:30:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4750797": {
+   "partido": "Málaga CF vs Racing de Santander",
+   "liga": "España, LaLiga",
+   "inicio": "2026-11-07T08:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4750798": {
+   "partido": "RCD Espanyol vs RC Deportivo",
+   "liga": "España, LaLiga",
+   "inicio": "2026-11-07T10:15:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4755345": {
+   "partido": "SC Paderborn 07 vs Eintracht Frankfurt",
+   "liga": "Alemania, Bundesliga",
+   "inicio": "2026-11-07T09:30:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4755348": {
+   "partido": "Mainz 05 vs Bayern Munich",
+   "liga": "Alemania, Bundesliga",
+   "inicio": "2026-11-07T09:30:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4755351": {
+   "partido": "Stuttgart vs Werder Bremen",
+   "liga": "Alemania, Bundesliga",
+   "inicio": "2026-11-07T12:30:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4755352": {
+   "partido": "RB Leipzig vs FC Augsburg",
+   "liga": "Alemania, Bundesliga",
+   "inicio": "2026-11-07T09:30:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4755353": {
+   "partido": "Borussia Dortmund vs SV 07 Elversberg",
+   "liga": "Alemania, Bundesliga",
+   "inicio": "2026-11-07T09:30:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4757196": {
+   "partido": "Alverca vs Casa Pia AC",
+   "liga": "Portugal, Primeira Liga",
+   "inicio": "2026-11-07T13:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4757201": {
+   "partido": "Nacional Madeira vs Viseu",
+   "liga": "Portugal, Primeira Liga",
+   "inicio": "2026-11-07T10:30:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4757203": {
+   "partido": "Sporting CP vs Moreirense",
+   "liga": "Portugal, Primeira Liga",
+   "inicio": "2026-11-07T15:30:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4760769": {
+   "partido": "ADT Tarma vs Sporting Cristal",
+   "liga": "Perú, Liga 1 - Clausura",
+   "inicio": "2026-11-07T13:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4760771": {
+   "partido": "Cienciano vs Sport Huancayo",
+   "liga": "Perú, Liga 1 - Clausura",
+   "inicio": "2026-11-07T20:30:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4760773": {
+   "partido": "FC Cajamarca vs Alianza Atletico",
+   "liga": "Perú, Liga 1 - Clausura",
+   "inicio": "2026-11-07T15:30:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4760774": {
+   "partido": "FBC Melgar vs Juan Pablo II College",
+   "liga": "Perú, Liga 1 - Clausura",
+   "inicio": "2026-11-07T18:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
   }
  },
  "web": {
@@ -1468,7 +1685,38 @@
   "4755347": 1793731256762,
   "4757199": 1793731260661,
   "4760775": 1793731258945,
-  "4632607": 1793731261568
+  "4632607": 1793731261568,
+  "4732632": 1793982513450,
+  "4732633": 1793982514800,
+  "4732634": 1793982514374,
+  "4732635": 1793982525642,
+  "4732636": 1793982525942,
+  "4732637": 1793982526902,
+  "4732638": 1793982526306,
+  "4732639": 1793982527244,
+  "4732640": 1793982514059,
+  "4735212": 1793982522612,
+  "4735216": 1793982522293,
+  "4742003": 1793982510645,
+  "4742005": 1793982509596,
+  "4742007": 1793982509900,
+  "4742011": 1793982510219,
+  "4750793": 1793982512491,
+  "4750796": 1793982512193,
+  "4750797": 1793982511588,
+  "4750798": 1793982511834,
+  "4755345": 1793982515774,
+  "4755348": 1793982516075,
+  "4755351": 1793982517962,
+  "4755352": 1793982516421,
+  "4755353": 1793982516884,
+  "4757196": 1793982518686,
+  "4757201": 1793982518332,
+  "4757203": 1793982518993,
+  "4760769": 1793982520355,
+  "4760771": 1793982521463,
+  "4760773": 1793982520627,
+  "4760774": 1793982520918
  },
  "tickets": [],
  "sin_creditos": false
