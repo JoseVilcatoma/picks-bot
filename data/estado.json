@@ -1175,12 +1175,27 @@
    "partido": "Sevilla FC vs Alavés",
    "liga": "España, LaLiga",
    "inicio": "2026-11-06T15:00:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1794002126.793929,
+   "estado": "liquidado",
+   "ultimo": 1794002742.252436,
    "clv": [],
    "clv_ok": false,
    "xi": "357316,893355,1765601,3520611,28726208,54191092,54826476,57682756,63090553,66029772,67615192|475853,536869,661200,3183042,3579861,55008946,58257558,66421361,67617790,70991943,76964282",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 0,
+    "ag": 0,
+    "ht": [
+     0,
+     0
+    ],
+    "corners": 9.0,
+    "corners_h": 5.0,
+    "corners_a": 4.0,
+    "corners_1t": 2.0,
+    "cards": 4.0,
+    "cards_h": 1.0,
+    "cards_a": 3.0
+   }
   },
   "4755347": {
    "partido": "Hamburgo SV vs Borussia Mönchengladbach",
@@ -1250,7 +1265,7 @@
    "liga": "Brasil, Brasileirão",
    "inicio": "2026-11-06T18:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1794002496.9147809
+   "ultimo": 1794002742.6343489
   },
   "4732632": {
    "partido": "Torino vs Lecce",
