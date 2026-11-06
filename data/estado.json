@@ -1297,8 +1297,12 @@
    "partido": "Everton vs Coventry",
    "liga": "Inglaterra, Premier League",
    "inicio": "2026-11-06T15:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1793991262.3010213
+   "estado": "enviado",
+   "ultimo": 1793991516.3632119,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "355086,478397,3071263,12433748,49684197,50763260,53419038,65579402,70782880,70889317,75441450|739210,3249227,3457622,3488270,8262598,9076540,49988861,51923671,68831133,75258798,75381834",
+   "conf": true
   },
   "4750794": {
    "partido": "Sevilla FC vs Alavés",
@@ -1334,7 +1338,7 @@
    "liga": "Perú, Liga 1 - Clausura",
    "inicio": "2026-11-06T15:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1793991264.6104302
+   "ultimo": 1793991517.976742
   },
   "4632607": {
    "partido": "Vitória vs Fluminense",
