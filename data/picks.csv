@@ -3006,3 +3006,8 @@ fecha,game_id,partido,liga,tipo,mercado,clave,prob,cuota,casa,cuota_justa,ev,sta
 2026-11-07 08:58,4742011,Arsenal vs Hull City,"Inglaterra, Premier League",modelo,Menos de 6.5 tarjetas,CARDS|6.5|under,0.7140,,,1.40,,,si,,,
 2026-11-07 08:58,4742011,Arsenal vs Hull City,"Inglaterra, Premier League",ticket,Ambos marcan: No + Menos de 4.5 goles,BTTS||no&OU|4.5|under,0.5848,1.91,,1.71,0.1185,10.00,,,,
 2026-11-07 08:58,4742011,Arsenal vs Hull City,"Inglaterra, Premier League",crear,Menos de 4.5 goles + Menos de 15.5 córners + Menos de 8.5 tarjetas,OU|4.5|under&CORN|15.5|under&CARDS|8.5|under,0.5865,,,1.71,,,,,,
+2026-11-07 09:13,4750798,RCD Espanyol vs RC Deportivo,"España, LaLiga",seguro,RCD Espanyol recibe gol,CS||local_no,0.7157,1.36,Bet365,1.40,-0.0267,,si,,,
+2026-11-07 09:13,4750798,RCD Espanyol vs RC Deportivo,"España, LaLiga",seguro,No hay empate,DC||12,0.6990,1.36,Bet365,1.43,-0.0494,,si,,,
+2026-11-07 09:13,4750798,RCD Espanyol vs RC Deportivo,"España, LaLiga",modelo,Más de 2.5 tarjetas,CARDS|2.5|over,0.7146,,,1.40,,,si,,,
+2026-11-07 09:13,4750798,RCD Espanyol vs RC Deportivo,"España, LaLiga",modelo,Menos de 14.5 córners,CORN|14.5|under,0.6924,,,1.44,,,si,,,
+2026-11-07 09:13,4750798,RCD Espanyol vs RC Deportivo,"España, LaLiga",ticket,RCD Espanyol recibe gol + Más de 1.5 goles,CS||local_no&OU|1.5|over,0.5987,1.81,,1.67,0.0829,10.00,,,,

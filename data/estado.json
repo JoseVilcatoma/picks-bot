@@ -1325,8 +1325,12 @@
    "partido": "RCD Espanyol vs RC Deportivo",
    "liga": "España, LaLiga",
    "inicio": "2026-11-07T10:15:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1794060541.5526462
+   "estado": "enviado",
+   "ultimo": 1794060785.2758207,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "329279,346981,3333331,33455180,50800709,51162060,56247324,58466098,66320143,70887742,79280518|412242,3680517,48477961,51404167,54644483,64350547,65561869,66501021,67428962,75251248,77551112",
+   "conf": true
   },
   "4755345": {
    "partido": "SC Paderborn 07 vs Eintracht Frankfurt",
