@@ -1325,14 +1325,14 @@
    "liga": "Alemania, Bundesliga",
    "inicio": "2026-11-07T09:30:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1794058577.8175297
+   "ultimo": 1794058821.2695875
   },
   "4755348": {
    "partido": "Mainz 05 vs Bayern Munich",
    "liga": "Alemania, Bundesliga",
    "inicio": "2026-11-07T09:30:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1794058577.9233468
+   "ultimo": 1794058821.3868546
   },
   "4755351": {
    "partido": "Stuttgart vs Werder Bremen",
@@ -1345,8 +1345,12 @@
    "partido": "RB Leipzig vs FC Augsburg",
    "liga": "Alemania, Bundesliga",
    "inicio": "2026-11-07T09:30:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1794058577.9555714
+   "estado": "enviado",
+   "ultimo": 1794058821.4662752,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "565116,889605,3180934,4346740,8048881,58698523,61211738,62453007,64157972,67628271,70859051|220799,6009963,7041874,15399180,44364810,51185449,52013613,64080372,64192496,64687233,75383430",
+   "conf": true
   },
   "4755353": {
    "partido": "Borussia Dortmund vs SV 07 Elversberg",
