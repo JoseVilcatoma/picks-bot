@@ -1175,12 +1175,27 @@
    "partido": "Vitória vs Fluminense",
    "liga": "Brasil, Brasileirão",
    "inicio": "2026-11-06T18:00:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1794003233.1401892,
+   "estado": "liquidado",
+   "ultimo": 1794012969.8,
    "clv": [],
    "clv_ok": false,
    "xi": "353876,3059914,3268277,4802802,12679086,12926060,13143233,64935008,65768674,66264863,71355882|28017,120107,336354,430659,452767,457505,543186,919758,3144702,13889011,64934362",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 0,
+    "ag": 3,
+    "ht": [
+     0,
+     2
+    ],
+    "corners": 15.0,
+    "corners_h": 9.0,
+    "corners_a": 6.0,
+    "corners_1t": 6.0,
+    "cards": 2.0,
+    "cards_h": 2.0,
+    "cards_a": 0.0
+   }
   },
   "4732632": {
    "partido": "Torino vs Lecce",
