@@ -2975,7 +2975,7 @@ fecha,game_id,partido,liga,tipo,mercado,clave,prob,cuota,casa,cuota_justa,ev,sta
 2026-11-07 08:32,4755353,Borussia Dortmund vs SV 07 Elversberg,"Alemania, Bundesliga",seguro,Gana Borussia Dortmund,1X2||1,0.6481,1.34,1xBet,1.54,-0.1316,,si,,,
 2026-11-07 08:32,4755353,Borussia Dortmund vs SV 07 Elversberg,"Alemania, Bundesliga",modelo,Menos de 6.5 tarjetas,CARDS|6.5|under,0.8178,,,1.22,,,si,,,
 2026-11-07 08:32,4755353,Borussia Dortmund vs SV 07 Elversberg,"Alemania, Bundesliga",modelo,Más de 1.5 goles,OU|1.5|over,0.7957,,,1.26,,,si,,,
-2026-11-07 08:32,4755353,Borussia Dortmund vs SV 07 Elversberg,"Alemania, Bundesliga",apostable,Menos de 3.5 goles,OU|3.5|under,0.6059,1.94,1xBet,1.65,0.0633,17.00,si,,,
+2026-11-07 08:32,4755353,Borussia Dortmund vs SV 07 Elversberg,"Alemania, Bundesliga",apostable,Menos de 3.5 goles,OU|3.5|under,0.6059,1.94,1xBet,1.65,0.0633,17.00,si,,,-0.0424
 2026-11-07 08:32,4755353,Borussia Dortmund vs SV 07 Elversberg,"Alemania, Bundesliga",ticket,Menos de 3.5 goles,OU|3.5|under,0.5481,1.94,,1.82,0.0633,10.00,,,,
 2026-11-07 08:32,4755353,Borussia Dortmund vs SV 07 Elversberg,"Alemania, Bundesliga",crear,Borussia Dortmund o empate + Menos de 2.5 goles en el 1T + Menos de 17.5 córners,DC||1X&OU1T|2.5|under&CORN|17.5|under,0.5741,,,1.74,,,,,,
 2026-11-07 08:40,4755352,RB Leipzig vs FC Augsburg,"Alemania, Bundesliga",seguro,No hay empate,DC||12,0.7918,1.17,Bet365,1.26,-0.0736,,si,,,
