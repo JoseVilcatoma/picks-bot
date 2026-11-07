@@ -879,12 +879,27 @@
    "partido": "Nottingham Forest vs Manchester City",
    "liga": "Inglaterra, Premier League",
    "inicio": "2026-11-07T12:30:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1794079535.4063745,
+   "estado": "liquidado",
+   "ultimo": 1794080146.1739566,
    "clv": [],
    "clv_ok": false,
    "xi": "335651,502298,666071,3060939,3211399,12401108,40902054,51429377,54943580,66457360,71675384|620429,1391166,3072169,8048871,25999342,39079597,40408252,48394475,51439135,55058114,67820202",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 3,
+    "ag": 1,
+    "ht": [
+     2,
+     0
+    ],
+    "corners": 10.0,
+    "corners_h": 3.0,
+    "corners_a": 7.0,
+    "corners_1t": null,
+    "cards": 4.0,
+    "cards_h": 4.0,
+    "cards_a": 0.0
+   }
   },
   "4742005": {
    "partido": "Leeds United vs Tottenham",
@@ -1217,7 +1232,7 @@
    "liga": "Portugal, Primeira Liga",
    "inicio": "2026-11-07T15:30:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1794079903.0033107
+   "ultimo": 1794080146.3323514
   },
   "4760769": {
    "partido": "ADT Tarma vs Sporting Cristal",
@@ -1242,7 +1257,7 @@
    "liga": "Perú, Liga 1 - Clausura",
    "inicio": "2026-11-07T15:30:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1794079903.109648
+   "ultimo": 1794080146.354574
   },
   "4760774": {
    "partido": "FBC Melgar vs Juan Pablo II College",
