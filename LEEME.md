@@ -31,7 +31,9 @@ Betano, Apuesta Total, Doradobet). Las demás se usan solo como referencia de pr
 | `/cuota ID 1.80` | opcional: anota lo que te pagó Bet365 por el “Crear apuesta” (si no, se usa ~1.45) |
 
 ## Cómo funciona por dentro
-1. **Calendario** (cada 2 h): descarga de 365Scores los partidos de hoy y los 3 días siguientes y publica la página.
+1. **Calendario** (cada 2 h): descarga de 365Scores los partidos de hoy y los 6 días siguientes y publica la página.
+   Los partidos de **selecciones importantes** (`AUTO_SEGUIR_SELECCIONES` en `config.py`) se siguen solos; si
+   quitas uno desde la página, no se vuelve a agregar.
    La página guarda lo que sigues en `data/seleccion.json` con tu token (⚙️).
 2. **Picks** (siempre encendido): una pasada cada 2 min durante ~5.5 h y se relanza sola. Si cambias algo en el
    calendario, lo aplica en menos de 1 min. Si subes código nuevo, se reinicia sola con esa versión.

@@ -14,6 +14,7 @@ import os
 import sys
 import time
 import traceback
+import unicodedata
 from datetime import datetime, timedelta
 from zoneinfo import ZoneInfo
 
@@ -263,6 +264,51 @@ def anotar_cuota(args):
                  f"❌ Paga {1 - cuota / justa:.0%} menos que la justa: no conviene jugarla.")
     return (f"🧱 Anotado: {esc(f['partido'])} · Bet365 {cuota:.2f} vs justa {justa:.2f}\n{veredicto}\n"
             "<i>Sirve para medir el margen real de “Crear apuesta” en /resumen.</i>")
+
+
+def _norm(t):
+    t = unicodedata.normalize("NFD", t or "").encode("ascii", "ignore").decode()
+    return t.lower().strip()
+
+
+def auto_seguir(estado):
+    """Cada 6 h sigue solo los partidos de selecciones importantes (C.AUTO_SEGUIR_SELECCIONES) de los próximos
+    días. No vuelve a agregar los que quitaste. Manda un solo mensaje con los nuevos."""
+    if time.time() - estado.get("auto_t", 0) < 6 * 3600:
+        return
+    import calendario                      # usa el mismo filtro de selecciones que la página
+    equipos = {_norm(x) for x in C.AUTO_SEGUIR_SELECCIONES}
+    vistos = set(estado.get("auto_vistos", []))
+    hoy = ahora().date()
+    nuevos, completo = [], True
+    for d in range(C.DIAS_CALENDARIO):
+        j = s365.partidos_del_dia((hoy + timedelta(days=d)).strftime("%d/%m/%Y"))
+        if not j:
+            completo = False
+            continue
+        comps = {c["id"]: c for c in j.get("competitions") or []}
+        for g in j.get("games") or []:
+            gid = str(g["id"])
+            if gid in vistos or gid in estado["seguidos"] or g.get("statusGroup") != 2:
+                continue
+            info = calendario.grupo_de(g.get("competitionId"), comps.get(g.get("competitionId"), {}))
+            if not info or info[1] != "Selecciones":
+                continue
+            if not ({_norm(g["homeCompetitor"].get("name")), _norm(g["awayCompetitor"].get("name"))} & equipos):
+                continue
+            txt = seguir(estado, gid, corto=True)
+            if txt is None:
+                completo = False           # 365Scores falló: se reintenta en la próxima pasada
+                continue
+            vistos.add(gid)
+            if gid in estado["seguidos"]:
+                nuevos.append(txt)
+    estado["auto_vistos"] = sorted(vistos)[-300:]
+    if completo:
+        estado["auto_t"] = time.time()
+    if nuevos:
+        enviar("🌎 <b>Selecciones: los sigo automáticamente</b>\n" + "\n".join(nuevos)
+               + "\n<i>Si no quieres alguno, quítalo desde la página.</i>")
 
 
 def sincronizar_seleccion(estado):
@@ -1060,6 +1106,10 @@ def pasada():
     estado = cargar_estado()
     procesar_comandos(estado)
     sincronizar_seleccion(estado)
+    try:
+        auto_seguir(estado)
+    except Exception:  # noqa: BLE001  (nunca debe frenar la pasada)
+        print("[auto] error:\n" + traceback.format_exc(), flush=True)
     log = leer_log()
     t = ahora()
     for gid, s in list(estado["seguidos"].items()):

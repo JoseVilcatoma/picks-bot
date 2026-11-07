@@ -27,7 +27,16 @@ SELECCIONES_INCLUIR = ["amistoso", "nations", "eliminatoria", "clasificaci",
 SELECCIONES_EXCLUIR = ["femen", "sub", "juvenil", "youth", "u17", "u19", "u20",
                        "u21", "u23", "olímp", "olimp", "playa", "futsal"]
 
-DIAS_CALENDARIO = 4          # hoy + 3 días
+DIAS_CALENDARIO = 7          # hoy + 6 días
+
+# Partidos de selecciones que el bot sigue SOLO (sin tocar "Seguir"), si juega alguna de estas.
+# Nombres como los escribe 365Scores en español (sin importar tildes ni mayúsculas).
+# Si quitas uno de estos partidos desde la página, no se vuelve a agregar.
+AUTO_SEGUIR_SELECCIONES = [
+    "Perú", "Argentina", "Brasil", "Uruguay", "Colombia", "Chile", "Ecuador", "Paraguay", "Bolivia", "Venezuela",
+    "España", "Francia", "Inglaterra", "Alemania", "Italia", "Portugal", "Países Bajos", "Bélgica", "Croacia",
+    "México", "Estados Unidos",
+]
 
 # ---------------------------------------------------------------
 # REGLAS DE PICKS (tus reglas)
