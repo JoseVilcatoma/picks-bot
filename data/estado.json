@@ -756,12 +756,27 @@
    "partido": "Alverca vs Casa Pia AC",
    "liga": "Portugal, Primeira Liga",
    "inicio": "2026-11-07T13:00:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1794081369.0848572,
+   "estado": "liquidado",
+   "ultimo": 1794081979.1591704,
    "clv": [],
    "clv_ok": false,
    "xi": "541781,50294305,50385486,55627088,56180119,64034030,70953488,71096450,71503110,75414669,77362890|221087,560805,1700021,46866946,51802465,56749969,70855518,70858441,70953163,71690926,77071555",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 1,
+    "ag": 1,
+    "ht": [
+     0,
+     1
+    ],
+    "corners": 11.0,
+    "corners_h": 9.0,
+    "corners_a": 2.0,
+    "corners_1t": 4.0,
+    "cards": 4.0,
+    "cards_h": 3.0,
+    "cards_a": 1.0
+   }
   },
   "4757201": {
    "partido": "Nacional Madeira vs Viseu",
