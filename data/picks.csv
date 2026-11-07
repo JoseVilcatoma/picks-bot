@@ -3068,3 +3068,7 @@ fecha,game_id,partido,liga,tipo,mercado,clave,prob,cuota,casa,cuota_justa,ev,sta
 2026-11-07 14:11,4732633,AS Roma vs Sassuolo,"Italia, Serie A",modelo,Menos de 11.5 córners,CORN|11.5|under,0.7568,,,1.32,,,si,,,
 2026-11-07 14:11,4732633,AS Roma vs Sassuolo,"Italia, Serie A",ticket,Gana AS Roma + Más de 2.5 goles,1X2||1&OU|2.5|over,0.5624,1.82,,1.78,0.0236,10.00,,,,
 2026-11-07 14:11,4732633,AS Roma vs Sassuolo,"Italia, Serie A",crear,Menos de 5.5 goles + Menos de 14.5 córners + Menos de 7.5 tarjetas,OU|5.5|under&CORN|14.5|under&CARDS|7.5|under,0.5870,,,1.70,,,,,,
+2026-11-07 14:43,4757203,Sporting CP vs Moreirense,"Portugal, Primeira Liga",seguro,Más de 0.5 goles en el 1T,OU1T|0.5|over,0.7297,1.22,Bet365,1.37,-0.1097,,si,,,
+2026-11-07 14:43,4757203,Sporting CP vs Moreirense,"Portugal, Primeira Liga",modelo,Menos de 6.5 tarjetas,CARDS|6.5|under,0.8178,,,1.22,,,si,,,
+2026-11-07 14:43,4757203,Sporting CP vs Moreirense,"Portugal, Primeira Liga",modelo,Más de 1.5 goles,OU|1.5|over,0.7800,,,1.28,,,si,,,
+2026-11-07 14:43,4757203,Sporting CP vs Moreirense,"Portugal, Primeira Liga",crear,Más de 1.5 goles + Menos de 13.5 córners + Más de 0.5 tarjetas,OU|1.5|over&CORN|13.5|under&CARDS|0.5|over,0.5715,,,1.75,,,,,,

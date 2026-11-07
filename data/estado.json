@@ -1231,8 +1231,12 @@
    "partido": "Sporting CP vs Moreirense",
    "liga": "Portugal, Primeira Liga",
    "inicio": "2026-11-07T15:30:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1794080391.2236164
+   "estado": "enviado",
+   "ultimo": 1794080634.2486236,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "7244055,9157528,49491937,50072970,64317526,64656029,66850386,67636921,70860145,70939626,75430996|343647,54856962,64623933,70798946,70838125,71825973,75431317,75505328,76872471,77379722,77405506",
+   "conf": true
   },
   "4760769": {
    "partido": "ADT Tarma vs Sporting Cristal",
@@ -1257,7 +1261,7 @@
    "liga": "Perú, Liga 1 - Clausura",
    "inicio": "2026-11-07T15:30:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1794080391.328787
+   "ultimo": 1794080635.2461677
   },
   "4760774": {
    "partido": "FBC Melgar vs Juan Pablo II College",
