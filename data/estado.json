@@ -1288,7 +1288,7 @@
    "liga": "Francia, Ligue 1",
    "inicio": "2026-11-07T13:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1794071157.572476
+   "ultimo": 1794071404.7831666
   },
   "4742003": {
    "partido": "Nottingham Forest vs Manchester City",
@@ -1427,12 +1427,27 @@
    "partido": "RCD Espanyol vs RC Deportivo",
    "liga": "España, LaLiga",
    "inicio": "2026-11-07T10:15:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1794060785.2758207,
+   "estado": "liquidado",
+   "ultimo": 1794071404.9986084,
    "clv": [],
    "clv_ok": false,
    "xi": "329279,346981,3333331,33455180,50800709,51162060,56247324,58466098,66320143,70887742,79280518|412242,3680517,48477961,51404167,54644483,64350547,65561869,66501021,67428962,75251248,77551112",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 0,
+    "ag": 0,
+    "ht": [
+     0,
+     0
+    ],
+    "corners": 13.0,
+    "corners_h": 8.0,
+    "corners_a": 5.0,
+    "corners_1t": 5.0,
+    "cards": 8.0,
+    "cards_h": 4.0,
+    "cards_a": 4.0
+   }
   },
   "4755345": {
    "partido": "SC Paderborn 07 vs Eintracht Frankfurt",
@@ -1560,8 +1575,12 @@
    "partido": "Alverca vs Casa Pia AC",
    "liga": "Portugal, Primeira Liga",
    "inicio": "2026-11-07T13:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1794071158.0975418
+   "estado": "enviado",
+   "ultimo": 1794071405.280142,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "541781,50294305,50385486,55627088,56180119,64034030,70953488,71096450,71503110,75414669,77362890|221087,560805,1700021,46866946,51802465,56749969,70855518,70858441,70953163,71690926,77071555",
+   "conf": true
   },
   "4757201": {
    "partido": "Nacional Madeira vs Viseu",
@@ -1586,7 +1605,7 @@
    "liga": "Perú, Liga 1 - Clausura",
    "inicio": "2026-11-07T13:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1794071158.2045474
+   "ultimo": 1794071406.9692144
   },
   "4760771": {
    "partido": "Cienciano vs Sport Huancayo",
