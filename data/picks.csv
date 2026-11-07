@@ -3072,3 +3072,8 @@ fecha,game_id,partido,liga,tipo,mercado,clave,prob,cuota,casa,cuota_justa,ev,sta
 2026-11-07 14:43,4757203,Sporting CP vs Moreirense,"Portugal, Primeira Liga",modelo,Menos de 6.5 tarjetas,CARDS|6.5|under,0.8178,,,1.22,,,si,,,
 2026-11-07 14:43,4757203,Sporting CP vs Moreirense,"Portugal, Primeira Liga",modelo,Más de 1.5 goles,OU|1.5|over,0.7800,,,1.28,,,si,,,
 2026-11-07 14:43,4757203,Sporting CP vs Moreirense,"Portugal, Primeira Liga",crear,Más de 1.5 goles + Menos de 13.5 córners + Más de 0.5 tarjetas,OU|1.5|over&CORN|13.5|under&CARDS|0.5|over,0.5715,,,1.75,,,,,,
+2026-11-07 14:50,4760773,FC Cajamarca vs Alianza Atletico,"Perú, Liga 1 - Clausura",seguro,Alianza Atletico recibe gol,CS||visita_no,0.7355,1.22,Bet365,1.36,-0.1027,,probable,,,
+2026-11-07 14:50,4760773,FC Cajamarca vs Alianza Atletico,"Perú, Liga 1 - Clausura",seguro,No hay empate,DC||12,0.7095,1.30,Bet365,1.41,-0.0777,,probable,,,
+2026-11-07 14:50,4760773,FC Cajamarca vs Alianza Atletico,"Perú, Liga 1 - Clausura",modelo,Menos de 6.5 tarjetas,CARDS|6.5|under,0.7600,,,1.32,,,probable,,,
+2026-11-07 14:50,4760773,FC Cajamarca vs Alianza Atletico,"Perú, Liga 1 - Clausura",modelo,Menos de 11.5 córners,CORN|11.5|under,0.6881,,,1.45,,,probable,,,
+2026-11-07 14:50,4760773,FC Cajamarca vs Alianza Atletico,"Perú, Liga 1 - Clausura",ticket,Alianza Atletico o empate + FC Cajamarca recibe gol,DC||X2&CS||local_no,0.5123,1.96,,1.95,0.0033,10.00,,,,

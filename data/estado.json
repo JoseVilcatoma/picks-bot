@@ -1260,8 +1260,12 @@
    "partido": "FC Cajamarca vs Alianza Atletico",
    "liga": "Perú, Liga 1 - Clausura",
    "inicio": "2026-11-07T15:30:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1794080880.1373932
+   "estado": "enviado",
+   "ultimo": 1794081002.3131309,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "496030,549319,2547399,3226546,55751030,57792016,67631192,67939604,71161933,77695473,78946536|428984,506167,3222005,13891409,29976047,56700055,64866387,65304004,67902596,71885210,77715226",
+   "conf": false
   },
   "4760774": {
    "partido": "FBC Melgar vs Juan Pablo II College",
