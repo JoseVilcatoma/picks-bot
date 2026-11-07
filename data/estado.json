@@ -1,58 +1,6 @@
 {
  "offset": 344577790,
  "seguidos": {
-  "4632614": {
-   "partido": "São Paulo vs Corinthians",
-   "liga": "Brasil, Brasileirão",
-   "inicio": "2026-11-04T19:30:00-05:00",
-   "estado": "liquidado",
-   "ultimo": 1793846179.058792,
-   "clv": [],
-   "clv_ok": false,
-   "xi": "270847,302560,347912,430655,543187,3219228,3320593,55416459,70897196,71071406,77691484|376333,433045,472811,3235790,6687134,9289348,16699960,66083960,66705981,67631833,77409182",
-   "conf": true,
-   "r": {
-    "hg": 0,
-    "ag": 0,
-    "ht": [
-     0,
-     0
-    ],
-    "corners": 14.0,
-    "corners_h": 6.0,
-    "corners_a": 8.0,
-    "corners_1t": 12.0,
-    "cards": 10.0,
-    "cards_h": 5.0,
-    "cards_a": 5.0
-   }
-  },
-  "4632615": {
-   "partido": "Botafogo vs Atlético Mineiro",
-   "liga": "Brasil, Brasileirão",
-   "inicio": "2026-11-04T19:30:00-05:00",
-   "estado": "liquidado",
-   "ultimo": 1793845567.9224317,
-   "clv": [],
-   "clv_ok": false,
-   "xi": "221624,401709,505448,1089549,3219341,3360208,7153495,46560017,53174766,71533160,76901942|342973,827596,1858512,3066799,3359828,56015041,60977794,70765708,77666526,77666528,77668362",
-   "conf": true,
-   "r": {
-    "hg": 1,
-    "ag": 0,
-    "ht": [
-     1,
-     0
-    ],
-    "corners": 8.0,
-    "corners_h": 4.0,
-    "corners_a": 4.0,
-    "corners_1t": 5.0,
-    "cards": 4.0,
-    "cards_h": 2.0,
-    "cards_a": 2.0
-   }
-  },
   "4760787": {
    "partido": "Universitario vs Sport Boys",
    "liga": "Perú, Liga 1 - Clausura",
