@@ -1175,12 +1175,27 @@
    "partido": "Torino vs Lecce",
    "liga": "Italia, Serie A",
    "inicio": "2026-11-07T09:00:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1794067582.7740698,
+   "estado": "liquidado",
+   "ultimo": 1794068194.2290893,
    "clv": [],
    "clv_ok": false,
    "xi": "400857,530850,607972,3093438,3154359,51512703,53050235,54341649,70797490,70877609,77139772|453730,4870199,35341115,49572987,60984293,64864265,66406095,67610877,67874128,71384454,71392451",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 1,
+    "ag": 1,
+    "ht": [
+     0,
+     0
+    ],
+    "corners": 9.0,
+    "corners_h": 4.0,
+    "corners_a": 5.0,
+    "corners_1t": 5.0,
+    "cards": 2.0,
+    "cards_h": 0.0,
+    "cards_a": 2.0
+   }
   },
   "4732633": {
    "partido": "AS Roma vs Sassuolo",
@@ -1276,7 +1291,7 @@
    "liga": "Inglaterra, Premier League",
    "inicio": "2026-11-07T12:30:00-05:00",
    "estado": "pendiente",
-   "ultimo": 0
+   "ultimo": 1794068194.4782703
   },
   "4742005": {
    "partido": "Leeds United vs Tottenham",
@@ -1338,7 +1353,7 @@
    "liga": "España, LaLiga",
    "inicio": "2026-11-07T12:30:00-05:00",
    "estado": "pendiente",
-   "ultimo": 0
+   "ultimo": 1794068194.5785844
   },
   "4750797": {
    "partido": "Málaga CF vs Racing de Santander",
@@ -1404,7 +1419,7 @@
    "liga": "Alemania, Bundesliga",
    "inicio": "2026-11-07T12:30:00-05:00",
    "estado": "pendiente",
-   "ultimo": 0
+   "ultimo": 1794068194.6786015
   },
   "4755352": {
    "partido": "RB Leipzig vs FC Augsburg",
