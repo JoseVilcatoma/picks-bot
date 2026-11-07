@@ -2962,3 +2962,7 @@ fecha,game_id,partido,liga,tipo,mercado,clave,prob,cuota,casa,cuota_justa,ev,sta
 2026-11-07 06:54,4750797,Málaga CF vs Racing de Santander,"España, LaLiga",modelo,Menos de 6.5 tarjetas,CARDS|6.5|under,0.7300,,,1.37,,,si,,,
 2026-11-07 06:54,4750797,Málaga CF vs Racing de Santander,"España, LaLiga",modelo,Menos de 12.5 córners,CORN|12.5|under,0.7276,,,1.37,,,si,,,
 2026-11-07 06:54,4750797,Málaga CF vs Racing de Santander,"España, LaLiga",ticket,Málaga CF recibe gol + Racing de Santander o empate,CS||local_no&DC||X2,0.5440,1.91,,1.84,0.0404,10.00,,,,
+2026-11-07 08:17,4732632,Torino vs Lecce,"Italia, Serie A",seguro,Torino o empate,DC||1X,0.7947,1.18,Bet365,1.26,-0.0623,,si,,,
+2026-11-07 08:17,4732632,Torino vs Lecce,"Italia, Serie A",seguro,Lecce recibe gol,CS||visita_no,0.7743,1.17,Bet365,1.29,-0.0941,,si,,,
+2026-11-07 08:17,4732632,Torino vs Lecce,"Italia, Serie A",modelo,Menos de 6.5 tarjetas,CARDS|6.5|under,0.7865,,,1.27,,,si,,,
+2026-11-07 08:17,4732632,Torino vs Lecce,"Italia, Serie A",modelo,Menos de 11.5 córners,CORN|11.5|under,0.7142,,,1.40,,,si,,,
