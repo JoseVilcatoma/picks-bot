@@ -2966,3 +2966,8 @@ fecha,game_id,partido,liga,tipo,mercado,clave,prob,cuota,casa,cuota_justa,ev,sta
 2026-11-07 08:17,4732632,Torino vs Lecce,"Italia, Serie A",seguro,Lecce recibe gol,CS||visita_no,0.7743,1.17,Bet365,1.29,-0.0941,,si,,,
 2026-11-07 08:17,4732632,Torino vs Lecce,"Italia, Serie A",modelo,Menos de 6.5 tarjetas,CARDS|6.5|under,0.7865,,,1.27,,,si,,,
 2026-11-07 08:17,4732632,Torino vs Lecce,"Italia, Serie A",modelo,Menos de 11.5 córners,CORN|11.5|under,0.7142,,,1.40,,,si,,,
+2026-11-07 08:21,4732640,Cagliari vs Frosinone,"Italia, Serie A",seguro,Cagliari recibe gol,CS||local_no,0.7951,1.17,Bet365,1.26,-0.0697,,si,,,
+2026-11-07 08:21,4732640,Cagliari vs Frosinone,"Italia, Serie A",seguro,Frosinone o empate,DC||X2,0.7345,1.36,Bet365,1.36,-0.0011,,si,,,
+2026-11-07 08:21,4732640,Cagliari vs Frosinone,"Italia, Serie A",modelo,Menos de 6.5 tarjetas,CARDS|6.5|under,0.7865,,,1.27,,,si,,,
+2026-11-07 08:21,4732640,Cagliari vs Frosinone,"Italia, Serie A",modelo,Más de 1.5 goles,OU|1.5|over,0.7833,,,1.28,,,si,,,
+2026-11-07 08:21,4732640,Cagliari vs Frosinone,"Italia, Serie A",crear,Más de 1.5 goles + Más de 5.5 córners + Menos de 7.5 tarjetas,OU|1.5|over&CORN|5.5|over&CARDS|7.5|under,0.5491,,,1.82,,,,,,
