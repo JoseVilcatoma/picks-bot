@@ -1434,19 +1434,34 @@
    "partido": "Mainz 05 vs Bayern Munich",
    "liga": "Alemania, Bundesliga",
    "inicio": "2026-11-07T09:30:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1794068813.7928202,
+   "estado": "liquidado",
+   "ultimo": 1794069436.34315,
    "clv": [],
    "clv_ok": false,
    "xi": "349213,439872,500733,508224,525630,581528,3132952,12001404,67774532,75257123,77401906|80013,227604,412127,470279,485309,898082,14755144,57861026,66044210,67864491,76643976",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 1,
+    "ag": 2,
+    "ht": [
+     0,
+     1
+    ],
+    "corners": 15.0,
+    "corners_h": 7.0,
+    "corners_a": 8.0,
+    "corners_1t": 9.0,
+    "cards": 1.0,
+    "cards_h": 0.0,
+    "cards_a": 1.0
+   }
   },
   "4755351": {
    "partido": "Stuttgart vs Werder Bremen",
    "liga": "Alemania, Bundesliga",
    "inicio": "2026-11-07T12:30:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1794069190.0219443
+   "ultimo": 1794069436.7390597
   },
   "4755352": {
    "partido": "RB Leipzig vs FC Augsburg",
