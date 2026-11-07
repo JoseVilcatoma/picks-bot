@@ -3047,3 +3047,8 @@ fecha,game_id,partido,liga,tipo,mercado,clave,prob,cuota,casa,cuota_justa,ev,sta
 2026-11-07 12:19,4735216,Auxerre vs Paris FC,"Francia, Ligue 1",modelo,Menos de 10.5 córners,CORN|10.5|under,0.7244,,,1.38,,,si,,,
 2026-11-07 12:19,4735216,Auxerre vs Paris FC,"Francia, Ligue 1",ticket,Paris FC recibe gol + Más de 1.5 goles,CS||visita_no&OU|1.5|over,0.5874,1.76,,1.70,0.0319,10.00,,,,
 2026-11-07 12:19,4735216,Auxerre vs Paris FC,"Francia, Ligue 1",crear,No hay empate + Menos de 4.5 goles + Más de 3.5 córners,DC||12&OU|4.5|under&CORN|3.5|over,0.5348,,,1.87,,,,,,
+2026-11-07 12:21,4760769,ADT Tarma vs Sporting Cristal,"Perú, Liga 1 - Clausura",seguro,Más de 1.5 goles,OU|1.5|over,0.7642,1.22,Bet365,1.31,-0.0677,,probable,,,
+2026-11-07 12:21,4760769,ADT Tarma vs Sporting Cristal,"Perú, Liga 1 - Clausura",seguro,No hay empate,DC||12,0.7273,1.30,Bet365,1.37,-0.0545,,probable,,,
+2026-11-07 12:21,4760769,ADT Tarma vs Sporting Cristal,"Perú, Liga 1 - Clausura",modelo,Más de 2.5 tarjetas,CARDS|2.5|over,0.7543,,,1.33,,,probable,,,
+2026-11-07 12:21,4760769,ADT Tarma vs Sporting Cristal,"Perú, Liga 1 - Clausura",modelo,Menos de 11.5 córners,CORN|11.5|under,0.7314,,,1.37,,,probable,,,
+2026-11-07 12:21,4760769,ADT Tarma vs Sporting Cristal,"Perú, Liga 1 - Clausura",ticket,Sporting Cristal o empate + ADT Tarma recibe gol,DC||X2&CS||local_no,0.5678,1.80,,1.76,0.0220,10.00,,,,

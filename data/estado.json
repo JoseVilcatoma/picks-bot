@@ -1608,8 +1608,12 @@
    "partido": "ADT Tarma vs Sporting Cristal",
    "liga": "Perú, Liga 1 - Clausura",
    "inicio": "2026-11-07T13:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1794071943.256881
+   "estado": "enviado",
+   "ultimo": 1794072085.106987,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "225239,358569,457528,497371,541787,618875,3137770,47449751,54920557,70823016,72047532|261791,357602,485269,486424,574543,3137800,5697711,15806567,50613999,60649749,71373581",
+   "conf": false
   },
   "4760771": {
    "partido": "Cienciano vs Sport Huancayo",
