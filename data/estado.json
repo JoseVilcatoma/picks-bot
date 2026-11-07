@@ -1590,8 +1590,8 @@
    "partido": "Nacional Madeira vs Viseu",
    "liga": "Portugal, Primeira Liga",
    "inicio": "2026-11-07T10:30:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1794062862.3238242,
+   "estado": "cancelado",
+   "ultimo": 1794072311.4007676,
    "clv": [],
    "clv_ok": false,
    "xi": "7951019,51069440,57110354,58253141,59438356,65893880,68024950,70795530,70903228,71329623,79590358|343399,2614253,7314720,15069774,46523888,50978598,60491993,60869761,65521818,70810400,71408242",
@@ -1866,6 +1866,62 @@
    "inicio": "2026-11-13T20:00:00-05:00",
    "estado": "pendiente",
    "ultimo": 0
+  },
+  "4716606": {
+   "partido": "Egipto vs Malawi",
+   "liga": "África, Copa de África de Naciones - Clasificación",
+   "inicio": "2026-11-13T14:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4760759": {
+   "partido": "UTC Cajamarca vs Los Chankas",
+   "liga": "Perú, Liga 1 - Clausura",
+   "inicio": "2026-11-13T13:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4883931": {
+   "partido": "Comoros vs República del Congo",
+   "liga": "África, Copa de África de Naciones - Clasificación",
+   "inicio": "2026-11-13T08:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4883933": {
+   "partido": "Sudáfrica vs Kenia",
+   "liga": "África, Copa de África de Naciones - Clasificación",
+   "inicio": "2026-11-13T11:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4883935": {
+   "partido": "Túnez vs Libia",
+   "liga": "África, Copa de África de Naciones - Clasificación",
+   "inicio": "2026-11-13T11:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4883936": {
+   "partido": "Cabo Verde vs Liberia",
+   "liga": "África, Copa de África de Naciones - Clasificación",
+   "inicio": "2026-11-13T11:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4883937": {
+   "partido": "Nigeria vs Tanzania",
+   "liga": "África, Copa de África de Naciones - Clasificación",
+   "inicio": "2026-11-13T11:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4883940": {
+   "partido": "Marruecos vs Niger",
+   "liga": "África, Copa de África de Naciones - Clasificación",
+   "inicio": "2026-11-13T15:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
   }
  },
  "web": {
@@ -2011,7 +2067,15 @@
   "4760767": 1793982540830,
   "4760768": 1793982541170,
   "4760770": 1793982540230,
-  "4760772": 1793982540554
+  "4760772": 1793982540554,
+  "4716606": 1794072295227,
+  "4760759": 1794072288031,
+  "4883931": 1794072304751,
+  "4883933": 1794072301235,
+  "4883935": 1794072299623,
+  "4883936": 1794072298585,
+  "4883937": 1794072297021,
+  "4883940": 1794072294445
  },
  "tickets": [],
  "sin_creditos": false,
