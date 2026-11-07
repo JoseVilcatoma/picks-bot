@@ -1329,12 +1329,27 @@
    "partido": "Málaga CF vs Racing de Santander",
    "liga": "España, LaLiga",
    "inicio": "2026-11-07T08:00:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1794063351.475901,
+   "estado": "liquidado",
+   "ultimo": 1794063958.1687415,
    "clv": [],
    "clv_ok": false,
    "xi": "446896,3150477,3564140,49709300,62350130,64368032,66501033,70891971,70953535,75441691,77184029|28334,10526467,15809523,51019318,60835756,64816557,66437445,70950981,71407785,75254319,77506408",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 1,
+    "ag": 2,
+    "ht": [
+     1,
+     0
+    ],
+    "corners": 9.0,
+    "corners_h": 6.0,
+    "corners_a": 3.0,
+    "corners_1t": 3.0,
+    "cards": 8.0,
+    "cards_h": 6.0,
+    "cards_a": 2.0
+   }
   },
   "4750798": {
    "partido": "RCD Espanyol vs RC Deportivo",
