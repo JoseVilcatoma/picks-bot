@@ -1259,8 +1259,12 @@
    "partido": "Leeds United vs Tottenham",
    "liga": "Inglaterra, Premier League",
    "inicio": "2026-11-07T07:30:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1794050664.616059
+   "estado": "enviado",
+   "ultimo": 1794050908.1879275,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "540689,570849,649450,886874,907041,984482,3135966,3219930,7227288,51042324,58340010|354502,4785473,4870623,5887322,14775530,49463074,60978968,63108549,64522138,66565948,67877824",
+   "conf": true
   },
   "4742007": {
    "partido": "Fulham vs Newcastle United",
