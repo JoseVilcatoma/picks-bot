@@ -1288,7 +1288,7 @@
    "liga": "Francia, Ligue 1",
    "inicio": "2026-11-07T13:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1794070913.0744863
+   "ultimo": 1794071157.572476
   },
   "4742003": {
    "partido": "Nottingham Forest vs Manchester City",
@@ -1331,12 +1331,27 @@
    "partido": "Fulham vs Newcastle United",
    "liga": "Inglaterra, Premier League",
    "inicio": "2026-11-07T10:00:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1794070543.2595532,
+   "estado": "liquidado",
+   "ultimo": 1794071157.7717075,
    "clv": [],
    "clv_ok": false,
    "xi": "334784,441799,598010,841159,8950563,50208640,55239130,61717953,65848500,68056120,75402193|402279,507392,906906,3153841,48658809,55401980,60982502,63092591,63157356,67900851,72591454",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 1,
+    "ag": 1,
+    "ht": [
+     0,
+     0
+    ],
+    "corners": 6.0,
+    "corners_h": 3.0,
+    "corners_a": 3.0,
+    "corners_1t": 5.0,
+    "cards": 2.0,
+    "cards_h": 0.0,
+    "cards_a": 2.0
+   }
   },
   "4742011": {
    "partido": "Arsenal vs Hull City",
@@ -1546,7 +1561,7 @@
    "liga": "Portugal, Primeira Liga",
    "inicio": "2026-11-07T13:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1794070913.2466195
+   "ultimo": 1794071158.0975418
   },
   "4757201": {
    "partido": "Nacional Madeira vs Viseu",
@@ -1571,7 +1586,7 @@
    "liga": "Perú, Liga 1 - Clausura",
    "inicio": "2026-11-07T13:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1794070913.3636794
+   "ultimo": 1794071158.2045474
   },
   "4760771": {
    "partido": "Cienciano vs Sport Huancayo",
