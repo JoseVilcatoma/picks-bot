@@ -1325,14 +1325,18 @@
    "liga": "Alemania, Bundesliga",
    "inicio": "2026-11-07T09:30:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1794058821.2695875
+   "ultimo": 1794059067.8662312
   },
   "4755348": {
    "partido": "Mainz 05 vs Bayern Munich",
    "liga": "Alemania, Bundesliga",
    "inicio": "2026-11-07T09:30:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1794058821.3868546
+   "estado": "enviado",
+   "ultimo": 1794059068.0301185,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "349213,439872,500733,508224,525630,581528,3132952,12001404,67774532,75257123,77401906|80013,227604,412127,470279,485309,898082,14755144,57861026,66044210,67864491,76643976",
+   "conf": true
   },
   "4755351": {
    "partido": "Stuttgart vs Werder Bremen",
