@@ -1287,8 +1287,12 @@
    "partido": "Auxerre vs Paris FC",
    "liga": "Francia, Ligue 1",
    "inicio": "2026-11-07T13:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1794071653.9881825
+   "estado": "enviado",
+   "ultimo": 1794071941.2840784,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "348719,1760084,3340298,5905572,38841445,50208635,52933383,60466791,62084810,62336662,77135145|334818,429463,469313,533933,3083020,50676204,51595762,57682338,64473227,66134607,77112630",
+   "conf": true
   },
   "4742003": {
    "partido": "Nottingham Forest vs Manchester City",
@@ -1605,7 +1609,7 @@
    "liga": "Perú, Liga 1 - Clausura",
    "inicio": "2026-11-07T13:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1794071654.1192048
+   "ultimo": 1794071943.256881
   },
   "4760771": {
    "partido": "Cienciano vs Sport Huancayo",
