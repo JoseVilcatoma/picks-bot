@@ -1295,7 +1295,7 @@
    "liga": "Inglaterra, Premier League",
    "inicio": "2026-11-07T12:30:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1794068690.5293548
+   "ultimo": 1794068940.4264107
   },
   "4742005": {
    "partido": "Leeds United vs Tottenham",
@@ -1356,8 +1356,12 @@
    "partido": "Osasuna vs Athletic Club",
    "liga": "España, LaLiga",
    "inicio": "2026-11-07T12:30:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1794068690.7199926
+   "estado": "enviado",
+   "ultimo": 1794068940.543765,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "204239,350828,414858,541593,542817,1898668,3224261,35158639,50275388,51408122,66362474|137290,330097,428230,914591,987911,8280928,51188683,54368445,65561822,75384403,77382984",
+   "conf": true
   },
   "4750797": {
    "partido": "Málaga CF vs Racing de Santander",
@@ -1438,7 +1442,7 @@
    "liga": "Alemania, Bundesliga",
    "inicio": "2026-11-07T12:30:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1794068690.8176181
+   "ultimo": 1794068941.958106
   },
   "4755352": {
    "partido": "RB Leipzig vs FC Augsburg",
