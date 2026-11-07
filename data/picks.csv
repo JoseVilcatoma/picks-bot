@@ -2957,3 +2957,8 @@ fecha,game_id,partido,liga,tipo,mercado,clave,prob,cuota,casa,cuota_justa,ev,sta
 2026-11-07 06:28,4742005,Leeds United vs Tottenham,"Inglaterra, Premier League",modelo,Menos de 11.5 córners,CORN|11.5|under,0.7314,,,1.37,,,si,,,
 2026-11-07 06:28,4742005,Leeds United vs Tottenham,"Inglaterra, Premier League",modelo,Menos de 6.5 tarjetas,CARDS|6.5|under,0.7140,,,1.40,,,si,,,
 2026-11-07 06:28,4742005,Leeds United vs Tottenham,"Inglaterra, Premier League",ticket,Leeds United recibe gol + Tottenham o empate,CS||local_no&DC||X2,0.5748,1.82,,1.74,0.0461,10.00,,,,
+2026-11-07 06:54,4750797,Málaga CF vs Racing de Santander,"España, LaLiga",seguro,Más de 1.5 goles,OU|1.5|over,0.7953,1.20,Bet365,1.26,-0.0456,,si,,,
+2026-11-07 06:54,4750797,Málaga CF vs Racing de Santander,"España, LaLiga",seguro,No hay empate,DC||12,0.7327,1.29,Bet365,1.36,-0.0549,,si,,,
+2026-11-07 06:54,4750797,Málaga CF vs Racing de Santander,"España, LaLiga",modelo,Menos de 6.5 tarjetas,CARDS|6.5|under,0.7300,,,1.37,,,si,,,
+2026-11-07 06:54,4750797,Málaga CF vs Racing de Santander,"España, LaLiga",modelo,Menos de 12.5 córners,CORN|12.5|under,0.7276,,,1.37,,,si,,,
+2026-11-07 06:54,4750797,Málaga CF vs Racing de Santander,"España, LaLiga",ticket,Málaga CF recibe gol + Racing de Santander o empate,CS||local_no&DC||X2,0.5440,1.91,,1.84,0.0404,10.00,,,,
