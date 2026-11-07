@@ -3052,3 +3052,8 @@ fecha,game_id,partido,liga,tipo,mercado,clave,prob,cuota,casa,cuota_justa,ev,sta
 2026-11-07 12:28,4760769,ADT Tarma vs Sporting Cristal,"Perú, Liga 1 - Clausura",modelo,Más de 2.5 tarjetas,CARDS|2.5|over,0.7543,,,1.33,,,si,,,
 2026-11-07 12:28,4760769,ADT Tarma vs Sporting Cristal,"Perú, Liga 1 - Clausura",modelo,Menos de 11.5 córners,CORN|11.5|under,0.7314,,,1.37,,,si,,,
 2026-11-07 12:28,4760769,ADT Tarma vs Sporting Cristal,"Perú, Liga 1 - Clausura",ticket,Sporting Cristal o empate + ADT Tarma recibe gol,DC||X2&CS||local_no,0.5827,1.80,,1.72,0.0489,10.00,,,,
+2026-11-07 14:03,4750793,Valencia CF vs Real Madrid,"España, LaLiga",seguro,Más de 0.5 goles en el 1T,OU1T|0.5|over,0.7585,1.22,Bet365,1.32,-0.0747,,si,,,
+2026-11-07 14:03,4750793,Valencia CF vs Real Madrid,"España, LaLiga",seguro,Gana Real Madrid,1X2||2,0.6874,1.28,Bet365,1.45,-0.1201,,si,,,
+2026-11-07 14:03,4750793,Valencia CF vs Real Madrid,"España, LaLiga",modelo,Más de 1.5 goles,OU|1.5|over,0.8326,,,1.20,,,si,,,
+2026-11-07 14:03,4750793,Valencia CF vs Real Madrid,"España, LaLiga",modelo,Menos de 11.5 córners,CORN|11.5|under,0.7228,,,1.38,,,si,,,
+2026-11-07 14:03,4750793,Valencia CF vs Real Madrid,"España, LaLiga",crear,No hay empate + Más de 1.5 goles + Más de 4.5 córners,DC||12&OU|1.5|over&CORN|4.5|over,0.5819,,,1.72,,,,,,

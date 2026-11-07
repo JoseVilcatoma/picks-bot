@@ -760,7 +760,7 @@
    "liga": "Italia, Serie A",
    "inicio": "2026-11-07T14:45:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1794077940.8758206
+   "ultimo": 1794078183.9624176
   },
   "4732634": {
    "partido": "Parma vs Bologna",
@@ -839,7 +839,7 @@
    "liga": "Francia, Ligue 1",
    "inicio": "2026-11-07T15:05:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1794077940.9030817
+   "ultimo": 1794078184.055231
   },
   "4735216": {
    "partido": "Auxerre vs Paris FC",
@@ -945,8 +945,12 @@
    "partido": "Valencia CF vs Real Madrid",
    "liga": "España, LaLiga",
    "inicio": "2026-11-07T15:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1794077940.932285
+   "estado": "enviado",
+   "ultimo": 1794078184.0676868,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "441765,502893,561247,676819,951785,1132718,1760855,50481885,64248760,64759691,77755397|211012,384169,480721,1589889,3216883,3568284,5052341,46440257,61736514,67547634,77099314",
+   "conf": true
   },
   "4750796": {
    "partido": "Osasuna vs Athletic Club",
