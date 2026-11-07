@@ -1922,6 +1922,41 @@
    "inicio": "2026-11-13T15:00:00-05:00",
    "estado": "pendiente",
    "ultimo": 0
+  },
+  "4883921": {
+   "partido": "Ghana vs Somalia",
+   "liga": "África, Copa de África de Naciones - Clasificación",
+   "inicio": "2026-11-12T10:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4883923": {
+   "partido": "RD Congo vs Sierra Leona",
+   "liga": "África, Copa de África de Naciones - Clasificación",
+   "inicio": "2026-11-12T11:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4883925": {
+   "partido": "Costa de Marfil vs Gambia",
+   "liga": "África, Copa de África de Naciones - Clasificación",
+   "inicio": "2026-11-12T14:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4883927": {
+   "partido": "Senegal vs Sudán",
+   "liga": "África, Copa de África de Naciones - Clasificación",
+   "inicio": "2026-11-12T14:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4883928": {
+   "partido": "Camerún vs Namibia",
+   "liga": "África, Copa de África de Naciones - Clasificación",
+   "inicio": "2026-11-12T14:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
   }
  },
  "web": {
@@ -2076,7 +2111,12 @@
   "4883936": 1794072298585,
   "4883937": 1794072297021,
   "4883940": 1794072294445,
-  "4882926": 1794072328732
+  "4882926": 1794072328732,
+  "4883921": 1794072334151,
+  "4883923": 1794072335915,
+  "4883925": 1794072338758,
+  "4883927": 1794072341098,
+  "4883928": 1794072341336
  },
  "tickets": [],
  "sin_creditos": false,
