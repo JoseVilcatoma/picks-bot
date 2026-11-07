@@ -1325,14 +1325,14 @@
    "liga": "Alemania, Bundesliga",
    "inicio": "2026-11-07T09:30:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1794058087.3206506
+   "ultimo": 1794058331.0614498
   },
   "4755348": {
    "partido": "Mainz 05 vs Bayern Munich",
    "liga": "Alemania, Bundesliga",
    "inicio": "2026-11-07T09:30:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1794058087.4338393
+   "ultimo": 1794058331.1581786
   },
   "4755351": {
    "partido": "Stuttgart vs Werder Bremen",
@@ -1346,14 +1346,24 @@
    "liga": "Alemania, Bundesliga",
    "inicio": "2026-11-07T09:30:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1794058087.4938202
+   "ultimo": 1794058331.190246
   },
   "4755353": {
    "partido": "Borussia Dortmund vs SV 07 Elversberg",
    "liga": "Alemania, Bundesliga",
    "inicio": "2026-11-07T09:30:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1794058087.525968
+   "estado": "enviado",
+   "ultimo": 1794058331.2513776,
+   "clv": [
+    {
+     "clave": "OU|3.5|under",
+     "cuota": 1.94,
+     "texto": "Menos de 3.5 goles"
+    }
+   ],
+   "clv_ok": false,
+   "xi": "366254,943391,3276664,15028852,38249831,49359943,50878796,51042327,64350505,70951404,71382441|9692144,50799028,60134466,60870648,61457020,66359447,67633948,71340077,74664900,75399256,76165365",
+   "conf": true
   },
   "4757196": {
    "partido": "Alverca vs Casa Pia AC",
