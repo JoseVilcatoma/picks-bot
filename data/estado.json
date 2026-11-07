@@ -1831,6 +1831,41 @@
    "inicio": "2026-11-08T15:30:00-05:00",
    "estado": "pendiente",
    "ultimo": 0
+  },
+  "4870466": {
+   "partido": "Singapur vs Paraguay",
+   "liga": "Internacional, Amistoso Internacional",
+   "inicio": "2026-11-13T07:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4877636": {
+   "partido": "Argentina vs Uruguay",
+   "liga": "Internacional, Amistoso Internacional",
+   "inicio": "2026-11-13T18:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4855910": {
+   "partido": "Colombia vs Chile",
+   "liga": "Internacional, Amistoso Internacional",
+   "inicio": "2026-11-13T19:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4877633": {
+   "partido": "Ecuador vs Costa Rica",
+   "liga": "Internacional, Amistoso Internacional",
+   "inicio": "2026-11-13T19:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4882109": {
+   "partido": "Perú vs Bolivia",
+   "liga": "Internacional, Amistoso Internacional",
+   "inicio": "2026-11-13T20:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
   }
  },
  "web": {
@@ -1979,5 +2014,13 @@
   "4760772": 1793982540554
  },
  "tickets": [],
- "sin_creditos": false
+ "sin_creditos": false,
+ "auto_vistos": [
+  "4855910",
+  "4870466",
+  "4877633",
+  "4877636",
+  "4882109"
+ ],
+ "auto_t": 1794072226.7574644
 }
