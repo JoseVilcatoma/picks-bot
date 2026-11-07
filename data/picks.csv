@@ -2990,3 +2990,8 @@ fecha,game_id,partido,liga,tipo,mercado,clave,prob,cuota,casa,cuota_justa,ev,sta
 2026-11-07 08:44,4755348,Mainz 05 vs Bayern Munich,"Alemania, Bundesliga",modelo,Menos de 6.5 tarjetas,CARDS|6.5|under,0.7300,,,1.37,,,si,,,
 2026-11-07 08:44,4755348,Mainz 05 vs Bayern Munich,"Alemania, Bundesliga",ticket,Ambos marcan: Sí + Más de 2.5 goles,BTTS||si&OU|2.5|over,0.5544,1.83,,1.80,0.0146,10.00,,,,
 2026-11-07 08:44,4755348,Mainz 05 vs Bayern Munich,"Alemania, Bundesliga",crear,Bayern Munich o empate + Menos de 5.5 goles + Menos de 13.5 córners,DC||X2&OU|5.5|under&CORN|13.5|under,0.5850,,,1.71,,,,,,
+2026-11-07 08:48,4755345,SC Paderborn 07 vs Eintracht Frankfurt,"Alemania, Bundesliga",seguro,Menos de 2.5 goles en el 1T,OU1T|2.5|under,0.8476,1.18,Bet365,1.18,0.0002,,si,,,
+2026-11-07 08:48,4755345,SC Paderborn 07 vs Eintracht Frankfurt,"Alemania, Bundesliga",seguro,No hay empate,DC||12,0.7301,1.25,Bet365,1.37,-0.0873,,si,,,
+2026-11-07 08:48,4755345,SC Paderborn 07 vs Eintracht Frankfurt,"Alemania, Bundesliga",modelo,Más de 1.5 goles,OU|1.5|over,0.7738,,,1.29,,,si,,,
+2026-11-07 08:48,4755345,SC Paderborn 07 vs Eintracht Frankfurt,"Alemania, Bundesliga",modelo,Menos de 6.5 tarjetas,CARDS|6.5|under,0.7300,,,1.37,,,si,,,
+2026-11-07 08:48,4755345,SC Paderborn 07 vs Eintracht Frankfurt,"Alemania, Bundesliga",crear,Menos de 2.5 goles en el 1T + Más de 5.5 córners + Menos de 7.5 tarjetas,OU1T|2.5|under&CORN|5.5|over&CARDS|7.5|under,0.5761,,,1.74,,,,,,

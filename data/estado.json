@@ -1324,8 +1324,12 @@
    "partido": "SC Paderborn 07 vs Eintracht Frankfurt",
    "liga": "Alemania, Bundesliga",
    "inicio": "2026-11-07T09:30:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1794059067.8662312
+   "estado": "enviado",
+   "ultimo": 1794059315.6429102,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "3086489,3138034,50568553,65045584,65417618,65670736,67687520,68323301,70776744,70839583,77352669|646522,3155273,8687950,50444832,50548091,60085508,61213413,66253459,67450295,70955868,71155061",
+   "conf": true
   },
   "4755348": {
    "partido": "Mainz 05 vs Bayern Munich",
