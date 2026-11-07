@@ -1294,8 +1294,12 @@
    "partido": "Nottingham Forest vs Manchester City",
    "liga": "Inglaterra, Premier League",
    "inicio": "2026-11-07T12:30:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1794068940.4264107
+   "estado": "enviado",
+   "ultimo": 1794069188.529035,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "335651,502298,666071,3060939,3211399,12401108,40902054,51429377,54943580,66457360,71675384|620429,1391166,3072169,8048871,25999342,39079597,40408252,48394475,51439135,55058114,67820202",
+   "conf": true
   },
   "4742005": {
    "partido": "Leeds United vs Tottenham",
@@ -1442,7 +1446,7 @@
    "liga": "Alemania, Bundesliga",
    "inicio": "2026-11-07T12:30:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1794068941.958106
+   "ultimo": 1794069190.0219443
   },
   "4755352": {
    "partido": "RB Leipzig vs FC Augsburg",
