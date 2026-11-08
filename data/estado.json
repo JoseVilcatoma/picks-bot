@@ -962,28 +962,32 @@
    "liga": "Francia, Ligue 1",
    "inicio": "2026-11-08T11:15:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1794150795.4354281
+   "ultimo": 1794151040.363188
   },
   "4735214": {
    "partido": "Le Havre vs Lorient",
    "liga": "Francia, Ligue 1",
    "inicio": "2026-11-08T11:15:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1794150795.598958
+   "ultimo": 1794151040.4163008
   },
   "4735215": {
    "partido": "Brest vs Lyon",
    "liga": "Francia, Ligue 1",
    "inicio": "2026-11-08T11:15:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1794150795.6576142
+   "ultimo": 1794151040.5218897
   },
   "4735217": {
    "partido": "Angers vs Niza",
    "liga": "Francia, Ligue 1",
    "inicio": "2026-11-08T11:15:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1794150795.7144806
+   "estado": "enviado",
+   "ultimo": 1794151040.568989,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "333004,432445,534041,658840,3124708,50482992,50682074,66137744,66447261,75439905,77144042|1766803,3413846,6261797,8770364,47429447,50568830,50676834,50682331,53769150,63192118,76875194",
+   "conf": true
   },
   "4742002": {
    "partido": "Sunderland vs Chelsea",
