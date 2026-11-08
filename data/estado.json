@@ -875,12 +875,27 @@
    "partido": "FBC Melgar vs Juan Pablo II College",
    "liga": "Perú, Liga 1 - Clausura",
    "inicio": "2026-11-07T18:00:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1794099308.8844934,
+   "estado": "liquidado",
+   "ultimo": 1794099914.6204607,
    "clv": [],
    "clv_ok": false,
    "xi": "137980,275266,347470,350022,460569,648658,6708278,13334880,50635855,52833089,77711849|484523,1839203,2803564,3370754,14627599,64944305,66862580,67119647,67165511,67711103,67899346",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 2,
+    "ag": 1,
+    "ht": [
+     1,
+     1
+    ],
+    "corners": 8.0,
+    "corners_h": 6.0,
+    "corners_a": 2.0,
+    "corners_1t": 4.0,
+    "cards": 6.0,
+    "cards_h": 2.0,
+    "cards_a": 4.0
+   }
   },
   "4735209": {
    "partido": "Lens vs Olympique Marsella",
