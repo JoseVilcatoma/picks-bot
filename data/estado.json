@@ -344,18 +344,33 @@
    "liga": "Italia, Serie A",
    "inicio": "2026-11-08T12:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1794153686.2823997
+   "ultimo": 1794153930.15322
   },
   "4732638": {
    "partido": "Genoa vs AC Milan",
    "liga": "Italia, Serie A",
    "inicio": "2026-11-08T09:00:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1794153317.2116613,
+   "estado": "liquidado",
+   "ultimo": 1794153930.33111,
    "clv": [],
    "clv_ok": false,
    "xi": "557325,568955,3453817,3949075,13854543,32042542,53085455,53916978,61672509,70844116,77746600|26984,308108,513713,2055909,49915522,50790794,52683634,61032003,63094718,66983607,67774436",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 1,
+    "ag": 2,
+    "ht": [
+     0,
+     2
+    ],
+    "corners": 3.0,
+    "corners_h": 3.0,
+    "corners_a": 0.0,
+    "corners_1t": 1.0,
+    "cards": 6.0,
+    "cards_h": 2.0,
+    "cards_a": 4.0
+   }
   },
   "4732639": {
    "partido": "Fiorentina vs Juventus",
@@ -1035,12 +1050,27 @@
    "partido": "Sunderland vs Chelsea",
    "liga": "Inglaterra, Premier League",
    "inicio": "2026-11-08T09:00:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1794153317.425667,
+   "estado": "liquidado",
+   "ultimo": 1794153930.4984908,
    "clv": [],
    "clv_ok": false,
    "xi": "227029,287803,435114,1169903,3218099,50444830,50854712,58122452,64744795,65566123,67832304|126125,2558704,17018827,39270918,49733543,51281702,54701553,54943579,60927957,67747139,67989376",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 1,
+    "ag": 0,
+    "ht": [
+     1,
+     0
+    ],
+    "corners": 4.0,
+    "corners_h": 2.0,
+    "corners_a": 2.0,
+    "corners_1t": 1.0,
+    "cards": 9.0,
+    "cards_h": 5.0,
+    "cards_a": 4.0
+   }
   },
   "4742004": {
    "partido": "Manchester United vs Aston Villa",
@@ -1057,34 +1087,79 @@
    "partido": "Ipswich vs Bournemouth",
    "liga": "Inglaterra, Premier League",
    "inicio": "2026-11-08T09:00:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1794153317.4852397,
+   "estado": "liquidado",
+   "ultimo": 1794153930.663071,
    "clv": [],
    "clv_ok": false,
    "xi": "534537,1140554,1404731,3153685,10968460,14151805,32246907,44421294,56421007,65255094,71354644|217078,368648,894428,2753320,3049155,39229340,49980838,50445824,53212627,63094712,67626970",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 1,
+    "ag": 2,
+    "ht": [
+     0,
+     1
+    ],
+    "corners": 9.0,
+    "corners_h": 2.0,
+    "corners_a": 7.0,
+    "corners_1t": 4.0,
+    "cards": 5.0,
+    "cards_h": 2.0,
+    "cards_a": 3.0
+   }
   },
   "4742009": {
    "partido": "Crystal Palace vs Liverpool",
    "liga": "Inglaterra, Premier League",
    "inicio": "2026-11-08T09:00:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1794153317.540505,
+   "estado": "liquidado",
+   "ultimo": 1794153930.800788,
    "clv": [],
    "clv_ok": false,
    "xi": "560632,571198,834589,1838950,3183310,3232280,49658641,50484078,50752231,52342774,64697647|220953,558151,1286508,3172767,3344160,3374464,3886928,49449655,60734154,60909490,67987366",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 1,
+    "ag": 3,
+    "ht": [
+     0,
+     1
+    ],
+    "corners": 11.0,
+    "corners_h": 4.0,
+    "corners_a": 7.0,
+    "corners_1t": 7.0,
+    "cards": 6.0,
+    "cards_h": 2.0,
+    "cards_a": 4.0
+   }
   },
   "4742010": {
    "partido": "Brighton vs Brentford",
    "liga": "Inglaterra, Premier League",
    "inicio": "2026-11-08T09:00:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1794153317.6078591,
+   "estado": "liquidado",
+   "ultimo": 1794153930.9370131,
    "clv": [],
    "clv_ok": false,
    "xi": "236532,624429,891006,35002742,46557681,50058583,53614148,65296564,67771434,70953229,71047802|72966,556319,557975,668558,6533360,12234457,32237766,51392565,61456616,66306372,67428963",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 2,
+    "ag": 0,
+    "ht": [
+     2,
+     0
+    ],
+    "corners": 10.0,
+    "corners_h": 7.0,
+    "corners_a": 3.0,
+    "corners_1t": 4.0,
+    "cards": 7.0,
+    "cards_h": 4.0,
+    "cards_a": 3.0
+   }
   },
   "4750792": {
    "partido": "Villarreal CF vs Getafe CF",
