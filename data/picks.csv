@@ -3082,3 +3082,8 @@ fecha,game_id,partido,liga,tipo,mercado,clave,prob,cuota,casa,cuota_justa,ev,sta
 2026-11-07 17:21,4760774,FBC Melgar vs Juan Pablo II College,"Perú, Liga 1 - Clausura",modelo,Más de 1.5 goles,OU|1.5|over,0.7179,,,1.39,,,si,,,
 2026-11-07 17:21,4760774,FBC Melgar vs Juan Pablo II College,"Perú, Liga 1 - Clausura",ticket,No hay empate + Menos de 3.5 goles,DC||12&OU|3.5|under,0.5302,1.90,,1.89,0.0093,10.00,,,,
 2026-11-07 17:21,4760774,FBC Melgar vs Juan Pablo II College,"Perú, Liga 1 - Clausura",crear,Menos de 2.5 goles en el 1T + Más de 5.5 córners + Menos de 9.5 tarjetas,OU1T|2.5|under&CORN|5.5|over&CARDS|9.5|under,0.5878,,,1.70,,,,,,
+2026-11-07 19:51,4760771,Cienciano vs Sport Huancayo,"Perú, Liga 1 - Clausura",seguro,Más de 1.5 goles,OU|1.5|over,0.7579,1.18,Bet365,1.32,-0.1057,,si,,,
+2026-11-07 19:51,4760771,Cienciano vs Sport Huancayo,"Perú, Liga 1 - Clausura",seguro,No hay empate,DC||12,0.7266,1.29,Bet365,1.38,-0.0627,,si,,,
+2026-11-07 19:51,4760771,Cienciano vs Sport Huancayo,"Perú, Liga 1 - Clausura",modelo,Menos de 12.5 córners,CORN|12.5|under,0.7276,,,1.37,,,si,,,
+2026-11-07 19:51,4760771,Cienciano vs Sport Huancayo,"Perú, Liga 1 - Clausura",modelo,Más de 2.5 tarjetas,CARDS|2.5|over,0.7259,,,1.38,,,si,,,
+2026-11-07 19:51,4760771,Cienciano vs Sport Huancayo,"Perú, Liga 1 - Clausura",crear,Menos de 4.5 goles + Más de 5.5 córners + Menos de 9.5 tarjetas,OU|4.5|under&CORN|5.5|over&CARDS|9.5|under,0.5790,,,1.73,,,,,,
