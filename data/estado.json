@@ -1219,12 +1219,27 @@
    "partido": "Atlético de Madrid vs FC Barcelona",
    "liga": "España, LaLiga",
    "inicio": "2026-11-08T15:00:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1794174931.3991141,
+   "estado": "liquidado",
+   "ultimo": 1794175541.7189925,
    "clv": [],
    "clv_ok": false,
    "xi": "79718,325326,527341,602979,2993226,5533521,9638719,49550597,60936288,63125761,64497047|384197,1444592,33309233,41923868,52343752,63765805,67787784,70894814,70994145,71046688,71171245",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 1,
+    "ag": 2,
+    "ht": [
+     1,
+     1
+    ],
+    "corners": 6.0,
+    "corners_h": 4.0,
+    "corners_a": 2.0,
+    "corners_1t": 4.0,
+    "cards": 5.0,
+    "cards_h": 4.0,
+    "cards_a": 1.0
+   }
   },
   "4755346": {
    "partido": "1. FC Köln vs Bayer Leverkusen",
@@ -1390,7 +1405,7 @@
    "liga": "Perú, Liga 1 - Clausura",
    "inicio": "2026-11-08T18:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1794175297.7373078
+   "ultimo": 1794175542.0219967
   },
   "4760768": {
    "partido": "Universitario vs CD Moquegua",
