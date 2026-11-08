@@ -1319,12 +1319,27 @@
    "partido": "Celta de Vigo vs Levante UD",
    "liga": "España, LaLiga",
    "inicio": "2026-11-08T12:30:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1794165940.7690768,
+   "estado": "liquidado",
+   "ultimo": 1794166552.9686694,
    "clv": [],
    "clv_ok": false,
    "xi": "239183,285669,889139,4232616,51149926,51680202,54721275,66765066,71060391,72695371,77614613|308013,359945,512973,5329998,57920962,58802263,66307148,67917215,68022757,77357801,77390126",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 0,
+    "ag": 0,
+    "ht": [
+     0,
+     0
+    ],
+    "corners": 7.0,
+    "corners_h": 6.0,
+    "corners_a": 1.0,
+    "corners_1t": 3.0,
+    "cards": 3.0,
+    "cards_h": 1.0,
+    "cards_a": 2.0
+   }
   },
   "4750801": {
    "partido": "Atlético de Madrid vs FC Barcelona",
@@ -1423,7 +1438,7 @@
    "liga": "Portugal, Primeira Liga",
    "inicio": "2026-11-08T15:30:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1794166309.1264393
+   "ultimo": 1794166553.194973
   },
   "4757202": {
    "partido": "Santa Clara vs Gil Vicente FC",
@@ -1492,7 +1507,7 @@
    "liga": "Perú, Liga 1 - Clausura",
    "inicio": "2026-11-08T15:30:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1794166309.2766876
+   "ultimo": 1794166553.2530558
   },
   "4870466": {
    "partido": "Singapur vs Paraguay",
