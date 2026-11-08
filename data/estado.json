@@ -303,7 +303,7 @@
    "liga": "Italia, Serie A",
    "inicio": "2026-11-08T09:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1794142471.1118777
+   "ultimo": 1794142715.0395615
   },
   "4732637": {
    "partido": "Inter Milan vs Como",
@@ -317,7 +317,7 @@
    "liga": "Italia, Serie A",
    "inicio": "2026-11-08T09:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1794142471.2631896
+   "ultimo": 1794142715.2300065
   },
   "4732639": {
    "partido": "Fiorentina vs Juventus",
@@ -928,7 +928,7 @@
    "liga": "Francia, Ligue 1",
    "inicio": "2026-11-08T09:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1794142471.347617
+   "ultimo": 1794142715.2875688
   },
   "4735213": {
    "partido": "Le Mans vs Monaco",
@@ -962,8 +962,12 @@
    "partido": "Sunderland vs Chelsea",
    "liga": "Inglaterra, Premier League",
    "inicio": "2026-11-08T09:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1794142471.397962
+   "estado": "enviado",
+   "ultimo": 1794142715.3373787,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "227029,287803,435114,1169903,3218099,50444830,50854712,58122452,64744795,65566123,67832304|126125,2558704,17018827,39270918,49733543,51281702,54701553,54943579,60927957,67747139,67989376",
+   "conf": true
   },
   "4742004": {
    "partido": "Manchester United vs Aston Villa",
@@ -976,22 +980,34 @@
    "partido": "Ipswich vs Bournemouth",
    "liga": "Inglaterra, Premier League",
    "inicio": "2026-11-08T09:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1794142471.4468641
+   "estado": "enviado",
+   "ultimo": 1794142716.3623757,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "534537,1140554,1404731,3153685,10968460,14151805,32246907,44421294,56421007,65255094,71354644|217078,368648,894428,2753320,3049155,39229340,49980838,50445824,53212627,63094712,67626970",
+   "conf": true
   },
   "4742009": {
    "partido": "Crystal Palace vs Liverpool",
    "liga": "Inglaterra, Premier League",
    "inicio": "2026-11-08T09:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1794142471.4981673
+   "estado": "enviado",
+   "ultimo": 1794142718.125773,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "560632,571198,834589,1838950,3183310,3232280,49658641,50484078,50752231,52342774,64697647|220953,558151,1286508,3172767,3344160,3374464,3886928,49449655,60734154,60909490,67987366",
+   "conf": true
   },
   "4742010": {
    "partido": "Brighton vs Brentford",
    "liga": "Inglaterra, Premier League",
    "inicio": "2026-11-08T09:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1794142471.5481446
+   "estado": "enviado",
+   "ultimo": 1794142719.280935,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "236532,624429,891006,35002742,46557681,50058583,53614148,65296564,67771434,70953229,71047802|72966,556319,557975,668558,6533360,12234457,32237766,51392565,61456616,66306372,67428963",
+   "conf": true
   },
   "4750792": {
    "partido": "Villarreal CF vs Getafe CF",
