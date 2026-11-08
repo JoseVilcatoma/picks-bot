@@ -3232,3 +3232,8 @@ fecha,game_id,partido,liga,tipo,mercado,clave,prob,cuota,casa,cuota_justa,ev,sta
 2026-11-08 14:03,4735209,Lens vs Olympique Marsella,"Francia, Ligue 1",modelo,Menos de 10.5 córners,CORN|10.5|under,0.7720,,,1.30,,,si,,,
 2026-11-08 14:03,4735209,Lens vs Olympique Marsella,"Francia, Ligue 1",modelo,Menos de 6.5 tarjetas,CARDS|6.5|under,0.7454,,,1.34,,,si,,,
 2026-11-08 14:03,4735209,Lens vs Olympique Marsella,"Francia, Ligue 1",crear,Menos de 4.5 goles + Menos de 2.5 goles en el 1T + Menos de 13.5 córners + Menos de 7.5 tarjetas,OU|4.5|under&OU1T|2.5|under&CORN|13.5|under&CARDS|7.5|under,0.5851,,,1.71,,,,,,
+2026-11-08 14:19,4757198,Estrela da Amadora vs Benfica,"Portugal, Primeira Liga",seguro,Más de 0.5 goles en el 1T,OU1T|0.5|over,0.7691,1.18,Bet365,1.30,-0.0924,,si,,,
+2026-11-08 14:19,4757198,Estrela da Amadora vs Benfica,"Portugal, Primeira Liga",seguro,Gana Benfica,1X2||2,0.6851,1.20,Bet365,1.46,-0.1779,,si,,,
+2026-11-08 14:19,4757198,Estrela da Amadora vs Benfica,"Portugal, Primeira Liga",modelo,Más de 1.5 goles,OU|1.5|over,0.8404,,,1.19,,,si,,,
+2026-11-08 14:19,4757198,Estrela da Amadora vs Benfica,"Portugal, Primeira Liga",modelo,Menos de 11.5 córners,CORN|11.5|under,0.7399,,,1.35,,,si,,,
+2026-11-08 14:19,4757198,Estrela da Amadora vs Benfica,"Portugal, Primeira Liga",crear,Benfica o empate + Menos de 13.5 córners + Menos de 8.5 tarjetas,DC||X2&CORN|13.5|under&CARDS|8.5|under,0.5827,,,1.72,,,,,,
