@@ -343,12 +343,27 @@
    "partido": "Inter Milan vs Como",
    "liga": "Italia, Serie A",
    "inicio": "2026-11-08T12:00:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1794164222.7555795,
+   "estado": "liquidado",
+   "ultimo": 1794164837.8104107,
    "clv": [],
    "clv_ok": false,
    "xi": "329313,342428,458646,511549,598403,886858,3071407,3161656,6251312,43957321,68000276|345756,671186,32238602,40742145,43470743,49579899,56471954,64935156,65895085,66186532,70914728",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 2,
+    "ag": 0,
+    "ht": [
+     2,
+     0
+    ],
+    "corners": 6.0,
+    "corners_h": 4.0,
+    "corners_a": 2.0,
+    "corners_1t": 1.0,
+    "cards": 1.0,
+    "cards_h": 1.0,
+    "cards_a": 0.0
+   }
   },
   "4732638": {
    "partido": "Genoa vs AC Milan",
