@@ -838,12 +838,27 @@
    "partido": "Cienciano vs Sport Huancayo",
    "liga": "Perú, Liga 1 - Clausura",
    "inicio": "2026-11-07T20:30:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1794099061.7694871,
+   "estado": "liquidado",
+   "ultimo": 1794108381.2004998,
    "clv": [],
    "clv_ok": false,
    "xi": "470008,578343,591032,941108,3086656,3170524,3210157,4366058,4815065,13461121,47991870|254063,481922,528520,560622,621036,645547,893500,3242808,51321013,67955411,68885995",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 1,
+    "ag": 2,
+    "ht": [
+     1,
+     1
+    ],
+    "corners": 11.0,
+    "corners_h": 8.0,
+    "corners_a": 3.0,
+    "corners_1t": 4.0,
+    "cards": 3.0,
+    "cards_h": 1.0,
+    "cards_a": 2.0
+   }
   },
   "4760773": {
    "partido": "FC Cajamarca vs Alianza Atletico",
