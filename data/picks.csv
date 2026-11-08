@@ -3141,3 +3141,7 @@ fecha,game_id,partido,liga,tipo,mercado,clave,prob,cuota,casa,cuota_justa,ev,sta
 2026-11-08 08:51,4755346,1. FC Köln vs Bayer Leverkusen,"Alemania, Bundesliga",seguro,Bayer Leverkusen recibe gol,CS||visita_no,0.6828,1.28,Bet365,1.46,-0.1260,,si,,,
 2026-11-08 08:51,4755346,1. FC Köln vs Bayer Leverkusen,"Alemania, Bundesliga",modelo,Menos de 13.5 córners,CORN|13.5|under,0.7319,,,1.37,,,si,,,
 2026-11-08 08:51,4755346,1. FC Köln vs Bayer Leverkusen,"Alemania, Bundesliga",modelo,Más de 1.5 goles,OU|1.5|over,0.7197,,,1.39,,,si,,,
+2026-11-08 09:08,4750795,Real Sociedad vs Rayo Vallecano,"España, LaLiga",seguro,Más de 1.5 goles,OU|1.5|over,0.7251,1.20,Bet365,1.38,-0.1299,,si,,,
+2026-11-08 09:08,4750795,Real Sociedad vs Rayo Vallecano,"España, LaLiga",seguro,No hay empate,DC||12,0.7238,1.22,Bet365,1.38,-0.1170,,si,,,
+2026-11-08 09:08,4750795,Real Sociedad vs Rayo Vallecano,"España, LaLiga",modelo,Más de 2.5 tarjetas,CARDS|2.5|over,0.7259,,,1.38,,,si,,,
+2026-11-08 09:08,4750795,Real Sociedad vs Rayo Vallecano,"España, LaLiga",modelo,Menos de 11.5 córners,CORN|11.5|under,0.7055,,,1.42,,,si,,,
