@@ -1008,8 +1008,12 @@
    "partido": "Manchester United vs Aston Villa",
    "liga": "Inglaterra, Premier League",
    "inicio": "2026-11-08T11:30:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1794151712.2579637
+   "estado": "enviado",
+   "ultimo": 1794151957.4041083,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "332598,398065,435334,3558647,5786329,6813762,6835961,40765000,50729542,65521968,67023583|327324,345565,501604,534043,3711904,4832569,15244101,29631104,52355416,71391398,74392670",
+   "conf": true
   },
   "4742006": {
    "partido": "Ipswich vs Bournemouth",
@@ -1118,7 +1122,7 @@
    "liga": "Alemania, Bundesliga",
    "inicio": "2026-11-08T11:30:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1794151712.3190744
+   "ultimo": 1794151958.2066016
   },
   "4755350": {
    "partido": "Hoffenheim vs Schalke 04",
