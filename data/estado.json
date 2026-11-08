@@ -1058,12 +1058,27 @@
    "partido": "Elche CF vs Real Betis",
    "liga": "España, LaLiga",
    "inicio": "2026-11-08T08:00:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1794139799.528576,
+   "estado": "liquidado",
+   "ultimo": 1794149818.9022722,
    "clv": [],
    "clv_ok": false,
    "xi": "462402,46887693,50586397,52641513,60025387,62020562,63094708,66170333,66808047,71147162,77859605|106049,158746,435115,976812,3143139,6438371,18094605,30121643,46854548,50896962,62694855",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 0,
+    "ag": 2,
+    "ht": [
+     0,
+     0
+    ],
+    "corners": 17.0,
+    "corners_h": 9.0,
+    "corners_a": 8.0,
+    "corners_1t": 8.0,
+    "cards": 4.0,
+    "cards_h": 4.0,
+    "cards_a": 0.0
+   }
   },
   "4750800": {
    "partido": "Celta de Vigo vs Levante UD",
