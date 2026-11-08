@@ -381,7 +381,7 @@
    "liga": "Italia, Serie A",
    "inicio": "2026-11-08T14:45:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1794163853.2850244
+   "ultimo": 1794164097.2038944
   },
   "4732640": {
    "partido": "Cagliari vs Frosinone",
@@ -978,7 +978,7 @@
    "liga": "Francia, Ligue 1",
    "inicio": "2026-11-08T14:45:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1794163853.4876926
+   "ultimo": 1794164097.3478236
   },
   "4735211": {
    "partido": "Rennes vs Lille",
@@ -1318,8 +1318,12 @@
    "partido": "Atlético de Madrid vs FC Barcelona",
    "liga": "España, LaLiga",
    "inicio": "2026-11-08T15:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1794163853.5379443
+   "estado": "enviado",
+   "ultimo": 1794164097.4382958,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "79718,325326,527341,602979,2993226,5533521,9638719,49550597,60936288,63125761,64497047|384197,1444592,33309233,41923868,52343752,63765805,67787784,70894814,70994145,71046688,71171245",
+   "conf": true
   },
   "4755346": {
    "partido": "1. FC Köln vs Bayer Leverkusen",
