@@ -1233,6 +1233,20 @@
    "inicio": "2026-11-12T14:00:00-05:00",
    "estado": "pendiente",
    "ultimo": 0
+  },
+  "4845107": {
+   "partido": "Japón vs Brasil",
+   "liga": "Internacional, Amistoso Internacional",
+   "inicio": "2026-11-14T05:15:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4882785": {
+   "partido": "País Vasco vs Venezuela",
+   "liga": "Internacional, Amistoso Internacional",
+   "inicio": "2026-11-14T14:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
   }
  },
  "web": {
@@ -1397,11 +1411,13 @@
  "tickets": [],
  "sin_creditos": false,
  "auto_vistos": [
+  "4845107",
   "4855910",
   "4870466",
   "4877633",
   "4877636",
-  "4882109"
+  "4882109",
+  "4882785"
  ],
- "auto_t": 1794093849.813229
+ "auto_t": 1794115482.772551
 }
