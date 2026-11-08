@@ -1423,14 +1423,14 @@
    "liga": "Portugal, Primeira Liga",
    "inicio": "2026-11-08T15:30:00-05:00",
    "estado": "pendiente",
-   "ultimo": 0
+   "ultimo": 1794165326.3414927
   },
   "4757200": {
    "partido": "Rio Ave vs SC Braga",
    "liga": "Portugal, Primeira Liga",
    "inicio": "2026-11-08T15:30:00-05:00",
    "estado": "pendiente",
-   "ultimo": 0
+   "ultimo": 1794165326.5059755
   },
   "4757202": {
    "partido": "Santa Clara vs Gil Vicente FC",
@@ -1499,7 +1499,7 @@
    "liga": "Perú, Liga 1 - Clausura",
    "inicio": "2026-11-08T15:30:00-05:00",
    "estado": "pendiente",
-   "ultimo": 0
+   "ultimo": 1794165326.5641325
   },
   "4870466": {
    "partido": "Singapur vs Paraguay",
