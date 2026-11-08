@@ -1140,12 +1140,27 @@
    "partido": "Manchester United vs Aston Villa",
    "liga": "Inglaterra, Premier League",
    "inicio": "2026-11-08T11:30:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1794162384.3906364,
+   "estado": "liquidado",
+   "ultimo": 1794162997.2424872,
    "clv": [],
    "clv_ok": false,
    "xi": "332598,398065,435334,3558647,5786329,6813762,6835961,40765000,50729542,65521968,67023583|327324,345565,501604,534043,3711904,4832569,15244101,29631104,52355416,71391398,74392670",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 4,
+    "ag": 4,
+    "ht": [
+     2,
+     2
+    ],
+    "corners": 9.0,
+    "corners_h": 8.0,
+    "corners_a": 1.0,
+    "corners_1t": 5.0,
+    "cards": 2.0,
+    "cards_h": 1.0,
+    "cards_a": 1.0
+   }
   },
   "4742006": {
    "partido": "Ipswich vs Bournemouth",
