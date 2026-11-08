@@ -303,7 +303,7 @@
    "liga": "Italia, Serie A",
    "inicio": "2026-11-08T09:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1794143210.8749073
+   "ultimo": 1794143454.6640224
   },
   "4732637": {
    "partido": "Inter Milan vs Como",
@@ -317,7 +317,7 @@
    "liga": "Italia, Serie A",
    "inicio": "2026-11-08T09:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1794143211.0253053
+   "ultimo": 1794143454.8712049
   },
   "4732639": {
    "partido": "Fiorentina vs Juventus",
@@ -927,8 +927,12 @@
    "partido": "Rennes vs Lille",
    "liga": "Francia, Ligue 1",
    "inicio": "2026-11-08T09:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1794143211.0768986
+   "estado": "enviado",
+   "ultimo": 1794143454.9280415,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "259180,335306,489617,533912,2810327,8688144,51284167,66174642,71035001,75535194,76343359|216415,445024,512926,3227707,29409785,58449710,58495051,60984745,67157415,67562585,75529803",
+   "conf": true
   },
   "4735213": {
    "partido": "Le Mans vs Monaco",
