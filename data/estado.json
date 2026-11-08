@@ -303,7 +303,7 @@
    "liga": "Italia, Serie A",
    "inicio": "2026-11-08T09:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1794143454.6640224
+   "ultimo": 1794143708.8346956
   },
   "4732637": {
    "partido": "Inter Milan vs Como",
@@ -316,8 +316,12 @@
    "partido": "Genoa vs AC Milan",
    "liga": "Italia, Serie A",
    "inicio": "2026-11-08T09:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1794143454.8712049
+   "estado": "enviado",
+   "ultimo": 1794143709.006175,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "557325,568955,3453817,3949075,13854543,32042542,53085455,53916978,61672509,70844116,77746600|26984,308108,513713,2055909,49915522,50790794,52683634,61032003,63094718,66983607,67774436",
+   "conf": true
   },
   "4732639": {
    "partido": "Fiorentina vs Juventus",
@@ -1057,7 +1061,7 @@
    "liga": "Alemania, Bundesliga",
    "inicio": "2026-11-08T09:30:00-05:00",
    "estado": "pendiente",
-   "ultimo": 0
+   "ultimo": 1794143710.6987324
   },
   "4755349": {
    "partido": "Friburgo vs Union Berlin",
