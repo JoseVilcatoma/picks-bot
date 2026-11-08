@@ -1108,8 +1108,8 @@
    "partido": "Estoril vs Maritimo",
    "liga": "Portugal, Primeira Liga",
    "inicio": "2026-11-08T10:30:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 0
+   "estado": "cancelado",
+   "ultimo": 1794147379.4694366
   },
   "4757198": {
    "partido": "Estrela da Amadora vs Benfica",
@@ -1130,7 +1130,7 @@
    "liga": "Portugal, Primeira Liga",
    "inicio": "2026-11-08T10:30:00-05:00",
    "estado": "pendiente",
-   "ultimo": 0
+   "ultimo": 1794147379.6150303
   },
   "4757204": {
    "partido": "Guimarães vs FC Porto",
