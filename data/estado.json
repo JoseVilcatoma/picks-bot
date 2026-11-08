@@ -962,21 +962,25 @@
    "liga": "Francia, Ligue 1",
    "inicio": "2026-11-08T11:15:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1794151040.363188
+   "ultimo": 1794151288.1924174
   },
   "4735214": {
    "partido": "Le Havre vs Lorient",
    "liga": "Francia, Ligue 1",
    "inicio": "2026-11-08T11:15:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1794151040.4163008
+   "estado": "enviado",
+   "ultimo": 1794151288.2459762,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "293819,379612,3096531,3153832,3343493,61716625,65615241,67967137,77038841,77480266,78983373|348679,668918,3563832,38965744,50809236,66378868,66563611,70891587,71341938,72472125,76996630",
+   "conf": true
   },
   "4735215": {
    "partido": "Brest vs Lyon",
    "liga": "Francia, Ligue 1",
    "inicio": "2026-11-08T11:15:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1794151040.5218897
+   "ultimo": 1794151290.0467005
   },
   "4735217": {
    "partido": "Angers vs Niza",
