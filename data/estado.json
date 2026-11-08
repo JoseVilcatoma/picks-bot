@@ -1438,7 +1438,7 @@
    "liga": "Portugal, Primeira Liga",
    "inicio": "2026-11-08T15:30:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1794166553.194973
+   "ultimo": 1794166799.01122
   },
   "4757202": {
    "partido": "Santa Clara vs Gil Vicente FC",
@@ -1506,8 +1506,12 @@
    "partido": "Sport Boys vs UTC Cajamarca",
    "liga": "Perú, Liga 1 - Clausura",
    "inicio": "2026-11-08T15:30:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1794166553.2530558
+   "estado": "enviado",
+   "ultimo": 1794166799.305442,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "205892,383033,892587,916301,2614926,12728006,15806566,17101463,47441568,50785894,56915241|212186,943603,983229,3068142,3183651,3188390,4329678,6878973,7980461,12728003,13841475",
+   "conf": true
   },
   "4870466": {
    "partido": "Singapur vs Paraguay",
