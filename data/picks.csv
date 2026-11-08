@@ -3205,3 +3205,8 @@ fecha,game_id,partido,liga,tipo,mercado,clave,prob,cuota,casa,cuota_justa,ev,sta
 2026-11-08 12:10,4757204,Guimarães vs FC Porto,"Portugal, Primeira Liga",modelo,Menos de 12.5 córners,CORN|12.5|under,0.7316,,,1.37,,,si,,,
 2026-11-08 12:10,4757204,Guimarães vs FC Porto,"Portugal, Primeira Liga",ticket,Más de 1.5 goles + FC Porto recibe gol,OU|1.5|over&CS||visita_no,0.5198,2.09,,1.92,0.0850,10.00,,,,
 2026-11-08 12:10,4757204,Guimarães vs FC Porto,"Portugal, Primeira Liga",crear,Menos de 4.5 goles + Menos de 14.5 córners + Menos de 7.5 tarjetas,OU|4.5|under&CORN|14.5|under&CARDS|7.5|under,0.5828,,,1.72,,,,,,
+2026-11-08 12:21,4760770,Los Chankas vs Alianza Lima,"Perú, Liga 1 - Clausura",seguro,Menos de 3.5 goles,OU|3.5|under,0.7666,1.33,Bet365,1.30,0.0196,,probable,,,
+2026-11-08 12:21,4760770,Los Chankas vs Alianza Lima,"Perú, Liga 1 - Clausura",seguro,Alianza Lima o empate,DC||X2,0.7654,1.22,Bet365,1.31,-0.0662,,probable,,,
+2026-11-08 12:21,4760770,Los Chankas vs Alianza Lima,"Perú, Liga 1 - Clausura",modelo,Más de 2.5 tarjetas,CARDS|2.5|over,0.7362,,,1.36,,,probable,,,
+2026-11-08 12:21,4760770,Los Chankas vs Alianza Lima,"Perú, Liga 1 - Clausura",modelo,Menos de 10.5 córners,CORN|10.5|under,0.7082,,,1.41,,,probable,,,
+2026-11-08 12:21,4760770,Los Chankas vs Alianza Lima,"Perú, Liga 1 - Clausura",crear,Alianza Lima o empate + Menos de 2.5 goles en el 1T + Más de 4.5 córners,DC||X2&OU1T|2.5|under&CORN|4.5|over,0.5671,,,1.76,,,,,,

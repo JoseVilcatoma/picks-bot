@@ -1288,7 +1288,7 @@
    "liga": "Alemania, Bundesliga",
    "inicio": "2026-11-08T13:30:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1794158222.022904
+   "ultimo": 1794158467.05198
   },
   "4757197": {
    "partido": "Estoril vs Maritimo",
@@ -1351,8 +1351,12 @@
    "partido": "Los Chankas vs Alianza Lima",
    "liga": "Perú, Liga 1 - Clausura",
    "inicio": "2026-11-08T13:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1794158344.526881
+   "estado": "enviado",
+   "ultimo": 1794158467.12178,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "481196,615398,3371368,6593783,7863154,13093514,13884537,47420072,56663073,56700220,59045608|351317,375417,470773,482699,485232,2511193,3096298,12095969,53156719,56651794,67643639",
+   "conf": false
   },
   "4760772": {
    "partido": "Sport Boys vs UTC Cajamarca",
