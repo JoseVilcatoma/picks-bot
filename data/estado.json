@@ -1180,12 +1180,27 @@
    "partido": "Real Sociedad vs Rayo Vallecano",
    "liga": "España, LaLiga",
    "inicio": "2026-11-08T10:15:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1794146890.0761142,
+   "estado": "liquidado",
+   "ultimo": 1794157851.8216112,
    "clv": [],
    "clv_ok": false,
    "xi": "627873,941400,3059791,12198058,12241544,14149512,15288590,50752876,53447078,65775413,70953097|379362,416286,489306,530676,1384725,3205166,8165281,13439688,31412543,38786447,46477641",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 1,
+    "ag": 0,
+    "ht": [
+     0,
+     0
+    ],
+    "corners": 13.0,
+    "corners_h": 7.0,
+    "corners_a": 6.0,
+    "corners_1t": 5.0,
+    "cards": 4.0,
+    "cards_h": 2.0,
+    "cards_a": 2.0
+   }
   },
   "4750799": {
    "partido": "Elche CF vs Real Betis",
@@ -1311,8 +1326,12 @@
    "partido": "Guimarães vs FC Porto",
    "liga": "Portugal, Primeira Liga",
    "inicio": "2026-11-08T13:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1794157608.0334358
+   "estado": "enviado",
+   "ultimo": 1794157852.1190693,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "553524,2753309,3855117,61426990,67086004,67647506,67819771,67938045,68076685,75258021,75532586|635177,911054,913383,12436614,13856477,33436214,35286777,51137406,70822610,70953015,71328020",
+   "conf": true
   },
   "4760767": {
    "partido": "Deportivo Garcilaso vs Comerciantes Unidos",
@@ -1333,7 +1352,7 @@
    "liga": "Perú, Liga 1 - Clausura",
    "inicio": "2026-11-08T13:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1794157608.238272
+   "ultimo": 1794157853.076797
   },
   "4760772": {
    "partido": "Sport Boys vs UTC Cajamarca",
