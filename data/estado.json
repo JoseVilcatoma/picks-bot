@@ -313,32 +313,6 @@
     "cards_a": 0.0
    }
   },
-  "4742005": {
-   "partido": "Leeds United vs Tottenham",
-   "liga": "Inglaterra, Premier League",
-   "inicio": "2026-11-07T07:30:00-05:00",
-   "estado": "liquidado",
-   "ultimo": 1794062129.8215172,
-   "clv": [],
-   "clv_ok": false,
-   "xi": "540689,570849,649450,886874,907041,984482,3135966,3219930,7227288,51042324,58340010|354502,4785473,4870623,5887322,14775530,49463074,60978968,63108549,64522138,66565948,67877824",
-   "conf": true,
-   "r": {
-    "hg": 1,
-    "ag": 0,
-    "ht": [
-     0,
-     0
-    ],
-    "corners": 10.0,
-    "corners_h": 6.0,
-    "corners_a": 4.0,
-    "corners_1t": 3.0,
-    "cards": 5.0,
-    "cards_h": 2.0,
-    "cards_a": 3.0
-   }
-  },
   "4742007": {
    "partido": "Fulham vs Newcastle United",
    "liga": "Inglaterra, Premier League",
