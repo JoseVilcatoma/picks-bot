@@ -391,58 +391,6 @@
     "cards_a": 4.0
    }
   },
-  "4755345": {
-   "partido": "SC Paderborn 07 vs Eintracht Frankfurt",
-   "liga": "Alemania, Bundesliga",
-   "inicio": "2026-11-07T09:30:00-05:00",
-   "estado": "liquidado",
-   "ultimo": 1794068813.5023365,
-   "clv": [],
-   "clv_ok": false,
-   "xi": "3086489,3138034,50568553,65045584,65417618,65670736,67687520,68323301,70776744,70839583,77352669|646522,3155273,8687950,50444832,50548091,60085508,61213413,66253459,67450295,70955868,71155061",
-   "conf": true,
-   "r": {
-    "hg": 2,
-    "ag": 2,
-    "ht": [
-     1,
-     1
-    ],
-    "corners": 8.0,
-    "corners_h": 2.0,
-    "corners_a": 6.0,
-    "corners_1t": 3.0,
-    "cards": 4.0,
-    "cards_h": 1.0,
-    "cards_a": 3.0
-   }
-  },
-  "4755348": {
-   "partido": "Mainz 05 vs Bayern Munich",
-   "liga": "Alemania, Bundesliga",
-   "inicio": "2026-11-07T09:30:00-05:00",
-   "estado": "liquidado",
-   "ultimo": 1794069436.34315,
-   "clv": [],
-   "clv_ok": false,
-   "xi": "349213,439872,500733,508224,525630,581528,3132952,12001404,67774532,75257123,77401906|80013,227604,412127,470279,485309,898082,14755144,57861026,66044210,67864491,76643976",
-   "conf": true,
-   "r": {
-    "hg": 1,
-    "ag": 2,
-    "ht": [
-     0,
-     1
-    ],
-    "corners": 15.0,
-    "corners_h": 7.0,
-    "corners_a": 8.0,
-    "corners_1t": 9.0,
-    "cards": 1.0,
-    "cards_h": 0.0,
-    "cards_a": 1.0
-   }
-  },
   "4755351": {
    "partido": "Stuttgart vs Werder Bremen",
    "liga": "Alemania, Bundesliga",
@@ -467,65 +415,6 @@
     "cards": 3.0,
     "cards_h": 0.0,
     "cards_a": 3.0
-   }
-  },
-  "4755352": {
-   "partido": "RB Leipzig vs FC Augsburg",
-   "liga": "Alemania, Bundesliga",
-   "inicio": "2026-11-07T09:30:00-05:00",
-   "estado": "liquidado",
-   "ultimo": 1794068813.8973584,
-   "clv": [],
-   "clv_ok": false,
-   "xi": "565116,889605,3180934,4346740,8048881,58698523,61211738,62453007,64157972,67628271,70859051|220799,6009963,7041874,15399180,44364810,51185449,52013613,64080372,64192496,64687233,75383430",
-   "conf": true,
-   "r": {
-    "hg": 5,
-    "ag": 2,
-    "ht": [
-     3,
-     1
-    ],
-    "corners": 4.0,
-    "corners_h": 2.0,
-    "corners_a": 2.0,
-    "corners_1t": 2.0,
-    "cards": 3.0,
-    "cards_h": 1.0,
-    "cards_a": 2.0
-   }
-  },
-  "4755353": {
-   "partido": "Borussia Dortmund vs SV 07 Elversberg",
-   "liga": "Alemania, Bundesliga",
-   "inicio": "2026-11-07T09:30:00-05:00",
-   "estado": "liquidado",
-   "ultimo": 1794068814.1849828,
-   "clv": [
-    {
-     "clave": "OU|3.5|under",
-     "cuota": 1.94,
-     "texto": "Menos de 3.5 goles",
-     "clv": -0.0424
-    }
-   ],
-   "clv_ok": true,
-   "xi": "366254,943391,3276664,15028852,38249831,49359943,50878796,51042327,64350505,70951404,71382441|9692144,50799028,60134466,60870648,61457020,66359447,67633948,71340077,74664900,75399256,76165365",
-   "conf": true,
-   "r": {
-    "hg": 2,
-    "ag": 1,
-    "ht": [
-     0,
-     0
-    ],
-    "corners": 12.0,
-    "corners_h": 6.0,
-    "corners_a": 6.0,
-    "corners_1t": 3.0,
-    "cards": 4.0,
-    "cards_h": 3.0,
-    "cards_a": 1.0
    }
   },
   "4757196": {
