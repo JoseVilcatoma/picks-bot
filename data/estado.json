@@ -157,32 +157,6 @@
     "cards_a": 2.0
    }
   },
-  "4750793": {
-   "partido": "Valencia CF vs Real Madrid",
-   "liga": "España, LaLiga",
-   "inicio": "2026-11-07T15:00:00-05:00",
-   "estado": "liquidado",
-   "ultimo": 1794089128.487553,
-   "clv": [],
-   "clv_ok": false,
-   "xi": "441765,502893,561247,676819,951785,1132718,1760855,50481885,64248760,64759691,77755397|211012,384169,480721,1589889,3216883,3568284,5052341,46440257,61736514,67547634,77099314",
-   "conf": true,
-   "r": {
-    "hg": 0,
-    "ag": 3,
-    "ht": [
-     0,
-     2
-    ],
-    "corners": 7.0,
-    "corners_h": 2.0,
-    "corners_a": 5.0,
-    "corners_1t": 4.0,
-    "cards": 8.0,
-    "cards_h": 5.0,
-    "cards_a": 3.0
-   }
-  },
   "4757203": {
    "partido": "Sporting CP vs Moreirense",
    "liga": "Portugal, Primeira Liga",
