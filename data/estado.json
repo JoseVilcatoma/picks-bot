@@ -131,32 +131,6 @@
     "cards_a": 3.0
    }
   },
-  "4757203": {
-   "partido": "Sporting CP vs Moreirense",
-   "liga": "Portugal, Primeira Liga",
-   "inicio": "2026-11-07T15:30:00-05:00",
-   "estado": "liquidado",
-   "ultimo": 1794090349.4534605,
-   "clv": [],
-   "clv_ok": false,
-   "xi": "7244055,9157528,49491937,50072970,64317526,64656029,66850386,67636921,70860145,70939626,75430996|343647,54856962,64623933,70798946,70838125,71825973,75431317,75505328,76872471,77379722,77405506",
-   "conf": true,
-   "r": {
-    "hg": 1,
-    "ag": 0,
-    "ht": [
-     0,
-     0
-    ],
-    "corners": 12.0,
-    "corners_h": 8.0,
-    "corners_a": 4.0,
-    "corners_1t": 10.0,
-    "cards": 0.0,
-    "cards_h": 0.0,
-    "cards_a": 0.0
-   }
-  },
   "4760771": {
    "partido": "Cienciano vs Sport Huancayo",
    "liga": "Perú, Liga 1 - Clausura",
@@ -181,32 +155,6 @@
     "cards": 3.0,
     "cards_h": 1.0,
     "cards_a": 2.0
-   }
-  },
-  "4760773": {
-   "partido": "FC Cajamarca vs Alianza Atletico",
-   "liga": "Perú, Liga 1 - Clausura",
-   "inicio": "2026-11-07T15:30:00-05:00",
-   "estado": "liquidado",
-   "ultimo": 1794090349.57599,
-   "clv": [],
-   "clv_ok": false,
-   "xi": "496030,549319,2547399,5988526,7835850,55751030,57792016,67939624,68658968,77695473,78946536|428984,614516,3222005,13891409,14016837,29976047,56700055,64866387,71345428,71885210,77715226",
-   "conf": true,
-   "r": {
-    "hg": 2,
-    "ag": 0,
-    "ht": [
-     1,
-     0
-    ],
-    "corners": 16.0,
-    "corners_h": 8.0,
-    "corners_a": 8.0,
-    "corners_1t": 5.0,
-    "cards": 2.0,
-    "cards_h": 1.0,
-    "cards_a": 1.0
    }
   },
   "4760774": {
