@@ -131,32 +131,6 @@
     "cards_a": 3.0
    }
   },
-  "4735212": {
-   "partido": "PSG vs Troyes",
-   "liga": "Francia, Ligue 1",
-   "inicio": "2026-11-07T15:05:00-05:00",
-   "estado": "liquidado",
-   "ultimo": 1794088883.7047048,
-   "clv": [],
-   "clv_ok": false,
-   "xi": "485723,600030,3171738,3948590,40745412,46715751,50754213,65079212,66206302,67181711,70951406|326286,50450126,50682939,50810316,66534684,66662859,67878051,70855197,71068809,71328715,75439759",
-   "conf": true,
-   "r": {
-    "hg": 1,
-    "ag": 0,
-    "ht": [
-     1,
-     0
-    ],
-    "corners": 6.0,
-    "corners_h": 5.0,
-    "corners_a": 1.0,
-    "corners_1t": 4.0,
-    "cards": 3.0,
-    "cards_h": 1.0,
-    "cards_a": 2.0
-   }
-  },
   "4757203": {
    "partido": "Sporting CP vs Moreirense",
    "liga": "Portugal, Primeira Liga",
