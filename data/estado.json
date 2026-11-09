@@ -1408,12 +1408,27 @@
    "partido": "Deportivo Garcilaso vs Comerciantes Unidos",
    "liga": "Perú, Liga 1 - Clausura",
    "inicio": "2026-11-08T18:00:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1794185765.0558584,
+   "estado": "liquidado",
+   "ultimo": 1794186372.7368143,
    "clv": [],
    "clv_ok": false,
    "xi": "254603,514232,519405,616408,890934,3138410,3347310,3768524,47441571,51058037,57621318|485823,6410080,11958892,58602352,66663681,67627458,67899347,67936311,67955361,70932142,71147110",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 0,
+    "ag": 0,
+    "ht": [
+     0,
+     0
+    ],
+    "corners": 9.0,
+    "corners_h": 9.0,
+    "corners_a": 0.0,
+    "corners_1t": 5.0,
+    "cards": 10.0,
+    "cards_h": 3.0,
+    "cards_a": 7.0
+   }
   },
   "4760768": {
    "partido": "Universitario vs CD Moquegua",
