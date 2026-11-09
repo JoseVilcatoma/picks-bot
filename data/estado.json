@@ -1419,8 +1419,12 @@
    "partido": "Universitario vs CD Moquegua",
    "liga": "Perú, Liga 1 - Clausura",
    "inicio": "2026-11-08T20:30:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1794185031.6075113
+   "estado": "enviado",
+   "ultimo": 1794185275.5346882,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "393797,478387,505190,531129,671434,3234845,3780031,3993952,4710874,47844909,64944308|319980,484036,499074,514230,618911,5258603,6590900,48577293,52708695,67974745,67990841",
+   "conf": true
   },
   "4760770": {
    "partido": "Los Chankas vs Alianza Lima",
