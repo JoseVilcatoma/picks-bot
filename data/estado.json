@@ -1,32 +1,6 @@
 {
  "offset": 344577791,
  "seguidos": {
-  "4732635": {
-   "partido": "Nápoles vs Lazio",
-   "liga": "Italia, Serie A",
-   "inicio": "2026-11-08T06:30:00-05:00",
-   "estado": "liquidado",
-   "ultimo": 1794144328.3577461,
-   "clv": [],
-   "clv_ok": false,
-   "xi": "95182,593504,612027,973073,3049924,3227448,34691016,50852472,61666841,62350133,64456948|3071410,3071420,15244106,26815119,29999056,41018240,49552142,62194167,64141744,65235149,66308500",
-   "conf": true,
-   "r": {
-    "hg": 1,
-    "ag": 1,
-    "ht": [
-     0,
-     1
-    ],
-    "corners": 12.0,
-    "corners_h": 6.0,
-    "corners_a": 6.0,
-    "corners_1t": 7.0,
-    "cards": 4.0,
-    "cards_h": 3.0,
-    "cards_a": 1.0
-   }
-  },
   "4732636": {
    "partido": "Monza vs Atalanta",
    "liga": "Italia, Serie A",
