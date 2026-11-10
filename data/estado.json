@@ -453,6 +453,83 @@
    "inicio": "2026-11-12T17:00:00-05:00",
    "estado": "pendiente",
    "ultimo": 0
+  },
+  "4672295": {
+   "partido": "Eslovenia vs Suiza",
+   "liga": "Europa, Liga de las Naciones - UEFA - Liga B - Grupo 1",
+   "inicio": "2026-11-13T14:45:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4672296": {
+   "partido": "Escocia vs Macedonia del Norte",
+   "liga": "Europa, Liga de las Naciones - UEFA - Liga B - Grupo 1",
+   "inicio": "2026-11-13T14:45:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4672297": {
+   "partido": "Liechtenstein vs Azerbaiyán",
+   "liga": "Europa, Liga de las Naciones - UEFA - Liga D - Grupo 2",
+   "inicio": "2026-11-13T14:45:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4672298": {
+   "partido": "Serbia vs Alemania",
+   "liga": "Europa, Liga de las Naciones - UEFA - Liga A - Grupo 2",
+   "inicio": "2026-11-13T14:45:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4672299": {
+   "partido": "Países Bajos vs Grecia",
+   "liga": "Europa, Liga de las Naciones - UEFA - Liga A - Grupo 2",
+   "inicio": "2026-11-13T14:45:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4672300": {
+   "partido": "Bulgaria vs Islandia",
+   "liga": "Europa, Liga de las Naciones - UEFA - Liga C - Grupo 4",
+   "inicio": "2026-11-13T14:45:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4672301": {
+   "partido": "Moldavia vs Kazajstán",
+   "liga": "Europa, Liga de las Naciones - UEFA - Liga C - Grupo 3",
+   "inicio": "2026-11-13T12:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4672302": {
+   "partido": "Eslovaquia vs Islas Feroe",
+   "liga": "Europa, Liga de las Naciones - UEFA - Liga C - Grupo 3",
+   "inicio": "2026-11-13T14:45:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4697788": {
+   "partido": "Andorra vs Gibraltar",
+   "liga": "Europa, Liga de las Naciones - UEFA - Liga D - Grupo 1",
+   "inicio": "2026-11-13T14:45:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4697790": {
+   "partido": "Luxemburgo vs Estonia",
+   "liga": "Europa, Liga de las Naciones - UEFA - Liga C - Grupo 4",
+   "inicio": "2026-11-13T14:45:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4870468": {
+   "partido": "Qatar vs Australia",
+   "liga": "Internacional, Amistoso Internacional",
+   "inicio": "2026-11-13T09:45:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
   }
  },
  "web": {
@@ -543,7 +620,18 @@
   "4874718": 1794337104572,
   "4874719": 1794337105251,
   "4874720": 1794337104863,
-  "4874721": 1794337104286
+  "4874721": 1794337104286,
+  "4672295": 1794337127773,
+  "4672296": 1794337128144,
+  "4672297": 1794337129352,
+  "4672298": 1794337129642,
+  "4672299": 1794337130052,
+  "4672300": 1794337130352,
+  "4672301": 1794337127361,
+  "4672302": 1794337130664,
+  "4697788": 1794337131635,
+  "4697790": 1794337132056,
+  "4870468": 1794337121450
  },
  "tickets": [],
  "sin_creditos": false,
