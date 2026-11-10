@@ -79,32 +79,6 @@
     "cards_a": 2.0
    }
   },
-  "4742004": {
-   "partido": "Manchester United vs Aston Villa",
-   "liga": "Inglaterra, Premier League",
-   "inicio": "2026-11-08T11:30:00-05:00",
-   "estado": "liquidado",
-   "ultimo": 1794162997.2424872,
-   "clv": [],
-   "clv_ok": false,
-   "xi": "332598,398065,435334,3558647,5786329,6813762,6835961,40765000,50729542,65521968,67023583|327324,345565,501604,534043,3711904,4832569,15244101,29631104,52355416,71391398,74392670",
-   "conf": true,
-   "r": {
-    "hg": 4,
-    "ag": 4,
-    "ht": [
-     2,
-     2
-    ],
-    "corners": 9.0,
-    "corners_h": 8.0,
-    "corners_a": 1.0,
-    "corners_1t": 5.0,
-    "cards": 2.0,
-    "cards_h": 1.0,
-    "cards_a": 1.0
-   }
-  },
   "4750792": {
    "partido": "Villarreal CF vs Getafe CF",
    "liga": "España, LaLiga",
@@ -181,32 +155,6 @@
     "cards": 5.0,
     "cards_h": 4.0,
     "cards_a": 1.0
-   }
-  },
-  "4755349": {
-   "partido": "Friburgo vs Union Berlin",
-   "liga": "Alemania, Bundesliga",
-   "inicio": "2026-11-08T11:30:00-05:00",
-   "estado": "liquidado",
-   "ultimo": 1794162384.555326,
-   "clv": [],
-   "clv_ok": false,
-   "xi": "220585,418057,593193,3071285,49988887,53464344,61066404,66221753,69040955,70767985,70780165|253890,335092,342465,476035,905043,3154796,3473178,13659727,50575160,55685520,75386990",
-   "conf": true,
-   "r": {
-    "hg": 2,
-    "ag": 0,
-    "ht": [
-     0,
-     0
-    ],
-    "corners": 6.0,
-    "corners_h": 5.0,
-    "corners_a": 1.0,
-    "corners_1t": 2.0,
-    "cards": 4.0,
-    "cards_h": 2.0,
-    "cards_a": 2.0
    }
   },
   "4755350": {
