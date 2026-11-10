@@ -530,6 +530,160 @@
    "inicio": "2026-11-13T09:45:00-05:00",
    "estado": "pendiente",
    "ultimo": 0
+  },
+  "4632602": {
+   "partido": "Mirassol vs Atlético Mineiro",
+   "liga": "Brasil, Brasileirão",
+   "inicio": "2026-11-14T16:30:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4632737": {
+   "partido": "Chapecoense vs Vasco Da Gama",
+   "liga": "Brasil, Brasileirão",
+   "inicio": "2026-11-14T18:30:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4672284": {
+   "partido": "Finlandia vs San Marino",
+   "liga": "Europa, Liga de las Naciones - UEFA - Liga C - Grupo 1",
+   "inicio": "2026-11-15T12:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4672286": {
+   "partido": "Chipre vs Montenegro",
+   "liga": "Europa, Liga de las Naciones - UEFA - Liga C - Grupo 2",
+   "inicio": "2026-11-15T09:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4672287": {
+   "partido": "Suecia vs Bosnia Herzegovina",
+   "liga": "Europa, Liga de las Naciones - UEFA - Liga B - Grupo 4",
+   "inicio": "2026-11-14T14:45:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4672288": {
+   "partido": "Rumania vs Polonia",
+   "liga": "Europa, Liga de las Naciones - UEFA - Liga B - Grupo 4",
+   "inicio": "2026-11-14T14:45:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4672289": {
+   "partido": "Austria vs Irlanda",
+   "liga": "Europa, Liga de las Naciones - UEFA - Liga B - Grupo 3",
+   "inicio": "2026-11-14T14:45:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4672290": {
+   "partido": "Irlanda del Norte vs Ucrania",
+   "liga": "Europa, Liga de las Naciones - UEFA - Liga B - Grupo 2",
+   "inicio": "2026-11-14T14:45:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4672292": {
+   "partido": "Georgia vs Hungría",
+   "liga": "Europa, Liga de las Naciones - UEFA - Liga B - Grupo 2",
+   "inicio": "2026-11-14T12:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4672293": {
+   "partido": "Noruega vs Gales",
+   "liga": "Europa, Liga de las Naciones - UEFA - Liga A - Grupo 4",
+   "inicio": "2026-11-14T12:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4672294": {
+   "partido": "Kosovo vs Israel",
+   "liga": "Europa, Liga de las Naciones - UEFA - Liga B - Grupo 3",
+   "inicio": "2026-11-14T09:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4697785": {
+   "partido": "Letonia vs Armenia",
+   "liga": "Europa, Liga de las Naciones - UEFA - Liga C - Grupo 2",
+   "inicio": "2026-11-15T09:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4874706": {
+   "partido": "Jamaica vs México",
+   "liga": "Norteamérica, CONCACAF Liga de Naciones - Cuartos de Final",
+   "inicio": "2026-11-14T20:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4874707": {
+   "partido": "San Vicente y Las Granadinas vs Belice",
+   "liga": "Norteamérica, CONCACAF Liga de Naciones - Liga B - Grupo 4",
+   "inicio": "2026-11-14T19:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4874708": {
+   "partido": "San Martín vs Guayana Francesa",
+   "liga": "Norteamérica, CONCACAF Liga de Naciones - Liga B - Grupo 4",
+   "inicio": "2026-11-14T14:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4874709": {
+   "partido": "Haití vs Estados Unidos",
+   "liga": "Norteamérica, CONCACAF Liga de Naciones - Cuartos de Final",
+   "inicio": "2026-11-14T16:30:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4874710": {
+   "partido": "Guatemala vs Canadá",
+   "liga": "Norteamérica, CONCACAF Liga de Naciones - Cuartos de Final",
+   "inicio": "2026-11-13T21:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4874711": {
+   "partido": "Montserrat vs Nicaragua",
+   "liga": "Norteamérica, CONCACAF Liga de Naciones - Play-in",
+   "inicio": "2026-11-13T19:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4874712": {
+   "partido": "Saint-Martin vs El Salvador",
+   "liga": "Norteamérica, CONCACAF Liga de Naciones - Play-in",
+   "inicio": "2026-11-13T18:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4874713": {
+   "partido": "Granada vs San Cristóbal y Nieves",
+   "liga": "Norteamérica, CONCACAF Liga de Naciones - Liga B - Grupo 3",
+   "inicio": "2026-11-13T15:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4874714": {
+   "partido": "Bermuda vs Santa Lucía",
+   "liga": "Norteamérica, CONCACAF Liga de Naciones - Liga B - Grupo 2",
+   "inicio": "2026-11-13T14:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4874715": {
+   "partido": "Puerto Rico vs Dominica",
+   "liga": "Norteamérica, CONCACAF Liga de Naciones - Liga B - Grupo 1",
+   "inicio": "2026-11-13T14:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
   }
  },
  "web": {
@@ -631,7 +785,30 @@
   "4672302": 1794337130664,
   "4697788": 1794337131635,
   "4697790": 1794337132056,
-  "4870468": 1794337121450
+  "4870468": 1794337121450,
+  "4632602": 1794337153307,
+  "4632737": 1794337153621,
+  "4672284": 1794337158857,
+  "4672286": 1794337158503,
+  "4672287": 1794337144550,
+  "4672288": 1794337144846,
+  "4672289": 1794337145653,
+  "4672290": 1794337145980,
+  "4672291": 1794337146752,
+  "4672292": 1794337143896,
+  "4672293": 1794337144207,
+  "4672294": 1794337143362,
+  "4697785": 1794337158210,
+  "4874706": 1794337151638,
+  "4874707": 1794337150918,
+  "4874708": 1794337149694,
+  "4874709": 1794337152154,
+  "4874710": 1794337136871,
+  "4874711": 1794337135431,
+  "4874712": 1794337135175,
+  "4874713": 1794337134643,
+  "4874714": 1794337134146,
+  "4874715": 1794337134375
  },
  "tickets": [],
  "sin_creditos": false,
