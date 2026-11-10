@@ -348,6 +348,13 @@
    "inicio": "2026-11-14T14:00:00-05:00",
    "estado": "pendiente",
    "ultimo": 0
+  },
+  "4883813": {
+   "partido": "Arabia Saudita vs Corea del Sur",
+   "liga": "Internacional, Amistoso Internacional",
+   "inicio": "2026-11-13T09:30:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
   }
  },
  "web": {
@@ -423,7 +430,8 @@
   "4883923": 1794072335915,
   "4883925": 1794072338758,
   "4883927": 1794072341098,
-  "4883928": 1794072341336
+  "4883928": 1794072341336,
+  "4883813": 1794336925117
  },
  "tickets": [],
  "sin_creditos": false,
