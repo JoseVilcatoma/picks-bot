@@ -21,7 +21,7 @@ LIGAS = {
 }
 
 # Selecciones: se detectan por nombre de la competición
-SELECCIONES_INCLUIR = ["amistoso", "nations", "eliminatoria", "clasificaci",
+SELECCIONES_INCLUIR = ["amistoso", "nations", "naciones", "eliminatoria", "clasificaci",
                        "mundial", "copa del mundo", "copa américa", "copa america",
                        "eurocopa", "euro "]
 SELECCIONES_EXCLUIR = ["femen", "sub", "juvenil", "youth", "u17", "u19", "u20",
