@@ -684,6 +684,230 @@
    "inicio": "2026-11-13T14:00:00-05:00",
    "estado": "pendiente",
    "ultimo": 0
+  },
+  "4672272": {
+   "partido": "Macedonia del Norte vs Eslovenia",
+   "liga": "Europa, Liga de las Naciones - UEFA - Liga B - Grupo 1",
+   "inicio": "2026-11-16T14:45:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4672273": {
+   "partido": "Suiza vs Escocia",
+   "liga": "Europa, Liga de las Naciones - UEFA - Liga B - Grupo 1",
+   "inicio": "2026-11-16T14:45:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4672274": {
+   "partido": "Grecia vs Serbia",
+   "liga": "Europa, Liga de las Naciones - UEFA - Liga A - Grupo 2",
+   "inicio": "2026-11-16T14:45:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4672275": {
+   "partido": "Alemania vs Países Bajos",
+   "liga": "Europa, Liga de las Naciones - UEFA - Liga A - Grupo 2",
+   "inicio": "2026-11-16T14:45:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4672276": {
+   "partido": "Lituania vs Liechtenstein",
+   "liga": "Europa, Liga de las Naciones - UEFA - Liga D - Grupo 2",
+   "inicio": "2026-11-16T12:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4672277": {
+   "partido": "Estonia vs Bulgaria",
+   "liga": "Europa, Liga de las Naciones - UEFA - Liga C - Grupo 4",
+   "inicio": "2026-11-16T12:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4672278": {
+   "partido": "Kazajstán vs Eslovaquia",
+   "liga": "Europa, Liga de las Naciones - UEFA - Liga C - Grupo 3",
+   "inicio": "2026-11-16T10:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4672279": {
+   "partido": "Islas Feroe vs Moldavia",
+   "liga": "Europa, Liga de las Naciones - UEFA - Liga C - Grupo 3",
+   "inicio": "2026-11-16T10:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4672280": {
+   "partido": "España vs Inglaterra",
+   "liga": "Europa, Liga de las Naciones - UEFA - Liga A - Grupo 3",
+   "inicio": "2026-11-15T14:45:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4672281": {
+   "partido": "Croacia vs Republica Checa",
+   "liga": "Europa, Liga de las Naciones - UEFA - Liga A - Grupo 3",
+   "inicio": "2026-11-15T14:45:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4672282": {
+   "partido": "Francia vs Turquía",
+   "liga": "Europa, Liga de las Naciones - UEFA - Liga A - Grupo 1",
+   "inicio": "2026-11-15T14:45:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4672283": {
+   "partido": "Bélgica vs Italia",
+   "liga": "Europa, Liga de las Naciones - UEFA - Liga A - Grupo 1",
+   "inicio": "2026-11-15T14:45:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4672285": {
+   "partido": "Bielorrusia vs Albania",
+   "liga": "Europa, Liga de las Naciones - UEFA - Liga C - Grupo 1",
+   "inicio": "2026-11-15T12:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4697791": {
+   "partido": "Gibraltar vs Malta",
+   "liga": "Europa, Liga de las Naciones - UEFA - Liga D - Grupo 1",
+   "inicio": "2026-11-16T14:45:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4697792": {
+   "partido": "Islandia vs Luxemburgo",
+   "liga": "Europa, Liga de las Naciones - UEFA - Liga C - Grupo 4",
+   "inicio": "2026-11-16T12:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4760760": {
+   "partido": "Comerciantes Unidos vs Sport Boys",
+   "liga": "Perú, Liga 1 - Clausura",
+   "inicio": "2026-11-15T13:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4760761": {
+   "partido": "CD Moquegua vs Grau",
+   "liga": "Perú, Liga 1 - Clausura",
+   "inicio": "2026-11-16T15:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4760763": {
+   "partido": "Juan Pablo II College vs Deportivo Garcilaso",
+   "liga": "Perú, Liga 1 - Clausura",
+   "inicio": "2026-11-15T15:15:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4760765": {
+   "partido": "Cusco FC vs ADT Tarma",
+   "liga": "Perú, Liga 1 - Clausura",
+   "inicio": "2026-11-16T15:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4874699": {
+   "partido": "Canadá vs Guatemala",
+   "liga": "Norteamérica, CONCACAF Liga de Naciones - Cuartos de Final",
+   "inicio": "2026-11-16T20:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4874700": {
+   "partido": "Trinidad y Tobago vs Antigua y Barbuda",
+   "liga": "Norteamérica, CONCACAF Liga de Naciones - Play-in",
+   "inicio": "2026-11-16T19:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4874701": {
+   "partido": "Martinica vs Aruba",
+   "liga": "Norteamérica, CONCACAF Liga de Naciones - Play-in",
+   "inicio": "2026-11-16T19:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4874702": {
+   "partido": "Cuba vs Granada",
+   "liga": "Norteamérica, CONCACAF Liga de Naciones - Liga B - Grupo 3",
+   "inicio": "2026-11-16T15:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4874703": {
+   "partido": "Guadalupe vs Bermuda",
+   "liga": "Norteamérica, CONCACAF Liga de Naciones - Liga B - Grupo 2",
+   "inicio": "2026-11-16T14:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4874704": {
+   "partido": "Guyana vs Puerto Rico",
+   "liga": "Norteamérica, CONCACAF Liga de Naciones - Liga B - Grupo 1",
+   "inicio": "2026-11-16T14:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4874705": {
+   "partido": "Panamá vs Curazao",
+   "liga": "Norteamérica, CONCACAF Liga de Naciones - Cuartos de Final",
+   "inicio": "2026-11-15T18:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4883941": {
+   "partido": "Zimbabue vs Guinea Ecuatorial",
+   "liga": "África, Copa de África de Naciones - Clasificación",
+   "inicio": "2026-11-16T08:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4883942": {
+   "partido": "Sudán vs Senegal",
+   "liga": "África, Copa de África de Naciones - Clasificación",
+   "inicio": "2026-11-16T08:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4883943": {
+   "partido": "Namibia vs Camerún",
+   "liga": "África, Copa de África de Naciones - Clasificación",
+   "inicio": "2026-11-16T08:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4883944": {
+   "partido": "Somalia vs Ghana",
+   "liga": "África, Copa de África de Naciones - Clasificación",
+   "inicio": "2026-11-16T10:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4883945": {
+   "partido": "Eritrea vs Guinea",
+   "liga": "África, Copa de África de Naciones - Clasificación",
+   "inicio": "2026-11-16T11:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4883946": {
+   "partido": "República Centroafricana vs Benin",
+   "liga": "África, Copa de África de Naciones - Clasificación",
+   "inicio": "2026-11-16T11:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
   }
  },
  "web": {
@@ -808,7 +1032,39 @@
   "4874712": 1794337135175,
   "4874713": 1794337134643,
   "4874714": 1794337134146,
-  "4874715": 1794337134375
+  "4874715": 1794337134375,
+  "4672272": 1794337177142,
+  "4672273": 1794337179111,
+  "4672274": 1794337178562,
+  "4672275": 1794337179569,
+  "4672276": 1794337175850,
+  "4672277": 1794337176357,
+  "4672278": 1794337174963,
+  "4672279": 1794337175516,
+  "4672280": 1794337159967,
+  "4672281": 1794337161853,
+  "4672282": 1794337161489,
+  "4672283": 1794337162792,
+  "4672285": 1794337160262,
+  "4697791": 1794337179914,
+  "4697792": 1794337176771,
+  "4760760": 1794337165281,
+  "4760761": 1794337184143,
+  "4760763": 1794337166449,
+  "4760765": 1794337183250,
+  "4874699": 1794337186582,
+  "4874700": 1794337187429,
+  "4874701": 1794337186846,
+  "4874702": 1794337187688,
+  "4874703": 1794337188316,
+  "4874704": 1794337188644,
+  "4874705": 1794337167267,
+  "4883941": 1794337171514,
+  "4883942": 1794337171844,
+  "4883943": 1794337172435,
+  "4883944": 1794337172807,
+  "4883945": 1794337173423,
+  "4883946": 1794337173846
  },
  "tickets": [],
  "sin_creditos": false,
