@@ -339,13 +339,6 @@
     "cards_a": 2.0
    }
   },
-  "4757197": {
-   "partido": "Estoril vs Maritimo",
-   "liga": "Portugal, Primeira Liga",
-   "inicio": "2026-11-08T10:30:00-05:00",
-   "estado": "cancelado",
-   "ultimo": 1794147379.4694366
-  },
   "4757198": {
    "partido": "Estrela da Amadora vs Benfica",
    "liga": "Portugal, Primeira Liga",
@@ -396,32 +389,6 @@
     "cards": 3.0,
     "cards_h": 2.0,
     "cards_a": 1.0
-   }
-  },
-  "4757202": {
-   "partido": "Santa Clara vs Gil Vicente FC",
-   "liga": "Portugal, Primeira Liga",
-   "inicio": "2026-11-08T10:30:00-05:00",
-   "estado": "liquidado",
-   "ultimo": 1794159327.332534,
-   "clv": [],
-   "clv_ok": false,
-   "xi": "488135,3161778,4006187,40501175,70923212,71048205,71055054,75430155,75430487,77171181,78461606|308775,896636,3064929,49955800,66301535,67974133,70788056,70862973,70950862,71347019,77080314",
-   "conf": true,
-   "r": {
-    "hg": 1,
-    "ag": 2,
-    "ht": [
-     1,
-     0
-    ],
-    "corners": 10.0,
-    "corners_h": 1.0,
-    "corners_a": 9.0,
-    "corners_1t": 6.0,
-    "cards": 7.0,
-    "cards_h": 5.0,
-    "cards_a": 2.0
    }
   },
   "4757204": {
