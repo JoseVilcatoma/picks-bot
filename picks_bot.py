@@ -320,9 +320,14 @@ def sincronizar_seleccion(estado):
         return
     hechos = estado.setdefault("web", {})        # gid -> marca de tiempo ya aplicada
     nuevos, quitados, fallos = [], [], []
+    corte = (time.time() - 7 * 86400) * 1000
     for gid, d in sel.items():
         t = d.get("t", 0)
         if hechos.get(gid) == t:
+            continue
+        if t < corte:
+            # Elección de hace más de 7 días: ya se aplicó en su momento (su registro se borra a los 7 días).
+            # Sin esto se volvía a procesar y llegaban avisos de "ya empezó" de partidos viejos.
             continue
         if d.get("accion") == "seguir":
             if gid in estado["seguidos"]:
@@ -347,7 +352,6 @@ def sincronizar_seleccion(estado):
             hechos[gid] = t
             if estado["seguidos"][gid]["estado"] == "pendiente":
                 quitados.append(esc(estado["seguidos"].pop(gid)["partido"]))
-    corte = (time.time() - 7 * 86400) * 1000
     for gid in [g for g, t in hechos.items() if t < corte]:
         del hechos[gid]
     rech = estado.get("rechazados", {})
