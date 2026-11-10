@@ -79,32 +79,6 @@
     "cards_a": 1.0
    }
   },
-  "4755350": {
-   "partido": "Hoffenheim vs Schalke 04",
-   "liga": "Alemania, Bundesliga",
-   "inicio": "2026-11-08T13:30:00-05:00",
-   "estado": "liquidado",
-   "ultimo": 1794170213.0330093,
-   "clv": [],
-   "clv_ok": false,
-   "xi": "258327,334847,350528,3130032,3339632,4581497,49513653,60938745,64195671,67771703,68006639|334751,420080,449711,938102,3345229,7139735,29409781,50080221,60936151,65396639,77161148",
-   "conf": true,
-   "r": {
-    "hg": 2,
-    "ag": 1,
-    "ht": [
-     2,
-     0
-    ],
-    "corners": 10.0,
-    "corners_h": 6.0,
-    "corners_a": 4.0,
-    "corners_1t": 3.0,
-    "cards": 2.0,
-    "cards_h": 0.0,
-    "cards_a": 2.0
-   }
-  },
   "4757198": {
    "partido": "Estrela da Amadora vs Benfica",
    "liga": "Portugal, Primeira Liga",
