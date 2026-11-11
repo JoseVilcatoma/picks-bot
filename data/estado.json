@@ -1,32 +1,6 @@
 {
  "offset": 344577791,
  "seguidos": {
-  "4760768": {
-   "partido": "Universitario vs CD Moquegua",
-   "liga": "Perú, Liga 1 - Clausura",
-   "inicio": "2026-11-08T20:30:00-05:00",
-   "estado": "liquidado",
-   "ultimo": 1794194728.168787,
-   "clv": [],
-   "clv_ok": false,
-   "xi": "393797,478387,505190,531129,671434,3234845,3780031,3993952,4710874,47844909,64944308|319980,484036,499074,514230,618911,5258603,6590900,48577293,52708695,67974745,67990841",
-   "conf": true,
-   "r": {
-    "hg": 2,
-    "ag": 2,
-    "ht": [
-     1,
-     1
-    ],
-    "corners": 15.0,
-    "corners_h": 9.0,
-    "corners_a": 6.0,
-    "corners_1t": 6.0,
-    "cards": 5.0,
-    "cards_h": 2.0,
-    "cards_a": 3.0
-   }
-  },
   "4870466": {
    "partido": "Singapur vs Paraguay",
    "liga": "Internacional, Amistoso Internacional",
