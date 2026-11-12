@@ -3333,3 +3333,8 @@ fecha,game_id,partido,liga,tipo,mercado,clave,prob,cuota,casa,cuota_justa,ev,sta
 2026-11-12 13:43,4672306,San Marino vs Bielorrusia,"Europa, Liga de las Naciones - UEFA - Liga C - Grupo 1",modelo,Menos de 10.5 córners,CORN|10.5|under,0.6989,,,1.43,,,si,,,
 2026-11-12 13:43,4672306,San Marino vs Bielorrusia,"Europa, Liga de las Naciones - UEFA - Liga C - Grupo 1",ticket,Menos de 3.5 goles + Ambos marcan: No,OU|3.5|under&BTTS||no,0.5757,1.94,,1.74,0.1140,10.00,,,,
 2026-11-12 13:43,4672306,San Marino vs Bielorrusia,"Europa, Liga de las Naciones - UEFA - Liga C - Grupo 1",crear,No hay empate + Menos de 4.5 goles + Menos de 12.5 córners,DC||12&OU|4.5|under&CORN|12.5|under,0.5863,,,1.71,,,,,,
+2026-11-12 13:47,4672307,Albania vs Finlandia,"Europa, Liga de las Naciones - UEFA - Liga C - Grupo 1",seguro,Albania o empate,DC||1X,0.8425,1.20,Bet365,1.19,0.0110,,si,,,
+2026-11-12 13:47,4672307,Albania vs Finlandia,"Europa, Liga de las Naciones - UEFA - Liga C - Grupo 1",seguro,Menos de 1.5 goles en el 1T,OU1T|1.5|under,0.7806,1.25,Bet365,1.28,-0.0243,,si,,,
+2026-11-12 13:47,4672307,Albania vs Finlandia,"Europa, Liga de las Naciones - UEFA - Liga C - Grupo 1",modelo,Menos de 3.5 goles,OU|3.5|under,0.8661,,,1.15,,,si,,,
+2026-11-12 13:47,4672307,Albania vs Finlandia,"Europa, Liga de las Naciones - UEFA - Liga C - Grupo 1",modelo,Menos de 6.5 tarjetas,CARDS|6.5|under,0.7600,,,1.32,,,si,,,
+2026-11-12 13:47,4672307,Albania vs Finlandia,"Europa, Liga de las Naciones - UEFA - Liga C - Grupo 1",ticket,Menos de 2.5 goles + Albania o empate,OU|2.5|under&DC||1X,0.5898,1.73,,1.70,0.0192,10.00,,,,

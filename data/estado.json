@@ -246,8 +246,12 @@
    "partido": "Albania vs Finlandia",
    "liga": "Europa, Liga de las Naciones - UEFA - Liga C - Grupo 1",
    "inicio": "2026-11-12T14:45:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1794509000.7932014
+   "estado": "enviado",
+   "ultimo": 1794509248.4491627,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "114025,349027,500365,641496,917030,3086673,3093438,51378142,51582820,53264330,55971503|82100,386642,1380586,3386712,13666762,55583754,60065911,67617790,67657849,67661127,70934786",
+   "conf": true
   },
   "4672308": {
    "partido": "Turquía vs Bélgica",
