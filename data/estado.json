@@ -202,8 +202,12 @@
    "partido": "Inglaterra vs Croacia",
    "liga": "Europa, Liga de las Naciones - UEFA - Liga A - Grupo 3",
    "inicio": "2026-11-12T14:45:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1794508748.5570989
+   "estado": "enviado",
+   "ultimo": 1794508998.6988134,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "227604,355086,507392,670092,3055995,41923868,46440257,51439135,54701553,63092591,63792363|346826,530850,922321,3685165,25999342,50752876,53464344,56471954,57861026,64879450,67771434",
+   "conf": true
   },
   "4672304": {
    "partido": "Republica Checa vs España",
@@ -231,15 +235,19 @@
    "partido": "San Marino vs Bielorrusia",
    "liga": "Europa, Liga de las Naciones - UEFA - Liga C - Grupo 1",
    "inicio": "2026-11-12T14:45:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1794508750.6690218
+   "estado": "enviado",
+   "ultimo": 1794508999.4719083,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "9122403,57183143,67066624,67344405,67874465,71898005,71898007,72841036,75494983,75515819,79440833|241045,3375555,4037309,47271545,47483752,65854940,71886089,71899312,72053382,77783845,79404267",
+   "conf": true
   },
   "4672307": {
    "partido": "Albania vs Finlandia",
    "liga": "Europa, Liga de las Naciones - UEFA - Liga C - Grupo 1",
    "inicio": "2026-11-12T14:45:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1794508750.7002172
+   "ultimo": 1794509000.7932014
   },
   "4672308": {
    "partido": "Turquía vs Bélgica",
