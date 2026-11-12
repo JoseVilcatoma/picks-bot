@@ -462,8 +462,12 @@
    "partido": "Antigua y Barbuda vs Trinidad y Tobago",
    "liga": "Norteamérica, CONCACAF Liga de Naciones - Play-in",
    "inicio": "2026-11-12T18:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1794521880.66592
+   "estado": "enviado",
+   "ultimo": 1794522003.1920297,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "3268632,67877189,67877205,67878558,72768292,72768297,77022113,77194116,77194121,77194123,79431967|7706088,55280841,59568516,66670687,68070329,69831077,69831079,70939705,71889238,79310601,79435551",
+   "conf": true
   },
   "4874718": {
    "partido": "Bonaire vs Cuba",
