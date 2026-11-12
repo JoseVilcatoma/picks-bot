@@ -96,12 +96,27 @@
    "partido": "Ghana vs Somalia",
    "liga": "África, Copa de África de Naciones - Clasificación",
    "inicio": "2026-11-12T10:00:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1794502526.6265078,
+   "estado": "liquidado",
+   "ultimo": 1794503133.354316,
    "clv": [],
    "clv_ok": false,
    "xi": "135032,687732,2614999,56808503,64088293,64721834,65824724,70861556,75258798,77844239,81416533|52275006,65519990,72770054,77082457,77507510,79116318,79437646,79437650,79437652,79437654,79437655",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 2,
+    "ag": 0,
+    "ht": [
+     1,
+     0
+    ],
+    "corners": 10.0,
+    "corners_h": 7.0,
+    "corners_a": 3.0,
+    "corners_1t": null,
+    "cards": 1.0,
+    "cards_h": 0.0,
+    "cards_a": 1.0
+   }
   },
   "4883923": {
    "partido": "RD Congo vs Sierra Leona",
