@@ -3266,3 +3266,8 @@ fecha,game_id,partido,liga,tipo,mercado,clave,prob,cuota,casa,cuota_justa,ev,sta
 2026-11-12 09:26,4883921,Ghana vs Somalia,"África, Copa de África de Naciones - Clasificación",modelo,Menos de 6.5 tarjetas,CARDS|6.5|under,0.8061,,,1.24,,,si,,,
 2026-11-12 09:26,4883921,Ghana vs Somalia,"África, Copa de África de Naciones - Clasificación",modelo,Más de 1.5 goles,OU|1.5|over,0.7366,,,1.36,,,si,,,
 2026-11-12 09:26,4883921,Ghana vs Somalia,"África, Copa de África de Naciones - Clasificación",crear,Menos de 2.5 goles en el 1T + Más de 4.5 córners + Menos de 6.5 tarjetas,OU1T|2.5|under&CORN|4.5|over&CARDS|6.5|under,0.5739,,,1.74,,,,,,
+2026-11-12 10:20,4883923,RD Congo vs Sierra Leona,"África, Copa de África de Naciones - Clasificación",seguro,Más de 1.5 goles,OU|1.5|over,0.7447,1.25,Bet365,1.34,-0.0691,,no,,,
+2026-11-12 10:20,4883923,RD Congo vs Sierra Leona,"África, Copa de África de Naciones - Clasificación",seguro,Gana RD Congo,1X2||1,0.7286,1.20,Bet365,1.37,-0.1257,,no,,,
+2026-11-12 10:20,4883923,RD Congo vs Sierra Leona,"África, Copa de África de Naciones - Clasificación",modelo,Menos de 6.5 tarjetas,CARDS|6.5|under,0.8323,,,1.20,,,no,,,
+2026-11-12 10:20,4883923,RD Congo vs Sierra Leona,"África, Copa de África de Naciones - Clasificación",modelo,Más de 4.5 córners,CORN|4.5|over,0.7221,,,1.38,,,no,,,
+2026-11-12 10:20,4883923,RD Congo vs Sierra Leona,"África, Copa de África de Naciones - Clasificación",crear,No hay empate + Menos de 10.5 córners + Menos de 5.5 tarjetas,DC||12&CORN|10.5|under&CARDS|5.5|under,0.5881,,,1.70,,,,,,
