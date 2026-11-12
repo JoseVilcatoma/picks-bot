@@ -456,7 +456,7 @@
    "liga": "Norteamérica, CONCACAF Liga de Naciones - Cuartos de Final",
    "inicio": "2026-11-12T19:30:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1794526618.3213747
+   "ultimo": 1794526862.44091
   },
   "4874717": {
    "partido": "Antigua y Barbuda vs Trinidad y Tobago",
@@ -1269,6 +1269,6 @@
   "4882785",
   "4886905"
  ],
- "auto_t": 1794505196.020743,
+ "auto_t": 1794526862.4294624,
  "rechazados": {}
 }
