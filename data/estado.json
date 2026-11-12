@@ -303,9 +303,13 @@
   "4874718": {
    "partido": "Bonaire vs Cuba",
    "liga": "Norteamérica, CONCACAF Liga de Naciones - Liga B - Grupo 3",
-   "inicio": "2026-11-12T15:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1794509125.9079385
+   "inicio": "2026-11-12T14:00:00-05:00",
+   "estado": "enviado",
+   "ultimo": 1794509373.4997036,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "|",
+   "conf": false
   },
   "4874719": {
    "partido": "Barbados vs Guadalupe",

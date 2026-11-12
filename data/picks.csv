@@ -3338,3 +3338,7 @@ fecha,game_id,partido,liga,tipo,mercado,clave,prob,cuota,casa,cuota_justa,ev,sta
 2026-11-12 13:47,4672307,Albania vs Finlandia,"Europa, Liga de las Naciones - UEFA - Liga C - Grupo 1",modelo,Menos de 3.5 goles,OU|3.5|under,0.8661,,,1.15,,,si,,,
 2026-11-12 13:47,4672307,Albania vs Finlandia,"Europa, Liga de las Naciones - UEFA - Liga C - Grupo 1",modelo,Menos de 6.5 tarjetas,CARDS|6.5|under,0.7600,,,1.32,,,si,,,
 2026-11-12 13:47,4672307,Albania vs Finlandia,"Europa, Liga de las Naciones - UEFA - Liga C - Grupo 1",ticket,Menos de 2.5 goles + Albania o empate,OU|2.5|under&DC||1X,0.5898,1.73,,1.70,0.0192,10.00,,,,
+2026-11-12 13:49,4874718,Bonaire vs Cuba,"Norteamérica, CONCACAF Liga de Naciones - Liga B - Grupo 3",seguro,Más de 0.5 goles en el 1T,OU1T|0.5|over,0.8071,1.17,Bet365,1.24,-0.0557,,no,,,
+2026-11-12 13:49,4874718,Bonaire vs Cuba,"Norteamérica, CONCACAF Liga de Naciones - Liga B - Grupo 3",modelo,Más de 1.5 goles,OU|1.5|over,0.8797,,,1.14,,,no,,,
+2026-11-12 13:49,4874718,Bonaire vs Cuba,"Norteamérica, CONCACAF Liga de Naciones - Liga B - Grupo 3",modelo,Menos de 6.5 tarjetas,CARDS|6.5|under,0.7600,,,1.32,,,no,,,
+2026-11-12 13:49,4874718,Bonaire vs Cuba,"Norteamérica, CONCACAF Liga de Naciones - Liga B - Grupo 3",crear,Menos de 5.5 goles + Menos de 15.5 córners + Menos de 8.5 tarjetas,OU|5.5|under&CORN|15.5|under&CARDS|8.5|under,0.5877,,,1.70,,,,,,
