@@ -149,7 +149,7 @@
    "liga": "África, Copa de África de Naciones - Clasificación",
    "inicio": "2026-11-12T14:00:00-05:00",
    "estado": "enviado",
-   "ultimo": 1794508748.4441009,
+   "ultimo": 1794509125.8758488,
    "clv": [],
    "clv_ok": false,
    "xi": "|",
@@ -301,14 +301,14 @@
    "liga": "Norteamérica, CONCACAF Liga de Naciones - Liga B - Grupo 3",
    "inicio": "2026-11-12T15:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 0
+   "ultimo": 1794509125.9079385
   },
   "4874719": {
    "partido": "Barbados vs Guadalupe",
    "liga": "Norteamérica, CONCACAF Liga de Naciones - Liga B - Grupo 2",
    "inicio": "2026-11-12T14:00:00-05:00",
    "estado": "enviado",
-   "ultimo": 1794508751.6336648,
+   "ultimo": 1794509125.969878,
    "clv": [],
    "clv_ok": false,
    "xi": "|",
