@@ -148,22 +148,34 @@
    "partido": "Costa de Marfil vs Gambia",
    "liga": "África, Copa de África de Naciones - Clasificación",
    "inicio": "2026-11-12T14:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1794507514.297009
+   "estado": "enviado",
+   "ultimo": 1794507636.879539,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "|",
+   "conf": false
   },
   "4883927": {
    "partido": "Senegal vs Sudán",
    "liga": "África, Copa de África de Naciones - Clasificación",
    "inicio": "2026-11-12T14:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1794507514.4143088
+   "estado": "enviado",
+   "ultimo": 1794507637.6706266,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "|",
+   "conf": false
   },
   "4883928": {
    "partido": "Camerún vs Namibia",
    "liga": "África, Copa de África de Naciones - Clasificación",
    "inicio": "2026-11-12T14:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1794507514.4455166
+   "estado": "enviado",
+   "ultimo": 1794507638.5337098,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "|",
+   "conf": false
   },
   "4845107": {
    "partido": "Japón vs Brasil",
@@ -275,15 +287,23 @@
    "partido": "Barbados vs Guadalupe",
    "liga": "Norteamérica, CONCACAF Liga de Naciones - Liga B - Grupo 2",
    "inicio": "2026-11-12T14:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1794507514.4792337
+   "estado": "enviado",
+   "ultimo": 1794507639.4503899,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "|",
+   "conf": false
   },
   "4874720": {
    "partido": "Islas Caimán vs Guyana",
    "liga": "Norteamérica, CONCACAF Liga de Naciones - Liga B - Grupo 1",
    "inicio": "2026-11-12T14:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1794507514.514815
+   "estado": "enviado",
+   "ultimo": 1794507640.5129447,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "50793993,70797588,70921891,70921892,71910707,71910710,72771029,72771042,79494650,81415184,81419342|642578,19698277,19698287,46746524,47517539,55515894,57434602,60806185,61535744,67880667,81419345",
+   "conf": true
   },
   "4874721": {
    "partido": "Aruba vs Martinica",
