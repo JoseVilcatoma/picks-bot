@@ -257,23 +257,53 @@
    "partido": "Turquía vs Bélgica",
    "liga": "Europa, Liga de las Naciones - UEFA - Liga A - Grupo 1",
    "inicio": "2026-11-12T12:00:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1794498884.2754335,
+   "estado": "liquidado",
+   "ultimo": 1794509744.9325252,
    "clv": [],
    "clv_ok": false,
    "xi": "394713,911384,3071443,3226882,3339632,7382663,8687756,54840196,60875243,61728093,61736514|95182,398065,441799,505117,3575768,8048871,26803259,46557681,50729542,58449710,63094718",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 1,
+    "ag": 2,
+    "ht": [
+     1,
+     2
+    ],
+    "corners": 5.0,
+    "corners_h": 2.0,
+    "corners_a": 3.0,
+    "corners_1t": 1.0,
+    "cards": 2.0,
+    "cards_h": 2.0,
+    "cards_a": 0.0
+   }
   },
   "4672309": {
    "partido": "Armenia vs Chipre",
    "liga": "Europa, Liga de las Naciones - UEFA - Liga C - Grupo 2",
    "inicio": "2026-11-12T12:00:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1794498885.6038113,
+   "estado": "liquidado",
+   "ultimo": 1794509745.0684297,
    "clv": [],
    "clv_ok": false,
    "xi": "3161138,57183368,64277438,65519743,65819714,65840502,67880284,75256536,75399339,77805107,77806553|358014,429355,570835,570859,844352,50968078,59479121,70877963,71346608,71351405,77403560",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 1,
+    "ag": 1,
+    "ht": [
+     0,
+     1
+    ],
+    "corners": 15.0,
+    "corners_h": 11.0,
+    "corners_a": 4.0,
+    "corners_1t": 7.0,
+    "cards": 5.0,
+    "cards_h": 3.0,
+    "cards_a": 2.0
+   }
   },
   "4697787": {
    "partido": "Montenegro vs Letonia",
@@ -305,7 +335,7 @@
    "liga": "Norteamérica, CONCACAF Liga de Naciones - Liga B - Grupo 3",
    "inicio": "2026-11-12T14:00:00-05:00",
    "estado": "enviado",
-   "ultimo": 1794509373.4997036,
+   "ultimo": 1794509745.1504507,
    "clv": [],
    "clv_ok": false,
    "xi": "|",
