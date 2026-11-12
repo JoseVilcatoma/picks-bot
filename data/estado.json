@@ -247,56 +247,131 @@
    "partido": "Inglaterra vs Croacia",
    "liga": "Europa, Liga de las Naciones - UEFA - Liga A - Grupo 3",
    "inicio": "2026-11-12T14:45:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1794508998.6988134,
+   "estado": "liquidado",
+   "ultimo": 1794519678.244787,
    "clv": [],
    "clv_ok": false,
    "xi": "227604,355086,507392,670092,3055995,41923868,46440257,51439135,54701553,63092591,63792363|346826,530850,922321,3685165,25999342,50752876,53464344,56471954,57861026,64879450,67771434",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 2,
+    "ag": 1,
+    "ht": [
+     1,
+     0
+    ],
+    "corners": 13.0,
+    "corners_h": 6.0,
+    "corners_a": 7.0,
+    "corners_1t": 5.0,
+    "cards": 1.0,
+    "cards_h": 0.0,
+    "cards_a": 1.0
+   }
   },
   "4672304": {
    "partido": "Republica Checa vs España",
    "liga": "Europa, Liga de las Naciones - UEFA - Liga A - Grupo 3",
    "inicio": "2026-11-12T14:45:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1794508748.6210904,
+   "estado": "liquidado",
+   "ultimo": 1794519678.3795958,
    "clv": [],
    "clv_ok": false,
    "xi": "209814,258327,12511677,12940517,23568317,38075769,43467357,50055888,60137813,67024337,75521460|600030,987911,3568284,3948590,5887322,47426590,49550597,52342774,63765805,67547634,70894814",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 0,
+    "ag": 2,
+    "ht": [
+     0,
+     1
+    ],
+    "corners": 14.0,
+    "corners_h": 4.0,
+    "corners_a": 10.0,
+    "corners_1t": 5.0,
+    "cards": 3.0,
+    "cards_h": 1.0,
+    "cards_a": 2.0
+   }
   },
   "4672305": {
    "partido": "Italia vs Francia",
    "liga": "Europa, Liga de las Naciones - UEFA - Liga A - Grupo 1",
    "inicio": "2026-11-12T14:45:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1794508749.9781218,
+   "estado": "liquidado",
+   "ultimo": 1794519678.5240724,
    "clv": [],
    "clv_ok": false,
    "xi": "511549,620429,3071407,3071410,4870623,29951241,50424606,51594637,52859220,67428963,68000276|308108,513713,898082,14755144,40408252,43470743,50445824,52332926,60909490,65079212,67987366",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 3,
+    "ag": 1,
+    "ht": [
+     1,
+     1
+    ],
+    "corners": 7.0,
+    "corners_h": 4.0,
+    "corners_a": 3.0,
+    "corners_1t": 3.0,
+    "cards": 4.0,
+    "cards_h": 2.0,
+    "cards_a": 2.0
+   }
   },
   "4672306": {
    "partido": "San Marino vs Bielorrusia",
    "liga": "Europa, Liga de las Naciones - UEFA - Liga C - Grupo 1",
    "inicio": "2026-11-12T14:45:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1794508999.4719083,
+   "estado": "liquidado",
+   "ultimo": 1794519678.6693168,
    "clv": [],
    "clv_ok": false,
    "xi": "9122403,57183143,67066624,67344405,67874465,71898005,71898007,72841036,75494983,75515819,79440833|241045,3375555,4037309,47271545,47483752,65854940,71886089,71899312,72053382,77783845,79404267",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 0,
+    "ag": 2,
+    "ht": [
+     0,
+     2
+    ],
+    "corners": 8.0,
+    "corners_h": 2.0,
+    "corners_a": 6.0,
+    "corners_1t": 4.0,
+    "cards": 5.0,
+    "cards_h": 3.0,
+    "cards_a": 2.0
+   }
   },
   "4672307": {
    "partido": "Albania vs Finlandia",
    "liga": "Europa, Liga de las Naciones - UEFA - Liga C - Grupo 1",
    "inicio": "2026-11-12T14:45:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1794509248.4491627,
+   "estado": "liquidado",
+   "ultimo": 1794519678.7934916,
    "clv": [],
    "clv_ok": false,
    "xi": "114025,349027,500365,641496,917030,3086673,3093438,51378142,51582820,53264330,55971503|82100,386642,1380586,3386712,13666762,55583754,60065911,67617790,67657849,67661127,70934786",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 2,
+    "ag": 0,
+    "ht": [
+     1,
+     0
+    ],
+    "corners": 5.0,
+    "corners_h": 5.0,
+    "corners_a": 0.0,
+    "corners_1t": 3.0,
+    "cards": 4.0,
+    "cards_h": 1.0,
+    "cards_a": 3.0
+   }
   },
   "4672308": {
    "partido": "Turquía vs Bélgica",
@@ -354,12 +429,27 @@
    "partido": "Montenegro vs Letonia",
    "liga": "Europa, Liga de las Naciones - UEFA - Liga C - Grupo 2",
    "inicio": "2026-11-12T14:45:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1794508750.7323751,
+   "estado": "liquidado",
+   "ultimo": 1794519678.9642103,
    "clv": [],
    "clv_ok": false,
    "xi": "180061,889050,3086722,3144263,31283563,53085455,70206104,70206111,75235317,75257236,76844371|923272,951846,3374578,14849066,50071364,59539495,65396649,66754760,68078526,69717983,69717991",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 2,
+    "ag": 1,
+    "ht": [
+     0,
+     0
+    ],
+    "corners": 17.0,
+    "corners_h": 11.0,
+    "corners_a": 6.0,
+    "corners_1t": 8.0,
+    "cards": 10.0,
+    "cards_h": 6.0,
+    "cards_a": 4.0
+   }
   },
   "4874716": {
    "partido": "Curazao vs Panamá",
