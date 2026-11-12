@@ -555,12 +555,27 @@
    "partido": "Aruba vs Martinica",
    "liga": "Norteamérica, CONCACAF Liga de Naciones - Play-in",
    "inicio": "2026-11-12T17:00:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1794520293.4325473,
+   "estado": "liquidado",
+   "ultimo": 1794527718.1281953,
    "clv": [],
    "clv_ok": false,
    "xi": "9080598,10314025,71156897,71905928,71905929,71905933,75430597,75505430,79431996,79431999,81419660|333600,921151,921155,1766586,3477738,3649182,49655652,50684401,58340509,65843344,76771643",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 0,
+    "ag": 0,
+    "ht": [
+     0,
+     0
+    ],
+    "corners": 3.0,
+    "corners_h": 1.0,
+    "corners_a": 2.0,
+    "corners_1t": 1.0,
+    "cards": 3.0,
+    "cards_h": 1.0,
+    "cards_a": 2.0
+   }
   },
   "4672295": {
    "partido": "Eslovenia vs Suiza",
