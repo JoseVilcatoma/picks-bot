@@ -149,7 +149,7 @@
    "liga": "África, Copa de África de Naciones - Clasificación",
    "inicio": "2026-11-12T14:00:00-05:00",
    "estado": "enviado",
-   "ultimo": 1794509870.5320432,
+   "ultimo": 1794516987.2394574,
    "clv": [],
    "clv_ok": false,
    "xi": "489221,600679,3136442,3143068,40765000,50159660,53769150,67689605,71092631,71150147,77099314|3056803,3078100,10454528,42928892,53674538,57178991,64360494,67757746,67757749,71503110,81332891",
@@ -159,23 +159,53 @@
    "partido": "Senegal vs Sudán",
    "liga": "África, Copa de África de Naciones - Clasificación",
    "inicio": "2026-11-12T14:00:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1794508011.7921743,
+   "estado": "liquidado",
+   "ultimo": 1794516987.282574,
    "clv": [],
    "clv_ok": false,
    "xi": "298959,489617,568308,3413846,13431029,52355416,55058114,67934945,70796239,71010985,75414393|3504969,59822346,59935664,62469826,64685657,64685713,65068576,67710236,72769231,81419356",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 4,
+    "ag": 1,
+    "ht": [
+     1,
+     1
+    ],
+    "corners": 10.0,
+    "corners_h": 7.0,
+    "corners_a": 3.0,
+    "corners_1t": null,
+    "cards": 4.0,
+    "cards_h": 2.0,
+    "cards_a": 2.0
+   }
   },
   "4883928": {
    "partido": "Camerún vs Namibia",
    "liga": "África, Copa de África de Naciones - Clasificación",
    "inicio": "2026-11-12T14:00:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1794508012.6322281,
+   "estado": "liquidado",
+   "ultimo": 1794516987.4080076,
    "clv": [],
    "clv_ok": false,
    "xi": "6813762,45225934,60897710,66445225,67638236,67660464,70941782,71341938,75433899,77551112,77655019|986889,1010013,15317283,18171371,67878344,67878345,67878350,67878352,68309346,72768170,76793208",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 2,
+    "ag": 0,
+    "ht": [
+     2,
+     0
+    ],
+    "corners": 7.0,
+    "corners_h": 7.0,
+    "corners_a": 0.0,
+    "corners_1t": null,
+    "cards": 2.0,
+    "cards_h": 0.0,
+    "cards_a": 2.0
+   }
   },
   "4845107": {
    "partido": "Japón vs Brasil",
@@ -334,34 +364,79 @@
    "partido": "Bonaire vs Cuba",
    "liga": "Norteamérica, CONCACAF Liga de Naciones - Liga B - Grupo 3",
    "inicio": "2026-11-12T14:00:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1794510116.4362366,
+   "estado": "liquidado",
+   "ultimo": 1794516987.5295212,
    "clv": [],
    "clv_ok": false,
    "xi": "77864888,78050928,79439667,79439669,79439670,79439671,79439672,79439674,79439680,79439681,79439683|4777699,21715565,57150752,59405175,64680412,71912863,71912868,72691714,75259280,76798403,78791501",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 1,
+    "ag": 7,
+    "ht": [
+     0,
+     1
+    ],
+    "corners": 5.0,
+    "corners_h": 1.0,
+    "corners_a": 4.0,
+    "corners_1t": 1.0,
+    "cards": 3.0,
+    "cards_h": 2.0,
+    "cards_a": 1.0
+   }
   },
   "4874719": {
    "partido": "Barbados vs Guadalupe",
    "liga": "Norteamérica, CONCACAF Liga de Naciones - Liga B - Grupo 2",
    "inicio": "2026-11-12T14:00:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1794509498.8881629,
+   "estado": "liquidado",
+   "ultimo": 1794516987.6543868,
    "clv": [],
    "clv_ok": false,
    "xi": "429190,50482505,57209950,57209956,57213265,59514718,70923586,79406291,79406294,79406295,79406297|75986,607715,1453857,1765032,60206503,61420567,77408913,79421626,79421750,79421919,79421997",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 0,
+    "ag": 3,
+    "ht": [
+     0,
+     2
+    ],
+    "corners": 9.0,
+    "corners_h": 6.0,
+    "corners_a": 3.0,
+    "corners_1t": 6.0,
+    "cards": 0.0,
+    "cards_h": 0.0,
+    "cards_a": 0.0
+   }
   },
   "4874720": {
    "partido": "Islas Caimán vs Guyana",
    "liga": "Norteamérica, CONCACAF Liga de Naciones - Liga B - Grupo 1",
    "inicio": "2026-11-12T14:00:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1794507640.5129447,
+   "estado": "liquidado",
+   "ultimo": 1794516987.798742,
    "clv": [],
    "clv_ok": false,
    "xi": "50793993,70797588,70921891,70921892,71910707,71910710,72771029,72771042,79494650,81415184,81419342|642578,19698277,19698287,46746524,47517539,55515894,57434602,60806185,61535744,67880667,81419345",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 0,
+    "ag": 6,
+    "ht": [
+     0,
+     4
+    ],
+    "corners": 9.0,
+    "corners_h": 0.0,
+    "corners_a": 9.0,
+    "corners_1t": 7.0,
+    "cards": 3.0,
+    "cards_h": 1.0,
+    "cards_a": 2.0
+   }
   },
   "4874721": {
    "partido": "Aruba vs Martinica",
