@@ -149,7 +149,7 @@
    "liga": "África, Copa de África de Naciones - Clasificación",
    "inicio": "2026-11-12T14:00:00-05:00",
    "estado": "enviado",
-   "ultimo": 1794507636.879539,
+   "ultimo": 1794508011.6712527,
    "clv": [],
    "clv_ok": false,
    "xi": "|",
@@ -160,22 +160,22 @@
    "liga": "África, Copa de África de Naciones - Clasificación",
    "inicio": "2026-11-12T14:00:00-05:00",
    "estado": "enviado",
-   "ultimo": 1794507637.6706266,
+   "ultimo": 1794508011.7921743,
    "clv": [],
    "clv_ok": false,
-   "xi": "|",
-   "conf": false
+   "xi": "298959,489617,568308,3413846,13431029,52355416,55058114,67934945,70796239,71010985,75414393|3504969,59822346,59935664,62469826,64685657,64685713,65068576,67710236,72769231,81419356",
+   "conf": true
   },
   "4883928": {
    "partido": "Camerún vs Namibia",
    "liga": "África, Copa de África de Naciones - Clasificación",
    "inicio": "2026-11-12T14:00:00-05:00",
    "estado": "enviado",
-   "ultimo": 1794507638.5337098,
+   "ultimo": 1794508012.6322281,
    "clv": [],
    "clv_ok": false,
-   "xi": "|",
-   "conf": false
+   "xi": "6813762,45225934,60897710,66445225,67638236,67660464,70941782,71341938,75433899,77551112,77655019|986889,1010013,15317283,18171371,67878344,67878345,67878350,67878352,68309346,72768170,76793208",
+   "conf": true
   },
   "4845107": {
    "partido": "Japón vs Brasil",
@@ -288,7 +288,7 @@
    "liga": "Norteamérica, CONCACAF Liga de Naciones - Liga B - Grupo 2",
    "inicio": "2026-11-12T14:00:00-05:00",
    "estado": "enviado",
-   "ultimo": 1794507639.4503899,
+   "ultimo": 1794508013.5403974,
    "clv": [],
    "clv_ok": false,
    "xi": "|",
