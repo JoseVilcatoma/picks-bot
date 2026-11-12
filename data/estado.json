@@ -149,7 +149,7 @@
    "liga": "África, Copa de África de Naciones - Clasificación",
    "inicio": "2026-11-12T14:00:00-05:00",
    "estado": "enviado",
-   "ultimo": 1794509125.8758488,
+   "ultimo": 1794509498.8608284,
    "clv": [],
    "clv_ok": false,
    "xi": "|",
@@ -316,11 +316,11 @@
    "liga": "Norteamérica, CONCACAF Liga de Naciones - Liga B - Grupo 2",
    "inicio": "2026-11-12T14:00:00-05:00",
    "estado": "enviado",
-   "ultimo": 1794509125.969878,
+   "ultimo": 1794509498.8881629,
    "clv": [],
    "clv_ok": false,
-   "xi": "|",
-   "conf": false
+   "xi": "429190,50482505,57209950,57209956,57213265,59514718,70923586,79406291,79406294,79406295,79406297|75986,607715,1453857,1765032,60206503,61420567,77408913,79421626,79421750,79421919,79421997",
+   "conf": true
   },
   "4874720": {
    "partido": "Islas Caimán vs Guyana",
