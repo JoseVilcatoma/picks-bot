@@ -149,7 +149,7 @@
    "liga": "África, Copa de África de Naciones - Clasificación",
    "inicio": "2026-11-12T14:00:00-05:00",
    "estado": "enviado",
-   "ultimo": 1794508382.397395,
+   "ultimo": 1794508748.4441009,
    "clv": [],
    "clv_ok": false,
    "xi": "|",
@@ -203,35 +203,43 @@
    "liga": "Europa, Liga de las Naciones - UEFA - Liga A - Grupo 3",
    "inicio": "2026-11-12T14:45:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1794508504.9563038
+   "ultimo": 1794508748.5570989
   },
   "4672304": {
    "partido": "Republica Checa vs España",
    "liga": "Europa, Liga de las Naciones - UEFA - Liga A - Grupo 3",
    "inicio": "2026-11-12T14:45:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1794508504.9885535
+   "estado": "enviado",
+   "ultimo": 1794508748.6210904,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "209814,258327,12511677,12940517,23568317,38075769,43467357,50055888,60137813,67024337,75521460|600030,987911,3568284,3948590,5887322,47426590,49550597,52342774,63765805,67547634,70894814",
+   "conf": true
   },
   "4672305": {
    "partido": "Italia vs Francia",
    "liga": "Europa, Liga de las Naciones - UEFA - Liga A - Grupo 1",
    "inicio": "2026-11-12T14:45:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1794508505.0210032
+   "estado": "enviado",
+   "ultimo": 1794508749.9781218,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "511549,620429,3071407,3071410,4870623,29951241,50424606,51594637,52859220,67428963,68000276|308108,513713,898082,14755144,40408252,43470743,50445824,52332926,60909490,65079212,67987366",
+   "conf": true
   },
   "4672306": {
    "partido": "San Marino vs Bielorrusia",
    "liga": "Europa, Liga de las Naciones - UEFA - Liga C - Grupo 1",
    "inicio": "2026-11-12T14:45:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1794508505.0592854
+   "ultimo": 1794508750.6690218
   },
   "4672307": {
    "partido": "Albania vs Finlandia",
    "liga": "Europa, Liga de las Naciones - UEFA - Liga C - Grupo 1",
    "inicio": "2026-11-12T14:45:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1794508505.1330407
+   "ultimo": 1794508750.7002172
   },
   "4672308": {
    "partido": "Turquía vs Bélgica",
@@ -259,8 +267,12 @@
    "partido": "Montenegro vs Letonia",
    "liga": "Europa, Liga de las Naciones - UEFA - Liga C - Grupo 2",
    "inicio": "2026-11-12T14:45:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1794508505.1649454
+   "estado": "enviado",
+   "ultimo": 1794508750.7323751,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "180061,889050,3086722,3144263,31283563,53085455,70206104,70206111,75235317,75257236,76844371|923272,951846,3374578,14849066,50071364,59539495,65396649,66754760,68078526,69717983,69717991",
+   "conf": true
   },
   "4874716": {
    "partido": "Curazao vs Panamá",
@@ -288,7 +300,7 @@
    "liga": "Norteamérica, CONCACAF Liga de Naciones - Liga B - Grupo 2",
    "inicio": "2026-11-12T14:00:00-05:00",
    "estado": "enviado",
-   "ultimo": 1794508382.438089,
+   "ultimo": 1794508751.6336648,
    "clv": [],
    "clv_ok": false,
    "xi": "|",
