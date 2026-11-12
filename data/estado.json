@@ -148,12 +148,27 @@
    "partido": "Costa de Marfil vs Gambia",
    "liga": "África, Copa de África de Naciones - Clasificación",
    "inicio": "2026-11-12T14:00:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1794516987.2394574,
+   "estado": "liquidado",
+   "ultimo": 1794517601.484111,
    "clv": [],
    "clv_ok": false,
    "xi": "489221,600679,3136442,3143068,40765000,50159660,53769150,67689605,71092631,71150147,77099314|3056803,3078100,10454528,42928892,53674538,57178991,64360494,67757746,67757749,71503110,81332891",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 2,
+    "ag": 1,
+    "ht": [
+     2,
+     1
+    ],
+    "corners": 20.0,
+    "corners_h": 12.0,
+    "corners_a": 8.0,
+    "corners_1t": null,
+    "cards": 2.0,
+    "cards_h": 2.0,
+    "cards_a": 0.0
+   }
   },
   "4883927": {
    "partido": "Senegal vs Sudán",
@@ -443,7 +458,7 @@
    "liga": "Norteamérica, CONCACAF Liga de Naciones - Play-in",
    "inicio": "2026-11-12T17:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1794517357.9830475
+   "ultimo": 1794517601.747659
   },
   "4672295": {
    "partido": "Eslovenia vs Suiza",
