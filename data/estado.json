@@ -32,7 +32,7 @@
    "liga": "Internacional, Amistoso Internacional",
    "inicio": "2026-11-13T18:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1794606405.744898
+   "ultimo": 1794606649.6810346
   },
   "4855910": {
    "partido": "Colombia vs Chile",
@@ -767,12 +767,27 @@
    "partido": "Eslovenia vs Suiza",
    "liga": "Europa, Liga de las Naciones - UEFA - Liga B - Grupo 1",
    "inicio": "2026-11-13T14:45:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1794606031.6512501,
+   "estado": "liquidado",
+   "ultimo": 1794606649.8625,
    "clv": [],
    "clv_ok": false,
    "xi": "325326,3355132,3476512,9051014,14994675,57110247,57110251,60326040,66111742,66221740,70801632|90491,458646,470685,540689,672103,3154796,3276664,49499493,52013613,75259442,76776961",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 0,
+    "ag": 0,
+    "ht": [
+     0,
+     0
+    ],
+    "corners": 18.0,
+    "corners_h": 7.0,
+    "corners_a": 11.0,
+    "corners_1t": 10.0,
+    "cards": 2.0,
+    "cards_h": 2.0,
+    "cards_a": 0.0
+   }
   },
   "4672296": {
    "partido": "Escocia vs Macedonia del Norte",
@@ -1165,7 +1180,7 @@
    "liga": "Norteamérica, CONCACAF Liga de Naciones - Play-in",
    "inicio": "2026-11-13T18:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1794606405.9365718
+   "ultimo": 1794606650.1384614
   },
   "4874713": {
    "partido": "Granada vs San Cristóbal y Nieves",
