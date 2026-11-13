@@ -5,12 +5,27 @@
    "partido": "Singapur vs Paraguay",
    "liga": "Internacional, Amistoso Internacional",
    "inicio": "2026-11-13T07:00:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1794569559.602032,
+   "estado": "liquidado",
+   "ultimo": 1794578128.8231018,
    "clv": [],
    "clv_ok": false,
    "xi": "13341172,51397900,56848049,61996080,70854564,70938918,72757319,72831136,72831139,72831150,77382480|423312,497328,564872,12722929,19840004,28422660,52779508,56180109,71674971,76827426,76994821",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 1,
+    "ag": 4,
+    "ht": [
+     1,
+     2
+    ],
+    "corners": 10.0,
+    "corners_h": 4.0,
+    "corners_a": 6.0,
+    "corners_1t": null,
+    "cards": 0.0,
+    "cards_h": 0.0,
+    "cards_a": 0.0
+   }
   },
   "4877636": {
    "partido": "Argentina vs Uruguay",
@@ -694,7 +709,7 @@
    "liga": "Internacional, Amistoso Internacional",
    "inicio": "2026-11-13T09:45:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1794577883.1907508
+   "ultimo": 1794578128.927678
   },
   "4632602": {
    "partido": "Mirassol vs Atlético Mineiro",
