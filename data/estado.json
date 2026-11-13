@@ -759,22 +759,26 @@
    "partido": "Escocia vs Macedonia del Norte",
    "liga": "Europa, Liga de las Naciones - UEFA - Liga B - Grupo 1",
    "inicio": "2026-11-13T14:45:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1794595145.4670784
+   "estado": "enviado",
+   "ultimo": 1794595405.427134,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "327324,354502,503138,656203,936629,973073,3130350,4947373,34691016,64589868,70787760|393915,502893,549877,638422,3086707,3374447,3763333,39704121,66207408,75231642,77387197",
+   "conf": true
   },
   "4672297": {
    "partido": "Liechtenstein vs Azerbaiyán",
    "liga": "Europa, Liga de las Naciones - UEFA - Liga D - Grupo 2",
    "inicio": "2026-11-13T14:45:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1794595145.5720465
+   "ultimo": 1794595423.7224789
   },
   "4672298": {
    "partido": "Serbia vs Alemania",
    "liga": "Europa, Liga de las Naciones - UEFA - Liga A - Grupo 2",
    "inicio": "2026-11-13T14:45:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1794595145.66216
+   "ultimo": 1794595423.8171296
   },
   "4672299": {
    "partido": "Países Bajos vs Grecia",
@@ -824,8 +828,12 @@
    "partido": "Andorra vs Gibraltar",
    "liga": "Europa, Liga de las Naciones - UEFA - Liga D - Grupo 1",
    "inicio": "2026-11-13T14:45:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1794595153.3373625
+   "estado": "enviado",
+   "ultimo": 1794595423.9044425,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "548155,922563,42160607,64281578,68398072,70206097,71017432,71106852,75497625,77090730,81419573|588367,3176296,9592993,50945749,57084989,57084992,65830083,65848558,66430683,75229913,77063185",
+   "conf": true
   },
   "4697790": {
    "partido": "Luxemburgo vs Estonia",
