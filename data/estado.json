@@ -59,12 +59,27 @@
    "partido": "Egipto vs Malawi",
    "liga": "África, Copa de África de Naciones - Clasificación",
    "inicio": "2026-11-13T14:00:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1794603356.1551907,
+   "estado": "liquidado",
+   "ultimo": 1794603967.4876373,
    "clv": [],
    "clv_ok": false,
    "xi": "347901,434253,517168,538177,741216,3403495,3487214,4225832,49463074,50505357,50578373|49978809,59818886,59819083,62600689,67878082,70924174,71105210,76583937,77192715,77836766,79437505",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 5,
+    "ag": 0,
+    "ht": [
+     3,
+     0
+    ],
+    "corners": 13.0,
+    "corners_h": 6.0,
+    "corners_a": 7.0,
+    "corners_1t": null,
+    "cards": 4.0,
+    "cards_h": 1.0,
+    "cards_a": 3.0
+   }
   },
   "4760759": {
    "partido": "UTC Cajamarca vs Los Chankas",
