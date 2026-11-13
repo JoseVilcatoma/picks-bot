@@ -207,8 +207,12 @@
    "partido": "Marruecos vs Niger",
    "liga": "África, Copa de África de Naciones - Clasificación",
    "inicio": "2026-11-13T15:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1794597524.877027
+   "estado": "enviado",
+   "ultimo": 1794597647.729023,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "|",
+   "conf": false
   },
   "4883921": {
    "partido": "Ghana vs Somalia",
