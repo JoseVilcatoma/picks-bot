@@ -748,43 +748,55 @@
    "partido": "Eslovenia vs Suiza",
    "liga": "Europa, Liga de las Naciones - UEFA - Liga B - Grupo 1",
    "inicio": "2026-11-13T14:45:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1794594897.1962707
+   "estado": "enviado",
+   "ultimo": 1794595141.9835718,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "325326,3355132,3476512,9051014,14994675,57110247,57110251,60326040,66111742,66221740,70801632|90491,458646,470685,540689,672103,3154796,3276664,49499493,52013613,75259442,76776961",
+   "conf": true
   },
   "4672296": {
    "partido": "Escocia vs Macedonia del Norte",
    "liga": "Europa, Liga de las Naciones - UEFA - Liga B - Grupo 1",
    "inicio": "2026-11-13T14:45:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1794594897.2942586
+   "ultimo": 1794595145.4670784
   },
   "4672297": {
    "partido": "Liechtenstein vs Azerbaiyán",
    "liga": "Europa, Liga de las Naciones - UEFA - Liga D - Grupo 2",
    "inicio": "2026-11-13T14:45:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1794594897.4496982
+   "ultimo": 1794595145.5720465
   },
   "4672298": {
    "partido": "Serbia vs Alemania",
    "liga": "Europa, Liga de las Naciones - UEFA - Liga A - Grupo 2",
    "inicio": "2026-11-13T14:45:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1794594897.575132
+   "ultimo": 1794595145.66216
   },
   "4672299": {
    "partido": "Países Bajos vs Grecia",
    "liga": "Europa, Liga de las Naciones - UEFA - Liga A - Grupo 2",
    "inicio": "2026-11-13T14:45:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1794594897.669986
+   "estado": "enviado",
+   "ultimo": 1794595145.748814,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "888484,941464,3083456,3172767,3452932,14775530,35002742,38249831,38253925,43390337,63108549|528432,668937,668938,886827,3139150,3212222,47559232,49514151,49727649,51611636,71382441",
+   "conf": true
   },
   "4672300": {
    "partido": "Bulgaria vs Islandia",
    "liga": "Europa, Liga de las Naciones - UEFA - Liga C - Grupo 4",
    "inicio": "2026-11-13T14:45:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1794594897.758896
+   "estado": "enviado",
+   "ultimo": 1794595149.170215,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "923442,3074917,49462994,50501406,50746008,50799028,54544942,60286594,65882328,67799312,75257275|492337,10279281,15489392,49578463,52474318,58495051,61672509,62513182,64728519,65775413,70913188",
+   "conf": true
   },
   "4672301": {
    "partido": "Moldavia vs Kazajstán",
@@ -801,22 +813,30 @@
    "partido": "Eslovaquia vs Islas Feroe",
    "liga": "Europa, Liga de las Naciones - UEFA - Liga C - Grupo 3",
    "inicio": "2026-11-13T14:45:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1794594897.8998716
+   "estado": "enviado",
+   "ultimo": 1794595152.312344,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "356369,357215,410200,511624,561380,586163,844534,2993226,3754113,8258789,49518713|365009,549393,15152863,15152866,15572306,50913387,57352973,59479539,59987904,67869060,69734415",
+   "conf": true
   },
   "4697788": {
    "partido": "Andorra vs Gibraltar",
    "liga": "Europa, Liga de las Naciones - UEFA - Liga D - Grupo 1",
    "inicio": "2026-11-13T14:45:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1794594898.0005033
+   "ultimo": 1794595153.3373625
   },
   "4697790": {
    "partido": "Luxemburgo vs Estonia",
    "liga": "Europa, Liga de las Naciones - UEFA - Liga C - Grupo 4",
    "inicio": "2026-11-13T14:45:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1794594898.1133285
+   "estado": "enviado",
+   "ultimo": 1794595153.4427702,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "336585,516268,516274,638443,842698,3052372,3136376,52049396,70916162,76537886,77970758|468436,921950,50967039,56596898,56683155,57014364,58845718,67635071,72754115,72770766,77303305",
+   "conf": true
   },
   "4870468": {
    "partido": "Qatar vs Australia",
@@ -989,7 +1009,7 @@
    "liga": "Norteamérica, CONCACAF Liga de Naciones - Liga B - Grupo 2",
    "inicio": "2026-11-13T14:00:00-05:00",
    "estado": "enviado",
-   "ultimo": 1794594774.2586746,
+   "ultimo": 1794595154.8507318,
    "clv": [],
    "clv_ok": false,
    "xi": "|",
@@ -1000,11 +1020,11 @@
    "liga": "Norteamérica, CONCACAF Liga de Naciones - Liga B - Grupo 1",
    "inicio": "2026-11-13T14:00:00-05:00",
    "estado": "enviado",
-   "ultimo": 1794594774.350158,
+   "ultimo": 1794595154.9614828,
    "clv": [],
    "clv_ok": false,
-   "xi": "|",
-   "conf": false
+   "xi": "58454837,67750705,71014681,71014687,71014690,71014691,71014693,76625989,77849588,79423649,81421859|66358310,68067821,72094461,72768786,72768787,72768789,72768791,79435573,81421862,81421863,81421865",
+   "conf": true
   },
   "4672272": {
    "partido": "Macedonia del Norte vs Eslovenia",
