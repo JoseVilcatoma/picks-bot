@@ -248,8 +248,12 @@
    "partido": "Arabia Saudita vs Corea del Sur",
    "liga": "Internacional, Amistoso Internacional",
    "inicio": "2026-11-13T09:30:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1794577759.3354917
+   "estado": "enviado",
+   "ultimo": 1794577882.2769952,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "|",
+   "conf": false
   },
   "4672303": {
    "partido": "Inglaterra vs Croacia",
@@ -690,7 +694,7 @@
    "liga": "Internacional, Amistoso Internacional",
    "inicio": "2026-11-13T09:45:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1794577637.1373184
+   "ultimo": 1794577883.1907508
   },
   "4632602": {
    "partido": "Mirassol vs Atlético Mineiro",
