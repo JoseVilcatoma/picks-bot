@@ -3374,3 +3374,8 @@ fecha,game_id,partido,liga,tipo,mercado,clave,prob,cuota,casa,cuota_justa,ev,sta
 2026-11-13 09:03,4883813,Arabia Saudita vs Corea del Sur,"Internacional, Amistoso Internacional",modelo,Menos de 11.5 córners,CORN|11.5|under,0.7568,,,1.32,,,si,,,
 2026-11-13 09:03,4883813,Arabia Saudita vs Corea del Sur,"Internacional, Amistoso Internacional",ticket,Ambos marcan: No + No hay empate,BTTS||no&DC||12,0.4856,2.09,,2.06,0.0137,10.00,,,,
 2026-11-13 09:03,4883813,Arabia Saudita vs Corea del Sur,"Internacional, Amistoso Internacional",crear,Menos de 3.5 goles + Menos de 1.5 goles en el 1T + Más de 4.5 córners,OU|3.5|under&OU1T|1.5|under&CORN|4.5|over,0.5881,,,1.70,,,,,,
+2026-11-13 09:05,4870468,Qatar vs Australia,"Internacional, Amistoso Internacional",seguro,Menos de 3.5 goles,OU|3.5|under,0.7622,1.25,Bet365,1.31,-0.0473,,no,,,
+2026-11-13 09:05,4870468,Qatar vs Australia,"Internacional, Amistoso Internacional",seguro,No hay empate,DC||12,0.7285,1.25,Bet365,1.37,-0.0893,,no,,,
+2026-11-13 09:05,4870468,Qatar vs Australia,"Internacional, Amistoso Internacional",modelo,Menos de 6.5 tarjetas,CARDS|6.5|under,0.8086,,,1.24,,,no,,,
+2026-11-13 09:05,4870468,Qatar vs Australia,"Internacional, Amistoso Internacional",modelo,Menos de 11.5 córners,CORN|11.5|under,0.7142,,,1.40,,,no,,,
+2026-11-13 09:05,4870468,Qatar vs Australia,"Internacional, Amistoso Internacional",crear,Menos de 3.5 goles + Menos de 14.5 córners + Menos de 7.5 tarjetas,OU|3.5|under&CORN|14.5|under&CARDS|7.5|under,0.5322,,,1.88,,,,,,
