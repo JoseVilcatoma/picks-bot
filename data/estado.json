@@ -264,11 +264,11 @@
    "liga": "Internacional, Amistoso Internacional",
    "inicio": "2026-11-13T09:30:00-05:00",
    "estado": "enviado",
-   "ultimo": 1794578253.1624944,
+   "ultimo": 1794578618.627564,
    "clv": [],
    "clv_ok": false,
-   "xi": "|",
-   "conf": false
+   "xi": "497672,500067,3231193,3359858,3359869,6136625,11902504,50453757,58946085,64187293,66619442|116097,455623,856288,938102,5533521,6450095,49497960,50203633,57731568,65066066,69288809",
+   "conf": true
   },
   "4672303": {
    "partido": "Inglaterra vs Croacia",
@@ -709,7 +709,7 @@
    "liga": "Internacional, Amistoso Internacional",
    "inicio": "2026-11-13T09:45:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1794578375.2613685
+   "ultimo": 1794578619.261934
   },
   "4632602": {
    "partido": "Mirassol vs Atlético Mineiro",
