@@ -758,12 +758,27 @@
    "partido": "Qatar vs Australia",
    "liga": "Internacional, Amistoso Internacional",
    "inicio": "2026-11-13T09:45:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1794579474.7279258,
+   "estado": "liquidado",
+   "ultimo": 1794588119.445209,
    "clv": [],
    "clv_ok": false,
    "xi": "218677,354181,355144,613844,681229,681245,3267923,10120332,50461093,66528866,75519715|207133,913772,3169892,4800962,31677846,51940972,56230524,64317526,64392622,70953039,76712965",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 0,
+    "ag": 3,
+    "ht": [
+     0,
+     3
+    ],
+    "corners": 5.0,
+    "corners_h": 1.0,
+    "corners_a": 4.0,
+    "corners_1t": 5.0,
+    "cards": 3.0,
+    "cards_h": 2.0,
+    "cards_a": 1.0
+   }
   },
   "4632602": {
    "partido": "Mirassol vs Atlético Mineiro",
