@@ -711,8 +711,12 @@
    "partido": "Moldavia vs Kazajstán",
    "liga": "Europa, Liga de las Naciones - UEFA - Liga C - Grupo 3",
    "inicio": "2026-11-13T12:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1794584955.0071163
+   "estado": "enviado",
+   "ultimo": 1794585199.9138005,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "561211,8428047,49978808,59454733,62017132,62451201,64281208,76850698,77113152,77310495,77344838|491057,3383591,14821721,57064697,57064700,70846134,72840887,76685006,77074805,77074809,77981427",
+   "conf": true
   },
   "4672302": {
    "partido": "Eslovaquia vs Islas Feroe",
