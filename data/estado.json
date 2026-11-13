@@ -42,15 +42,19 @@
    "partido": "Colombia vs Chile",
    "liga": "Internacional, Amistoso Internacional",
    "inicio": "2026-11-13T19:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1794611676.1367652
+   "estado": "enviado",
+   "ultimo": 1794611920.0318408,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "359335,502298,560632,893771,1006401,5531840,9157528,56196972,65820461,67070846,76530932|543072,612803,893355,3130171,40774820,50973907,51059357,59992834,64741566,64928283,66538956",
+   "conf": true
   },
   "4877633": {
    "partido": "Ecuador vs Costa Rica",
    "liga": "Internacional, Amistoso Internacional",
    "inicio": "2026-11-13T19:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1794611676.2750905
+   "ultimo": 1794611923.4314358
   },
   "4882109": {
    "partido": "Perú vs Bolivia",
@@ -1192,7 +1196,7 @@
    "liga": "Norteamérica, CONCACAF Liga de Naciones - Play-in",
    "inicio": "2026-11-13T19:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1794611676.2866123
+   "ultimo": 1794611923.5244715
   },
   "4874712": {
    "partido": "Saint-Martin vs El Salvador",
