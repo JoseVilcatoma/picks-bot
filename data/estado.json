@@ -58,8 +58,12 @@
    "partido": "Comoros vs República del Congo",
    "liga": "África, Copa de África de Naciones - Clasificación",
    "inicio": "2026-11-13T08:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1794572357.3167691
+   "estado": "enviado",
+   "ultimo": 1794572479.8118339,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "|",
+   "conf": false
   },
   "4883933": {
    "partido": "Sudáfrica vs Kenia",
