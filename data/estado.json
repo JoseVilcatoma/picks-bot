@@ -208,7 +208,7 @@
    "liga": "África, Copa de África de Naciones - Clasificación",
    "inicio": "2026-11-13T15:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 0
+   "ultimo": 1794595552.5418506
   },
   "4883921": {
    "partido": "Ghana vs Somalia",
@@ -1009,15 +1009,19 @@
    "partido": "Granada vs San Cristóbal y Nieves",
    "liga": "Norteamérica, CONCACAF Liga de Naciones - Liga B - Grupo 3",
    "inicio": "2026-11-13T15:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 0
+   "estado": "enviado",
+   "ultimo": 1794595552.6435688,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "50927707,65434305,67617845,67759688,70923041,70923051,71354750,72768565,77007845,77785902,81421814|490912,1397792,50957016,60723369,66546840,67874696,67877221,67877266,75441544,79429860,81421917",
+   "conf": true
   },
   "4874714": {
    "partido": "Bermuda vs Santa Lucía",
    "liga": "Norteamérica, CONCACAF Liga de Naciones - Liga B - Grupo 2",
    "inicio": "2026-11-13T14:00:00-05:00",
    "estado": "enviado",
-   "ultimo": 1794595154.8507318,
+   "ultimo": 1794595554.5335364,
    "clv": [],
    "clv_ok": false,
    "xi": "|",
