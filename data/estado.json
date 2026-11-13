@@ -1198,8 +1198,12 @@
    "partido": "Saint-Martin vs El Salvador",
    "liga": "Norteamérica, CONCACAF Liga de Naciones - Play-in",
    "inicio": "2026-11-13T18:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1794608370.8282077
+   "estado": "enviado",
+   "ultimo": 1794608495.8009188,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "|",
+   "conf": false
   },
   "4874713": {
    "partido": "Granada vs San Cristóbal y Nieves",
