@@ -988,15 +988,23 @@
    "partido": "Bermuda vs Santa Lucía",
    "liga": "Norteamérica, CONCACAF Liga de Naciones - Liga B - Grupo 2",
    "inicio": "2026-11-13T14:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1794593950.188768
+   "estado": "enviado",
+   "ultimo": 1794594074.955276,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "|",
+   "conf": false
   },
   "4874715": {
    "partido": "Puerto Rico vs Dominica",
    "liga": "Norteamérica, CONCACAF Liga de Naciones - Liga B - Grupo 1",
    "inicio": "2026-11-13T14:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1794593950.2081897
+   "estado": "enviado",
+   "ultimo": 1794594075.3449419,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "|",
+   "conf": false
   },
   "4672272": {
    "partido": "Macedonia del Norte vs Eslovenia",
