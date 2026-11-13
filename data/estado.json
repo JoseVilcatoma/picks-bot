@@ -65,7 +65,7 @@
    "liga": "Internacional, Amistoso Internacional",
    "inicio": "2026-11-13T20:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 0
+   "ultimo": 1794613521.7198942
   },
   "4716606": {
    "partido": "Egipto vs Malawi",
@@ -1719,6 +1719,6 @@
   "4882785",
   "4886905"
  ],
- "auto_t": 1794591875.2037332,
+ "auto_t": 1794613521.7094586,
  "rechazados": {}
 }
