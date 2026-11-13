@@ -32,7 +32,7 @@
    "liga": "Internacional, Amistoso Internacional",
    "inicio": "2026-11-13T18:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1794607388.9452665
+   "ultimo": 1794607633.027435
   },
   "4855910": {
    "partido": "Colombia vs Chile",
@@ -222,12 +222,27 @@
    "partido": "Marruecos vs Niger",
    "liga": "África, Copa de África de Naciones - Clasificación",
    "inicio": "2026-11-13T15:00:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1794607019.0158408,
+   "estado": "liquidado",
+   "ultimo": 1794607633.172753,
    "clv": [],
    "clv_ok": false,
    "xi": "541540,1404731,1759210,3169055,5786329,8490982,55334368,62694855,65139386,71003385,71407785|2545139,65216434,66832981,67645826,67874648,76584314,77073757,77556628,79437446,79437448,79482817",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 5,
+    "ag": 1,
+    "ht": [
+     3,
+     1
+    ],
+    "corners": 8.0,
+    "corners_h": 6.0,
+    "corners_a": 2.0,
+    "corners_1t": null,
+    "cards": 5.0,
+    "cards_h": 2.0,
+    "cards_a": 3.0
+   }
   },
   "4883921": {
    "partido": "Ghana vs Somalia",
@@ -1180,7 +1195,7 @@
    "liga": "Norteamérica, CONCACAF Liga de Naciones - Play-in",
    "inicio": "2026-11-13T18:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1794607389.1475098
+   "ultimo": 1794607633.4326663
   },
   "4874713": {
    "partido": "Granada vs San Cristóbal y Nieves",
