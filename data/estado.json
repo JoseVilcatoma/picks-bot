@@ -100,7 +100,7 @@
    "liga": "África, Copa de África de Naciones - Clasificación",
    "inicio": "2026-11-13T11:00:00-05:00",
    "estado": "enviado",
-   "ultimo": 1794583614.9986818,
+   "ultimo": 1794583979.2212303,
    "clv": [],
    "clv_ok": false,
    "xi": "|",
@@ -111,7 +111,7 @@
    "liga": "África, Copa de África de Naciones - Clasificación",
    "inicio": "2026-11-13T11:00:00-05:00",
    "estado": "enviado",
-   "ultimo": 1794583615.1140838,
+   "ultimo": 1794583979.3636906,
    "clv": [],
    "clv_ok": false,
    "xi": "|",
@@ -122,22 +122,22 @@
    "liga": "África, Copa de África de Naciones - Clasificación",
    "inicio": "2026-11-13T11:00:00-05:00",
    "estado": "enviado",
-   "ultimo": 1794583615.1351104,
+   "ultimo": 1794583979.3821478,
    "clv": [],
    "clv_ok": false,
-   "xi": "|",
-   "conf": false
+   "xi": "300265,607480,3163919,53725703,63706522,63927158,66460048,70800146,71130034,71360826,81420400|47072641,54385900,63777118,67877641,77339199,79437636,79437657,81420413",
+   "conf": true
   },
   "4883937": {
    "partido": "Nigeria vs Tanzania",
    "liga": "África, Copa de África de Naciones - Clasificación",
    "inicio": "2026-11-13T11:00:00-05:00",
    "estado": "enviado",
-   "ultimo": 1794583615.1527698,
+   "ultimo": 1794583979.875509,
    "clv": [],
    "clv_ok": false,
-   "xi": "|",
-   "conf": false
+   "xi": "526648,598010,698994,1333417,2383747,50208640,71310640,77480706,77736847,81420403,81420404|9157818,46289012,67630383,67720919,67721894,67867087,70983957,71329139,72841091,77193878,81420423",
+   "conf": true
   },
   "4883940": {
    "partido": "Marruecos vs Niger",
