@@ -455,12 +455,27 @@
    "partido": "Curazao vs Panamá",
    "liga": "Norteamérica, CONCACAF Liga de Naciones - Cuartos de Final",
    "inicio": "2026-11-12T19:30:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1794527349.5160942,
+   "estado": "liquidado",
+   "ultimo": 1794536791.9410934,
    "clv": [],
    "clv_ok": false,
    "xi": "226336,335710,353474,613517,906089,944196,4222302,8869480,50801895,50854711,57535532|549592,663960,678601,902316,3246156,3477081,14810606,49547099,64911927,65338873,75461895",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 0,
+    "ag": 0,
+    "ht": [
+     0,
+     0
+    ],
+    "corners": 9.0,
+    "corners_h": 4.0,
+    "corners_a": 5.0,
+    "corners_1t": 6.0,
+    "cards": 5.0,
+    "cards_h": 2.0,
+    "cards_a": 3.0
+   }
   },
   "4874717": {
    "partido": "Antigua y Barbuda vs Trinidad y Tobago",
