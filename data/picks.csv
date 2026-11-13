@@ -3408,3 +3408,8 @@ fecha,game_id,partido,liga,tipo,mercado,clave,prob,cuota,casa,cuota_justa,ev,sta
 2026-11-13 10:57,4883935,Túnez vs Libia,"África, Copa de África de Naciones - Clasificación",modelo,Menos de 6.5 tarjetas,CARDS|6.5|under,0.8377,,,1.19,,,si,G,,
 2026-11-13 10:57,4883935,Túnez vs Libia,"África, Copa de África de Naciones - Clasificación",modelo,Menos de 11.5 córners,CORN|11.5|under,0.7484,,,1.34,,,si,P,,
 2026-11-13 10:57,4883935,Túnez vs Libia,"África, Copa de África de Naciones - Clasificación",crear,Más de 0.5 goles + Menos de 12.5 córners + Menos de 6.5 tarjetas,OU|0.5|over&CORN|12.5|under&CARDS|6.5|under,0.5808,,,1.72,,,,G,,
+2026-11-13 13:19,4716606,Egipto vs Malawi,"África, Copa de África de Naciones - Clasificación",seguro,Menos de 3.5 goles,OU|3.5|under,0.7755,1.53,Bet365,1.29,0.1865,,si,,,
+2026-11-13 13:19,4716606,Egipto vs Malawi,"África, Copa de África de Naciones - Clasificación",modelo,Menos de 6.5 tarjetas,CARDS|6.5|under,0.8178,,,1.22,,,si,,,
+2026-11-13 13:19,4716606,Egipto vs Malawi,"África, Copa de África de Naciones - Clasificación",modelo,Menos de 1.5 goles en el 1T,OU1T|1.5|under,0.7512,,,1.33,,,si,,,
+2026-11-13 13:19,4716606,Egipto vs Malawi,"África, Copa de África de Naciones - Clasificación",ticket,Ambos marcan: No + Menos de 3.5 goles,BTTS||no&OU|3.5|under,0.6323,1.91,,1.58,0.2093,10.00,,,,
+2026-11-13 13:19,4716606,Egipto vs Malawi,"África, Copa de África de Naciones - Clasificación",crear,Más de 0.5 goles + Más de 5.5 córners + Menos de 6.5 tarjetas,OU|0.5|over&CORN|5.5|over&CARDS|6.5|under,0.5828,,,1.72,,,,,,
