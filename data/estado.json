@@ -60,7 +60,7 @@
    "liga": "África, Copa de África de Naciones - Clasificación",
    "inicio": "2026-11-13T14:00:00-05:00",
    "estado": "enviado",
-   "ultimo": 1794593949.3709261,
+   "ultimo": 1794603356.1551907,
    "clv": [],
    "clv_ok": false,
    "xi": "347901,434253,517168,538177,741216,3403495,3487214,4225832,49463074,50505357,50578373|49978809,59818886,59819083,62600689,67878082,70924174,71105210,76583937,77192715,77836766,79437505",
@@ -1047,23 +1047,53 @@
    "partido": "Bermuda vs Santa Lucía",
    "liga": "Norteamérica, CONCACAF Liga de Naciones - Liga B - Grupo 2",
    "inicio": "2026-11-13T14:00:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1794595931.385873,
+   "estado": "liquidado",
+   "ultimo": 1794603356.3715234,
    "clv": [],
    "clv_ok": false,
    "xi": "1762999,19698258,19698261,57458521,59506751,67880952,70922936,77192456,77300607,79438069,81422148|1903939,60357968,62416919,67344403,67452094,67889859,71122546,75411616,77771277,79423055,79423056",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 1,
+    "ag": 2,
+    "ht": [
+     0,
+     1
+    ],
+    "corners": 12.0,
+    "corners_h": 3.0,
+    "corners_a": 9.0,
+    "corners_1t": 8.0,
+    "cards": 6.0,
+    "cards_h": 4.0,
+    "cards_a": 2.0
+   }
   },
   "4874715": {
    "partido": "Puerto Rico vs Dominica",
    "liga": "Norteamérica, CONCACAF Liga de Naciones - Liga B - Grupo 1",
    "inicio": "2026-11-13T14:00:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1794595154.9614828,
+   "estado": "liquidado",
+   "ultimo": 1794603356.6424704,
    "clv": [],
    "clv_ok": false,
    "xi": "58454837,67750705,71014681,71014687,71014690,71014691,71014693,76625989,77849588,79423649,81421859|66358310,68067821,72094461,72768786,72768787,72768789,72768791,79435573,81421862,81421863,81421865",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 4,
+    "ag": 2,
+    "ht": [
+     1,
+     0
+    ],
+    "corners": 10.0,
+    "corners_h": 5.0,
+    "corners_a": 5.0,
+    "corners_1t": 3.0,
+    "cards": 3.0,
+    "cards_h": 2.0,
+    "cards_a": 1.0
+   }
   },
   "4672272": {
    "partido": "Macedonia del Norte vs Eslovenia",
