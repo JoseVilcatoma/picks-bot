@@ -43,14 +43,14 @@
    "liga": "Internacional, Amistoso Internacional",
    "inicio": "2026-11-13T19:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1794610213.3959756
+   "ultimo": 1794610457.1773543
   },
   "4877633": {
    "partido": "Ecuador vs Costa Rica",
    "liga": "Internacional, Amistoso Internacional",
    "inicio": "2026-11-13T19:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1794610213.5250454
+   "ultimo": 1794610457.2941206
   },
   "4882109": {
    "partido": "Perú vs Bolivia",
@@ -1192,7 +1192,7 @@
    "liga": "Norteamérica, CONCACAF Liga de Naciones - Play-in",
    "inicio": "2026-11-13T19:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1794610213.5430765
+   "ultimo": 1794610457.30602
   },
   "4874712": {
    "partido": "Saint-Martin vs El Salvador",
