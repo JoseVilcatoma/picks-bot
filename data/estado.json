@@ -99,29 +99,45 @@
    "partido": "Sudáfrica vs Kenia",
    "liga": "África, Copa de África de Naciones - Clasificación",
    "inicio": "2026-11-13T11:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1794583122.3541672
+   "estado": "enviado",
+   "ultimo": 1794583245.0635796,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "|",
+   "conf": false
   },
   "4883935": {
    "partido": "Túnez vs Libia",
    "liga": "África, Copa de África de Naciones - Clasificación",
    "inicio": "2026-11-13T11:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1794583122.5022383
+   "estado": "enviado",
+   "ultimo": 1794583245.692779,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "|",
+   "conf": false
   },
   "4883936": {
    "partido": "Cabo Verde vs Liberia",
    "liga": "África, Copa de África de Naciones - Clasificación",
    "inicio": "2026-11-13T11:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1794583122.5229225
+   "estado": "enviado",
+   "ultimo": 1794583246.3306913,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "|",
+   "conf": false
   },
   "4883937": {
    "partido": "Nigeria vs Tanzania",
    "liga": "África, Copa de África de Naciones - Clasificación",
    "inicio": "2026-11-13T11:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1794583122.5415497
+   "estado": "enviado",
+   "ultimo": 1794583246.8504176,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "|",
+   "conf": false
   },
   "4883940": {
    "partido": "Marruecos vs Niger",
