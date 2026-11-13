@@ -53,8 +53,12 @@
    "partido": "Ecuador vs Costa Rica",
    "liga": "Internacional, Amistoso Internacional",
    "inicio": "2026-11-13T19:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1794611923.4314358
+   "estado": "enviado",
+   "ultimo": 1794612048.695986,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "492531,638781,3095205,3359828,4913062,6738011,39270918,40745412,50457607,55977965,59993290|340002,409328,566656,3051125,3069326,3091669,12649150,12649151,56749969,63004033,66631153",
+   "conf": false
   },
   "4882109": {
    "partido": "Perú vs Bolivia",
@@ -1195,8 +1199,12 @@
    "partido": "Montserrat vs Nicaragua",
    "liga": "Norteamérica, CONCACAF Liga de Naciones - Play-in",
    "inicio": "2026-11-13T19:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1794611923.5244715
+   "estado": "enviado",
+   "ultimo": 1794612051.4357178,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "|",
+   "conf": false
   },
   "4874712": {
    "partido": "Saint-Martin vs El Salvador",
