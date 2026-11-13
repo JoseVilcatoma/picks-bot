@@ -31,8 +31,12 @@
    "partido": "Argentina vs Uruguay",
    "liga": "Internacional, Amistoso Internacional",
    "inicio": "2026-11-13T18:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1794608123.714426
+   "estado": "enviado",
+   "ultimo": 1794608367.7124686,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "354062,1050815,1140554,3886928,4201425,7180298,9057069,9412443,9638719,48394475,65895085|367429,425177,624663,638801,638806,843502,1651346,3049924,3144702,3344160,7244055",
+   "conf": true
   },
   "4855910": {
    "partido": "Colombia vs Chile",
@@ -1195,7 +1199,7 @@
    "liga": "Norteamérica, CONCACAF Liga de Naciones - Play-in",
    "inicio": "2026-11-13T18:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1794608123.878566
+   "ultimo": 1794608370.8282077
   },
   "4874713": {
    "partido": "Granada vs San Cristóbal y Nieves",
