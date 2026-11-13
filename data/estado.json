@@ -294,12 +294,27 @@
    "partido": "Arabia Saudita vs Corea del Sur",
    "liga": "Internacional, Amistoso Internacional",
    "inicio": "2026-11-13T09:30:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1794587144.6804042,
+   "estado": "liquidado",
+   "ultimo": 1794587752.423389,
    "clv": [],
    "clv_ok": false,
    "xi": "497672,500067,3231193,3359858,3359869,6136625,11902504,50453757,58946085,64187293,66619442|116097,455623,856288,938102,5533521,6450095,49497960,50203633,57731568,65066066,69288809",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 3,
+    "ag": 2,
+    "ht": [
+     1,
+     0
+    ],
+    "corners": 4.0,
+    "corners_h": 2.0,
+    "corners_a": 2.0,
+    "corners_1t": 2.0,
+    "cards": 2.0,
+    "cards_h": 1.0,
+    "cards_a": 1.0
+   }
   },
   "4672303": {
    "partido": "Inglaterra vs Croacia",
