@@ -770,15 +770,23 @@
    "partido": "Liechtenstein vs Azerbaiyán",
    "liga": "Europa, Liga de las Naciones - UEFA - Liga D - Grupo 2",
    "inicio": "2026-11-13T14:45:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1794595423.7224789
+   "estado": "enviado",
+   "ultimo": 1794595679.3949747,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "385169,534535,3052017,3052020,3080882,3097293,70920330,70922685,71901465,72770248,79421021|486516,530619,549208,941759,23707447,50679588,70846480,71360254,77300070,77573070,77885342",
+   "conf": true
   },
   "4672298": {
    "partido": "Serbia vs Alemania",
    "liga": "Europa, Liga de las Naciones - UEFA - Liga A - Grupo 2",
    "inicio": "2026-11-13T14:45:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1794595423.8171296
+   "estado": "enviado",
+   "ultimo": 1794595682.0803654,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "288958,484001,593504,3060939,3150246,49463479,70775504,70915839,71423232,75441971,77387198|286053,412127,485309,909220,3071278,48658809,49449655,66221753,67628271,67864491,69040955",
+   "conf": true
   },
   "4672299": {
    "partido": "Países Bajos vs Grecia",
