@@ -768,7 +768,7 @@
    "liga": "Europa, Liga de las Naciones - UEFA - Liga B - Grupo 1",
    "inicio": "2026-11-13T14:45:00-05:00",
    "estado": "enviado",
-   "ultimo": 1794595141.9835718,
+   "ultimo": 1794606031.6512501,
    "clv": [],
    "clv_ok": false,
    "xi": "325326,3355132,3476512,9051014,14994675,57110247,57110251,60326040,66111742,66221740,70801632|90491,458646,470685,540689,672103,3154796,3276664,49499493,52013613,75259442,76776961",
@@ -778,56 +778,131 @@
    "partido": "Escocia vs Macedonia del Norte",
    "liga": "Europa, Liga de las Naciones - UEFA - Liga B - Grupo 1",
    "inicio": "2026-11-13T14:45:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1794595405.427134,
+   "estado": "liquidado",
+   "ultimo": 1794606031.8309612,
    "clv": [],
    "clv_ok": false,
    "xi": "327324,354502,503138,656203,936629,973073,3130350,4947373,34691016,64589868,70787760|393915,502893,549877,638422,3086707,3374447,3763333,39704121,66207408,75231642,77387197",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 2,
+    "ag": 1,
+    "ht": [
+     0,
+     0
+    ],
+    "corners": 14.0,
+    "corners_h": 9.0,
+    "corners_a": 5.0,
+    "corners_1t": 7.0,
+    "cards": 1.0,
+    "cards_h": 1.0,
+    "cards_a": 0.0
+   }
   },
   "4672297": {
    "partido": "Liechtenstein vs Azerbaiyán",
    "liga": "Europa, Liga de las Naciones - UEFA - Liga D - Grupo 2",
    "inicio": "2026-11-13T14:45:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1794595679.3949747,
+   "estado": "liquidado",
+   "ultimo": 1794606032.0924456,
    "clv": [],
    "clv_ok": false,
    "xi": "385169,534535,3052017,3052020,3080882,3097293,70920330,70922685,71901465,72770248,79421021|486516,530619,549208,941759,23707447,50679588,70846480,71360254,77300070,77573070,77885342",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 0,
+    "ag": 1,
+    "ht": [
+     0,
+     1
+    ],
+    "corners": 10.0,
+    "corners_h": 1.0,
+    "corners_a": 9.0,
+    "corners_1t": 3.0,
+    "cards": 3.0,
+    "cards_h": 2.0,
+    "cards_a": 1.0
+   }
   },
   "4672298": {
    "partido": "Serbia vs Alemania",
    "liga": "Europa, Liga de las Naciones - UEFA - Liga A - Grupo 2",
    "inicio": "2026-11-13T14:45:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1794595682.0803654,
+   "estado": "liquidado",
+   "ultimo": 1794606032.371,
    "clv": [],
    "clv_ok": false,
    "xi": "288958,484001,593504,3060939,3150246,49463479,70775504,70915839,71423232,75441971,77387198|286053,412127,485309,909220,3071278,48658809,49449655,66221753,67628271,67864491,69040955",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 1,
+    "ag": 3,
+    "ht": [
+     0,
+     2
+    ],
+    "corners": 6.0,
+    "corners_h": 0.0,
+    "corners_a": 6.0,
+    "corners_1t": 4.0,
+    "cards": 6.0,
+    "cards_h": 5.0,
+    "cards_a": 1.0
+   }
   },
   "4672299": {
    "partido": "Países Bajos vs Grecia",
    "liga": "Europa, Liga de las Naciones - UEFA - Liga A - Grupo 2",
    "inicio": "2026-11-13T14:45:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1794595145.748814,
+   "estado": "liquidado",
+   "ultimo": 1794606032.6596687,
    "clv": [],
    "clv_ok": false,
    "xi": "888484,941464,3083456,3172767,3452932,14775530,35002742,38249831,38253925,43390337,63108549|528432,668937,668938,886827,3139150,3212222,47559232,49514151,49727649,51611636,71382441",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 7,
+    "ag": 0,
+    "ht": [
+     5,
+     0
+    ],
+    "corners": 9.0,
+    "corners_h": 5.0,
+    "corners_a": 4.0,
+    "corners_1t": 5.0,
+    "cards": 0.0,
+    "cards_h": 0.0,
+    "cards_a": 0.0
+   }
   },
   "4672300": {
    "partido": "Bulgaria vs Islandia",
    "liga": "Europa, Liga de las Naciones - UEFA - Liga C - Grupo 4",
    "inicio": "2026-11-13T14:45:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1794595149.170215,
+   "estado": "liquidado",
+   "ultimo": 1794606032.9552326,
    "clv": [],
    "clv_ok": false,
    "xi": "923442,3074917,49462994,50501406,50746008,50799028,54544942,60286594,65882328,67799312,75257275|492337,10279281,15489392,49578463,52474318,58495051,61672509,62513182,64728519,65775413,70913188",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 0,
+    "ag": 5,
+    "ht": [
+     0,
+     2
+    ],
+    "corners": 5.0,
+    "corners_h": 4.0,
+    "corners_a": 1.0,
+    "corners_1t": 1.0,
+    "cards": 4.0,
+    "cards_h": 2.0,
+    "cards_a": 2.0
+   }
   },
   "4672301": {
    "partido": "Moldavia vs Kazajstán",
@@ -859,34 +934,79 @@
    "partido": "Eslovaquia vs Islas Feroe",
    "liga": "Europa, Liga de las Naciones - UEFA - Liga C - Grupo 3",
    "inicio": "2026-11-13T14:45:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1794595152.312344,
+   "estado": "liquidado",
+   "ultimo": 1794606033.229861,
    "clv": [],
    "clv_ok": false,
    "xi": "356369,357215,410200,511624,561380,586163,844534,2993226,3754113,8258789,49518713|365009,549393,15152863,15152866,15572306,50913387,57352973,59479539,59987904,67869060,69734415",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 2,
+    "ag": 2,
+    "ht": [
+     1,
+     1
+    ],
+    "corners": 14.0,
+    "corners_h": 9.0,
+    "corners_a": 5.0,
+    "corners_1t": 6.0,
+    "cards": 5.0,
+    "cards_h": 2.0,
+    "cards_a": 3.0
+   }
   },
   "4697788": {
    "partido": "Andorra vs Gibraltar",
    "liga": "Europa, Liga de las Naciones - UEFA - Liga D - Grupo 1",
    "inicio": "2026-11-13T14:45:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1794595423.9044425,
+   "estado": "liquidado",
+   "ultimo": 1794606033.5154886,
    "clv": [],
    "clv_ok": false,
    "xi": "548155,922563,42160607,64281578,68398072,70206097,71017432,71106852,75497625,77090730,81419573|588367,3176296,9592993,50945749,57084989,57084992,65830083,65848558,66430683,75229913,77063185",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 2,
+    "ag": 0,
+    "ht": [
+     2,
+     0
+    ],
+    "corners": 5.0,
+    "corners_h": 3.0,
+    "corners_a": 2.0,
+    "corners_1t": 3.0,
+    "cards": 7.0,
+    "cards_h": 2.0,
+    "cards_a": 5.0
+   }
   },
   "4697790": {
    "partido": "Luxemburgo vs Estonia",
    "liga": "Europa, Liga de las Naciones - UEFA - Liga C - Grupo 4",
    "inicio": "2026-11-13T14:45:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1794595153.4427702,
+   "estado": "liquidado",
+   "ultimo": 1794606033.7940903,
    "clv": [],
    "clv_ok": false,
    "xi": "336585,516268,516274,638443,842698,3052372,3136376,52049396,70916162,76537886,77970758|468436,921950,50967039,56596898,56683155,57014364,58845718,67635071,72754115,72770766,77303305",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 0,
+    "ag": 1,
+    "ht": [
+     0,
+     1
+    ],
+    "corners": 4.0,
+    "corners_h": 2.0,
+    "corners_a": 2.0,
+    "corners_1t": 1.0,
+    "cards": 3.0,
+    "cards_h": 3.0,
+    "cards_a": 0.0
+   }
   },
   "4870468": {
    "partido": "Qatar vs Australia",
