@@ -109,12 +109,27 @@
    "partido": "Perú vs Bolivia",
    "liga": "Internacional, Amistoso Internacional",
    "inicio": "2026-11-13T20:00:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1794624968.4795218,
+   "estado": "liquidado",
+   "ultimo": 1794625577.2876186,
    "clv": [],
    "clv_ok": false,
    "xi": "275266,393797,478387,485269,486170,894735,11958892,12728006,67955153,67955411,75257123|461107,1085307,2548448,58332147,60431186,65397501,66813042,67112155,71356054,76798455,77096382",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 2,
+    "ag": 0,
+    "ht": [
+     1,
+     0
+    ],
+    "corners": 10.0,
+    "corners_h": 6.0,
+    "corners_a": 4.0,
+    "corners_1t": 7.0,
+    "cards": 3.0,
+    "cards_h": 1.0,
+    "cards_a": 2.0
+   }
   },
   "4716606": {
    "partido": "Egipto vs Malawi",
