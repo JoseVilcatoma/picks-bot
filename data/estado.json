@@ -429,7 +429,7 @@
    "liga": "Internacional, Amistoso Internacional",
    "inicio": "2026-11-14T14:00:00-05:00",
    "estado": "enviado",
-   "ultimo": 1794681229.7321327,
+   "ultimo": 1794681597.067799,
    "clv": [],
    "clv_ok": false,
    "xi": "|",
@@ -1091,29 +1091,33 @@
    "partido": "Suecia vs Bosnia Herzegovina",
    "liga": "Europa, Liga de las Naciones - UEFA - Liga B - Grupo 4",
    "inicio": "2026-11-14T14:45:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1794681352.6443803
+   "estado": "enviado",
+   "ultimo": 1794681597.250121,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "501604,886874,1286508,3287853,49625384,50878796,50953602,53614148,57787354,61880538,65246896|334658,348681,3345229,6241304,49580032,55401980,55872997,60732751,65792666,66220685,75535290",
+   "conf": true
   },
   "4672288": {
    "partido": "Rumania vs Polonia",
    "liga": "Europa, Liga de las Naciones - UEFA - Liga B - Grupo 4",
    "inicio": "2026-11-14T14:45:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1794681352.6732519
+   "ultimo": 1794681600.9510894
   },
   "4672289": {
    "partido": "Austria vs Irlanda",
    "liga": "Europa, Liga de las Naciones - UEFA - Liga B - Grupo 3",
    "inicio": "2026-11-14T14:45:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1794681352.700362
+   "ultimo": 1794681601.0552278
   },
   "4672290": {
    "partido": "Irlanda del Norte vs Ucrania",
    "liga": "Europa, Liga de las Naciones - UEFA - Liga B - Grupo 2",
    "inicio": "2026-11-14T14:45:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1794681352.7304301
+   "ultimo": 1794681601.15588
   },
   "4672292": {
    "partido": "Georgia vs Hungría",
@@ -1587,7 +1591,7 @@
    "liga": "Europa, Liga de las Naciones - UEFA - Liga A - Grupo 4",
    "inicio": "2026-11-14T14:45:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1794681352.7597547
+   "ultimo": 1794681601.266593
   },
   "4845108": {
    "partido": "Singapur vs Brasil",
