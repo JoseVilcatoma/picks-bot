@@ -1215,12 +1215,27 @@
    "partido": "Kosovo vs Israel",
    "liga": "Europa, Liga de las Naciones - UEFA - Liga B - Grupo 3",
    "inicio": "2026-11-14T09:00:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1794661387.5604317,
+   "estado": "liquidado",
+   "ultimo": 1794671806.160178,
    "clv": [],
    "clv_ok": false,
    "xi": "550387,898463,3052014,3544280,3594757,53447042,57609066,61020641,66124955,68006639,77071200|161992,517126,3108504,3350130,3777472,38530758,50169527,64807494,65335843,71323358,71911000",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 0,
+    "ag": 0,
+    "ht": [
+     0,
+     0
+    ],
+    "corners": 9.0,
+    "corners_h": 7.0,
+    "corners_a": 2.0,
+    "corners_1t": 6.0,
+    "cards": 6.0,
+    "cards_h": 2.0,
+    "cards_a": 4.0
+   }
   },
   "4697785": {
    "partido": "Letonia vs Armenia",
