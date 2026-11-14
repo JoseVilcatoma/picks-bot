@@ -31,12 +31,27 @@
    "partido": "Argentina vs Uruguay",
    "liga": "Internacional, Amistoso Internacional",
    "inicio": "2026-11-13T18:00:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1794617770.2090693,
+   "estado": "liquidado",
+   "ultimo": 1794618384.2589927,
    "clv": [],
    "clv_ok": false,
    "xi": "354062,1050815,1140554,3886928,4201425,7180298,9057069,9412443,9638719,48394475,65895085|367429,425177,624663,638801,638806,843502,1651346,3049924,3144702,3344160,7244055",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 1,
+    "ag": 2,
+    "ht": [
+     0,
+     0
+    ],
+    "corners": 9.0,
+    "corners_h": 6.0,
+    "corners_a": 3.0,
+    "corners_1t": 4.0,
+    "cards": 6.0,
+    "cards_h": 3.0,
+    "cards_a": 3.0
+   }
   },
   "4855910": {
    "partido": "Colombia vs Chile",
@@ -1197,7 +1212,7 @@
    "liga": "Norteamérica, CONCACAF Liga de Naciones - Cuartos de Final",
    "inicio": "2026-11-13T21:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1794618139.9374201
+   "ultimo": 1794618384.641463
   },
   "4874711": {
    "partido": "Montserrat vs Nicaragua",
