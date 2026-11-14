@@ -429,7 +429,7 @@
    "liga": "Internacional, Amistoso Internacional",
    "inicio": "2026-11-14T14:00:00-05:00",
    "estado": "enviado",
-   "ultimo": 1794681980.4386346,
+   "ultimo": 1794682347.8728614,
    "clv": [],
    "clv_ok": false,
    "xi": "|",
@@ -1602,8 +1602,12 @@
    "partido": "Portugal vs Dinamarca",
    "liga": "Europa, Liga de las Naciones - UEFA - Liga A - Grupo 4",
    "inicio": "2026-11-14T14:45:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1794682103.4644148
+   "estado": "enviado",
+   "ultimo": 1794682348.044253,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "435334,539439,1391166,2558704,6835961,8863274,12436614,46715751,49915522,65211458,71328020|405252,431503,3152786,3156433,3460314,3487471,8601351,26815119,47709594,50852472,65235149",
+   "conf": true
   },
   "4845108": {
    "partido": "Singapur vs Brasil",
