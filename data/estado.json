@@ -454,12 +454,27 @@
    "partido": "Japón vs Brasil",
    "liga": "Internacional, Amistoso Internacional",
    "inicio": "2026-11-14T05:15:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1794658219.4476457,
+   "estado": "liquidado",
+   "ultimo": 1794658828.4345007,
    "clv": [],
    "clv_ok": false,
    "xi": "646522,649450,834589,3130032,4832569,4941908,14149512,14151805,14468763,14658191,67747828|1444592,3070470,3235657,3373029,6251312,64431234,65131542,67122760,70768696,71675384,77409182",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 3,
+    "ag": 2,
+    "ht": [
+     2,
+     1
+    ],
+    "corners": 10.0,
+    "corners_h": 1.0,
+    "corners_a": 9.0,
+    "corners_1t": 5.0,
+    "cards": 4.0,
+    "cards_h": 1.0,
+    "cards_a": 3.0
+   }
   },
   "4882785": {
    "partido": "País Vasco vs Venezuela",
