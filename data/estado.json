@@ -751,8 +751,12 @@
    "partido": "Mirassol vs Atlético Mineiro",
    "liga": "Brasil, Brasileirão",
    "inicio": "2026-11-14T16:30:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1794689299.7125123
+   "estado": "enviado",
+   "ultimo": 1794689422.7109826,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "28189,101675,543250,547799,2384056,3092063,7093168,12677899,65016772,66212496,75394285|331101,542627,630117,1858512,3066799,3154559,3272094,3374658,46933489,53667285,65579316",
+   "conf": true
   },
   "4632737": {
    "partido": "Chapecoense vs Vasco Da Gama",
@@ -933,8 +937,12 @@
    "partido": "Haití vs Estados Unidos",
    "liga": "Norteamérica, CONCACAF Liga de Naciones - Cuartos de Final",
    "inicio": "2026-11-14T16:30:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1794689299.8857782
+   "estado": "enviado",
+   "ultimo": 1794689425.0213885,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "|",
+   "conf": false
   },
   "4874710": {
    "partido": "Guatemala vs Canadá",
