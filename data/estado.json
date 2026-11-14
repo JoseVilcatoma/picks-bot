@@ -428,8 +428,12 @@
    "partido": "País Vasco vs Venezuela",
    "liga": "Internacional, Amistoso Internacional",
    "inicio": "2026-11-14T14:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1794680361.5895271
+   "estado": "enviado",
+   "ultimo": 1794680484.7576337,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "|",
+   "conf": false
   },
   "4883813": {
    "partido": "Arabia Saudita vs Corea del Sur",
@@ -1184,8 +1188,12 @@
    "partido": "San Martín vs Guayana Francesa",
    "liga": "Norteamérica, CONCACAF Liga de Naciones - Liga B - Grupo 4",
    "inicio": "2026-11-14T14:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1794680361.7773244
+   "estado": "enviado",
+   "ultimo": 1794680486.4734173,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "|",
+   "conf": false
   },
   "4874709": {
    "partido": "Haití vs Estados Unidos",
