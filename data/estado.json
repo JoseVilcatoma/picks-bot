@@ -1731,6 +1731,55 @@
    "inicio": "2026-11-17T21:30:00-05:00",
    "estado": "pendiente",
    "ultimo": 0
+  },
+  "4672264": {
+   "partido": "Irlanda vs Kosovo",
+   "liga": "Europa, Liga de las Naciones - UEFA - Liga B - Grupo 3",
+   "inicio": "2026-11-17T14:45:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4672265": {
+   "partido": "Polonia vs Suecia",
+   "liga": "Europa, Liga de las Naciones - UEFA - Liga B - Grupo 4",
+   "inicio": "2026-11-17T14:45:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4672267": {
+   "partido": "Dinamarca vs Noruega",
+   "liga": "Europa, Liga de las Naciones - UEFA - Liga A - Grupo 4",
+   "inicio": "2026-11-17T14:45:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4672268": {
+   "partido": "Bosnia Herzegovina vs Rumania",
+   "liga": "Europa, Liga de las Naciones - UEFA - Liga B - Grupo 4",
+   "inicio": "2026-11-17T14:45:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4672269": {
+   "partido": "Israel vs Austria",
+   "liga": "Europa, Liga de las Naciones - UEFA - Liga B - Grupo 3",
+   "inicio": "2026-11-17T14:45:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4672270": {
+   "partido": "Ucrania vs Georgia",
+   "liga": "Europa, Liga de las Naciones - UEFA - Liga B - Grupo 2",
+   "inicio": "2026-11-17T14:45:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4672271": {
+   "partido": "Hungría vs Irlanda del Norte",
+   "liga": "Europa, Liga de las Naciones - UEFA - Liga B - Grupo 2",
+   "inicio": "2026-11-17T14:45:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
   }
  },
  "web": {
@@ -1831,7 +1880,14 @@
   "4883943": 1794337172435,
   "4883944": 1794337172807,
   "4883945": 1794337173423,
-  "4883946": 1794337173846
+  "4883946": 1794337173846,
+  "4672264": 1794668104896,
+  "4672265": 1794668104243,
+  "4672267": 1794668103675,
+  "4672268": 1794668103344,
+  "4672269": 1794668103008,
+  "4672270": 1794668102501,
+  "4672271": 1794668102031
  },
  "tickets": [],
  "sin_creditos": false,
