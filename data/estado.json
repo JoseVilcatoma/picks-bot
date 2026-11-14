@@ -429,7 +429,7 @@
    "liga": "Internacional, Amistoso Internacional",
    "inicio": "2026-11-14T14:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 0
+   "ultimo": 1794678405.2346978
   },
   "4883813": {
    "partido": "Arabia Saudita vs Corea del Sur",
@@ -1185,7 +1185,7 @@
    "liga": "Norteamérica, CONCACAF Liga de Naciones - Liga B - Grupo 4",
    "inicio": "2026-11-14T14:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 0
+   "ultimo": 1794678405.3366065
   },
   "4874709": {
    "partido": "Haití vs Estados Unidos",
@@ -1974,6 +1974,6 @@
   "4882785",
   "4886905"
  ],
- "auto_t": 1794656761.0872881,
+ "auto_t": 1794678405.2218115,
  "rechazados": {}
 }
