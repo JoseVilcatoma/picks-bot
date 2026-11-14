@@ -320,32 +320,6 @@
     "cards_a": 3.0
    }
   },
-  "4883923": {
-   "partido": "RD Congo vs Sierra Leona",
-   "liga": "África, Copa de África de Naciones - Clasificación",
-   "inicio": "2026-11-12T11:00:00-05:00",
-   "estado": "liquidado",
-   "ultimo": 1794506170.8369012,
-   "clv": [],
-   "clv_ok": false,
-   "xi": "398063,403663,906906,1760084,3659758,6171942,59105073,65566123,70797077,75414874,81416646|3071793,57428032,59832868,64971607,70932849,72841100,75504711,76164670,77902831,79434486,79434488",
-   "conf": true,
-   "r": {
-    "hg": 3,
-    "ag": 1,
-    "ht": [
-     2,
-     0
-    ],
-    "corners": 7.0,
-    "corners_h": 3.0,
-    "corners_a": 4.0,
-    "corners_1t": null,
-    "cards": 2.0,
-    "cards_h": 0.0,
-    "cards_a": 2.0
-   }
-  },
   "4883925": {
    "partido": "Costa de Marfil vs Gambia",
    "liga": "África, Copa de África de Naciones - Clasificación",
