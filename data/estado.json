@@ -946,8 +946,12 @@
    "partido": "San Vicente y Las Granadinas vs Belice",
    "liga": "Norteamérica, CONCACAF Liga de Naciones - Liga B - Grupo 4",
    "inicio": "2026-11-14T19:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1794698353.602058
+   "estado": "enviado",
+   "ultimo": 1794698476.3474834,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "|",
+   "conf": false
   },
   "4874708": {
    "partido": "San Martín vs Guayana Francesa",
