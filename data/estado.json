@@ -1780,6 +1780,146 @@
    "inicio": "2026-11-17T14:45:00-05:00",
    "estado": "pendiente",
    "ultimo": 0
+  },
+  "4632597": {
+   "partido": "Remo vs Chapecoense",
+   "liga": "Brasil, Brasileirão",
+   "inicio": "2026-11-18T18:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4632598": {
+   "partido": "Vitória vs Bragantino",
+   "liga": "Brasil, Brasileirão",
+   "inicio": "2026-11-19T17:30:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4632599": {
+   "partido": "Coritiba vs Santos",
+   "liga": "Brasil, Brasileirão",
+   "inicio": "2026-11-18T17:30:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4632600": {
+   "partido": "Grêmio vs Bahia",
+   "liga": "Brasil, Brasileirão",
+   "inicio": "2026-11-18T19:30:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4632601": {
+   "partido": "Cruzeiro vs Palmeiras",
+   "liga": "Brasil, Brasileirão",
+   "inicio": "2026-11-18T18:30:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4632603": {
+   "partido": "Corinthians vs Botafogo",
+   "liga": "Brasil, Brasileirão",
+   "inicio": "2026-11-18T19:30:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4632604": {
+   "partido": "São Paulo vs Fluminense",
+   "liga": "Brasil, Brasileirão",
+   "inicio": "2026-11-19T19:30:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4632605": {
+   "partido": "Vasco Da Gama vs Internacional",
+   "liga": "Brasil, Brasileirão",
+   "inicio": "2026-11-19T17:30:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4632606": {
+   "partido": "Flamengo vs Athletico Paranaense",
+   "liga": "Brasil, Brasileirão",
+   "inicio": "2026-11-18T18:30:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4735200": {
+   "partido": "Troyes vs Le Havre",
+   "liga": "Francia, Ligue 1",
+   "inicio": "2026-11-20T14:45:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4750790": {
+   "partido": "Athletic Club vs RCD Espanyol",
+   "liga": "España, LaLiga",
+   "inicio": "2026-11-20T15:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4755344": {
+   "partido": "Bayern Munich vs 1. FC Köln",
+   "liga": "Alemania, Bundesliga",
+   "inicio": "2026-11-20T14:30:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4760766": {
+   "partido": "Alianza Atletico vs FBC Melgar",
+   "liga": "Perú, Liga 1 - Clausura",
+   "inicio": "2026-11-18T15:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4874690": {
+   "partido": "El Salvador vs Saint-Martin",
+   "liga": "Norteamérica, CONCACAF Liga de Naciones - Play-in",
+   "inicio": "2026-11-17T20:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4874692": {
+   "partido": "Guayana Francesa vs San Vicente y Las Granadinas",
+   "liga": "Norteamérica, CONCACAF Liga de Naciones - Liga B - Grupo 4",
+   "inicio": "2026-11-17T19:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4874694": {
+   "partido": "Nicaragua vs Montserrat",
+   "liga": "Norteamérica, CONCACAF Liga de Naciones - Play-in",
+   "inicio": "2026-11-17T22:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4874695": {
+   "partido": "San Cristóbal y Nieves vs Bonaire",
+   "liga": "Norteamérica, CONCACAF Liga de Naciones - Liga B - Grupo 3",
+   "inicio": "2026-11-17T14:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4874696": {
+   "partido": "Belice vs San Martín",
+   "liga": "Norteamérica, CONCACAF Liga de Naciones - Liga B - Grupo 4",
+   "inicio": "2026-11-17T14:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4874697": {
+   "partido": "Santa Lucía vs Barbados",
+   "liga": "Norteamérica, CONCACAF Liga de Naciones - Liga B - Grupo 2",
+   "inicio": "2026-11-17T14:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4874698": {
+   "partido": "Dominica vs Islas Caimán",
+   "liga": "Norteamérica, CONCACAF Liga de Naciones - Liga B - Grupo 1",
+   "inicio": "2026-11-17T14:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
   }
  },
  "web": {
@@ -1887,7 +2027,28 @@
   "4672268": 1794668103344,
   "4672269": 1794668103008,
   "4672270": 1794668102501,
-  "4672271": 1794668102031
+  "4672271": 1794668102031,
+  "4632597": 1794668125569,
+  "4632598": 1794668132664,
+  "4632599": 1794668126035,
+  "4632600": 1794668127101,
+  "4632601": 1794668126526,
+  "4632603": 1794668127703,
+  "4632604": 1794668133628,
+  "4632605": 1794668133078,
+  "4632606": 1794668126822,
+  "4735200": 1794668136945,
+  "4750790": 1794668138315,
+  "4755344": 1794668136017,
+  "4760766": 1794668123942,
+  "4874690": 1794668111530,
+  "4874692": 1794668111874,
+  "4874694": 1794668111070,
+  "4874695": 1794668113650,
+  "4874696": 1794668113355,
+  "4874697": 1794668113069,
+  "4874698": 1794668112773,
+  "4890986": 1794668131910
  },
  "tickets": [],
  "sin_creditos": false,
