@@ -1256,12 +1256,27 @@
    "partido": "Guatemala vs Canadá",
    "liga": "Norteamérica, CONCACAF Liga de Naciones - Cuartos de Final",
    "inicio": "2026-11-13T21:00:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1794628617.0284286,
+   "estado": "liquidado",
+   "ultimo": 1794629225.7894807,
    "clv": [],
    "clv_ok": false,
    "xi": "503127,544354,893343,1134844,3125501,7200858,8746948,53166622,55043450,60436633,67940103|547929,2992754,3079755,3095573,3337446,4289559,13313345,14544976,66882180,67741940,67952105",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 2,
+    "ag": 3,
+    "ht": [
+     0,
+     3
+    ],
+    "corners": 7.0,
+    "corners_h": 3.0,
+    "corners_a": 4.0,
+    "corners_1t": 3.0,
+    "cards": 5.0,
+    "cards_h": 3.0,
+    "cards_a": 2.0
+   }
   },
   "4874711": {
    "partido": "Montserrat vs Nicaragua",
