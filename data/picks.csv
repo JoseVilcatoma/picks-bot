@@ -3524,3 +3524,8 @@ fecha,game_id,partido,liga,tipo,mercado,clave,prob,cuota,casa,cuota_justa,ev,sta
 2026-11-14 04:47,4845107,Japón vs Brasil,"Internacional, Amistoso Internacional",modelo,Más de 1.5 goles,OU|1.5|over,0.7828,,,1.28,,,si,G,,
 2026-11-14 04:47,4845107,Japón vs Brasil,"Internacional, Amistoso Internacional",ticket,Más de 2.5 goles + Ambos marcan: Sí,OU|2.5|over&BTTS||si,0.4756,2.25,,2.10,0.0701,10.00,,G,12.50,
 2026-11-14 04:47,4845107,Japón vs Brasil,"Internacional, Amistoso Internacional",crear,Más de 1.5 goles + Más de 4.5 córners + Menos de 6.5 tarjetas,OU|1.5|over&CORN|4.5|over&CARDS|6.5|under,0.5551,,,1.80,,,,G,,
+2026-11-14 08:03,4672294,Kosovo vs Israel,"Europa, Liga de las Naciones - UEFA - Liga B - Grupo 3",seguro,Kosovo o empate,DC||1X,0.8195,1.20,Bet365,1.22,-0.0166,,si,,,
+2026-11-14 08:03,4672294,Kosovo vs Israel,"Europa, Liga de las Naciones - UEFA - Liga B - Grupo 3",seguro,Menos de 3.5 goles,OU|3.5|under,0.7417,1.33,Bet365,1.35,-0.0135,,si,,,
+2026-11-14 08:03,4672294,Kosovo vs Israel,"Europa, Liga de las Naciones - UEFA - Liga B - Grupo 3",modelo,Menos de 6.5 tarjetas,CARDS|6.5|under,0.8257,,,1.21,,,si,,,
+2026-11-14 08:03,4672294,Kosovo vs Israel,"Europa, Liga de las Naciones - UEFA - Liga B - Grupo 3",modelo,Menos de 9.5 córners,CORN|9.5|under,0.7799,,,1.28,,,si,,,
+2026-11-14 08:03,4672294,Kosovo vs Israel,"Europa, Liga de las Naciones - UEFA - Liga B - Grupo 3",crear,Menos de 4.5 goles + Menos de 10.5 córners + Menos de 6.5 tarjetas,OU|4.5|under&CORN|10.5|under&CARDS|6.5|under,0.5882,,,1.70,,,,,,
