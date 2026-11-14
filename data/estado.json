@@ -32,7 +32,7 @@
    "liga": "Internacional, Amistoso Internacional",
    "inicio": "2026-11-13T18:00:00-05:00",
    "estado": "enviado",
-   "ultimo": 1794608367.7124686,
+   "ultimo": 1794617770.2090693,
    "clv": [],
    "clv_ok": false,
    "xi": "354062,1050815,1140554,3886928,4201425,7180298,9057069,9412443,9638719,48394475,65895085|367429,425177,624663,638801,638806,843502,1651346,3049924,3144702,3344160,7244055",
@@ -1214,12 +1214,27 @@
    "partido": "Saint-Martin vs El Salvador",
    "liga": "Norteamérica, CONCACAF Liga de Naciones - Play-in",
    "inicio": "2026-11-13T18:00:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1794609230.701216,
+   "estado": "liquidado",
+   "ultimo": 1794617770.3165705,
    "clv": [],
    "clv_ok": false,
    "xi": "66173966,70921550,70921555,79423952,79423954,79423957,79424254,79431108,79431109,81428070,81428072|623737,944527,3338087,47683518,59698617,60436553,66325666,67666872,67666886,67745427,68291114",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 0,
+    "ag": 2,
+    "ht": [
+     0,
+     1
+    ],
+    "corners": 5.0,
+    "corners_h": 3.0,
+    "corners_a": 2.0,
+    "corners_1t": 3.0,
+    "cards": 3.0,
+    "cards_h": 2.0,
+    "cards_a": 1.0
+   }
   },
   "4874713": {
    "partido": "Granada vs San Cristóbal y Nieves",
