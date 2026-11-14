@@ -64,8 +64,12 @@
    "partido": "Perú vs Bolivia",
    "liga": "Internacional, Amistoso Internacional",
    "inicio": "2026-11-13T20:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1794615564.4459963
+   "estado": "enviado",
+   "ultimo": 1794615687.53622,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "|",
+   "conf": false
   },
   "4716606": {
    "partido": "Egipto vs Malawi",
