@@ -351,7 +351,7 @@
    "liga": "Internacional, Amistoso Internacional",
    "inicio": "2026-11-14T14:00:00-05:00",
    "estado": "enviado",
-   "ultimo": 1794682723.6013687,
+   "ultimo": 1794689795.3162494,
    "clv": [],
    "clv_ok": false,
    "xi": "|",
@@ -926,19 +926,34 @@
    "partido": "San Martín vs Guayana Francesa",
    "liga": "Norteamérica, CONCACAF Liga de Naciones - Liga B - Grupo 4",
    "inicio": "2026-11-14T14:00:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1794680858.1572266,
+   "estado": "liquidado",
+   "ultimo": 1794689795.5232143,
    "clv": [],
    "clv_ok": false,
    "xi": "3131092,59506089,61625904,76167135,79462343,79462345,79462350,79462351,79513590,81444826,81444827|489227,3107857,58438311,70935748,79456851,79476987,79476988,79476989,79476990,81423371,81444805",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 1,
+    "ag": 5,
+    "ht": [
+     1,
+     2
+    ],
+    "corners": 5.0,
+    "corners_h": 2.0,
+    "corners_a": 3.0,
+    "corners_1t": 3.0,
+    "cards": 3.0,
+    "cards_h": 2.0,
+    "cards_a": 1.0
+   }
   },
   "4874709": {
    "partido": "Haití vs Estados Unidos",
    "liga": "Norteamérica, CONCACAF Liga de Naciones - Cuartos de Final",
    "inicio": "2026-11-14T16:30:00-05:00",
    "estado": "enviado",
-   "ultimo": 1794689425.0213885,
+   "ultimo": 1794689795.8990295,
    "clv": [],
    "clv_ok": false,
    "xi": "|",
