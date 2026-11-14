@@ -83,12 +83,27 @@
    "partido": "Ecuador vs Costa Rica",
    "liga": "Internacional, Amistoso Internacional",
    "inicio": "2026-11-13T19:00:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1794621924.8540518,
+   "estado": "liquidado",
+   "ultimo": 1794622535.830453,
    "clv": [],
    "clv_ok": false,
    "xi": "545390,3095205,3359828,4913062,12722925,39270918,40745412,50457607,55977965,59993290,67641750|409328,427524,566656,3051125,3069326,12649150,12649151,48822811,56749969,63004033,72474362",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 2,
+    "ag": 0,
+    "ht": [
+     1,
+     0
+    ],
+    "corners": 12.0,
+    "corners_h": 11.0,
+    "corners_a": 1.0,
+    "corners_1t": 4.0,
+    "cards": 4.0,
+    "cards_h": 1.0,
+    "cards_a": 3.0
+   }
   },
   "4882109": {
    "partido": "Perú vs Bolivia",
