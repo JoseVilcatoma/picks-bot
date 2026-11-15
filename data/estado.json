@@ -854,12 +854,27 @@
    "partido": "Comerciantes Unidos vs Sport Boys",
    "liga": "Perú, Liga 1 - Clausura",
    "inicio": "2026-11-15T13:00:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1794765085.184285,
+   "estado": "liquidado",
+   "ultimo": 1794772533.4751792,
    "clv": [],
    "clv_ok": false,
    "xi": "485823,3221825,3229005,6410080,14023190,57047593,58602352,61637054,67627458,67936311,70932142|383033,910719,916301,941056,3190331,9088722,12728006,13807563,40172304,56915241,77100466",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 3,
+    "ag": 3,
+    "ht": [
+     2,
+     1
+    ],
+    "corners": 5.0,
+    "corners_h": 5.0,
+    "corners_a": 0.0,
+    "corners_1t": 2.0,
+    "cards": 6.0,
+    "cards_h": 3.0,
+    "cards_a": 3.0
+   }
   },
   "4760761": {
    "partido": "CD Moquegua vs Grau",
