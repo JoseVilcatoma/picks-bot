@@ -718,12 +718,27 @@
    "partido": "España vs Inglaterra",
    "liga": "Europa, Liga de las Naciones - UEFA - Liga A - Grupo 3",
    "inicio": "2026-11-15T14:45:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1794778920.6191742,
+   "estado": "liquidado",
+   "ultimo": 1794779535.341802,
    "clv": [],
    "clv_ok": false,
    "xi": "330097,562084,600030,987911,1404536,3568284,47426590,49550597,64497047,67787784,70894814|227604,2985896,3055995,3135414,41923868,46440257,51042324,51439135,54701553,63092591,63792363",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 2,
+    "ag": 3,
+    "ht": [
+     0,
+     1
+    ],
+    "corners": 10.0,
+    "corners_h": 4.0,
+    "corners_a": 6.0,
+    "corners_1t": 3.0,
+    "cards": 6.0,
+    "cards_h": 3.0,
+    "cards_a": 3.0
+   }
   },
   "4672281": {
    "partido": "Croacia vs Republica Checa",
