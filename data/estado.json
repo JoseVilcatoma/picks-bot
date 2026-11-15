@@ -138,32 +138,6 @@
    "estado": "pendiente",
    "ultimo": 1794588365.0853143
   },
-  "4883931": {
-   "partido": "Comoros vs República del Congo",
-   "liga": "África, Copa de África de Naciones - Clasificación",
-   "inicio": "2026-11-13T08:00:00-05:00",
-   "estado": "liquidado",
-   "ultimo": 1794582390.2187881,
-   "clv": [],
-   "clv_ok": false,
-   "xi": "541630,3190223,50684400,52901773,61213404,67578041,70917481,71327738,71674183,81420331,81420332|921712,3074432,15446633,50959529,61764220,67987633,71008487,71113918,76796288,79433191,79482812",
-   "conf": true,
-   "r": {
-    "hg": 0,
-    "ag": 0,
-    "ht": [
-     0,
-     0
-    ],
-    "corners": 10.0,
-    "corners_h": 6.0,
-    "corners_a": 4.0,
-    "corners_1t": null,
-    "cards": 4.0,
-    "cards_h": 2.0,
-    "cards_a": 2.0
-   }
-  },
   "4883933": {
    "partido": "Sudáfrica vs Kenia",
    "liga": "África, Copa de África de Naciones - Clasificación",
@@ -722,7 +696,7 @@
    "liga": "Europa, Liga de las Naciones - UEFA - Liga C - Grupo 2",
    "inicio": "2026-11-15T09:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1794747442.732454
+   "ultimo": 1794747690.9653697
   },
   "4672287": {
    "partido": "Suecia vs Bosnia Herzegovina",
