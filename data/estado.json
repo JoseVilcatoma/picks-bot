@@ -1078,8 +1078,12 @@
    "partido": "Croacia vs Republica Checa",
    "liga": "Europa, Liga de las Naciones - UEFA - Liga A - Grupo 3",
    "inicio": "2026-11-15T14:45:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1794768500.0822978
+   "estado": "enviado",
+   "ultimo": 1794768744.3432658,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "26984,27247,346826,527000,922321,25999342,49516148,50752876,56471954,57861026,67771434|258327,3153645,12940517,23568317,38075769,39144009,50055888,50194940,67877824,75232127,77936042",
+   "conf": true
   },
   "4672282": {
    "partido": "Francia vs Turquía",
