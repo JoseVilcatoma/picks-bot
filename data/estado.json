@@ -895,12 +895,27 @@
    "partido": "Juan Pablo II College vs Deportivo Garcilaso",
    "liga": "Perú, Liga 1 - Clausura",
    "inicio": "2026-11-15T15:15:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1794771192.634621,
+   "estado": "liquidado",
+   "ultimo": 1794780636.144644,
    "clv": [],
    "clv_ok": false,
    "xi": "484523,504685,3370754,14220056,14627599,16776834,64944305,66862580,67119647,67165511,67977474|519405,616408,890934,3138410,3347310,3768524,47441571,51058037,57621318,59059576,65010551",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 2,
+    "ag": 2,
+    "ht": [
+     1,
+     1
+    ],
+    "corners": 11.0,
+    "corners_h": 4.0,
+    "corners_a": 7.0,
+    "corners_1t": 6.0,
+    "cards": 5.0,
+    "cards_h": 2.0,
+    "cards_a": 3.0
+   }
   },
   "4760765": {
    "partido": "Cusco FC vs ADT Tarma",
@@ -956,7 +971,7 @@
    "liga": "Norteamérica, CONCACAF Liga de Naciones - Cuartos de Final",
    "inicio": "2026-11-15T18:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1794780392.1631105
+   "ultimo": 1794780636.4343498
   },
   "4883941": {
    "partido": "Zimbabue vs Guinea Ecuatorial",
