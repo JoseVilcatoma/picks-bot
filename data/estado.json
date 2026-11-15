@@ -1067,29 +1067,37 @@
    "partido": "España vs Inglaterra",
    "liga": "Europa, Liga de las Naciones - UEFA - Liga A - Grupo 3",
    "inicio": "2026-11-15T14:45:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1794767514.9518173
+   "estado": "enviado",
+   "ultimo": 1794767759.0924153,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "330097,562084,600030,987911,1404536,3568284,47426590,49550597,64497047,67787784,70894814|227604,2985896,3055995,3135414,41923868,46440257,51042324,51439135,54701553,63092591,63792363",
+   "conf": true
   },
   "4672281": {
    "partido": "Croacia vs Republica Checa",
    "liga": "Europa, Liga de las Naciones - UEFA - Liga A - Grupo 3",
    "inicio": "2026-11-15T14:45:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1794767515.1181645
+   "ultimo": 1794767760.2946136
   },
   "4672282": {
    "partido": "Francia vs Turquía",
    "liga": "Europa, Liga de las Naciones - UEFA - Liga A - Grupo 1",
    "inicio": "2026-11-15T14:45:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1794767515.2165337
+   "ultimo": 1794767760.3891137
   },
   "4672283": {
    "partido": "Bélgica vs Italia",
    "liga": "Europa, Liga de las Naciones - UEFA - Liga A - Grupo 1",
    "inicio": "2026-11-15T14:45:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1794767515.312329
+   "estado": "enviado",
+   "ultimo": 1794767760.4766982,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "95182,398065,441799,505117,8048871,26803259,46557681,50729542,54943579,58449710,63094718|511549,620429,3071407,4870623,50424606,52859220,54588606,65776317,67428963,67844197,68000276",
+   "conf": true
   },
   "4672285": {
    "partido": "Bielorrusia vs Albania",
