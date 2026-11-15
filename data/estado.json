@@ -722,7 +722,7 @@
    "liga": "Europa, Liga de las Naciones - UEFA - Liga C - Grupo 2",
    "inicio": "2026-11-15T09:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1794747198.3421388
+   "ultimo": 1794747442.732454
   },
   "4672287": {
    "partido": "Suecia vs Bosnia Herzegovina",
@@ -910,8 +910,12 @@
    "partido": "Letonia vs Armenia",
    "liga": "Europa, Liga de las Naciones - UEFA - Liga C - Grupo 2",
    "inicio": "2026-11-15T09:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1794747198.5068643
+   "estado": "enviado",
+   "ultimo": 1794747442.9320972,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "894565,923272,951846,3052390,50071364,59539495,65396649,66754760,66828031,69717983,69717991|3161138,57183368,64277438,65519743,65819714,65840502,67880284,75256536,75399339,77788772,77806553",
+   "conf": true
   },
   "4874706": {
    "partido": "Jamaica vs México",
