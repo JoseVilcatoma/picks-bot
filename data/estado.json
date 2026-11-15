@@ -1106,8 +1106,12 @@
    "partido": "Juan Pablo II College vs Deportivo Garcilaso",
    "liga": "Perú, Liga 1 - Clausura",
    "inicio": "2026-11-15T15:15:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1794770948.7663805
+   "estado": "enviado",
+   "ultimo": 1794771192.634621,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "484523,504685,3370754,14220056,14627599,16776834,64944305,66862580,67119647,67165511,67977474|519405,616408,890934,3138410,3347310,3768524,47441571,51058037,57621318,59059576,65010551",
+   "conf": true
   },
   "4760765": {
    "partido": "Cusco FC vs ADT Tarma",
