@@ -1079,14 +1079,18 @@
    "liga": "Europa, Liga de las Naciones - UEFA - Liga A - Grupo 3",
    "inicio": "2026-11-15T14:45:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1794767760.2946136
+   "ultimo": 1794768008.6006026
   },
   "4672282": {
    "partido": "Francia vs Turquía",
    "liga": "Europa, Liga de las Naciones - UEFA - Liga A - Grupo 1",
    "inicio": "2026-11-15T14:45:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1794767760.3891137
+   "estado": "enviado",
+   "ultimo": 1794768008.7835479,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "308108,513713,1589889,3216883,14755144,40408252,43470743,58810177,60909490,65488651,67987366|342428,553143,601998,906343,3226882,3227707,51190233,54840196,61736514,67450295,70862540",
+   "conf": true
   },
   "4672283": {
    "partido": "Bélgica vs Italia",
