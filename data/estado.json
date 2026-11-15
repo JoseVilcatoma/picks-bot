@@ -970,8 +970,12 @@
    "partido": "Panamá vs Curazao",
    "liga": "Norteamérica, CONCACAF Liga de Naciones - Cuartos de Final",
    "inicio": "2026-11-15T18:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1794780636.4343498
+   "estado": "enviado",
+   "ultimo": 1794780882.6900268,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "284094,549592,663960,678601,3246156,3477081,14810606,52112752,64911927,65338873,77484161|226336,335710,353474,613517,886922,906089,944196,8869480,50801895,57535532,75420056",
+   "conf": true
   },
   "4883941": {
    "partido": "Zimbabue vs Guinea Ecuatorial",
