@@ -456,15 +456,19 @@
    "partido": "Lituania vs Liechtenstein",
    "liga": "Europa, Liga de las Naciones - UEFA - Liga D - Grupo 2",
    "inicio": "2026-11-16T12:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1794844285.4178927
+   "estado": "enviado",
+   "ultimo": 1794844530.7959337,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "588494,676504,61132480,62514419,65174451,65960028,67610878,67802060,67878241,77514843,77770467|385169,518062,534535,3052017,3052020,3080882,3097293,71901465,72770248,77973055,79421021",
+   "conf": true
   },
   "4672277": {
    "partido": "Estonia vs Bulgaria",
    "liga": "Europa, Liga de las Naciones - UEFA - Liga C - Grupo 4",
    "inicio": "2026-11-16T12:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1794844285.618561
+   "ultimo": 1794844532.222709
   },
   "4672278": {
    "partido": "Kazajstán vs Eslovaquia",
@@ -630,7 +634,7 @@
    "liga": "Europa, Liga de las Naciones - UEFA - Liga C - Grupo 4",
    "inicio": "2026-11-16T12:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1794844285.7348056
+   "ultimo": 1794844532.3360033
   },
   "4760760": {
    "partido": "Comerciantes Unidos vs Sport Boys",
