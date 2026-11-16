@@ -1,0 +1,146 @@
+CLAVES standings: ['competitionId', 'currentGroupCategory', 'destinations', 'displayName', 'filterTypes', 'headers', 'isCurrentStage', 'rows', 'seasonNum', 'stageNum']
+FILA: {"competitor": {"id": 104, "countryId": 1, "sportId": 1, "name": "Arsenal", "longName": "Arsenal FC", "symbolicName": "ARS", "nameForURL": "arsenal", "type": 1, "popularityRank": 45678, "imageVersion": 8, "color": "#E10000", "awayColor": "#33436E", "mainCompetitionId": 7, "hasSquad": true, "hasTransfers": false, "competitorNum": 0, "hideOnSearch": false, "hideOnCatalog": false}, "gamePlayed": 10, "gamesWon": 9, "gamesLost": 1, "gamesEven": 0, "for": 15, "against": 5, "ratio": 10.0, "points": 27.0, "strike": 5, "gamesOT": 0, "gamesWonOnOT": 0, "gamesWonOnPen": 0, "gamesLossOnOT": 0, "gamesLossOnPen": 0, "pct": ".900", "position": 1, "trend": 0, "detailedRecentForm": [{"id": 4742011, "sportId": 1, "competitionId": 7, "seasonNum": 132, "stageNum": 1, "roundNum": 10, "roundName": "Fecha", "competitionDisplayName": "Premier League", "startTime": "2026-11-07T10:00:00-05:00", "statusGroup": 4, 
+DESTINOS: [{"num": 1, "name": "UEFA Champions League", "guaranteedText": "Champions", "color": "#F5CB25", "type": 8}, {"num": 2, "name": "UEFA Europa League", "guaranteedText": "Europa League", "color": "#23EBE4", "type": 9}, {"num": 3, "name": "Descenso", "guaranteedText": "Descenso", "color": "#E61034", "type": 3}]
+
+27 partidos por jugar (hoy y mañana)
+  16/11 05:00 AEK Atenas vs A.E.L. [Partido Amistoso #321] en=AEK Athens / A.E.L.
+     tabla: 0 grupos, tamaños [], zonas []
+  16/11 08:00 Zimbabue vs Guinea Ecuatorial [Copa de África de Naciones - Clasificación #588] en=Zimbabwe / Equatorial Guinea
+     tabla: 13 grupos, tamaños [6, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4], zonas ['', 'Africa Cup of Nations 2027']
+  16/11 08:00 Sudán vs Senegal [Copa de África de Naciones - Clasificación #588] en=Sudan / Senegal
+     tabla: 13 grupos, tamaños [6, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4], zonas ['', 'Africa Cup of Nations 2027']
+  16/11 08:00 Namibia vs Camerún [Copa de África de Naciones - Clasificación #588] en=Namibia / Cameroon
+     tabla: 13 grupos, tamaños [6, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4], zonas ['', 'Africa Cup of Nations 2027']
+  16/11 10:00 Kazajstán vs Eslovaquia [Liga de las Naciones - UEFA #7016] en=Kazakhstan / Slovakia
+     tabla: 14 grupos, tamaños [4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 3, 3], zonas ['', 'Ascenso', 'Cuartos de Final', 'Descenso', 'Reducido de Ascenso', 'Repechaje descenso']
+  16/11 10:00 Islas Feroe vs Moldavia [Liga de las Naciones - UEFA #7016] en=Faroe Islands / Moldova
+     tabla: 14 grupos, tamaños [4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 3, 3], zonas ['', 'Ascenso', 'Cuartos de Final', 'Descenso', 'Reducido de Ascenso', 'Repechaje descenso']
+  16/11 10:00 Somalia vs Ghana [Copa de África de Naciones - Clasificación #588] en=Somalia / Ghana
+     tabla: 13 grupos, tamaños [6, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4], zonas ['', 'Africa Cup of Nations 2027']
+  16/11 11:00 Eritrea vs Guinea [Copa de África de Naciones - Clasificación #588] en=Eritrea / Guinea
+     tabla: 13 grupos, tamaños [6, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4], zonas ['', 'Africa Cup of Nations 2027']
+  16/11 11:00 República Centroafricana vs Benin [Copa de África de Naciones - Clasificación #588] en=Central African Republic / Benin
+     tabla: 13 grupos, tamaños [6, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4], zonas ['', 'Africa Cup of Nations 2027']
+  16/11 12:00 Lituania vs Liechtenstein [Liga de las Naciones - UEFA #7016] en=Lithuania / Liechtenstein
+     tabla: 14 grupos, tamaños [4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 3, 3], zonas ['', 'Ascenso', 'Cuartos de Final', 'Descenso', 'Reducido de Ascenso', 'Repechaje descenso']
+  16/11 12:00 Estonia vs Bulgaria [Liga de las Naciones - UEFA #7016] en=Estonia / Bulgaria
+     tabla: 14 grupos, tamaños [4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 3, 3], zonas ['', 'Ascenso', 'Cuartos de Final', 'Descenso', 'Reducido de Ascenso', 'Repechaje descenso']
+  16/11 12:00 Islandia vs Luxemburgo [Liga de las Naciones - UEFA #7016] en=Iceland / Luxembourg
+     tabla: 14 grupos, tamaños [4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 3, 3], zonas ['', 'Ascenso', 'Cuartos de Final', 'Descenso', 'Reducido de Ascenso', 'Repechaje descenso']
+  16/11 13:00 UTC Cajamarca vs Los Chankas [Liga 1 Perú #583] en=UTC / Los Chankas
+     tabla: 1 grupos, tamaños [18], zonas ['', 'Playoffs']
+  16/11 13:00 Andorra vs Azerbaiyán [Amistoso Internacional #570] en=Andorra / Azerbaijan
+     tabla: 0 grupos, tamaños [], zonas []
+  16/11 14:00 Cuba vs Granada [CONCACAF Liga de Naciones #7165] en=Cuba / Grenada
+     tabla: 9 grupos, tamaños [6, 6, 4, 4, 4, 4, 3, 3, 3], zonas ['', 'Ascenso', 'Cuartos de Final', 'Descenso', 'Posible Clasificado']
+  16/11 14:00 Guadalupe vs Bermuda [CONCACAF Liga de Naciones #7165] en=Guadeloupe / Bermuda
+     tabla: 9 grupos, tamaños [6, 6, 4, 4, 4, 4, 3, 3, 3], zonas ['', 'Ascenso', 'Cuartos de Final', 'Descenso', 'Posible Clasificado']
+  16/11 14:00 Guyana vs Puerto Rico [CONCACAF Liga de Naciones #7165] en=Guyana / Puerto Rico
+     tabla: 9 grupos, tamaños [6, 6, 4, 4, 4, 4, 3, 3, 3], zonas ['', 'Ascenso', 'Cuartos de Final', 'Descenso', 'Posible Clasificado']
+  16/11 14:45 Macedonia del Norte vs Eslovenia [Liga de las Naciones - UEFA #7016] en=North Macedonia / Slovenia
+     tabla: 14 grupos, tamaños [4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 3, 3], zonas ['', 'Ascenso', 'Cuartos de Final', 'Descenso', 'Reducido de Ascenso', 'Repechaje descenso']
+  16/11 14:45 Suiza vs Escocia [Liga de las Naciones - UEFA #7016] en=Switzerland / Scotland
+     tabla: 14 grupos, tamaños [4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 3, 3], zonas ['', 'Ascenso', 'Cuartos de Final', 'Descenso', 'Reducido de Ascenso', 'Repechaje descenso']
+  16/11 14:45 Grecia vs Serbia [Liga de las Naciones - UEFA #7016] en=Greece / Serbia
+     tabla: 14 grupos, tamaños [4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 3, 3], zonas ['', 'Ascenso', 'Cuartos de Final', 'Descenso', 'Reducido de Ascenso', 'Repechaje descenso']
+  16/11 14:45 Alemania vs Países Bajos [Liga de las Naciones - UEFA #7016] en=Germany / Netherlands
+     tabla: 14 grupos, tamaños [4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 3, 3], zonas ['', 'Ascenso', 'Cuartos de Final', 'Descenso', 'Reducido de Ascenso', 'Repechaje descenso']
+  16/11 14:45 Gibraltar vs Malta [Liga de las Naciones - UEFA #7016] en=Gibraltar / Malta
+     tabla: 14 grupos, tamaños [4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 3, 3], zonas ['', 'Ascenso', 'Cuartos de Final', 'Descenso', 'Reducido de Ascenso', 'Repechaje descenso']
+  16/11 15:15 CD Moquegua vs Grau [Liga 1 Perú #583] en=Deportivo Moquegua / Grau
+     tabla: 1 grupos, tamaños [18], zonas ['', 'Playoffs']
+  16/11 15:15 Cusco FC vs ADT Tarma [Liga 1 Perú #583] en=Cusco FC / ADT Tarma
+     tabla: 1 grupos, tamaños [18], zonas ['', 'Playoffs']
+  16/11 19:00 Trinidad y Tobago vs Antigua y Barbuda [CONCACAF Liga de Naciones #7165] en=Trinidad and Tobago / Antigua & Barbuda
+     tabla: 9 grupos, tamaños [6, 6, 4, 4, 4, 4, 3, 3, 3], zonas ['', 'Ascenso', 'Cuartos de Final', 'Descenso', 'Posible Clasificado']
+  16/11 19:00 Martinica vs Aruba [CONCACAF Liga de Naciones #7165] en=Martinique / Aruba
+     tabla: 9 grupos, tamaños [6, 6, 4, 4, 4, 4, 3, 3, 3], zonas ['', 'Ascenso', 'Cuartos de Final', 'Descenso', 'Posible Clasificado']
+  16/11 20:00 Canadá vs Guatemala [CONCACAF Liga de Naciones #7165] en=Canada / Guatemala
+     tabla: 9 grupos, tamaños [6, 6, 4, 4, 4, 4, 3, 3, 3], zonas ['', 'Ascenso', 'Cuartos de Final', 'Descenso', 'Posible Clasificado']
+
+===== RESUMEN (forzado) =====
+[tg sin configurar]
+📋 <b>Radar de rotaciones</b>
+🔒 = ya no se juega nada · 📰 = lo que dice la prensa
+
+⚽ <b>Kazajstán vs Eslovaquia</b> · lun 10:00 · Liga de las Naciones - UEFA
+  🔒 <b>Eslovaquia</b>: 1.º con 11 pts y 1 por jugar: ya no puede cambiar de zona (Ascenso)
+
+⚽ <b>Guadalupe vs Bermuda</b> · lun 14:00 · CONCACAF Liga de Naciones
+  🔒 <b>Guadalupe</b>: 3.º con 7 pts y 1 por jugar: ya no puede cambiar de zona
+  🔒 <b>Bermuda</b>: 4.º con 0 pts y 1 por jugar: ya no puede cambiar de zona (Descenso)
+
+⚽ <b>Macedonia del Norte vs Eslovenia</b> · lun 14:45 · Liga de las Naciones - UEFA
+  🔒 <b>Macedonia del Norte</b>: 4.º con 0 pts y 1 por jugar: ya no puede cambiar de zona (Descenso)
+
+⚽ <b>Suiza vs Escocia</b> · lun 14:45 · Liga de las Naciones - UEFA
+  🔒 <b>Suiza</b>: 1.º con 13 pts y 1 por jugar: ya no puede cambiar de zona (Ascenso)
+  📰 <a href="https://news.google.com/rss/articles/CBMi8AFBVV95cUxNT1JBWTVlSkhqOHlsV1dXcGFXS1JjaGRxUjZ0eFFuak5Nclp1b2VLY29Ia3E0aEdwMEtVMTdRNXROakJma3Rib0YwWEdxSUtyTFpsZ2pVYUpSNnlkQ1ctRUdfU3Jhc1VoUHB6UksyNjFkRXhMQklZSUE2U3IxalVWYnVpeUpVckU1R0E2cDk5cTVBZW5FYXprSGQ3SUJUb3YtazQ2TzRjLUdUSkZLcFRudkdPZDltWkRGazNCVWo5UmhiQlR3TGxJdWE0YjlKS084YzNGQk10THVYQjVscmwxc3c0MHUxa3k5WGdhdlZoWFU?oc=5">Scotland set to face much-changed team as Switzerland boss sets out ‘less serious’ final game plans - The Scotsman</a>
+  📰 <a href="https://news.google.com/rss/articles/CBMic0FVX3lxTE9MdjR4d0RmTmJMZ3JIZDBSaGhMZEdSRHBXVU5va0tYWHM3RTQ2SEdPSmxtZmlhemxnZnVyVTB1MWM3ZFg2dUgycG1yaGZqN3dtSEZ6SmEwN1lfT00xZVFERUc3SGRsaURURGJzT1ZzVG9mdms?oc=5">Wallabies team vs Scotland: Carter Gordon returns at fly-half as Kiss makes three changes - Dave.Sport</a>
+
+⚽ <b>Grecia vs Serbia</b> · lun 14:45 · Liga de las Naciones - UEFA
+  🔒 <b>Serbia</b>: 4.º con 0 pts y 1 por jugar: ya no puede cambiar de zona (Descenso)
+
+⚽ <b>Gibraltar vs Malta</b> · lun 14:45 · Liga de las Naciones - UEFA
+  🔒 <b>Malta</b>: 1.º con 7 pts y 1 por jugar: ya no puede cambiar de zona (Ascenso)
+
+<i>Cuando salga la alineación te aviso si de verdad rotan.</i>
+
+[resumen] 6 partidos con novedades (noticias: True)
+
+===== SIMULACIÓN con partidos ya jugados (ayer y hoy) =====
+-- Tahiti (Tahiti vs Cook Islands) estado='None' status_miembros=[]
+-- Cook Islands (Tahiti vs Cook Islands) estado='None' status_miembros=[]
+-- Bahrein (Bahrein vs Yemen) estado='None' status_miembros=[]
+-- Yemen (Bahrein vs Yemen) estado='None' status_miembros=[]
+-- ASU Poli (ASU Poli vs Dumbravita) estado='None' status_miembros=[]
+-- Dumbravita (ASU Poli vs Dumbravita) estado='None' status_miembros=[]
+-- Farul Constanta (Farul Constanta vs Unirea Slobozia) estado='None' status_miembros=[]
+-- Unirea Slobozia (Farul Constanta vs Unirea Slobozia) estado='None' status_miembros=[]
+-- Omán (Omán vs Tajikistan) estado='Confirmado' status_miembros=[1, 2, 4]
+normal 🚨 <b>Rotación fuerte: Omán</b>
+Omán vs Tajikistan · 04:00 · Amistoso Internacional
+Faltan <b>1 de 9</b> titulares habituales (lo normal en este equipo: 1.7).
+❌ Fuera de la lista: Fawaz A. (5/6)
+🆕 Entran poco habituales: Rushaidi (0/6), Yahyaei (0/6), Mushaifri (0/6)
+<i>(n/6) = veces titular en sus últimos 6 partidos.</i>
+-- Tajikistan (Omán vs Tajikistan) estado='Confirmado' status_miembros=[1, 2, 4]
+normal 🚨 <b>Rotación fuerte: Tajikistan</b>
+Omán vs Tajikistan · 04:00 · Amistoso Internacional
+Faltan <b>3 de 7</b> titulares habituales (lo normal en este equipo: 1.5).
+🪑 En la banca: Shukurov (4/6)
+❌ Fuera de la lista: Yatimov (5/6), A. Dzhalilov (4/6)
+🆕 Entran poco habituales: Baklov (1/6), Babadzhanov (0/6)
+🧤 Cambia el portero habitual.
+<i>(n/6) = veces titular en sus últimos 6 partidos.</i>
+-- Csíkszereda Miercurea Ciuc (Csíkszereda Miercurea Ciuc vs FC Bacău) estado='None' status_miembros=[]
+-- FC Bacău (Csíkszereda Miercurea Ciuc vs FC Bacău) estado='None' status_miembros=[]
+-- Zorya Luhansk (Zorya Luhansk vs FC Kharkiv) estado='None' status_miembros=[]
+-- FC Kharkiv (Zorya Luhansk vs FC Kharkiv) estado='None' status_miembros=[]
+-- Rapid Bucuresti (Rapid Bucuresti vs FC Arges Pitesti) estado='None' status_miembros=[]
+-- FC Arges Pitesti (Rapid Bucuresti vs FC Arges Pitesti) estado='None' status_miembros=[]
+-- CFR Cluj (CFR Cluj vs Targu Mures) estado='None' status_miembros=[]
+-- Targu Mures (CFR Cluj vs Targu Mures) estado='None' status_miembros=[]
+-- Japón (Japón vs Brasil) estado='Confirmado' status_miembros=[1, 2, 4]
+normal 🚨 <b>Rotación fuerte: Japón</b>
+Japón vs Brasil · 05:15 · Amistoso Internacional
+Faltan <b>1 de 7</b> titulares habituales (lo normal en este equipo: 1.7).
+🪑 En la banca: Sano (5/7)
+🆕 Entran poco habituales: Machida (0/7)
+<i>(n/7) = veces titular en sus últimos 7 partidos.</i>
+-- Brasil (Japón vs Brasil) estado='Confirmado' status_miembros=[1, 2, 4]
+normal 🚨 <b>Rotación fuerte: Brasil</b>
+Japón vs Brasil · 05:15 · Amistoso Internacional
+Faltan <b>2 de 5</b> titulares habituales (lo normal en este equipo: 0.7).
+🪑 En la banca: Santos (6/7)
+❌ Fuera de la lista: Marquinhos (6/7)
+🆕 Entran poco habituales: Carlos (0/7), Wesley (0/7), André (0/7), Jair (1/7), Pedro (1/7), Andrey (1/7)
+<i>(n/7) = veces titular en sus últimos 7 partidos.</i>
+-- Legia Varsovia (Legia Varsovia vs Pogoń Grodzisk) estado='None' status_miembros=[]
+-- Pogoń Grodzisk (Legia Varsovia vs Pogoń Grodzisk) estado='None' status_miembros=[]
+-- Obolon Kyiv (Obolon Kyiv vs Nyva Vinnytsia) estado='None' status_miembros=[]
+-- Nyva Vinnytsia (Obolon Kyiv vs Nyva Vinnytsia) estado='None' status_miembros=[]
+-- Widzew Lodz (Widzew Lodz vs Skierniewice) estado='None' status_miembros=[]
+-- Skierniewice (Widzew Lodz vs Skierniewice) estado='None' status_miembros=[]
+-- CSKA Moscú (CSKA Moscú vs Arsenal Tula) estado='None' status_miembros=[]
+-- Arsenal Tula (CSKA Moscú vs Arsenal Tula) estado='None' status_miembros=[]
