@@ -12,32 +12,6 @@
    "xi": "468362,533380,983229,3068142,3183651,3188390,4329678,6878973,7980461,12728003,13841475|3182404,3371368,6593783,7863154,13093514,13884537,47420072,54842240,56700220,59045608,72047163",
    "conf": true
   },
-  "4882785": {
-   "partido": "País Vasco vs Venezuela",
-   "liga": "Internacional, Amistoso Internacional",
-   "inicio": "2026-11-14T14:00:00-05:00",
-   "estado": "liquidado",
-   "ultimo": 1794690411.6227152,
-   "clv": [],
-   "clv_ok": false,
-   "xi": "|",
-   "conf": false,
-   "r": {
-    "hg": 1,
-    "ag": 0,
-    "ht": [
-     1,
-     0
-    ],
-    "corners": 6.0,
-    "corners_h": 5.0,
-    "corners_a": 1.0,
-    "corners_1t": null,
-    "cards": 1.0,
-    "cards_h": 1.0,
-    "cards_a": 0.0
-   }
-  },
   "4632602": {
    "partido": "Mirassol vs Atlético Mineiro",
    "liga": "Brasil, Brasileirão",
@@ -322,32 +296,6 @@
     "cards": 2.0,
     "cards_h": 0.0,
     "cards_a": 2.0
-   }
-  },
-  "4874708": {
-   "partido": "San Martín vs Guayana Francesa",
-   "liga": "Norteamérica, CONCACAF Liga de Naciones - Liga B - Grupo 4",
-   "inicio": "2026-11-14T14:00:00-05:00",
-   "estado": "liquidado",
-   "ultimo": 1794689795.5232143,
-   "clv": [],
-   "clv_ok": false,
-   "xi": "3131092,59506089,61625904,76167135,79462343,79462345,79462350,79462351,79513590,81444826,81444827|489227,3107857,58438311,70935748,79456851,79476987,79476988,79476989,79476990,81423371,81444805",
-   "conf": true,
-   "r": {
-    "hg": 1,
-    "ag": 5,
-    "ht": [
-     1,
-     2
-    ],
-    "corners": 5.0,
-    "corners_h": 2.0,
-    "corners_a": 3.0,
-    "corners_1t": 3.0,
-    "cards": 3.0,
-    "cards_h": 2.0,
-    "cards_a": 1.0
    }
   },
   "4874709": {
@@ -722,7 +670,7 @@
    "liga": "Perú, Liga 1 - Clausura",
    "inicio": "2026-11-16T15:15:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1794854722.6081543
+   "ultimo": 1794855713.98441
   },
   "4760763": {
    "partido": "Juan Pablo II College vs Deportivo Garcilaso",
@@ -755,7 +703,7 @@
    "liga": "Perú, Liga 1 - Clausura",
    "inicio": "2026-11-16T15:15:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1794854722.6755223
+   "ultimo": 1794855714.1235356
   },
   "4874699": {
    "partido": "Canadá vs Guatemala",
