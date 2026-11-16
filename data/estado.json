@@ -649,34 +649,79 @@
    "partido": "Cuba vs Granada",
    "liga": "Norteamérica, CONCACAF Liga de Naciones - Liga B - Grupo 3",
    "inicio": "2026-11-16T14:00:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1794854722.7429535,
+   "estado": "liquidado",
+   "ultimo": 1794862546.24896,
    "clv": [],
    "clv_ok": false,
    "xi": "57150752,59405175,64680412,67742083,70922880,71912863,71912868,72691714,75259280,76798403,78791501|50927707,65434305,67617845,67759688,67766835,70923041,70923051,71354750,72768565,81418648,81418649",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 9,
+    "ag": 0,
+    "ht": [
+     4,
+     0
+    ],
+    "corners": 10.0,
+    "corners_h": 4.0,
+    "corners_a": 6.0,
+    "corners_1t": 5.0,
+    "cards": 2.0,
+    "cards_h": 1.0,
+    "cards_a": 1.0
+   }
   },
   "4874703": {
    "partido": "Guadalupe vs Bermuda",
    "liga": "Norteamérica, CONCACAF Liga de Naciones - Liga B - Grupo 2",
    "inicio": "2026-11-16T14:00:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1794852149.644288,
+   "estado": "liquidado",
+   "ultimo": 1794862546.4969049,
    "clv": [],
    "clv_ok": false,
    "xi": "75986,607715,1453857,1765032,61420567,77408913,79421626,79421750,79421919,79421996,79421997|1762999,19698258,19698261,59506751,70922936,71909157,76807120,77300607,79438069,81415600,81415603",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 4,
+    "ag": 1,
+    "ht": [
+     1,
+     0
+    ],
+    "corners": 11.0,
+    "corners_h": 9.0,
+    "corners_a": 2.0,
+    "corners_1t": 5.0,
+    "cards": 6.0,
+    "cards_h": 1.0,
+    "cards_a": 5.0
+   }
   },
   "4874704": {
    "partido": "Guyana vs Puerto Rico",
    "liga": "Norteamérica, CONCACAF Liga de Naciones - Liga B - Grupo 1",
    "inicio": "2026-11-16T14:00:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1794852150.474835,
+   "estado": "liquidado",
+   "ultimo": 1794862546.6318784,
    "clv": [],
    "clv_ok": false,
    "xi": "642578,12366216,19698277,19698287,46746524,47517539,55515894,60806185,61535744,67880667,81460138|58454837,67750705,70927654,71014681,71014687,71014690,71014691,71014693,76625989,77849588,81410274",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 4,
+    "ag": 2,
+    "ht": [
+     0,
+     1
+    ],
+    "corners": 10.0,
+    "corners_h": 4.0,
+    "corners_a": 6.0,
+    "corners_1t": 6.0,
+    "cards": 5.0,
+    "cards_h": 2.0,
+    "cards_a": 3.0
+   }
   },
   "4874705": {
    "partido": "Panamá vs Curazao",
