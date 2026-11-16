@@ -782,12 +782,27 @@
    "partido": "Zimbabue vs Guinea Ecuatorial",
    "liga": "África, Copa de África de Naciones - Clasificación",
    "inicio": "2026-11-16T08:00:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1794844657.9749901,
+   "estado": "liquidado",
+   "ultimo": 1794845281.3432486,
    "clv": [],
    "clv_ok": false,
    "xi": "544342,15344597,51263914,64277809,65551910,72877355,77940928,79434491,79434493,79434496,81458181|608527,49555487,53050235,62578837,64298097,64298099,64384047,71684663,77425992,81416676,81416678",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 3,
+    "ag": 0,
+    "ht": [
+     1,
+     0
+    ],
+    "corners": 7.0,
+    "corners_h": 4.0,
+    "corners_a": 3.0,
+    "corners_1t": null,
+    "cards": 10.0,
+    "cards_h": 4.0,
+    "cards_a": 6.0
+   }
   },
   "4883942": {
    "partido": "Sudán vs Senegal",
