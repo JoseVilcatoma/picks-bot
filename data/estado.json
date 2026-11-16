@@ -844,15 +844,23 @@
    "partido": "Eritrea vs Guinea",
    "liga": "África, Copa de África de Naciones - Clasificación",
    "inicio": "2026-11-16T11:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1794842302.369977
+   "estado": "enviado",
+   "ultimo": 1794842425.2689154,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "|",
+   "conf": false
   },
   "4883946": {
    "partido": "República Centroafricana vs Benin",
    "liga": "África, Copa de África de Naciones - Clasificación",
    "inicio": "2026-11-16T11:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1794842302.3830442
+   "estado": "enviado",
+   "ultimo": 1794842425.7236814,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "|",
+   "conf": false
   },
   "4672291": {
    "partido": "Portugal vs Dinamarca",
