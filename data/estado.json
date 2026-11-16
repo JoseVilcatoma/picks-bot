@@ -788,22 +788,34 @@
    "partido": "Zimbabue vs Guinea Ecuatorial",
    "liga": "África, Copa de África de Naciones - Clasificación",
    "inicio": "2026-11-16T08:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1794831514.0982118
+   "estado": "enviado",
+   "ultimo": 1794831637.0065327,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "|",
+   "conf": false
   },
   "4883942": {
    "partido": "Sudán vs Senegal",
    "liga": "África, Copa de África de Naciones - Clasificación",
    "inicio": "2026-11-16T08:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1794831514.2310572
+   "estado": "enviado",
+   "ultimo": 1794831637.3129911,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "|",
+   "conf": false
   },
   "4883943": {
    "partido": "Namibia vs Camerún",
    "liga": "África, Copa de África de Naciones - Clasificación",
    "inicio": "2026-11-16T08:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1794831514.2374952
+   "estado": "enviado",
+   "ultimo": 1794831637.5799744,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "|",
+   "conf": false
   },
   "4883944": {
    "partido": "Somalia vs Ghana",
