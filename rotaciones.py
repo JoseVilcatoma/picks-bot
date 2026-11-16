@@ -46,7 +46,11 @@ UNA_VUELTA = ["mundial", "copa del mundo", "eurocopa", "copa américa", "copa am
 CLAVES_ES = re.compile(r"rotaci|suplente|alternativ|dar[áa]n? descanso|descanso a |sin sus figuras|"
                        r"equipo b\b|once alternativo|cambios en el once|reservar[áa]|guardar[áa] a", re.I)
 CLAVES_EN = re.compile(r"rotat|rested|to rest |second[- ]string|much[- ]changed|wholesale changes|"
-                       r"rings? the changes|weakened (side|team|xi)|fringe players|makes? \w+ changes", re.I)
+                       r"rings? the changes|weakened (side|team|xi)|fringe players", re.I)
+NO_NOTICIAS = re.compile(r"rugby|wallabies|cricket|nba|nfl|b[aá]squet|women|femenin|sub-?\d|u-?\d\d|v[oó]ley|tenis", re.I)
+# Competiciones que el radar ignora (en amistosos rotar es lo normal: no es noticia)
+EXCLUIR_LIGAS = ["amistoso"]
+NUEVOS_MIN = 5          # también alerta si entran 5+ jugadores que casi nunca son titulares (y no es lo normal)
 
 TZ = ZoneInfo(C.ZONA)
 DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "rot")
@@ -125,7 +129,7 @@ def partidos(estados=(2,), dias=(0, 1)):
         for g in j.get("games") or []:
             cid = g.get("competitionId")
             info = grupo_de(cid, comps.get(cid, {}))
-            if not info or g["id"] in vistos or g.get("statusGroup") not in estados or s365.anulado(g):
+            if not info or any(x in info[0].lower() for x in EXCLUIR_LIGAS) or g["id"] in vistos or g.get("statusGroup") not in estados or s365.anulado(g):
                 continue
             vistos.add(g["id"])
             h, a = g["homeCompetitor"], g["awayCompetitor"]
@@ -223,7 +227,7 @@ def noticias(nombre, ingles):
                 viejo = (datetime.now(TZ) - parsedate_to_datetime(it.findtext("pubDate"))).total_seconds() > 48 * 3600
             except (TypeError, ValueError):
                 viejo = True
-            if viejo or norm(eq) not in norm(t) or not patron.search(t):
+            if viejo or norm(eq) not in norm(t) or not patron.search(t) or NO_NOTICIAS.search(t):
                 continue
             out.append((t, link))
         time.sleep(0.4)
@@ -238,7 +242,7 @@ def resumen(e, lista, forzar=False):
         return
     con_noticias = forzar or (hora in range(HORAS_NOTICIAS[0], HORAS_NOTICIAS[0] + CADA_HORAS)
                               or hora in range(HORAS_NOTICIAS[1], HORAS_NOTICIAS[1] + CADA_HORAS))
-    con_noticias = con_noticias and e.get("ranura_noticias") != ranura
+    con_noticias = (con_noticias or "ranura_noticias" not in e) and e.get("ranura_noticias") != ranura
     bloques = []
     for p in lista:
         if not timedelta(0) < p["inicio"] - t <= timedelta(hours=HORAS_ADELANTE):
@@ -257,7 +261,7 @@ def resumen(e, lista, forzar=False):
                 lineas.append(f"  🔒 <b>{esc(eq['n'])}</b>: {esc(motivo)}")
             if con_noticias:
                 for tit, link in noticias(eq["n"], eq["en"]):
-                    k = "noti:" + link[-80:]
+                    k = "noti:" + norm(tit)[:90]
                     if forzar or k not in e["enviados"]:
                         e["enviados"][k] = time.time()
                         e["marcados"].setdefault(f"{p['id']}:{eq['id']}", {"t": time.time(), "m": ""})
@@ -304,15 +308,21 @@ def analizar_xi(team_id, comp, nombres, gid, antes_de=None):
     faltan = sorted(habituales - hoy, key=lambda x: -veces[x])
     normal = sum(len(habituales - h) for h in hist) / n          # lo que le suele faltar a este equipo
     lista = {str(m.get("id")) for m in (comp.get("lineups") or {}).get("members") or []}
+    raro = max(1, n // 5)                                         # "casi nunca titular" = 0 o 1 vez
+    nuevos = [p for p in hoy if veces.get(p, 0) <= raro]
+    # cuántos "raros" suele poner: un equipo que siempre prueba gente no dispara la alerta
+    normal_nuevos = sum(sum(1 for p in h if veces[p] <= raro) for h in hist) / n
 
     def nombre(pid):
         return nom.get(pid) or nombres.get(int(pid), "") or "?"
     return {
         "faltan": len(faltan), "habituales": len(habituales), "normal": normal, "n": n,
-        "fuerte": len(faltan) >= UMBRAL_FALTAN and len(faltan) >= normal + SOBRE_LO_NORMAL,
+        "fuerte": (len(faltan) >= UMBRAL_FALTAN and len(faltan) >= normal + SOBRE_LO_NORMAL)
+                  or (len(nuevos) >= NUEVOS_MIN and len(nuevos) >= normal_nuevos + 2),
+        "n_nuevos": len(nuevos), "normal_nuevos": normal_nuevos,
         "banca": [f"{nombre(p)} ({veces[p]}/{n})" for p in faltan if p in lista],
         "fuera": [f"{nombre(p)} ({veces[p]}/{n})" for p in faltan if p not in lista],
-        "nuevos": [f"{nombre(p)} ({veces.get(p, 0)}/{n})" for p in hoy if veces.get(p, 0) <= max(1, n // 5)],
+        "nuevos": [f"{nombre(p)} ({veces.get(p, 0)}/{n})" for p in nuevos],
         "portero": any(pos.get(p) == "Portero" for p in faltan),
     }
 
@@ -322,7 +332,7 @@ def texto_xi(p, eq, a, motivo=""):
     if not a["fuerte"]:
         return (f"✅ <b>{esc(eq['n'])} sale con su equipo habitual</b>\n{cab}\n"
                 f"Faltan {a['faltan']} de {a['habituales']} titulares habituales (lo normal en este equipo: {a['normal']:.1f}).")
-    nivel = "Rotación masiva" if a["faltan"] >= 6 else "Rotación fuerte"
+    nivel = "Rotación masiva" if a["faltan"] >= 6 or a["n_nuevos"] >= 7 else "Rotación fuerte"
     lin = [f"🚨 <b>{nivel}: {esc(eq['n'])}</b>", cab,
            f"Faltan <b>{a['faltan']} de {a['habituales']}</b> titulares habituales "
            f"(lo normal en este equipo: {a['normal']:.1f})."]
@@ -331,7 +341,7 @@ def texto_xi(p, eq, a, motivo=""):
     if a["fuera"]:
         lin.append("❌ Fuera de la lista: " + esc(", ".join(a["fuera"])))
     if a["nuevos"]:
-        lin.append("🆕 Entran poco habituales: " + esc(", ".join(a["nuevos"])))
+        lin.append(f"🆕 Entran {a['n_nuevos']} poco habituales (lo normal: {a['normal_nuevos']:.1f}): " + esc(", ".join(a["nuevos"])))
     if a["portero"]:
         lin.append("🧤 Cambia el portero habitual.")
     if motivo:
@@ -367,7 +377,8 @@ def alineaciones(e, lista):
             if not a:
                 continue
             marca = e["marcados"].get(k)
-            print(f"[xi] {eq['n']}: faltan {a['faltan']}/{a['habituales']} (normal {a['normal']:.1f})", flush=True)
+            print(f"[xi] {eq['n']}: faltan {a['faltan']}/{a['habituales']} (normal {a['normal']:.1f}), "
+                  f"nuevos {a['n_nuevos']} (normal {a['normal_nuevos']:.1f})", flush=True)
             if a["fuerte"] or marca:                    # el ✅ solo para equipos que ya te había avisado
                 enviar(texto_xi(p, eq, a, (marca or {}).get("m", "")))
 
@@ -405,7 +416,7 @@ def diagnostico():
     print("\n===== RESUMEN (forzado) =====")
     resumen(cargar(), lista, forzar=True)
     print("\n===== SIMULACIÓN con partidos ya jugados (ayer y hoy) =====")
-    for p in partidos(estados=(4,), dias=(-1, 0))[:14]:
+    for p in partidos(estados=(4,), dias=(-3, -2, -1, 0))[:40]:
         g, nombres = s365.detalle(p["id"])
         if not g:
             continue
@@ -417,7 +428,7 @@ def diagnostico():
                   f"status_miembros={sorted({m.get('status') for m in lu.get('members') or []})}")
             if a:
                 a2 = dict(a, fuerte=True)
-                print(("ALERTA " if a["fuerte"] else "normal ") + texto_xi(p, eq, a2))
+                print(("ALERTA " if a["fuerte"] else "normal ") + texto_xi(p, eq, a2).replace("\n", " | "))
     s365.guardar_cache()
 
 
