@@ -27,32 +27,6 @@
     "cards_a": 1.0
    }
   },
-  "4632737": {
-   "partido": "Chapecoense vs Vasco Da Gama",
-   "liga": "Brasil, Brasileirão",
-   "inicio": "2026-11-14T18:30:00-05:00",
-   "estado": "liquidado",
-   "ultimo": 1794706512.4307897,
-   "clv": [],
-   "clv_ok": false,
-   "xi": "278865,369720,3070487,13138144,15916008,17184737,52370819,64860328,75441145,75518778,76889464|404923,1444591,3120151,3235737,16767092,37877027,53087561,64798849,65176757,65227585,67354179",
-   "conf": true,
-   "r": {
-    "hg": 0,
-    "ag": 2,
-    "ht": [
-     0,
-     1
-    ],
-    "corners": 10.0,
-    "corners_h": 6.0,
-    "corners_a": 4.0,
-    "corners_1t": 6.0,
-    "cards": 4.0,
-    "cards_h": 3.0,
-    "cards_a": 1.0
-   }
-  },
   "4672284": {
    "partido": "Finlandia vs San Marino",
    "liga": "Europa, Liga de las Naciones - UEFA - Liga C - Grupo 1",
