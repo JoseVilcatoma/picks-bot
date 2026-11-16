@@ -45,7 +45,8 @@ def sport_de(g):
     if cid in LIGAS:
         return LIGAS[cid]
     nombre = (g.get("competitionDisplayName") or "").lower()
-    if "nations" in nombre:
+    # 365Scores en español la llama "Liga de Naciones" (con "nations" nunca coincidía)
+    if ("nations league" in nombre or "liga de naciones" in nombre) and "concacaf" not in nombre:
         return "soccer_uefa_nations_league"
     if ("eliminatoria" in nombre or "clasificaci" in nombre) and ("sudam" in nombre or "conmebol" in nombre):
         return "soccer_fifa_world_cup_qualifiers_south_america"
