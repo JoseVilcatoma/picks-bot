@@ -663,9 +663,9 @@
   "4760761": {
    "partido": "CD Moquegua vs Grau",
    "liga": "Perú, Liga 1 - Clausura",
-   "inicio": "2026-11-16T15:00:00-05:00",
+   "inicio": "2026-11-16T15:15:00-05:00",
    "estado": "pendiente",
-   "ultimo": 0
+   "ultimo": 1794854722.6081543
   },
   "4760763": {
    "partido": "Juan Pablo II College vs Deportivo Garcilaso",
@@ -696,9 +696,9 @@
   "4760765": {
    "partido": "Cusco FC vs ADT Tarma",
    "liga": "Perú, Liga 1 - Clausura",
-   "inicio": "2026-11-16T15:00:00-05:00",
+   "inicio": "2026-11-16T15:15:00-05:00",
    "estado": "pendiente",
-   "ultimo": 0
+   "ultimo": 1794854722.6755223
   },
   "4874699": {
    "partido": "Canadá vs Guatemala",
@@ -724,9 +724,13 @@
   "4874702": {
    "partido": "Cuba vs Granada",
    "liga": "Norteamérica, CONCACAF Liga de Naciones - Liga B - Grupo 3",
-   "inicio": "2026-11-16T15:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 0
+   "inicio": "2026-11-16T14:00:00-05:00",
+   "estado": "enviado",
+   "ultimo": 1794854722.7429535,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "57150752,59405175,64680412,67742083,70922880,71912863,71912868,72691714,75259280,76798403,78791501|50927707,65434305,67617845,67759688,67766835,70923041,70923051,71354750,72768565,81418648,81418649",
+   "conf": true
   },
   "4874703": {
    "partido": "Guadalupe vs Bermuda",

@@ -3741,3 +3741,8 @@ fecha,game_id,partido,liga,tipo,mercado,clave,prob,cuota,casa,cuota_justa,ev,sta
 2026-11-16 13:43,4672274,Grecia vs Serbia,"Europa, Liga de las Naciones - UEFA - Liga A - Grupo 2",modelo,Menos de 11.5 córners,CORN|11.5|under,0.7568,,,1.32,,,si,,,
 2026-11-16 13:43,4672274,Grecia vs Serbia,"Europa, Liga de las Naciones - UEFA - Liga A - Grupo 2",modelo,Más de 2.5 tarjetas,CARDS|2.5|over,0.7146,,,1.40,,,si,,,
 2026-11-16 13:43,4672274,Grecia vs Serbia,"Europa, Liga de las Naciones - UEFA - Liga A - Grupo 2",crear,No hay empate + Menos de 2.5 goles en el 1T + Más de 4.5 córners,DC||12&OU1T|2.5|under&CORN|4.5|over,0.5744,,,1.74,,,,,,
+2026-11-16 13:45,4874702,Cuba vs Granada,"Norteamérica, CONCACAF Liga de Naciones - Liga B - Grupo 3",seguro,Más de 0.5 goles en el 1T,OU1T|0.5|over,0.7783,1.17,Bet365,1.28,-0.0894,,si,,,
+2026-11-16 13:45,4874702,Cuba vs Granada,"Norteamérica, CONCACAF Liga de Naciones - Liga B - Grupo 3",seguro,Gana Cuba,1X2||1,0.7666,1.17,Bet365,1.30,-0.1030,,si,,,
+2026-11-16 13:45,4874702,Cuba vs Granada,"Norteamérica, CONCACAF Liga de Naciones - Liga B - Grupo 3",modelo,Más de 1.5 goles,OU|1.5|over,0.8500,,,1.18,,,si,,,
+2026-11-16 13:45,4874702,Cuba vs Granada,"Norteamérica, CONCACAF Liga de Naciones - Liga B - Grupo 3",modelo,Menos de 6.5 tarjetas,CARDS|6.5|under,0.7865,,,1.27,,,si,,,
+2026-11-16 13:45,4874702,Cuba vs Granada,"Norteamérica, CONCACAF Liga de Naciones - Liga B - Grupo 3",crear,No hay empate + Más de 1.5 goles + Menos de 14.5 córners,DC||12&OU|1.5|over&CORN|14.5|under,0.5870,,,1.70,,,,,,
