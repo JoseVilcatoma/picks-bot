@@ -467,8 +467,12 @@
    "partido": "Estonia vs Bulgaria",
    "liga": "Europa, Liga de las Naciones - UEFA - Liga C - Grupo 4",
    "inicio": "2026-11-16T12:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1794844784.9432774
+   "estado": "enviado",
+   "ultimo": 1794845029.5169532,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "468436,921950,50967039,56596898,56683155,57014364,57019096,58845718,72754115,72770766,77499400|546559,923442,3077296,49462994,50799028,54544942,65882328,68356182,71520610,77333847,81459756",
+   "conf": true
   },
   "4672278": {
    "partido": "Kazajstán vs Eslovaquia",
@@ -633,8 +637,12 @@
    "partido": "Islandia vs Luxemburgo",
    "liga": "Europa, Liga de las Naciones - UEFA - Liga C - Grupo 4",
    "inicio": "2026-11-16T12:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1794844784.949363
+   "estado": "enviado",
+   "ultimo": 1794845030.1316283,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "492337,10279281,15489392,49578463,58495051,58801427,61672509,62513182,65775413,70913188|516268,516274,572325,638443,3052372,3136376,3169014,52049396,68076907,76537886,77066999",
+   "conf": true
   },
   "4760760": {
    "partido": "Comerciantes Unidos vs Sport Boys",
