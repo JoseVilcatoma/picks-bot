@@ -670,7 +670,7 @@
    "liga": "Perú, Liga 1 - Clausura",
    "inicio": "2026-11-16T15:15:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1794857195.7359016
+   "ultimo": 1794857439.4545412
   },
   "4760763": {
    "partido": "Juan Pablo II College vs Deportivo Garcilaso",
@@ -702,8 +702,12 @@
    "partido": "Cusco FC vs ADT Tarma",
    "liga": "Perú, Liga 1 - Clausura",
    "inicio": "2026-11-16T15:15:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1794857195.8906543
+   "estado": "enviado",
+   "ultimo": 1794857439.617846,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "487024,541797,547480,612085,832539,838440,2809735,3366544,8783445,14220059,47407662|358569,457528,497371,541787,618875,3137770,4416299,54920557,67902927,70823016,72047532",
+   "conf": true
   },
   "4874699": {
    "partido": "Canadá vs Guatemala",
