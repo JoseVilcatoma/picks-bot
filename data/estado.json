@@ -424,23 +424,53 @@
    "partido": "Lituania vs Liechtenstein",
    "liga": "Europa, Liga de las Naciones - UEFA - Liga D - Grupo 2",
    "inicio": "2026-11-16T12:00:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1794844530.7959337,
+   "estado": "liquidado",
+   "ultimo": 1794855344.7002354,
    "clv": [],
    "clv_ok": false,
    "xi": "588494,676504,61132480,62514419,65174451,65960028,67610878,67802060,67878241,77514843,77770467|385169,518062,534535,3052017,3052020,3080882,3097293,71901465,72770248,77973055,79421021",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 2,
+    "ag": 1,
+    "ht": [
+     1,
+     0
+    ],
+    "corners": 7.0,
+    "corners_h": 6.0,
+    "corners_a": 1.0,
+    "corners_1t": 5.0,
+    "cards": 5.0,
+    "cards_h": 4.0,
+    "cards_a": 1.0
+   }
   },
   "4672277": {
    "partido": "Estonia vs Bulgaria",
    "liga": "Europa, Liga de las Naciones - UEFA - Liga C - Grupo 4",
    "inicio": "2026-11-16T12:00:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1794845029.5169532,
+   "estado": "liquidado",
+   "ultimo": 1794855344.9753897,
    "clv": [],
    "clv_ok": false,
    "xi": "468436,921950,50967039,56596898,56683155,57014364,57019096,58845718,72754115,72770766,77499400|546559,923442,3077296,49462994,50799028,54544942,65882328,68356182,71520610,77333847,81459756",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 2,
+    "ag": 1,
+    "ht": [
+     1,
+     1
+    ],
+    "corners": 5.0,
+    "corners_h": 2.0,
+    "corners_a": 3.0,
+    "corners_1t": 2.0,
+    "cards": 5.0,
+    "cards_h": 3.0,
+    "cards_a": 2.0
+   }
   },
   "4672278": {
    "partido": "Kazajstán vs Eslovaquia",
@@ -639,12 +669,27 @@
    "partido": "Islandia vs Luxemburgo",
    "liga": "Europa, Liga de las Naciones - UEFA - Liga C - Grupo 4",
    "inicio": "2026-11-16T12:00:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1794845030.1316283,
+   "estado": "liquidado",
+   "ultimo": 1794855345.1590972,
    "clv": [],
    "clv_ok": false,
    "xi": "492337,10279281,15489392,49578463,58495051,58801427,61672509,62513182,65775413,70913188|516268,516274,572325,638443,3052372,3136376,3169014,52049396,68076907,76537886,77066999",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 3,
+    "ag": 0,
+    "ht": [
+     2,
+     0
+    ],
+    "corners": 12.0,
+    "corners_h": 9.0,
+    "corners_a": 3.0,
+    "corners_1t": 4.0,
+    "cards": 0.0,
+    "cards_h": 0.0,
+    "cards_a": 0.0
+   }
   },
   "4760760": {
    "partido": "Comerciantes Unidos vs Sport Boys",
