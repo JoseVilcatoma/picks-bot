@@ -47,7 +47,8 @@ CLAVES_ES = re.compile(r"rotaci|suplente|alternativ|dar[áa]n? descanso|descanso
                        r"equipo b\b|once alternativo|cambios en el once|reservar[áa]|guardar[áa] a", re.I)
 CLAVES_EN = re.compile(r"rotat|rested|to rest |second[- ]string|much[- ]changed|wholesale changes|"
                        r"rings? the changes|weakened (side|team|xi)|fringe players", re.I)
-NO_NOTICIAS = re.compile(r"rugby|wallabies|cricket|nba|nfl|b[aá]squet|women|femenin|sub-?\d|u-?\d\d|v[oó]ley|tenis", re.I)
+NO_NOTICIAS = re.compile(r"rugby|wallabies|cricket|nba|nfl|knicks|b[aá]squet|basket|women|femenin|sub-?\d|u-?\d\d|v[oó]ley|tenis|"
+                         r"tropas|troops|militar|military|ej[eé]rcito|army|presidente|president\b", re.I)
 # Competiciones que el radar ignora (en amistosos rotar es lo normal: no es noticia)
 EXCLUIR_LIGAS = ["amistoso"]
 NUEVOS_MIN = 5          # también alerta si entran 5+ jugadores que casi nunca son titulares (y no es lo normal)
@@ -221,9 +222,9 @@ def traducir(texto):
 def noticias(nombre, ingles):
     """Titulares de las últimas 48 h que nombran al equipo y hablan de rotación."""
     out = []
-    consultas = [(nombre, 'rotación OR suplentes OR rotaciones OR alternativo OR descanso', "es-419", "PE", CLAVES_ES)]
+    consultas = [(nombre, 'fútbol (rotación OR suplentes OR rotaciones OR alternativo OR descanso)', "es-419", "PE", CLAVES_ES)]
     if ingles and norm(ingles) != norm(nombre):
-        consultas.append((ingles, 'rotate OR rotation OR rested OR "second string" OR changes', "en", "US", CLAVES_EN))
+        consultas.append((ingles, 'football (rotate OR rotation OR rested OR "second string" OR changes)', "en", "US", CLAVES_EN))
     for eq, extra, hl, gl, patron in consultas:
         try:
             r = requests.get("https://news.google.com/rss/search", timeout=15,
@@ -238,7 +239,9 @@ def noticias(nombre, ingles):
                 viejo = (datetime.now(TZ) - parsedate_to_datetime(it.findtext("pubDate"))).total_seconds() > 48 * 3600
             except (TypeError, ValueError):
                 viejo = True
-            if viejo or norm(eq) not in norm(t) or not patron.search(t) or NO_NOTICIAS.search(t):
+            cuerpo = t.rsplit(" - ", 1)[0]                  # sin el nombre del medio
+            if viejo or norm(eq) not in norm(cuerpo) or not patron.search(cuerpo) or NO_NOTICIAS.search(t) \
+                    or any(norm(cuerpo) == norm(o[2].rsplit(" - ", 1)[0]) for o in out):
                 continue
             out.append((t if hl.startswith("es") else traducir(t), link, t))
         time.sleep(0.4)
