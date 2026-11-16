@@ -6,6 +6,10 @@ manda el análisis por Telegram. Todo corre gratis en GitHub Actions y empieza e
 cada pick, lo liquida solo y `/resumen` te dice si acierta lo que promete.
 
 ## Qué trae cada mensaje
+**Formato corto (desde el 16/11/2026):** unas 12–15 líneas por partido: alineación y bajas, forma, lectura, goles
+esperados y una línea por pick (probabilidad · cuota · justa). El detalle del cálculo (mercado vs. modelo, EV,
+criterios uno por uno) ya no se muestra, pero se sigue calculando y registrando en `data/picks.csv`.
+
 | Sección | Qué es |
 |---|---|
 | 🔎 Análisis | forma, localía, tabla, H2H, goles recientes, remates, descanso, altura, movimiento de cuotas y alineaciones |

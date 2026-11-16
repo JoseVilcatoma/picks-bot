@@ -703,120 +703,63 @@ def analizar(gid, g, nombres, modo):
         bloqueados = [c for c in apostables if c["casa"] == "Bet365"]
         apostables = [c for c in apostables if c["casa"] != "Bet365"]
 
+    # ---------- mensaje corto: solo lo que sirve para decidir (el detalle del cálculo queda en picks.csv) ----------
     inicio = iso(g["startTime"])
-    lin = [f"⚽ <b>{esc(local)} vs {esc(visita)}</b>",
-           f"🏆 {esc(g.get('competitionDisplayName', ''))} · 🕐 {inicio:%d/%m %H:%M}"]
+    lin = [f"⚽ <b>{esc(local)} vs {esc(visita)}</b> · {esc(g.get('competitionDisplayName', ''))} · {inicio:%d/%m %H:%M}"]
     if modo == "confirmada":
-        lin.append(f"📋 Alineaciones confirmadas ({esc(form_l or '?')} / {esc(form_v or '?')})")
+        lin.append("📋 Alineaciones confirmadas")
     elif modo == "probable":
-        lin.append(f"📋 <b>Alineación probable</b> ({esc(form_l or '?')} / {esc(form_v or '?')}): "
-                   "365Scores aún no la confirma. Si cambia, te mando actualización.")
+        lin.append("📋 <b>Alineación probable</b> (si cambia, te mando actualización)")
     else:
-        lin.append("📋 <b>Sin alineación confirmada</b> a minutos del inicio: picks solo con datos previos")
+        lin.append("📋 <b>Sin alineación confirmada</b>: picks solo con datos previos")
     lin += notas
-    extra = []
-    if mu_c:
-        extra.append(f"Córners {mu_c:.1f}" + (f" ({esp['local']:.1f}-{esp['visita']:.1f})" if esp["local"] else ""))
-    if mu_k:
-        extra.append(f"Tarjetas {mu_k:.1f}")
-    def forma(res, tid):
-        letras, gf, gc = [], [], []
+
+    def letras(res, tid):
+        out = []
         for _, _, hid, aid, sh, sa in res:
             if sh is None or sa is None or sh < 0:
                 continue
-            a_favor, en_contra = (sh, sa) if hid == tid else (sa, sh)
-            gf.append(a_favor); gc.append(en_contra)
-            letras.append("G" if a_favor > en_contra else "E" if a_favor == en_contra else "P")
-        if not gf:
-            return "sin datos"
-        return (f"{'-'.join(letras[:5])} · {sum(gf)/len(gf):.1f} goles a favor / "
-                f"{sum(gc)/len(gc):.1f} en contra (últ. {len(gf)})")
-    lin.append("\n🔎 <b>ANÁLISIS</b>")
-    lin.append(f"📈 {esc(local)}: {forma(res_l, h['id'])}")
-    lin.append(f"📈 {esc(visita)}: {forma(res_v, a['id'])}")
-    lin += [esc(x) for x in crit_lin if not x.startswith("• Forma")]
+            f_, c_ = (sh, sa) if hid == tid else (sa, sh)
+            out.append("G" if f_ > c_ else "E" if f_ == c_ else "P")
+        return "-".join(out[:5]) or "sin datos"
+    lin.append(f"\n📈 {esc(local)} {letras(res_l, h['id'])} · {esc(visita)} {letras(res_v, a['id'])}")
     lin.append(criterios.lectura(señales, esc(local), esc(visita)))
-    lin.append(f"📊 Goles esperados {lh:.2f} – {la:.2f}" + (" · " + " · ".join(extra) if extra else ""))
-    if lam_m:
-        lin.append(f"   <i>(mercado {lam_m[0]:.2f}–{lam_m[1]:.2f} · forma/remates {lh_forma:.2f}–{la_forma:.2f})</i>")
-    if con_alineacion:
-        if base:
-            def cambio(x0, x1):
-                return f"{x0:.2f}→{x1:.2f} ({(x1 / x0 - 1):+.0%})"
-            lin.append(f"🧩 <b>Impacto de la alineación</b>: {esc(local)} {cambio(lh0, lh)} · "
-                       f"{esc(visita)} {cambio(la0, la)}")
-        else:
-            lin.append("🧩 Alineaciones habituales: sin impacto relevante en el análisis")
+    lin.append(f"📊 Goles esperados {lh:.2f} – {la:.2f}")
+    if con_alineacion and base and max(abs(lh / lh0 - 1), abs(la / la0 - 1)) >= 0.03:
+        lin.append(f"🧩 Por la alineación: {esc(local)} {lh / lh0 - 1:+.0%} · {esc(visita)} {la / la0 - 1:+.0%} en ataque")
     if min(nl, nv) < 5:
-        lin.append("ℹ️ Pocos partidos recientes de algún equipo: el modelo es menos confiable.")
-    if ext:
-        edad = f" · actualizadas hace {ext['edad_min']} min" if ext.get("edad_min") is not None else ""
-        lin.append(f"💱 Cuotas frescas de {ext['n_casas']} casas · referencia {ext['ref']}{edad}")
-    elif viejas:
-        lin.append(f"⚠️ <b>Cuotas de Bet365 sin moverse hace {horas_quietas:.0f} h</b>: probablemente "
-                   "desactualizadas. Verifica en tu app y guíate por la “justa”.")
-    elif mercado:
-        lin.append("💱 Cuotas: solo Bet365 (vía 365Scores) · verifica en tu app antes de apostar")
-    if not mercado:
-        lin.append("ℹ️ Sin cuotas para este partido: probabilidades solo del modelo.")
+        lin.append("ℹ️ Pocos partidos recientes: análisis menos confiable.")
+    if viejas and not ext:
+        lin.append("⚠️ <b>Cuotas de Bet365 posiblemente viejas</b>: verifica en tu app y guíate por la “justa”.")
+    elif not mercado:
+        lin.append("ℹ️ Sin cuotas para este partido: solo modelo.")
 
-    def fila(c, con_stake=False):
-        t = f"• {esc(c['texto'])} — <b>{c['p']:.0%}</b>"
-        if c.get("p_mercado") is not None:
-            extra_al = f" · alineación {c['delta']:+.0%}" if abs(c.get("delta") or 0) >= 0.015 else ""
-            t += f" <i>(mercado {c['p_mercado']:.0%} · modelo {c['p_modelo']:.0%}{extra_al})</i>"
+    def fila(c, icono, con_stake=False):
+        t = f"{icono} {esc(c['texto'])} — <b>{c['p']:.0%}</b>"
         if c["cuota"]:
-            casa = f" ({esc(c['casa'])})" if c.get("casa") else ""
-            t += f" · cuota {c['cuota']:.2f}{casa} · EV {c['ev']:+.0%}"
+            t += f" · cuota {c['cuota']:.2f}" + (f" ({esc(c['casa'])})" if con_stake and c.get("casa") else "")
         t += f" · justa {c['justa']:.2f}"
-        r = c.get("respaldo")
-        if r and (r[0] or r[1]):
-            t += f" · respaldo ✔{r[0]} ✖{r[1]}"
         if con_stake:
             t += f" · stake S/ {c['stake']:.2f}"
         return t
 
-    lin.append("\n🟢 <b>SEGUROS</b> (lo más probable)")
-    lin += [fila(c) for c in seguros] or ["• Ninguno claro"]
-    if modelos:
-        lin.append("\n📐 <b>TARJETAS, CÓRNERS Y SOLO MODELO</b> (menos fiables: compara la “justa” en tu casa)")
-        lin += [fila(c) for c in modelos]
-    lin.append(f"\n✅ <b>APOSTABLES</b> (paga ≥ {C.VALOR_APOSTABLE:.0%} más que la justa de Pinnacle, cuota {C.CUOTA_MIN:.2f}–{C.CUOTA_MAX:.2f})")
+    lin.append("")
+    lin += [fila(c, "🟢") for c in seguros]
+    lin += [fila(c, "📐") for c in modelos]
+    lin.append("")
     if apostables:
-        lin += [fila(c, True) for c in apostables]
+        lin.append("✅ <b>APOSTABLES</b> (pagan más que la justa de Pinnacle)")
+        lin += [fila(c, "•", True) for c in apostables]
     elif bloqueados:
-        lin.append("• Habría valor con las cuotas de 365Scores, pero están desactualizadas: "
-                   "revísalo tú en la app (" + ", ".join(f"{esc(c['texto'])} ≥ {c['justa']:.2f}"
-                                                      for c in bloqueados) + ")")
+        lin.append("✅ Apostables: revisa en tu app " + ", ".join(f"{esc(c['texto'])} ≥ {c['justa']:.2f}" for c in bloqueados))
     elif not sharp:
-        lin.append(f"• Sin referencia de Pinnacle ({esc(motivo_ext or 'Pinnacle no cotiza este partido')}): "
-                   "no se marcan apostables.")
+        lin.append("✅ Apostables: sin referencia de Pinnacle")
     else:
-        lin.append(f"• Ninguno cumple las reglas (valor ≥ 3% vs Pinnacle, cuota {C.CUOTA_MIN:.2f}–{C.CUOTA_MAX:.2f}, prob. ≥ 25%, "
-                   "modelo a favor). No apostar también es una decisión.")
-    contra = [c for c in cands if M.contradicho(c) and (c.get("ev_ref") or -1) >= C.VALOR_APOSTABLE
-              and C.CUOTA_MIN <= c["cuota"] <= C.CUOTA_MAX]
-    if contra:
-        lin.append("⚠️ <i>Con valor pero descartados porque la mayoría de criterios van en contra: "
-                   + ", ".join(esc(c["texto"]) for c in sorted(contra, key=lambda c: -c["ev_ref"])[:3]) + "</i>")
-    dudosos = [c for c in cands if (c.get("ev_ref") or -1) >= C.VALOR_APOSTABLE and C.CUOTA_MIN <= c["cuota"] <= C.CUOTA_MAX
-               and c.get("p_ref") is not None and c["p_modelo"] < c["p_ref"] - 0.02 and not M.contradicho(c)]
-    if dudosos:
-        lin.append("⚠️ <i>Valor contra Pinnacle pero el modelo no lo respalda (descartados): "
-                   + ", ".join(esc(c["texto"]) for c in sorted(dudosos, key=lambda c: -c["ev_ref"])[:3]) + "</i>")
+        lin.append("✅ Apostables: ninguno")
     ticket = M.ticket_partido(cands, matriz)
     if ticket:
-        lin.append(f"\n🎟 <b>TICKET DEL PARTIDO</b> (cuota {C.TICKET_CUOTA[0]:.2f}–{C.TICKET_CUOTA[1]:.2f}, lo más seguro posible)")
-        for c in ticket["piernas"]:
-            lin.append(f"• {esc(c['texto'])} · {c['cuota']:.2f}" + (f" ({esc(c['casa'])})" if c.get("casa") else ""))
-        justa_t = 1 / ticket["p"]
-        lin.append(f"➡️ Cuota {ticket['cuota']:.2f} · probabilidad <b>{ticket['p']:.0%}</b> · justa {justa_t:.2f}")
-        if len(ticket["piernas"]) > 1:
-            lin.append("<i>Mismo partido: arma la combinada con “Crear apuesta”. Las casas suelen pagar menos que "
-                       "la multiplicación; conviene solo si te pagan ≥ la justa.</i>")
-    else:
-        lin.append(f"\n🎟 Ticket: no hay combinación segura con cuota {C.TICKET_CUOTA[0]:.2f}–{C.TICKET_CUOTA[1]:.2f} "
-                   "que pague al menos su cuota justa en este partido.")
+        lin.append("🎟 <b>Ticket</b>: " + " + ".join(esc(c["texto"]) for c in ticket["piernas"])
+                   + f" · cuota {ticket['cuota']:.2f} · justa {1 / ticket['p']:.2f}")
     crear = M.crear_apuesta(cands, lh, la, esp, local, visita,
                             historial(gid, h["id"], a["id"], local, visita, res_l, res_v, st_l, st_v))
     # Solo se muestra cuando conviene a la cuota que suele pagar Bet365; si no, se registra en silencio
@@ -825,20 +768,9 @@ def analizar(gid, g, nombres, modo):
         f, aciertos, n = calib_crear()
         p_cal = min(0.95, crear["p"] * f)
         justa_cal = 1 / p_cal
-        est = C.BUILDER_CUOTA_BET365
-        if est >= justa_cal:
-            lin.append("\n🧱 <b>CREAR APUESTA</b> (todas del mismo partido, en “Crear apuesta” de Bet365)")
-            for x in crear["piernas"]:
-                t = f"• {esc(x['texto'])} — <b>{x['p']:.0%}</b>"
-                if x["hist"]:
-                    t += f" <i>({esc(x['hist']['txt'])})</i>"
-                lin.append(t)
-            hist_txt = f" · corregida con su historial ({aciertos}/{n} acertadas)" if n else ""
-            lin.append(f"➡️ Probabilidad <b>{p_cal:.0%}</b>{hist_txt} · cuota justa <b>{justa_cal:.2f}</b>")
-            lin.append(f"💰 Bet365 suele pagar ~{est:.2f}: ✅ <b>conviene si te paga ≥ {justa_cal:.2f}</b>.")
-    lin.append("\n<i>“justa” = cuota mínima que deberías aceptar en tu casa de apuestas. "
-               "Los seguros son informativos: solo ✅ Apostables y el ticket están pensados para apostar.</i>")
-    lin.append("🧪 Paper trading · cuotas: " + ("The Odds API + Bet365 (365Scores)" if ext else "Bet365 vía 365Scores"))
+        if C.BUILDER_CUOTA_BET365 >= justa_cal:
+            lin.append(f"🧱 <b>Crear apuesta</b> ({p_cal:.0%}, conviene si Bet365 paga ≥ {justa_cal:.2f}): "
+                       + " + ".join(esc(x["texto"]) for x in crear["piernas"]))
 
     filas = []
     fecha = ahora().strftime("%Y-%m-%d %H:%M")
