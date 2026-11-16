@@ -341,21 +341,39 @@ def analizar_xi(team_id, comp, nombres, gid, antes_de=None):
     }
 
 
+def _suele_faltar(x):
+    """Promedio de habituales que le faltan por partido, dicho en palabras."""
+    if x < 0.75:
+        return "este equipo casi nunca cambia su once"
+    if x < 1.5:
+        return "normalmente le falta 1"
+    return f"normalmente le faltan {round(x)}"
+
+
+def _suele_meter(x):
+    if x < 0.5:
+        return "normalmente no mete ninguno"
+    if x < 1.5:
+        return "normalmente mete 1"
+    return f"normalmente mete {round(x)}"
+
+
 def texto_xi(p, eq, a, motivo=""):
     cab = f"{esc(titulo(p))} · {p['inicio']:%H:%M} · {esc(p['liga'])}"
     if not a["fuerte"]:
         return (f"✅ <b>{esc(eq['n'])} sale con su equipo habitual</b>\n{cab}\n"
-                f"Faltan {a['faltan']} de {a['habituales']} titulares habituales (lo normal en este equipo: {a['normal']:.1f}).")
+                f"Faltan {a['faltan']} de sus {a['habituales']} titulares habituales ({_suele_faltar(a['normal'])}).")
     nivel = "Rotación masiva" if a["faltan"] >= 6 or a["n_nuevos"] >= 7 else "Rotación fuerte"
     lin = [f"🚨 <b>{nivel}: {esc(eq['n'])}</b>", cab,
-           f"Faltan <b>{a['faltan']} de {a['habituales']}</b> titulares habituales "
-           f"(lo normal en este equipo: {a['normal']:.1f})."]
+           f"Faltan <b>{a['faltan']} de sus {a['habituales']}</b> titulares habituales "
+           f"({_suele_faltar(a['normal'])})."]
     if a["banca"]:
         lin.append("🪑 En la banca: " + esc(", ".join(a["banca"])))
     if a["fuera"]:
         lin.append("❌ Fuera de la lista: " + esc(", ".join(a["fuera"])))
     if a["nuevos"]:
-        lin.append(f"🆕 Entran {a['n_nuevos']} poco habituales (lo normal: {a['normal_nuevos']:.1f}): " + esc(", ".join(a["nuevos"])))
+        lin.append(f"🆕 Entran {a['n_nuevos']} que casi nunca son titulares ({_suele_meter(a['normal_nuevos'])}): "
+                   + esc(", ".join(a["nuevos"])))
     if a["portero"]:
         lin.append("🧤 Cambia el portero habitual.")
     if motivo:
