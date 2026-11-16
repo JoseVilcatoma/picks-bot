@@ -804,25 +804,25 @@
    "liga": "África, Copa de África de Naciones - Clasificación",
    "inicio": "2026-11-16T10:00:00-05:00",
    "estado": "enviado",
-   "ultimo": 1794840708.7106404,
+   "ultimo": 1794841076.2093244,
    "clv": [],
    "clv_ok": false,
-   "xi": "|",
-   "conf": false
+   "xi": "33857389,61117629,66545180,67635010,71104093,72770051,72770054,76827883,77507510,79437650,81416565|135032,687732,2614999,3133496,4785473,6830594,50682331,64721834,66221641,67938054,71350333",
+   "conf": true
   },
   "4883945": {
    "partido": "Eritrea vs Guinea",
    "liga": "África, Copa de África de Naciones - Clasificación",
    "inicio": "2026-11-16T11:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1794840831.1009605
+   "ultimo": 1794841076.4695776
   },
   "4883946": {
    "partido": "República Centroafricana vs Benin",
    "liga": "África, Copa de África de Naciones - Clasificación",
    "inicio": "2026-11-16T11:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1794840831.123483
+   "ultimo": 1794841076.4813378
   },
   "4672291": {
    "partido": "Portugal vs Dinamarca",
