@@ -457,14 +457,14 @@
    "liga": "Europa, Liga de las Naciones - UEFA - Liga D - Grupo 2",
    "inicio": "2026-11-16T12:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 0
+   "ultimo": 1794844012.1015892
   },
   "4672277": {
    "partido": "Estonia vs Bulgaria",
    "liga": "Europa, Liga de las Naciones - UEFA - Liga C - Grupo 4",
    "inicio": "2026-11-16T12:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 0
+   "ultimo": 1794844012.1307173
   },
   "4672278": {
    "partido": "Kazajstán vs Eslovaquia",
@@ -630,7 +630,7 @@
    "liga": "Europa, Liga de las Naciones - UEFA - Liga C - Grupo 4",
    "inicio": "2026-11-16T12:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 0
+   "ultimo": 1794844012.1559463
   },
   "4760760": {
    "partido": "Comerciantes Unidos vs Sport Boys",
@@ -771,7 +771,7 @@
    "liga": "África, Copa de África de Naciones - Clasificación",
    "inicio": "2026-11-16T08:00:00-05:00",
    "estado": "enviado",
-   "ultimo": 1794843402.5183969,
+   "ultimo": 1794844012.1857877,
    "clv": [],
    "clv_ok": false,
    "xi": "544342,15344597,51263914,64277809,65551910,72877355,77940928,79434491,79434493,79434496,81458181|608527,49555487,53050235,62578837,64298097,64298099,64384047,71684663,77425992,81416676,81416678",
