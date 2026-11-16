@@ -628,8 +628,12 @@
    "partido": "Gibraltar vs Malta",
    "liga": "Europa, Liga de las Naciones - UEFA - Liga D - Grupo 1",
    "inicio": "2026-11-16T14:45:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1794854850.0498953
+   "estado": "enviado",
+   "ultimo": 1794855096.9920194,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "3176296,50945736,50945749,57084989,57084992,65830083,65848558,66430683,67638815,75229913,78537030|447108,541347,582274,937032,3154273,3158390,37927471,50685789,50913514,50913516,51955991",
+   "conf": true
   },
   "4697792": {
    "partido": "Islandia vs Luxemburgo",
