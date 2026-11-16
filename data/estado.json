@@ -426,12 +426,27 @@
    "partido": "Kazajstán vs Eslovaquia",
    "liga": "Europa, Liga de las Naciones - UEFA - Liga C - Grupo 3",
    "inicio": "2026-11-16T10:00:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1794848103.7824638,
+   "estado": "liquidado",
+   "ultimo": 1794848722.4896686,
    "clv": [],
    "clv_ok": false,
    "xi": "373366,491044,491057,14821721,15272506,59476889,70846134,76539121,76792002,77074805,77516724|511624,537432,586163,20217955,47511720,49518713,50816657,52916135,67819177,70756823,75491438",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 2,
+    "ag": 2,
+    "ht": [
+     1,
+     0
+    ],
+    "corners": 5.0,
+    "corners_h": 1.0,
+    "corners_a": 4.0,
+    "corners_1t": 0.0,
+    "cards": 8.0,
+    "cards_h": 4.0,
+    "cards_a": 4.0
+   }
   },
   "4672279": {
    "partido": "Islas Feroe vs Moldavia",
@@ -823,12 +838,27 @@
    "partido": "Somalia vs Ghana",
    "liga": "África, Copa de África de Naciones - Clasificación",
    "inicio": "2026-11-16T10:00:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1794848104.0950806,
+   "estado": "liquidado",
+   "ultimo": 1794848722.6582456,
    "clv": [],
    "clv_ok": false,
    "xi": "33857389,61117629,66545180,67635010,71104093,72770051,72770054,76827883,77507510,79437650,81416565|135032,687732,2614999,3133496,4785473,6830594,50682331,64721834,66221641,67938054,71350333",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 0,
+    "ag": 1,
+    "ht": [
+     0,
+     1
+    ],
+    "corners": 8.0,
+    "corners_h": 3.0,
+    "corners_a": 5.0,
+    "corners_1t": null,
+    "cards": 3.0,
+    "cards_h": 0.0,
+    "cards_a": 3.0
+   }
   },
   "4883945": {
    "partido": "Eritrea vs Guinea",
