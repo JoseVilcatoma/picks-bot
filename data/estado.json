@@ -688,15 +688,19 @@
    "partido": "Trinidad y Tobago vs Antigua y Barbuda",
    "liga": "Norteamérica, CONCACAF Liga de Naciones - Play-in",
    "inicio": "2026-11-16T19:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1794869840.63934
+   "estado": "enviado",
+   "ultimo": 1794870084.1117709,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "55280841,55280939,59269881,59568516,66670687,69831079,70939705,71889238,77957187,79310601,79435551|3268632,67877189,67877205,72768292,72768297,75510074,77022113,77194121,77194123,77471557,79431968",
+   "conf": true
   },
   "4874701": {
    "partido": "Martinica vs Aruba",
    "liga": "Norteamérica, CONCACAF Liga de Naciones - Play-in",
    "inicio": "2026-11-16T19:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1794869840.7568293
+   "ultimo": 1794870084.6289415
   },
   "4874702": {
    "partido": "Cuba vs Granada",
