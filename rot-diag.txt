@@ -2,13 +2,7 @@ CLAVES standings: ['competitionId', 'currentGroupCategory', 'destinations', 'dis
 FILA: {"competitor": {"id": 104, "countryId": 1, "sportId": 1, "name": "Arsenal", "longName": "Arsenal FC", "symbolicName": "ARS", "nameForURL": "arsenal", "type": 1, "popularityRank": 45678, "imageVersion": 8, "color": "#E10000", "awayColor": "#33436E", "mainCompetitionId": 7, "hasSquad": true, "hasTransfers": false, "competitorNum": 0, "hideOnSearch": false, "hideOnCatalog": false}, "gamePlayed": 10, "gamesWon": 9, "gamesLost": 1, "gamesEven": 0, "for": 15, "against": 5, "ratio": 10.0, "points": 27.0, "strike": 5, "gamesOT": 0, "gamesWonOnOT": 0, "gamesWonOnPen": 0, "gamesLossOnOT": 0, "gamesLossOnPen": 0, "pct": ".900", "position": 1, "trend": 0, "detailedRecentForm": [{"id": 4742011, "sportId": 1, "competitionId": 7, "seasonNum": 132, "stageNum": 1, "roundNum": 10, "roundName": "Fecha", "competitionDisplayName": "Premier League", "startTime": "2026-11-07T10:00:00-05:00", "statusGroup": 4, 
 DESTINOS: [{"num": 1, "name": "UEFA Champions League", "guaranteedText": "Champions", "color": "#F5CB25", "type": 8}, {"num": 2, "name": "UEFA Europa League", "guaranteedText": "Europa League", "color": "#23EBE4", "type": 9}, {"num": 3, "name": "Descenso", "guaranteedText": "Descenso", "color": "#E61034", "type": 3}]
 
-25 partidos por jugar (hoy y mañana)
-  16/11 08:00 Zimbabue vs Guinea Ecuatorial [Copa de África de Naciones - Clasificación #588] en=Zimbabwe / Equatorial Guinea
-     tabla: 13 grupos, tamaños [6, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4], zonas ['', 'Africa Cup of Nations 2027']
-  16/11 08:00 Sudán vs Senegal [Copa de África de Naciones - Clasificación #588] en=Sudan / Senegal
-     tabla: 13 grupos, tamaños [6, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4], zonas ['', 'Africa Cup of Nations 2027']
-  16/11 08:00 Namibia vs Camerún [Copa de África de Naciones - Clasificación #588] en=Namibia / Cameroon
-     tabla: 13 grupos, tamaños [6, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4], zonas ['', 'Africa Cup of Nations 2027']
+57 partidos por jugar (hoy y mañana)
   16/11 10:00 Kazajstán vs Eslovaquia [Liga de las Naciones - UEFA #7016] en=Kazakhstan / Slovakia
      tabla: 14 grupos, tamaños [4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 3, 3], zonas ['', 'Ascenso', 'Cuartos de Final', 'Descenso', 'Reducido de Ascenso', 'Repechaje descenso']
   16/11 10:00 Islas Feroe vs Moldavia [Liga de las Naciones - UEFA #7016] en=Faroe Islands / Moldova
@@ -53,6 +47,76 @@ DESTINOS: [{"num": 1, "name": "UEFA Champions League", "guaranteedText": "Champi
      tabla: 9 grupos, tamaños [6, 6, 4, 4, 4, 4, 3, 3, 3], zonas ['', 'Ascenso', 'Cuartos de Final', 'Descenso', 'Posible Clasificado']
   16/11 20:00 Canadá vs Guatemala [CONCACAF Liga de Naciones #7165] en=Canada / Guatemala
      tabla: 9 grupos, tamaños [6, 6, 4, 4, 4, 4, 3, 3, 3], zonas ['', 'Ascenso', 'Cuartos de Final', 'Descenso', 'Posible Clasificado']
+  17/11 08:00 Malawi vs Egipto [Copa de África de Naciones - Clasificación #588] en=Malawi / Egypt
+     tabla: 13 grupos, tamaños [6, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4], zonas ['', 'Africa Cup of Nations 2027']
+  17/11 08:00 Lesoto vs Gabón [Copa de África de Naciones - Clasificación #588] en=Lesotho / Gabon
+     tabla: 13 grupos, tamaños [6, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4], zonas ['', 'Africa Cup of Nations 2027']
+  17/11 08:00 Sudán del Sur vs Angola [Copa de África de Naciones - Clasificación #588] en=South Sudan / Angola
+     tabla: 13 grupos, tamaños [6, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4], zonas ['', 'Africa Cup of Nations 2027']
+  17/11 08:00 Burundi vs Zambia [Copa de África de Naciones - Clasificación #588] en=Burundi / Zambia
+     tabla: 13 grupos, tamaños [6, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4], zonas ['', 'Africa Cup of Nations 2027']
+  17/11 08:00 Etiopía vs Mozambique [Copa de África de Naciones - Clasificación #588] en=Ethiopia / Mozambique
+     tabla: 13 grupos, tamaños [6, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4], zonas ['', 'Africa Cup of Nations 2027']
+  17/11 08:00 Tanzania vs Nigeria [Copa de África de Naciones - Clasificación #588] en=Tanzania / Nigeria
+     tabla: 13 grupos, tamaños [6, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4], zonas ['', 'Africa Cup of Nations 2027']
+  17/11 11:00 Togo vs Argelia [Copa de África de Naciones - Clasificación #588] en=Togo / Algeria
+     tabla: 13 grupos, tamaños [6, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4], zonas ['', 'Africa Cup of Nations 2027']
+  17/11 11:00 Sierra Leona vs RD Congo [Copa de África de Naciones - Clasificación #588] en=Sierra Leone / DR Congo
+     tabla: 13 grupos, tamaños [6, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4], zonas ['', 'Africa Cup of Nations 2027']
+  17/11 11:00 Gambia vs Costa de Marfil [Copa de África de Naciones - Clasificación #588] en=Gambia / Ivory Coast
+     tabla: 13 grupos, tamaños [6, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4], zonas ['', 'Africa Cup of Nations 2027']
+  17/11 11:00 Kenia vs Sudáfrica [Copa de África de Naciones - Clasificación #588] en=Kenya / South Africa
+     tabla: 13 grupos, tamaños [6, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4], zonas ['', 'Africa Cup of Nations 2027']
+  17/11 11:00 Libia vs Túnez [Copa de África de Naciones - Clasificación #588] en=Libya / Tunisia
+     tabla: 13 grupos, tamaños [6, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4], zonas ['', 'Africa Cup of Nations 2027']
+  17/11 11:00 Guinea-Bissau vs Madagascar [Copa de África de Naciones - Clasificación #588] en=Guinea-Bissau / Madagascar
+     tabla: 13 grupos, tamaños [6, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4], zonas ['', 'Africa Cup of Nations 2027']
+  17/11 14:00 Mauritania vs Burkina Faso [Copa de África de Naciones - Clasificación #588] en=Mauritania / Burkina Faso
+     tabla: 13 grupos, tamaños [6, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4], zonas ['', 'Africa Cup of Nations 2027']
+  17/11 14:00 San Cristóbal y Nieves vs Bonaire [CONCACAF Liga de Naciones #7165] en=St. Kitts And Nevis / Bonaire
+     tabla: 9 grupos, tamaños [6, 6, 4, 4, 4, 4, 3, 3, 3], zonas ['', 'Ascenso', 'Cuartos de Final', 'Descenso', 'Posible Clasificado']
+  17/11 14:00 Belice vs San Martín [CONCACAF Liga de Naciones #7165] en=Belize / Sint Maarten
+     tabla: 9 grupos, tamaños [6, 6, 4, 4, 4, 4, 3, 3, 3], zonas ['', 'Ascenso', 'Cuartos de Final', 'Descenso', 'Posible Clasificado']
+  17/11 14:00 Santa Lucía vs Barbados [CONCACAF Liga de Naciones #7165] en=Saint Lucia / Barbados
+     tabla: 9 grupos, tamaños [6, 6, 4, 4, 4, 4, 3, 3, 3], zonas ['', 'Ascenso', 'Cuartos de Final', 'Descenso', 'Posible Clasificado']
+  17/11 14:00 Dominica vs Islas Caimán [CONCACAF Liga de Naciones #7165] en=Dominica / Cayman Islands
+     tabla: 9 grupos, tamaños [6, 6, 4, 4, 4, 4, 3, 3, 3], zonas ['', 'Ascenso', 'Cuartos de Final', 'Descenso', 'Posible Clasificado']
+  17/11 14:00 Botswana vs Uganda [Copa de África de Naciones - Clasificación #588] en=Botswana / Uganda
+     tabla: 13 grupos, tamaños [6, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4], zonas ['', 'Africa Cup of Nations 2027']
+  17/11 14:00 Ruanda vs Mali [Copa de África de Naciones - Clasificación #588] en=Rwanda / Mali
+     tabla: 13 grupos, tamaños [6, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4], zonas ['', 'Africa Cup of Nations 2027']
+  17/11 14:00 Liberia vs Cabo Verde [Copa de África de Naciones - Clasificación #588] en=Liberia / Cape Verde
+     tabla: 13 grupos, tamaños [6, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4], zonas ['', 'Africa Cup of Nations 2027']
+  17/11 14:00 República del Congo vs Comoros [Copa de África de Naciones - Clasificación #588] en=Republic of the Congo / Comoros
+     tabla: 13 grupos, tamaños [6, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4], zonas ['', 'Africa Cup of Nations 2027']
+  17/11 14:45 Irlanda vs Kosovo [Liga de las Naciones - UEFA #7016] en=Ireland / Kosovo
+     tabla: 14 grupos, tamaños [4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 3, 3], zonas ['', 'Ascenso', 'Cuartos de Final', 'Descenso', 'Reducido de Ascenso', 'Repechaje descenso']
+  17/11 14:45 Polonia vs Suecia [Liga de las Naciones - UEFA #7016] en=Poland / Sweden
+     tabla: 14 grupos, tamaños [4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 3, 3], zonas ['', 'Ascenso', 'Cuartos de Final', 'Descenso', 'Reducido de Ascenso', 'Repechaje descenso']
+  17/11 14:45 Gales vs Portugal [Liga de las Naciones - UEFA #7016] en=Wales / Portugal
+     tabla: 14 grupos, tamaños [4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 3, 3], zonas ['', 'Ascenso', 'Cuartos de Final', 'Descenso', 'Reducido de Ascenso', 'Repechaje descenso']
+  17/11 14:45 Dinamarca vs Noruega [Liga de las Naciones - UEFA #7016] en=Denmark / Norway
+     tabla: 14 grupos, tamaños [4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 3, 3], zonas ['', 'Ascenso', 'Cuartos de Final', 'Descenso', 'Reducido de Ascenso', 'Repechaje descenso']
+  17/11 14:45 Bosnia Herzegovina vs Rumania [Liga de las Naciones - UEFA #7016] en=Bosnia & Herzegovina / Romania
+     tabla: 14 grupos, tamaños [4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 3, 3], zonas ['', 'Ascenso', 'Cuartos de Final', 'Descenso', 'Reducido de Ascenso', 'Repechaje descenso']
+  17/11 14:45 Israel vs Austria [Liga de las Naciones - UEFA #7016] en=Israel / Austria
+     tabla: 14 grupos, tamaños [4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 3, 3], zonas ['', 'Ascenso', 'Cuartos de Final', 'Descenso', 'Reducido de Ascenso', 'Repechaje descenso']
+  17/11 14:45 Ucrania vs Georgia [Liga de las Naciones - UEFA #7016] en=Ukraine / Georgia
+     tabla: 14 grupos, tamaños [4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 3, 3], zonas ['', 'Ascenso', 'Cuartos de Final', 'Descenso', 'Reducido de Ascenso', 'Repechaje descenso']
+  17/11 14:45 Hungría vs Irlanda del Norte [Liga de las Naciones - UEFA #7016] en=Hungary / Northern Ireland
+     tabla: 14 grupos, tamaños [4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 3, 3], zonas ['', 'Ascenso', 'Cuartos de Final', 'Descenso', 'Reducido de Ascenso', 'Repechaje descenso']
+  17/11 15:00 Niger vs Marruecos [Copa de África de Naciones - Clasificación #588] en=Niger / Morocco
+     tabla: 13 grupos, tamaños [6, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4], zonas ['', 'Africa Cup of Nations 2027']
+  17/11 19:00 Estados Unidos vs Haití [CONCACAF Liga de Naciones #7165] en=USA / Haiti
+     tabla: 9 grupos, tamaños [6, 6, 4, 4, 4, 4, 3, 3, 3], zonas ['', 'Ascenso', 'Cuartos de Final', 'Descenso', 'Posible Clasificado']
+  17/11 19:00 Guayana Francesa vs San Vicente y Las Granadinas [CONCACAF Liga de Naciones #7165] en=French Guiana / Saint Vincent And The Grenadines
+     tabla: 9 grupos, tamaños [6, 6, 4, 4, 4, 4, 3, 3, 3], zonas ['', 'Ascenso', 'Cuartos de Final', 'Descenso', 'Posible Clasificado']
+  17/11 20:00 El Salvador vs Saint-Martin [CONCACAF Liga de Naciones #7165] en=El Salvador / Saint-Martin
+     tabla: 9 grupos, tamaños [6, 6, 4, 4, 4, 4, 3, 3, 3], zonas ['', 'Ascenso', 'Cuartos de Final', 'Descenso', 'Posible Clasificado']
+  17/11 21:30 México vs Jamaica [CONCACAF Liga de Naciones #7165] en=Mexico / Jamaica
+     tabla: 9 grupos, tamaños [6, 6, 4, 4, 4, 4, 3, 3, 3], zonas ['', 'Ascenso', 'Cuartos de Final', 'Descenso', 'Posible Clasificado']
+  17/11 22:00 Nicaragua vs Montserrat [CONCACAF Liga de Naciones #7165] en=Nicaragua / Montserrat
+     tabla: 9 grupos, tamaños [6, 6, 4, 4, 4, 4, 3, 3, 3], zonas ['', 'Ascenso', 'Cuartos de Final', 'Descenso', 'Posible Clasificado']
 
 ===== RESUMEN (forzado) =====
 [tg sin configurar]
@@ -62,16 +126,24 @@ DESTINOS: [{"num": 1, "name": "UEFA Champions League", "guaranteedText": "Champi
 ⚽ <b>Kazajstán vs Eslovaquia</b> · lun 10:00 · Liga de las Naciones - UEFA
   🔒 <b>Eslovaquia</b>: 1.º con 11 pts y 1 por jugar: ya no puede cambiar de zona (Ascenso)
 
+⚽ <b>Lituania vs Liechtenstein</b> · lun 12:00 · Liga de las Naciones - UEFA
+  📰 <a href="https://news.google.com/rss/articles/CBMitAFBVV95cUxQU1lBY0pqWE02ZGxQT2pkdi1SWmp5UEF0Q0FvWUJwNkJRa3dGNDVtVHhoYllnX2VHWklPOVE5dnRnWW5uTTkxS3dEQUswdWwza0p4TTcyX3dvYzZQUndpdDFkY2lrVjNRY2NRenIxcDd3LS11aE5pUmx5MTYwY01LZFlwbmxxaWhHWndubGM3SWkzRFdiejZOa0pwN044MDU4UElPS1JvYkxmWUhjTGsxUWZlV2g?oc=5">El presidente lituano dice que la rotación de tropas estadounidenses continuará más allá del último despliegue - Reuters</a>
+  📰 <a href="https://news.google.com/rss/articles/CBMixAFBVV95cUxPeUozMFEydzhWT2RzWGo5b0xETlpvWURtQ3RfQXZTS0Z2TnNDUi1JS3JKM1lZdTlNb3NwUTd2alVRc0ROSUZ2NGE1OGxUb2pWa0phd1hhMDM1d0pCUElVUmdKRnZRRk5LdUVJR2U0ZmRVNzRLTGFVMzhVOE91NTBTNkc4NWVZSmJCQjZBZnRjSG5Bam01Q2hHTVhTSXNvaXNUVjd1Qm5wcHpsQk5XYUJqWERzaVEtQkltbUZWUU1FYk9aQ00x?oc=5">Una nueva rotación de tropas estadounidenses en Lituania. Dos batallones han llegado al país - Defence24.com</a>
+
 ⚽ <b>Guadalupe vs Bermuda</b> · lun 14:00 · CONCACAF Liga de Naciones
   🔒 <b>Guadalupe</b>: 3.º con 7 pts y 1 por jugar: ya no puede cambiar de zona
   🔒 <b>Bermuda</b>: 4.º con 0 pts y 1 por jugar: ya no puede cambiar de zona (Descenso)
+
+⚽ <b>Guyana vs Puerto Rico</b> · lun 14:00 · CONCACAF Liga de Naciones
+  📰 <a href="https://news.google.com/rss/articles/CBMi-AFBVV95cUxPZEx1NlJqQU1Sc3V4bWlzTUx6SVNKNEZpalBQVDdTUXZwX3pyWWMwZ3BjVm44bWxMVERORzFzLVYwNmM0dHJwaklwVEM1blJTbVhFUW9YZjZvY1o5cDFrQXVkY1RlbmdMbnpiandtNnVRNnBoUlJ5R1NicU5tMDJYdHZxMjJBckFkcXNPazNabGFXd3BxRXRvaUlMRDVpelZWVzhhY0hJMUI3YlIzOTRSYlFFaGRrbjhNSkthWjExcFdqTHpNckQxSFB6UjlnQVdjd1lnOW1MNzJ5NHMzampYX3dKUGVYV1lqUndpcy00eXpfdHN2Ml9GWdIB_gFBVV95cUxQaEpBNVpIT1F2V0VpVEpxSXc1X2ZUN2t4QlVsVTVVNE9ySlVQY3V3MjgtX3M5NVdCcng1WklCLVdUWmFjUlI0S01zS2pCNHhOY3IxdkJ1NzZ0MGVybEhtcWNuN01LdS1Jb2xWWHJHSnh5RFNsdkM2NEM5ZWpXamhOVDJqcEc2M0N3cnlYcFVfeUo3b193ZUtaZ3pvdzBfM29OUkFJNWItU1hSN0JTWkNRMnEzSUJ6QTZaMUdpRG56M3dRdlJGd3BzYnN6bDJUTVBrQWZJcGtWbFNUNU5XRGdWeG0xcTB1ZVoyaXNwdHhiS21sVWVabUdoMHkzVWVHQQ?oc=5">“Seguiremos con quien sea necesario”: Brown deja a José Alvarado fuera de la rotación de los Knicks - El Vocero de Puerto Rico</a>
 
 ⚽ <b>Macedonia del Norte vs Eslovenia</b> · lun 14:45 · Liga de las Naciones - UEFA
   🔒 <b>Macedonia del Norte</b>: 4.º con 0 pts y 1 por jugar: ya no puede cambiar de zona (Descenso)
 
 ⚽ <b>Suiza vs Escocia</b> · lun 14:45 · Liga de las Naciones - UEFA
   🔒 <b>Suiza</b>: 1.º con 13 pts y 1 por jugar: ya no puede cambiar de zona (Ascenso)
-  📰 <a href="https://news.google.com/rss/articles/CBMi8AFBVV95cUxNT1JBWTVlSkhqOHlsV1dXcGFXS1JjaGRxUjZ0eFFuak5Nclp1b2VLY29Ia3E0aEdwMEtVMTdRNXROakJma3Rib0YwWEdxSUtyTFpsZ2pVYUpSNnlkQ1ctRUdfU3Jhc1VoUHB6UksyNjFkRXhMQklZSUE2U3IxalVWYnVpeUpVckU1R0E2cDk5cTVBZW5FYXprSGQ3SUJUb3YtazQ2TzRjLUdUSkZLcFRudkdPZDltWkRGazNCVWo5UmhiQlR3TGxJdWE0YjlKS084YzNGQk10THVYQjVscmwxc3c0MHUxa3k5WGdhdlZoWFU?oc=5">Scotland set to face much-changed team as Switzerland boss sets out ‘less serious’ final game plans - The Scotsman</a>
+  📰 <a href="https://news.google.com/rss/articles/CBMiXEFVX3lxTE85cUJvTTUyZkllbEpzQ3NyM2F4ZGQ2QU9pRlZqekxsb2VrVk44dHllbUpzMEhDcTBCNmNxTXJZZWtnNjBkOHVQVFdRQWZxTmhLdGl6VW5lX3pqMWIz?oc=5">Escocia: Suiza rotará mientras Manuel Akanji se suma a las ausencias - BBC</a>
+  📰 <a href="https://news.google.com/rss/articles/CBMi5gFBVV95cUxNMmxTamxzR0FONjd2WVRLMEMzekZzRnFBRDNVLUN5TFZvOEVqb0RsLVk1Zm1vWW9RenpKa2hrNWdMYURKdkFSTlBMSHluemw2akpZRGRkUWFwekdpRy1hVGtvQ0lKM0JjUDNMdnBraXJ4UVZxeHg3WEw3RU5NLVFERTdRS1BmMjhBZm9GQUJuNnZGcmtRQ0s0cFZPMzBCbi1mUUNJdzF2SzRzRXZIc0FXV0JmR3BqdjVTNVlHUzlpWk9xYzZCbDBGTVpzX0ZORURxRk1HeENrUG5OazNRazI3ZV90Z0l1dw?oc=5">Escocia: Suiza rotará mientras Manuel Akanji se suma a las ausencias - BBC</a>
 
 ⚽ <b>Grecia vs Serbia</b> · lun 14:45 · Liga de las Naciones - UEFA
   🔒 <b>Serbia</b>: 4.º con 0 pts y 1 por jugar: ya no puede cambiar de zona (Descenso)
@@ -79,154 +151,178 @@ DESTINOS: [{"num": 1, "name": "UEFA Champions League", "guaranteedText": "Champi
 ⚽ <b>Gibraltar vs Malta</b> · lun 14:45 · Liga de las Naciones - UEFA
   🔒 <b>Malta</b>: 1.º con 7 pts y 1 por jugar: ya no puede cambiar de zona (Ascenso)
 
+⚽ <b>Tanzania vs Nigeria</b> · mar 08:00 · Copa de África de Naciones - Clasificación
+  📰 <a href="https://news.google.com/rss/articles/CBMib0FVX3lxTE9UOVhxSW11VmQybkVxQWxsNkRKVGFiZXBCTWxYVHEwdndFNWVQRDZLNDdWT3BtS0JOV2JYQTQxME83S0lUbjRPM0V2UWcyaTdBY2FPN0dRaUE5R2pZQWxqU193cTcwNnBjUUhaUzY2NA?oc=5">Nigeria, donde el terror sigue vivo | NR | Periodismo alternativo - NR | Periodismo alternativo</a>
+
+⚽ <b>Kenia vs Sudáfrica</b> · mar 11:00 · Copa de África de Naciones - Clasificación
+  📰 <a href="https://news.google.com/rss/articles/CBMihAJBVV95cUxQTUxKMEhMU0lieW9GQUN2VXlsYlN0QVhxQ2dHSEV5UlRDZW1adGtNSzQtQjBGV0ROdjR4M2E0UDJNc2gzMmE1SDFieXhhZ3BRN0tmaTJ4N2pvaG9xOW1VcTFrWFM5dU5vQnlXclI4dEI1SV9nN1VxZ2RqTzR4bkwzMzFncnBkWUwtd3VvSGZEaXdyLThzNzI5RGpzWFZwM2dfOUk3bjNrWWtnRlRYS2ZNb0RXODNtdmtMZnZOOFlNSURFRzJVQ3FBcmZCZFJtY0JjR1Z6S0YwMDR5QVJQT1VTSkd2aWVvUVB6ZEwzaXhVandlLVpDQ0FOb2ZIQS0yNWtpTWhLVQ?oc=5">El entrenador de los Bafana Bafana, Pitso Mosimane, cuestionó la selección de Teboho Mokoena contra Kenia</a>
+  📰 <a href="https://news.google.com/rss/articles/CBMiiAFBVV95cUxNRVJLMHRFM0kyY2pWWUlDalVmOWZ0SmFTeVBGRmRmNXp2WDY3OUpQVW9yUTRabGtDRGVMUDNVSnFCUmhpUTN6TFZEUGhkOUgzWXdmd2FQTnhsZ1AyXzJUdUZGcjR3M21FWjdybjV1a193RE1UdnhrOHZDbXJYVHVCMERQMUZxTzVI?oc=5">Mosimane cree que los Bafana están bien descansados ​​para la revancha en Kenia - The Citizen</a>
+
+⚽ <b>Polonia vs Suecia</b> · mar 14:45 · Liga de las Naciones - UEFA
+  🔒 <b>Suecia</b>: 1.º con 13 pts y 1 por jugar: ya no puede cambiar de zona (Ascenso)
+
+⚽ <b>Gales vs Portugal</b> · mar 14:45 · Liga de las Naciones - UEFA
+  🔒 <b>Portugal</b>: 1.º con 12 pts y 1 por jugar: ya no puede cambiar de zona (Cuartos de Final)
+
+⚽ <b>Bosnia Herzegovina vs Rumania</b> · mar 14:45 · Liga de las Naciones - UEFA
+  🔒 <b>Bosnia Herzegovina</b>: 2.º con 8 pts y 1 por jugar: ya no puede cambiar de zona (Reducido de Ascenso)
+
+⚽ <b>Israel vs Austria</b> · mar 14:45 · Liga de las Naciones - UEFA
+  🔒 <b>Austria</b>: 1.º con 11 pts y 1 por jugar: ya no puede cambiar de zona (Ascenso)
+
 <i>Cuando salga la alineación te aviso si de verdad rotan.</i>
 
-[resumen] 6 partidos con novedades (noticias: True)
+[resumen] 14 partidos con novedades (noticias: True)
 
 ===== SIMULACIÓN con partidos ya jugados (ayer y hoy) =====
--- Ghana (Ghana vs Somalia) estado='Confirmado' status_miembros=[1, 2, 3, 4]
-normal 🚨 <b>Rotación fuerte: Ghana</b> | Ghana vs Somalia · 10:00 · Copa de África de Naciones - Clasificación | Faltan <b>3 de 7</b> titulares habituales (lo normal en este equipo: 1.6). | 🪑 En la banca: Opoku (6/7) | ❌ Fuera de la lista: Sibo (5/7), Senaya (5/7) | 🆕 Entran 4 poco habituales (lo normal: 0.6): Afena-Gyan (1/7), Kudus (0/7), Salisu (0/7), Seidu (0/7) | <i>(n/7) = veces titular en sus últimos 7 partidos.</i>
--- Somalia (Ghana vs Somalia) estado='Confirmado' status_miembros=[1, 2, 4]
--- RD Congo (RD Congo vs Sierra Leona) estado='Confirmado' status_miembros=[1, 2, 3, 4]
-normal 🚨 <b>Rotación fuerte: RD Congo</b> | RD Congo vs Sierra Leona · 11:00 · Copa de África de Naciones - Clasificación | Faltan <b>2 de 9</b> titulares habituales (lo normal en este equipo: 1.0). | 🪑 En la banca: Mukau (3/5) | ❌ Fuera de la lista: Wan-Bissaka (5/5) | 🆕 Entran 1 poco habituales (lo normal: 1.4): Pedro (0/5) | <i>(n/5) = veces titular en sus últimos 5 partidos.</i>
--- Sierra Leona (RD Congo vs Sierra Leona) estado='Confirmado' status_miembros=[1, 2, 4]
--- Madagascar (Madagascar vs Guinea-Bissau) estado='Confirmado' status_miembros=[1, 2, 4]
--- Guinea-Bissau (Madagascar vs Guinea-Bissau) estado='Confirmado' status_miembros=[1, 2, 3, 4]
--- Guinea Ecuatorial (Guinea Ecuatorial vs Zimbabue) estado='Confirmado' status_miembros=[1, 2, 4]
-normal 🚨 <b>Rotación fuerte: Guinea Ecuatorial</b> | Guinea Ecuatorial vs Zimbabue · 11:00 · Copa de África de Naciones - Clasificación | Faltan <b>3 de 9</b> titulares habituales (lo normal en este equipo: 1.5). | 🪑 En la banca: Ondo (3/4), Marvin (3/4) | ❌ Fuera de la lista: Owono (4/4) | 🆕 Entran 3 poco habituales (lo normal: 1.5): Ondo (0/4), Mbomio (1/4), Basilio (0/4) | 🧤 Cambia el portero habitual. | <i>(n/4) = veces titular en sus últimos 4 partidos.</i>
--- Zimbabue (Guinea Ecuatorial vs Zimbabue) estado='Confirmado' status_miembros=[1, 2, 4]
-normal 🚨 <b>Rotación fuerte: Zimbabue</b> | Guinea Ecuatorial vs Zimbabue · 11:00 · Copa de África de Naciones - Clasificación | Faltan <b>1 de 3</b> titulares habituales (lo normal en este equipo: 0.7). | 🪑 En la banca: Maroodza (5/6) | 🆕 Entran 3 poco habituales (lo normal: 2.2): Chadya (0/6), Zemura (1/6), Kadewere (0/6) | <i>(n/6) = veces titular en sus últimos 6 partidos.</i>
--- Turquía (Turquía vs Bélgica) estado='Confirmado' status_miembros=[1, 2, 3, 4]
-normal 🚨 <b>Rotación fuerte: Turquía</b> | Turquía vs Bélgica · 12:00 · Liga de las Naciones - UEFA | Faltan <b>2 de 8</b> titulares habituales (lo normal en este equipo: 1.7). | 🪑 En la banca: Celik (6/7) | ❌ Fuera de la lista: Bardakci (6/7) | 🆕 Entran 1 poco habituales (lo normal: 0.7): Ünal (0/7) | <i>(n/7) = veces titular en sus últimos 7 partidos.</i>
--- Bélgica (Turquía vs Bélgica) estado='Confirmado' status_miembros=[1, 2, 3, 4]
-normal 🚨 <b>Rotación fuerte: Bélgica</b> | Turquía vs Bélgica · 12:00 · Liga de las Naciones - UEFA | Faltan <b>0 de 7</b> titulares habituales (lo normal en este equipo: 1.1). | <i>(n/7) = veces titular en sus últimos 7 partidos.</i>
--- Armenia (Armenia vs Chipre) estado='Confirmado' status_miembros=[1, 2, 4]
-ALERTA 🚨 <b>Rotación fuerte: Armenia</b> | Armenia vs Chipre · 12:00 · Liga de las Naciones - UEFA | Faltan <b>3 de 5</b> titulares habituales (lo normal en este equipo: 0.7). | 🪑 En la banca: Piloyan (5/7) | ❌ Fuera de la lista: Miranyan (6/7), Spertsyan (5/7) | 🆕 Entran 5 poco habituales (lo normal: 2.0): A. Mishiev (0/7), Zhiaryr Shagoyan (1/7), S. Mkrtchyan (0/7), Grigoryan (1/7), Gharibyan (0/7) | <i>(n/7) = veces titular en sus últimos 7 partidos.</i>
--- Chipre (Armenia vs Chipre) estado='Confirmado' status_miembros=[1, 2, 3, 4]
-normal 🚨 <b>Rotación fuerte: Chipre</b> | Armenia vs Chipre · 12:00 · Liga de las Naciones - UEFA | Faltan <b>1 de 4</b> titulares habituales (lo normal en este equipo: 0.7). | 🪑 En la banca: Panagiotou (5/7) | 🆕 Entran 2 poco habituales (lo normal: 0.9): Pikis (0/7), Laifis (1/7) | <i>(n/7) = veces titular en sus últimos 7 partidos.</i>
--- Guinea (Guinea vs Eritrea) estado='Confirmado' status_miembros=[1, 2, 3, 4]
--- Eritrea (Guinea vs Eritrea) estado='Confirmado' status_miembros=[1, 2, 4]
--- Bonaire (Bonaire vs Cuba) estado='Confirmado' status_miembros=[1, 2, 4]
-normal 🚨 <b>Rotación fuerte: Bonaire</b> | Bonaire vs Cuba · 14:00 · CONCACAF Liga de Naciones | Faltan <b>2 de 9</b> titulares habituales (lo normal en este equipo: 0.5). | 🪑 En la banca: Coffy (4/4) | ❌ Fuera de la lista: Cicilia (4/4) | 🆕 Entran 2 poco habituales (lo normal: 1.0): Martina (1/4), Martijn (0/4) | <i>(n/4) = veces titular en sus últimos 4 partidos.</i>
--- Cuba (Bonaire vs Cuba) estado='Confirmado' status_miembros=[1, 2, 4]
-ALERTA 🚨 <b>Rotación fuerte: Cuba</b> | Bonaire vs Cuba · 14:00 · CONCACAF Liga de Naciones | Faltan <b>5 de 11</b> titulares habituales (lo normal en este equipo: 1.6). | 🪑 En la banca: Pérez (4/5), Catasus (4/5), Morgado (4/5), Delgado (3/5) | ❌ Fuera de la lista: Matos (3/5) | 🆕 Entran 4 poco habituales (lo normal: 1.2): Hodelin (0/5), J. Aguirre (1/5), Bravo (0/5), Mena (0/5) | 🧤 Cambia el portero habitual. | <i>(n/5) = veces titular en sus últimos 5 partidos.</i>
--- Barbados (Barbados vs Guadalupe) estado='Confirmado' status_miembros=[1, 2, 4]
-normal 🚨 <b>Rotación fuerte: Barbados</b> | Barbados vs Guadalupe · 14:00 · CONCACAF Liga de Naciones | Faltan <b>3 de 9</b> titulares habituales (lo normal en este equipo: 2.6). | 🪑 En la banca: Griffith (3/5) | ❌ Fuera de la lista: Gollop (3/5), N. Reid-Stephen (3/5) | 🆕 Entran 4 poco habituales (lo normal: 2.6): Leacock (1/5), Butcher (0/5), A. Applewhaite (1/5), Catlyn (0/5) | <i>(n/5) = veces titular en sus últimos 5 partidos.</i>
--- Guadalupe (Barbados vs Guadalupe) estado='Confirmado' status_miembros=[1, 2, 4]
-ALERTA 🚨 <b>Rotación masiva: Guadalupe</b> | Barbados vs Guadalupe · 14:00 · CONCACAF Liga de Naciones | Faltan <b>6 de 9</b> titulares habituales (lo normal en este equipo: 1.2). | 🪑 En la banca: D. Rouyard (4/4), Montantin (3/4), Alphonse (3/4) | ❌ Fuera de la lista: Boisné (4/4), Raddas (4/4), Darase (3/4) | 🆕 Entran 7 poco habituales (lo normal: 1.2): Coco (0/4), Yebli (0/4), Saintini (0/4), Beauvue (0/4), R. Mirval (0/4), Gravillon (0/4), Philémon (0/4) | 🧤 Cambia el portero habitual. | <i>(n/4) = veces titular en sus últimos 4 partidos.</i>
--- Islas Caimán (Islas Caimán vs Guyana) estado='Confirmado' status_miembros=[1, 2, 4]
-ALERTA 🚨 <b>Rotación fuerte: Islas Caimán</b> | Islas Caimán vs Guyana · 14:00 · CONCACAF Liga de Naciones | Faltan <b>5 de 8</b> titulares habituales (lo normal en este equipo: 1.5). | ❌ Fuera de la lista: Rowe (6/6), Bonilla (5/6), Campbell (4/6), G. Studenhofft (4/6), Reeves (4/6) | 🆕 Entran 6 poco habituales (lo normal: 1.3): Robinson (1/6), T. Ebanks (0/6), McLaughlin (1/6), Thompson (0/6), Martinez (1/6), Connolly (0/6) | <i>(n/6) = veces titular en sus últimos 6 partidos.</i>
--- Guyana (Islas Caimán vs Guyana) estado='Confirmado' status_miembros=[1, 2, 4]
-normal 🚨 <b>Rotación fuerte: Guyana</b> | Islas Caimán vs Guyana · 14:00 · CONCACAF Liga de Naciones | Faltan <b>2 de 8</b> titulares habituales (lo normal en este equipo: 0.9). | 🪑 En la banca: Gordon (6/7), Ritch (5/7) | 🆕 Entran 2 poco habituales (lo normal: 1.4): S. Duke-McKenna (0/7), Ferrier (0/7) | <i>(n/7) = veces titular en sus últimos 7 partidos.</i>
--- Costa de Marfil (Costa de Marfil vs Gambia) estado='Confirmado' status_miembros=[1, 2, 3, 4]
-normal 🚨 <b>Rotación fuerte: Costa de Marfil</b> | Costa de Marfil vs Gambia · 14:00 · Copa de África de Naciones - Clasificación | Faltan <b>3 de 7</b> titulares habituales (lo normal en este equipo: 1.6). | 🪑 En la banca: Kessié (6/7), Agbadou (5/7) | ❌ Fuera de la lista: Konan (5/7) | 🆕 Entran 1 poco habituales (lo normal: 1.3): Kamara (0/7) | <i>(n/7) = veces titular en sus últimos 7 partidos.</i>
--- Gambia (Costa de Marfil vs Gambia) estado='Confirmado' status_miembros=[1, 2, 3, 4]
-normal 🚨 <b>Rotación fuerte: Gambia</b> | Costa de Marfil vs Gambia · 14:00 · Copa de África de Naciones - Clasificación | Faltan <b>2 de 7</b> titulares habituales (lo normal en este equipo: 1.2). | 🪑 En la banca: A. Barry (3/4), Sanyang (3/4) | 🆕 Entran 3 poco habituales (lo normal: 3.2): M. Badamosi (1/4), Barrow (0/4), I. Touray (1/4) | <i>(n/4) = veces titular en sus últimos 4 partidos.</i>
--- Benin (Benin vs República Centroafricana) estado='Confirmado' status_miembros=[1, 2, 4]
--- República Centroafricana (Benin vs República Centroafricana) estado='Confirmado' status_miembros=[1, 2, 4]
--- Senegal (Senegal vs Sudán) estado='Confirmado' status_miembros=[1, 2, 3, 4]
-normal 🚨 <b>Rotación fuerte: Senegal</b> | Senegal vs Sudán · 14:00 · Copa de África de Naciones - Clasificación | Faltan <b>2 de 4</b> titulares habituales (lo normal en este equipo: 1.0). | ❌ Fuera de la lista: Gueye (5/7), P. Gueye (5/7) | 🆕 Entran 2 poco habituales (lo normal: 1.0): Dia (0/7), Lopy (0/7) | <i>(n/7) = veces titular en sus últimos 7 partidos.</i>
--- Sudán (Senegal vs Sudán) estado='Confirmado' status_miembros=[1, 2, 4]
-ALERTA 🚨 <b>Rotación fuerte: Sudán</b> | Senegal vs Sudán · 14:00 · Copa de África de Naciones - Clasificación | Faltan <b>4 de 8</b> titulares habituales (lo normal en este equipo: 1.8). | 🪑 En la banca: Amar Abdallah (5/5) | ❌ Fuera de la lista: Taifour (4/5), Shadi El Din (4/5), B. Etta (3/5) | 🆕 Entran 6 poco habituales (lo normal: 2.8): Awad (1/5), A. Abdalla (0/5), Salah Adel (1/5), Kuku (1/5), Ahmed Yousif (1/5), Nouh (1/5) | <i>(n/5) = veces titular en sus últimos 5 partidos.</i>
--- Camerún (Camerún vs Namibia) estado='Confirmado' status_miembros=[1, 2, 3, 4]
-normal 🚨 <b>Rotación fuerte: Camerún</b> | Camerún vs Namibia · 14:00 · Copa de África de Naciones - Clasificación | Faltan <b>1 de 4</b> titulares habituales (lo normal en este equipo: 0.7). | ❌ Fuera de la lista: D. Namaso (6/7) | 🆕 Entran 3 poco habituales (lo normal: 1.6): Nsongo (1/7), L. Njoh (1/7), A. Yondjo (1/7) | <i>(n/7) = veces titular en sus últimos 7 partidos.</i>
--- Namibia (Camerún vs Namibia) estado='Confirmado' status_miembros=[1, 2, 4]
-normal 🚨 <b>Rotación fuerte: Namibia</b> | Camerún vs Namibia · 14:00 · Copa de África de Naciones - Clasificación | Faltan <b>2 de 10</b> titulares habituales (lo normal en este equipo: 1.5). | 🪑 En la banca: B. Muzeu (3/4) | ❌ Fuera de la lista: P. Amutenya (3/4) | 🆕 Entran 3 poco habituales (lo normal: 2.0): Eib (1/4), Tjiueza (0/4), Kamberipa (1/4) | <i>(n/4) = veces titular en sus últimos 4 partidos.</i>
--- Inglaterra (Inglaterra vs Croacia) estado='Confirmado' status_miembros=[1, 2, 3, 4]
-normal 🚨 <b>Rotación fuerte: Inglaterra</b> | Inglaterra vs Croacia · 14:45 · Liga de las Naciones - UEFA | Faltan <b>1 de 5</b> titulares habituales (lo normal en este equipo: 0.9). | 🪑 En la banca: Guéhi (7/7) | 🆕 Entran 1 poco habituales (lo normal: 1.0): Burn (0/7) | <i>(n/7) = veces titular en sus últimos 7 partidos.</i>
--- Croacia (Inglaterra vs Croacia) estado='Confirmado' status_miembros=[1, 2, 3, 4]
-normal 🚨 <b>Rotación fuerte: Croacia</b> | Inglaterra vs Croacia · 14:45 · Liga de las Naciones - UEFA | Faltan <b>3 de 8</b> titulares habituales (lo normal en este equipo: 1.1). | 🪑 En la banca: Modric (6/7), Šutalo (5/7) | ❌ Fuera de la lista: Perisic (7/7) | 🆕 Entran 2 poco habituales (lo normal: 0.7): Smolčić (1/7), Misic (1/7) | <i>(n/7) = veces titular en sus últimos 7 partidos.</i>
--- Republica Checa (Republica Checa vs España) estado='Confirmado' status_miembros=[1, 2, 3, 4]
-normal 🚨 <b>Rotación fuerte: Republica Checa</b> | Republica Checa vs España · 14:45 · Liga de las Naciones - UEFA | Faltan <b>3 de 6</b> titulares habituales (lo normal en este equipo: 1.6). | 🪑 En la banca: Hranáč (6/7), Šulc (5/7) | ❌ Fuera de la lista: Sadílek (5/7) | 🆕 Entran 4 poco habituales (lo normal: 1.6): Provod (1/7), Jurasek (0/7), Zima (0/7), R. Naderi (1/7) | <i>(n/7) = veces titular en sus últimos 7 partidos.</i>
--- España (Republica Checa vs España) estado='Confirmado' status_miembros=[1, 2, 3, 4]
-ALERTA 🚨 <b>Rotación fuerte: España</b> | Republica Checa vs España · 14:45 · Liga de las Naciones - UEFA | Faltan <b>5 de 10</b> titulares habituales (lo normal en este equipo: 1.6). | 🪑 En la banca: Yamal (7/7), Olmo (6/7), Rodri (6/7), Oyarzabal (5/7) | ❌ Fuera de la lista: Laporte (6/7) | 🆕 Entran 5 poco habituales (lo normal: 1.4): Fermín (1/7), Pino (0/7), Zubimendi (1/7), Torres (1/7), Huijsen (1/7) | <i>(n/7) = veces titular en sus últimos 7 partidos.</i>
--- Italia (Italia vs Francia) estado='Confirmado' status_miembros=[1, 2, 3, 4]
-normal 🚨 <b>Rotación fuerte: Italia</b> | Italia vs Francia · 14:45 · Liga de las Naciones - UEFA | Faltan <b>0 de 2</b> titulares habituales (lo normal en este equipo: 0.3). | 🆕 Entran 1 poco habituales (lo normal: 2.4): N. Cambiaghi (1/7) | <i>(n/7) = veces titular en sus últimos 7 partidos.</i>
--- Francia (Italia vs Francia) estado='Confirmado' status_miembros=[1, 2, 3, 4]
-normal 🚨 <b>Rotación fuerte: Francia</b> | Italia vs Francia · 14:45 · Liga de las Naciones - UEFA | Faltan <b>1 de 4</b> titulares habituales (lo normal en este equipo: 1.0). | 🪑 En la banca: Dembélé (5/7) | 🆕 Entran 1 poco habituales (lo normal: 1.0): Gusto (1/7) | <i>(n/7) = veces titular en sus últimos 7 partidos.</i>
--- San Marino (San Marino vs Bielorrusia) estado='Confirmado' status_miembros=[1, 2, 4]
-normal 🚨 <b>Rotación fuerte: San Marino</b> | San Marino vs Bielorrusia · 14:45 · Liga de las Naciones - UEFA | Faltan <b>2 de 7</b> titulares habituales (lo normal en este equipo: 0.9). | ❌ Fuera de la lista: Cevoli (7/7), Giacopetti (6/7) | 🆕 Entran 2 poco habituales (lo normal: 0.6): G. Capicchioni (1/7), E. Della Balda (1/7) | <i>(n/7) = veces titular en sus últimos 7 partidos.</i>
--- Bielorrusia (San Marino vs Bielorrusia) estado='Confirmado' status_miembros=[1, 2, 4]
-normal 🚨 <b>Rotación fuerte: Bielorrusia</b> | San Marino vs Bielorrusia · 14:45 · Liga de las Naciones - UEFA | Faltan <b>1 de 3</b> titulares habituales (lo normal en este equipo: 0.4). | ❌ Fuera de la lista: A. Shumansky (5/7) | 🆕 Entran 2 poco habituales (lo normal: 2.3): V. Bocherov (1/7), Simanenka (1/7) | <i>(n/7) = veces titular en sus últimos 7 partidos.</i>
--- Albania (Albania vs Finlandia) estado='Confirmado' status_miembros=[1, 2, 4]
-normal 🚨 <b>Rotación fuerte: Albania</b> | Albania vs Finlandia · 14:45 · Liga de las Naciones - UEFA | Faltan <b>1 de 5</b> titulares habituales (lo normal en este equipo: 0.4). | 🪑 En la banca: Hoxha (6/7) | <i>(n/7) = veces titular en sus últimos 7 partidos.</i>
--- Finlandia (Albania vs Finlandia) estado='Confirmado' status_miembros=[1, 2, 3, 4]
-normal 🚨 <b>Rotación fuerte: Finlandia</b> | Albania vs Finlandia · 14:45 · Liga de las Naciones - UEFA | Faltan <b>1 de 5</b> titulares habituales (lo normal en este equipo: 0.7). | 🪑 En la banca: Pohjanpalo (5/7) | 🆕 Entran 2 poco habituales (lo normal: 1.0): Antman (1/7), Jensen (0/7) | <i>(n/7) = veces titular en sus últimos 7 partidos.</i>
--- Montenegro (Montenegro vs Letonia) estado='Confirmado' status_miembros=[1, 2, 4]
-normal 🚨 <b>Rotación fuerte: Montenegro</b> | Montenegro vs Letonia · 14:45 · Liga de las Naciones - UEFA | Faltan <b>0 de 6</b> titulares habituales (lo normal en este equipo: 1.4). | 🆕 Entran 1 poco habituales (lo normal: 1.9): M. Brnovic (1/7) | <i>(n/7) = veces titular en sus últimos 7 partidos.</i>
--- Letonia (Montenegro vs Letonia) estado='Confirmado' status_miembros=[1, 2, 4]
-normal 🚨 <b>Rotación fuerte: Letonia</b> | Montenegro vs Letonia · 14:45 · Liga de las Naciones - UEFA | Faltan <b>1 de 8</b> titulares habituales (lo normal en este equipo: 1.6). | 🪑 En la banca: Savalnieks (5/7) | <i>(n/7) = veces titular en sus últimos 7 partidos.</i>
--- Aruba (Aruba vs Martinica) estado='Confirmado' status_miembros=[1, 2, 4]
-normal 🚨 <b>Rotación fuerte: Aruba</b> | Aruba vs Martinica · 17:00 · CONCACAF Liga de Naciones | Faltan <b>2 de 5</b> titulares habituales (lo normal en este equipo: 0.9). | 🪑 En la banca: R. Ostiana (5/7) | ❌ Fuera de la lista: Robertha (6/7) | 🆕 Entran 2 poco habituales (lo normal: 0.9): Jiménez (0/7), Wilkerson (0/7) | <i>(n/7) = veces titular en sus últimos 7 partidos.</i>
--- Martinica (Aruba vs Martinica) estado='Confirmado' status_miembros=[1, 2, 4]
-normal 🚨 <b>Rotación fuerte: Martinica</b> | Aruba vs Martinica · 17:00 · CONCACAF Liga de Naciones | Faltan <b>3 de 10</b> titulares habituales (lo normal en este equipo: 2.0). | 🪑 En la banca: Antiste (4/4), Appin (3/4) | ❌ Fuera de la lista: Moltenis (3/4) | 🆕 Entran 2 poco habituales (lo normal: 1.0): Marajo (0/4), Mexique (1/4) | <i>(n/4) = veces titular en sus últimos 4 partidos.</i>
--- Antigua y Barbuda (Antigua y Barbuda vs Trinidad y Tobago) estado='Confirmado' status_miembros=[1, 2, 4]
-normal 🚨 <b>Rotación fuerte: Antigua y Barbuda</b> | Antigua y Barbuda vs Trinidad y Tobago · 18:00 · CONCACAF Liga de Naciones | Faltan <b>1 de 11</b> titulares habituales (lo normal en este equipo: 1.6). | 🪑 En la banca: Massicot (4/5) | <i>(n/5) = veces titular en sus últimos 5 partidos.</i>
--- Trinidad y Tobago (Antigua y Barbuda vs Trinidad y Tobago) estado='Confirmado' status_miembros=[1, 2, 3, 4]
-normal 🚨 <b>Rotación fuerte: Trinidad y Tobago</b> | Antigua y Barbuda vs Trinidad y Tobago · 18:00 · CONCACAF Liga de Naciones | Faltan <b>0 de 0</b> titulares habituales (lo normal en este equipo: 0.0). | 🆕 Entran 3 poco habituales (lo normal: 2.7): D. Payne (1/7), Phillip (1/7), Gill (1/7) | <i>(n/7) = veces titular en sus últimos 7 partidos.</i>
--- Curazao (Curazao vs Panamá) estado='Confirmado' status_miembros=[1, 2, 3, 4]
-normal 🚨 <b>Rotación fuerte: Curazao</b> | Curazao vs Panamá · 19:30 · CONCACAF Liga de Naciones | Faltan <b>2 de 8</b> titulares habituales (lo normal en este equipo: 0.7). | 🪑 En la banca: Floranus (7/7) | ❌ Fuera de la lista: Locadia (5/7) | 🆕 Entran 1 poco habituales (lo normal: 0.6): Martha (1/7) | <i>(n/7) = veces titular en sus últimos 7 partidos.</i>
--- Panamá (Curazao vs Panamá) estado='Confirmado' status_miembros=[1, 2, 4]
-normal 🚨 <b>Rotación fuerte: Panamá</b> | Curazao vs Panamá · 19:30 · CONCACAF Liga de Naciones | Faltan <b>1 de 6</b> titulares habituales (lo normal en este equipo: 1.0). | 🪑 En la banca: Blackman (6/7) | 🆕 Entran 1 poco habituales (lo normal: 1.7): Vergara (1/7) | <i>(n/7) = veces titular en sus últimos 7 partidos.</i>
 -- Zambia (Zambia vs Burundi) estado='Confirmado' status_miembros=[1, 2, 3, 4]
-normal 🚨 <b>Rotación fuerte: Zambia</b> | Zambia vs Burundi · 08:00 · Copa de África de Naciones - Clasificación | Faltan <b>0 de 2</b> titulares habituales (lo normal en este equipo: 0.4). | 🆕 Entran 3 poco habituales (lo normal: 2.4): Chilufya (0/7), Bulaya (0/7), Mumba (0/7) | <i>(n/7) = veces titular en sus últimos 7 partidos.</i>
+normal 🚨 <b>Rotación fuerte: Zambia</b> | Zambia vs Burundi · 08:00 · Copa de África de Naciones - Clasificación | Faltan <b>0 de 2</b> titulares habituales (lo normal en este equipo: 0.4). | 🆕 Entran 3 poco habituales (lo normal: 2.4): Chilufya (0/7), Mumba (0/7), Bulaya (0/7) | <i>(n/7) = veces titular en sus últimos 7 partidos.</i>
 -- Burundi (Zambia vs Burundi) estado='Confirmado' status_miembros=[1, 2, 4]
 -- Mozambique (Mozambique vs Etiopía) estado='Confirmado' status_miembros=[1, 2, 4]
-normal 🚨 <b>Rotación fuerte: Mozambique</b> | Mozambique vs Etiopía · 08:00 · Copa de África de Naciones - Clasificación | Faltan <b>3 de 9</b> titulares habituales (lo normal en este equipo: 3.2). | ❌ Fuera de la lista: Guima (3/5), Gildo (3/5), Faisal (3/5) | 🆕 Entran 3 poco habituales (lo normal: 2.8): Candinho (0/5), Kambala (1/5), Ratifo (1/5) | <i>(n/5) = veces titular en sus últimos 5 partidos.</i>
+normal 🚨 <b>Rotación fuerte: Mozambique</b> | Mozambique vs Etiopía · 08:00 · Copa de África de Naciones - Clasificación | Faltan <b>3 de 9</b> titulares habituales (lo normal en este equipo: 3.2). | ❌ Fuera de la lista: Faisal (3/5), Guima (3/5), Gildo (3/5) | 🆕 Entran 3 poco habituales (lo normal: 2.8): Kambala (1/5), Ratifo (1/5), Candinho (0/5) | <i>(n/5) = veces titular en sus últimos 5 partidos.</i>
 -- Etiopía (Mozambique vs Etiopía) estado='Confirmado' status_miembros=[1, 2, 4]
 -- Comoros (Comoros vs República del Congo) estado='Confirmado' status_miembros=[1, 2, 3, 4]
-normal 🚨 <b>Rotación fuerte: Comoros</b> | Comoros vs República del Congo · 08:00 · Copa de África de Naciones - Clasificación | Faltan <b>3 de 10</b> titulares habituales (lo normal en este equipo: 2.8). | 🪑 En la banca: I. Mohamed (4/5), Toibibou (4/5) | ❌ Fuera de la lista: B. Youssouf (4/5) | 🆕 Entran 3 poco habituales (lo normal: 3.0): I. Boura (0/5), Said (1/5), Lutin (0/5) | <i>(n/5) = veces titular en sus últimos 5 partidos.</i>
+normal 🚨 <b>Rotación fuerte: Comoros</b> | Comoros vs República del Congo · 08:00 · Copa de África de Naciones - Clasificación | Faltan <b>3 de 10</b> titulares habituales (lo normal en este equipo: 2.8). | 🪑 En la banca: I. Mohamed (4/5), Toibibou (4/5) | ❌ Fuera de la lista: B. Youssouf (4/5) | 🆕 Entran 3 poco habituales (lo normal: 3.0): Said (1/5), I. Boura (0/5), Lutin (0/5) | <i>(n/5) = veces titular en sus últimos 5 partidos.</i>
 -- República del Congo (Comoros vs República del Congo) estado='Confirmado' status_miembros=[1, 2, 4]
 -- Burkina Faso (Burkina Faso vs Mauritania) estado='Confirmado' status_miembros=[1, 2, 3, 4]
-normal 🚨 <b>Rotación fuerte: Burkina Faso</b> | Burkina Faso vs Mauritania · 11:00 · Copa de África de Naciones - Clasificación | Faltan <b>1 de 6</b> titulares habituales (lo normal en este equipo: 1.8). | 🪑 En la banca: Doucet (4/5) | 🆕 Entran 2 poco habituales (lo normal: 4.0): Ouédraogo (0/5), Banse (0/5) | <i>(n/5) = veces titular en sus últimos 5 partidos.</i>
+normal 🚨 <b>Rotación fuerte: Burkina Faso</b> | Burkina Faso vs Mauritania · 11:00 · Copa de África de Naciones - Clasificación | Faltan <b>1 de 6</b> titulares habituales (lo normal en este equipo: 1.8). | 🪑 En la banca: Doucet (4/5) | 🆕 Entran 2 poco habituales (lo normal: 4.0): Banse (0/5), Ouédraogo (0/5) | <i>(n/5) = veces titular en sus últimos 5 partidos.</i>
 -- Mauritania (Burkina Faso vs Mauritania) estado='Confirmado' status_miembros=[1, 2, 4]
-normal 🚨 <b>Rotación fuerte: Mauritania</b> | Burkina Faso vs Mauritania · 11:00 · Copa de África de Naciones - Clasificación | Faltan <b>2 de 6</b> titulares habituales (lo normal en este equipo: 1.2). | 🪑 En la banca: Ba (4/4) | ❌ Fuera de la lista: O. Ngom (3/4) | 🆕 Entran 4 poco habituales (lo normal: 2.8): M. Diadié (1/4), I. Keita (1/4), Yade (0/4), Ba (0/4) | <i>(n/4) = veces titular en sus últimos 4 partidos.</i>
+normal 🚨 <b>Rotación fuerte: Mauritania</b> | Burkina Faso vs Mauritania · 11:00 · Copa de África de Naciones - Clasificación | Faltan <b>2 de 6</b> titulares habituales (lo normal en este equipo: 1.2). | 🪑 En la banca: Ba (4/4) | ❌ Fuera de la lista: O. Ngom (3/4) | 🆕 Entran 4 poco habituales (lo normal: 2.8): M. Diadié (1/4), Ba (0/4), I. Keita (1/4), Yade (0/4) | <i>(n/4) = veces titular en sus últimos 4 partidos.</i>
 -- Gabón (Gabón vs Lesoto) estado='Confirmado' status_miembros=[1, 2, 4]
-normal 🚨 <b>Rotación fuerte: Gabón</b> | Gabón vs Lesoto · 11:00 · Copa de África de Naciones - Clasificación | Faltan <b>3 de 6</b> titulares habituales (lo normal en este equipo: 1.0). | 🪑 En la banca: Ndong (6/6), Poko (5/6), Babicka (4/6) | 🆕 Entran 2 poco habituales (lo normal: 1.2): H. Marcolino (0/6), Allevinah (0/6) | <i>(n/6) = veces titular en sus últimos 6 partidos.</i>
+normal 🚨 <b>Rotación fuerte: Gabón</b> | Gabón vs Lesoto · 11:00 · Copa de África de Naciones - Clasificación | Faltan <b>3 de 6</b> titulares habituales (lo normal en este equipo: 1.0). | 🪑 En la banca: Ndong (6/6), Poko (5/6), Babicka (4/6) | 🆕 Entran 2 poco habituales (lo normal: 1.2): Allevinah (0/6), H. Marcolino (0/6) | <i>(n/6) = veces titular en sus últimos 6 partidos.</i>
 -- Lesoto (Gabón vs Lesoto) estado='Confirmado' status_miembros=[1, 2, 4]
-ALERTA 🚨 <b>Rotación fuerte: Lesoto</b> | Gabón vs Lesoto · 11:00 · Copa de África de Naciones - Clasificación | Faltan <b>2 de 6</b> titulares habituales (lo normal en este equipo: 1.0). | 🪑 En la banca: Fothoane (3/4) | ❌ Fuera de la lista: Mokokoana (3/4) | 🆕 Entran 5 poco habituales (lo normal: 3.0): &#x27;Molaoa (0/4), Malane (1/4), Mkhwanazi (1/4), Ramakatsa (0/4), Lesako (0/4) | <i>(n/4) = veces titular en sus últimos 4 partidos.</i>
+ALERTA 🚨 <b>Rotación fuerte: Lesoto</b> | Gabón vs Lesoto · 11:00 · Copa de África de Naciones - Clasificación | Faltan <b>2 de 6</b> titulares habituales (lo normal en este equipo: 1.0). | 🪑 En la banca: Fothoane (3/4) | ❌ Fuera de la lista: Mokokoana (3/4) | 🆕 Entran 5 poco habituales (lo normal: 3.0): &#x27;Molaoa (0/4), Ramakatsa (0/4), Lesako (0/4), Malane (1/4), Mkhwanazi (1/4) | <i>(n/4) = veces titular en sus últimos 4 partidos.</i>
 -- Sudáfrica (Sudáfrica vs Kenia) estado='Confirmado' status_miembros=[1, 2, 3, 4]
 normal 🚨 <b>Rotación fuerte: Sudáfrica</b> | Sudáfrica vs Kenia · 11:00 · Copa de África de Naciones - Clasificación | Faltan <b>1 de 6</b> titulares habituales (lo normal en este equipo: 1.1). | 🪑 En la banca: Maseko (5/7) | 🆕 Entran 2 poco habituales (lo normal: 2.4): Moremi (0/7), Matuludi (1/7) | <i>(n/7) = veces titular en sus últimos 7 partidos.</i>
 -- Kenia (Sudáfrica vs Kenia) estado='Confirmado' status_miembros=[1, 2, 3, 4]
-ALERTA 🚨 <b>Rotación fuerte: Kenia</b> | Sudáfrica vs Kenia · 11:00 · Copa de África de Naciones - Clasificación | Faltan <b>0 de 1</b> titulares habituales (lo normal en este equipo: 0.3). | 🆕 Entran 6 poco habituales (lo normal: 3.1): Tera (0/7), A. Wanjala (1/7), A. Wilson (0/7), Owino (0/7), Olunga (0/7), Omar (1/7) | <i>(n/7) = veces titular en sus últimos 7 partidos.</i>
+ALERTA 🚨 <b>Rotación fuerte: Kenia</b> | Sudáfrica vs Kenia · 11:00 · Copa de África de Naciones - Clasificación | Faltan <b>0 de 1</b> titulares habituales (lo normal en este equipo: 0.3). | 🆕 Entran 6 poco habituales (lo normal: 3.1): Olunga (0/7), Omar (1/7), A. Wanjala (1/7), Tera (0/7), A. Wilson (0/7), Owino (0/7) | <i>(n/7) = veces titular en sus últimos 7 partidos.</i>
 -- Túnez (Túnez vs Libia) estado='Confirmado' status_miembros=[1, 2, 4]
-ALERTA 🚨 <b>Rotación masiva: Túnez</b> | Túnez vs Libia · 11:00 · Copa de África de Naciones - Clasificación | Faltan <b>2 de 4</b> titulares habituales (lo normal en este equipo: 0.9). | 🪑 En la banca: Slimane (5/7) | ❌ Fuera de la lista: Skhiri (5/7) | 🆕 Entran 7 poco habituales (lo normal: 2.3): Ben Romthane (1/7), Ltaief (1/7), A. Maaloul (1/7), Ghram (0/7), Laidouni (1/7), Chaouat (1/7), Dräger (0/7) | <i>(n/7) = veces titular en sus últimos 7 partidos.</i>
+ALERTA 🚨 <b>Rotación masiva: Túnez</b> | Túnez vs Libia · 11:00 · Copa de África de Naciones - Clasificación | Faltan <b>2 de 4</b> titulares habituales (lo normal en este equipo: 0.9). | 🪑 En la banca: Slimane (5/7) | ❌ Fuera de la lista: Skhiri (5/7) | 🆕 Entran 7 poco habituales (lo normal: 2.3): Dräger (0/7), Ltaief (1/7), Ghram (0/7), Laidouni (1/7), Ben Romthane (1/7), A. Maaloul (1/7), Chaouat (1/7) | <i>(n/7) = veces titular en sus últimos 7 partidos.</i>
 -- Libia (Túnez vs Libia) estado='Confirmado' status_miembros=[1, 2, 4]
 -- Cabo Verde (Cabo Verde vs Liberia) estado='Confirmado' status_miembros=[1, 2, 3, 4]
-normal 🚨 <b>Rotación fuerte: Cabo Verde</b> | Cabo Verde vs Liberia · 11:00 · Copa de África de Naciones - Clasificación | Faltan <b>2 de 6</b> titulares habituales (lo normal en este equipo: 1.0). | ❌ Fuera de la lista: Lenini (6/7), Pico (5/7) | 🆕 Entran 3 poco habituales (lo normal: 0.7): Varela (0/7), Djé (1/7), A. Santos (1/7) | <i>(n/7) = veces titular en sus últimos 7 partidos.</i>
+normal 🚨 <b>Rotación fuerte: Cabo Verde</b> | Cabo Verde vs Liberia · 11:00 · Copa de África de Naciones - Clasificación | Faltan <b>2 de 6</b> titulares habituales (lo normal en este equipo: 1.0). | ❌ Fuera de la lista: Lenini (6/7), Pico (5/7) | 🆕 Entran 3 poco habituales (lo normal: 0.7): Varela (0/7), A. Santos (1/7), Djé (1/7) | <i>(n/7) = veces titular en sus últimos 7 partidos.</i>
 -- Liberia (Cabo Verde vs Liberia) estado='Confirmado' status_miembros=[1, 2, 4]
 -- Nigeria (Nigeria vs Tanzania) estado='Confirmado' status_miembros=[1, 2, 3, 4]
 normal 🚨 <b>Rotación fuerte: Nigeria</b> | Nigeria vs Tanzania · 11:00 · Copa de África de Naciones - Clasificación | Faltan <b>0 de 0</b> titulares habituales (lo normal en este equipo: 0.0). | 🆕 Entran 2 poco habituales (lo normal: 2.4): B. Fredrick (1/7), Aina (1/7) | <i>(n/7) = veces titular en sus últimos 7 partidos.</i>
 -- Tanzania (Nigeria vs Tanzania) estado='Confirmado' status_miembros=[1, 2, 4]
-normal 🚨 <b>Rotación fuerte: Tanzania</b> | Nigeria vs Tanzania · 11:00 · Copa de África de Naciones - Clasificación | Faltan <b>2 de 6</b> titulares habituales (lo normal en este equipo: 1.3). | ❌ Fuera de la lista: Salum (6/7), M. Hassan (6/7) | 🆕 Entran 4 poco habituales (lo normal: 2.3): A. Manula (1/7), Chilambo (1/7), C. Kachwele (1/7), Mligo (0/7) | <i>(n/7) = veces titular en sus últimos 7 partidos.</i>
+normal 🚨 <b>Rotación fuerte: Tanzania</b> | Nigeria vs Tanzania · 11:00 · Copa de África de Naciones - Clasificación | Faltan <b>2 de 6</b> titulares habituales (lo normal en este equipo: 1.3). | ❌ Fuera de la lista: Salum (6/7), M. Hassan (6/7) | 🆕 Entran 4 poco habituales (lo normal: 2.3): Mligo (0/7), Chilambo (1/7), A. Manula (1/7), C. Kachwele (1/7) | <i>(n/7) = veces titular en sus últimos 7 partidos.</i>
 -- Moldavia (Moldavia vs Kazajstán) estado='Confirmado' status_miembros=[1, 2, 4]
 normal 🚨 <b>Rotación fuerte: Moldavia</b> | Moldavia vs Kazajstán · 12:00 · Liga de las Naciones - UEFA | Faltan <b>0 de 5</b> titulares habituales (lo normal en este equipo: 0.7). | <i>(n/7) = veces titular en sus últimos 7 partidos.</i>
 -- Kazajstán (Moldavia vs Kazajstán) estado='Confirmado' status_miembros=[1, 2, 3, 4]
-normal 🚨 <b>Rotación fuerte: Kazajstán</b> | Moldavia vs Kazajstán · 12:00 · Liga de las Naciones - UEFA | Faltan <b>3 de 4</b> titulares habituales (lo normal en este equipo: 0.7). | 🪑 En la banca: Kuat (6/7), Vorogovskiy (5/7), Kenzhebek (5/7) | 🆕 Entran 1 poco habituales (lo normal: 1.0): I. Chesnokov (1/7) | <i>(n/7) = veces titular en sus últimos 7 partidos.</i>
+normal 🚨 <b>Rotación fuerte: Kazajstán</b> | Moldavia vs Kazajstán · 12:00 · Liga de las Naciones - UEFA | Faltan <b>3 de 4</b> titulares habituales (lo normal en este equipo: 0.7). | 🪑 En la banca: Kuat (6/7), Kenzhebek (5/7), Vorogovskiy (5/7) | 🆕 Entran 1 poco habituales (lo normal: 1.0): I. Chesnokov (1/7) | <i>(n/7) = veces titular en sus últimos 7 partidos.</i>
 -- Egipto (Egipto vs Malawi) estado='Confirmado' status_miembros=[1, 2, 4]
-normal 🚨 <b>Rotación fuerte: Egipto</b> | Egipto vs Malawi · 14:00 · Copa de África de Naciones - Clasificación | Faltan <b>3 de 8</b> titulares habituales (lo normal en este equipo: 0.9). | 🪑 En la banca: Ateya (5/7) | ❌ Fuera de la lista: Ashour (7/7), Ziko (7/7) | 🆕 Entran 3 poco habituales (lo normal: 0.4): Maher (0/7), Trezeguet (1/7), Zizo (0/7) | <i>(n/7) = veces titular en sus últimos 7 partidos.</i>
+normal 🚨 <b>Rotación fuerte: Egipto</b> | Egipto vs Malawi · 14:00 · Copa de África de Naciones - Clasificación | Faltan <b>3 de 8</b> titulares habituales (lo normal en este equipo: 0.9). | 🪑 En la banca: Ateya (5/7) | ❌ Fuera de la lista: Ashour (7/7), Ziko (7/7) | 🆕 Entran 3 poco habituales (lo normal: 0.4): Zizo (0/7), Maher (0/7), Trezeguet (1/7) | <i>(n/7) = veces titular en sus últimos 7 partidos.</i>
 -- Malawi (Egipto vs Malawi) estado='Confirmado' status_miembros=[1, 2, 4]
 -- Granada (Granada vs San Cristóbal y Nieves) estado='Confirmado' status_miembros=[1, 2, 4]
-ALERTA 🚨 <b>Rotación masiva: Granada</b> | Granada vs San Cristóbal y Nieves · 14:00 · CONCACAF Liga de Naciones | Faltan <b>6 de 7</b> titulares habituales (lo normal en este equipo: 1.5). | 🪑 En la banca: Muirhead (4/6) | ❌ Fuera de la lista: S. John-Brown (6/6), Harrack (5/6), Paterson (4/6), M. Hippolyte (4/6), Francis (4/6) | 🆕 Entran 5 poco habituales (lo normal: 1.5): Sylvester (0/6), Frank (0/6), Raeburn (0/6), A. Pierre (0/6), Valcin (0/6) | <i>(n/6) = veces titular en sus últimos 6 partidos.</i>
+ALERTA 🚨 <b>Rotación masiva: Granada</b> | Granada vs San Cristóbal y Nieves · 14:00 · CONCACAF Liga de Naciones | Faltan <b>6 de 7</b> titulares habituales (lo normal en este equipo: 1.5). | 🪑 En la banca: Muirhead (4/6) | ❌ Fuera de la lista: S. John-Brown (6/6), Harrack (5/6), Francis (4/6), M. Hippolyte (4/6), Paterson (4/6) | 🆕 Entran 5 poco habituales (lo normal: 1.5): Frank (0/6), A. Pierre (0/6), Raeburn (0/6), Sylvester (0/6), Valcin (0/6) | <i>(n/6) = veces titular en sus últimos 6 partidos.</i>
 -- San Cristóbal y Nieves (Granada vs San Cristóbal y Nieves) estado='Confirmado' status_miembros=[1, 2, 4]
-ALERTA 🚨 <b>Rotación fuerte: San Cristóbal y Nieves</b> | Granada vs San Cristóbal y Nieves · 14:00 · CONCACAF Liga de Naciones | Faltan <b>5 de 10</b> titulares habituales (lo normal en este equipo: 2.3). | 🪑 En la banca: Sterling-James (4/6), Roberts (4/6), M. Garnette (4/6) | ❌ Fuera de la lista: Wharton (4/6), Browne (4/6) | 🆕 Entran 6 poco habituales (lo normal: 2.0): Mintus (0/6), R. Somersall (0/6), Simmonds (0/6), Bristow (1/6), Crolla (0/6), J. Richardson (0/6) | <i>(n/6) = veces titular en sus últimos 6 partidos.</i>
+ALERTA 🚨 <b>Rotación fuerte: San Cristóbal y Nieves</b> | Granada vs San Cristóbal y Nieves · 14:00 · CONCACAF Liga de Naciones | Faltan <b>5 de 10</b> titulares habituales (lo normal en este equipo: 2.3). | 🪑 En la banca: Sterling-James (4/6), Roberts (4/6), M. Garnette (4/6) | ❌ Fuera de la lista: Wharton (4/6), Browne (4/6) | 🆕 Entran 6 poco habituales (lo normal: 2.0): Mintus (0/6), R. Somersall (0/6), Crolla (0/6), Bristow (1/6), J. Richardson (0/6), Simmonds (0/6) | <i>(n/6) = veces titular en sus últimos 6 partidos.</i>
 -- Bermuda (Bermuda vs Santa Lucía) estado='Confirmado' status_miembros=[1, 2, 4]
-normal 🚨 <b>Rotación fuerte: Bermuda</b> | Bermuda vs Santa Lucía · 14:00 · CONCACAF Liga de Naciones | Faltan <b>0 de 2</b> titulares habituales (lo normal en este equipo: 0.4). | 🆕 Entran 4 poco habituales (lo normal: 2.1): L. Jiménez (0/7), W. Clemons (0/7), Outerbridge (0/7), Borgesson (0/7) | <i>(n/7) = veces titular en sus últimos 7 partidos.</i>
+normal 🚨 <b>Rotación fuerte: Bermuda</b> | Bermuda vs Santa Lucía · 14:00 · CONCACAF Liga de Naciones | Faltan <b>0 de 2</b> titulares habituales (lo normal en este equipo: 0.4). | 🆕 Entran 4 poco habituales (lo normal: 2.1): W. Clemons (0/7), Borgesson (0/7), L. Jiménez (0/7), Outerbridge (0/7) | <i>(n/7) = veces titular en sus últimos 7 partidos.</i>
 -- Santa Lucía (Bermuda vs Santa Lucía) estado='Confirmado' status_miembros=[1, 2, 4]
-normal 🚨 <b>Rotación fuerte: Santa Lucía</b> | Bermuda vs Santa Lucía · 14:00 · CONCACAF Liga de Naciones | Faltan <b>4 de 11</b> titulares habituales (lo normal en este equipo: 2.8). | 🪑 En la banca: Lionel (4/5), Louis (3/5) | ❌ Fuera de la lista: Elva (4/5), M. Doxilly (4/5) | 🆕 Entran 3 poco habituales (lo normal: 2.0): C. Forino (0/5), Hackett (0/5), Donacien (0/5) | <i>(n/5) = veces titular en sus últimos 5 partidos.</i>
+normal 🚨 <b>Rotación fuerte: Santa Lucía</b> | Bermuda vs Santa Lucía · 14:00 · CONCACAF Liga de Naciones | Faltan <b>4 de 11</b> titulares habituales (lo normal en este equipo: 2.8). | 🪑 En la banca: Lionel (4/5), Louis (3/5) | ❌ Fuera de la lista: M. Doxilly (4/5), Elva (4/5) | 🆕 Entran 3 poco habituales (lo normal: 2.0): Hackett (0/5), Donacien (0/5), C. Forino (0/5) | <i>(n/5) = veces titular en sus últimos 5 partidos.</i>
 -- Puerto Rico (Puerto Rico vs Dominica) estado='Confirmado' status_miembros=[1, 2, 4]
 normal 🚨 <b>Rotación fuerte: Puerto Rico</b> | Puerto Rico vs Dominica · 14:00 · CONCACAF Liga de Naciones | Faltan <b>1 de 5</b> titulares habituales (lo normal en este equipo: 0.7). | ❌ Fuera de la lista: L. Antonetti (5/7) | 🆕 Entran 2 poco habituales (lo normal: 1.1): Felgueroso (0/7), Ramos (1/7) | <i>(n/7) = veces titular en sus últimos 7 partidos.</i>
 -- Dominica (Puerto Rico vs Dominica) estado='Confirmado' status_miembros=[1, 2, 4]
-ALERTA 🚨 <b>Rotación masiva: Dominica</b> | Puerto Rico vs Dominica · 14:00 · CONCACAF Liga de Naciones | Faltan <b>8 de 12</b> titulares habituales (lo normal en este equipo: 2.4). | 🪑 En la banca: Anselm (4/5), Marshall (4/5), Sandy Jr (3/5), Edwards (3/5) | ❌ Fuera de la lista: Laville (5/5), Sandy (4/5), Newton (4/5), Jules (3/5) | 🆕 Entran 7 poco habituales (lo normal: 1.0): Jeremy (0/5), Esprit (0/5), M. Sharpe (0/5), Bertrand (0/5), Challenger (1/5), Carbon (0/5), S. George (0/5) | 🧤 Cambia el portero habitual. | <i>(n/5) = veces titular en sus últimos 5 partidos.</i>
+ALERTA 🚨 <b>Rotación masiva: Dominica</b> | Puerto Rico vs Dominica · 14:00 · CONCACAF Liga de Naciones | Faltan <b>8 de 12</b> titulares habituales (lo normal en este equipo: 2.4). | 🪑 En la banca: Marshall (4/5), Anselm (4/5), Sandy Jr (3/5), Edwards (3/5) | ❌ Fuera de la lista: Laville (5/5), Newton (4/5), Sandy (4/5), Jules (3/5) | 🆕 Entran 7 poco habituales (lo normal: 1.0): Bertrand (0/5), Carbon (0/5), Challenger (1/5), Jeremy (0/5), S. George (0/5), M. Sharpe (0/5), Esprit (0/5) | 🧤 Cambia el portero habitual. | <i>(n/5) = veces titular en sus últimos 5 partidos.</i>
 -- Mali (Mali vs Ruanda) estado='Confirmado' status_miembros=[1, 2, 3, 4]
 normal 🚨 <b>Rotación fuerte: Mali</b> | Mali vs Ruanda · 14:00 · Copa de África de Naciones - Clasificación | Faltan <b>1 de 5</b> titulares habituales (lo normal en este equipo: 1.0). | 🪑 En la banca: Dieng (5/7) | 🆕 Entran 1 poco habituales (lo normal: 1.0): M. Yeo (0/7) | <i>(n/7) = veces titular en sus últimos 7 partidos.</i>
 -- Ruanda (Mali vs Ruanda) estado='Confirmado' status_miembros=[1, 2, 4]
 normal 🚨 <b>Rotación fuerte: Ruanda</b> | Mali vs Ruanda · 14:00 · Copa de África de Naciones - Clasificación | Faltan <b>2 de 6</b> titulares habituales (lo normal en este equipo: 1.5). | 🪑 En la banca: Biramahire (3/4) | ❌ Fuera de la lista: Mugisha (3/4) | 🆕 Entran 2 poco habituales (lo normal: 4.0): D. Nkulikiyimana (1/4), Iradukunda (1/4) | <i>(n/4) = veces titular en sus últimos 4 partidos.</i>
 -- Eslovenia (Eslovenia vs Suiza) estado='Confirmado' status_miembros=[1, 2, 3, 4]
-normal 🚨 <b>Rotación fuerte: Eslovenia</b> | Eslovenia vs Suiza · 14:45 · Liga de las Naciones - UEFA | Faltan <b>1 de 8</b> titulares habituales (lo normal en este equipo: 1.1). | ❌ Fuera de la lista: Janza (6/7) | 🆕 Entran 2 poco habituales (lo normal: 1.0): Kuzmic (1/7), Z. Zaletel (0/7) | <i>(n/7) = veces titular en sus últimos 7 partidos.</i>
+normal 🚨 <b>Rotación fuerte: Eslovenia</b> | Eslovenia vs Suiza · 14:45 · Liga de las Naciones - UEFA | Faltan <b>1 de 8</b> titulares habituales (lo normal en este equipo: 1.1). | ❌ Fuera de la lista: Janza (6/7) | 🆕 Entran 2 poco habituales (lo normal: 1.0): Z. Zaletel (0/7), Kuzmic (1/7) | <i>(n/7) = veces titular en sus últimos 7 partidos.</i>
 -- Suiza (Eslovenia vs Suiza) estado='Confirmado' status_miembros=[1, 2, 3, 4]
 normal 🚨 <b>Rotación fuerte: Suiza</b> | Eslovenia vs Suiza · 14:45 · Liga de las Naciones - UEFA | Faltan <b>1 de 6</b> titulares habituales (lo normal en este equipo: 0.1). | 🪑 En la banca: Rodriguez (7/7) | 🆕 Entran 1 poco habituales (lo normal: 0.6): Britschgi (1/7) | <i>(n/7) = veces titular en sus últimos 7 partidos.</i>
 -- Escocia (Escocia vs Macedonia del Norte) estado='Confirmado' status_miembros=[1, 2, 3, 4]
-normal 🚨 <b>Rotación fuerte: Escocia</b> | Escocia vs Macedonia del Norte · 14:45 · Liga de las Naciones - UEFA | Faltan <b>1 de 5</b> titulares habituales (lo normal en este equipo: 0.1). | 🪑 En la banca: Hendry (6/7) | 🆕 Entran 4 poco habituales (lo normal: 0.9): Porteous (0/7), Tierney (1/7), McTominay (0/7), L. Graham (0/7) | <i>(n/7) = veces titular en sus últimos 7 partidos.</i>
+normal 🚨 <b>Rotación fuerte: Escocia</b> | Escocia vs Macedonia del Norte · 14:45 · Liga de las Naciones - UEFA | Faltan <b>1 de 5</b> titulares habituales (lo normal en este equipo: 0.1). | 🪑 En la banca: Hendry (6/7) | 🆕 Entran 4 poco habituales (lo normal: 0.9): Porteous (0/7), L. Graham (0/7), Tierney (1/7), McTominay (0/7) | <i>(n/7) = veces titular en sus últimos 7 partidos.</i>
 -- Macedonia del Norte (Escocia vs Macedonia del Norte) estado='Confirmado' status_miembros=[1, 2, 4]
 normal 🚨 <b>Rotación fuerte: Macedonia del Norte</b> | Escocia vs Macedonia del Norte · 14:45 · Liga de las Naciones - UEFA | Faltan <b>1 de 3</b> titulares habituales (lo normal en este equipo: 0.3). | ❌ Fuera de la lista: Zajkov (5/7) | 🆕 Entran 2 poco habituales (lo normal: 1.1): Doriev (1/7), Churlinov (1/7) | <i>(n/7) = veces titular en sus últimos 7 partidos.</i>
+-- Liechtenstein (Liechtenstein vs Azerbaiyán) estado='Confirmado' status_miembros=[1, 2, 4]
+normal 🚨 <b>Rotación fuerte: Liechtenstein</b> | Liechtenstein vs Azerbaiyán · 14:45 · Liga de las Naciones - UEFA | Faltan <b>1 de 7</b> titulares habituales (lo normal en este equipo: 1.4). | ❌ Fuera de la lista: L. Traber (5/7) | 🆕 Entran 1 poco habituales (lo normal: 0.9): S. Schlegel (0/7) | <i>(n/7) = veces titular en sus últimos 7 partidos.</i>
+-- Azerbaiyán (Liechtenstein vs Azerbaiyán) estado='Confirmado' status_miembros=[1, 2, 4]
+normal 🚨 <b>Rotación fuerte: Azerbaiyán</b> | Liechtenstein vs Azerbaiyán · 14:45 · Liga de las Naciones - UEFA | Faltan <b>0 de 1</b> titulares habituales (lo normal en este equipo: 0.3). | 🆕 Entran 2 poco habituales (lo normal: 2.3): Mammadov (1/7), Aliyev (0/7) | <i>(n/7) = veces titular en sus últimos 7 partidos.</i>
+-- Serbia (Serbia vs Alemania) estado='Confirmado' status_miembros=[1, 2, 3, 4]
+normal 🚨 <b>Rotación fuerte: Serbia</b> | Serbia vs Alemania · 14:45 · Liga de las Naciones - UEFA | Faltan <b>3 de 3</b> titulares habituales (lo normal en este equipo: 0.9). | 🪑 En la banca: Erakovic (5/7), Pavlović (5/7), A. Stanković (5/7) | 🆕 Entran 4 poco habituales (lo normal: 2.6): Gudelj (1/7), Milenkovic (1/7), Sukacev (0/7), Dzodic (1/7) | <i>(n/7) = veces titular en sus últimos 7 partidos.</i>
+-- Alemania (Serbia vs Alemania) estado='Confirmado' status_miembros=[1, 2, 3, 4]
+normal 🚨 <b>Rotación fuerte: Alemania</b> | Serbia vs Alemania · 14:45 · Liga de las Naciones - UEFA | Faltan <b>1 de 5</b> titulares habituales (lo normal en este equipo: 1.4). | 🪑 En la banca: Nmecha (5/7) | 🆕 Entran 3 poco habituales (lo normal: 2.3): Mittelstadt (1/7), Gruda (0/7), ter Stegen (1/7) | <i>(n/7) = veces titular en sus últimos 7 partidos.</i>
+-- Países Bajos (Países Bajos vs Grecia) estado='Confirmado' status_miembros=[1, 2, 3, 4]
+normal 🚨 <b>Rotación fuerte: Países Bajos</b> | Países Bajos vs Grecia · 14:45 · Liga de las Naciones - UEFA | Faltan <b>2 de 9</b> titulares habituales (lo normal en este equipo: 1.4). | 🪑 En la banca: Gravenberch (6/7) | ❌ Fuera de la lista: van Dijk (7/7) | 🆕 Entran 1 poco habituales (lo normal: 0.7): Timber (1/7) | <i>(n/7) = veces titular en sus últimos 7 partidos.</i>
+-- Grecia (Países Bajos vs Grecia) estado='Confirmado' status_miembros=[1, 2, 3, 4]
+normal 🚨 <b>Rotación fuerte: Grecia</b> | Países Bajos vs Grecia · 14:45 · Liga de las Naciones - UEFA | Faltan <b>1 de 7</b> titulares habituales (lo normal en este equipo: 1.3). | 🪑 En la banca: Kourbelis (5/7) | 🆕 Entran 1 poco habituales (lo normal: 1.3): L. Rota (1/7) | <i>(n/7) = veces titular en sus últimos 7 partidos.</i>
+-- Bulgaria (Bulgaria vs Islandia) estado='Confirmado' status_miembros=[1, 2, 4]
+normal 🚨 <b>Rotación fuerte: Bulgaria</b> | Bulgaria vs Islandia · 14:45 · Liga de las Naciones - UEFA | Faltan <b>1 de 3</b> titulares habituales (lo normal en este equipo: 0.7). | 🪑 En la banca: Velkovski (6/7) | 🆕 Entran 3 poco habituales (lo normal: 2.3): H. Petrov (1/7), Stoyanov (1/7), Balov (1/7) | <i>(n/7) = veces titular en sus últimos 7 partidos.</i>
+-- Islandia (Bulgaria vs Islandia) estado='Confirmado' status_miembros=[1, 2, 3, 4]
+normal 🚨 <b>Rotación fuerte: Islandia</b> | Bulgaria vs Islandia · 14:45 · Liga de las Naciones - UEFA | Faltan <b>0 de 7</b> titulares habituales (lo normal en este equipo: 1.9). | 🆕 Entran 1 poco habituales (lo normal: 0.7): Ingason (1/7) | <i>(n/7) = veces titular en sus últimos 7 partidos.</i>
+-- Eslovaquia (Eslovaquia vs Islas Feroe) estado='Confirmado' status_miembros=[1, 2, 3, 4]
+normal 🚨 <b>Rotación fuerte: Eslovaquia</b> | Eslovaquia vs Islas Feroe · 14:45 · Liga de las Naciones - UEFA | Faltan <b>3 de 6</b> titulares habituales (lo normal en este equipo: 1.3). | 🪑 En la banca: Suslov (7/7), Lobotka (5/7) | ❌ Fuera de la lista: Obert (6/7) | 🆕 Entran 4 poco habituales (lo normal: 1.7): Rusnak (0/7), Šatka (1/7), E. Prekop (0/7), Reis (0/7) | <i>(n/7) = veces titular en sus últimos 7 partidos.</i>
+-- Islas Feroe (Eslovaquia vs Islas Feroe) estado='Confirmado' status_miembros=[1, 2, 4]
+normal 🚨 <b>Rotación fuerte: Islas Feroe</b> | Eslovaquia vs Islas Feroe · 14:45 · Liga de las Naciones - UEFA | Faltan <b>1 de 7</b> titulares habituales (lo normal en este equipo: 1.3). | ❌ Fuera de la lista: M. Agnarsson (6/7) | <i>(n/7) = veces titular en sus últimos 7 partidos.</i>
+-- Andorra (Andorra vs Gibraltar) estado='Confirmado' status_miembros=[1, 2, 4]
+normal 🚨 <b>Rotación fuerte: Andorra</b> | Andorra vs Gibraltar · 14:45 · Liga de las Naciones - UEFA | Faltan <b>1 de 9</b> titulares habituales (lo normal en este equipo: 2.1). | ❌ Fuera de la lista: Babot (5/7) | 🆕 Entran 2 poco habituales (lo normal: 1.3): Linares (0/7), B. Rosas (1/7) | <i>(n/7) = veces titular en sus últimos 7 partidos.</i>
+-- Gibraltar (Andorra vs Gibraltar) estado='Confirmado' status_miembros=[1, 2, 4]
+normal 🚨 <b>Rotación fuerte: Gibraltar</b> | Andorra vs Gibraltar · 14:45 · Liga de las Naciones - UEFA | Faltan <b>0 de 8</b> titulares habituales (lo normal en este equipo: 0.9). | <i>(n/7) = veces titular en sus últimos 7 partidos.</i>
+-- Luxemburgo (Luxemburgo vs Estonia) estado='Confirmado' status_miembros=[1, 2, 3, 4]
+normal 🚨 <b>Rotación fuerte: Luxemburgo</b> | Luxemburgo vs Estonia · 14:45 · Liga de las Naciones - UEFA | Faltan <b>1 de 7</b> titulares habituales (lo normal en este equipo: 1.0). | ❌ Fuera de la lista: Carlson (7/7) | 🆕 Entran 2 poco habituales (lo normal: 0.3): Thill (0/7), Hall (0/7) | <i>(n/7) = veces titular en sus últimos 7 partidos.</i>
+-- Estonia (Luxemburgo vs Estonia) estado='Confirmado' status_miembros=[1, 2, 4]
+normal 🚨 <b>Rotación fuerte: Estonia</b> | Luxemburgo vs Estonia · 14:45 · Liga de las Naciones - UEFA | Faltan <b>1 de 2</b> titulares habituales (lo normal en este equipo: 0.6). | ❌ Fuera de la lista: M. Kuusk (5/7) | 🆕 Entran 1 poco habituales (lo normal: 2.0): Shein (1/7) | <i>(n/7) = veces titular en sus últimos 7 partidos.</i>
+-- Marruecos (Marruecos vs Niger) estado='Confirmado' status_miembros=[1, 2, 4]
+normal 🚨 <b>Rotación fuerte: Marruecos</b> | Marruecos vs Niger · 15:00 · Copa de África de Naciones - Clasificación | Faltan <b>3 de 9</b> titulares habituales (lo normal en este equipo: 1.6). | ❌ Fuera de la lista: El Aynaoui (7/7), Ounahi (6/7), Saibari (5/7) | 🆕 Entran 3 poco habituales (lo normal: 1.4): Y. Zabiri (1/7), Targhalline (1/7), Abdé (1/7) | <i>(n/7) = veces titular en sus últimos 7 partidos.</i>
+-- Niger (Marruecos vs Niger) estado='Confirmado' status_miembros=[1, 2, 4]
+-- Saint-Martin (Saint-Martin vs El Salvador) estado='Confirmado' status_miembros=[1, 2, 4]
+normal 🚨 <b>Rotación fuerte: Saint-Martin</b> | Saint-Martin vs El Salvador · 18:00 · CONCACAF Liga de Naciones | Faltan <b>2 de 10</b> titulares habituales (lo normal en este equipo: 0.0). | 🪑 En la banca: A. Raga (4/4) | ❌ Fuera de la lista: Montantin (4/4) | 🆕 Entran 2 poco habituales (lo normal: 0.0): Segarel (0/4), Loriot (0/4) | <i>(n/4) = veces titular en sus últimos 4 partidos.</i>
+-- El Salvador (Saint-Martin vs El Salvador) estado='Confirmado' status_miembros=[1, 2, 4]
+normal 🚨 <b>Rotación fuerte: El Salvador</b> | Saint-Martin vs El Salvador · 18:00 · CONCACAF Liga de Naciones | Faltan <b>3 de 11</b> titulares habituales (lo normal en este equipo: 1.8). | 🪑 En la banca: Tejada (4/5) | ❌ Fuera de la lista: Díaz (5/5), Clavel (4/5) | 🆕 Entran 2 poco habituales (lo normal: 0.2): Perez (0/5), Méndez (0/5) | <i>(n/5) = veces titular en sus últimos 5 partidos.</i>
+-- Montserrat (Montserrat vs Nicaragua) estado='Confirmado' status_miembros=[1, 2, 4]
+ALERTA 🚨 <b>Rotación fuerte: Montserrat</b> | Montserrat vs Nicaragua · 19:00 · CONCACAF Liga de Naciones | Faltan <b>4 de 11</b> titulares habituales (lo normal en este equipo: 0.8). | ❌ Fuera de la lista: Taylor (4/4), Gordon (4/4), Dorsett (4/4), Townsend-West (3/4) | 🆕 Entran 4 poco habituales (lo normal: 0.2): Cirino (0/4), Smith-Daley (0/4), Furlong (0/4), Fenton (0/4) | <i>(n/4) = veces titular en sus últimos 4 partidos.</i>
+-- Nicaragua (Montserrat vs Nicaragua) estado='Confirmado' status_miembros=[1, 2, 4]
+ALERTA 🚨 <b>Rotación fuerte: Nicaragua</b> | Montserrat vs Nicaragua · 19:00 · CONCACAF Liga de Naciones | Faltan <b>1 de 2</b> titulares habituales (lo normal en este equipo: 0.1). | 🪑 En la banca: Cole (6/7) | 🆕 Entran 5 poco habituales (lo normal: 1.3): Barrera (0/7), Quijano (0/7), Hernandez (0/7), Smith (0/7), Salinas (1/7) | <i>(n/7) = veces titular en sus últimos 7 partidos.</i>
+-- Guatemala (Guatemala vs Canadá) estado='Confirmado' status_miembros=[1, 2, 4]
+normal 🚨 <b>Rotación fuerte: Guatemala</b> | Guatemala vs Canadá · 21:00 · CONCACAF Liga de Naciones | Faltan <b>1 de 7</b> titulares habituales (lo normal en este equipo: 1.1). | ❌ Fuera de la lista: Fajardo (5/7) | 🆕 Entran 1 poco habituales (lo normal: 0.7): López (1/7) | <i>(n/7) = veces titular en sus últimos 7 partidos.</i>
+-- Canadá (Guatemala vs Canadá) estado='Confirmado' status_miembros=[1, 2, 3, 4]
+normal 🚨 <b>Rotación fuerte: Canadá</b> | Guatemala vs Canadá · 21:00 · CONCACAF Liga de Naciones | Faltan <b>2 de 6</b> titulares habituales (lo normal en este equipo: 1.1). | 🪑 En la banca: Saliba (5/7) | ❌ Fuera de la lista: Eustáquio (5/7) | 🆕 Entran 2 poco habituales (lo normal: 0.6): Davies (0/7), Joel (0/7) | <i>(n/7) = veces titular en sus últimos 7 partidos.</i>
+-- Kosovo (Kosovo vs Israel) estado='Confirmado' status_miembros=[1, 2, 3, 4]
+normal 🚨 <b>Rotación fuerte: Kosovo</b> | Kosovo vs Israel · 09:00 · Liga de las Naciones - UEFA | Faltan <b>1 de 6</b> titulares habituales (lo normal en este equipo: 1.1). | 🪑 En la banca: Dellova (5/7) | 🆕 Entran 3 poco habituales (lo normal: 1.0): Hajrizi (1/7), Rashica (0/7), L. Kamberi (0/7) | <i>(n/7) = veces titular en sus últimos 7 partidos.</i>
+-- Israel (Kosovo vs Israel) estado='Confirmado' status_miembros=[1, 2, 3, 4]
+normal 🚨 <b>Rotación fuerte: Israel</b> | Kosovo vs Israel · 09:00 · Liga de las Naciones - UEFA | Faltan <b>2 de 5</b> titulares habituales (lo normal en este equipo: 0.7). | 🪑 En la banca: Revivo (6/7) | ❌ Fuera de la lista: E. Peretz (7/7) | 🆕 Entran 2 poco habituales (lo normal: 0.9): Toklomati (0/7), Yehoshua (0/7) | <i>(n/7) = veces titular en sus últimos 7 partidos.</i>
+-- Uganda (Uganda vs Botswana) estado='Confirmado' status_miembros=[1, 2, 3, 4]
+ALERTA 🚨 <b>Rotación fuerte: Uganda</b> | Uganda vs Botswana · 11:00 · Copa de África de Naciones - Clasificación | Faltan <b>4 de 10</b> titulares habituales (lo normal en este equipo: 2.0). | 🪑 En la banca: Mato (5/5), Okello (3/5), T. Mutyaba (3/5) | ❌ Fuera de la lista: Obita (3/5) | 🆕 Entran 3 poco habituales (lo normal: 1.4): Boateng (0/5), Bogere (0/5), Vula (1/5) | <i>(n/5) = veces titular en sus últimos 5 partidos.</i>
+-- Botswana (Uganda vs Botswana) estado='Confirmado' status_miembros=[1, 2, 4]
+normal 🚨 <b>Rotación fuerte: Botswana</b> | Uganda vs Botswana · 11:00 · Copa de África de Naciones - Clasificación | Faltan <b>0 de 5</b> titulares habituales (lo normal en este equipo: 0.5). | 🆕 Entran 4 poco habituales (lo normal: 2.0): C. Molefe (0/4), Ratshukudu (1/4), ubiu (1/4), Modingwane (1/4) | <i>(n/4) = veces titular en sus últimos 4 partidos.</i>
+-- Georgia (Georgia vs Hungría) estado='Confirmado' status_miembros=[1, 2, 3, 4]
+normal 🚨 <b>Rotación fuerte: Georgia</b> | Georgia vs Hungría · 12:00 · Liga de las Naciones - UEFA | Faltan <b>2 de 6</b> titulares habituales (lo normal en este equipo: 1.3). | 🪑 En la banca: Kvaratskhelia (6/7) | ❌ Fuera de la lista: G. Kochorashvili (5/7) | 🆕 Entran 2 poco habituales (lo normal: 0.9): Gagnidze (0/7), G. Kvernadze (1/7) | <i>(n/7) = veces titular en sus últimos 7 partidos.</i>
+-- Hungría (Georgia vs Hungría) estado='Confirmado' status_miembros=[1, 2, 4]
+normal 🚨 <b>Rotación fuerte: Hungría</b> | Georgia vs Hungría · 12:00 · Liga de las Naciones - UEFA | Faltan <b>1 de 8</b> titulares habituales (lo normal en este equipo: 1.3). | ❌ Fuera de la lista: Tóth (5/7) | <i>(n/7) = veces titular en sus últimos 7 partidos.</i>
+-- Noruega (Noruega vs Gales) estado='Confirmado' status_miembros=[1, 2, 3, 4]
+normal 🚨 <b>Rotación fuerte: Noruega</b> | Noruega vs Gales · 12:00 · Liga de las Naciones - UEFA | Faltan <b>2 de 10</b> titulares habituales (lo normal en este equipo: 1.3). | 🪑 En la banca: Nyland (6/7), Berg (6/7) | 🆕 Entran 2 poco habituales (lo normal: 0.4): Aasgaard (0/7), Selvik (1/7) | 🧤 Cambia el portero habitual. | <i>(n/7) = veces titular en sus últimos 7 partidos.</i>
+-- Gales (Noruega vs Gales) estado='Confirmado' status_miembros=[1, 2, 4]
+normal 🚨 <b>Rotación fuerte: Gales</b> | Noruega vs Gales · 12:00 · Liga de las Naciones - UEFA | Faltan <b>2 de 5</b> titulares habituales (lo normal en este equipo: 1.0). | 🪑 En la banca: Ward (5/7) | ❌ Fuera de la lista: Thomas (5/7) | 🆕 Entran 2 poco habituales (lo normal: 1.7): Wilson (1/7), Rodon (0/7) | 🧤 Cambia el portero habitual. | <i>(n/7) = veces titular en sus últimos 7 partidos.</i>
+-- Argelia (Argelia vs Togo) estado='Confirmado' status_miembros=[1, 2, 4]
+normal 🚨 <b>Rotación fuerte: Argelia</b> | Argelia vs Togo · 14:00 · Copa de África de Naciones - Clasificación | Faltan <b>0 de 4</b> titulares habituales (lo normal en este equipo: 0.6). | 🆕 Entran 4 poco habituales (lo normal: 1.9): Moussa (1/7), Abada (1/7), Touba (1/7), M.Azzi (0/7) | <i>(n/7) = veces titular en sus últimos 7 partidos.</i>
+-- Togo (Argelia vs Togo) estado='Confirmado' status_miembros=[1, 2, 3, 4]
+-- San Martín (San Martín vs Guayana Francesa) estado='Confirmado' status_miembros=[1, 2, 4]
+normal 🚨 <b>Rotación fuerte: San Martín</b> | San Martín vs Guayana Francesa · 14:00 · CONCACAF Liga de Naciones | Faltan <b>2 de 8</b> titulares habituales (lo normal en este equipo: 0.2). | 🪑 En la banca: Kerssies (4/4), Kort (4/4) | 🆕 Entran 4 poco habituales (lo normal: 1.2): I. Pata (0/4), T. Illidge (0/4), Tjen-A-Kwoei (0/4), Lake (0/4) | <i>(n/4) = veces titular en sus últimos 4 partidos.</i>
+-- Guayana Francesa (San Martín vs Guayana Francesa) estado='Confirmado' status_miembros=[1, 2, 4]
+normal 🚨 <b>Rotación fuerte: Guayana Francesa</b> | San Martín vs Guayana Francesa · 14:00 · CONCACAF Liga de Naciones | Faltan <b>3 de 9</b> titulares habituales (lo normal en este equipo: 1.0). | 🪑 En la banca: Soga (4/4), Sarrucco (3/4) | ❌ Fuera de la lista: Andelmon (3/4) | 🆕 Entran 4 poco habituales (lo normal: 1.0): Haabo (1/4), Besini (0/4), Léon (0/4), Monimofou (0/4) | <i>(n/4) = veces titular en sus últimos 4 partidos.</i>
+-- Angola (Angola vs Sudán del Sur) estado='Confirmado' status_miembros=[1, 2, 3, 4]
+ALERTA 🚨 <b>Rotación fuerte: Angola</b> | Angola vs Sudán del Sur · 14:00 · Copa de África de Naciones - Clasificación | Faltan <b>4 de 8</b> titulares habituales (lo normal en este equipo: 1.8). | 🪑 En la banca: Show (4/5), Luvumbo (4/5) | ❌ Fuera de la lista: Carmo (4/5), Fredy (3/5) | 🆕 Entran 2 poco habituales (lo normal: 0.8): Cruz (0/5), Gibelé (0/5) | <i>(n/5) = veces titular en sus últimos 5 partidos.</i>
+-- Sudán del Sur (Angola vs Sudán del Sur) estado='Confirmado' status_miembros=[1, 2, 4]
+-- Suecia (Suecia vs Bosnia Herzegovina) estado='Confirmado' status_miembros=[1, 2, 3, 4]
+normal 🚨 <b>Rotación fuerte: Suecia</b> | Suecia vs Bosnia Herzegovina · 14:45 · Liga de las Naciones - UEFA | Faltan <b>1 de 5</b> titulares habituales (lo normal en este equipo: 0.7). | 🪑 En la banca: Bernhardsson (5/7) | 🆕 Entran 1 poco habituales (lo normal: 1.0): Larsson (1/7) | <i>(n/7) = veces titular en sus últimos 7 partidos.</i>
+-- Bosnia Herzegovina (Suecia vs Bosnia Herzegovina) estado='Confirmado' status_miembros=[1, 2, 4]
+normal 🚨 <b>Rotación fuerte: Bosnia Herzegovina</b> | Suecia vs Bosnia Herzegovina · 14:45 · Liga de las Naciones - UEFA | Faltan <b>1 de 6</b> titulares habituales (lo normal en este equipo: 0.7). | ❌ Fuera de la lista: Muharemović (6/7) | <i>(n/7) = veces titular en sus últimos 7 partidos.</i>
+-- Rumania (Rumania vs Polonia) estado='Confirmado' status_miembros=[1, 2, 3, 4]
+normal 🚨 <b>Rotación fuerte: Rumania</b> | Rumania vs Polonia · 14:45 · Liga de las Naciones - UEFA | Faltan <b>0 de 0</b> titulares habituales (lo normal en este equipo: 0.0). | 🆕 Entran 2 poco habituales (lo normal: 0.7): Coman (0/7), Cicaldau (0/7) | <i>(n/7) = veces titular en sus últimos 7 partidos.</i>
+-- Polonia (Rumania vs Polonia) estado='Confirmado' status_miembros=[1, 2, 3, 4]
+normal 🚨 <b>Rotación fuerte: Polonia</b> | Rumania vs Polonia · 14:45 · Liga de las Naciones - UEFA | Faltan <b>3 de 8</b> titulares habituales (lo normal en este equipo: 1.3). | 🪑 En la banca: Zielinski (7/7) | ❌ Fuera de la lista: Bednarek (6/7), Bulka (5/7) | 🆕 Entran 3 poco habituales (lo normal: 0.9): Kubiak (0/7), Regula (0/7), Drągowski (0/7) | 🧤 Cambia el portero habitual. | <i>(n/7) = veces titular en sus últimos 7 partidos.</i>
+-- Austria (Austria vs Irlanda) estado='Confirmado' status_miembros=[1, 2, 3, 4]
+normal 🚨 <b>Rotación fuerte: Austria</b> | Austria vs Irlanda · 14:45 · Liga de las Naciones - UEFA | Faltan <b>1 de 6</b> titulares habituales (lo normal en este equipo: 0.7). | ❌ Fuera de la lista: Schlager (7/7) | 🆕 Entran 2 poco habituales (lo normal: 1.6): Baumgartner (0/7), C. Lang (0/7) | <i>(n/7) = veces titular en sus últimos 7 partidos.</i>
+-- Irlanda (Austria vs Irlanda) estado='Confirmado' status_miembros=[1, 2, 4]
+normal 🚨 <b>Rotación fuerte: Irlanda</b> | Austria vs Irlanda · 14:45 · Liga de las Naciones - UEFA | Faltan <b>2 de 8</b> titulares habituales (lo normal en este equipo: 2.1). | 🪑 En la banca: Coventry (5/7), J. O&#x27;Brien (5/7) | <i>(n/7) = veces titular en sus últimos 7 partidos.</i>
+-- Irlanda del Norte (Irlanda del Norte vs Ucrania) estado='Confirmado' status_miembros=[1, 2, 3, 4]
+normal 🚨 <b>Rotación fuerte: Irlanda del Norte</b> | Irlanda del Norte vs Ucrania · 14:45 · Liga de las Naciones - UEFA | Faltan <b>1 de 10</b> titulares habituales (lo normal en este equipo: 1.3). | 🪑 En la banca: P. Kelly (5/7) | <i>(n/7) = veces titular en sus últimos 7 partidos.</i>
+-- Ucrania (Irlanda del Norte vs Ucrania) estado='Confirmado' status_miembros=[1, 2, 4]
+normal 🚨 <b>Rotación fuerte: Ucrania</b> | Irlanda del Norte vs Ucrania · 14:45 · Liga de las Naciones - UEFA | Faltan <b>1 de 3</b> titulares habituales (lo normal en este equipo: 0.9). | ❌ Fuera de la lista: Tsygankov (5/7) | 🆕 Entran 2 poco habituales (lo normal: 1.9): Sikan (1/7), O. Kashchuk (0/7) | <i>(n/7) = veces titular en sus últimos 7 partidos.</i>
+-- Portugal (Portugal vs Dinamarca) estado='Confirmado' status_miembros=[1, 2, 3, 4]
+normal 🚨 <b>Rotación fuerte: Portugal</b> | Portugal vs Dinamarca · 14:45 · Liga de las Naciones - UEFA | Faltan <b>2 de 9</b> titulares habituales (lo normal en este equipo: 0.7). | ❌ Fuera de la lista: Mendes (7/7), Cancelo (7/7) | 🆕 Entran 2 poco habituales (lo normal: 0.0): Dalot (0/7), Alberto Baio (0/7) | <i>(n/7) = veces titular en sus últimos 7 partidos.</i>
+-- Dinamarca (Portugal vs Dinamarca) estado='Confirmado' status_miembros=[1, 2, 4]
+normal 🚨 <b>Rotación fuerte: Dinamarca</b> | Portugal vs Dinamarca · 14:45 · Liga de las Naciones - UEFA | Faltan <b>1 de 8</b> titulares habituales (lo normal en este equipo: 1.3). | 🪑 En la banca: Kristensen (5/7) | <i>(n/7) = veces titular en sus últimos 7 partidos.</i>
