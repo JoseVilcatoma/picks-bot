@@ -471,14 +471,18 @@
    "liga": "Europa, Liga de las Naciones - UEFA - Liga C - Grupo 3",
    "inicio": "2026-11-16T10:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1794837531.359209
+   "ultimo": 1794837776.396435
   },
   "4672279": {
    "partido": "Islas Feroe vs Moldavia",
    "liga": "Europa, Liga de las Naciones - UEFA - Liga C - Grupo 3",
    "inicio": "2026-11-16T10:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1794837531.4678805
+   "estado": "enviado",
+   "ultimo": 1794837776.4399407,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "549393,897329,50913383,50913387,56474433,59479539,59987904,66124225,67869060,69734415,71901471|8428047,59453749,59454733,62017132,62451201,65886138,70839920,75399321,76850698,77113152,77310495",
+   "conf": true
   },
   "4672280": {
    "partido": "España vs Inglaterra",
@@ -796,7 +800,7 @@
    "liga": "África, Copa de África de Naciones - Clasificación",
    "inicio": "2026-11-16T10:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1794837531.4923084
+   "ultimo": 1794837776.7349808
   },
   "4883945": {
    "partido": "Eritrea vs Guinea",
