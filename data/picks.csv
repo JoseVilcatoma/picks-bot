@@ -3769,3 +3769,7 @@ fecha,game_id,partido,liga,tipo,mercado,clave,prob,cuota,casa,cuota_justa,ev,sta
 2026-11-16 14:30,4760765,Cusco FC vs ADT Tarma,"Perú, Liga 1 - Clausura",modelo,Menos de 11.5 córners,CORN|11.5|under,0.7142,,,1.40,,,si,,,
 2026-11-16 14:30,4760765,Cusco FC vs ADT Tarma,"Perú, Liga 1 - Clausura",ticket,Cusco FC recibe gol + Más de 1.5 goles,CS||local_no&OU|1.5|over,0.5642,1.91,,1.77,0.0790,10.00,,,,
 2026-11-16 14:30,4760765,Cusco FC vs ADT Tarma,"Perú, Liga 1 - Clausura",crear,Cusco FC o empate + Menos de 4.5 goles + Menos de 14.5 córners,DC||1X&OU|4.5|under&CORN|14.5|under,0.5855,,,1.71,,,,,,
+2026-11-16 14:36,4760761,CD Moquegua vs Grau,"Perú, Liga 1 - Clausura",seguro,Menos de 3.5 goles,OU|3.5|under,0.7742,1.22,Bet365,1.29,-0.0555,,probable,,,
+2026-11-16 14:36,4760761,CD Moquegua vs Grau,"Perú, Liga 1 - Clausura",seguro,No hay empate,DC||12,0.7203,1.33,Bet365,1.39,-0.0420,,probable,,,
+2026-11-16 14:36,4760761,CD Moquegua vs Grau,"Perú, Liga 1 - Clausura",modelo,Menos de 6.5 tarjetas,CARDS|6.5|under,0.7737,,,1.29,,,probable,,,
+2026-11-16 14:36,4760761,CD Moquegua vs Grau,"Perú, Liga 1 - Clausura",modelo,Menos de 11.5 córners,CORN|11.5|under,0.6968,,,1.44,,,probable,,,
