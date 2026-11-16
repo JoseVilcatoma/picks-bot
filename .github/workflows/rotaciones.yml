@@ -1,0 +1,58 @@
+name: Rotaciones
+
+# Radar de rotaciones: queda encendido (una pasada cada 3 min durante ~5.5 h) y se relanza solo.
+# El horario de abajo es solo un respaldo por si la cadena se corta.
+on:
+  schedule:
+    - cron: "43 * * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ["rotaciones.py", ".github/workflows/rotaciones.yml"]
+
+permissions:
+  contents: read
+  actions: write
+
+concurrency:
+  group: rotaciones
+  cancel-in-progress: false
+
+jobs:
+  radar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    env:
+      TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
+      TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+      # Opcional: si creas un canal aparte, guarda su ID en este secret y las alertas irán ahí
+      TELEGRAM_CHAT_ROTACIONES: ${{ secrets.TELEGRAM_CHAT_ROTACIONES }}
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+          cache: "pip"
+      - run: pip install -r requirements.txt
+
+      # Memoria del radar (qué avisos ya mandó). Va en la caché de Actions, no en el repo.
+      - uses: actions/cache/restore@v4
+        with:
+          path: rot
+          key: rot-${{ github.run_id }}
+          restore-keys: rot-
+
+      - name: Radar (pasada cada 3 min)
+        run: python -u rotaciones.py --vigilar 330
+
+      - uses: actions/cache/save@v4
+        if: always()
+        with:
+          path: rot
+          key: rot-${{ github.run_id }}
+
+      - name: Relanzar
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run rotaciones.yml --ref main || echo "no se pudo relanzar (el horario de respaldo lo hará)"

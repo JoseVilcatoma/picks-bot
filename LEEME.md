@@ -74,3 +74,25 @@ Betano, Apuesta Total, Doradobet). Las demás se usan solo como referencia de pr
 - En “Crear apuesta” Bet365 suele pagar bastante menos que la multiplicación de las cuotas.
 - Cada tarjeta cuenta 1 (algunas casas cuentan la roja como 2).
 - No pases a dinero real hasta tener unos **200 apostables** con yield positivo y aciertos cercanos a los esperados.
+
+## Radar de rotaciones (`rotaciones.py`)
+Canal de alertas aparte del bot de picks. Mira **todos** los partidos de tus ligas y selecciones (no hace falta
+tocar "Seguir"; los amistosos se ignoran) y manda tres tipos de aviso:
+
+| Aviso | Cuándo | Qué dice |
+|---|---|---|
+| 🔒 Nada en juego | resumen cada 3 h (7:00–23:00), solo lo nuevo | equipos que por la tabla ya no pueden cambiar de zona (ascenso, descenso, clasificación) |
+| 📰 Prensa | en el mismo resumen (8:00 y 20:00) | titulares de las últimas 48 h que nombran al equipo y hablan de rotación / suplentes |
+| 🚨 Rotación fuerte | al confirmarse la alineación (desde 75 min antes) | faltan 4+ titulares habituales, o entran 5+ jugadores que casi nunca son titulares |
+
+**Titular habitual** = fue titular en al menos el 60% de los últimos 7 partidos del equipo (no se compara solo con
+el partido anterior). Además se mide cuánto suele cambiar ESE equipo: si siempre mueve 3, que hoy mueva 4 no es
+noticia. A los equipos que ya salieron en el resumen les llega también un ✅ si al final salen con su once habitual.
+
+- Ajustes: al inicio de `rotaciones.py` (`UMBRAL_FALTAN`, `NUEVOS_MIN`, `N_PARTIDOS`, `EXCLUIR_LIGAS`...).
+- Canal propio: crea un canal, agrega el bot como administrador y guarda el ID en el secret
+  `TELEGRAM_CHAT_ROTACIONES`. Si no existe, las alertas llegan al chat de siempre.
+- Probar sin enviar nada: `python rotaciones.py --diag`.
+- Límites: la prensa se filtra por palabras en el titular (puede colarse algo o faltar una nota en otro idioma);
+  "nada en juego" es matemático (no sabe de orgullo, clásicos ni premios por puesto) y no cubre eliminatorias.
+
