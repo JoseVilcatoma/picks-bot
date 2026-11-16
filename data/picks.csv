@@ -3736,3 +3736,8 @@ fecha,game_id,partido,liga,tipo,mercado,clave,prob,cuota,casa,cuota_justa,ev,sta
 2026-11-16 13:35,4672275,Alemania vs Países Bajos,"Europa, Liga de las Naciones - UEFA - Liga A - Grupo 2",modelo,Menos de 6.5 tarjetas,CARDS|6.5|under,0.8377,,,1.19,,,si,,,
 2026-11-16 13:35,4672275,Alemania vs Países Bajos,"Europa, Liga de las Naciones - UEFA - Liga A - Grupo 2",ticket,Ambos marcan: Sí + Más de 2.5 goles,BTTS||si&OU|2.5|over,0.5447,1.90,,1.84,0.0371,10.00,,,,
 2026-11-16 13:35,4672275,Alemania vs Países Bajos,"Europa, Liga de las Naciones - UEFA - Liga A - Grupo 2",crear,Más de 1.5 goles + Menos de 15.5 córners + Menos de 7.5 tarjetas,OU|1.5|over&CORN|15.5|under&CARDS|7.5|under,0.5826,,,1.72,,,,,,
+2026-11-16 13:43,4672274,Grecia vs Serbia,"Europa, Liga de las Naciones - UEFA - Liga A - Grupo 2",seguro,No hay empate,DC||12,0.7845,1.17,Bet365,1.27,-0.0821,,si,,,
+2026-11-16 13:43,4672274,Grecia vs Serbia,"Europa, Liga de las Naciones - UEFA - Liga A - Grupo 2",seguro,Menos de 3.5 goles,OU|3.5|under,0.7321,1.50,Bet365,1.37,0.0981,,si,,,
+2026-11-16 13:43,4672274,Grecia vs Serbia,"Europa, Liga de las Naciones - UEFA - Liga A - Grupo 2",modelo,Menos de 11.5 córners,CORN|11.5|under,0.7568,,,1.32,,,si,,,
+2026-11-16 13:43,4672274,Grecia vs Serbia,"Europa, Liga de las Naciones - UEFA - Liga A - Grupo 2",modelo,Más de 2.5 tarjetas,CARDS|2.5|over,0.7146,,,1.40,,,si,,,
+2026-11-16 13:43,4672274,Grecia vs Serbia,"Europa, Liga de las Naciones - UEFA - Liga A - Grupo 2",crear,No hay empate + Menos de 2.5 goles en el 1T + Más de 4.5 córners,DC||12&OU1T|2.5|under&CORN|4.5|over,0.5744,,,1.74,,,,,,
