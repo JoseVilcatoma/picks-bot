@@ -699,8 +699,12 @@
    "partido": "Martinica vs Aruba",
    "liga": "Norteamérica, CONCACAF Liga de Naciones - Play-in",
    "inicio": "2026-11-16T19:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1794870817.1491396
+   "estado": "enviado",
+   "ultimo": 1794871060.641094,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "333600,921155,1766586,3174118,3649182,10054664,15344018,49655652,50578078,50684401,75435300|9080598,10314025,71156897,71905928,71905929,71905933,75430597,75505430,79431996,79431999,81404481",
+   "conf": true
   },
   "4874702": {
    "partido": "Cuba vs Granada",
