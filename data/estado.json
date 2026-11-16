@@ -789,21 +789,21 @@
    "liga": "África, Copa de África de Naciones - Clasificación",
    "inicio": "2026-11-16T08:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1794829809.4026632
+   "ultimo": 1794830053.2871404
   },
   "4883942": {
    "partido": "Sudán vs Senegal",
    "liga": "África, Copa de África de Naciones - Clasificación",
    "inicio": "2026-11-16T08:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1794829809.5857038
+   "ultimo": 1794830053.293319
   },
   "4883943": {
    "partido": "Namibia vs Camerún",
    "liga": "África, Copa de África de Naciones - Clasificación",
    "inicio": "2026-11-16T08:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1794829809.6279335
+   "ultimo": 1794830053.299535
   },
   "4883944": {
    "partido": "Somalia vs Ghana",
@@ -1245,6 +1245,6 @@
   "4882785",
   "4886905"
  ],
- "auto_t": 1794808385.4374845,
+ "auto_t": 1794830053.2723706,
  "rechazados": {}
 }
