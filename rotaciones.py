@@ -207,6 +207,17 @@ def nada_en_juego(team_id, comp_id, liga):
 
 
 # ------------------------------------------------------------------ 2) noticias
+def traducir(texto):
+    """Pasa un titular al español (traductor gratis de Google). Si falla, lo deja como está."""
+    try:
+        r = requests.get("https://translate.googleapis.com/translate_a/single", timeout=10,
+                         params={"client": "gtx", "sl": "auto", "tl": "es", "dt": "t", "q": texto})
+        t = "".join(x[0] for x in r.json()[0] if x and x[0]).strip()
+        return t or texto
+    except (requests.RequestException, ValueError, TypeError, IndexError, KeyError):
+        return texto
+
+
 def noticias(nombre, ingles):
     """Titulares de las últimas 48 h que nombran al equipo y hablan de rotación."""
     out = []
@@ -229,7 +240,7 @@ def noticias(nombre, ingles):
                 viejo = True
             if viejo or norm(eq) not in norm(t) or not patron.search(t) or NO_NOTICIAS.search(t):
                 continue
-            out.append((t, link))
+            out.append((t if hl.startswith("es") else traducir(t), link, t))
         time.sleep(0.4)
     return out[:2]
 
@@ -260,8 +271,8 @@ def resumen(e, lista, forzar=False):
                 e["marcados"][f"{p['id']}:{eq['id']}"] = {"t": time.time(), "m": motivo}
                 lineas.append(f"  🔒 <b>{esc(eq['n'])}</b>: {esc(motivo)}")
             if con_noticias:
-                for tit, link in noticias(eq["n"], eq["en"]):
-                    k = "noti:" + norm(tit)[:90]
+                for tit, link, original in noticias(eq["n"], eq["en"]):
+                    k = "noti:" + norm(original)[:90]
                     if forzar or k not in e["enviados"]:
                         e["enviados"][k] = time.time()
                         e["marcados"].setdefault(f"{p['id']}:{eq['id']}", {"t": time.time(), "m": ""})
