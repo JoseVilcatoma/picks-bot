@@ -380,15 +380,23 @@
    "partido": "Macedonia del Norte vs Eslovenia",
    "liga": "Europa, Liga de las Naciones - UEFA - Liga B - Grupo 1",
    "inicio": "2026-11-16T14:45:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1794854596.7067213
+   "estado": "enviado",
+   "ultimo": 1794854848.7104251,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "393915,502893,549877,638422,3086707,3374447,39704121,51410369,66207408,75231642,77387197|325326,358302,9051014,14994675,53992251,57110247,57110251,60326040,66111742,66221740,70801632",
+   "conf": true
   },
   "4672273": {
    "partido": "Suiza vs Escocia",
    "liga": "Europa, Liga de las Naciones - UEFA - Liga B - Grupo 1",
    "inicio": "2026-11-16T14:45:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1794854596.8830183
+   "estado": "enviado",
+   "ultimo": 1794854849.580731,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "90491,348679,540689,569646,47965229,49866513,49926566,58989969,67332486,75259442,77339418|327324,354502,435138,656203,936629,973073,3130350,4947373,12234457,34691016,70787760",
+   "conf": true
   },
   "4672274": {
    "partido": "Grecia vs Serbia",
@@ -621,7 +629,7 @@
    "liga": "Europa, Liga de las Naciones - UEFA - Liga D - Grupo 1",
    "inicio": "2026-11-16T14:45:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1794854597.5982203
+   "ultimo": 1794854850.0498953
   },
   "4697792": {
    "partido": "Islandia vs Luxemburgo",
