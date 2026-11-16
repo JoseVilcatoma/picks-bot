@@ -725,14 +725,14 @@
    "liga": "Norteamérica, CONCACAF Liga de Naciones - Liga B - Grupo 2",
    "inicio": "2026-11-16T14:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1794851412.3112535
+   "ultimo": 1794851657.446514
   },
   "4874704": {
    "partido": "Guyana vs Puerto Rico",
    "liga": "Norteamérica, CONCACAF Liga de Naciones - Liga B - Grupo 1",
    "inicio": "2026-11-16T14:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1794851412.4822614
+   "ultimo": 1794851657.5342257
   },
   "4874705": {
    "partido": "Panamá vs Curazao",
@@ -1305,6 +1305,6 @@
   "4882785",
   "4886905"
  ],
- "auto_t": 1794830053.2723706,
+ "auto_t": 1794851657.4347062,
  "rechazados": {}
 }
