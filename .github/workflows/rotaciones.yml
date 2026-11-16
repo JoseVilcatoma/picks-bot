@@ -8,10 +8,10 @@ on:
   workflow_dispatch:
   push:
     branches: [main]
-    paths: ["rotaciones.py", ".github/workflows/rotaciones.yml"]
+    paths: ["rotaciones.py", "rot_hist.py", ".github/workflows/rotaciones.yml"]
 
 permissions:
-  contents: read
+  contents: write      # para guardar el historial de alertas en data/rotaciones.csv
   actions: write
 
 concurrency:
@@ -27,6 +27,7 @@ jobs:
       TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
       # Opcional: si creas un canal aparte, guarda su ID en este secret y las alertas irán ahí
       TELEGRAM_CHAT_ROTACIONES: ${{ secrets.TELEGRAM_CHAT_ROTACIONES }}
+      ROT_PUBLICAR: "1"
     steps:
       - uses: actions/checkout@v5
       - uses: actions/setup-python@v6
@@ -43,7 +44,10 @@ jobs:
           restore-keys: rot-
 
       - name: Radar (pasada cada 3 min)
-        run: python -u rotaciones.py --vigilar 330
+        run: |
+          git config user.name "picks-bot"
+          git config user.email "picks-bot@users.noreply.github.com"
+          python -u rotaciones.py --vigilar 330
 
       - uses: actions/cache/save@v4
         if: always()

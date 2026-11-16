@@ -100,3 +100,16 @@ noticia. A los equipos que ya salieron en el resumen les llega también un ✅ s
 - Límites: la prensa se filtra por palabras en el titular (puede colarse algo o faltar una nota en otro idioma);
   "nada en juego" es matemático (no sabe de orgullo, clásicos ni premios por puesto) y no cubre eliminatorias.
 
+## Radar de rotaciones (`rotaciones.py`)
+Avisa por Telegram, aparte de los picks:
+- 📋 **Resumen** (cada 3 h): 🔒 equipos que ya no se juegan nada · 📅 clubes a los que les viene un partido más
+  importante en ≤ 4 días · 📰 titulares de prensa sobre rotaciones.
+- 🚨 **Rotación fuerte/masiva** al confirmarse la alineación: faltan 4+ titulares habituales (y más de lo normal en
+  ese equipo) o entran 5+ que casi nunca son titulares. ⭐ marca a quien aporta ≥ 15% de los goles y asistencias.
+- ⚠️ **Baja clave**: faltan pocos, pero suman ≥ 35% de los goles y asistencias del equipo.
+- 💱 Cada alerta dice si la cuota de Bet365 (vía 365Scores) ya se movió desde la apertura.
+- Si rotan los dos equipos llega un solo mensaje. Los titulares que vuelven de lesión no cuentan como "nuevos".
+- **Historial** en `data/rotaciones.csv`: cada alerta con su cuota y el resultado. `/rotaciones` (y un resumen
+  automático los lunes) dice si el equipo que rota gana menos de lo que decían las cuotas.
+
+Ajustes al inicio de `rotaciones.py`. No toca los datos del bot de picks ni consulta ninguna casa de apuestas.

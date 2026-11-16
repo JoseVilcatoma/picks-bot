@@ -164,7 +164,8 @@ AYUDA = (
     "• <code>/lista</code> partidos que sigues\n"
     "• <code>/quitar ID</code> dejar de seguir\n"
     "• <code>/resumen</code> resultados del paper trading\n"
-    "• <code>/cuota ID 1.80</code> anota lo que paga Bet365 por el “Crear apuesta”\n\n"
+    "• <code>/cuota ID 1.80</code> anota lo que paga Bet365 por el “Crear apuesta”\n"
+    "• <code>/rotaciones</code> cómo les fue a las alertas del radar de rotaciones\n\n"
     "Los picks llegan cuando se confirman las alineaciones (normalmente ~1 hora antes).\n"
     "El bot revisa cada 2 min (los cambios del calendario, en menos de 1 min)."
 )
@@ -228,6 +229,9 @@ def procesar_comandos(estado):
             enviar(texto_resumen())
         elif cmd == "/cuota":
             enviar(anotar_cuota(partes[1:]))
+        elif cmd == "/rotaciones":
+            import rot_hist
+            enviar(rot_hist.resumen())
         else:
             enviar(AYUDA + (f"\n\n📅 Calendario: {PAGINA}" if PAGINA else ""))
 
