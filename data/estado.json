@@ -724,15 +724,23 @@
    "partido": "Guadalupe vs Bermuda",
    "liga": "Norteamérica, CONCACAF Liga de Naciones - Liga B - Grupo 2",
    "inicio": "2026-11-16T14:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1794851905.6161118
+   "estado": "enviado",
+   "ultimo": 1794852149.644288,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "75986,607715,1453857,1765032,61420567,77408913,79421626,79421750,79421919,79421996,79421997|1762999,19698258,19698261,59506751,70922936,71909157,76807120,77300607,79438069,81415600,81415603",
+   "conf": true
   },
   "4874704": {
    "partido": "Guyana vs Puerto Rico",
    "liga": "Norteamérica, CONCACAF Liga de Naciones - Liga B - Grupo 1",
    "inicio": "2026-11-16T14:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1794851905.6699827
+   "estado": "enviado",
+   "ultimo": 1794852150.474835,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "642578,12366216,19698277,19698287,46746524,47517539,55515894,60806185,61535744,67880667,81460138|58454837,67750705,70927654,71014681,71014687,71014690,71014691,71014693,76625989,77849588,81410274",
+   "conf": true
   },
   "4874705": {
    "partido": "Panamá vs Curazao",
