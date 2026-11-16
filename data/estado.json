@@ -470,8 +470,12 @@
    "partido": "Kazajstán vs Eslovaquia",
    "liga": "Europa, Liga de las Naciones - UEFA - Liga C - Grupo 3",
    "inicio": "2026-11-16T10:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1794838022.7017386
+   "estado": "enviado",
+   "ultimo": 1794838266.1616225,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "373366,491044,491057,14821721,15272506,59476889,70846134,76539121,76792002,77074805,77516724|511624,537432,586163,20217955,47511720,49518713,50816657,52916135,67819177,70756823,75491438",
+   "conf": true
   },
   "4672279": {
    "partido": "Islas Feroe vs Moldavia",
@@ -800,7 +804,7 @@
    "liga": "África, Copa de África de Naciones - Clasificación",
    "inicio": "2026-11-16T10:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1794838022.803
+   "ultimo": 1794838266.5803952
   },
   "4883945": {
    "partido": "Eritrea vs Guinea",
