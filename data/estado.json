@@ -53,58 +53,6 @@
     "cards_a": 4.0
    }
   },
-  "4672286": {
-   "partido": "Chipre vs Montenegro",
-   "liga": "Europa, Liga de las Naciones - UEFA - Liga C - Grupo 2",
-   "inicio": "2026-11-15T09:00:00-05:00",
-   "estado": "liquidado",
-   "ultimo": 1794758139.8659668,
-   "clv": [],
-   "clv_ok": false,
-   "xi": "358014,365407,429355,570835,570859,844352,50626944,64880502,70877963,75463009,77403560|186467,515426,571882,917516,3086722,3144263,31283563,53085455,68323346,70206104,70839891",
-   "conf": true,
-   "r": {
-    "hg": 1,
-    "ag": 4,
-    "ht": [
-     0,
-     1
-    ],
-    "corners": 9.0,
-    "corners_h": 6.0,
-    "corners_a": 3.0,
-    "corners_1t": 6.0,
-    "cards": 6.0,
-    "cards_h": 2.0,
-    "cards_a": 4.0
-   }
-  },
-  "4697785": {
-   "partido": "Letonia vs Armenia",
-   "liga": "Europa, Liga de las Naciones - UEFA - Liga C - Grupo 2",
-   "inicio": "2026-11-15T09:00:00-05:00",
-   "estado": "liquidado",
-   "ultimo": 1794758140.132371,
-   "clv": [],
-   "clv_ok": false,
-   "xi": "894565,923272,951846,3052390,50071364,59539495,65396649,66754760,66828031,69717983,69717991|3161138,57183368,64277438,65519743,65819714,65840502,67880284,75256536,75399339,77788772,77806553",
-   "conf": true,
-   "r": {
-    "hg": 0,
-    "ag": 0,
-    "ht": [
-     0,
-     0
-    ],
-    "corners": 20.0,
-    "corners_h": 13.0,
-    "corners_a": 7.0,
-    "corners_1t": 11.0,
-    "cards": 2.0,
-    "cards_h": 2.0,
-    "cards_a": 0.0
-   }
-  },
   "4672272": {
    "partido": "Macedonia del Norte vs Eslovenia",
    "liga": "Europa, Liga de las Naciones - UEFA - Liga B - Grupo 1",
