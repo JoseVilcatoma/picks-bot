@@ -11,3 +11,6 @@
 - Polonia vs Suecia: Potter sin confirmar rotación; bajas Wålemark y Zeneli, Nygren en duda (Fotbollskanalen)
 - EE.UU. vs Haití: Pochettino "mejor equipo posible"; sin Reyna ni Campbell (The False 9)
 - Cruzeiro vs Palmeiras: 5 bajas Palmeiras (Gómez, Maurício, Murilo, Piquerez, Paulinho); dudas Arias, Giay, Flaco López (Portal do Palestra)
+
+## 2026-11-17 18:55 (Lima)
+- Flamengo vs Athletico-PR: Jardim no rota, no guarda pendurados pese a Palmeiras el sábado (NetFla)
