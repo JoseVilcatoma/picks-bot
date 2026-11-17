@@ -942,7 +942,7 @@
    "liga": "Internacional, Amistoso Internacional",
    "inicio": "2026-11-17T05:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1794906181.5013294
+   "ultimo": 1794906425.0285425
   },
   "4870470": {
    "partido": "Japón vs Paraguay",
@@ -1306,7 +1306,7 @@
    "liga": "Internacional, Amistoso Internacional",
    "inicio": "2026-11-17T01:00:00-05:00",
    "estado": "enviado",
-   "ultimo": 1794905813.1313634,
+   "ultimo": 1794906425.137378,
    "clv": [],
    "clv_ok": false,
    "xi": "|",
