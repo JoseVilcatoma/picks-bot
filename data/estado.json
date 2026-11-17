@@ -879,12 +879,27 @@
    "partido": "Dinamarca vs Noruega",
    "liga": "Europa, Liga de las Naciones - UEFA - Liga A - Grupo 4",
    "inicio": "2026-11-17T14:45:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1794951677.5779154,
+   "estado": "liquidado",
+   "ultimo": 1794952297.3046482,
    "clv": [],
    "clv_ok": false,
    "xi": "405252,431503,2722318,3156433,3460314,3487471,8601351,26815119,47709594,50852472,65235149|392549,513371,548126,557975,841159,895074,3072169,13854543,15589104,59101484,67639636",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 2,
+    "ag": 3,
+    "ht": [
+     2,
+     1
+    ],
+    "corners": 8.0,
+    "corners_h": 1.0,
+    "corners_a": 7.0,
+    "corners_1t": 7.0,
+    "cards": 4.0,
+    "cards_h": 1.0,
+    "cards_a": 3.0
+   }
   },
   "4672268": {
    "partido": "Bosnia Herzegovina vs Rumania",
