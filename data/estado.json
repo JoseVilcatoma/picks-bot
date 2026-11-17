@@ -27,32 +27,6 @@
     "cards_a": 1.0
    }
   },
-  "4672284": {
-   "partido": "Finlandia vs San Marino",
-   "liga": "Europa, Liga de las Naciones - UEFA - Liga C - Grupo 1",
-   "inicio": "2026-11-15T12:00:00-05:00",
-   "estado": "liquidado",
-   "ultimo": 1794768992.0632772,
-   "clv": [],
-   "clv_ok": false,
-   "xi": "374054,51146763,53087434,58223582,60065911,60841406,62087052,67617790,67657849,76951442,77310574|9122403,66820656,67344405,67874465,71898005,71898007,72841036,75494983,75499218,75515819,77995242",
-   "conf": true,
-   "r": {
-    "hg": 7,
-    "ag": 2,
-    "ht": [
-     5,
-     1
-    ],
-    "corners": 6.0,
-    "corners_h": 5.0,
-    "corners_a": 1.0,
-    "corners_1t": 3.0,
-    "cards": 6.0,
-    "cards_h": 2.0,
-    "cards_a": 4.0
-   }
-  },
   "4672272": {
    "partido": "Macedonia del Norte vs Eslovenia",
    "liga": "Europa, Liga de las Naciones - UEFA - Liga B - Grupo 1",
@@ -363,32 +337,6 @@
     "cards": 3.0,
     "cards_h": 0.0,
     "cards_a": 3.0
-   }
-  },
-  "4672285": {
-   "partido": "Bielorrusia vs Albania",
-   "liga": "Europa, Liga de las Naciones - UEFA - Liga C - Grupo 1",
-   "inicio": "2026-11-15T12:00:00-05:00",
-   "estado": "liquidado",
-   "ultimo": 1794768992.421342,
-   "clv": [],
-   "clv_ok": false,
-   "xi": "241045,527619,3375555,4037309,47271545,49350099,67976736,71886089,71899312,77783845,79210249|114025,349027,500365,641496,917030,3093438,51378142,51582820,53264330,61677238,66237043",
-   "conf": true,
-   "r": {
-    "hg": 0,
-    "ag": 2,
-    "ht": [
-     0,
-     1
-    ],
-    "corners": 8.0,
-    "corners_h": 1.0,
-    "corners_a": 7.0,
-    "corners_1t": 4.0,
-    "cards": 6.0,
-    "cards_h": 4.0,
-    "cards_a": 2.0
    }
   },
   "4697791": {
