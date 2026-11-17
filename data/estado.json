@@ -785,29 +785,37 @@
    "partido": "Chile vs Colombia",
    "liga": "Internacional, Amistoso Internacional",
    "inicio": "2026-11-17T18:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1794953893.9894888
+   "estado": "enviado",
+   "ultimo": 1794954016.7975936,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "893355,3130171,3217552,40774820,50177184,51059357,51073762,59992834,60025387,64741566,67640944|502298,560632,893771,1589951,9157528,17067865,28607589,47453700,65441314,65820461,67818894",
+   "conf": true
   },
   "4877638": {
    "partido": "Argentina vs Costa Rica",
    "liga": "Internacional, Amistoso Internacional",
    "inicio": "2026-11-17T18:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1794953894.0761726
+   "estado": "enviado",
+   "ultimo": 1794954017.5719602,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "407632,3886928,4201425,7180298,9638719,48394475,56856062,64935156,65512282,65642981,65895085|300375,340002,409328,566656,619351,3051125,12649150,48822811,56749969,64809309,66796740",
+   "conf": true
   },
   "4877635": {
    "partido": "Ecuador vs Bolivia",
    "liga": "Internacional, Amistoso Internacional",
    "inicio": "2026-11-17T18:30:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1794953771.0731494
+   "ultimo": 1794954018.7072122
   },
   "4886905": {
    "partido": "Uruguay vs República Dominicana",
    "liga": "Internacional, Amistoso Internacional",
    "inicio": "2026-11-17T18:30:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1794953771.1649137
+   "ultimo": 1794954018.7899098
   },
   "4874691": {
    "partido": "Estados Unidos vs Haití",
