@@ -1293,6 +1293,125 @@
    "inicio": "2026-11-17T14:00:00-05:00",
    "estado": "pendiente",
    "ultimo": 0
+  },
+  "4853663": {
+   "partido": "Jordania vs Australia",
+   "liga": "Internacional, Amistoso Internacional",
+   "inicio": "2026-11-17T11:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4876081": {
+   "partido": "Malasia vs Yemen",
+   "liga": "Internacional, Amistoso Internacional",
+   "inicio": "2026-11-17T01:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4876151": {
+   "partido": "Kyrgyzstan vs Vietnam",
+   "liga": "Internacional, Amistoso Internacional",
+   "inicio": "2026-11-17T07:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4882132": {
+   "partido": "China vs Bahrein",
+   "liga": "Internacional, Amistoso Internacional",
+   "inicio": "2026-11-17T07:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4883812": {
+   "partido": "Arabia Saudita vs Uzbekistán",
+   "liga": "Internacional, Amistoso Internacional",
+   "inicio": "2026-11-17T10:30:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4883905": {
+   "partido": "Qatar vs Corea del Sur",
+   "liga": "Internacional, Amistoso Internacional",
+   "inicio": "2026-11-17T09:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4883957": {
+   "partido": "Ruanda vs Mali",
+   "liga": "África, Copa de África de Naciones - Clasificación",
+   "inicio": "2026-11-17T14:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4883958": {
+   "partido": "Liberia vs Cabo Verde",
+   "liga": "África, Copa de África de Naciones - Clasificación",
+   "inicio": "2026-11-17T14:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4883959": {
+   "partido": "República del Congo vs Comoros",
+   "liga": "África, Copa de África de Naciones - Clasificación",
+   "inicio": "2026-11-17T14:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4883960": {
+   "partido": "Niger vs Marruecos",
+   "liga": "África, Copa de África de Naciones - Clasificación",
+   "inicio": "2026-11-17T15:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4886054": {
+   "partido": "Kuwait vs Honduras",
+   "liga": "Internacional, Amistoso Internacional",
+   "inicio": "2026-11-17T11:30:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4887276": {
+   "partido": "Emiratos Árabes vs Siria",
+   "liga": "Internacional, Amistoso Internacional",
+   "inicio": "2026-11-17T09:10:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4891254": {
+   "partido": "Irak vs Irán",
+   "liga": "Internacional, Amistoso Internacional",
+   "inicio": "2026-11-17T11:15:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4891452": {
+   "partido": "Líbano vs Palestina",
+   "liga": "Internacional, Amistoso Internacional",
+   "inicio": "2026-11-17T08:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4892475": {
+   "partido": "Tahiti vs Cook Islands",
+   "liga": "Internacional, Amistoso Internacional",
+   "inicio": "2026-11-17T00:30:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 1794890676.2270722
+  },
+  "4894251": {
+   "partido": "Omán vs Brunei",
+   "liga": "Internacional, Amistoso Internacional",
+   "inicio": "2026-11-17T04:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4894252": {
+   "partido": "Tailandia vs Tajikistan",
+   "liga": "Internacional, Amistoso Internacional",
+   "inicio": "2026-11-17T07:30:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
   }
  },
  "web": {
@@ -1418,7 +1537,24 @@
   "4883953": 1794890638651,
   "4883954": 1794890639160,
   "4883955": 1794890640238,
-  "4883956": 1794890641083
+  "4883956": 1794890641083,
+  "4853663": 1794890658036,
+  "4876081": 1794890663658,
+  "4876151": 1794890662347,
+  "4882132": 1794890662063,
+  "4883812": 1794890659291,
+  "4883905": 1794890660260,
+  "4883957": 1794890642071,
+  "4883958": 1794890642441,
+  "4883959": 1794890642825,
+  "4883960": 1794890643191,
+  "4886054": 1794890657207,
+  "4887276": 1794890659599,
+  "4891254": 1794890657610,
+  "4891452": 1794890661329,
+  "4892475": 1794890664001,
+  "4894251": 1794890663362,
+  "4894252": 1794890661626
  },
  "tickets": [],
  "sin_creditos": false,
