@@ -803,8 +803,12 @@
    "partido": "Estados Unidos vs Haití",
    "liga": "Norteamérica, CONCACAF Liga de Naciones - Cuartos de Final",
    "inicio": "2026-11-17T19:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1794956289.9878001
+   "estado": "enviado",
+   "ultimo": 1794956537.450705,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "571198,894428,1089351,2055909,3260720,8950563,50140815,50413540,66678159,70880318,70961426|658840,33857425,52544795,53311210,55743878,59800543,61303729,61462957,64760767,67883431,75429929",
+   "conf": true
   },
   "4874693": {
    "partido": "México vs Jamaica",
@@ -1098,7 +1102,7 @@
    "liga": "Norteamérica, CONCACAF Liga de Naciones - Liga B - Grupo 4",
    "inicio": "2026-11-17T19:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1794956290.0025764
+   "ultimo": 1794956537.8117375
   },
   "4874694": {
    "partido": "Nicaragua vs Montserrat",
