@@ -81,6 +81,7 @@ dialog input{width:100%;padding:10px;border-radius:9px;border:1px solid var(--li
   <div id="aviso"></div>
   <div class="dias" id="dias"></div>
   <div class="filtros" id="filtros"></div>
+  <div id="masivo" style="display:flex;gap:8px;flex-wrap:wrap;margin:-8px 0 16px"></div>
   <main id="lista"></main>
   <footer>Toca <b>Seguir</b> y listo: el bot te confirma en Telegram en 1–2 minutos y te manda los picks cuando salgan las alineaciones.
   Toca de nuevo para dejar de seguir.</footer>
@@ -255,6 +256,14 @@ function render(){
   if(!grupos.includes(grupoSel)) grupoSel = "Todas";
   document.getElementById("filtros").innerHTML = grupos.map(g=>`<button class="chip" aria-pressed="${g===grupoSel}" data-g="${esc(g)}">${esc(g)}</button>`).join("");
   const vis = delDia.filter(p=>grupoSel==="Todas"||p.grupo===grupoSel);
+  // Seguir / quitar todos los partidos que se ven (del día y filtro elegidos) que aún no empiezan
+  const porJugar = vis.filter(p=>new Date(p.inicio) > Date.now());
+  const sinSeguir = porJugar.filter(p=>["no","rechazado"].includes(estadoPartido(p.id)));
+  const siguiendo = porJugar.filter(p=>!["no","rechazado"].includes(estadoPartido(p.id)));
+  const deQue = grupoSel==="Todas" ? "del día" : "de "+grupoSel;
+  document.getElementById("masivo").innerHTML = !leerToken() ? "" :
+    (sinSeguir.length ? `<button class="btn" data-masivo="seguir">Seguir todos ${esc(deQue)} (${sinSeguir.length})</button>` : "") +
+    (siguiendo.length ? `<button class="btn sec" data-masivo="quitar">Quitar todos ${esc(deQue)} (${siguiendo.length})</button>` : "");
   if(!vis.length){document.getElementById("lista").innerHTML='<p class="vacio">No hay partidos para este filtro.</p>';return}
   const porLiga = {};
   vis.forEach(p=>{(porLiga[p.liga] ||= []).push(p)});
@@ -305,6 +314,17 @@ document.addEventListener("click", async e=>{
   const d = e.target.closest("[data-d]"); if(d){diaSel=d.dataset.d; render(); return}
   const g = e.target.closest("[data-g]"); if(g){grupoSel=g.dataset.g; render(); return}
   if(e.target.closest("[data-config]")){document.getElementById("config").showModal(); return}
+  const m = e.target.closest("[data-masivo]");
+  if(m){
+    const acc = m.dataset.masivo, ahora = Date.now();
+    const ids = datos.partidos.filter(p=>claveDia(new Date(p.inicio))===diaSel && (grupoSel==="Todas"||p.grupo===grupoSel)
+        && new Date(p.inicio) > ahora
+        && (["no","rechazado"].includes(estadoPartido(p.id)) === (acc==="seguir"))).map(p=>String(p.id));
+    ids.forEach(id=>{ cambiosPend[id] = {accion:acc, t:ahora}; if(acc==="quitar") delete seguidos[id]; });
+    recordarPend(); render(); programarGuardado();
+    toast(acc==="seguir" ? `Siguiendo ${ids.length} partidos…` : `Quitando ${ids.length} partidos…`);
+    return;
+  }
   const t = e.target.closest("[data-toggle]");
   if(t){
     const id = t.dataset.toggle, acc = t.dataset.acc;
