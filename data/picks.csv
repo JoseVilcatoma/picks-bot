@@ -3854,3 +3854,8 @@ fecha,game_id,partido,liga,tipo,mercado,clave,prob,cuota,casa,cuota_justa,ev,sta
 2026-11-17 07:57,4883948,Sudán del Sur vs Angola,"África, Copa de África de Naciones - Clasificación",modelo,Menos de 13.5 córners,CORN|13.5|under,0.6911,,,1.45,,,si,,,
 2026-11-17 07:57,4883948,Sudán del Sur vs Angola,"África, Copa de África de Naciones - Clasificación",ticket,Menos de 3.5 goles + Ambos marcan: No,OU|3.5|under&BTTS||no,0.6246,1.81,,1.60,0.1297,10.00,,,,
 2026-11-17 07:57,4883948,Sudán del Sur vs Angola,"África, Copa de África de Naciones - Clasificación",crear,Menos de 3.5 goles + Más de 6.5 córners + Menos de 5.5 tarjetas,OU|3.5|under&CORN|6.5|over&CARDS|5.5|under,0.5635,,,1.77,,,,,,
+2026-11-17 08:20,4883905,Qatar vs Corea del Sur,"Internacional, Amistoso Internacional",seguro,No hay empate,DC||12,0.7850,1.18,Bet365,1.27,-0.0737,,no,,,
+2026-11-17 08:20,4883905,Qatar vs Corea del Sur,"Internacional, Amistoso Internacional",seguro,Más de 1.5 goles,OU|1.5|over,0.7549,1.25,Bet365,1.32,-0.0564,,no,,,
+2026-11-17 08:20,4883905,Qatar vs Corea del Sur,"Internacional, Amistoso Internacional",modelo,Menos de 6.5 tarjetas,CARDS|6.5|under,0.7865,,,1.27,,,no,,,
+2026-11-17 08:20,4883905,Qatar vs Corea del Sur,"Internacional, Amistoso Internacional",modelo,Más de 4.5 córners,CORN|4.5|over,0.7340,,,1.36,,,no,,,
+2026-11-17 08:20,4883905,Qatar vs Corea del Sur,"Internacional, Amistoso Internacional",crear,No hay empate + Menos de 4.5 goles + Más de 2.5 córners,DC||12&OU|4.5|under&CORN|2.5|over,0.5874,,,1.70,,,,,,
