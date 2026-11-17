@@ -1398,12 +1398,27 @@
    "partido": "Libia vs Túnez",
    "liga": "África, Copa de África de Naciones - Clasificación",
    "inicio": "2026-11-17T11:00:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1794938793.5494766,
+   "estado": "liquidado",
+   "ultimo": 1794939421.666798,
    "clv": [],
    "clv_ok": false,
    "xi": "464876,3084407,54915510,64281329,65855109,65991727,70917556,70919836,71057876,71099072,77417314|445415,501122,3055840,3563832,7630360,13430968,39033830,43396323,47344884,47392972,71064430",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 1,
+    "ag": 1,
+    "ht": [
+     1,
+     1
+    ],
+    "corners": 6.0,
+    "corners_h": 3.0,
+    "corners_a": 3.0,
+    "corners_1t": null,
+    "cards": 4.0,
+    "cards_h": 0.0,
+    "cards_a": 4.0
+   }
   },
   "4883955": {
    "partido": "Guinea-Bissau vs Madagascar",
