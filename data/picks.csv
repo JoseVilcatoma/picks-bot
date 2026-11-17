@@ -4011,3 +4011,8 @@ fecha,game_id,partido,liga,tipo,mercado,clave,prob,cuota,casa,cuota_justa,ev,sta
 2026-11-17 13:44,4672264,Irlanda vs Kosovo,"Europa, Liga de las Naciones - UEFA - Liga B - Grupo 3",modelo,Menos de 9.5 córners,CORN|9.5|under,0.7608,,,1.31,,,si,,,
 2026-11-17 13:44,4672264,Irlanda vs Kosovo,"Europa, Liga de las Naciones - UEFA - Liga B - Grupo 3",ticket,Ambos marcan: No + Menos de 3.5 goles,BTTS||no&OU|3.5|under,0.5829,1.90,,1.72,0.1048,10.00,,,,
 2026-11-17 13:44,4672264,Irlanda vs Kosovo,"Europa, Liga de las Naciones - UEFA - Liga B - Grupo 3",crear,Irlanda o empate + Menos de 11.5 córners + Menos de 7.5 tarjetas,DC||1X&CORN|11.5|under&CARDS|7.5|under,0.5840,,,1.71,,,,,,
+2026-11-17 13:48,4672268,Bosnia Herzegovina vs Rumania,"Europa, Liga de las Naciones - UEFA - Liga B - Grupo 4",seguro,Más de 1.5 goles,OU|1.5|over,0.7432,1.17,Bet365,1.35,-0.1305,,si,,,
+2026-11-17 13:48,4672268,Bosnia Herzegovina vs Rumania,"Europa, Liga de las Naciones - UEFA - Liga B - Grupo 4",seguro,No hay empate,DC||12,0.7167,1.29,Bet365,1.40,-0.0755,,si,,,
+2026-11-17 13:48,4672268,Bosnia Herzegovina vs Rumania,"Europa, Liga de las Naciones - UEFA - Liga B - Grupo 4",modelo,Menos de 9.5 córners,CORN|9.5|under,0.7511,,,1.33,,,si,,,
+2026-11-17 13:48,4672268,Bosnia Herzegovina vs Rumania,"Europa, Liga de las Naciones - UEFA - Liga B - Grupo 4",modelo,Más de 2.5 tarjetas,CARDS|2.5|over,0.7457,,,1.34,,,si,,,
+2026-11-17 13:48,4672268,Bosnia Herzegovina vs Rumania,"Europa, Liga de las Naciones - UEFA - Liga B - Grupo 4",crear,Menos de 4.5 goles + Menos de 10.5 córners + Menos de 8.5 tarjetas,OU|4.5|under&CORN|10.5|under&CARDS|8.5|under,0.5695,,,1.76,,,,,,
