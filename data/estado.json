@@ -940,9 +940,13 @@
   "4882784": {
    "partido": "Rusia vs Venezuela",
    "liga": "Internacional, Amistoso Internacional",
-   "inicio": "2026-11-17T12:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 0
+   "inicio": "2026-11-17T11:00:00-05:00",
+   "estado": "enviado",
+   "ultimo": 1794930379.8583004,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "373371,435906,1397279,3171738,7027508,53506807,60311459,67874033,67990260,71673963,77356725|407429,430659,474941,668146,3219341,3269112,3274593,15288590,52235717,58669656,68058507",
+   "conf": true
   },
   "4672266": {
    "partido": "Gales vs Portugal",
@@ -1372,7 +1376,7 @@
    "liga": "África, Copa de África de Naciones - Clasificación",
    "inicio": "2026-11-17T11:00:00-05:00",
    "estado": "enviado",
-   "ultimo": 1794930012.595552,
+   "ultimo": 1794930381.0543694,
    "clv": [],
    "clv_ok": false,
    "xi": "|",
@@ -1394,7 +1398,7 @@
    "liga": "África, Copa de África de Naciones - Clasificación",
    "inicio": "2026-11-17T11:00:00-05:00",
    "estado": "enviado",
-   "ultimo": 1794930012.790993,
+   "ultimo": 1794930381.142856,
    "clv": [],
    "clv_ok": false,
    "xi": "|",
@@ -1405,7 +1409,7 @@
    "liga": "África, Copa de África de Naciones - Clasificación",
    "inicio": "2026-11-17T11:00:00-05:00",
    "estado": "enviado",
-   "ultimo": 1794930012.8754737,
+   "ultimo": 1794930381.23964,
    "clv": [],
    "clv_ok": false,
    "xi": "|",
