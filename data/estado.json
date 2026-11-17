@@ -807,22 +807,26 @@
    "partido": "Ecuador vs Bolivia",
    "liga": "Internacional, Amistoso Internacional",
    "inicio": "2026-11-17T18:30:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1794955549.9057438
+   "estado": "enviado",
+   "ultimo": 1794955794.0498354,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "545390,3095205,3359828,4913062,12722925,39270918,40745412,50457607,55977965,65107618,67641750|461107,1085307,2548448,3219237,53683135,56636501,58332147,60431186,65397501,66155845,68056478",
+   "conf": true
   },
   "4886905": {
    "partido": "Uruguay vs República Dominicana",
    "liga": "Internacional, Amistoso Internacional",
    "inicio": "2026-11-17T18:30:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1794955550.0066779
+   "ultimo": 1794955795.0576172
   },
   "4874691": {
    "partido": "Estados Unidos vs Haití",
    "liga": "Norteamérica, CONCACAF Liga de Naciones - Cuartos de Final",
    "inicio": "2026-11-17T19:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1794955550.05563
+   "ultimo": 1794955795.1132243
   },
   "4874693": {
    "partido": "México vs Jamaica",
@@ -1116,7 +1120,7 @@
    "liga": "Norteamérica, CONCACAF Liga de Naciones - Liga B - Grupo 4",
    "inicio": "2026-11-17T19:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1794955550.0774355
+   "ultimo": 1794955795.1305776
   },
   "4874694": {
    "partido": "Nicaragua vs Montserrat",
