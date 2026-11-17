@@ -889,8 +889,12 @@
    "partido": "Gales vs Portugal",
    "liga": "Europa, Liga de las Naciones - UEFA - Liga A - Grupo 4",
    "inicio": "2026-11-17T14:45:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1794940559.2886984
+   "estado": "enviado",
+   "ultimo": 1794940809.4009852,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "141857,281668,491384,539726,1839582,2578591,3146175,3161318,3457622,55148762,55234229|384197,435334,2558704,6835961,8925436,12436614,46715751,49915522,63094712,65211458,66436913",
+   "conf": true
   },
   "4855911": {
    "partido": "Chile vs Colombia",
@@ -939,7 +943,7 @@
    "liga": "Europa, Liga de las Naciones - UEFA - Liga B - Grupo 3",
    "inicio": "2026-11-17T14:45:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1794940559.376785
+   "ultimo": 1794940810.19366
   },
   "4672265": {
    "partido": "Polonia vs Suecia",
@@ -968,28 +972,40 @@
    "liga": "Europa, Liga de las Naciones - UEFA - Liga B - Grupo 4",
    "inicio": "2026-11-17T14:45:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1794940561.7257917
+   "ultimo": 1794940810.2857726
   },
   "4672269": {
    "partido": "Israel vs Austria",
    "liga": "Europa, Liga de las Naciones - UEFA - Liga B - Grupo 3",
    "inicio": "2026-11-17T14:45:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1794940561.8512
+   "estado": "enviado",
+   "ultimo": 1794940810.3705215,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "161992,517126,3190142,3350130,3777472,50169527,58253330,64807494,65335843,71323358,71911000|470279,488950,493197,3554187,50752875,55239130,55805478,60972902,65670937,67816815,76842303",
+   "conf": true
   },
   "4672270": {
    "partido": "Ucrania vs Georgia",
    "liga": "Europa, Liga de las Naciones - UEFA - Liga B - Grupo 2",
    "inicio": "2026-11-17T14:45:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1794940561.9478986
+   "estado": "enviado",
+   "ultimo": 1794940811.4683676,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "886834,3071263,3369615,14163963,16515075,49513842,50754213,51813758,66534838,72767523,74975405|516366,3335711,14646408,29056796,43875282,49581346,50950007,51195599,57487598,70812661,71356912",
+   "conf": true
   },
   "4672271": {
    "partido": "Hungría vs Irlanda del Norte",
    "liga": "Europa, Liga de las Naciones - UEFA - Liga B - Grupo 2",
    "inicio": "2026-11-17T14:45:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1794940562.037
+   "estado": "enviado",
+   "ultimo": 1794940812.551706,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "127874,481140,735255,3374464,7140072,13659727,32237519,42984355,60734154,71148025,71547353|12970306,43467356,61767937,64744795,65848500,70807145,70839855,70855486,70855547,70901966,71115788",
+   "conf": true
   },
   "4632597": {
    "partido": "Remo vs Chapecoense",
@@ -1661,7 +1677,7 @@
    "liga": "África, Copa de África de Naciones - Clasificación",
    "inicio": "2026-11-17T14:00:00-05:00",
    "estado": "enviado",
-   "ultimo": 1794940431.3141952,
+   "ultimo": 1794940813.3945718,
    "clv": [],
    "clv_ok": false,
    "xi": "|",
