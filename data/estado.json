@@ -915,12 +915,27 @@
    "partido": "Japón vs Paraguay",
    "liga": "Internacional, Amistoso Internacional",
    "inicio": "2026-11-17T08:10:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1794918532.7359886,
+   "estado": "liquidado",
+   "ultimo": 1794928010.0502229,
    "clv": [],
    "clv_ok": false,
    "xi": "4832569,13366904,14658185,49988861,49988887,49988904,49991577,67747944,67774532,67820371,75439830|334367,383111,1105235,3069284,12722929,44421294,53036664,55416459,65296564,66825230,67907422",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 1,
+    "ag": 2,
+    "ht": [
+     0,
+     2
+    ],
+    "corners": 10.0,
+    "corners_h": 8.0,
+    "corners_a": 2.0,
+    "corners_1t": 5.0,
+    "cards": 3.0,
+    "cards_h": 2.0,
+    "cards_a": 1.0
+   }
   },
   "4882784": {
    "partido": "Rusia vs Venezuela",
@@ -1205,14 +1220,14 @@
    "liga": "África, Copa de África de Naciones - Clasificación",
    "inicio": "2026-11-17T11:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1794927764.3515491
+   "ultimo": 1794928010.304627
   },
   "4883534": {
    "partido": "Sierra Leona vs RD Congo",
    "liga": "África, Copa de África de Naciones - Clasificación",
    "inicio": "2026-11-17T11:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1794927764.3628352
+   "ultimo": 1794928010.399187
   },
   "4883947": {
    "partido": "Lesoto vs Gabón",
@@ -1244,23 +1259,53 @@
    "partido": "Sudán del Sur vs Angola",
    "liga": "África, Copa de África de Naciones - Clasificación",
    "inicio": "2026-11-17T08:00:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1794927389.1285846,
+   "estado": "liquidado",
+   "ultimo": 1794928010.497331,
    "clv": [],
    "clv_ok": false,
    "xi": "50349555,65841886,77341209,79437521,79437540,79480533,81445091,81445092,81445093,81445098|896636,23244866,51410599,66447014,67633742,67709510,67874128,68079355,71104244,71327480,79331430",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 0,
+    "ag": 1,
+    "ht": [
+     0,
+     1
+    ],
+    "corners": 8.0,
+    "corners_h": 4.0,
+    "corners_a": 4.0,
+    "corners_1t": null,
+    "cards": 4.0,
+    "cards_h": 2.0,
+    "cards_a": 2.0
+   }
   },
   "4883949": {
    "partido": "Burundi vs Zambia",
    "liga": "África, Copa de África de Naciones - Clasificación",
    "inicio": "2026-11-17T08:00:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1794927389.2183638,
+   "estado": "liquidado",
+   "ultimo": 1794928010.6683087,
    "clv": [],
    "clv_ok": false,
    "xi": "15313190,15313200,21980377,47429447,71103664,72768036,72768871,72768872,77861315,79318529,79437542|3237992,3269883,65270839,66270497,66437451,71053306,77187978,77187979,77193738,79312354,81355961",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 1,
+    "ag": 1,
+    "ht": [
+     0,
+     0
+    ],
+    "corners": 10.0,
+    "corners_h": 6.0,
+    "corners_a": 4.0,
+    "corners_1t": null,
+    "cards": 2.0,
+    "cards_h": 1.0,
+    "cards_a": 1.0
+   }
   },
   "4883950": {
    "partido": "Etiopía vs Mozambique",
@@ -1292,40 +1337,55 @@
    "partido": "Tanzania vs Nigeria",
    "liga": "África, Copa de África de Naciones - Clasificación",
    "inicio": "2026-11-17T08:00:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1794927389.569248,
+   "estado": "liquidado",
+   "ultimo": 1794928010.926842,
    "clv": [],
    "clv_ok": false,
    "xi": "46289012,54901590,66680965,67720919,67721894,67867087,71329139,76806247,77193878,81466671,81466672|469313,526669,698994,739210,50208640,50947605,51550259,65729616,66630057,71310640,77480706",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 0,
+    "ag": 0,
+    "ht": [
+     0,
+     0
+    ],
+    "corners": 9.0,
+    "corners_h": 3.0,
+    "corners_a": 6.0,
+    "corners_1t": null,
+    "cards": 2.0,
+    "cards_h": 1.0,
+    "cards_a": 1.0
+   }
   },
   "4883952": {
    "partido": "Gambia vs Costa de Marfil",
    "liga": "África, Copa de África de Naciones - Clasificación",
    "inicio": "2026-11-17T11:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1794927764.3737934
+   "ultimo": 1794928011.1975677
   },
   "4883953": {
    "partido": "Kenia vs Sudáfrica",
    "liga": "África, Copa de África de Naciones - Clasificación",
    "inicio": "2026-11-17T11:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1794927764.3844218
+   "ultimo": 1794928011.2889605
   },
   "4883954": {
    "partido": "Libia vs Túnez",
    "liga": "África, Copa de África de Naciones - Clasificación",
    "inicio": "2026-11-17T11:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1794927764.3947883
+   "ultimo": 1794928011.378721
   },
   "4883955": {
    "partido": "Guinea-Bissau vs Madagascar",
    "liga": "África, Copa de África de Naciones - Clasificación",
    "inicio": "2026-11-17T11:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1794927764.405291
+   "ultimo": 1794928011.4694972
   },
   "4883956": {
    "partido": "Botswana vs Uganda",
@@ -1338,8 +1398,12 @@
    "partido": "Jordania vs Australia",
    "liga": "Internacional, Amistoso Internacional",
    "inicio": "2026-11-17T11:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1794927764.4156358
+   "estado": "enviado",
+   "ultimo": 1794928011.5555198,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "6281258,9039245,38353393,51883126,53065909,53066365,57998299,58021811,72047611,72047614,77087421|207133,913772,3169892,4800962,31677846,51940972,56230524,64317526,64392622,70953039,76712965",
+   "conf": true
   },
   "4876081": {
    "partido": "Malasia vs Yemen",
