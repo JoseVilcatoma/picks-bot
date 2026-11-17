@@ -3807,3 +3807,8 @@ fecha,game_id,partido,liga,tipo,mercado,clave,prob,cuota,casa,cuota_justa,ev,sta
 2026-11-17 06:21,4876151,Kyrgyzstan vs Vietnam,"Internacional, Amistoso Internacional",modelo,Menos de 6.5 tarjetas,CARDS|6.5|under,0.8061,,,1.24,,,no,,,
 2026-11-17 06:21,4876151,Kyrgyzstan vs Vietnam,"Internacional, Amistoso Internacional",modelo,Menos de 10.5 córners,CORN|10.5|under,0.7036,,,1.42,,,no,,,
 2026-11-17 06:21,4876151,Kyrgyzstan vs Vietnam,"Internacional, Amistoso Internacional",crear,Menos de 4.5 goles + Menos de 13.5 córners + Menos de 6.5 tarjetas,OU|4.5|under&CORN|13.5|under&CARDS|6.5|under,0.5876,,,1.70,,,,,,
+2026-11-17 06:51,4894252,Tailandia vs Tajikistan,"Internacional, Amistoso Internacional",seguro,Tailandia o empate,DC||1X,0.7594,1.22,Bet365,1.32,-0.0736,,no,,,
+2026-11-17 06:51,4894252,Tailandia vs Tajikistan,"Internacional, Amistoso Internacional",seguro,Más de 1.5 goles,OU|1.5|over,0.7383,1.29,Bet365,1.35,-0.0475,,no,,,
+2026-11-17 06:51,4894252,Tailandia vs Tajikistan,"Internacional, Amistoso Internacional",modelo,Menos de 6.5 tarjetas,CARDS|6.5|under,0.7981,,,1.25,,,no,,,
+2026-11-17 06:51,4894252,Tailandia vs Tajikistan,"Internacional, Amistoso Internacional",modelo,Menos de 9.5 córners,CORN|9.5|under,0.7511,,,1.33,,,no,,,
+2026-11-17 06:51,4894252,Tailandia vs Tajikistan,"Internacional, Amistoso Internacional",crear,Menos de 2.5 goles en el 1T + Menos de 11.5 córners + Menos de 6.5 tarjetas,OU1T|2.5|under&CORN|11.5|under&CARDS|6.5|under,0.5861,,,1.71,,,,,,
