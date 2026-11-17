@@ -1306,7 +1306,7 @@
    "liga": "Internacional, Amistoso Internacional",
    "inicio": "2026-11-17T01:00:00-05:00",
    "estado": "enviado",
-   "ultimo": 1794905203.8393958,
+   "ultimo": 1794905813.1313634,
    "clv": [],
    "clv_ok": false,
    "xi": "|",
@@ -1424,11 +1424,11 @@
    "liga": "Internacional, Amistoso Internacional",
    "inicio": "2026-11-17T04:00:00-05:00",
    "estado": "enviado",
-   "ultimo": 1794905447.411476,
+   "ultimo": 1794905813.1597362,
    "clv": [],
    "clv_ok": false,
-   "xi": "|",
-   "conf": false
+   "xi": "42205917,71098861,75493369,75493370,76870888,79282989,81442026,81442028,81442033,81442034,81466315|80879947,81171705,81232453,81232485,81232587,81232607,81232608,81232614,81466340,81466341,81466342",
+   "conf": true
   },
   "4894252": {
    "partido": "Tailandia vs Tajikistan",
