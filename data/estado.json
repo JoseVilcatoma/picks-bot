@@ -131,32 +131,6 @@
     "cards_a": 0.0
    }
   },
-  "4874707": {
-   "partido": "San Vicente y Las Granadinas vs Belice",
-   "liga": "Norteamérica, CONCACAF Liga de Naciones - Liga B - Grupo 4",
-   "inicio": "2026-11-14T19:00:00-05:00",
-   "estado": "liquidado",
-   "ultimo": 1794707728.807311,
-   "clv": [],
-   "clv_ok": false,
-   "xi": "57190606,57190607,57190683,59508032,67094368,67431019,71018818,71105685,72768466,77082641,79326641|70687736,77354815,77354821,77876594,78188506,78342367,78347094,79462365,79462375,79537076,81447669",
-   "conf": true,
-   "r": {
-    "hg": 1,
-    "ag": 0,
-    "ht": [
-     1,
-     0
-    ],
-    "corners": 15.0,
-    "corners_h": 11.0,
-    "corners_a": 4.0,
-    "corners_1t": 5.0,
-    "cards": 2.0,
-    "cards_h": 0.0,
-    "cards_a": 2.0
-   }
-  },
   "4672272": {
    "partido": "Macedonia del Norte vs Eslovenia",
    "liga": "Europa, Liga de las Naciones - UEFA - Liga B - Grupo 1",
