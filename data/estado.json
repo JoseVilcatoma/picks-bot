@@ -1256,7 +1256,7 @@
    "liga": "África, Copa de África de Naciones - Clasificación",
    "inicio": "2026-11-17T08:00:00-05:00",
    "estado": "enviado",
-   "ultimo": 1794919152.2462578,
+   "ultimo": 1794919519.495667,
    "clv": [],
    "clv_ok": false,
    "xi": "|",
@@ -1267,7 +1267,7 @@
    "liga": "África, Copa de África de Naciones - Clasificación",
    "inicio": "2026-11-17T08:00:00-05:00",
    "estado": "enviado",
-   "ultimo": 1794919152.433582,
+   "ultimo": 1794919519.5787432,
    "clv": [],
    "clv_ok": false,
    "xi": "|",
@@ -1393,7 +1393,7 @@
    "liga": "Internacional, Amistoso Internacional",
    "inicio": "2026-11-17T09:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 0
+   "ultimo": 1794919519.669518
   },
   "4883957": {
    "partido": "Ruanda vs Mali",
@@ -1449,11 +1449,11 @@
    "liga": "Internacional, Amistoso Internacional",
    "inicio": "2026-11-17T08:00:00-05:00",
    "estado": "enviado",
-   "ultimo": 1794919152.5162706,
+   "ultimo": 1794919519.7616622,
    "clv": [],
    "clv_ok": false,
-   "xi": "|",
-   "conf": false
+   "xi": "11514896,57071983,59145248,71521096,72061118,72697291,75257406,77659415,79130908,81382986,81383138|606516,6446113,9592328,10207848,38775113,59145141,64869826,70918990,71102658,71150606,77609148",
+   "conf": true
   },
   "4892475": {
    "partido": "Tahiti vs Cook Islands",
