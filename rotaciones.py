@@ -94,10 +94,16 @@ def enviar(texto):
         print("[tg sin configurar]\n" + texto + "\n", flush=True)
         return
     for i in range(0, len(texto), 3900):
+        datos = {"chat_id": CHAT, "text": texto[i:i + 3900], "parse_mode": "HTML", "disable_web_page_preview": True}
         try:
-            requests.post(f"https://api.telegram.org/bot{TOKEN}/sendMessage", timeout=30,
-                          json={"chat_id": CHAT, "text": texto[i:i + 3900], "parse_mode": "HTML",
-                                "disable_web_page_preview": True})
+            r = requests.post(f"https://api.telegram.org/bot{TOKEN}/sendMessage", timeout=30, json=datos)
+            if r.status_code == 400:                    # Telegram rechazó el formato: va como texto simple
+                print("[tg] formato rechazado, reenvío sin formato:", r.text[:200], flush=True)
+                datos.pop("parse_mode")
+                datos["text"] = re.sub(r"<[^>]+>", "", datos["text"])
+                r = requests.post(f"https://api.telegram.org/bot{TOKEN}/sendMessage", timeout=30, json=datos)
+            if r.status_code != 200:
+                print("[tg] no se envió:", r.status_code, r.text[:200], flush=True)
         except requests.RequestException as e:
             print("[tg] error", e)
 
@@ -425,6 +431,34 @@ def noticias(nombre, ingles):
     return out[:2]
 
 
+def publicar_agenda(e, lista):
+    """Deja en data/rot_agenda.json los partidos de las próximas horas y qué equipos están marcados.
+    Lo lee la tarea diaria de Claude que busca noticias de rotación en el idioma de cada equipo."""
+    t = ahora()
+    agenda = []
+    for p in lista:
+        if not timedelta(0) < p["inicio"] - t <= timedelta(hours=HORAS_ADELANTE + 6):
+            continue
+        equipos = []
+        for eq in p["eq"]:
+            marca = e["marcados"].get(f"{p['id']}:{eq['id']}") or {}
+            equipos.append({"nombre": eq["n"], "ingles": eq["en"], "nada_en_juego": marca.get("m", ""),
+                            "calendario": marca.get("cal", "")})
+        agenda.append({"hora_lima": f"{p['inicio']:%Y-%m-%d %H:%M}", "liga": p["liga"], "equipos": equipos})
+    ya = sorted(k[5:] for k in e["enviados"] if k.startswith("noti:"))
+    ruta = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data", "rot_agenda.json")
+    with open(ruta, "w", encoding="utf-8") as f:
+        json.dump({"actualizado_lima": f"{t:%Y-%m-%d %H:%M}", "partidos": agenda, "titulares_ya_enviados": ya},
+                  f, ensure_ascii=False, indent=1)
+    if not PUBLICAR:
+        return
+    cmd = ("git add data/rot_agenda.json && (git diff --cached --quiet || git commit -q -m 'agenda de rotaciones') "
+           "&& (git pull -q --rebase || (git rebase --abort; false)) && git push -q")
+    r = subprocess.run(cmd, shell=True, capture_output=True, text=True)
+    if r.returncode:
+        print("[agenda] no se pudo subir ahora: " + (r.stderr or r.stdout).strip()[-200:], flush=True)
+
+
 def resumen(e, lista, forzar=False):
     t = ahora()
     hora = t.hour
@@ -473,6 +507,11 @@ def resumen(e, lista, forzar=False):
             cuando = f"{DIAS[p['inicio'].weekday()]} {p['inicio']:%H:%M}"
             bloques.append(f"⚽ <b>{esc(titulo(p))}</b> · {cuando} · {esc(p['liga'])}\n" + "\n".join(lineas))
     e["ranura"] = ranura
+    if not forzar:
+        try:
+            publicar_agenda(e, lista)
+        except Exception:  # noqa: BLE001
+            print("[agenda] error:\n" + traceback.format_exc(), flush=True)
     if con_noticias:
         e["ranura_noticias"] = ranura
     if bloques:
