@@ -1131,12 +1131,27 @@
    "partido": "Mauritania vs Burkina Faso",
    "liga": "África, Copa de África de Naciones - Clasificación",
    "inicio": "2026-11-17T14:00:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1794948994.1092615,
+   "estado": "liquidado",
+   "ultimo": 1794949607.649492,
    "clv": [],
    "clv_ok": false,
    "xi": "3124708,3659571,23263037,38069242,63129051,63977262,64034030,64864265,65351708,65842754,76812833|6428923,12537284,30803774,54896087,60266938,61456616,65181013,70793570,72472125,77863981,78166274",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 1,
+    "ag": 3,
+    "ht": [
+     0,
+     2
+    ],
+    "corners": 12.0,
+    "corners_h": 9.0,
+    "corners_a": 3.0,
+    "corners_1t": null,
+    "cards": 6.0,
+    "cards_h": 2.0,
+    "cards_a": 4.0
+   }
   },
   "4722678": {
    "partido": "Togo vs Argelia",
@@ -1428,12 +1443,27 @@
    "partido": "Botswana vs Uganda",
    "liga": "África, Copa de África de Naciones - Clasificación",
    "inicio": "2026-11-17T14:00:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1794948994.203114,
+   "estado": "liquidado",
+   "ultimo": 1794949607.9378283,
    "clv": [],
    "clv_ok": false,
    "xi": "59771146,67878120,67878124,67878134,67880147,67880157,71049509,71049518,77081519,77430903,81438559|32237513,59744355,64276794,65468829,67989435,71099982,71100006,77098239,77565745,79481715,81437683",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 1,
+    "ag": 1,
+    "ht": [
+     0,
+     0
+    ],
+    "corners": 8.0,
+    "corners_h": 0.0,
+    "corners_a": 8.0,
+    "corners_1t": null,
+    "cards": 5.0,
+    "cards_h": 2.0,
+    "cards_a": 3.0
+   }
   },
   "4853663": {
    "partido": "Jordania vs Australia",
@@ -1592,12 +1622,27 @@
    "partido": "Ruanda vs Mali",
    "liga": "África, Copa de África de Naciones - Clasificación",
    "inicio": "2026-11-17T14:00:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1794948994.2874117,
+   "estado": "liquidado",
+   "ultimo": 1794949608.2015254,
    "clv": [],
    "clv_ok": false,
    "xi": "552358,642317,70796115,70814574,71109455,72769309,72769311,72769321,75497370,77850574,79437628|429463,484567,3424641,40443732,57682338,60938619,64206036,64925800,66306372,66362578,75384250",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 0,
+    "ag": 2,
+    "ht": [
+     0,
+     1
+    ],
+    "corners": 7.0,
+    "corners_h": 5.0,
+    "corners_a": 2.0,
+    "corners_1t": null,
+    "cards": 4.0,
+    "cards_h": 2.0,
+    "cards_a": 2.0
+   }
   },
   "4883958": {
    "partido": "Liberia vs Cabo Verde",
@@ -1629,12 +1674,27 @@
    "partido": "República del Congo vs Comoros",
    "liga": "África, Copa de África de Naciones - Clasificación",
    "inicio": "2026-11-17T14:00:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1794948994.6525435,
+   "estado": "liquidado",
+   "ultimo": 1794949608.4791956,
    "clv": [],
    "clv_ok": false,
    "xi": "921712,3074432,3212694,15446633,58126795,60490534,61037328,61764220,67987633,71008487,79433191|541630,50450126,50684400,52901773,61714606,67578041,70917481,71674183,77373144,77595331,77595343",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 0,
+    "ag": 1,
+    "ht": [
+     0,
+     1
+    ],
+    "corners": 16.0,
+    "corners_h": 11.0,
+    "corners_a": 5.0,
+    "corners_1t": null,
+    "cards": 5.0,
+    "cards_h": 2.0,
+    "cards_a": 3.0
+   }
   },
   "4883960": {
    "partido": "Niger vs Marruecos",
