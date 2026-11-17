@@ -1643,6 +1643,146 @@
    "inicio": "2026-11-19T08:00:00-05:00",
    "estado": "pendiente",
    "ultimo": 0
+  },
+  "4632589": {
+   "partido": "Athletico Paranaense vs Remo",
+   "liga": "Brasil, Brasileirão",
+   "inicio": "2026-11-22T14:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4632592": {
+   "partido": "Bragantino vs Vasco Da Gama",
+   "liga": "Brasil, Brasileirão",
+   "inicio": "2026-11-22T17:30:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4632596": {
+   "partido": "Fluminense vs Mirassol",
+   "liga": "Brasil, Brasileirão",
+   "inicio": "2026-11-22T16:30:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4732621": {
+   "partido": "Sassuolo vs Genoa",
+   "liga": "Italia, Serie A",
+   "inicio": "2026-11-22T09:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4732625": {
+   "partido": "AC Milan vs Frosinone",
+   "liga": "Italia, Serie A",
+   "inicio": "2026-11-22T12:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4732629": {
+   "partido": "Bologna vs Udinese",
+   "liga": "Italia, Serie A",
+   "inicio": "2026-11-22T09:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4732630": {
+   "partido": "Atalanta vs Inter Milan",
+   "liga": "Italia, Serie A",
+   "inicio": "2026-11-22T14:45:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4735202": {
+   "partido": "Paris FC vs Angers",
+   "liga": "Francia, Ligue 1",
+   "inicio": "2026-11-22T09:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4735205": {
+   "partido": "Olympique Marsella vs Le Mans",
+   "liga": "Francia, Ligue 1",
+   "inicio": "2026-11-22T14:45:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4735206": {
+   "partido": "Lorient vs Rennes",
+   "liga": "Francia, Ligue 1",
+   "inicio": "2026-11-22T11:15:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4741995": {
+   "partido": "Liverpool vs Manchester United",
+   "liga": "Inglaterra, Premier League",
+   "inicio": "2026-11-22T11:30:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4741996": {
+   "partido": "Hull City vs Brighton",
+   "liga": "Inglaterra, Premier League",
+   "inicio": "2026-11-22T09:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4750785": {
+   "partido": "Racing de Santander vs Real Sociedad",
+   "liga": "España, LaLiga",
+   "inicio": "2026-11-22T10:15:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4750786": {
+   "partido": "Osasuna vs Málaga CF",
+   "liga": "España, LaLiga",
+   "inicio": "2026-11-22T12:30:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4750788": {
+   "partido": "Getafe CF vs Atlético de Madrid",
+   "liga": "España, LaLiga",
+   "inicio": "2026-11-22T15:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4750789": {
+   "partido": "FC Barcelona vs Villarreal CF",
+   "liga": "España, LaLiga",
+   "inicio": "2026-11-22T08:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4755338": {
+   "partido": "Werder Bremen vs Hamburgo SV",
+   "liga": "Alemania, Bundesliga",
+   "inicio": "2026-11-22T11:30:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4755341": {
+   "partido": "FC Augsburg vs Mainz 05",
+   "liga": "Alemania, Bundesliga",
+   "inicio": "2026-11-22T09:30:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4760762": {
+   "partido": "Sport Huancayo vs Universitario",
+   "liga": "Perú, Liga 1 - Clausura",
+   "inicio": "2026-11-22T15:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4760764": {
+   "partido": "Sporting Cristal vs Cienciano",
+   "liga": "Perú, Liga 1 - Clausura",
+   "inicio": "2026-11-22T15:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
   }
  },
  "web": {
@@ -1817,7 +1957,27 @@
   "4755342": 1794890686668,
   "4755343": 1794890687019,
   "4760758": 1794890694726,
-  "4883387": 1794890695656
+  "4883387": 1794890695656,
+  "4632589": 1794890708016,
+  "4632592": 1794890708799,
+  "4632596": 1794890708416,
+  "4732621": 1794890699732,
+  "4732625": 1794890700516,
+  "4732629": 1794890700148,
+  "4732630": 1794890700853,
+  "4735202": 1794890704014,
+  "4735205": 1794890704649,
+  "4735206": 1794890704361,
+  "4741995": 1794890706037,
+  "4741996": 1794890705664,
+  "4750785": 1794890702137,
+  "4750786": 1794890702613,
+  "4750788": 1794890702938,
+  "4750789": 1794890701827,
+  "4755338": 1794890707117,
+  "4755341": 1794890706706,
+  "4760762": 1794890709241,
+  "4760764": 1794890709642
  },
  "tickets": [],
  "sin_creditos": false,
