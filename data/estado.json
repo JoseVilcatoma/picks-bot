@@ -1320,8 +1320,12 @@
    "partido": "Kyrgyzstan vs Vietnam",
    "liga": "Internacional, Amistoso Internacional",
    "inicio": "2026-11-17T07:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1794914370.1229959
+   "estado": "enviado",
+   "ultimo": 1794914492.8446102,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "|",
+   "conf": false
   },
   "4882132": {
    "partido": "China vs Bahrein",
