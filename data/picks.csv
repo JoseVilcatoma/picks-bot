@@ -3783,3 +3783,7 @@ fecha,game_id,partido,liga,tipo,mercado,clave,prob,cuota,casa,cuota_justa,ev,sta
 2026-11-16 18:17,4874701,Martinica vs Aruba,"Norteamérica, CONCACAF Liga de Naciones - Play-in",modelo,Menos de 6.5 tarjetas,CARDS|6.5|under,0.7981,,,1.25,,,si,,,
 2026-11-16 18:17,4874701,Martinica vs Aruba,"Norteamérica, CONCACAF Liga de Naciones - Play-in",modelo,Más de 1.5 goles,OU|1.5|over,0.7233,,,1.38,,,si,,,
 2026-11-16 18:17,4874701,Martinica vs Aruba,"Norteamérica, CONCACAF Liga de Naciones - Play-in",crear,No hay empate + Menos de 13.5 córners + Más de 0.5 tarjetas,DC||12&CORN|13.5|under&CARDS|0.5|over,0.5475,,,1.83,,,,,,
+2026-11-16 19:18,4874699,Canadá vs Guatemala,"Norteamérica, CONCACAF Liga de Naciones - Cuartos de Final",seguro,Menos de 2.5 goles en el 1T,OU1T|2.5|under,0.8146,1.25,Bet365,1.23,0.0183,,si,,,
+2026-11-16 19:18,4874699,Canadá vs Guatemala,"Norteamérica, CONCACAF Liga de Naciones - Cuartos de Final",modelo,Más de 1.5 goles,OU|1.5|over,0.7991,,,1.25,,,si,,,
+2026-11-16 19:18,4874699,Canadá vs Guatemala,"Norteamérica, CONCACAF Liga de Naciones - Cuartos de Final",modelo,Menos de 11.5 córners,CORN|11.5|under,0.7568,,,1.32,,,si,,,
+2026-11-16 19:18,4874699,Canadá vs Guatemala,"Norteamérica, CONCACAF Liga de Naciones - Cuartos de Final",crear,Menos de 4.5 goles + Menos de 2.5 goles en el 1T + Menos de 14.5 córners,OU|4.5|under&OU1T|2.5|under&CORN|14.5|under,0.5763,,,1.74,,,,,,

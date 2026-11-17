@@ -629,8 +629,12 @@
    "partido": "Canadá vs Guatemala",
    "liga": "Norteamérica, CONCACAF Liga de Naciones - Cuartos de Final",
    "inicio": "2026-11-16T20:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1794874484.6019025
+   "estado": "enviado",
+   "ultimo": 1794874728.1391943,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "547929,2992754,3079755,3337446,4289559,13313345,14544976,65992900,66882180,67741940,67952105|544354,893343,1134844,3125501,3140085,7200858,8746948,55043450,59000652,60436633,60436641",
+   "conf": true
   },
   "4874700": {
    "partido": "Trinidad y Tobago vs Antigua y Barbuda",
