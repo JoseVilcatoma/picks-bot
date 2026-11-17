@@ -1100,28 +1100,28 @@
    "liga": "Norteamérica, CONCACAF Liga de Naciones - Liga B - Grupo 3",
    "inicio": "2026-11-17T14:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1794938792.5886571
+   "ultimo": 1794939043.3524127
   },
   "4874696": {
    "partido": "Belice vs San Martín",
    "liga": "Norteamérica, CONCACAF Liga de Naciones - Liga B - Grupo 4",
    "inicio": "2026-11-17T14:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1794938792.6745908
+   "ultimo": 1794939043.4814794
   },
   "4874697": {
    "partido": "Santa Lucía vs Barbados",
    "liga": "Norteamérica, CONCACAF Liga de Naciones - Liga B - Grupo 2",
    "inicio": "2026-11-17T14:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1794938792.7630606
+   "ultimo": 1794939043.59216
   },
   "4874698": {
    "partido": "Dominica vs Islas Caimán",
    "liga": "Norteamérica, CONCACAF Liga de Naciones - Liga B - Grupo 1",
    "inicio": "2026-11-17T14:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1794938792.8485107
+   "ultimo": 1794939043.6825979
   },
   "4716607": {
    "partido": "Malawi vs Egipto",
@@ -1154,7 +1154,7 @@
    "liga": "África, Copa de África de Naciones - Clasificación",
    "inicio": "2026-11-17T14:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1794938792.935834
+   "ultimo": 1794939043.80007
   },
   "4722678": {
    "partido": "Togo vs Argelia",
@@ -1432,7 +1432,7 @@
    "liga": "África, Copa de África de Naciones - Clasificación",
    "inicio": "2026-11-17T14:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1794938793.6401572
+   "ultimo": 1794939043.8847752
   },
   "4853663": {
    "partido": "Jordania vs Australia",
@@ -1592,21 +1592,21 @@
    "liga": "África, Copa de África de Naciones - Clasificación",
    "inicio": "2026-11-17T14:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1794938793.721758
+   "ultimo": 1794939043.9980469
   },
   "4883958": {
    "partido": "Liberia vs Cabo Verde",
    "liga": "África, Copa de África de Naciones - Clasificación",
    "inicio": "2026-11-17T14:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1794938793.8122082
+   "ultimo": 1794939044.0792067
   },
   "4883959": {
    "partido": "República del Congo vs Comoros",
    "liga": "África, Copa de África de Naciones - Clasificación",
    "inicio": "2026-11-17T14:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1794938793.8933845
+   "ultimo": 1794939044.1648624
   },
   "4883960": {
    "partido": "Niger vs Marruecos",
@@ -1656,12 +1656,27 @@
    "partido": "Irak vs Irán",
    "liga": "Internacional, Amistoso Internacional",
    "inicio": "2026-11-17T11:15:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1794929139.578723,
+   "estado": "liquidado",
+   "ultimo": 1794939044.2489429,
    "clv": [],
    "clv_ok": false,
    "xi": "596191,3561111,41129137,42142694,49676017,54547103,55546406,55776488,62351221,68018132,71026153|972961,3456148,5609095,39684362,41063742,62499092,62700974,67215426,68001357,70938621,75411409",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 1,
+    "ag": 1,
+    "ht": [
+     1,
+     0
+    ],
+    "corners": 9.0,
+    "corners_h": 2.0,
+    "corners_a": 7.0,
+    "corners_1t": null,
+    "cards": 4.0,
+    "cards_h": 2.0,
+    "cards_a": 2.0
+   }
   },
   "4891452": {
    "partido": "Líbano vs Palestina",
