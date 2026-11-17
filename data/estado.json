@@ -1438,8 +1438,12 @@
    "partido": "Emiratos Árabes vs Siria",
    "liga": "Internacional, Amistoso Internacional",
    "inicio": "2026-11-17T09:10:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1794922108.7709403
+   "estado": "enviado",
+   "ultimo": 1794922231.7008245,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "|",
+   "conf": false
   },
   "4891254": {
    "partido": "Irak vs Irán",
