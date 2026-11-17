@@ -1256,22 +1256,22 @@
    "liga": "África, Copa de África de Naciones - Clasificación",
    "inicio": "2026-11-17T08:00:00-05:00",
    "estado": "enviado",
-   "ultimo": 1794919890.4805539,
+   "ultimo": 1794920259.0201154,
    "clv": [],
    "clv_ok": false,
-   "xi": "|",
-   "conf": false
+   "xi": "67766456,70762478,70924565,71104008,72770072,72770078,72841082,75485309,77553108,79378920,81420490|333237,513111,921153,50682074,66362553,71901705,75439568,75485262,77003039,77387091,79438164",
+   "conf": true
   },
   "4883948": {
    "partido": "Sudán del Sur vs Angola",
    "liga": "África, Copa de África de Naciones - Clasificación",
    "inicio": "2026-11-17T08:00:00-05:00",
    "estado": "enviado",
-   "ultimo": 1794919890.491935,
+   "ultimo": 1794920259.7712085,
    "clv": [],
    "clv_ok": false,
-   "xi": "|",
-   "conf": false
+   "xi": "50349555,65841886,77341209,79437521,79437540,79480533,81445091,81445092,81445093,81445098|896636,23244866,51410599,66447014,67633742,67709510,67874128,68079355,71104244,71327480,79331430",
+   "conf": true
   },
   "4883949": {
    "partido": "Burundi vs Zambia",
@@ -1393,7 +1393,7 @@
    "liga": "Internacional, Amistoso Internacional",
    "inicio": "2026-11-17T09:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1794920013.2735324
+   "ultimo": 1794920260.2774453
   },
   "4883957": {
    "partido": "Ruanda vs Mali",
