@@ -1306,7 +1306,7 @@
    "liga": "Internacional, Amistoso Internacional",
    "inicio": "2026-11-17T01:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 0
+   "ultimo": 1794890708.0066693
   },
   "4876151": {
    "partido": "Kyrgyzstan vs Vietnam",
@@ -1410,6 +1410,237 @@
    "partido": "Tailandia vs Tajikistan",
    "liga": "Internacional, Amistoso Internacional",
    "inicio": "2026-11-17T07:30:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4632587": {
+   "partido": "Chapecoense vs Cruzeiro",
+   "liga": "Brasil, Brasileirão",
+   "inicio": "2026-11-21T19:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4632588": {
+   "partido": "Bahia vs Coritiba",
+   "liga": "Brasil, Brasileirão",
+   "inicio": "2026-11-21T15:30:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4632593": {
+   "partido": "Palmeiras vs Flamengo",
+   "liga": "Brasil, Brasileirão",
+   "inicio": "2026-11-21T14:30:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4732622": {
+   "partido": "Parma vs AS Roma",
+   "liga": "Italia, Serie A",
+   "inicio": "2026-11-21T12:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4732623": {
+   "partido": "Nápoles vs Torino",
+   "liga": "Italia, Serie A",
+   "inicio": "2026-11-21T14:45:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4732626": {
+   "partido": "Lazio vs Lecce",
+   "liga": "Italia, Serie A",
+   "inicio": "2026-11-21T09:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4732627": {
+   "partido": "Juventus vs Venezia",
+   "liga": "Italia, Serie A",
+   "inicio": "2026-11-22T06:30:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4732628": {
+   "partido": "Como vs Cagliari",
+   "liga": "Italia, Serie A",
+   "inicio": "2026-11-21T09:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4735201": {
+   "partido": "Estrasburgo vs Brest",
+   "liga": "Francia, Ligue 1",
+   "inicio": "2026-11-21T14:45:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4735203": {
+   "partido": "Niza vs PSG",
+   "liga": "Francia, Ligue 1",
+   "inicio": "2026-11-21T11:15:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4735204": {
+   "partido": "Monaco vs Auxerre",
+   "liga": "Francia, Ligue 1",
+   "inicio": "2026-11-21T14:45:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4735207": {
+   "partido": "Lille vs Lyon",
+   "liga": "Francia, Ligue 1",
+   "inicio": "2026-11-21T14:45:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4735208": {
+   "partido": "Lens vs Toulouse",
+   "liga": "Francia, Ligue 1",
+   "inicio": "2026-11-21T14:45:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4741991": {
+   "partido": "Tottenham vs Ipswich",
+   "liga": "Inglaterra, Premier League",
+   "inicio": "2026-11-21T10:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4741993": {
+   "partido": "Newcastle United vs Arsenal",
+   "liga": "Inglaterra, Premier League",
+   "inicio": "2026-11-21T12:30:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4741994": {
+   "partido": "Manchester City vs Fulham",
+   "liga": "Inglaterra, Premier League",
+   "inicio": "2026-11-21T07:30:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4741997": {
+   "partido": "Coventry vs Crystal Palace",
+   "liga": "Inglaterra, Premier League",
+   "inicio": "2026-11-21T10:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4741998": {
+   "partido": "Chelsea vs Leeds United",
+   "liga": "Inglaterra, Premier League",
+   "inicio": "2026-11-21T10:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4742000": {
+   "partido": "Aston Villa vs Sunderland",
+   "liga": "Inglaterra, Premier League",
+   "inicio": "2026-11-21T10:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4742001": {
+   "partido": "Bournemouth vs Nottingham Forest",
+   "liga": "Inglaterra, Premier League",
+   "inicio": "2026-11-21T10:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4750782": {
+   "partido": "Sevilla FC vs Real Betis",
+   "liga": "España, LaLiga",
+   "inicio": "2026-11-21T12:30:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4750783": {
+   "partido": "Real Madrid vs Celta de Vigo",
+   "liga": "España, LaLiga",
+   "inicio": "2026-11-21T15:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4750784": {
+   "partido": "Rayo Vallecano vs Valencia CF",
+   "liga": "España, LaLiga",
+   "inicio": "2026-11-21T10:15:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4750791": {
+   "partido": "Alavés vs RC Deportivo",
+   "liga": "España, LaLiga",
+   "inicio": "2026-11-21T08:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4755336": {
+   "partido": "SV 07 Elversberg vs Friburgo",
+   "liga": "Alemania, Bundesliga",
+   "inicio": "2026-11-21T09:30:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4755337": {
+   "partido": "Schalke 04 vs Stuttgart",
+   "liga": "Alemania, Bundesliga",
+   "inicio": "2026-11-21T12:30:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4755339": {
+   "partido": "Borussia Mönchengladbach vs Borussia Dortmund",
+   "liga": "Alemania, Bundesliga",
+   "inicio": "2026-11-21T09:30:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4755340": {
+   "partido": "Union Berlin vs RB Leipzig",
+   "liga": "Alemania, Bundesliga",
+   "inicio": "2026-11-21T09:30:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4755342": {
+   "partido": "Eintracht Frankfurt vs Hoffenheim",
+   "liga": "Alemania, Bundesliga",
+   "inicio": "2026-11-21T09:30:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4755343": {
+   "partido": "Bayer Leverkusen vs SC Paderborn 07",
+   "liga": "Alemania, Bundesliga",
+   "inicio": "2026-11-21T09:30:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4760758": {
+   "partido": "Alianza Lima vs FC Cajamarca",
+   "liga": "Perú, Liga 1 - Clausura",
+   "inicio": "2026-11-21T15:30:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4883387": {
+   "partido": "Atlético Mineiro vs Boca Juniors",
+   "liga": "Sudamerica, CONMEBOL Copa Sudamericana - Final",
+   "inicio": "2026-11-21T17:30:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4890986": {
+   "partido": "IFK Norrköping vs KuPS",
+   "liga": "Internacional, Partido Amistoso",
+   "inicio": "2026-11-19T08:00:00-05:00",
    "estado": "pendiente",
    "ultimo": 0
   }
@@ -1523,7 +1754,7 @@
   "4874696": 1794668113355,
   "4874697": 1794668113069,
   "4874698": 1794668112773,
-  "4890986": 1794668131910,
+  "4890986": 1794890672711,
   "4716607": 1794890633822,
   "4716613": 1794890640659,
   "4722678": 1794890637277,
@@ -1554,7 +1785,39 @@
   "4891452": 1794890661329,
   "4892475": 1794890664001,
   "4894251": 1794890663362,
-  "4894252": 1794890661626
+  "4894252": 1794890661626,
+  "4632587": 1794890693854,
+  "4632588": 1794890693387,
+  "4632593": 1794890693019,
+  "4732622": 1794890683808,
+  "4732623": 1794890684947,
+  "4732626": 1794890683102,
+  "4732627": 1794890698832,
+  "4732628": 1794890683403,
+  "4735201": 1794890691315,
+  "4735203": 1794890689866,
+  "4735204": 1794890690993,
+  "4735207": 1794890691771,
+  "4735208": 1794890692124,
+  "4741991": 1794890675987,
+  "4741993": 1794890679198,
+  "4741994": 1794890675539,
+  "4741997": 1794890677144,
+  "4741998": 1794890677576,
+  "4742000": 1794890677906,
+  "4742001": 1794890679521,
+  "4750782": 1794890681633,
+  "4750783": 1794890681973,
+  "4750784": 1794890681216,
+  "4750791": 1794890680906,
+  "4755336": 1794890685653,
+  "4755337": 1794890687461,
+  "4755339": 1794890685994,
+  "4755340": 1794890686303,
+  "4755342": 1794890686668,
+  "4755343": 1794890687019,
+  "4760758": 1794890694726,
+  "4883387": 1794890695656
  },
  "tickets": [],
  "sin_creditos": false,
