@@ -1,114 +1,6 @@
 {
- "actualizado_lima": "2026-11-17 09:01",
+ "actualizado_lima": "2026-11-17 12:00",
  "partidos": [
-  {
-   "hora_lima": "2026-11-17 11:00",
-   "liga": "Copa de África de Naciones - Clasificación",
-   "equipos": [
-    {
-     "nombre": "Togo",
-     "ingles": "Togo",
-     "nada_en_juego": "",
-     "calendario": ""
-    },
-    {
-     "nombre": "Argelia",
-     "ingles": "Algeria",
-     "nada_en_juego": "",
-     "calendario": ""
-    }
-   ]
-  },
-  {
-   "hora_lima": "2026-11-17 11:00",
-   "liga": "Copa de África de Naciones - Clasificación",
-   "equipos": [
-    {
-     "nombre": "Sierra Leona",
-     "ingles": "Sierra Leone",
-     "nada_en_juego": "",
-     "calendario": ""
-    },
-    {
-     "nombre": "RD Congo",
-     "ingles": "DR Congo",
-     "nada_en_juego": "",
-     "calendario": ""
-    }
-   ]
-  },
-  {
-   "hora_lima": "2026-11-17 11:00",
-   "liga": "Copa de África de Naciones - Clasificación",
-   "equipos": [
-    {
-     "nombre": "Gambia",
-     "ingles": "Gambia",
-     "nada_en_juego": "",
-     "calendario": ""
-    },
-    {
-     "nombre": "Costa de Marfil",
-     "ingles": "Ivory Coast",
-     "nada_en_juego": "",
-     "calendario": ""
-    }
-   ]
-  },
-  {
-   "hora_lima": "2026-11-17 11:00",
-   "liga": "Copa de África de Naciones - Clasificación",
-   "equipos": [
-    {
-     "nombre": "Kenia",
-     "ingles": "Kenya",
-     "nada_en_juego": "",
-     "calendario": ""
-    },
-    {
-     "nombre": "Sudáfrica",
-     "ingles": "South Africa",
-     "nada_en_juego": "",
-     "calendario": ""
-    }
-   ]
-  },
-  {
-   "hora_lima": "2026-11-17 11:00",
-   "liga": "Copa de África de Naciones - Clasificación",
-   "equipos": [
-    {
-     "nombre": "Libia",
-     "ingles": "Libya",
-     "nada_en_juego": "",
-     "calendario": ""
-    },
-    {
-     "nombre": "Túnez",
-     "ingles": "Tunisia",
-     "nada_en_juego": "",
-     "calendario": ""
-    }
-   ]
-  },
-  {
-   "hora_lima": "2026-11-17 11:00",
-   "liga": "Copa de África de Naciones - Clasificación",
-   "equipos": [
-    {
-     "nombre": "Guinea-Bissau",
-     "ingles": "Guinea-Bissau",
-     "nada_en_juego": "",
-     "calendario": ""
-    },
-    {
-     "nombre": "Madagascar",
-     "ingles": "Madagascar",
-     "nada_en_juego": "",
-     "calendario": ""
-    }
-   ]
-  },
   {
    "hora_lima": "2026-11-17 14:00",
    "liga": "Copa de África de Naciones - Clasificación",
@@ -572,8 +464,8 @@
     {
      "nombre": "Chapecoense",
      "ingles": "Chapecoense",
-     "nada_en_juego": "",
-     "calendario": ""
+     "nada_en_juego": "20.º con 21 pts y 4 por jugar: ya no puede cambiar de zona (Descenso)",
+     "calendario": "juega Brasileirão vs Cruzeiro el sáb 21/11 (4 días después)"
     }
    ]
   },
