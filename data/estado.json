@@ -941,19 +941,34 @@
    "partido": "Singapur vs Brasil",
    "liga": "Internacional, Amistoso Internacional",
    "inicio": "2026-11-17T05:00:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1794906911.9846935,
+   "estado": "liquidado",
+   "ultimo": 1794916527.9384775,
    "clv": [],
    "clv_ok": false,
    "xi": "13341172,51397900,56848049,61996080,70854564,71108467,72757319,72831136,72831139,72831150,77382480|301811,607972,3070470,3235657,3373029,46854554,53213421,58949561,67122760,67626970,70120060",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 0,
+    "ag": 7,
+    "ht": [
+     0,
+     4
+    ],
+    "corners": 10.0,
+    "corners_h": 4.0,
+    "corners_a": 6.0,
+    "corners_1t": 6.0,
+    "cards": 2.0,
+    "cards_h": 2.0,
+    "cards_a": 0.0
+   }
   },
   "4870470": {
    "partido": "Japón vs Paraguay",
    "liga": "Internacional, Amistoso Internacional",
    "inicio": "2026-11-17T08:10:00-05:00",
    "estado": "pendiente",
-   "ultimo": 0
+   "ultimo": 1794916528.2136536
   },
   "4882784": {
    "partido": "Rusia vs Venezuela",
