@@ -968,7 +968,7 @@
    "liga": "Internacional, Amistoso Internacional",
    "inicio": "2026-11-17T08:10:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1794916528.2136536
+   "ultimo": 1794916777.415791
   },
   "4882784": {
    "partido": "Rusia vs Venezuela",
@@ -2081,6 +2081,6 @@
   "4882785",
   "4886905"
  ],
- "auto_t": 1794895057.4391675,
+ "auto_t": 1794916777.4036057,
  "rechazados": {}
 }
