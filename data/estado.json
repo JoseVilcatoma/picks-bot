@@ -1310,7 +1310,7 @@
    "liga": "Internacional, Amistoso Internacional",
    "inicio": "2026-11-17T01:00:00-05:00",
    "estado": "enviado",
-   "ultimo": 1794914983.8050272,
+   "ultimo": 1794915594.570274,
    "clv": [],
    "clv_ok": false,
    "xi": "|",
@@ -1321,7 +1321,7 @@
    "liga": "Internacional, Amistoso Internacional",
    "inicio": "2026-11-17T07:00:00-05:00",
    "estado": "enviado",
-   "ultimo": 1794915228.6540022,
+   "ultimo": 1794915594.694081,
    "clv": [],
    "clv_ok": false,
    "xi": "|",
@@ -1462,7 +1462,7 @@
    "liga": "Internacional, Amistoso Internacional",
    "inicio": "2026-11-17T07:30:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1794915351.0004158
+   "ultimo": 1794915594.7124524
   },
   "4632587": {
    "partido": "Chapecoense vs Cruzeiro",
