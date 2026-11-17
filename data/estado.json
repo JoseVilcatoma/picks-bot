@@ -1310,7 +1310,7 @@
    "liga": "Internacional, Amistoso Internacional",
    "inicio": "2026-11-17T01:00:00-05:00",
    "estado": "enviado",
-   "ultimo": 1794912505.0199568,
+   "ultimo": 1794913118.1889617,
    "clv": [],
    "clv_ok": false,
    "xi": "|",
@@ -1321,14 +1321,18 @@
    "liga": "Internacional, Amistoso Internacional",
    "inicio": "2026-11-17T07:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1794912870.8893094
+   "ultimo": 1794913118.2187572
   },
   "4882132": {
    "partido": "China vs Bahrein",
    "liga": "Internacional, Amistoso Internacional",
    "inicio": "2026-11-17T07:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1794912870.9810996
+   "estado": "enviado",
+   "ultimo": 1794913118.241141,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "439159,835848,7923823,14551870,50356168,66108112,66982896,70794826,71548405,77028504,77040188|481128,587372,1397497,6183409,9645618,59287267,67610390,71103534,71103536,76232898,77471279",
+   "conf": true
   },
   "4883812": {
    "partido": "Arabia Saudita vs Uzbekistán",
