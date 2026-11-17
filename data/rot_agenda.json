@@ -1,0 +1,735 @@
+{
+ "actualizado_lima": "2026-11-17 07:02",
+ "partidos": [
+  {
+   "hora_lima": "2026-11-17 08:00",
+   "liga": "Copa de África de Naciones - Clasificación",
+   "equipos": [
+    {
+     "nombre": "Malawi",
+     "ingles": "Malawi",
+     "nada_en_juego": "",
+     "calendario": ""
+    },
+    {
+     "nombre": "Egipto",
+     "ingles": "Egypt",
+     "nada_en_juego": "",
+     "calendario": ""
+    }
+   ]
+  },
+  {
+   "hora_lima": "2026-11-17 08:00",
+   "liga": "Copa de África de Naciones - Clasificación",
+   "equipos": [
+    {
+     "nombre": "Lesoto",
+     "ingles": "Lesotho",
+     "nada_en_juego": "",
+     "calendario": ""
+    },
+    {
+     "nombre": "Gabón",
+     "ingles": "Gabon",
+     "nada_en_juego": "",
+     "calendario": ""
+    }
+   ]
+  },
+  {
+   "hora_lima": "2026-11-17 08:00",
+   "liga": "Copa de África de Naciones - Clasificación",
+   "equipos": [
+    {
+     "nombre": "Sudán del Sur",
+     "ingles": "South Sudan",
+     "nada_en_juego": "",
+     "calendario": ""
+    },
+    {
+     "nombre": "Angola",
+     "ingles": "Angola",
+     "nada_en_juego": "",
+     "calendario": ""
+    }
+   ]
+  },
+  {
+   "hora_lima": "2026-11-17 08:00",
+   "liga": "Copa de África de Naciones - Clasificación",
+   "equipos": [
+    {
+     "nombre": "Burundi",
+     "ingles": "Burundi",
+     "nada_en_juego": "",
+     "calendario": ""
+    },
+    {
+     "nombre": "Zambia",
+     "ingles": "Zambia",
+     "nada_en_juego": "",
+     "calendario": ""
+    }
+   ]
+  },
+  {
+   "hora_lima": "2026-11-17 08:00",
+   "liga": "Copa de África de Naciones - Clasificación",
+   "equipos": [
+    {
+     "nombre": "Etiopía",
+     "ingles": "Ethiopia",
+     "nada_en_juego": "",
+     "calendario": ""
+    },
+    {
+     "nombre": "Mozambique",
+     "ingles": "Mozambique",
+     "nada_en_juego": "",
+     "calendario": ""
+    }
+   ]
+  },
+  {
+   "hora_lima": "2026-11-17 08:00",
+   "liga": "Copa de África de Naciones - Clasificación",
+   "equipos": [
+    {
+     "nombre": "Tanzania",
+     "ingles": "Tanzania",
+     "nada_en_juego": "",
+     "calendario": ""
+    },
+    {
+     "nombre": "Nigeria",
+     "ingles": "Nigeria",
+     "nada_en_juego": "",
+     "calendario": ""
+    }
+   ]
+  },
+  {
+   "hora_lima": "2026-11-17 11:00",
+   "liga": "Copa de África de Naciones - Clasificación",
+   "equipos": [
+    {
+     "nombre": "Togo",
+     "ingles": "Togo",
+     "nada_en_juego": "",
+     "calendario": ""
+    },
+    {
+     "nombre": "Argelia",
+     "ingles": "Algeria",
+     "nada_en_juego": "",
+     "calendario": ""
+    }
+   ]
+  },
+  {
+   "hora_lima": "2026-11-17 11:00",
+   "liga": "Copa de África de Naciones - Clasificación",
+   "equipos": [
+    {
+     "nombre": "Sierra Leona",
+     "ingles": "Sierra Leone",
+     "nada_en_juego": "",
+     "calendario": ""
+    },
+    {
+     "nombre": "RD Congo",
+     "ingles": "DR Congo",
+     "nada_en_juego": "",
+     "calendario": ""
+    }
+   ]
+  },
+  {
+   "hora_lima": "2026-11-17 11:00",
+   "liga": "Copa de África de Naciones - Clasificación",
+   "equipos": [
+    {
+     "nombre": "Gambia",
+     "ingles": "Gambia",
+     "nada_en_juego": "",
+     "calendario": ""
+    },
+    {
+     "nombre": "Costa de Marfil",
+     "ingles": "Ivory Coast",
+     "nada_en_juego": "",
+     "calendario": ""
+    }
+   ]
+  },
+  {
+   "hora_lima": "2026-11-17 11:00",
+   "liga": "Copa de África de Naciones - Clasificación",
+   "equipos": [
+    {
+     "nombre": "Kenia",
+     "ingles": "Kenya",
+     "nada_en_juego": "",
+     "calendario": ""
+    },
+    {
+     "nombre": "Sudáfrica",
+     "ingles": "South Africa",
+     "nada_en_juego": "",
+     "calendario": ""
+    }
+   ]
+  },
+  {
+   "hora_lima": "2026-11-17 11:00",
+   "liga": "Copa de África de Naciones - Clasificación",
+   "equipos": [
+    {
+     "nombre": "Libia",
+     "ingles": "Libya",
+     "nada_en_juego": "",
+     "calendario": ""
+    },
+    {
+     "nombre": "Túnez",
+     "ingles": "Tunisia",
+     "nada_en_juego": "",
+     "calendario": ""
+    }
+   ]
+  },
+  {
+   "hora_lima": "2026-11-17 11:00",
+   "liga": "Copa de África de Naciones - Clasificación",
+   "equipos": [
+    {
+     "nombre": "Guinea-Bissau",
+     "ingles": "Guinea-Bissau",
+     "nada_en_juego": "",
+     "calendario": ""
+    },
+    {
+     "nombre": "Madagascar",
+     "ingles": "Madagascar",
+     "nada_en_juego": "",
+     "calendario": ""
+    }
+   ]
+  },
+  {
+   "hora_lima": "2026-11-17 14:00",
+   "liga": "Copa de África de Naciones - Clasificación",
+   "equipos": [
+    {
+     "nombre": "Mauritania",
+     "ingles": "Mauritania",
+     "nada_en_juego": "",
+     "calendario": ""
+    },
+    {
+     "nombre": "Burkina Faso",
+     "ingles": "Burkina Faso",
+     "nada_en_juego": "",
+     "calendario": ""
+    }
+   ]
+  },
+  {
+   "hora_lima": "2026-11-17 14:00",
+   "liga": "CONCACAF Liga de Naciones",
+   "equipos": [
+    {
+     "nombre": "San Cristóbal y Nieves",
+     "ingles": "St. Kitts And Nevis",
+     "nada_en_juego": "2.º con 8 pts y 1 por jugar: ya no puede cambiar de zona",
+     "calendario": ""
+    },
+    {
+     "nombre": "Bonaire",
+     "ingles": "Bonaire",
+     "nada_en_juego": "",
+     "calendario": ""
+    }
+   ]
+  },
+  {
+   "hora_lima": "2026-11-17 14:00",
+   "liga": "CONCACAF Liga de Naciones",
+   "equipos": [
+    {
+     "nombre": "Belice",
+     "ingles": "Belize",
+     "nada_en_juego": "",
+     "calendario": ""
+    },
+    {
+     "nombre": "San Martín",
+     "ingles": "Sint Maarten",
+     "nada_en_juego": "",
+     "calendario": ""
+    }
+   ]
+  },
+  {
+   "hora_lima": "2026-11-17 14:00",
+   "liga": "CONCACAF Liga de Naciones",
+   "equipos": [
+    {
+     "nombre": "Santa Lucía",
+     "ingles": "Saint Lucia",
+     "nada_en_juego": "",
+     "calendario": ""
+    },
+    {
+     "nombre": "Barbados",
+     "ingles": "Barbados",
+     "nada_en_juego": "",
+     "calendario": ""
+    }
+   ]
+  },
+  {
+   "hora_lima": "2026-11-17 14:00",
+   "liga": "CONCACAF Liga de Naciones",
+   "equipos": [
+    {
+     "nombre": "Dominica",
+     "ingles": "Dominica",
+     "nada_en_juego": "",
+     "calendario": ""
+    },
+    {
+     "nombre": "Islas Caimán",
+     "ingles": "Cayman Islands",
+     "nada_en_juego": "",
+     "calendario": ""
+    }
+   ]
+  },
+  {
+   "hora_lima": "2026-11-17 14:00",
+   "liga": "Copa de África de Naciones - Clasificación",
+   "equipos": [
+    {
+     "nombre": "Botswana",
+     "ingles": "Botswana",
+     "nada_en_juego": "",
+     "calendario": ""
+    },
+    {
+     "nombre": "Uganda",
+     "ingles": "Uganda",
+     "nada_en_juego": "",
+     "calendario": ""
+    }
+   ]
+  },
+  {
+   "hora_lima": "2026-11-17 14:00",
+   "liga": "Copa de África de Naciones - Clasificación",
+   "equipos": [
+    {
+     "nombre": "Ruanda",
+     "ingles": "Rwanda",
+     "nada_en_juego": "",
+     "calendario": ""
+    },
+    {
+     "nombre": "Mali",
+     "ingles": "Mali",
+     "nada_en_juego": "",
+     "calendario": ""
+    }
+   ]
+  },
+  {
+   "hora_lima": "2026-11-17 14:00",
+   "liga": "Copa de África de Naciones - Clasificación",
+   "equipos": [
+    {
+     "nombre": "Liberia",
+     "ingles": "Liberia",
+     "nada_en_juego": "",
+     "calendario": ""
+    },
+    {
+     "nombre": "Cabo Verde",
+     "ingles": "Cape Verde",
+     "nada_en_juego": "",
+     "calendario": ""
+    }
+   ]
+  },
+  {
+   "hora_lima": "2026-11-17 14:00",
+   "liga": "Copa de África de Naciones - Clasificación",
+   "equipos": [
+    {
+     "nombre": "República del Congo",
+     "ingles": "Republic of the Congo",
+     "nada_en_juego": "",
+     "calendario": ""
+    },
+    {
+     "nombre": "Comoros",
+     "ingles": "Comoros",
+     "nada_en_juego": "",
+     "calendario": ""
+    }
+   ]
+  },
+  {
+   "hora_lima": "2026-11-17 14:45",
+   "liga": "Liga de las Naciones - UEFA",
+   "equipos": [
+    {
+     "nombre": "Irlanda",
+     "ingles": "Ireland",
+     "nada_en_juego": "",
+     "calendario": ""
+    },
+    {
+     "nombre": "Kosovo",
+     "ingles": "Kosovo",
+     "nada_en_juego": "",
+     "calendario": ""
+    }
+   ]
+  },
+  {
+   "hora_lima": "2026-11-17 14:45",
+   "liga": "Liga de las Naciones - UEFA",
+   "equipos": [
+    {
+     "nombre": "Polonia",
+     "ingles": "Poland",
+     "nada_en_juego": "",
+     "calendario": ""
+    },
+    {
+     "nombre": "Suecia",
+     "ingles": "Sweden",
+     "nada_en_juego": "1.º con 13 pts y 1 por jugar: ya no puede cambiar de zona (Ascenso)",
+     "calendario": ""
+    }
+   ]
+  },
+  {
+   "hora_lima": "2026-11-17 14:45",
+   "liga": "Liga de las Naciones - UEFA",
+   "equipos": [
+    {
+     "nombre": "Gales",
+     "ingles": "Wales",
+     "nada_en_juego": "",
+     "calendario": ""
+    },
+    {
+     "nombre": "Portugal",
+     "ingles": "Portugal",
+     "nada_en_juego": "1.º con 12 pts y 1 por jugar: ya no puede cambiar de zona (Cuartos de Final)",
+     "calendario": ""
+    }
+   ]
+  },
+  {
+   "hora_lima": "2026-11-17 14:45",
+   "liga": "Liga de las Naciones - UEFA",
+   "equipos": [
+    {
+     "nombre": "Dinamarca",
+     "ingles": "Denmark",
+     "nada_en_juego": "",
+     "calendario": ""
+    },
+    {
+     "nombre": "Noruega",
+     "ingles": "Norway",
+     "nada_en_juego": "",
+     "calendario": ""
+    }
+   ]
+  },
+  {
+   "hora_lima": "2026-11-17 14:45",
+   "liga": "Liga de las Naciones - UEFA",
+   "equipos": [
+    {
+     "nombre": "Bosnia Herzegovina",
+     "ingles": "Bosnia & Herzegovina",
+     "nada_en_juego": "2.º con 8 pts y 1 por jugar: ya no puede cambiar de zona (Reducido de Ascenso)",
+     "calendario": ""
+    },
+    {
+     "nombre": "Rumania",
+     "ingles": "Romania",
+     "nada_en_juego": "",
+     "calendario": ""
+    }
+   ]
+  },
+  {
+   "hora_lima": "2026-11-17 14:45",
+   "liga": "Liga de las Naciones - UEFA",
+   "equipos": [
+    {
+     "nombre": "Israel",
+     "ingles": "Israel",
+     "nada_en_juego": "",
+     "calendario": ""
+    },
+    {
+     "nombre": "Austria",
+     "ingles": "Austria",
+     "nada_en_juego": "1.º con 11 pts y 1 por jugar: ya no puede cambiar de zona (Ascenso)",
+     "calendario": ""
+    }
+   ]
+  },
+  {
+   "hora_lima": "2026-11-17 14:45",
+   "liga": "Liga de las Naciones - UEFA",
+   "equipos": [
+    {
+     "nombre": "Ucrania",
+     "ingles": "Ukraine",
+     "nada_en_juego": "",
+     "calendario": ""
+    },
+    {
+     "nombre": "Georgia",
+     "ingles": "Georgia",
+     "nada_en_juego": "",
+     "calendario": ""
+    }
+   ]
+  },
+  {
+   "hora_lima": "2026-11-17 14:45",
+   "liga": "Liga de las Naciones - UEFA",
+   "equipos": [
+    {
+     "nombre": "Hungría",
+     "ingles": "Hungary",
+     "nada_en_juego": "",
+     "calendario": ""
+    },
+    {
+     "nombre": "Irlanda del Norte",
+     "ingles": "Northern Ireland",
+     "nada_en_juego": "",
+     "calendario": ""
+    }
+   ]
+  },
+  {
+   "hora_lima": "2026-11-17 15:00",
+   "liga": "Copa de África de Naciones - Clasificación",
+   "equipos": [
+    {
+     "nombre": "Niger",
+     "ingles": "Niger",
+     "nada_en_juego": "",
+     "calendario": ""
+    },
+    {
+     "nombre": "Marruecos",
+     "ingles": "Morocco",
+     "nada_en_juego": "",
+     "calendario": ""
+    }
+   ]
+  },
+  {
+   "hora_lima": "2026-11-17 19:00",
+   "liga": "CONCACAF Liga de Naciones",
+   "equipos": [
+    {
+     "nombre": "Estados Unidos",
+     "ingles": "USA",
+     "nada_en_juego": "",
+     "calendario": ""
+    },
+    {
+     "nombre": "Haití",
+     "ingles": "Haiti",
+     "nada_en_juego": "",
+     "calendario": ""
+    }
+   ]
+  },
+  {
+   "hora_lima": "2026-11-17 19:00",
+   "liga": "CONCACAF Liga de Naciones",
+   "equipos": [
+    {
+     "nombre": "Guayana Francesa",
+     "ingles": "French Guiana",
+     "nada_en_juego": "",
+     "calendario": ""
+    },
+    {
+     "nombre": "San Vicente y Las Granadinas",
+     "ingles": "Saint Vincent And The Grenadines",
+     "nada_en_juego": "",
+     "calendario": ""
+    }
+   ]
+  },
+  {
+   "hora_lima": "2026-11-17 20:00",
+   "liga": "CONCACAF Liga de Naciones",
+   "equipos": [
+    {
+     "nombre": "El Salvador",
+     "ingles": "El Salvador",
+     "nada_en_juego": "",
+     "calendario": ""
+    },
+    {
+     "nombre": "Saint-Martin",
+     "ingles": "Saint-Martin",
+     "nada_en_juego": "",
+     "calendario": ""
+    }
+   ]
+  },
+  {
+   "hora_lima": "2026-11-17 21:30",
+   "liga": "CONCACAF Liga de Naciones",
+   "equipos": [
+    {
+     "nombre": "México",
+     "ingles": "Mexico",
+     "nada_en_juego": "",
+     "calendario": ""
+    },
+    {
+     "nombre": "Jamaica",
+     "ingles": "Jamaica",
+     "nada_en_juego": "",
+     "calendario": ""
+    }
+   ]
+  },
+  {
+   "hora_lima": "2026-11-17 22:00",
+   "liga": "CONCACAF Liga de Naciones",
+   "equipos": [
+    {
+     "nombre": "Nicaragua",
+     "ingles": "Nicaragua",
+     "nada_en_juego": "",
+     "calendario": ""
+    },
+    {
+     "nombre": "Montserrat",
+     "ingles": "Montserrat",
+     "nada_en_juego": "",
+     "calendario": ""
+    }
+   ]
+  },
+  {
+   "hora_lima": "2026-11-18 15:00",
+   "liga": "Liga 1 Perú",
+   "equipos": [
+    {
+     "nombre": "Alianza Atletico",
+     "ingles": "Alianza Atletico",
+     "nada_en_juego": "",
+     "calendario": ""
+    },
+    {
+     "nombre": "FBC Melgar",
+     "ingles": "FBC Melgar",
+     "nada_en_juego": "",
+     "calendario": ""
+    }
+   ]
+  },
+  {
+   "hora_lima": "2026-11-18 17:30",
+   "liga": "Brasileirão Serie A",
+   "equipos": [
+    {
+     "nombre": "Coritiba",
+     "ingles": "Coritiba",
+     "nada_en_juego": "",
+     "calendario": ""
+    },
+    {
+     "nombre": "Santos",
+     "ingles": "Santos",
+     "nada_en_juego": "",
+     "calendario": ""
+    }
+   ]
+  },
+  {
+   "hora_lima": "2026-11-18 18:00",
+   "liga": "Brasileirão Serie A",
+   "equipos": [
+    {
+     "nombre": "Remo",
+     "ingles": "Remo",
+     "nada_en_juego": "",
+     "calendario": ""
+    },
+    {
+     "nombre": "Chapecoense",
+     "ingles": "Chapecoense",
+     "nada_en_juego": "",
+     "calendario": ""
+    }
+   ]
+  },
+  {
+   "hora_lima": "2026-11-18 18:30",
+   "liga": "Brasileirão Serie A",
+   "equipos": [
+    {
+     "nombre": "Cruzeiro",
+     "ingles": "Cruzeiro",
+     "nada_en_juego": "",
+     "calendario": ""
+    },
+    {
+     "nombre": "Palmeiras",
+     "ingles": "Palmeiras",
+     "nada_en_juego": "",
+     "calendario": ""
+    }
+   ]
+  },
+  {
+   "hora_lima": "2026-11-18 18:30",
+   "liga": "Brasileirão Serie A",
+   "equipos": [
+    {
+     "nombre": "Flamengo",
+     "ingles": "Flamengo",
+     "nada_en_juego": "",
+     "calendario": ""
+    },
+    {
+     "nombre": "Athletico Paranaense",
+     "ingles": "Athletico Paranaense",
+     "nada_en_juego": "",
+     "calendario": ""
+    }
+   ]
+  }
+ ],
+ "titulares_ya_enviados": [
+  "a new rotation of american troops in lithuania. two battalions have arrived in the country",
+  "bafana bafana coach pitso mosimane questioned over teboho mokoena selection against kenya ",
+  "lithuanian president says us troop rotations will continue beyond latest deployment - reut",
+  "mosimane believes bafana are well-rested for kenya rematch - the citizen",
+  "nigeria, donde el terror sigue vivo | nr | periodismo alternativo - nr | periodismo altern",
+  "scotland set to face much-changed team as switzerland boss sets out ‘less serious’ final g",
+  "scotland: switzerland to rotate as manuel akanji adds to absences - bbc",
+  "“seguiremos con quien sea necesario”: brown deja a jose alvarado fuera de la rotacion de l"
+ ]
+}
