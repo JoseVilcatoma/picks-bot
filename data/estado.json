@@ -1310,7 +1310,7 @@
    "liga": "Internacional, Amistoso Internacional",
    "inicio": "2026-11-17T01:00:00-05:00",
    "estado": "enviado",
-   "ultimo": 1794913760.5939367,
+   "ultimo": 1794914369.9967084,
    "clv": [],
    "clv_ok": false,
    "xi": "|",
@@ -1321,7 +1321,7 @@
    "liga": "Internacional, Amistoso Internacional",
    "inicio": "2026-11-17T07:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1794914126.3457124
+   "ultimo": 1794914370.1229959
   },
   "4882132": {
    "partido": "China vs Bahrein",
@@ -1458,7 +1458,7 @@
    "liga": "Internacional, Amistoso Internacional",
    "inicio": "2026-11-17T07:30:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1794914126.419243
+   "ultimo": 1794914370.1480691
   },
   "4632587": {
    "partido": "Chapecoense vs Cruzeiro",
