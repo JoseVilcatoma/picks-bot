@@ -1099,15 +1099,23 @@
    "partido": "San Cristóbal y Nieves vs Bonaire",
    "liga": "Norteamérica, CONCACAF Liga de Naciones - Liga B - Grupo 3",
    "inicio": "2026-11-17T14:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1794939547.206697
+   "estado": "enviado",
+   "ultimo": 1794939670.4822242,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "|",
+   "conf": false
   },
   "4874696": {
    "partido": "Belice vs San Martín",
    "liga": "Norteamérica, CONCACAF Liga de Naciones - Liga B - Grupo 4",
    "inicio": "2026-11-17T14:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1794939547.285231
+   "estado": "enviado",
+   "ultimo": 1794939671.2628515,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "|",
+   "conf": false
   },
   "4874697": {
    "partido": "Santa Lucía vs Barbados",
@@ -1124,8 +1132,12 @@
    "partido": "Dominica vs Islas Caimán",
    "liga": "Norteamérica, CONCACAF Liga de Naciones - Liga B - Grupo 1",
    "inicio": "2026-11-17T14:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1794939547.3639843
+   "estado": "enviado",
+   "ultimo": 1794939671.9364371,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "66358310,68067821,70838903,72094461,72768786,72768787,72768789,72768792,79435573,81411211,81411229|50793993,70921891,70921892,71910710,72771029,72771042,79435565,79435568,79494650,81415182,81415183",
+   "conf": true
   },
   "4716607": {
    "partido": "Malawi vs Egipto",
@@ -1157,8 +1169,12 @@
    "partido": "Mauritania vs Burkina Faso",
    "liga": "África, Copa de África de Naciones - Clasificación",
    "inicio": "2026-11-17T14:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1794939547.443067
+   "estado": "enviado",
+   "ultimo": 1794939672.5302143,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "|",
+   "conf": false
   },
   "4722678": {
    "partido": "Togo vs Argelia",
@@ -1450,8 +1466,12 @@
    "partido": "Botswana vs Uganda",
    "liga": "África, Copa de África de Naciones - Clasificación",
    "inicio": "2026-11-17T14:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1794939547.5199537
+   "estado": "enviado",
+   "ultimo": 1794939674.2415135,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "|",
+   "conf": false
   },
   "4853663": {
    "partido": "Jordania vs Australia",
@@ -1610,22 +1630,34 @@
    "partido": "Ruanda vs Mali",
    "liga": "África, Copa de África de Naciones - Clasificación",
    "inicio": "2026-11-17T14:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1794939547.598154
+   "estado": "enviado",
+   "ultimo": 1794939675.5650742,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "|",
+   "conf": false
   },
   "4883958": {
    "partido": "Liberia vs Cabo Verde",
    "liga": "África, Copa de África de Naciones - Clasificación",
    "inicio": "2026-11-17T14:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1794939547.6767733
+   "estado": "enviado",
+   "ultimo": 1794939677.4148216,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "|",
+   "conf": false
   },
   "4883959": {
    "partido": "República del Congo vs Comoros",
    "liga": "África, Copa de África de Naciones - Clasificación",
    "inicio": "2026-11-17T14:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1794939547.7564087
+   "estado": "enviado",
+   "ultimo": 1794939678.3748944,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "|",
+   "conf": false
   },
   "4883960": {
    "partido": "Niger vs Marruecos",
