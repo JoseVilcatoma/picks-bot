@@ -968,7 +968,7 @@
    "liga": "Internacional, Amistoso Internacional",
    "inicio": "2026-11-17T08:10:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1794917773.0060644
+   "ultimo": 1794918022.910544
   },
   "4882784": {
    "partido": "Rusia vs Venezuela",
@@ -1219,8 +1219,12 @@
    "partido": "Malawi vs Egipto",
    "liga": "África, Copa de África de Naciones - Clasificación",
    "inicio": "2026-11-17T08:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1794917900.0821264
+   "estado": "enviado",
+   "ultimo": 1794918023.004566,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "49978809,59818886,59819083,62600689,67878079,67878082,70924174,71105210,76583937,77192715,81466632|347901,434253,517168,529327,741216,3403495,4225832,46439463,49463074,50505357,50578373",
+   "conf": true
   },
   "4716613": {
    "partido": "Mauritania vs Burkina Faso",
@@ -1247,36 +1251,56 @@
    "partido": "Lesoto vs Gabón",
    "liga": "África, Copa de África de Naciones - Clasificación",
    "inicio": "2026-11-17T08:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1794917900.0931344
+   "estado": "enviado",
+   "ultimo": 1794918024.214655,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "|",
+   "conf": false
   },
   "4883948": {
    "partido": "Sudán del Sur vs Angola",
    "liga": "África, Copa de África de Naciones - Clasificación",
    "inicio": "2026-11-17T08:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1794917900.1036708
+   "estado": "enviado",
+   "ultimo": 1794918026.3565474,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "|",
+   "conf": false
   },
   "4883949": {
    "partido": "Burundi vs Zambia",
    "liga": "África, Copa de África de Naciones - Clasificación",
    "inicio": "2026-11-17T08:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1794917900.1149912
+   "estado": "enviado",
+   "ultimo": 1794918027.78931,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "|",
+   "conf": false
   },
   "4883950": {
    "partido": "Etiopía vs Mozambique",
    "liga": "África, Copa de África de Naciones - Clasificación",
    "inicio": "2026-11-17T08:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1794917900.1256254
+   "estado": "enviado",
+   "ultimo": 1794918029.7749436,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "|",
+   "conf": false
   },
   "4883951": {
    "partido": "Tanzania vs Nigeria",
    "liga": "África, Copa de África de Naciones - Clasificación",
    "inicio": "2026-11-17T08:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1794917900.1366258
+   "estado": "enviado",
+   "ultimo": 1794918031.2425451,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "|",
+   "conf": false
   },
   "4883952": {
    "partido": "Gambia vs Costa de Marfil",
@@ -1420,8 +1444,12 @@
    "partido": "Líbano vs Palestina",
    "liga": "Internacional, Amistoso Internacional",
    "inicio": "2026-11-17T08:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1794917900.147669
+   "estado": "enviado",
+   "ultimo": 1794918032.5959132,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "|",
+   "conf": false
   },
   "4892475": {
    "partido": "Tahiti vs Cook Islands",
