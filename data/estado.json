@@ -1219,15 +1219,23 @@
    "partido": "Togo vs Argelia",
    "liga": "África, Copa de África de Naciones - Clasificación",
    "inicio": "2026-11-17T11:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1794928756.1081753
+   "estado": "enviado",
+   "ultimo": 1794928879.3210895,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "|",
+   "conf": false
   },
   "4883534": {
    "partido": "Sierra Leona vs RD Congo",
    "liga": "África, Copa de África de Naciones - Clasificación",
    "inicio": "2026-11-17T11:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1794928756.2182825
+   "estado": "enviado",
+   "ultimo": 1794928880.8720224,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "|",
+   "conf": false
   },
   "4883947": {
    "partido": "Lesoto vs Gabón",
@@ -1363,29 +1371,45 @@
    "partido": "Gambia vs Costa de Marfil",
    "liga": "África, Copa de África de Naciones - Clasificación",
    "inicio": "2026-11-17T11:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1794928756.3027391
+   "estado": "enviado",
+   "ultimo": 1794928882.5588665,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "|",
+   "conf": false
   },
   "4883953": {
    "partido": "Kenia vs Sudáfrica",
    "liga": "África, Copa de África de Naciones - Clasificación",
    "inicio": "2026-11-17T11:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1794928756.393614
+   "estado": "enviado",
+   "ultimo": 1794928883.8436747,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "|",
+   "conf": false
   },
   "4883954": {
    "partido": "Libia vs Túnez",
    "liga": "África, Copa de África de Naciones - Clasificación",
    "inicio": "2026-11-17T11:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1794928756.4796593
+   "estado": "enviado",
+   "ultimo": 1794928885.2384212,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "|",
+   "conf": false
   },
   "4883955": {
    "partido": "Guinea-Bissau vs Madagascar",
    "liga": "África, Copa de África de Naciones - Clasificación",
    "inicio": "2026-11-17T11:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1794928756.5686553
+   "estado": "enviado",
+   "ultimo": 1794928886.4431517,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "|",
+   "conf": false
   },
   "4883956": {
    "partido": "Botswana vs Uganda",
@@ -1553,7 +1577,7 @@
    "liga": "Internacional, Amistoso Internacional",
    "inicio": "2026-11-17T11:15:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1794928633.2137063
+   "ultimo": 1794928887.7047493
   },
   "4891452": {
    "partido": "Líbano vs Palestina",
