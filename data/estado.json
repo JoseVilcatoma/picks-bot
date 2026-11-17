@@ -818,8 +818,12 @@
    "partido": "Uruguay vs República Dominicana",
    "liga": "Internacional, Amistoso Internacional",
    "inicio": "2026-11-17T18:30:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1794955795.0576172
+   "estado": "enviado",
+   "ultimo": 1794955920.2124023,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "374962,412242,624663,941875,1091210,3144702,4232616,6413782,12727996,64352162,67627457|426827,913383,3176495,46560015,51632826,56727230,66848776,67349847,67639875,67862615,71019047",
+   "conf": false
   },
   "4874691": {
    "partido": "Estados Unidos vs Haití",
