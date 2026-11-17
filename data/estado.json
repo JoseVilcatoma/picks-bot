@@ -942,8 +942,12 @@
    "partido": "Irlanda vs Kosovo",
    "liga": "Europa, Liga de las Naciones - UEFA - Liga B - Grupo 3",
    "inicio": "2026-11-17T14:45:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1794940810.19366
+   "estado": "enviado",
+   "ultimo": 1794941061.9607196,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "556319,1381354,3055990,3209729,28717125,30121643,32246907,62814887,64075433,65066264,66220481|550387,3052014,3269973,3544280,57609066,61020641,64195671,66124955,66840369,68006639,77071200",
+   "conf": true
   },
   "4672265": {
    "partido": "Polonia vs Suecia",
@@ -972,7 +976,7 @@
    "liga": "Europa, Liga de las Naciones - UEFA - Liga B - Grupo 4",
    "inicio": "2026-11-17T14:45:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1794940810.2857726
+   "ultimo": 1794941062.5280359
   },
   "4672269": {
    "partido": "Israel vs Austria",
