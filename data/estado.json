@@ -968,7 +968,7 @@
    "liga": "Internacional, Amistoso Internacional",
    "inicio": "2026-11-17T08:10:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1794917525.9983191
+   "ultimo": 1794917773.0060644
   },
   "4882784": {
    "partido": "Rusia vs Venezuela",
@@ -1477,11 +1477,11 @@
    "liga": "Internacional, Amistoso Internacional",
    "inicio": "2026-11-17T07:30:00-05:00",
    "estado": "enviado",
-   "ultimo": 1794917400.5078595,
+   "ultimo": 1794917773.1028726,
    "clv": [],
    "clv_ok": false,
-   "xi": "|",
-   "conf": false
+   "xi": "483455,11750693,51129709,51130099,51579196,71017121,72768979,75514889,81466591,81466592,81466593|7039084,58106153,58106164,65483669,66482807,67881342,70951666,70951670,70951674,77853032,79533437",
+   "conf": true
   },
   "4632587": {
    "partido": "Chapecoense vs Cruzeiro",
