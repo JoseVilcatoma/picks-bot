@@ -105,32 +105,6 @@
     "cards_a": 0.0
    }
   },
-  "4874706": {
-   "partido": "Jamaica vs México",
-   "liga": "Norteamérica, CONCACAF Liga de Naciones - Cuartos de Final",
-   "inicio": "2026-11-14T20:00:00-05:00",
-   "estado": "liquidado",
-   "ultimo": 1794711369.3830702,
-   "clv": [],
-   "clv_ok": false,
-   "xi": "30150734,38782619,57991465,60259971,66862601,67601731,67601733,70755383,70858817,70918809,71890992|251296,614652,3141806,3212031,3453817,3466986,26320805,29898109,50443523,50618149,65566308",
-   "conf": true,
-   "r": {
-    "hg": 3,
-    "ag": 2,
-    "ht": [
-     1,
-     0
-    ],
-    "corners": 7.0,
-    "corners_h": 4.0,
-    "corners_a": 3.0,
-    "corners_1t": 5.0,
-    "cards": 0.0,
-    "cards_h": 0.0,
-    "cards_a": 0.0
-   }
-  },
   "4672272": {
    "partido": "Macedonia del Norte vs Eslovenia",
    "liga": "Europa, Liga de las Naciones - UEFA - Liga B - Grupo 1",
