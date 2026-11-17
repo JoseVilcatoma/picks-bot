@@ -1190,14 +1190,14 @@
    "liga": "África, Copa de África de Naciones - Clasificación",
    "inicio": "2026-11-17T11:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1794926770.752465
+   "ultimo": 1794927016.739774
   },
   "4883534": {
    "partido": "Sierra Leona vs RD Congo",
    "liga": "África, Copa de África de Naciones - Clasificación",
    "inicio": "2026-11-17T11:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1794926770.841852
+   "ultimo": 1794927016.7507272
   },
   "4883947": {
    "partido": "Lesoto vs Gabón",
@@ -1259,28 +1259,28 @@
    "liga": "África, Copa de África de Naciones - Clasificación",
    "inicio": "2026-11-17T11:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1794926770.9287205
+   "ultimo": 1794927016.7611382
   },
   "4883953": {
    "partido": "Kenia vs Sudáfrica",
    "liga": "África, Copa de África de Naciones - Clasificación",
    "inicio": "2026-11-17T11:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1794926771.0198057
+   "ultimo": 1794927016.7723238
   },
   "4883954": {
    "partido": "Libia vs Túnez",
    "liga": "África, Copa de África de Naciones - Clasificación",
    "inicio": "2026-11-17T11:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1794926771.1067538
+   "ultimo": 1794927016.7841265
   },
   "4883955": {
    "partido": "Guinea-Bissau vs Madagascar",
    "liga": "África, Copa de África de Naciones - Clasificación",
    "inicio": "2026-11-17T11:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1794926771.201948
+   "ultimo": 1794927016.7946067
   },
   "4883956": {
    "partido": "Botswana vs Uganda",
@@ -1294,7 +1294,7 @@
    "liga": "Internacional, Amistoso Internacional",
    "inicio": "2026-11-17T11:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1794926771.2927504
+   "ultimo": 1794927016.806829
   },
   "4876081": {
    "partido": "Malasia vs Yemen",
@@ -1375,8 +1375,12 @@
    "partido": "Arabia Saudita vs Uzbekistán",
    "liga": "Internacional, Amistoso Internacional",
    "inicio": "2026-11-17T10:30:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1794926893.9672706
+   "estado": "enviado",
+   "ultimo": 1794927016.8935604,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "3231193,3359858,3359869,6888928,11902504,12231560,50453757,52363030,61681368,66619442,71010396|646585,6589797,39675231,51977846,65823370,65823374,67820172,67820212,77502800,77660495,79089998",
+   "conf": true
   },
   "4883905": {
    "partido": "Qatar vs Corea del Sur",
