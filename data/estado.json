@@ -1195,6 +1195,104 @@
    "inicio": "2026-11-17T14:00:00-05:00",
    "estado": "pendiente",
    "ultimo": 0
+  },
+  "4716607": {
+   "partido": "Malawi vs Egipto",
+   "liga": "África, Copa de África de Naciones - Clasificación",
+   "inicio": "2026-11-17T08:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4716613": {
+   "partido": "Mauritania vs Burkina Faso",
+   "liga": "África, Copa de África de Naciones - Clasificación",
+   "inicio": "2026-11-17T14:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4722678": {
+   "partido": "Togo vs Argelia",
+   "liga": "África, Copa de África de Naciones - Clasificación",
+   "inicio": "2026-11-17T11:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4883534": {
+   "partido": "Sierra Leona vs RD Congo",
+   "liga": "África, Copa de África de Naciones - Clasificación",
+   "inicio": "2026-11-17T11:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4883947": {
+   "partido": "Lesoto vs Gabón",
+   "liga": "África, Copa de África de Naciones - Clasificación",
+   "inicio": "2026-11-17T08:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4883948": {
+   "partido": "Sudán del Sur vs Angola",
+   "liga": "África, Copa de África de Naciones - Clasificación",
+   "inicio": "2026-11-17T08:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4883949": {
+   "partido": "Burundi vs Zambia",
+   "liga": "África, Copa de África de Naciones - Clasificación",
+   "inicio": "2026-11-17T08:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4883950": {
+   "partido": "Etiopía vs Mozambique",
+   "liga": "África, Copa de África de Naciones - Clasificación",
+   "inicio": "2026-11-17T08:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4883951": {
+   "partido": "Tanzania vs Nigeria",
+   "liga": "África, Copa de África de Naciones - Clasificación",
+   "inicio": "2026-11-17T08:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4883952": {
+   "partido": "Gambia vs Costa de Marfil",
+   "liga": "África, Copa de África de Naciones - Clasificación",
+   "inicio": "2026-11-17T11:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4883953": {
+   "partido": "Kenia vs Sudáfrica",
+   "liga": "África, Copa de África de Naciones - Clasificación",
+   "inicio": "2026-11-17T11:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4883954": {
+   "partido": "Libia vs Túnez",
+   "liga": "África, Copa de África de Naciones - Clasificación",
+   "inicio": "2026-11-17T11:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4883955": {
+   "partido": "Guinea-Bissau vs Madagascar",
+   "liga": "África, Copa de África de Naciones - Clasificación",
+   "inicio": "2026-11-17T11:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4883956": {
+   "partido": "Botswana vs Uganda",
+   "liga": "África, Copa de África de Naciones - Clasificación",
+   "inicio": "2026-11-17T14:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
   }
  },
  "web": {
@@ -1306,7 +1404,21 @@
   "4874696": 1794668113355,
   "4874697": 1794668113069,
   "4874698": 1794668112773,
-  "4890986": 1794668131910
+  "4890986": 1794668131910,
+  "4716607": 1794890633822,
+  "4716613": 1794890640659,
+  "4722678": 1794890637277,
+  "4883534": 1794890637599,
+  "4883947": 1794890634155,
+  "4883948": 1794890634738,
+  "4883949": 1794890635110,
+  "4883950": 1794890635943,
+  "4883951": 1794890636388,
+  "4883952": 1794890638320,
+  "4883953": 1794890638651,
+  "4883954": 1794890639160,
+  "4883955": 1794890640238,
+  "4883956": 1794890641083
  },
  "tickets": [],
  "sin_creditos": false,
