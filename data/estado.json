@@ -967,8 +967,12 @@
    "partido": "Japón vs Paraguay",
    "liga": "Internacional, Amistoso Internacional",
    "inicio": "2026-11-17T08:10:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1794918286.402716
+   "estado": "enviado",
+   "ultimo": 1794918532.7359886,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "4832569,13366904,14658185,49988861,49988887,49988904,49991577,67747944,67774532,67820371,75439830|334367,383111,1105235,3069284,12722929,44421294,53036664,55416459,65296564,66825230,67907422",
+   "conf": true
   },
   "4882784": {
    "partido": "Rusia vs Venezuela",
