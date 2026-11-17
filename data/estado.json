@@ -890,7 +890,7 @@
    "liga": "Europa, Liga de las Naciones - UEFA - Liga A - Grupo 4",
    "inicio": "2026-11-17T14:45:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1794940304.7915788
+   "ultimo": 1794940559.2886984
   },
   "4855911": {
    "partido": "Chile vs Colombia",
@@ -939,49 +939,57 @@
    "liga": "Europa, Liga de las Naciones - UEFA - Liga B - Grupo 3",
    "inicio": "2026-11-17T14:45:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1794940304.8880382
+   "ultimo": 1794940559.376785
   },
   "4672265": {
    "partido": "Polonia vs Suecia",
    "liga": "Europa, Liga de las Naciones - UEFA - Liga B - Grupo 4",
    "inicio": "2026-11-17T14:45:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1794940304.964968
+   "estado": "enviado",
+   "ultimo": 1794940559.4797118,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "329313,635177,3055980,3449568,15242890,50678733,64075017,74655509,77337423,77401906,77708923|375123,497101,639671,3287853,15772944,50441571,53614148,60362691,61880538,65246896,71370735",
+   "conf": true
   },
   "4672267": {
    "partido": "Dinamarca vs Noruega",
    "liga": "Europa, Liga de las Naciones - UEFA - Liga A - Grupo 4",
    "inicio": "2026-11-17T14:45:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1794940305.039011
+   "estado": "enviado",
+   "ultimo": 1794940560.6218348,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "405252,431503,2722318,3156433,3460314,3487471,8601351,26815119,47709594,50852472,65235149|392549,513371,548126,557975,841159,895074,3072169,13854543,15589104,59101484,67639636",
+   "conf": true
   },
   "4672268": {
    "partido": "Bosnia Herzegovina vs Rumania",
    "liga": "Europa, Liga de las Naciones - UEFA - Liga B - Grupo 4",
    "inicio": "2026-11-17T14:45:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1794940305.1203275
+   "ultimo": 1794940561.7257917
   },
   "4672269": {
    "partido": "Israel vs Austria",
    "liga": "Europa, Liga de las Naciones - UEFA - Liga B - Grupo 3",
    "inicio": "2026-11-17T14:45:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1794940305.270191
+   "ultimo": 1794940561.8512
   },
   "4672270": {
    "partido": "Ucrania vs Georgia",
    "liga": "Europa, Liga de las Naciones - UEFA - Liga B - Grupo 2",
    "inicio": "2026-11-17T14:45:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1794940305.3438902
+   "ultimo": 1794940561.9478986
   },
   "4672271": {
    "partido": "Hungría vs Irlanda del Norte",
    "liga": "Europa, Liga de las Naciones - UEFA - Liga B - Grupo 2",
    "inicio": "2026-11-17T14:45:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1794940305.4191253
+   "ultimo": 1794940562.037
   },
   "4632597": {
    "partido": "Remo vs Chapecoense",
