@@ -561,8 +561,18 @@
    "partido": "Cruzeiro vs Palmeiras",
    "liga": "Brasil, Brasileirão",
    "inicio": "2026-11-18T18:30:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1795041874.9340005
+   "estado": "enviado",
+   "ultimo": 1795042118.6524048,
+   "clv": [
+    {
+     "clave": "1X2||1",
+     "cuota": 2.55,
+     "texto": "Gana Cruzeiro"
+    }
+   ],
+   "clv_ok": false,
+   "xi": "139950,349582,379632,901268,973471,3072682,3261397,9932355,60482903,70751572,76902279|384001,552616,659801,892506,14889196,19463377,46803506,63950144,66228710,72468418,77045716",
+   "conf": true
   },
   "4632603": {
    "partido": "Corinthians vs Botafogo",
