@@ -1,58 +1,6 @@
 {
  "offset": 344577791,
  "seguidos": {
-  "4760761": {
-   "partido": "CD Moquegua vs Grau",
-   "liga": "Perú, Liga 1 - Clausura",
-   "inicio": "2026-11-16T15:15:00-05:00",
-   "estado": "liquidado",
-   "ultimo": 1794868258.3336694,
-   "clv": [],
-   "clv_ok": false,
-   "xi": "319980,484036,499074,514230,618911,6590900,48577293,52708695,61078193,67974745,67990841|478774,556341,890895,1858727,2547425,3123514,3218403,7495947,7980802,66107234,67756953",
-   "conf": true,
-   "r": {
-    "hg": 2,
-    "ag": 1,
-    "ht": [
-     1,
-     1
-    ],
-    "corners": 11.0,
-    "corners_h": 4.0,
-    "corners_a": 7.0,
-    "corners_1t": 7.0,
-    "cards": 5.0,
-    "cards_h": 3.0,
-    "cards_a": 2.0
-   }
-  },
-  "4760765": {
-   "partido": "Cusco FC vs ADT Tarma",
-   "liga": "Perú, Liga 1 - Clausura",
-   "inicio": "2026-11-16T15:15:00-05:00",
-   "estado": "liquidado",
-   "ultimo": 1794867648.111596,
-   "clv": [],
-   "clv_ok": false,
-   "xi": "487024,541797,547480,612085,832539,838440,2809735,3366544,8783445,14220059,47407662|358569,457528,497371,541787,618875,3137770,4416299,54920557,67902927,70823016,72047532",
-   "conf": true,
-   "r": {
-    "hg": 2,
-    "ag": 2,
-    "ht": [
-     2,
-     1
-    ],
-    "corners": 7.0,
-    "corners_h": 2.0,
-    "corners_a": 5.0,
-    "corners_1t": 4.0,
-    "cards": 6.0,
-    "cards_h": 4.0,
-    "cards_a": 2.0
-   }
-  },
   "4874699": {
    "partido": "Canadá vs Guatemala",
    "liga": "Norteamérica, CONCACAF Liga de Naciones - Cuartos de Final",
