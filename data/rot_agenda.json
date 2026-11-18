@@ -1,60 +1,6 @@
 {
- "actualizado_lima": "2026-11-17 18:00",
+ "actualizado_lima": "2026-11-17 21:01",
  "partidos": [
-  {
-   "hora_lima": "2026-11-17 19:00",
-   "liga": "CONCACAF Liga de Naciones",
-   "equipos": [
-    {
-     "nombre": "Estados Unidos",
-     "ingles": "USA",
-     "nada_en_juego": "",
-     "calendario": ""
-    },
-    {
-     "nombre": "Haití",
-     "ingles": "Haiti",
-     "nada_en_juego": "",
-     "calendario": ""
-    }
-   ]
-  },
-  {
-   "hora_lima": "2026-11-17 19:00",
-   "liga": "CONCACAF Liga de Naciones",
-   "equipos": [
-    {
-     "nombre": "Guayana Francesa",
-     "ingles": "French Guiana",
-     "nada_en_juego": "",
-     "calendario": ""
-    },
-    {
-     "nombre": "San Vicente y Las Granadinas",
-     "ingles": "Saint Vincent And The Grenadines",
-     "nada_en_juego": "",
-     "calendario": ""
-    }
-   ]
-  },
-  {
-   "hora_lima": "2026-11-17 20:00",
-   "liga": "CONCACAF Liga de Naciones",
-   "equipos": [
-    {
-     "nombre": "El Salvador",
-     "ingles": "El Salvador",
-     "nada_en_juego": "",
-     "calendario": ""
-    },
-    {
-     "nombre": "Saint-Martin",
-     "ingles": "Saint-Martin",
-     "nada_en_juego": "",
-     "calendario": ""
-    }
-   ]
-  },
   {
    "hora_lima": "2026-11-17 21:30",
    "liga": "CONCACAF Liga de Naciones",
