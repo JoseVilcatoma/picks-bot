@@ -1,42 +1,6 @@
 {
- "actualizado_lima": "2026-11-18 15:01",
+ "actualizado_lima": "2026-11-18 18:02",
  "partidos": [
-  {
-   "hora_lima": "2026-11-18 17:30",
-   "liga": "Brasileirão Serie A",
-   "equipos": [
-    {
-     "nombre": "Coritiba",
-     "ingles": "Coritiba",
-     "nada_en_juego": "",
-     "calendario": ""
-    },
-    {
-     "nombre": "Santos",
-     "ingles": "Santos",
-     "nada_en_juego": "",
-     "calendario": ""
-    }
-   ]
-  },
-  {
-   "hora_lima": "2026-11-18 18:00",
-   "liga": "Brasileirão Serie A",
-   "equipos": [
-    {
-     "nombre": "Remo",
-     "ingles": "Remo",
-     "nada_en_juego": "",
-     "calendario": ""
-    },
-    {
-     "nombre": "Chapecoense",
-     "ingles": "Chapecoense",
-     "nada_en_juego": "20.º con 21 pts y 4 por jugar: ya no puede cambiar de zona (Descenso)",
-     "calendario": "juega Brasileirão vs Cruzeiro el sáb 21/11 (4 días después)"
-    }
-   ]
-  },
   {
    "hora_lima": "2026-11-18 18:30",
    "liga": "Brasileirão Serie A",
