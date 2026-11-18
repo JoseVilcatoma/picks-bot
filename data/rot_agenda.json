@@ -1,42 +1,6 @@
 {
- "actualizado_lima": "2026-11-17 21:01",
+ "actualizado_lima": "2026-11-18 07:01",
  "partidos": [
-  {
-   "hora_lima": "2026-11-17 21:30",
-   "liga": "CONCACAF Liga de Naciones",
-   "equipos": [
-    {
-     "nombre": "México",
-     "ingles": "Mexico",
-     "nada_en_juego": "",
-     "calendario": ""
-    },
-    {
-     "nombre": "Jamaica",
-     "ingles": "Jamaica",
-     "nada_en_juego": "",
-     "calendario": ""
-    }
-   ]
-  },
-  {
-   "hora_lima": "2026-11-17 22:00",
-   "liga": "CONCACAF Liga de Naciones",
-   "equipos": [
-    {
-     "nombre": "Nicaragua",
-     "ingles": "Nicaragua",
-     "nada_en_juego": "",
-     "calendario": ""
-    },
-    {
-     "nombre": "Montserrat",
-     "ingles": "Montserrat",
-     "nada_en_juego": "",
-     "calendario": ""
-    }
-   ]
-  },
   {
    "hora_lima": "2026-11-18 15:00",
    "liga": "Liga 1 Perú",
@@ -158,6 +122,42 @@
     {
      "nombre": "Botafogo",
      "ingles": "Botafogo",
+     "nada_en_juego": "",
+     "calendario": ""
+    }
+   ]
+  },
+  {
+   "hora_lima": "2026-11-19 17:30",
+   "liga": "Brasileirão Serie A",
+   "equipos": [
+    {
+     "nombre": "Vitória",
+     "ingles": "Vitoria",
+     "nada_en_juego": "",
+     "calendario": ""
+    },
+    {
+     "nombre": "Bragantino",
+     "ingles": "RB Bragantino",
+     "nada_en_juego": "",
+     "calendario": ""
+    }
+   ]
+  },
+  {
+   "hora_lima": "2026-11-19 17:30",
+   "liga": "Brasileirão Serie A",
+   "equipos": [
+    {
+     "nombre": "Vasco Da Gama",
+     "ingles": "Vasco da Gama",
+     "nada_en_juego": "",
+     "calendario": ""
+    },
+    {
+     "nombre": "Internacional",
+     "ingles": "Internacional",
      "nada_en_juego": "",
      "calendario": ""
     }
