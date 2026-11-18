@@ -443,58 +443,6 @@
     "cards_a": 3.0
    }
   },
-  "4883945": {
-   "partido": "Eritrea vs Guinea",
-   "liga": "África, Copa de África de Naciones - Clasificación",
-   "inicio": "2026-11-16T11:00:00-05:00",
-   "estado": "liquidado",
-   "ultimo": 1794851780.3227348,
-   "clv": [],
-   "clv_ok": false,
-   "xi": "|",
-   "conf": false,
-   "r": {
-    "hg": 1,
-    "ag": 3,
-    "ht": [
-     0,
-     1
-    ],
-    "corners": 9.0,
-    "corners_h": 1.0,
-    "corners_a": 8.0,
-    "corners_1t": null,
-    "cards": 1.0,
-    "cards_h": 0.0,
-    "cards_a": 1.0
-   }
-  },
-  "4883946": {
-   "partido": "República Centroafricana vs Benin",
-   "liga": "África, Copa de África de Naciones - Clasificación",
-   "inicio": "2026-11-16T11:00:00-05:00",
-   "estado": "liquidado",
-   "ultimo": 1794852399.4644125,
-   "clv": [],
-   "clv_ok": false,
-   "xi": "50242844,50578085,52760545,66483032,70921179,72771793,75439817,77077682,77415380,77492820,77835861|544269,14616978,38965744,50575146,65281760,67872161,67872167,70876763,76941796,77066639,77188198",
-   "conf": true,
-   "r": {
-    "hg": 0,
-    "ag": 1,
-    "ht": [
-     0,
-     0
-    ],
-    "corners": 7.0,
-    "corners_h": 5.0,
-    "corners_a": 2.0,
-    "corners_1t": null,
-    "cards": 6.0,
-    "cards_h": 3.0,
-    "cards_a": 3.0
-   }
-  },
   "4845108": {
    "partido": "Singapur vs Brasil",
    "liga": "Internacional, Amistoso Internacional",
