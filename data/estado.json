@@ -1,32 +1,6 @@
 {
  "offset": 344577791,
  "seguidos": {
-  "4760759": {
-   "partido": "UTC Cajamarca vs Los Chankas",
-   "liga": "Perú, Liga 1 - Clausura",
-   "inicio": "2026-11-16T13:00:00-05:00",
-   "estado": "liquidado",
-   "ultimo": 1794858907.5465977,
-   "clv": [],
-   "clv_ok": false,
-   "xi": "468362,533380,983229,3068142,3183651,3188390,4329678,6878973,7980461,12728003,13841475|3182404,3371368,6593783,7863154,13093514,13884537,47420072,54842240,56700220,59045608,72047163",
-   "conf": true,
-   "r": {
-    "hg": 5,
-    "ag": 3,
-    "ht": [
-     1,
-     1
-    ],
-    "corners": 8.0,
-    "corners_h": 5.0,
-    "corners_a": 3.0,
-    "corners_1t": 4.0,
-    "cards": 3.0,
-    "cards_h": 2.0,
-    "cards_a": 1.0
-   }
-  },
   "4672272": {
    "partido": "Macedonia del Norte vs Eslovenia",
    "liga": "Europa, Liga de las Naciones - UEFA - Liga B - Grupo 1",
