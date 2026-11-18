@@ -1095,7 +1095,7 @@
    "liga": "Norteamérica, CONCACAF Liga de Naciones - Play-in",
    "inicio": "2026-11-17T20:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1794959835.6882722
+   "ultimo": 1794960080.323258
   },
   "4874692": {
    "partido": "Guayana Francesa vs San Vicente y Las Granadinas",
@@ -2536,6 +2536,6 @@
   "4882785",
   "4886905"
  ],
- "auto_t": 1794938424.812918,
+ "auto_t": 1794960080.306051,
  "rechazados": {}
 }
