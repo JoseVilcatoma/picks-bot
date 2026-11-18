@@ -562,7 +562,7 @@
    "liga": "Brasil, Brasileirão",
    "inicio": "2026-11-18T18:30:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1795041382.921483
+   "ultimo": 1795041626.8383925
   },
   "4632603": {
    "partido": "Corinthians vs Botafogo",
@@ -589,8 +589,12 @@
    "partido": "Flamengo vs Athletico Paranaense",
    "liga": "Brasil, Brasileirão",
    "inicio": "2026-11-18T18:30:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1795041383.0960383
+   "estado": "enviado",
+   "ultimo": 1795041627.0005298,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "76478,367429,374092,436629,489068,506159,1651346,1900508,2992976,3088103,3263629|393754,516073,2754101,3123906,5115154,15330300,52708689,53544633,56207483,66636343,67778470",
+   "conf": true
   },
   "4735200": {
    "partido": "Troyes vs Le Havre",
