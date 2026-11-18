@@ -1094,8 +1094,12 @@
    "partido": "El Salvador vs Saint-Martin",
    "liga": "Norteamérica, CONCACAF Liga de Naciones - Play-in",
    "inicio": "2026-11-17T20:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1794960812.107556
+   "estado": "enviado",
+   "ultimo": 1794961056.111406,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "944527,47683518,59698617,60436553,66325666,67666886,67873437,67902783,68291114,70864252,70873312|12114557,49671350,70921550,70921555,70921556,79423952,79423954,79423957,79424254,79431109,81428072",
+   "conf": true
   },
   "4874692": {
    "partido": "Guayana Francesa vs San Vicente y Las Granadinas",
