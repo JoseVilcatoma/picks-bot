@@ -555,7 +555,7 @@
    "liga": "Brasil, Brasileirão",
    "inicio": "2026-11-18T19:30:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1795044063.726581
+   "ultimo": 1795044307.5293622
   },
   "4632601": {
    "partido": "Cruzeiro vs Palmeiras",
@@ -567,10 +567,11 @@
     {
      "clave": "1X2||1",
      "cuota": 2.55,
-     "texto": "Gana Cruzeiro"
+     "texto": "Gana Cruzeiro",
+     "clv": 0.0293
     }
    ],
-   "clv_ok": false,
+   "clv_ok": true,
    "xi": "139950,349582,379632,901268,973471,3072682,3261397,9932355,60482903,70751572,76902279|384001,552616,659801,892506,14889196,19463377,46803506,63950144,66228710,72468418,77045716",
    "conf": true
   },
@@ -579,7 +580,7 @@
    "liga": "Brasil, Brasileirão",
    "inicio": "2026-11-18T19:30:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1795044063.847578
+   "ultimo": 1795044308.0703547
   },
   "4632604": {
    "partido": "São Paulo vs Fluminense",

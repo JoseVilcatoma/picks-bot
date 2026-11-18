@@ -4085,5 +4085,5 @@ fecha,game_id,partido,liga,tipo,mercado,clave,prob,cuota,casa,cuota_justa,ev,sta
 2026-11-18 17:48,4632601,Cruzeiro vs Palmeiras,"Brasil, Brasileirão",seguro,Cruzeiro o empate,DC||1X,0.7510,1.40,Bet365,1.33,0.0514,,si,,,
 2026-11-18 17:48,4632601,Cruzeiro vs Palmeiras,"Brasil, Brasileirão",modelo,Más de 2.5 tarjetas,CARDS|2.5|over,0.7259,,,1.38,,,si,,,
 2026-11-18 17:48,4632601,Cruzeiro vs Palmeiras,"Brasil, Brasileirão",modelo,Menos de 13.5 córners,CORN|13.5|under,0.6859,,,1.46,,,si,,,
-2026-11-18 17:48,4632601,Cruzeiro vs Palmeiras,"Brasil, Brasileirão",apostable,Gana Cruzeiro,1X2||1,0.4473,2.55,1xBet,2.24,0.0831,13.50,si,,,
+2026-11-18 17:48,4632601,Cruzeiro vs Palmeiras,"Brasil, Brasileirão",apostable,Gana Cruzeiro,1X2||1,0.4473,2.55,1xBet,2.24,0.0831,13.50,si,,,0.0293
 2026-11-18 17:48,4632601,Cruzeiro vs Palmeiras,"Brasil, Brasileirão",ticket,Palmeiras recibe gol + Cruzeiro o empate,CS||visita_no&DC||1X,0.6473,1.75,,1.54,0.1327,10.00,,,,
