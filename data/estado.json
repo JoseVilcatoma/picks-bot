@@ -863,12 +863,27 @@
    "partido": "Estados Unidos vs Haití",
    "liga": "Norteamérica, CONCACAF Liga de Naciones - Cuartos de Final",
    "inicio": "2026-11-17T19:00:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1794966931.9800203,
+   "estado": "liquidado",
+   "ultimo": 1794967546.9148126,
    "clv": [],
    "clv_ok": false,
    "xi": "571198,894428,1089351,2055909,3260720,8950563,50140815,50413540,66678159,70880318,70961426|658840,33857425,52544795,53311210,55743878,59800543,61303729,61462957,64760767,67883431,75429929",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 2,
+    "ag": 0,
+    "ht": [
+     2,
+     0
+    ],
+    "corners": 7.0,
+    "corners_h": 7.0,
+    "corners_a": 0.0,
+    "corners_1t": 4.0,
+    "cards": 6.0,
+    "cards_h": 4.0,
+    "cards_a": 2.0
+   }
   },
   "4874693": {
    "partido": "México vs Jamaica",
@@ -1196,7 +1211,7 @@
    "liga": "Norteamérica, CONCACAF Liga de Naciones - Play-in",
    "inicio": "2026-11-17T22:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1794967301.1425323
+   "ultimo": 1794967547.1800573
   },
   "4874695": {
    "partido": "San Cristóbal y Nieves vs Bonaire",
