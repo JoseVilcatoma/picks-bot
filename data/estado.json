@@ -526,7 +526,7 @@
    "liga": "Brasil, Brasileirão",
    "inicio": "2026-11-18T18:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1795039302.241075
+   "ultimo": 1795039545.9365847
   },
   "4632598": {
    "partido": "Vitória vs Bragantino",
@@ -613,12 +613,27 @@
    "partido": "Alianza Atletico vs FBC Melgar",
    "liga": "Perú, Liga 1 - Clausura",
    "inicio": "2026-11-18T15:00:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1795038936.1086903,
+   "estado": "liquidado",
+   "ultimo": 1795039546.072543,
    "clv": [],
    "clv_ok": false,
    "xi": "428984,560810,614516,3222005,13891409,14016837,29976047,56897445,71345428,71885210,77715226|137980,275266,347470,460569,648658,12728007,13334880,50627852,50635855,52833089,77711849",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 1,
+    "ag": 1,
+    "ht": [
+     0,
+     1
+    ],
+    "corners": 16.0,
+    "corners_h": 13.0,
+    "corners_a": 3.0,
+    "corners_1t": 5.0,
+    "cards": 5.0,
+    "cards_h": 2.0,
+    "cards_a": 3.0
+   }
   },
   "4874690": {
    "partido": "El Salvador vs Saint-Martin",
