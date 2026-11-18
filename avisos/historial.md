@@ -14,3 +14,9 @@
 
 ## 2026-11-17 18:55 (Lima)
 - Flamengo vs Athletico-PR: Jardim no rota, no guarda pendurados pese a Palmeiras el sábado (NetFla)
+
+## 2026-11-18 07:55 (Lima)
+- Coritiba vs Santos: vuelve Neymar; bajas Barreal, Brazão; dudas Bontempo, Caballero, Miguelito (Gazeta Esportiva)
+- Remo vs Chapecoense: no viajan Heitor, Bruno Pacheco, Yago Felipe (Tropical FM)
+- Cruzeiro vs Palmeiras: baja extra Jefté; Arias, Giay, Flaco López al banco (Lance)
+- Corinthians vs Botafogo: bajas Garro, Yuri Alberto, André Ramalho, Matheus Pereira, André Luiz; vuelven Matheuzinho, Raniele, Gabriel Paulista (InfoTimão)
