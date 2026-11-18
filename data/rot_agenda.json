@@ -1,5 +1,5 @@
 {
- "actualizado_lima": "2026-11-18 07:01",
+ "actualizado_lima": "2026-11-18 09:02",
  "partidos": [
   {
    "hora_lima": "2026-11-18 15:00",
@@ -158,6 +158,24 @@
     {
      "nombre": "Internacional",
      "ingles": "Internacional",
+     "nada_en_juego": "",
+     "calendario": ""
+    }
+   ]
+  },
+  {
+   "hora_lima": "2026-11-19 19:30",
+   "liga": "Brasileirão Serie A",
+   "equipos": [
+    {
+     "nombre": "São Paulo",
+     "ingles": "São Paulo",
+     "nada_en_juego": "",
+     "calendario": ""
+    },
+    {
+     "nombre": "Fluminense",
+     "ingles": "Fluminense",
      "nada_en_juego": "",
      "calendario": ""
     }
