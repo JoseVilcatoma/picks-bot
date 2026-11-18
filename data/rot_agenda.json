@@ -1,24 +1,6 @@
 {
- "actualizado_lima": "2026-11-18 12:01",
+ "actualizado_lima": "2026-11-18 15:01",
  "partidos": [
-  {
-   "hora_lima": "2026-11-18 15:00",
-   "liga": "Liga 1 Perú",
-   "equipos": [
-    {
-     "nombre": "Alianza Atletico",
-     "ingles": "Alianza Atletico",
-     "nada_en_juego": "",
-     "calendario": ""
-    },
-    {
-     "nombre": "FBC Melgar",
-     "ingles": "FBC Melgar",
-     "nada_en_juego": "",
-     "calendario": ""
-    }
-   ]
-  },
   {
    "hora_lima": "2026-11-18 17:30",
    "liga": "Brasileirão Serie A",
