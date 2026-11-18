@@ -554,8 +554,12 @@
    "partido": "Grêmio vs Bahia",
    "liga": "Brasil, Brasileirão",
    "inicio": "2026-11-18T19:30:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1795045040.1871545
+   "estado": "enviado",
+   "ultimo": 1795045283.8944767,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "399003,481004,483907,543870,555058,666429,1858355,2725238,66583321,67955153,69472574|140693,481741,3218315,3283662,4247204,12976848,44078581,47124009,64890852,64985333,67933529",
+   "conf": true
   },
   "4632601": {
    "partido": "Cruzeiro vs Palmeiras",
@@ -580,7 +584,7 @@
    "liga": "Brasil, Brasileirão",
    "inicio": "2026-11-18T19:30:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1795045040.2993708
+   "ultimo": 1795045284.96022
   },
   "4632604": {
    "partido": "São Paulo vs Fluminense",
