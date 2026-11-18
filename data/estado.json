@@ -183,58 +183,6 @@
     "cards_a": 2.0
    }
   },
-  "4672278": {
-   "partido": "Kazajstán vs Eslovaquia",
-   "liga": "Europa, Liga de las Naciones - UEFA - Liga C - Grupo 3",
-   "inicio": "2026-11-16T10:00:00-05:00",
-   "estado": "liquidado",
-   "ultimo": 1794848722.4896686,
-   "clv": [],
-   "clv_ok": false,
-   "xi": "373366,491044,491057,14821721,15272506,59476889,70846134,76539121,76792002,77074805,77516724|511624,537432,586163,20217955,47511720,49518713,50816657,52916135,67819177,70756823,75491438",
-   "conf": true,
-   "r": {
-    "hg": 2,
-    "ag": 2,
-    "ht": [
-     1,
-     0
-    ],
-    "corners": 5.0,
-    "corners_h": 1.0,
-    "corners_a": 4.0,
-    "corners_1t": 0.0,
-    "cards": 8.0,
-    "cards_h": 4.0,
-    "cards_a": 4.0
-   }
-  },
-  "4672279": {
-   "partido": "Islas Feroe vs Moldavia",
-   "liga": "Europa, Liga de las Naciones - UEFA - Liga C - Grupo 3",
-   "inicio": "2026-11-16T10:00:00-05:00",
-   "estado": "liquidado",
-   "ultimo": 1794848103.856372,
-   "clv": [],
-   "clv_ok": false,
-   "xi": "549393,897329,50913383,50913387,56474433,59479539,59987904,66124225,67869060,69734415,71901471|8428047,59453749,59454733,62017132,62451201,65886138,70839920,75399321,76850698,77113152,77310495",
-   "conf": true,
-   "r": {
-    "hg": 1,
-    "ag": 0,
-    "ht": [
-     1,
-     0
-    ],
-    "corners": 12.0,
-    "corners_h": 9.0,
-    "corners_a": 3.0,
-    "corners_1t": 4.0,
-    "cards": 3.0,
-    "cards_h": 1.0,
-    "cards_a": 2.0
-   }
-  },
   "4697791": {
    "partido": "Gibraltar vs Malta",
    "liga": "Europa, Liga de las Naciones - UEFA - Liga D - Grupo 1",
@@ -492,32 +440,6 @@
     "corners_1t": 6.0,
     "cards": 5.0,
     "cards_h": 2.0,
-    "cards_a": 3.0
-   }
-  },
-  "4883944": {
-   "partido": "Somalia vs Ghana",
-   "liga": "África, Copa de África de Naciones - Clasificación",
-   "inicio": "2026-11-16T10:00:00-05:00",
-   "estado": "liquidado",
-   "ultimo": 1794848722.6582456,
-   "clv": [],
-   "clv_ok": false,
-   "xi": "33857389,61117629,66545180,67635010,71104093,72770051,72770054,76827883,77507510,79437650,81416565|135032,687732,2614999,3133496,4785473,6830594,50682331,64721834,66221641,67938054,71350333",
-   "conf": true,
-   "r": {
-    "hg": 0,
-    "ag": 1,
-    "ht": [
-     0,
-     1
-    ],
-    "corners": 8.0,
-    "corners_h": 3.0,
-    "corners_a": 5.0,
-    "corners_1t": null,
-    "cards": 3.0,
-    "cards_h": 0.0,
     "cards_a": 3.0
    }
   },
