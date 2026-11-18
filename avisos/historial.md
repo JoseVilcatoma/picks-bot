@@ -20,3 +20,8 @@
 - Remo vs Chapecoense: no viajan Heitor, Bruno Pacheco, Yago Felipe (Tropical FM)
 - Cruzeiro vs Palmeiras: baja extra Jefté; Arias, Giay, Flaco López al banco (Lance)
 - Corinthians vs Botafogo: bajas Garro, Yuri Alberto, André Ramalho, Matheus Pereira, André Luiz; vuelven Matheuzinho, Raniele, Gabriel Paulista (InfoTimão)
+
+## 2026-11-18 18:55 (Lima)
+- Grêmio vs Bahia: bajas Villasanti y Kannemann (sanción); Bahia sin Léo Vieira (A Tarde)
+- Vasco vs Internacional: Inter sin Thiago Maia, vuelve Alan Patrick; Vasco recupera Thiago Mendes y Sosa (Itatiaia)
+- São Paulo vs Fluminense: sancionados Luciano, Newton, Ferreirinha; lesionados Sabino, Nicolas, Marcos Antônio, Buta, D. Duarte; Bobadilla posible descanso sin confirmar (ABCD Jornal)
