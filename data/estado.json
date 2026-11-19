@@ -473,32 +473,6 @@
     "cards_a": 3.0
    }
   },
-  "4883960": {
-   "partido": "Niger vs Marruecos",
-   "liga": "África, Copa de África de Naciones - Clasificación",
-   "inicio": "2026-11-17T15:00:00-05:00",
-   "estado": "liquidado",
-   "ultimo": 1794953156.9243925,
-   "clv": [],
-   "clv_ok": false,
-   "xi": "471327,55546413,65216434,66832981,67874645,67874646,67874648,67888525,76584314,77073757,77436424|541540,1759210,3169055,8490982,50445964,65139386,66308500,71003385,71407785,76343359,77373233",
-   "conf": true,
-   "r": {
-    "hg": 0,
-    "ag": 1,
-    "ht": [
-     0,
-     1
-    ],
-    "corners": 13.0,
-    "corners_h": 2.0,
-    "corners_a": 11.0,
-    "corners_1t": null,
-    "cards": 2.0,
-    "cards_h": 1.0,
-    "cards_a": 1.0
-   }
-  },
   "4632587": {
    "partido": "Chapecoense vs Cruzeiro",
    "liga": "Brasil, Brasileirão",
