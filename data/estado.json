@@ -212,8 +212,12 @@
    "partido": "São Paulo vs Fluminense",
    "liga": "Brasil, Brasileirão",
    "inicio": "2026-11-19T19:30:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1795132092.296398
+   "estado": "enviado",
+   "ultimo": 1795132214.4270458,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "270847,347912,400157,430655,543187,3219228,3320593,64306562,70897196,76961107,77691484|28017,102758,120107,336354,452767,457505,537128,543186,919758,41352385,64934362",
+   "conf": false
   },
   "4632605": {
    "partido": "Vasco Da Gama vs Internacional",
