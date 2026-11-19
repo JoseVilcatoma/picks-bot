@@ -506,12 +506,27 @@
    "partido": "Grêmio vs Bahia",
    "liga": "Brasil, Brasileirão",
    "inicio": "2026-11-18T19:30:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1795045283.8944767,
+   "estado": "liquidado",
+   "ultimo": 1795055220.8764918,
    "clv": [],
    "clv_ok": false,
    "xi": "399003,481004,483907,543870,555058,666429,1858355,2725238,66583321,67955153,69472574|140693,481741,3218315,3283662,4247204,12976848,44078581,47124009,64890852,64985333,67933529",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 0,
+    "ag": 0,
+    "ht": [
+     0,
+     0
+    ],
+    "corners": 12.0,
+    "corners_h": 7.0,
+    "corners_a": 5.0,
+    "corners_1t": 6.0,
+    "cards": 4.0,
+    "cards_h": 2.0,
+    "cards_a": 2.0
+   }
   },
   "4632601": {
    "partido": "Cruzeiro vs Palmeiras",
@@ -550,8 +565,8 @@
    "partido": "Corinthians vs Botafogo",
    "liga": "Brasil, Brasileirão",
    "inicio": "2026-11-18T19:30:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1795046266.1115282,
+   "estado": "liquidado",
+   "ultimo": 1795055221.139239,
    "clv": [
     {
      "clave": "OU|2.5|under",
@@ -562,7 +577,22 @@
    ],
    "clv_ok": true,
    "xi": "227037,234829,369992,376333,433045,2479509,9289348,16699960,66083960,66850382,67631833|221624,350036,401709,505448,1089549,7153495,53174766,56499975,59322748,71533160,76901942",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 4,
+    "ag": 0,
+    "ht": [
+     2,
+     0
+    ],
+    "corners": 4.0,
+    "corners_h": 2.0,
+    "corners_a": 2.0,
+    "corners_1t": 1.0,
+    "cards": 5.0,
+    "cards_h": 3.0,
+    "cards_a": 2.0
+   }
   },
   "4632604": {
    "partido": "São Paulo vs Fluminense",
