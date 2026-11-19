@@ -1588,29 +1588,6 @@
     "cards_a": 2.0
    }
   },
-  "4892475": {
-   "partido": "Tahiti vs Cook Islands",
-   "liga": "Internacional, Amistoso Internacional",
-   "inicio": "2026-11-17T00:30:00-05:00",
-   "estado": "liquidado",
-   "ultimo": 1794901544.4680812,
-   "clv": [],
-   "clv_ok": false,
-   "xi": "|",
-   "conf": false,
-   "r": {
-    "hg": 3,
-    "ag": 3,
-    "ht": null,
-    "corners": null,
-    "corners_h": null,
-    "corners_a": null,
-    "corners_1t": null,
-    "cards": null,
-    "cards_h": null,
-    "cards_a": null
-   }
-  },
   "4894251": {
    "partido": "Omán vs Brunei",
    "liga": "Internacional, Amistoso Internacional",
