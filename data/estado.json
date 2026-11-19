@@ -941,32 +941,6 @@
     "cards_a": 1.0
    }
   },
-  "4886054": {
-   "partido": "Kuwait vs Honduras",
-   "liga": "Internacional, Amistoso Internacional",
-   "inicio": "2026-11-17T11:30:00-05:00",
-   "estado": "liquidado",
-   "ultimo": 1794939931.032695,
-   "clv": [],
-   "clv_ok": false,
-   "xi": "38356964,55171111,57073654,57073655,57075545,59274666,62695104,71896526,76643597,77974423,81397963|506224,533693,4870622,5306041,12649135,12805830,14660638,66199876,67808163,71383542,77178145",
-   "conf": true,
-   "r": {
-    "hg": 0,
-    "ag": 2,
-    "ht": [
-     0,
-     2
-    ],
-    "corners": 16.0,
-    "corners_h": 5.0,
-    "corners_a": 11.0,
-    "corners_1t": null,
-    "cards": 1.0,
-    "cards_h": 0.0,
-    "cards_a": 1.0
-   }
-  },
   "4632587": {
    "partido": "Chapecoense vs Cruzeiro",
    "liga": "Brasil, Brasileirão",
