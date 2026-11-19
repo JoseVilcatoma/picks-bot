@@ -1,58 +1,6 @@
 {
  "offset": 344577791,
  "seguidos": {
-  "4855911": {
-   "partido": "Chile vs Colombia",
-   "liga": "Internacional, Amistoso Internacional",
-   "inicio": "2026-11-17T18:00:00-05:00",
-   "estado": "liquidado",
-   "ultimo": 1794963991.8108292,
-   "clv": [],
-   "clv_ok": false,
-   "xi": "893355,3130171,3217552,40774820,50177184,51059357,51073762,59992834,60025387,64741566,67640944|502298,560632,893771,1589951,9157528,17067865,28607589,47453700,65441314,65820461,67818894",
-   "conf": true,
-   "r": {
-    "hg": 0,
-    "ag": 0,
-    "ht": [
-     0,
-     0
-    ],
-    "corners": 12.0,
-    "corners_h": 4.0,
-    "corners_a": 8.0,
-    "corners_1t": 7.0,
-    "cards": 7.0,
-    "cards_h": 3.0,
-    "cards_a": 4.0
-   }
-  },
-  "4877638": {
-   "partido": "Argentina vs Costa Rica",
-   "liga": "Internacional, Amistoso Internacional",
-   "inicio": "2026-11-17T18:00:00-05:00",
-   "estado": "liquidado",
-   "ultimo": 1794963365.1335583,
-   "clv": [],
-   "clv_ok": false,
-   "xi": "407632,3886928,4201425,7180298,9638719,48394475,56856062,64935156,65512282,65642981,65895085|300375,340002,409328,566656,619351,3051125,12649150,48822811,56749969,64809309,66796740",
-   "conf": true,
-   "r": {
-    "hg": 7,
-    "ag": 0,
-    "ht": [
-     4,
-     0
-    ],
-    "corners": 7.0,
-    "corners_h": 7.0,
-    "corners_a": 0.0,
-    "corners_1t": 3.0,
-    "cards": 0.0,
-    "cards_h": 0.0,
-    "cards_a": 0.0
-   }
-  },
   "4877635": {
    "partido": "Ecuador vs Bolivia",
    "liga": "Internacional, Amistoso Internacional",
