@@ -1201,32 +1201,6 @@
     "cards_a": 1.0
    }
   },
-  "4887276": {
-   "partido": "Emiratos Árabes vs Siria",
-   "liga": "Internacional, Amistoso Internacional",
-   "inicio": "2026-11-17T09:10:00-05:00",
-   "estado": "liquidado",
-   "ultimo": 1794931501.2259634,
-   "clv": [],
-   "clv_ok": false,
-   "xi": "353358,424437,3063579,3563697,9582188,38751273,39726673,51235357,53116904,72766752,75434980|405250,898464,3222129,29971116,57174680,57174682,58801424,65252193,71147726,71523180,77360341",
-   "conf": true,
-   "r": {
-    "hg": 4,
-    "ag": 2,
-    "ht": [
-     1,
-     1
-    ],
-    "corners": 7.0,
-    "corners_h": 5.0,
-    "corners_a": 2.0,
-    "corners_1t": null,
-    "cards": 1.0,
-    "cards_h": 1.0,
-    "cards_a": 0.0
-   }
-  },
   "4891254": {
    "partido": "Irak vs Irán",
    "liga": "Internacional, Amistoso Internacional",
