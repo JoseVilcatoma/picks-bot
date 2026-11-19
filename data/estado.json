@@ -1565,32 +1565,6 @@
     "cards_a": 2.0
    }
   },
-  "4894251": {
-   "partido": "Omán vs Brunei",
-   "liga": "Internacional, Amistoso Internacional",
-   "inicio": "2026-11-17T04:00:00-05:00",
-   "estado": "liquidado",
-   "ultimo": 1794912993.6158805,
-   "clv": [],
-   "clv_ok": false,
-   "xi": "42205917,71098861,75493369,75493370,76870888,79282989,81442026,81442028,81442033,81442034,81466315|80879947,81171705,81232453,81232485,81232587,81232607,81232608,81232614,81466340,81466341,81466342",
-   "conf": true,
-   "r": {
-    "hg": 7,
-    "ag": 0,
-    "ht": [
-     4,
-     0
-    ],
-    "corners": 10.0,
-    "corners_h": 9.0,
-    "corners_a": 1.0,
-    "corners_1t": 5.0,
-    "cards": 1.0,
-    "cards_h": 1.0,
-    "cards_a": 0.0
-   }
-  },
   "4894252": {
    "partido": "Tailandia vs Tajikistan",
    "liga": "Internacional, Amistoso Internacional",
