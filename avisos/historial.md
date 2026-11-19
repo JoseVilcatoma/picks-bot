@@ -30,3 +30,8 @@
 - Vitória vs Bragantino: Vitória sin Luan Cândido, Laquintana (préstamo), Nathan Mendes, Fabiano, Dudu; Bragantino sin Rodriguinho, Davi Gomes, Lucas Barbosa (Bahia Notícias / Se Liga Bahia)
 - Bayern vs Köln: bajas Neuer, Gnabry, Saibari, Davies; Musiala posible vuelta a la lista (fcbinside)
 - Athletic vs Espanyol: Athletic sin Vivian, Guruzeta, Sannadi, duda Paredes; Espanyol sin Kike García, Calatrava; Puado no 90' (FutbolFantasy / La Grada)
+
+## 2026-11-19 18:55 (Lima)
+- São Paulo vs Fluminense: Bobadilla confirmado fuera (selección Paraguay); 9 bajas; entran Lucas Moura, Danielzinho (Lance)
+- Bayern vs Köln: vuelve Kompany; Musiala jugará según Dreesen (Sportschau)
+- Athletic vs Espanyol: Paredes disponible; Sancet y Canales disponibles; Vivian fuera ~2 semanas (Jornada Perfecta)
