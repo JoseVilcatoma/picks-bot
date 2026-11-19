@@ -1,58 +1,6 @@
 {
  "offset": 344577791,
  "seguidos": {
-  "4877635": {
-   "partido": "Ecuador vs Bolivia",
-   "liga": "Internacional, Amistoso Internacional",
-   "inicio": "2026-11-17T18:30:00-05:00",
-   "estado": "liquidado",
-   "ultimo": 1794966436.4206588,
-   "clv": [],
-   "clv_ok": false,
-   "xi": "545390,3095205,3359828,4913062,12722925,39270918,40745412,50457607,55977965,65107618,67641750|461107,1085307,2548448,3219237,53683135,56636501,58332147,60431186,65397501,66155845,68056478",
-   "conf": true,
-   "r": {
-    "hg": 2,
-    "ag": 0,
-    "ht": [
-     2,
-     0
-    ],
-    "corners": 13.0,
-    "corners_h": 7.0,
-    "corners_a": 6.0,
-    "corners_1t": 7.0,
-    "cards": 2.0,
-    "cards_h": 1.0,
-    "cards_a": 1.0
-   }
-  },
-  "4886905": {
-   "partido": "Uruguay vs República Dominicana",
-   "liga": "Internacional, Amistoso Internacional",
-   "inicio": "2026-11-17T18:30:00-05:00",
-   "estado": "liquidado",
-   "ultimo": 1794965212.9551857,
-   "clv": [],
-   "clv_ok": false,
-   "xi": "374962,412242,624663,941875,1091210,3144702,4232616,6413782,12727996,64352162,67627457|426827,913383,3176495,46560015,51632826,63130397,66848776,67639875,67862615,67952906,71019047",
-   "conf": true,
-   "r": {
-    "hg": 5,
-    "ag": 0,
-    "ht": [
-     1,
-     0
-    ],
-    "corners": 7.0,
-    "corners_h": 3.0,
-    "corners_a": 4.0,
-    "corners_1t": 3.0,
-    "cards": 6.0,
-    "cards_h": 1.0,
-    "cards_a": 5.0
-   }
-  },
   "4874691": {
    "partido": "Estados Unidos vs Haití",
    "liga": "Norteamérica, CONCACAF Liga de Naciones - Cuartos de Final",
@@ -265,7 +213,7 @@
    "liga": "Brasil, Brasileirão",
    "inicio": "2026-11-19T19:30:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1795130877.9865296
+   "ultimo": 1795131120.8198972
   },
   "4632605": {
    "partido": "Vasco Da Gama vs Internacional",
