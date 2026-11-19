@@ -1330,6 +1330,216 @@
    "inicio": "2026-11-22T15:00:00-05:00",
    "estado": "pendiente",
    "ultimo": 0
+  },
+  "4632577": {
+   "partido": "Chapecoense vs Palmeiras",
+   "liga": "Brasil, Brasileirão",
+   "inicio": "2026-11-24T16:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4632590": {
+   "partido": "Internacional vs Vitória",
+   "liga": "Brasil, Brasileirão",
+   "inicio": "2026-11-23T17:30:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4632591": {
+   "partido": "Atlético Mineiro vs Corinthians",
+   "liga": "Brasil, Brasileirão",
+   "inicio": "2026-11-25T18:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4632594": {
+   "partido": "Santos vs Grêmio",
+   "liga": "Brasil, Brasileirão",
+   "inicio": "2026-11-23T19:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4632595": {
+   "partido": "Botafogo vs São Paulo",
+   "liga": "Brasil, Brasileirão",
+   "inicio": "2026-11-23T18:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4732624": {
+   "partido": "Monza vs Fiorentina",
+   "liga": "Italia, Serie A",
+   "inicio": "2026-11-23T14:45:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4741999": {
+   "partido": "Brentford vs Everton",
+   "liga": "Inglaterra, Premier League",
+   "inicio": "2026-11-23T15:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4750787": {
+   "partido": "Levante UD vs Elche CF",
+   "liga": "España, LaLiga",
+   "inicio": "2026-11-23T15:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4828413": {
+   "partido": "Sporting CP vs Manchester United",
+   "liga": "Europa, UEFA Champions League",
+   "inicio": "2026-11-25T15:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4828414": {
+   "partido": "Atlético de Madrid vs Viking",
+   "liga": "Europa, UEFA Champions League",
+   "inicio": "2026-11-25T15:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4828415": {
+   "partido": "Brujas vs Liverpool",
+   "liga": "Europa, UEFA Champions League",
+   "inicio": "2026-11-25T15:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4828416": {
+   "partido": "Lille vs Bayern Munich",
+   "liga": "Europa, UEFA Champions League",
+   "inicio": "2026-11-25T15:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4828417": {
+   "partido": "Shakhtar Donetsk vs Fenerbahce",
+   "liga": "Europa, UEFA Champions League",
+   "inicio": "2026-11-25T15:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4828418": {
+   "partido": "PSG vs AS Roma",
+   "liga": "Europa, UEFA Champions League",
+   "inicio": "2026-11-25T15:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4828419": {
+   "partido": "Slavia Praga vs Villarreal CF",
+   "liga": "Europa, UEFA Champions League",
+   "inicio": "2026-11-25T12:45:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4828420": {
+   "partido": "Inter Milan vs Stuttgart",
+   "liga": "Europa, UEFA Champions League",
+   "inicio": "2026-11-25T15:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4828421": {
+   "partido": "Sabah vs FC Barcelona",
+   "liga": "Europa, UEFA Champions League",
+   "inicio": "2026-11-25T12:45:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4828422": {
+   "partido": "Como vs AEK Atenas",
+   "liga": "Europa, UEFA Champions League",
+   "inicio": "2026-11-24T15:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4828423": {
+   "partido": "Feyenoord vs FC Porto",
+   "liga": "Europa, UEFA Champions League",
+   "inicio": "2026-11-24T15:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4828424": {
+   "partido": "Arsenal vs Borussia Dortmund",
+   "liga": "Europa, UEFA Champions League",
+   "inicio": "2026-11-24T15:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4828425": {
+   "partido": "Slovan Bratislava vs Real Betis",
+   "liga": "Europa, UEFA Champions League",
+   "inicio": "2026-11-24T15:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4828426": {
+   "partido": "Manchester City vs Nápoles",
+   "liga": "Europa, UEFA Champions League",
+   "inicio": "2026-11-24T15:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4828427": {
+   "partido": "Real Madrid vs PSV Eindhoven",
+   "liga": "Europa, UEFA Champions League",
+   "inicio": "2026-11-24T15:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4828428": {
+   "partido": "RB Leipzig vs Lens",
+   "liga": "Europa, UEFA Champions League",
+   "inicio": "2026-11-24T15:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4828429": {
+   "partido": "Galatasaray vs Aston Villa",
+   "liga": "Europa, UEFA Champions League",
+   "inicio": "2026-11-24T12:45:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4828430": {
+   "partido": "Bodo Glimt vs LASK Linz",
+   "liga": "Europa, UEFA Champions League",
+   "inicio": "2026-11-24T12:45:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4895924": {
+   "partido": "San Cristóbal vs Terrassa FC",
+   "liga": "Internacional, Partido Amistoso",
+   "inicio": "2026-11-25T14:30:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4895925": {
+   "partido": "CF Peralada vs Girona B",
+   "liga": "Internacional, Partido Amistoso",
+   "inicio": "2026-11-25T13:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4895926": {
+   "partido": "Hospitalet vs Espanyol B",
+   "liga": "Internacional, Partido Amistoso",
+   "inicio": "2026-11-25T14:00:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
+  },
+  "4895927": {
+   "partido": "Cerdanyola Del Vallès vs CE Manresa",
+   "liga": "Internacional, Partido Amistoso",
+   "inicio": "2026-11-25T14:15:00-05:00",
+   "estado": "pendiente",
+   "ultimo": 0
   }
  },
  "web": {
@@ -1453,7 +1663,37 @@
   "4877635": 1794890977122,
   "4877638": 1794890977122,
   "4882784": 1794890977122,
-  "4886905": 1794890977122
+  "4886905": 1794890977122,
+  "4632577": 1795110401248,
+  "4632590": 1795110395828,
+  "4632591": 1795110403826,
+  "4632594": 1795110395828,
+  "4632595": 1795110395828,
+  "4732624": 1795110395828,
+  "4741999": 1795110395828,
+  "4750787": 1795110395828,
+  "4828413": 1795110403826,
+  "4828414": 1795110403826,
+  "4828415": 1795110403826,
+  "4828416": 1795110403826,
+  "4828417": 1795110403826,
+  "4828418": 1795110403826,
+  "4828419": 1795110403826,
+  "4828420": 1795110403826,
+  "4828421": 1795110403826,
+  "4828422": 1795110401248,
+  "4828423": 1795110401248,
+  "4828424": 1795110401248,
+  "4828425": 1795110401248,
+  "4828426": 1795110401248,
+  "4828427": 1795110401248,
+  "4828428": 1795110401248,
+  "4828429": 1795110401248,
+  "4828430": 1795110401248,
+  "4895924": 1795110403826,
+  "4895925": 1795110403826,
+  "4895926": 1795110403826,
+  "4895927": 1795110403826
  },
  "tickets": [],
  "sin_creditos": false,
