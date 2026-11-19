@@ -1071,32 +1071,6 @@
     "cards_a": 3.0
    }
   },
-  "4883905": {
-   "partido": "Qatar vs Corea del Sur",
-   "liga": "Internacional, Amistoso Internacional",
-   "inicio": "2026-11-17T09:00:00-05:00",
-   "estado": "liquidado",
-   "ultimo": 1794931003.7281356,
-   "clv": [],
-   "clv_ok": false,
-   "xi": "355144,444665,613844,681242,690852,3267923,7938402,8433790,10347027,50461094,66391261|116097,856288,5533521,6287441,6450095,7951019,8433803,49544451,60120064,66184090,71673214",
-   "conf": true,
-   "r": {
-    "hg": 0,
-    "ag": 1,
-    "ht": [
-     0,
-     1
-    ],
-    "corners": 5.0,
-    "corners_h": 0.0,
-    "corners_a": 5.0,
-    "corners_1t": 3.0,
-    "cards": 2.0,
-    "cards_h": 1.0,
-    "cards_a": 1.0
-   }
-  },
   "4883957": {
    "partido": "Ruanda vs Mali",
    "liga": "África, Copa de África de Naciones - Clasificación",
