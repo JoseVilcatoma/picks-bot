@@ -27,58 +27,6 @@
     "cards_a": 4.0
    }
   },
-  "4874700": {
-   "partido": "Trinidad y Tobago vs Antigua y Barbuda",
-   "liga": "Norteamérica, CONCACAF Liga de Naciones - Play-in",
-   "inicio": "2026-11-16T19:00:00-05:00",
-   "estado": "liquidado",
-   "ultimo": 1794880531.237144,
-   "clv": [],
-   "clv_ok": false,
-   "xi": "55280841,55280939,59269881,59568516,66670687,69831079,70939705,71889238,77957187,79310601,79435551|3268632,67877189,67877205,72768292,72768297,75510074,77022113,77194121,77194123,77471557,79431968",
-   "conf": true,
-   "r": {
-    "hg": 1,
-    "ag": 1,
-    "ht": [
-     1,
-     1
-    ],
-    "corners": 15.0,
-    "corners_h": 11.0,
-    "corners_a": 4.0,
-    "corners_1t": 4.0,
-    "cards": 1.0,
-    "cards_h": 0.0,
-    "cards_a": 1.0
-   }
-  },
-  "4874701": {
-   "partido": "Martinica vs Aruba",
-   "liga": "Norteamérica, CONCACAF Liga de Naciones - Play-in",
-   "inicio": "2026-11-16T19:00:00-05:00",
-   "estado": "liquidado",
-   "ultimo": 1794882968.3539338,
-   "clv": [],
-   "clv_ok": false,
-   "xi": "333600,921155,1766586,3174118,3649182,10054664,15344018,49655652,50578078,50684401,75435300|9080598,10314025,71156897,71905928,71905929,71905933,75430597,75505430,79431996,79431999,81404481",
-   "conf": true,
-   "r": {
-    "hg": 1,
-    "ag": 1,
-    "ht": [
-     1,
-     1
-    ],
-    "corners": 8.0,
-    "corners_h": 8.0,
-    "corners_a": 0.0,
-    "corners_1t": 3.0,
-    "cards": 7.0,
-    "cards_h": 4.0,
-    "cards_a": 3.0
-   }
-  },
   "4845108": {
    "partido": "Singapur vs Brasil",
    "liga": "Internacional, Amistoso Internacional",
