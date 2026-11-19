@@ -25,3 +25,8 @@
 - Grêmio vs Bahia: bajas Villasanti y Kannemann (sanción); Bahia sin Léo Vieira (A Tarde)
 - Vasco vs Internacional: Inter sin Thiago Maia, vuelve Alan Patrick; Vasco recupera Thiago Mendes y Sosa (Itatiaia)
 - São Paulo vs Fluminense: sancionados Luciano, Newton, Ferreirinha; lesionados Sabino, Nicolas, Marcos Antônio, Buta, D. Duarte; Bobadilla posible descanso sin confirmar (ABCD Jornal)
+
+## 2026-11-19 07:55 (Lima)
+- Vitória vs Bragantino: Vitória sin Luan Cândido, Laquintana (préstamo), Nathan Mendes, Fabiano, Dudu; Bragantino sin Rodriguinho, Davi Gomes, Lucas Barbosa (Bahia Notícias / Se Liga Bahia)
+- Bayern vs Köln: bajas Neuer, Gnabry, Saibari, Davies; Musiala posible vuelta a la lista (fcbinside)
+- Athletic vs Espanyol: Athletic sin Vivian, Guruzeta, Sannadi, duda Paredes; Espanyol sin Kike García, Calatrava; Puado no 90' (FutbolFantasy / La Grada)
