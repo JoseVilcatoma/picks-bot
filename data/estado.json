@@ -1045,32 +1045,6 @@
     "cards_a": 2.0
    }
   },
-  "4883812": {
-   "partido": "Arabia Saudita vs Uzbekistán",
-   "liga": "Internacional, Amistoso Internacional",
-   "inicio": "2026-11-17T10:30:00-05:00",
-   "estado": "liquidado",
-   "ultimo": 1794936948.058039,
-   "clv": [],
-   "clv_ok": false,
-   "xi": "3231193,3359858,3359869,6888928,11902504,12231560,50453757,52363030,61681368,66619442,71010396|646585,6589797,39675231,51977846,65823370,65823374,67820172,67820212,77502800,77660495,79089998",
-   "conf": true,
-   "r": {
-    "hg": 1,
-    "ag": 2,
-    "ht": [
-     1,
-     2
-    ],
-    "corners": 3.0,
-    "corners_h": 3.0,
-    "corners_a": 0.0,
-    "corners_1t": 3.0,
-    "cards": 5.0,
-    "cards_h": 2.0,
-    "cards_a": 3.0
-   }
-  },
   "4883957": {
    "partido": "Ruanda vs Mali",
    "liga": "África, Copa de África de Naciones - Clasificación",
