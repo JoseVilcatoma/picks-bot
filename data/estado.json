@@ -1227,58 +1227,6 @@
     "cards_a": 2.0
    }
   },
-  "4876151": {
-   "partido": "Kyrgyzstan vs Vietnam",
-   "liga": "Internacional, Amistoso Internacional",
-   "inicio": "2026-11-17T07:00:00-05:00",
-   "estado": "liquidado",
-   "ultimo": 1794923709.7629993,
-   "clv": [],
-   "clv_ok": false,
-   "xi": "|",
-   "conf": false,
-   "r": {
-    "hg": 2,
-    "ag": 1,
-    "ht": [
-     0,
-     0
-    ],
-    "corners": 5.0,
-    "corners_h": 3.0,
-    "corners_a": 2.0,
-    "corners_1t": null,
-    "cards": 2.0,
-    "cards_h": 1.0,
-    "cards_a": 1.0
-   }
-  },
-  "4882132": {
-   "partido": "China vs Bahrein",
-   "liga": "Internacional, Amistoso Internacional",
-   "inicio": "2026-11-17T07:00:00-05:00",
-   "estado": "liquidado",
-   "ultimo": 1794924322.3788378,
-   "clv": [],
-   "clv_ok": false,
-   "xi": "439159,835848,7923823,14551870,50356168,66108112,66982896,70794826,71548405,77028504,77040188|481128,587372,1397497,6183409,9645618,59287267,67610390,71103534,71103536,76232898,77471279",
-   "conf": true,
-   "r": {
-    "hg": 2,
-    "ag": 2,
-    "ht": [
-     1,
-     2
-    ],
-    "corners": 12.0,
-    "corners_h": 8.0,
-    "corners_a": 4.0,
-    "corners_1t": 5.0,
-    "cards": 2.0,
-    "cards_h": 1.0,
-    "cards_a": 1.0
-   }
-  },
   "4883812": {
    "partido": "Arabia Saudita vs Uzbekistán",
    "liga": "Internacional, Amistoso Internacional",
@@ -1794,7 +1742,7 @@
    "liga": "Internacional, Partido Amistoso",
    "inicio": "2026-11-19T08:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1795089450.01428
+   "ultimo": 1795089693.6525621
   },
   "4632589": {
    "partido": "Athletico Paranaense vs Remo",
