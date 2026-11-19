@@ -1,32 +1,6 @@
 {
  "offset": 344577791,
  "seguidos": {
-  "4874699": {
-   "partido": "Canadá vs Guatemala",
-   "liga": "Norteamérica, CONCACAF Liga de Naciones - Cuartos de Final",
-   "inicio": "2026-11-16T20:00:00-05:00",
-   "estado": "liquidado",
-   "ultimo": 1794884186.7102895,
-   "clv": [],
-   "clv_ok": false,
-   "xi": "547929,2992754,3079755,3337446,4289559,13313345,14544976,65992900,66882180,67741940,67952105|544354,893343,1134844,3125501,3140085,7200858,8746948,55043450,59000652,60436633,60436641",
-   "conf": true,
-   "r": {
-    "hg": 4,
-    "ag": 1,
-    "ht": [
-     2,
-     1
-    ],
-    "corners": 10.0,
-    "corners_h": 10.0,
-    "corners_a": 0.0,
-    "corners_1t": 4.0,
-    "cards": 4.0,
-    "cards_h": 0.0,
-    "cards_a": 4.0
-   }
-  },
   "4845108": {
    "partido": "Singapur vs Brasil",
    "liga": "Internacional, Amistoso Internacional",
