@@ -1487,32 +1487,6 @@
     "cards_a": 2.0
    }
   },
-  "4894252": {
-   "partido": "Tailandia vs Tajikistan",
-   "liga": "Internacional, Amistoso Internacional",
-   "inicio": "2026-11-17T07:30:00-05:00",
-   "estado": "liquidado",
-   "ultimo": 1794925545.0084472,
-   "clv": [],
-   "clv_ok": false,
-   "xi": "483455,11750693,51129709,51130099,51579196,71017121,72768979,75514889,81466591,81466592,81466593|7039084,58106153,58106164,65483669,66482807,67881342,70951666,70951670,70951674,77853032,79533437",
-   "conf": true,
-   "r": {
-    "hg": 3,
-    "ag": 0,
-    "ht": [
-     1,
-     0
-    ],
-    "corners": 7.0,
-    "corners_h": 5.0,
-    "corners_a": 2.0,
-    "corners_1t": 3.0,
-    "cards": 7.0,
-    "cards_h": 1.0,
-    "cards_a": 6.0
-   }
-  },
   "4632587": {
    "partido": "Chapecoense vs Cruzeiro",
    "liga": "Brasil, Brasileirão",
