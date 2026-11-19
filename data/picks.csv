@@ -4107,3 +4107,8 @@ fecha,game_id,partido,liga,tipo,mercado,clave,prob,cuota,casa,cuota_justa,ev,sta
 2026-11-19 16:41,4632605,Vasco Da Gama vs Internacional,"Brasil, Brasileirão",modelo,Más de 2.5 tarjetas,CARDS|2.5|over,0.7362,,,1.36,,,si,,,
 2026-11-19 16:41,4632605,Vasco Da Gama vs Internacional,"Brasil, Brasileirão",modelo,Menos de 13.5 córners,CORN|13.5|under,0.6937,,,1.44,,,si,,,
 2026-11-19 16:41,4632605,Vasco Da Gama vs Internacional,"Brasil, Brasileirão",crear,No hay empate + Menos de 4.5 goles + Menos de 16.5 córners,DC||12&OU|4.5|under&CORN|16.5|under,0.5479,,,1.83,,,,,,
+2026-11-19 16:45,4632598,Vitória vs Bragantino,"Brasil, Brasileirão",seguro,Bragantino recibe gol,CS||visita_no,0.7439,1.25,Bet365,1.34,-0.0702,,si,,,
+2026-11-19 16:45,4632598,Vitória vs Bragantino,"Brasil, Brasileirão",seguro,No hay empate,DC||12,0.7154,1.30,Bet365,1.40,-0.0700,,si,,,
+2026-11-19 16:45,4632598,Vitória vs Bragantino,"Brasil, Brasileirão",modelo,Menos de 6.5 tarjetas,CARDS|6.5|under,0.7737,,,1.29,,,si,,,
+2026-11-19 16:45,4632598,Vitória vs Bragantino,"Brasil, Brasileirão",modelo,Menos de 14.5 córners,CORN|14.5|under,0.6997,,,1.43,,,si,,,
+2026-11-19 16:45,4632598,Vitória vs Bragantino,"Brasil, Brasileirão",crear,Menos de 4.5 goles + Más de 7.5 córners + Más de 0.5 tarjetas,OU|4.5|under&CORN|7.5|over&CARDS|0.5|over,0.5711,,,1.75,,,,,,
