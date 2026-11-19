@@ -1,32 +1,6 @@
 {
  "offset": 344577791,
  "seguidos": {
-  "4870470": {
-   "partido": "Japón vs Paraguay",
-   "liga": "Internacional, Amistoso Internacional",
-   "inicio": "2026-11-17T08:10:00-05:00",
-   "estado": "liquidado",
-   "ultimo": 1794928010.0502229,
-   "clv": [],
-   "clv_ok": false,
-   "xi": "4832569,13366904,14658185,49988861,49988887,49988904,49991577,67747944,67774532,67820371,75439830|334367,383111,1105235,3069284,12722929,44421294,53036664,55416459,65296564,66825230,67907422",
-   "conf": true,
-   "r": {
-    "hg": 1,
-    "ag": 2,
-    "ht": [
-     0,
-     2
-    ],
-    "corners": 10.0,
-    "corners_h": 8.0,
-    "corners_a": 2.0,
-    "corners_1t": 5.0,
-    "cards": 3.0,
-    "cards_h": 2.0,
-    "cards_a": 1.0
-   }
-  },
   "4882784": {
    "partido": "Rusia vs Venezuela",
    "liga": "Internacional, Amistoso Internacional",
