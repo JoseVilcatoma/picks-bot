@@ -837,32 +837,6 @@
     "cards_a": 3.0
    }
   },
-  "4716607": {
-   "partido": "Malawi vs Egipto",
-   "liga": "África, Copa de África de Naciones - Clasificación",
-   "inicio": "2026-11-17T08:00:00-05:00",
-   "estado": "liquidado",
-   "ultimo": 1794927388.6142523,
-   "clv": [],
-   "clv_ok": false,
-   "xi": "49978809,59818886,59819083,62600689,67878079,67878082,70924174,71105210,76583937,77192715,81466632|347901,434253,517168,529327,741216,3403495,4225832,46439463,49463074,50505357,50578373",
-   "conf": true,
-   "r": {
-    "hg": 0,
-    "ag": 0,
-    "ht": [
-     0,
-     0
-    ],
-    "corners": 14.0,
-    "corners_h": 5.0,
-    "corners_a": 9.0,
-    "corners_1t": null,
-    "cards": 1.0,
-    "cards_h": 0.0,
-    "cards_a": 1.0
-   }
-  },
   "4716613": {
    "partido": "Mauritania vs Burkina Faso",
    "liga": "África, Copa de África de Naciones - Clasificación",
@@ -938,136 +912,6 @@
     "corners_1t": null,
     "cards": 7.0,
     "cards_h": 6.0,
-    "cards_a": 1.0
-   }
-  },
-  "4883947": {
-   "partido": "Lesoto vs Gabón",
-   "liga": "África, Copa de África de Naciones - Clasificación",
-   "inicio": "2026-11-17T08:00:00-05:00",
-   "estado": "liquidado",
-   "ultimo": 1794927388.8699143,
-   "clv": [],
-   "clv_ok": false,
-   "xi": "67766456,70762478,70924565,71104008,72770072,72770078,72841082,75485309,77553108,79378920,81420490|333237,513111,921153,50682074,66362553,71901705,75439568,75485262,77003039,77387091,79438164",
-   "conf": true,
-   "r": {
-    "hg": 2,
-    "ag": 1,
-    "ht": [
-     1,
-     0
-    ],
-    "corners": 17.0,
-    "corners_h": 4.0,
-    "corners_a": 13.0,
-    "corners_1t": null,
-    "cards": 3.0,
-    "cards_h": 2.0,
-    "cards_a": 1.0
-   }
-  },
-  "4883948": {
-   "partido": "Sudán del Sur vs Angola",
-   "liga": "África, Copa de África de Naciones - Clasificación",
-   "inicio": "2026-11-17T08:00:00-05:00",
-   "estado": "liquidado",
-   "ultimo": 1794928010.497331,
-   "clv": [],
-   "clv_ok": false,
-   "xi": "50349555,65841886,77341209,79437521,79437540,79480533,81445091,81445092,81445093,81445098|896636,23244866,51410599,66447014,67633742,67709510,67874128,68079355,71104244,71327480,79331430",
-   "conf": true,
-   "r": {
-    "hg": 0,
-    "ag": 1,
-    "ht": [
-     0,
-     1
-    ],
-    "corners": 8.0,
-    "corners_h": 4.0,
-    "corners_a": 4.0,
-    "corners_1t": null,
-    "cards": 4.0,
-    "cards_h": 2.0,
-    "cards_a": 2.0
-   }
-  },
-  "4883949": {
-   "partido": "Burundi vs Zambia",
-   "liga": "África, Copa de África de Naciones - Clasificación",
-   "inicio": "2026-11-17T08:00:00-05:00",
-   "estado": "liquidado",
-   "ultimo": 1794928010.6683087,
-   "clv": [],
-   "clv_ok": false,
-   "xi": "15313190,15313200,21980377,47429447,71103664,72768036,72768871,72768872,77861315,79318529,79437542|3237992,3269883,65270839,66270497,66437451,71053306,77187978,77187979,77193738,79312354,81355961",
-   "conf": true,
-   "r": {
-    "hg": 1,
-    "ag": 1,
-    "ht": [
-     0,
-     0
-    ],
-    "corners": 10.0,
-    "corners_h": 6.0,
-    "corners_a": 4.0,
-    "corners_1t": null,
-    "cards": 2.0,
-    "cards_h": 1.0,
-    "cards_a": 1.0
-   }
-  },
-  "4883950": {
-   "partido": "Etiopía vs Mozambique",
-   "liga": "África, Copa de África de Naciones - Clasificación",
-   "inicio": "2026-11-17T08:00:00-05:00",
-   "estado": "liquidado",
-   "ultimo": 1794927389.3109324,
-   "clv": [],
-   "clv_ok": false,
-   "xi": "3526180,67628189,67628190,70986704,72769168,79437492,79437539,79480564,81420302,81420303,81420304|607186,3071283,12742423,34446252,46617696,60677012,62543297,65830364,67878019,67878022,76901164",
-   "conf": true,
-   "r": {
-    "hg": 0,
-    "ag": 1,
-    "ht": [
-     0,
-     1
-    ],
-    "corners": 9.0,
-    "corners_h": 6.0,
-    "corners_a": 3.0,
-    "corners_1t": null,
-    "cards": 2.0,
-    "cards_h": 0.0,
-    "cards_a": 2.0
-   }
-  },
-  "4883951": {
-   "partido": "Tanzania vs Nigeria",
-   "liga": "África, Copa de África de Naciones - Clasificación",
-   "inicio": "2026-11-17T08:00:00-05:00",
-   "estado": "liquidado",
-   "ultimo": 1794928010.926842,
-   "clv": [],
-   "clv_ok": false,
-   "xi": "46289012,54901590,66680965,67720919,67721894,67867087,71329139,76806247,77193878,81466671,81466672|469313,526669,698994,739210,50208640,50947605,51550259,65729616,66630057,71310640,77480706",
-   "conf": true,
-   "r": {
-    "hg": 0,
-    "ag": 0,
-    "ht": [
-     0,
-     0
-    ],
-    "corners": 9.0,
-    "corners_h": 3.0,
-    "corners_a": 6.0,
-    "corners_1t": null,
-    "cards": 2.0,
-    "cards_h": 1.0,
     "cards_a": 1.0
    }
   },
@@ -1455,32 +1299,6 @@
     "corners": 9.0,
     "corners_h": 2.0,
     "corners_a": 7.0,
-    "corners_1t": null,
-    "cards": 4.0,
-    "cards_h": 2.0,
-    "cards_a": 2.0
-   }
-  },
-  "4891452": {
-   "partido": "Líbano vs Palestina",
-   "liga": "Internacional, Amistoso Internacional",
-   "inicio": "2026-11-17T08:00:00-05:00",
-   "estado": "liquidado",
-   "ultimo": 1794927389.6642497,
-   "clv": [],
-   "clv_ok": false,
-   "xi": "11514896,57071983,59145248,71521096,72061118,72697291,75257406,77659415,79130908,81382986,81383138|606516,6446113,9592328,10207848,38775113,59145141,64869826,70918990,71102658,71150606,77609148",
-   "conf": true,
-   "r": {
-    "hg": 0,
-    "ag": 0,
-    "ht": [
-     0,
-     0
-    ],
-    "corners": 12.0,
-    "corners_h": 2.0,
-    "corners_a": 10.0,
     "corners_1t": null,
     "cards": 4.0,
     "cards_h": 2.0,
