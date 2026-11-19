@@ -4102,3 +4102,8 @@ fecha,game_id,partido,liga,tipo,mercado,clave,prob,cuota,casa,cuota_justa,ev,sta
 2026-11-19 07:21,4890986,IFK Norrköping vs KuPS,"Internacional, Partido Amistoso",modelo,Menos de 6.5 tarjetas,CARDS|6.5|under,0.8419,,,1.19,,,no,G,,
 2026-11-19 07:21,4890986,IFK Norrköping vs KuPS,"Internacional, Partido Amistoso",modelo,No hay empate,DC||12,0.8209,,,1.22,,,no,P,,
 2026-11-19 07:21,4890986,IFK Norrköping vs KuPS,"Internacional, Partido Amistoso",crear,No hay empate + Menos de 2.5 goles en el 1T + Menos de 16.5 córners,DC||12&OU1T|2.5|under&CORN|16.5|under,0.5874,,,1.70,,,,P,,
+2026-11-19 16:41,4632605,Vasco Da Gama vs Internacional,"Brasil, Brasileirão",seguro,No hay empate,DC||12,0.7583,1.22,Bet365,1.32,-0.0749,,si,,,
+2026-11-19 16:41,4632605,Vasco Da Gama vs Internacional,"Brasil, Brasileirão",seguro,Más de 1.5 goles,OU|1.5|over,0.7196,1.22,Bet365,1.39,-0.1221,,si,,,
+2026-11-19 16:41,4632605,Vasco Da Gama vs Internacional,"Brasil, Brasileirão",modelo,Más de 2.5 tarjetas,CARDS|2.5|over,0.7362,,,1.36,,,si,,,
+2026-11-19 16:41,4632605,Vasco Da Gama vs Internacional,"Brasil, Brasileirão",modelo,Menos de 13.5 córners,CORN|13.5|under,0.6937,,,1.44,,,si,,,
+2026-11-19 16:41,4632605,Vasco Da Gama vs Internacional,"Brasil, Brasileirão",crear,No hay empate + Menos de 4.5 goles + Menos de 16.5 córners,DC||12&OU|4.5|under&CORN|16.5|under,0.5479,,,1.83,,,,,,
