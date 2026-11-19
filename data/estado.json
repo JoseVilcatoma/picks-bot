@@ -967,32 +967,6 @@
     "cards_a": 1.0
    }
   },
-  "4891254": {
-   "partido": "Irak vs Irán",
-   "liga": "Internacional, Amistoso Internacional",
-   "inicio": "2026-11-17T11:15:00-05:00",
-   "estado": "liquidado",
-   "ultimo": 1794939044.2489429,
-   "clv": [],
-   "clv_ok": false,
-   "xi": "596191,3561111,41129137,42142694,49676017,54547103,55546406,55776488,62351221,68018132,71026153|972961,3456148,5609095,39684362,41063742,62499092,62700974,67215426,68001357,70938621,75411409",
-   "conf": true,
-   "r": {
-    "hg": 1,
-    "ag": 1,
-    "ht": [
-     1,
-     0
-    ],
-    "corners": 9.0,
-    "corners_h": 2.0,
-    "corners_a": 7.0,
-    "corners_1t": null,
-    "cards": 4.0,
-    "cards_h": 2.0,
-    "cards_a": 2.0
-   }
-  },
   "4632587": {
    "partido": "Chapecoense vs Cruzeiro",
    "liga": "Brasil, Brasileirão",
