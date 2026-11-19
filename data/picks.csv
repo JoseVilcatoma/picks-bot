@@ -4099,6 +4099,6 @@ fecha,game_id,partido,liga,tipo,mercado,clave,prob,cuota,casa,cuota_justa,ev,sta
 2026-11-18 18:57,4632603,Corinthians vs Botafogo,"Brasil, Brasileirão",apostable,Menos de 2.5 goles,OU|2.5|under,0.5711,1.96,1xBet,1.75,0.0350,9.00,si,P,-9.00,-0.0326
 2026-11-18 18:57,4632603,Corinthians vs Botafogo,"Brasil, Brasileirão",ticket,Menos de 2.5 goles,OU|2.5|under,0.5281,1.96,,1.89,0.0350,10.00,,P,-10.00,
 2026-11-18 18:57,4632603,Corinthians vs Botafogo,"Brasil, Brasileirão",crear,Más de 0.5 goles + Menos de 14.5 córners + Menos de 8.5 tarjetas,OU|0.5|over&CORN|14.5|under&CARDS|8.5|under,0.5838,,,1.71,,,,G,,
-2026-11-19 07:21,4890986,IFK Norrköping vs KuPS,"Internacional, Partido Amistoso",modelo,Menos de 6.5 tarjetas,CARDS|6.5|under,0.8419,,,1.19,,,no,,,
-2026-11-19 07:21,4890986,IFK Norrköping vs KuPS,"Internacional, Partido Amistoso",modelo,No hay empate,DC||12,0.8209,,,1.22,,,no,,,
-2026-11-19 07:21,4890986,IFK Norrköping vs KuPS,"Internacional, Partido Amistoso",crear,No hay empate + Menos de 2.5 goles en el 1T + Menos de 16.5 córners,DC||12&OU1T|2.5|under&CORN|16.5|under,0.5874,,,1.70,,,,,,
+2026-11-19 07:21,4890986,IFK Norrköping vs KuPS,"Internacional, Partido Amistoso",modelo,Menos de 6.5 tarjetas,CARDS|6.5|under,0.8419,,,1.19,,,no,G,,
+2026-11-19 07:21,4890986,IFK Norrköping vs KuPS,"Internacional, Partido Amistoso",modelo,No hay empate,DC||12,0.8209,,,1.22,,,no,P,,
+2026-11-19 07:21,4890986,IFK Norrköping vs KuPS,"Internacional, Partido Amistoso",crear,No hay empate + Menos de 2.5 goles en el 1T + Menos de 16.5 córners,DC||12&OU1T|2.5|under&CORN|16.5|under,0.5874,,,1.70,,,,P,,
