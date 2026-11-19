@@ -1,42 +1,6 @@
 {
- "actualizado_lima": "2026-11-19 15:02",
+ "actualizado_lima": "2026-11-19 18:00",
  "partidos": [
-  {
-   "hora_lima": "2026-11-19 17:30",
-   "liga": "Brasileirão Serie A",
-   "equipos": [
-    {
-     "nombre": "Vitória",
-     "ingles": "Vitoria",
-     "nada_en_juego": "",
-     "calendario": ""
-    },
-    {
-     "nombre": "Bragantino",
-     "ingles": "RB Bragantino",
-     "nada_en_juego": "",
-     "calendario": ""
-    }
-   ]
-  },
-  {
-   "hora_lima": "2026-11-19 17:30",
-   "liga": "Brasileirão Serie A",
-   "equipos": [
-    {
-     "nombre": "Vasco Da Gama",
-     "ingles": "Vasco da Gama",
-     "nada_en_juego": "",
-     "calendario": ""
-    },
-    {
-     "nombre": "Internacional",
-     "ingles": "Internacional",
-     "nada_en_juego": "",
-     "calendario": ""
-    }
-   ]
-  },
   {
    "hora_lima": "2026-11-19 19:30",
    "liga": "Brasileirão Serie A",
