@@ -1742,7 +1742,7 @@
    "liga": "Internacional, Partido Amistoso",
    "inicio": "2026-11-19T08:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1795089937.213889
+   "ultimo": 1795090181.7584457
   },
   "4632589": {
    "partido": "Athletico Paranaense vs Remo",
@@ -2030,6 +2030,6 @@
   "4882785",
   "4886905"
  ],
- "auto_t": 1795068463.316258,
+ "auto_t": 1795090181.7484574,
  "rechazados": {}
 }
