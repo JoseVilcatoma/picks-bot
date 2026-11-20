@@ -307,32 +307,6 @@
     "cards_a": 3.0
    }
   },
-  "4874690": {
-   "partido": "El Salvador vs Saint-Martin",
-   "liga": "Norteamérica, CONCACAF Liga de Naciones - Play-in",
-   "inicio": "2026-11-17T20:00:00-05:00",
-   "estado": "liquidado",
-   "ultimo": 1794971197.3647337,
-   "clv": [],
-   "clv_ok": false,
-   "xi": "944527,47683518,59698617,60436553,66325666,67666886,67873437,67902783,68291114,70864252,70873312|12114557,49671350,70921550,70921555,70921556,79423952,79423954,79423957,79424254,79431109,81428072",
-   "conf": true,
-   "r": {
-    "hg": 3,
-    "ag": 1,
-    "ht": [
-     1,
-     1
-    ],
-    "corners": 9.0,
-    "corners_h": 7.0,
-    "corners_a": 2.0,
-    "corners_1t": 5.0,
-    "cards": 3.0,
-    "cards_h": 1.0,
-    "cards_a": 2.0
-   }
-  },
   "4874694": {
    "partido": "Nicaragua vs Montserrat",
    "liga": "Norteamérica, CONCACAF Liga de Naciones - Play-in",
