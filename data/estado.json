@@ -296,32 +296,6 @@
     "cards_a": 3.0
    }
   },
-  "4874694": {
-   "partido": "Nicaragua vs Montserrat",
-   "liga": "Norteamérica, CONCACAF Liga de Naciones - Play-in",
-   "inicio": "2026-11-17T22:00:00-05:00",
-   "estado": "liquidado",
-   "ultimo": 1794978391.2095919,
-   "clv": [],
-   "clv_ok": false,
-   "xi": "533635,3324303,15994680,49111302,55760440,65357649,67836789,70837327,70850721,71024226,75399662|57116879,57373807,70923593,70923598,72768767,72768769,75503588,76557899,81428203,81428206,81471854",
-   "conf": true,
-   "r": {
-    "hg": 2,
-    "ag": 0,
-    "ht": [
-     0,
-     0
-    ],
-    "corners": 12.0,
-    "corners_h": 2.0,
-    "corners_a": 10.0,
-    "corners_1t": 3.0,
-    "cards": 6.0,
-    "cards_h": 3.0,
-    "cards_a": 3.0
-   }
-  },
   "4632587": {
    "partido": "Chapecoense vs Cruzeiro",
    "liga": "Brasil, Brasileirão",
