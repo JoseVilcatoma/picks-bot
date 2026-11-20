@@ -4128,3 +4128,8 @@ fecha,game_id,partido,liga,tipo,mercado,clave,prob,cuota,casa,cuota_justa,ev,sta
 2026-11-20 13:56,4735200,Troyes vs Le Havre,"Francia, Ligue 1",apostable,Menos de 2.5 goles,OU|2.5|under,0.5671,1.95,1xBet,1.76,0.0483,12.50,si,,,
 2026-11-20 13:56,4735200,Troyes vs Le Havre,"Francia, Ligue 1",ticket,Troyes o empate + Menos de 3.5 goles,DC||1X&OU|3.5|under,0.5582,1.85,,1.79,0.0325,10.00,,,,
 2026-11-20 13:56,4735200,Troyes vs Le Havre,"Francia, Ligue 1",crear,Menos de 3.5 goles + Menos de 12.5 córners + Menos de 8.5 tarjetas,OU|3.5|under&CORN|12.5|under&CARDS|8.5|under,0.5574,,,1.79,,,,,,
+2026-11-20 13:58,4750790,Athletic Club vs RCD Espanyol,"España, LaLiga",seguro,No hay empate,DC||12,0.7785,1.18,Bet365,1.28,-0.0814,,si,,,
+2026-11-20 13:58,4750790,Athletic Club vs RCD Espanyol,"España, LaLiga",seguro,Más de 1.5 goles,OU|1.5|over,0.7398,1.22,Bet365,1.35,-0.0974,,si,,,
+2026-11-20 13:58,4750790,Athletic Club vs RCD Espanyol,"España, LaLiga",modelo,Más de 2.5 tarjetas,CARDS|2.5|over,0.7023,,,1.42,,,si,,,
+2026-11-20 13:58,4750790,Athletic Club vs RCD Espanyol,"España, LaLiga",modelo,Menos de 13.5 córners,CORN|13.5|under,0.6705,,,1.49,,,si,,,
+2026-11-20 13:58,4750790,Athletic Club vs RCD Espanyol,"España, LaLiga",crear,Athletic Club o empate + Menos de 4.5 goles + Menos de 2.5 goles en el 1T + Más de 6.5 córners,DC||1X&OU|4.5|under&OU1T|2.5|under&CORN|6.5|over,0.5786,,,1.73,,,,,,
