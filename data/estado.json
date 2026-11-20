@@ -286,12 +286,27 @@
    "partido": "Athletic Club vs RCD Espanyol",
    "liga": "España, LaLiga",
    "inicio": "2026-11-20T15:00:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1795201093.1540966,
+   "estado": "liquidado",
+   "ultimo": 1795211775.43376,
    "clv": [],
    "clv_ok": false,
    "xi": "137290,330097,428230,641453,914591,987911,31274644,54368445,55407870,65561822,75384403|329279,346981,33455180,51162060,56247324,58466098,60956219,66320143,71033944,77060079,79280518",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 0,
+    "ag": 1,
+    "ht": [
+     0,
+     0
+    ],
+    "corners": 11.0,
+    "corners_h": 9.0,
+    "corners_a": 2.0,
+    "corners_1t": 5.0,
+    "cards": 4.0,
+    "cards_h": 3.0,
+    "cards_a": 1.0
+   }
   },
   "4755344": {
    "partido": "Bayern Munich vs 1. FC Köln",
