@@ -254,7 +254,7 @@
    "liga": "Francia, Ligue 1",
    "inicio": "2026-11-20T14:45:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1795200230.6315894
+   "ultimo": 1795200475.3378634
   },
   "4750790": {
    "partido": "Athletic Club vs RCD Espanyol",
@@ -267,8 +267,12 @@
    "partido": "Bayern Munich vs 1. FC Köln",
    "liga": "Alemania, Bundesliga",
    "inicio": "2026-11-20T14:30:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1795200230.7222056
+   "estado": "enviado",
+   "ultimo": 1795200475.373497,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "227604,412127,470279,485309,898082,14755144,57861026,60976669,66044210,67864491,76643976|541007,569179,4800962,7354235,33849977,51195599,51403495,65291044,70951372,72478393,75412214",
+   "conf": true
   },
   "4760766": {
    "partido": "Alianza Atletico vs FBC Melgar",
