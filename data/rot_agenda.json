@@ -1,5 +1,5 @@
 {
- "actualizado_lima": "2026-11-20 07:00",
+ "actualizado_lima": "2026-11-20 09:02",
  "partidos": [
   {
    "hora_lima": "2026-11-20 14:30",
@@ -422,13 +422,13 @@
     {
      "nombre": "Palmeiras",
      "ingles": "Palmeiras",
-     "nada_en_juego": "",
-     "calendario": ""
+     "nada_en_juego": "2.º con 73 pts y 3 por jugar: ya no puede cambiar de zona (Libertadores)",
+     "calendario": "juega Brasileirão vs Chapecoense el mar 24/11 (4 días después)"
     },
     {
      "nombre": "Flamengo",
      "ingles": "Flamengo",
-     "nada_en_juego": "",
+     "nada_en_juego": "1.º con 79 pts y 3 por jugar: ya no puede cambiar de zona (Libertadores)",
      "calendario": ""
     }
    ]
@@ -441,7 +441,7 @@
      "nombre": "Nápoles",
      "ingles": "Napoli",
      "nada_en_juego": "",
-     "calendario": ""
+     "calendario": "juega UEFA Champions League vs Manchester City el mar 24/11 (4 días después)"
     },
     {
      "nombre": "Torino",
@@ -513,7 +513,7 @@
      "nombre": "Lens",
      "ingles": "Lens",
      "nada_en_juego": "",
-     "calendario": ""
+     "calendario": "juega UEFA Champions League vs RB Leipzig el mar 24/11 (4 días después)"
     },
     {
      "nombre": "Toulouse",
@@ -531,7 +531,7 @@
      "nombre": "Real Madrid",
      "ingles": "Real Madrid",
      "nada_en_juego": "",
-     "calendario": ""
+     "calendario": "juega UEFA Champions League vs PSV Eindhoven el mar 24/11 (3 días después)"
     },
     {
      "nombre": "Celta de Vigo",
@@ -617,9 +617,11 @@
  "titulares_ya_enviados": [
   "a new rotation of american troops in lithuania. two battalions have arrived in the country",
   "bafana bafana coach pitso mosimane questioned over teboho mokoena selection against kenya ",
+  "el dt de palmeiras se bajo del brasileirao y puso la final con estudiantes como prioridad:",
   "lithuanian president says us troop rotations will continue beyond latest deployment - reut",
   "mosimane believes bafana are well-rested for kenya rematch - the citizen",
   "nigeria, donde el terror sigue vivo | nr | periodismo alternativo - nr | periodismo altern",
+  "poli rincon, exfutbolista: \"el real madrid no va a sacrificar a bellingham para que juegue",
   "scotland set to face much-changed team as switzerland boss sets out ‘less serious’ final g",
   "scotland: switzerland to rotate as manuel akanji adds to absences - bbc",
   "springboks ring the changes for must-win ireland test - ofm news",
