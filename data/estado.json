@@ -282,12 +282,27 @@
    "partido": "Bayern Munich vs 1. FC Köln",
    "liga": "Alemania, Bundesliga",
    "inicio": "2026-11-20T14:30:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1795200475.373497,
+   "estado": "liquidado",
+   "ultimo": 1795209949.8664362,
    "clv": [],
    "clv_ok": false,
    "xi": "227604,412127,470279,485309,898082,14755144,57861026,60976669,66044210,67864491,76643976|541007,569179,4800962,7354235,33849977,51195599,51403495,65291044,70951372,72478393,75412214",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 1,
+    "ag": 1,
+    "ht": [
+     1,
+     1
+    ],
+    "corners": 5.0,
+    "corners_h": 5.0,
+    "corners_a": 0.0,
+    "corners_1t": 2.0,
+    "cards": 3.0,
+    "cards_h": 1.0,
+    "cards_a": 2.0
+   }
   },
   "4632587": {
    "partido": "Chapecoense vs Cruzeiro",
