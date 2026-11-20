@@ -1,32 +1,6 @@
 {
  "offset": 344577791,
  "seguidos": {
-  "4874693": {
-   "partido": "México vs Jamaica",
-   "liga": "Norteamérica, CONCACAF Liga de Naciones - Cuartos de Final",
-   "inicio": "2026-11-17T21:30:00-05:00",
-   "estado": "liquidado",
-   "ultimo": 1794976571.5314608,
-   "clv": [],
-   "clv_ok": false,
-   "xi": "251296,544320,3212031,29898109,50443523,50618149,51138574,57726142,60426276,65566308,66817097|30150734,38782619,57991465,60259971,66862601,67601731,67601733,70755383,70858817,70918809,71890992",
-   "conf": true,
-   "r": {
-    "hg": 1,
-    "ag": 0,
-    "ht": [
-     1,
-     0
-    ],
-    "corners": 8.0,
-    "corners_h": 5.0,
-    "corners_a": 3.0,
-    "corners_1t": 5.0,
-    "cards": 4.0,
-    "cards_h": 1.0,
-    "cards_a": 3.0
-   }
-  },
   "4632597": {
    "partido": "Remo vs Chapecoense",
    "liga": "Brasil, Brasileirão",
