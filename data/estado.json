@@ -1,32 +1,6 @@
 {
  "offset": 344577791,
  "seguidos": {
-  "4632597": {
-   "partido": "Remo vs Chapecoense",
-   "liga": "Brasil, Brasileirão",
-   "inicio": "2026-11-18T18:00:00-05:00",
-   "estado": "liquidado",
-   "ultimo": 1795050404.2784452,
-   "clv": [],
-   "clv_ok": false,
-   "xi": "165639,350333,452796,531152,1858293,7701497,12709324,14467854,56016962,70842359,71362795|278865,6347690,15916008,17184737,52370819,64810556,64860328,65513422,67613403,76889464,77190271",
-   "conf": true,
-   "r": {
-    "hg": 2,
-    "ag": 0,
-    "ht": [
-     2,
-     0
-    ],
-    "corners": 9.0,
-    "corners_h": 4.0,
-    "corners_a": 5.0,
-    "corners_1t": 2.0,
-    "cards": 6.0,
-    "cards_h": 3.0,
-    "cards_a": 3.0
-   }
-  },
   "4632598": {
    "partido": "Vitória vs Bragantino",
    "liga": "Brasil, Brasileirão",
