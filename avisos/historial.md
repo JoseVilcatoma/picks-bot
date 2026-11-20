@@ -43,3 +43,11 @@
 - Sevilla vs Betis: Pellegrini no rota pese a Champions; baja Ceballos (ElDesmarque)
 - Palmeiras vs Flamengo: Fla sin Léo Pereira, Pulgar (sanción); Palmeiras sin Barboza (sanción), Murilo (Terra)
 - Real Madrid vs Celta: Madrid sin Rodrygo, Asencio; vuelve Vinícius; Celta sin Borja Iglesias, Starfelt (OKDiario)
+
+## 2026-11-20 18:55 (Lima)
+- Man City vs Fulham: Maresca, dudas Nunes y Khusanov; Donnarumma titular; Semenyo fuera (Sports Mole)
+- Como vs Cagliari: Kean fuera meses; Diao no vuelve; vuelve Chalobah (TMW)
+- Aston Villa vs Sunderland: Emery sin rotación anunciada; bajas Cash, Onana, Ruggeri; vuelven Manzambi, Wan-Bissaka (avfc.co.uk)
+- Palmeiras vs Flamengo: prensa dice suplentes por final Libertadores, sin confirmar; bajas Barboza, Murilo, Piquerez, Paulinho (CNN Brasil)
+- Nápoles vs Torino: sin Meret (fractura) ni Lobotka; Milinkovic-Savic al arco; Allegri sin conferencia (QS)
+- Alianza Lima vs FC Cajamarca: sin confirmar, guardaría Garcés, Vélez, Huamán; Díaz fuera (desgarro); Cajamarca 5 bajas (Líbero)
