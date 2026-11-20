@@ -1,5 +1,5 @@
 {
- "actualizado_lima": "2026-11-19 21:03",
+ "actualizado_lima": "2026-11-20 07:00",
  "partidos": [
   {
    "hora_lima": "2026-11-20 14:30",
@@ -50,6 +50,564 @@
     {
      "nombre": "RCD Espanyol",
      "ingles": "Espanyol",
+     "nada_en_juego": "",
+     "calendario": ""
+    }
+   ]
+  },
+  {
+   "hora_lima": "2026-11-21 07:30",
+   "liga": "Premier League",
+   "equipos": [
+    {
+     "nombre": "Manchester City",
+     "ingles": "Manchester City",
+     "nada_en_juego": "",
+     "calendario": "juega UEFA Champions League vs Nápoles el mar 24/11 (4 días después)"
+    },
+    {
+     "nombre": "Fulham",
+     "ingles": "Fulham",
+     "nada_en_juego": "",
+     "calendario": ""
+    }
+   ]
+  },
+  {
+   "hora_lima": "2026-11-21 08:00",
+   "liga": "LaLiga",
+   "equipos": [
+    {
+     "nombre": "Alavés",
+     "ingles": "Alaves",
+     "nada_en_juego": "",
+     "calendario": ""
+    },
+    {
+     "nombre": "RC Deportivo",
+     "ingles": "Deportivo A Coruña",
+     "nada_en_juego": "",
+     "calendario": ""
+    }
+   ]
+  },
+  {
+   "hora_lima": "2026-11-21 09:00",
+   "liga": "Serie A",
+   "equipos": [
+    {
+     "nombre": "Lazio",
+     "ingles": "Lazio",
+     "nada_en_juego": "",
+     "calendario": ""
+    },
+    {
+     "nombre": "Lecce",
+     "ingles": "Lecce",
+     "nada_en_juego": "",
+     "calendario": ""
+    }
+   ]
+  },
+  {
+   "hora_lima": "2026-11-21 09:00",
+   "liga": "Serie A",
+   "equipos": [
+    {
+     "nombre": "Como",
+     "ingles": "Como",
+     "nada_en_juego": "",
+     "calendario": "juega UEFA Champions League vs AEK Atenas el mar 24/11 (4 días después)"
+    },
+    {
+     "nombre": "Cagliari",
+     "ingles": "Cagliari",
+     "nada_en_juego": "",
+     "calendario": ""
+    }
+   ]
+  },
+  {
+   "hora_lima": "2026-11-21 09:30",
+   "liga": "Bundesliga",
+   "equipos": [
+    {
+     "nombre": "SV 07 Elversberg",
+     "ingles": "SV 07 Elversberg",
+     "nada_en_juego": "",
+     "calendario": ""
+    },
+    {
+     "nombre": "Friburgo",
+     "ingles": "Freiburg",
+     "nada_en_juego": "",
+     "calendario": ""
+    }
+   ]
+  },
+  {
+   "hora_lima": "2026-11-21 09:30",
+   "liga": "Bundesliga",
+   "equipos": [
+    {
+     "nombre": "Borussia Mönchengladbach",
+     "ingles": "Borussia Mönchengladbach",
+     "nada_en_juego": "",
+     "calendario": ""
+    },
+    {
+     "nombre": "Borussia Dortmund",
+     "ingles": "Borussia Dortmund",
+     "nada_en_juego": "",
+     "calendario": "juega UEFA Champions League vs Arsenal el mar 24/11 (4 días después)"
+    }
+   ]
+  },
+  {
+   "hora_lima": "2026-11-21 09:30",
+   "liga": "Bundesliga",
+   "equipos": [
+    {
+     "nombre": "Union Berlin",
+     "ingles": "Union Berlin",
+     "nada_en_juego": "",
+     "calendario": ""
+    },
+    {
+     "nombre": "RB Leipzig",
+     "ingles": "RB Leipzig",
+     "nada_en_juego": "",
+     "calendario": "juega UEFA Champions League vs Lens el mar 24/11 (4 días después)"
+    }
+   ]
+  },
+  {
+   "hora_lima": "2026-11-21 09:30",
+   "liga": "Bundesliga",
+   "equipos": [
+    {
+     "nombre": "Eintracht Frankfurt",
+     "ingles": "Eintracht Frankfurt",
+     "nada_en_juego": "",
+     "calendario": ""
+    },
+    {
+     "nombre": "Hoffenheim",
+     "ingles": "Hoffenheim",
+     "nada_en_juego": "",
+     "calendario": ""
+    }
+   ]
+  },
+  {
+   "hora_lima": "2026-11-21 09:30",
+   "liga": "Bundesliga",
+   "equipos": [
+    {
+     "nombre": "Bayer Leverkusen",
+     "ingles": "Bayer Leverkusen",
+     "nada_en_juego": "",
+     "calendario": ""
+    },
+    {
+     "nombre": "SC Paderborn 07",
+     "ingles": "SC Paderborn 07",
+     "nada_en_juego": "",
+     "calendario": ""
+    }
+   ]
+  },
+  {
+   "hora_lima": "2026-11-21 10:00",
+   "liga": "Premier League",
+   "equipos": [
+    {
+     "nombre": "Tottenham",
+     "ingles": "Tottenham",
+     "nada_en_juego": "",
+     "calendario": ""
+    },
+    {
+     "nombre": "Ipswich",
+     "ingles": "Ipswich",
+     "nada_en_juego": "",
+     "calendario": ""
+    }
+   ]
+  },
+  {
+   "hora_lima": "2026-11-21 10:00",
+   "liga": "Premier League",
+   "equipos": [
+    {
+     "nombre": "Coventry",
+     "ingles": "Coventry",
+     "nada_en_juego": "",
+     "calendario": ""
+    },
+    {
+     "nombre": "Crystal Palace",
+     "ingles": "Crystal Palace",
+     "nada_en_juego": "",
+     "calendario": ""
+    }
+   ]
+  },
+  {
+   "hora_lima": "2026-11-21 10:00",
+   "liga": "Premier League",
+   "equipos": [
+    {
+     "nombre": "Chelsea",
+     "ingles": "Chelsea",
+     "nada_en_juego": "",
+     "calendario": ""
+    },
+    {
+     "nombre": "Leeds United",
+     "ingles": "Leeds United",
+     "nada_en_juego": "",
+     "calendario": ""
+    }
+   ]
+  },
+  {
+   "hora_lima": "2026-11-21 10:00",
+   "liga": "Premier League",
+   "equipos": [
+    {
+     "nombre": "Aston Villa",
+     "ingles": "Aston Villa",
+     "nada_en_juego": "",
+     "calendario": "juega UEFA Champions League vs Galatasaray el mar 24/11 (4 días después)"
+    },
+    {
+     "nombre": "Sunderland",
+     "ingles": "Sunderland",
+     "nada_en_juego": "",
+     "calendario": ""
+    }
+   ]
+  },
+  {
+   "hora_lima": "2026-11-21 10:00",
+   "liga": "Premier League",
+   "equipos": [
+    {
+     "nombre": "Bournemouth",
+     "ingles": "Bournemouth",
+     "nada_en_juego": "",
+     "calendario": ""
+    },
+    {
+     "nombre": "Nottingham Forest",
+     "ingles": "Nottingham Forest",
+     "nada_en_juego": "",
+     "calendario": ""
+    }
+   ]
+  },
+  {
+   "hora_lima": "2026-11-21 10:15",
+   "liga": "LaLiga",
+   "equipos": [
+    {
+     "nombre": "Rayo Vallecano",
+     "ingles": "Rayo Vallecano",
+     "nada_en_juego": "",
+     "calendario": ""
+    },
+    {
+     "nombre": "Valencia CF",
+     "ingles": "Valencia",
+     "nada_en_juego": "",
+     "calendario": ""
+    }
+   ]
+  },
+  {
+   "hora_lima": "2026-11-21 11:15",
+   "liga": "Ligue 1",
+   "equipos": [
+    {
+     "nombre": "Niza",
+     "ingles": "OGC Nice",
+     "nada_en_juego": "",
+     "calendario": ""
+    },
+    {
+     "nombre": "PSG",
+     "ingles": "PSG",
+     "nada_en_juego": "",
+     "calendario": ""
+    }
+   ]
+  },
+  {
+   "hora_lima": "2026-11-21 12:00",
+   "liga": "Serie A",
+   "equipos": [
+    {
+     "nombre": "Parma",
+     "ingles": "Parma",
+     "nada_en_juego": "",
+     "calendario": ""
+    },
+    {
+     "nombre": "AS Roma",
+     "ingles": "AS Roma",
+     "nada_en_juego": "",
+     "calendario": ""
+    }
+   ]
+  },
+  {
+   "hora_lima": "2026-11-21 12:30",
+   "liga": "Premier League",
+   "equipos": [
+    {
+     "nombre": "Newcastle United",
+     "ingles": "Newcastle United",
+     "nada_en_juego": "",
+     "calendario": ""
+    },
+    {
+     "nombre": "Arsenal",
+     "ingles": "Arsenal",
+     "nada_en_juego": "",
+     "calendario": "juega UEFA Champions League vs Borussia Dortmund el mar 24/11 (4 días después)"
+    }
+   ]
+  },
+  {
+   "hora_lima": "2026-11-21 12:30",
+   "liga": "LaLiga",
+   "equipos": [
+    {
+     "nombre": "Sevilla FC",
+     "ingles": "Sevilla",
+     "nada_en_juego": "",
+     "calendario": ""
+    },
+    {
+     "nombre": "Real Betis",
+     "ingles": "Real Betis",
+     "nada_en_juego": "",
+     "calendario": "juega UEFA Champions League vs Slovan Bratislava el mar 24/11 (4 días después)"
+    }
+   ]
+  },
+  {
+   "hora_lima": "2026-11-21 12:30",
+   "liga": "Bundesliga",
+   "equipos": [
+    {
+     "nombre": "Schalke 04",
+     "ingles": "Schalke 04",
+     "nada_en_juego": "",
+     "calendario": ""
+    },
+    {
+     "nombre": "Stuttgart",
+     "ingles": "Stuttgart",
+     "nada_en_juego": "",
+     "calendario": ""
+    }
+   ]
+  },
+  {
+   "hora_lima": "2026-11-21 14:30",
+   "liga": "Brasileirão Serie A",
+   "equipos": [
+    {
+     "nombre": "Palmeiras",
+     "ingles": "Palmeiras",
+     "nada_en_juego": "",
+     "calendario": ""
+    },
+    {
+     "nombre": "Flamengo",
+     "ingles": "Flamengo",
+     "nada_en_juego": "",
+     "calendario": ""
+    }
+   ]
+  },
+  {
+   "hora_lima": "2026-11-21 14:45",
+   "liga": "Serie A",
+   "equipos": [
+    {
+     "nombre": "Nápoles",
+     "ingles": "Napoli",
+     "nada_en_juego": "",
+     "calendario": ""
+    },
+    {
+     "nombre": "Torino",
+     "ingles": "Torino",
+     "nada_en_juego": "",
+     "calendario": ""
+    }
+   ]
+  },
+  {
+   "hora_lima": "2026-11-21 14:45",
+   "liga": "Ligue 1",
+   "equipos": [
+    {
+     "nombre": "Estrasburgo",
+     "ingles": "Strasbourg",
+     "nada_en_juego": "",
+     "calendario": ""
+    },
+    {
+     "nombre": "Brest",
+     "ingles": "Brest",
+     "nada_en_juego": "",
+     "calendario": ""
+    }
+   ]
+  },
+  {
+   "hora_lima": "2026-11-21 14:45",
+   "liga": "Ligue 1",
+   "equipos": [
+    {
+     "nombre": "Monaco",
+     "ingles": "Monaco",
+     "nada_en_juego": "",
+     "calendario": ""
+    },
+    {
+     "nombre": "Auxerre",
+     "ingles": "Auxerre",
+     "nada_en_juego": "",
+     "calendario": ""
+    }
+   ]
+  },
+  {
+   "hora_lima": "2026-11-21 14:45",
+   "liga": "Ligue 1",
+   "equipos": [
+    {
+     "nombre": "Lille",
+     "ingles": "Lille",
+     "nada_en_juego": "",
+     "calendario": ""
+    },
+    {
+     "nombre": "Lyon",
+     "ingles": "Lyon",
+     "nada_en_juego": "",
+     "calendario": ""
+    }
+   ]
+  },
+  {
+   "hora_lima": "2026-11-21 14:45",
+   "liga": "Ligue 1",
+   "equipos": [
+    {
+     "nombre": "Lens",
+     "ingles": "Lens",
+     "nada_en_juego": "",
+     "calendario": ""
+    },
+    {
+     "nombre": "Toulouse",
+     "ingles": "Toulouse",
+     "nada_en_juego": "",
+     "calendario": ""
+    }
+   ]
+  },
+  {
+   "hora_lima": "2026-11-21 15:00",
+   "liga": "LaLiga",
+   "equipos": [
+    {
+     "nombre": "Real Madrid",
+     "ingles": "Real Madrid",
+     "nada_en_juego": "",
+     "calendario": ""
+    },
+    {
+     "nombre": "Celta de Vigo",
+     "ingles": "Celta Vigo",
+     "nada_en_juego": "",
+     "calendario": ""
+    }
+   ]
+  },
+  {
+   "hora_lima": "2026-11-21 15:30",
+   "liga": "Brasileirão Serie A",
+   "equipos": [
+    {
+     "nombre": "Bahia",
+     "ingles": "Bahia",
+     "nada_en_juego": "",
+     "calendario": ""
+    },
+    {
+     "nombre": "Coritiba",
+     "ingles": "Coritiba",
+     "nada_en_juego": "",
+     "calendario": ""
+    }
+   ]
+  },
+  {
+   "hora_lima": "2026-11-21 15:30",
+   "liga": "Liga 1 Perú",
+   "equipos": [
+    {
+     "nombre": "Alianza Lima",
+     "ingles": "Alianza Lima",
+     "nada_en_juego": "",
+     "calendario": ""
+    },
+    {
+     "nombre": "FC Cajamarca",
+     "ingles": "FC Cajamarca",
+     "nada_en_juego": "",
+     "calendario": ""
+    }
+   ]
+  },
+  {
+   "hora_lima": "2026-11-21 17:30",
+   "liga": "Copa Sudamericana",
+   "equipos": [
+    {
+     "nombre": "Atlético Mineiro",
+     "ingles": "Atlético Mineiro",
+     "nada_en_juego": "",
+     "calendario": ""
+    },
+    {
+     "nombre": "Boca Juniors",
+     "ingles": "Boca Juniors",
+     "nada_en_juego": "",
+     "calendario": ""
+    }
+   ]
+  },
+  {
+   "hora_lima": "2026-11-21 19:00",
+   "liga": "Brasileirão Serie A",
+   "equipos": [
+    {
+     "nombre": "Chapecoense",
+     "ingles": "Chapecoense",
+     "nada_en_juego": "",
+     "calendario": ""
+    },
+    {
+     "nombre": "Cruzeiro",
+     "ingles": "Cruzeiro",
      "nada_en_juego": "",
      "calendario": ""
     }
