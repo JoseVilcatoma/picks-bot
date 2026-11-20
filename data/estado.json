@@ -53,39 +53,6 @@
     "cards_a": 2.0
    }
   },
-  "4632601": {
-   "partido": "Cruzeiro vs Palmeiras",
-   "liga": "Brasil, Brasileirão",
-   "inicio": "2026-11-18T18:30:00-05:00",
-   "estado": "liquidado",
-   "ultimo": 1795052227.164483,
-   "clv": [
-    {
-     "clave": "1X2||1",
-     "cuota": 2.55,
-     "texto": "Gana Cruzeiro",
-     "clv": 0.0293
-    }
-   ],
-   "clv_ok": true,
-   "xi": "139950,349582,379632,901268,973471,3072682,3261397,9932355,60482903,70751572,76902279|384001,552616,659801,892506,14889196,19463377,46803506,63950144,66228710,72468418,77045716",
-   "conf": true,
-   "r": {
-    "hg": 2,
-    "ag": 1,
-    "ht": [
-     0,
-     0
-    ],
-    "corners": 8.0,
-    "corners_h": 7.0,
-    "corners_a": 1.0,
-    "corners_1t": 4.0,
-    "cards": 8.0,
-    "cards_h": 4.0,
-    "cards_a": 4.0
-   }
-  },
   "4632603": {
    "partido": "Corinthians vs Botafogo",
    "liga": "Brasil, Brasileirão",
@@ -169,32 +136,6 @@
     "cards": 7.0,
     "cards_h": 3.0,
     "cards_a": 4.0
-   }
-  },
-  "4632606": {
-   "partido": "Flamengo vs Athletico Paranaense",
-   "liga": "Brasil, Brasileirão",
-   "inicio": "2026-11-18T18:30:00-05:00",
-   "estado": "liquidado",
-   "ultimo": 1795052227.3837447,
-   "clv": [],
-   "clv_ok": false,
-   "xi": "76478,367429,374092,436629,489068,506159,1651346,1900508,2992976,3088103,3263629|393754,516073,2754101,3123906,5115154,15330300,52708689,53544633,56207483,66636343,67778470",
-   "conf": true,
-   "r": {
-    "hg": 2,
-    "ag": 1,
-    "ht": [
-     2,
-     1
-    ],
-    "corners": 9.0,
-    "corners_h": 5.0,
-    "corners_a": 4.0,
-    "corners_1t": 3.0,
-    "cards": 5.0,
-    "cards_h": 2.0,
-    "cards_a": 3.0
    }
   },
   "4735200": {
