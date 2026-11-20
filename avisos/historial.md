@@ -35,3 +35,11 @@
 - São Paulo vs Fluminense: Bobadilla confirmado fuera (selección Paraguay); 9 bajas; entran Lucas Moura, Danielzinho (Lance)
 - Bayern vs Köln: vuelve Kompany; Musiala jugará según Dreesen (Sportschau)
 - Athletic vs Espanyol: Paredes disponible; Sancet y Canales disponibles; Vivian fuera ~2 semanas (Jornada Perfecta)
+
+## 2026-11-20 08:05 (Lima)
+- Gladbach vs Dortmund: BVB sin Can, Konstantelias, Lerma; dudas Guirassy, Anton, Chukwuemeka; sin anuncio de rotación (bvb.de)
+- Niza vs PSG: solo faltan Kvaratskhelia y Longoni; vuelven Dembélé, Marquinhos, Nuno Mendes, Doué (Paris Fans)
+- Newcastle vs Arsenal: Arsenal sin Saka, Zubimendi; Saliba listo; Newcastle sin Joelinton (Football.London)
+- Sevilla vs Betis: Pellegrini no rota pese a Champions; baja Ceballos (ElDesmarque)
+- Palmeiras vs Flamengo: Fla sin Léo Pereira, Pulgar (sanción); Palmeiras sin Barboza (sanción), Murilo (Terra)
+- Real Madrid vs Celta: Madrid sin Rodrygo, Asencio; vuelve Vinícius; Celta sin Borja Iglesias, Starfelt (OKDiario)
