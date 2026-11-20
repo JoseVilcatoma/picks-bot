@@ -1,32 +1,6 @@
 {
  "offset": 344577791,
  "seguidos": {
-  "4874691": {
-   "partido": "Estados Unidos vs Haití",
-   "liga": "Norteamérica, CONCACAF Liga de Naciones - Cuartos de Final",
-   "inicio": "2026-11-17T19:00:00-05:00",
-   "estado": "liquidado",
-   "ultimo": 1794967546.9148126,
-   "clv": [],
-   "clv_ok": false,
-   "xi": "571198,894428,1089351,2055909,3260720,8950563,50140815,50413540,66678159,70880318,70961426|658840,33857425,52544795,53311210,55743878,59800543,61303729,61462957,64760767,67883431,75429929",
-   "conf": true,
-   "r": {
-    "hg": 2,
-    "ag": 0,
-    "ht": [
-     2,
-     0
-    ],
-    "corners": 7.0,
-    "corners_h": 7.0,
-    "corners_a": 0.0,
-    "corners_1t": 4.0,
-    "cards": 6.0,
-    "cards_h": 4.0,
-    "cards_a": 2.0
-   }
-  },
   "4874693": {
    "partido": "México vs Jamaica",
    "liga": "Norteamérica, CONCACAF Liga de Naciones - Cuartos de Final",
@@ -327,32 +301,6 @@
     "cards": 3.0,
     "cards_h": 1.0,
     "cards_a": 2.0
-   }
-  },
-  "4874692": {
-   "partido": "Guayana Francesa vs San Vicente y Las Granadinas",
-   "liga": "Norteamérica, CONCACAF Liga de Naciones - Liga B - Grupo 4",
-   "inicio": "2026-11-17T19:00:00-05:00",
-   "estado": "liquidado",
-   "ultimo": 1794966932.0441327,
-   "clv": [],
-   "clv_ok": false,
-   "xi": "489227,3107857,58438311,70935748,79456851,79476987,79476988,79476989,79476990,81423371,81423372|57190606,57190607,57190683,59508032,67094368,67431019,71018818,71105685,72768466,77082641,79326641",
-   "conf": true,
-   "r": {
-    "hg": 1,
-    "ag": 0,
-    "ht": [
-     1,
-     0
-    ],
-    "corners": 9.0,
-    "corners_h": 8.0,
-    "corners_a": 1.0,
-    "corners_1t": 4.0,
-    "cards": 2.0,
-    "cards_h": 1.0,
-    "cards_a": 1.0
    }
   },
   "4874694": {
