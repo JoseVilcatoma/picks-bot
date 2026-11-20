@@ -268,7 +268,7 @@
    "liga": "Alemania, Bundesliga",
    "inicio": "2026-11-20T14:30:00-05:00",
    "estado": "pendiente",
-   "ultimo": 0
+   "ultimo": 1795198524.4049351
   },
   "4760766": {
    "partido": "Alianza Atletico vs FBC Melgar",
@@ -1072,6 +1072,6 @@
   "4882785",
   "4886905"
  ],
- "auto_t": 1795176896.5553102,
+ "auto_t": 1795198524.3898792,
  "rechazados": {}
 }
