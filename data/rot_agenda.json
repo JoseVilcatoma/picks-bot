@@ -1,60 +1,6 @@
 {
- "actualizado_lima": "2026-11-20 12:00",
+ "actualizado_lima": "2026-11-20 15:01",
  "partidos": [
-  {
-   "hora_lima": "2026-11-20 14:30",
-   "liga": "Bundesliga",
-   "equipos": [
-    {
-     "nombre": "Bayern Munich",
-     "ingles": "Bayern Munich",
-     "nada_en_juego": "",
-     "calendario": ""
-    },
-    {
-     "nombre": "1. FC Köln",
-     "ingles": "1. FC Köln",
-     "nada_en_juego": "",
-     "calendario": ""
-    }
-   ]
-  },
-  {
-   "hora_lima": "2026-11-20 14:45",
-   "liga": "Ligue 1",
-   "equipos": [
-    {
-     "nombre": "Troyes",
-     "ingles": "Troyes",
-     "nada_en_juego": "",
-     "calendario": ""
-    },
-    {
-     "nombre": "Le Havre",
-     "ingles": "Le Havre",
-     "nada_en_juego": "",
-     "calendario": ""
-    }
-   ]
-  },
-  {
-   "hora_lima": "2026-11-20 15:00",
-   "liga": "LaLiga",
-   "equipos": [
-    {
-     "nombre": "Athletic Club",
-     "ingles": "Athletic Bilbao",
-     "nada_en_juego": "",
-     "calendario": ""
-    },
-    {
-     "nombre": "RCD Espanyol",
-     "ingles": "Espanyol",
-     "nada_en_juego": "",
-     "calendario": ""
-    }
-   ]
-  },
   {
    "hora_lima": "2026-11-21 07:30",
    "liga": "Premier League",
@@ -602,8 +548,8 @@
     {
      "nombre": "Chapecoense",
      "ingles": "Chapecoense",
-     "nada_en_juego": "",
-     "calendario": ""
+     "nada_en_juego": "20.º con 21 pts y 3 por jugar: ya no puede cambiar de zona (Descenso)",
+     "calendario": "juega Brasileirão vs Palmeiras el mar 24/11 (3 días después)"
     },
     {
      "nombre": "Cruzeiro",
