@@ -57,12 +57,27 @@
    "partido": "Vitória vs Bragantino",
    "liga": "Brasil, Brasileirão",
    "inicio": "2026-11-19T17:30:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1795134350.7754946,
+   "estado": "liquidado",
+   "ultimo": 1795134957.7090456,
    "clv": [],
    "clv_ok": false,
    "xi": "353876,482461,3059914,3268277,12679086,12926060,13143233,64935008,66264863,71047587,71355882|377132,502310,888633,1302805,1356995,3079211,3311037,56162393,61417696,65930705,71359568",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 2,
+    "ag": 1,
+    "ht": [
+     2,
+     0
+    ],
+    "corners": 15.0,
+    "corners_h": 7.0,
+    "corners_a": 8.0,
+    "corners_1t": 10.0,
+    "cards": 7.0,
+    "cards_h": 2.0,
+    "cards_a": 5.0
+   }
   },
   "4632599": {
    "partido": "Coritiba vs Santos",
@@ -197,12 +212,27 @@
    "partido": "Vasco Da Gama vs Internacional",
    "liga": "Brasil, Brasileirão",
    "inicio": "2026-11-19T17:30:00-05:00",
-   "estado": "enviado",
-   "ultimo": 1795134350.892661,
+   "estado": "liquidado",
+   "ultimo": 1795134957.8346303,
    "clv": [],
    "clv_ok": false,
    "xi": "243575,404923,480781,3120151,3235737,37877027,64798849,65176757,65227585,67354179,67666932|79031,110423,344226,506145,3235788,13268811,14659487,38421152,52685662,55892081,75479787",
-   "conf": true
+   "conf": true,
+   "r": {
+    "hg": 2,
+    "ag": 1,
+    "ht": [
+     1,
+     0
+    ],
+    "corners": 20.0,
+    "corners_h": 12.0,
+    "corners_a": 8.0,
+    "corners_1t": 9.0,
+    "cards": 7.0,
+    "cards_h": 3.0,
+    "cards_a": 4.0
+   }
   },
   "4632606": {
    "partido": "Flamengo vs Athletico Paranaense",
