@@ -1,24 +1,6 @@
 {
- "actualizado_lima": "2026-11-19 18:00",
+ "actualizado_lima": "2026-11-19 21:03",
  "partidos": [
-  {
-   "hora_lima": "2026-11-19 19:30",
-   "liga": "Brasileirão Serie A",
-   "equipos": [
-    {
-     "nombre": "São Paulo",
-     "ingles": "São Paulo",
-     "nada_en_juego": "",
-     "calendario": ""
-    },
-    {
-     "nombre": "Fluminense",
-     "ingles": "Fluminense",
-     "nada_en_juego": "",
-     "calendario": ""
-    }
-   ]
-  },
   {
    "hora_lima": "2026-11-20 14:30",
    "liga": "Bundesliga",
