@@ -51,3 +51,9 @@
 - Palmeiras vs Flamengo: prensa dice suplentes por final Libertadores, sin confirmar; bajas Barboza, Murilo, Piquerez, Paulinho (CNN Brasil)
 - Nápoles vs Torino: sin Meret (fractura) ni Lobotka; Milinkovic-Savic al arco; Allegri sin conferencia (QS)
 - Alianza Lima vs FC Cajamarca: sin confirmar, guardaría Garcés, Vélez, Huamán; Díaz fuera (desgarro); Cajamarca 5 bajas (Líbero)
+
+## 2026-11-21 08:00 (Lima)
+- Alianza Lima vs FC Cajamarca: Guede no guarda casi nada; lesionados Garcés, Huamán, J. Vélez (El Comercio)
+- Atlético-MG vs Boca: Atlético sin Alan Franco (sanción), dudas Maycon, Reinier, Minda; Boca sin Marchesín (365Scores)
+- Barcelona vs Villarreal: sin Christensen; Cubarsí quizá banco; Koundé gradual (Jornada Perfecta)
+- Liverpool vs Man Utd: LIV sin Bradley, Leoni, Ekitike; vuelven Gravenberch, Frimpong; MUN sin Sesko, Rashford, Shaw, Ugarte, Baleba (liverpoolfc.com)
