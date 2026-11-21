@@ -204,7 +204,7 @@
    "liga": "Italia, Serie A",
    "inicio": "2026-11-21T09:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1795266887.4967847
+   "ultimo": 1795267134.3941126
   },
   "4732627": {
    "partido": "Juventus vs Venezia",
@@ -217,8 +217,12 @@
    "partido": "Como vs Cagliari",
    "liga": "Italia, Serie A",
    "inicio": "2026-11-21T09:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1795266887.6018183
+   "estado": "enviado",
+   "ultimo": 1795267134.461655,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "345756,550367,671186,33880238,40742145,43470743,49579899,56471954,66200279,70914728,70940909|909981,9401336,42946303,46512017,61426991,61685045,64760757,66379098,67891435,77483487,77743469",
+   "conf": true
   },
   "4735201": {
    "partido": "Estrasburgo vs Brest",
