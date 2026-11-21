@@ -1,78 +1,6 @@
 {
- "actualizado_lima": "2026-11-21 07:02",
+ "actualizado_lima": "2026-11-21 09:03",
  "partidos": [
-  {
-   "hora_lima": "2026-11-21 07:30",
-   "liga": "Premier League",
-   "equipos": [
-    {
-     "nombre": "Manchester City",
-     "ingles": "Manchester City",
-     "nada_en_juego": "",
-     "calendario": "juega UEFA Champions League vs Nápoles el mar 24/11 (4 días después)"
-    },
-    {
-     "nombre": "Fulham",
-     "ingles": "Fulham",
-     "nada_en_juego": "",
-     "calendario": ""
-    }
-   ]
-  },
-  {
-   "hora_lima": "2026-11-21 08:00",
-   "liga": "LaLiga",
-   "equipos": [
-    {
-     "nombre": "Alavés",
-     "ingles": "Alaves",
-     "nada_en_juego": "",
-     "calendario": ""
-    },
-    {
-     "nombre": "RC Deportivo",
-     "ingles": "Deportivo A Coruña",
-     "nada_en_juego": "",
-     "calendario": ""
-    }
-   ]
-  },
-  {
-   "hora_lima": "2026-11-21 09:00",
-   "liga": "Serie A",
-   "equipos": [
-    {
-     "nombre": "Lazio",
-     "ingles": "Lazio",
-     "nada_en_juego": "",
-     "calendario": ""
-    },
-    {
-     "nombre": "Lecce",
-     "ingles": "Lecce",
-     "nada_en_juego": "",
-     "calendario": ""
-    }
-   ]
-  },
-  {
-   "hora_lima": "2026-11-21 09:00",
-   "liga": "Serie A",
-   "equipos": [
-    {
-     "nombre": "Como",
-     "ingles": "Como",
-     "nada_en_juego": "",
-     "calendario": "juega UEFA Champions League vs AEK Atenas el mar 24/11 (4 días después)"
-    },
-    {
-     "nombre": "Cagliari",
-     "ingles": "Cagliari",
-     "nada_en_juego": "",
-     "calendario": ""
-    }
-   ]
-  },
   {
    "hora_lima": "2026-11-21 09:30",
    "liga": "Bundesliga",
@@ -825,7 +753,7 @@
      "nombre": "Inter Milan",
      "ingles": "Inter Milan",
      "nada_en_juego": "",
-     "calendario": ""
+     "calendario": "juega UEFA Champions League vs Stuttgart el mié 25/11 (4 días después)"
     }
    ]
   },
@@ -837,7 +765,7 @@
      "nombre": "Olympique Marsella",
      "ingles": "Olympique de Marseille",
      "nada_en_juego": "",
-     "calendario": ""
+     "calendario": "juega UEFA Europa League vs Levski Sofia el jue 26/11 (4 días después)"
     },
     {
      "nombre": "Le Mans",
@@ -855,13 +783,13 @@
      "nombre": "Getafe CF",
      "ingles": "Getafe",
      "nada_en_juego": "",
-     "calendario": ""
+     "calendario": "juega UEFA Conference League vs FC Iberia 1999 el jue 26/11 (4 días después)"
     },
     {
      "nombre": "Atlético de Madrid",
      "ingles": "Atletico Madrid",
      "nada_en_juego": "",
-     "calendario": ""
+     "calendario": "juega UEFA Champions League vs Viking el mié 25/11 (3 días después)"
     }
    ]
   },
@@ -941,12 +869,16 @@
  "titulares_ya_enviados": [
   "a new rotation of american troops in lithuania. two battalions have arrived in the country",
   "bafana bafana coach pitso mosimane questioned over teboho mokoena selection against kenya ",
+  "bayern keeping tabs on freiburg's scherhant with as roma also interested - bulinews",
   "el dt de palmeiras se bajo del brasileirao y puso la final con estudiantes como prioridad:",
+  "el real madrid prepara rotaciones en defensa ante el celta con rudiger y carreras como tit",
+  "funes analiza la visita a osasuna, las alternativas tacticas, las palabras de chupe y la s",
   "lithuanian president says us troop rotations will continue beyond latest deployment - reut",
   "mosimane believes bafana are well-rested for kenya rematch - the citizen",
   "nigeria, donde el terror sigue vivo | nr | periodismo alternativo - nr | periodismo altern",
   "poli rincon, exfutbolista: \"el real madrid no va a sacrificar a bellingham para que juegue",
   "scotland: switzerland to rotate as manuel akanji adds to absences - bbc",
+  "sport: el psg da descanso a sus titulares antes de la champions contra el barcelona - allf",
   "springboks ring the changes for must-win ireland test - ofm news",
   "valencia interested in barcelona goalkeeper marc-andre ter stegen - operativ məlumat mərkə",
   "“seguiremos con quien sea necesario”: brown deja a jose alvarado fuera de la rotacion de l"
