@@ -1,5 +1,5 @@
 {
- "actualizado_lima": "2026-11-20 21:02",
+ "actualizado_lima": "2026-11-21 07:02",
  "partidos": [
   {
    "hora_lima": "2026-11-21 07:30",
@@ -558,6 +558,384 @@
      "calendario": ""
     }
    ]
+  },
+  {
+   "hora_lima": "2026-11-22 06:30",
+   "liga": "Serie A",
+   "equipos": [
+    {
+     "nombre": "Juventus",
+     "ingles": "Juventus",
+     "nada_en_juego": "",
+     "calendario": ""
+    },
+    {
+     "nombre": "Venezia",
+     "ingles": "Venezia",
+     "nada_en_juego": "",
+     "calendario": ""
+    }
+   ]
+  },
+  {
+   "hora_lima": "2026-11-22 08:00",
+   "liga": "LaLiga",
+   "equipos": [
+    {
+     "nombre": "FC Barcelona",
+     "ingles": "FC Barcelona",
+     "nada_en_juego": "",
+     "calendario": "juega UEFA Champions League vs Sabah el mié 25/11 (4 días después)"
+    },
+    {
+     "nombre": "Villarreal CF",
+     "ingles": "Villarreal",
+     "nada_en_juego": "",
+     "calendario": "juega UEFA Champions League vs Slavia Praga el mié 25/11 (4 días después)"
+    }
+   ]
+  },
+  {
+   "hora_lima": "2026-11-22 09:00",
+   "liga": "Serie A",
+   "equipos": [
+    {
+     "nombre": "Sassuolo",
+     "ingles": "Sassuolo",
+     "nada_en_juego": "",
+     "calendario": ""
+    },
+    {
+     "nombre": "Genoa",
+     "ingles": "Genoa",
+     "nada_en_juego": "",
+     "calendario": ""
+    }
+   ]
+  },
+  {
+   "hora_lima": "2026-11-22 09:00",
+   "liga": "Serie A",
+   "equipos": [
+    {
+     "nombre": "Bologna",
+     "ingles": "Bologna",
+     "nada_en_juego": "",
+     "calendario": ""
+    },
+    {
+     "nombre": "Udinese",
+     "ingles": "Udinese",
+     "nada_en_juego": "",
+     "calendario": ""
+    }
+   ]
+  },
+  {
+   "hora_lima": "2026-11-22 09:00",
+   "liga": "Ligue 1",
+   "equipos": [
+    {
+     "nombre": "Paris FC",
+     "ingles": "Paris FC",
+     "nada_en_juego": "",
+     "calendario": ""
+    },
+    {
+     "nombre": "Angers",
+     "ingles": "Angers",
+     "nada_en_juego": "",
+     "calendario": ""
+    }
+   ]
+  },
+  {
+   "hora_lima": "2026-11-22 09:00",
+   "liga": "Premier League",
+   "equipos": [
+    {
+     "nombre": "Hull City",
+     "ingles": "Hull City",
+     "nada_en_juego": "",
+     "calendario": ""
+    },
+    {
+     "nombre": "Brighton",
+     "ingles": "Brighton",
+     "nada_en_juego": "",
+     "calendario": ""
+    }
+   ]
+  },
+  {
+   "hora_lima": "2026-11-22 09:30",
+   "liga": "Bundesliga",
+   "equipos": [
+    {
+     "nombre": "FC Augsburg",
+     "ingles": "FC Augsburg",
+     "nada_en_juego": "",
+     "calendario": ""
+    },
+    {
+     "nombre": "Mainz 05",
+     "ingles": "Mainz 05",
+     "nada_en_juego": "",
+     "calendario": ""
+    }
+   ]
+  },
+  {
+   "hora_lima": "2026-11-22 10:15",
+   "liga": "LaLiga",
+   "equipos": [
+    {
+     "nombre": "Racing de Santander",
+     "ingles": "Racing Santander",
+     "nada_en_juego": "",
+     "calendario": ""
+    },
+    {
+     "nombre": "Real Sociedad",
+     "ingles": "Real Sociedad",
+     "nada_en_juego": "",
+     "calendario": ""
+    }
+   ]
+  },
+  {
+   "hora_lima": "2026-11-22 11:15",
+   "liga": "Ligue 1",
+   "equipos": [
+    {
+     "nombre": "Lorient",
+     "ingles": "Lorient",
+     "nada_en_juego": "",
+     "calendario": ""
+    },
+    {
+     "nombre": "Rennes",
+     "ingles": "Rennes",
+     "nada_en_juego": "",
+     "calendario": ""
+    }
+   ]
+  },
+  {
+   "hora_lima": "2026-11-22 11:30",
+   "liga": "Premier League",
+   "equipos": [
+    {
+     "nombre": "Liverpool",
+     "ingles": "Liverpool",
+     "nada_en_juego": "",
+     "calendario": "juega UEFA Champions League vs Brujas el mié 25/11 (4 días después)"
+    },
+    {
+     "nombre": "Manchester United",
+     "ingles": "Manchester United",
+     "nada_en_juego": "",
+     "calendario": "juega UEFA Champions League vs Sporting CP el mié 25/11 (4 días después)"
+    }
+   ]
+  },
+  {
+   "hora_lima": "2026-11-22 11:30",
+   "liga": "Bundesliga",
+   "equipos": [
+    {
+     "nombre": "Werder Bremen",
+     "ingles": "Werder Bremen",
+     "nada_en_juego": "",
+     "calendario": ""
+    },
+    {
+     "nombre": "Hamburgo SV",
+     "ingles": "Hamburger SV",
+     "nada_en_juego": "",
+     "calendario": ""
+    }
+   ]
+  },
+  {
+   "hora_lima": "2026-11-22 12:00",
+   "liga": "Serie A",
+   "equipos": [
+    {
+     "nombre": "AC Milan",
+     "ingles": "AC Milan",
+     "nada_en_juego": "",
+     "calendario": ""
+    },
+    {
+     "nombre": "Frosinone",
+     "ingles": "Frosinone",
+     "nada_en_juego": "",
+     "calendario": ""
+    }
+   ]
+  },
+  {
+   "hora_lima": "2026-11-22 12:30",
+   "liga": "LaLiga",
+   "equipos": [
+    {
+     "nombre": "Osasuna",
+     "ingles": "Osasuna",
+     "nada_en_juego": "",
+     "calendario": ""
+    },
+    {
+     "nombre": "Málaga CF",
+     "ingles": "Malaga",
+     "nada_en_juego": "",
+     "calendario": ""
+    }
+   ]
+  },
+  {
+   "hora_lima": "2026-11-22 14:00",
+   "liga": "Brasileirão Serie A",
+   "equipos": [
+    {
+     "nombre": "Athletico Paranaense",
+     "ingles": "Athletico Paranaense",
+     "nada_en_juego": "",
+     "calendario": ""
+    },
+    {
+     "nombre": "Remo",
+     "ingles": "Remo",
+     "nada_en_juego": "",
+     "calendario": ""
+    }
+   ]
+  },
+  {
+   "hora_lima": "2026-11-22 14:45",
+   "liga": "Serie A",
+   "equipos": [
+    {
+     "nombre": "Atalanta",
+     "ingles": "Atalanta",
+     "nada_en_juego": "",
+     "calendario": ""
+    },
+    {
+     "nombre": "Inter Milan",
+     "ingles": "Inter Milan",
+     "nada_en_juego": "",
+     "calendario": ""
+    }
+   ]
+  },
+  {
+   "hora_lima": "2026-11-22 14:45",
+   "liga": "Ligue 1",
+   "equipos": [
+    {
+     "nombre": "Olympique Marsella",
+     "ingles": "Olympique de Marseille",
+     "nada_en_juego": "",
+     "calendario": ""
+    },
+    {
+     "nombre": "Le Mans",
+     "ingles": "Le Mans",
+     "nada_en_juego": "",
+     "calendario": ""
+    }
+   ]
+  },
+  {
+   "hora_lima": "2026-11-22 15:00",
+   "liga": "LaLiga",
+   "equipos": [
+    {
+     "nombre": "Getafe CF",
+     "ingles": "Getafe",
+     "nada_en_juego": "",
+     "calendario": ""
+    },
+    {
+     "nombre": "Atlético de Madrid",
+     "ingles": "Atletico Madrid",
+     "nada_en_juego": "",
+     "calendario": ""
+    }
+   ]
+  },
+  {
+   "hora_lima": "2026-11-22 15:00",
+   "liga": "Liga 1 Perú",
+   "equipos": [
+    {
+     "nombre": "Sport Huancayo",
+     "ingles": "Sport Huancayo",
+     "nada_en_juego": "",
+     "calendario": ""
+    },
+    {
+     "nombre": "Universitario",
+     "ingles": "Universitario",
+     "nada_en_juego": "",
+     "calendario": ""
+    }
+   ]
+  },
+  {
+   "hora_lima": "2026-11-22 15:00",
+   "liga": "Liga 1 Perú",
+   "equipos": [
+    {
+     "nombre": "Sporting Cristal",
+     "ingles": "Sporting Cristal",
+     "nada_en_juego": "",
+     "calendario": ""
+    },
+    {
+     "nombre": "Cienciano",
+     "ingles": "Cienciano",
+     "nada_en_juego": "",
+     "calendario": ""
+    }
+   ]
+  },
+  {
+   "hora_lima": "2026-11-22 16:30",
+   "liga": "Brasileirão Serie A",
+   "equipos": [
+    {
+     "nombre": "Fluminense",
+     "ingles": "Fluminense",
+     "nada_en_juego": "",
+     "calendario": ""
+    },
+    {
+     "nombre": "Mirassol",
+     "ingles": "Mirassol",
+     "nada_en_juego": "",
+     "calendario": ""
+    }
+   ]
+  },
+  {
+   "hora_lima": "2026-11-22 17:30",
+   "liga": "Brasileirão Serie A",
+   "equipos": [
+    {
+     "nombre": "Bragantino",
+     "ingles": "RB Bragantino",
+     "nada_en_juego": "",
+     "calendario": ""
+    },
+    {
+     "nombre": "Vasco Da Gama",
+     "ingles": "Vasco da Gama",
+     "nada_en_juego": "",
+     "calendario": ""
+    }
+   ]
   }
  ],
  "titulares_ya_enviados": [
@@ -568,7 +946,6 @@
   "mosimane believes bafana are well-rested for kenya rematch - the citizen",
   "nigeria, donde el terror sigue vivo | nr | periodismo alternativo - nr | periodismo altern",
   "poli rincon, exfutbolista: \"el real madrid no va a sacrificar a bellingham para que juegue",
-  "scotland set to face much-changed team as switzerland boss sets out ‘less serious’ final g",
   "scotland: switzerland to rotate as manuel akanji adds to absences - bbc",
   "springboks ring the changes for must-win ireland test - ofm news",
   "valencia interested in barcelona goalkeeper marc-andre ter stegen - operativ məlumat mərkə",
