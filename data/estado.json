@@ -273,8 +273,12 @@
    "partido": "Manchester City vs Fulham",
    "liga": "Inglaterra, Premier League",
    "inicio": "2026-11-21T07:30:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1795260292.5442734
+   "estado": "enviado",
+   "ultimo": 1795260537.0339375,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "620429,1391166,3072169,3172759,8048871,39079597,51439135,55058114,67820202,68032675,71003385|334784,401162,598010,841159,3135907,46854564,50208640,55239130,61717953,65848500,75402193",
+   "conf": true
   },
   "4741997": {
    "partido": "Coventry vs Crystal Palace",

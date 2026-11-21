@@ -4133,3 +4133,8 @@ fecha,game_id,partido,liga,tipo,mercado,clave,prob,cuota,casa,cuota_justa,ev,sta
 2026-11-20 13:58,4750790,Athletic Club vs RCD Espanyol,"España, LaLiga",modelo,Más de 2.5 tarjetas,CARDS|2.5|over,0.7023,,,1.42,,,si,G,,
 2026-11-20 13:58,4750790,Athletic Club vs RCD Espanyol,"España, LaLiga",modelo,Menos de 13.5 córners,CORN|13.5|under,0.6705,,,1.49,,,si,G,,
 2026-11-20 13:58,4750790,Athletic Club vs RCD Espanyol,"España, LaLiga",crear,Athletic Club o empate + Menos de 4.5 goles + Menos de 2.5 goles en el 1T + Más de 6.5 córners,DC||1X&OU|4.5|under&OU1T|2.5|under&CORN|6.5|over,0.5786,,,1.73,,,,P,,
+2026-11-21 06:28,4741994,Manchester City vs Fulham,"Inglaterra, Premier League",seguro,No hay empate,DC||12,0.7731,1.17,Bet365,1.29,-0.0955,,si,,,
+2026-11-21 06:28,4741994,Manchester City vs Fulham,"Inglaterra, Premier League",seguro,Más de 0.5 goles en el 1T,OU1T|0.5|over,0.7180,1.22,Bet365,1.39,-0.1241,,si,,,
+2026-11-21 06:28,4741994,Manchester City vs Fulham,"Inglaterra, Premier League",modelo,Menos de 6.5 tarjetas,CARDS|6.5|under,0.7981,,,1.25,,,si,,,
+2026-11-21 06:28,4741994,Manchester City vs Fulham,"Inglaterra, Premier League",modelo,Más de 1.5 goles,OU|1.5|over,0.7678,,,1.30,,,si,,,
+2026-11-21 06:28,4741994,Manchester City vs Fulham,"Inglaterra, Premier League",crear,No hay empate + Menos de 15.5 córners + Menos de 8.5 tarjetas,DC||12&CORN|15.5|under&CARDS|8.5|under,0.5430,,,1.84,,,,,,
