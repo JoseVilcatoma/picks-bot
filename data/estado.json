@@ -370,8 +370,12 @@
    "partido": "Borussia Mönchengladbach vs Borussia Dortmund",
    "liga": "Alemania, Bundesliga",
    "inicio": "2026-11-21T09:30:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1795267759.7484884
+   "estado": "enviado",
+   "ultimo": 1795268009.3066902,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "345952,530622,3094154,4632964,8448849,32435492,51234060,56601658,64329313,71547426,77485095|366254,532397,895074,3276664,15028852,47516152,50878796,51042327,64350505,70951404,71382441",
+   "conf": true
   },
   "4755340": {
    "partido": "Union Berlin vs RB Leipzig",
@@ -389,14 +393,18 @@
    "liga": "Alemania, Bundesliga",
    "inicio": "2026-11-21T09:30:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1795267761.6318483
+   "ultimo": 1795268010.8491433
   },
   "4755343": {
    "partido": "Bayer Leverkusen vs SC Paderborn 07",
    "liga": "Alemania, Bundesliga",
    "inicio": "2026-11-21T09:30:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1795267761.7147489
+   "estado": "enviado",
+   "ultimo": 1795268010.9320507,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "495388,511863,613840,3085403,3177765,7180298,30803774,50172386,63792363,67787322,67900705|3138034,50568553,54647783,65045584,65417618,65670736,66303155,67687520,68323301,70776744,70839583",
+   "conf": true
   },
   "4760758": {
    "partido": "Alianza Lima vs FC Cajamarca",
