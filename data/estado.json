@@ -396,32 +396,6 @@
    "estado": "pendiente",
    "ultimo": 0
   },
-  "4890986": {
-   "partido": "IFK Norrköping vs KuPS",
-   "liga": "Internacional, Partido Amistoso",
-   "inicio": "2026-11-19T08:00:00-05:00",
-   "estado": "liquidado",
-   "ultimo": 1795100172.5207915,
-   "clv": [],
-   "clv_ok": false,
-   "xi": "|",
-   "conf": false,
-   "r": {
-    "hg": 1,
-    "ag": 1,
-    "ht": [
-     1,
-     0
-    ],
-    "corners": 5.0,
-    "corners_h": 2.0,
-    "corners_a": 3.0,
-    "corners_1t": null,
-    "cards": 5.0,
-    "cards_h": 1.0,
-    "cards_a": 4.0
-   }
-  },
   "4632589": {
    "partido": "Athletico Paranaense vs Remo",
    "liga": "Brasil, Brasileirão",
