@@ -267,8 +267,12 @@
    "partido": "Tottenham vs Ipswich",
    "liga": "Inglaterra, Premier League",
    "inicio": "2026-11-21T10:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1795269243.4301822
+   "estado": "enviado",
+   "ultimo": 1795269495.2451406,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "512287,1858736,3143492,4785473,5887322,14775530,32238229,51381939,66565948,67877824,76770188|489031,534537,560440,1140554,1404731,3227451,10968460,14151805,32246907,44421294,71354644",
+   "conf": true
   },
   "4741993": {
    "partido": "Newcastle United vs Arsenal",
@@ -325,8 +329,12 @@
    "partido": "Bournemouth vs Nottingham Forest",
    "liga": "Inglaterra, Premier League",
    "inicio": "2026-11-21T10:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1795269246.9823828
+   "estado": "enviado",
+   "ultimo": 1795269496.1736271,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "217078,368648,894428,2753320,3049155,39229340,49980838,50445824,53212627,63094712,67626970|335651,502298,3060939,3211399,12401108,40902054,49499493,51429377,54943580,66457360,71675384",
+   "conf": true
   },
   "4750782": {
    "partido": "Sevilla FC vs Real Betis",
