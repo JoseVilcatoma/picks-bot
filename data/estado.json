@@ -203,8 +203,12 @@
    "partido": "Lazio vs Lecce",
    "liga": "Italia, Serie A",
    "inicio": "2026-11-21T09:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1795267134.3941126
+   "estado": "enviado",
+   "ultimo": 1795267261.6616855,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "647721,2382989,3071335,3071410,3071420,15244106,26815119,49552142,62194167,64141744,66308500|453730,904314,3476562,4870199,35341115,51148547,51584979,60984293,66406095,71384454,71392451",
+   "conf": true
   },
   "4732627": {
    "partido": "Juventus vs Venezia",
@@ -348,8 +352,12 @@
    "partido": "SV 07 Elversberg vs Friburgo",
    "liga": "Alemania, Bundesliga",
    "inicio": "2026-11-21T09:30:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1795267010.6546662
+   "estado": "enviado",
+   "ultimo": 1795267263.6157072,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "3074635,9692144,50799028,60134466,60870648,61457020,66359447,67633948,70951425,71340077,76165365|220585,408400,418057,593193,3071285,53464344,61066404,66221753,69040955,70767985,70780165",
+   "conf": true
   },
   "4755337": {
    "partido": "Schalke 04 vs Stuttgart",
@@ -363,28 +371,28 @@
    "liga": "Alemania, Bundesliga",
    "inicio": "2026-11-21T09:30:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1795267010.734041
+   "ultimo": 1795267266.811481
   },
   "4755340": {
    "partido": "Union Berlin vs RB Leipzig",
    "liga": "Alemania, Bundesliga",
    "inicio": "2026-11-21T09:30:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1795267010.8118114
+   "ultimo": 1795267266.8880265
   },
   "4755342": {
    "partido": "Eintracht Frankfurt vs Hoffenheim",
    "liga": "Alemania, Bundesliga",
    "inicio": "2026-11-21T09:30:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1795267010.896949
+   "ultimo": 1795267266.9703863
   },
   "4755343": {
    "partido": "Bayer Leverkusen vs SC Paderborn 07",
    "liga": "Alemania, Bundesliga",
    "inicio": "2026-11-21T09:30:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1795267010.9760864
+   "ultimo": 1795267267.0619366
   },
   "4760758": {
    "partido": "Alianza Lima vs FC Cajamarca",
