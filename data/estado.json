@@ -392,8 +392,12 @@
    "partido": "Eintracht Frankfurt vs Hoffenheim",
    "liga": "Alemania, Bundesliga",
    "inicio": "2026-11-21T09:30:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1795268260.0690572
+   "estado": "enviado",
+   "ultimo": 1795268504.6816244,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "646522,3155273,8687950,50444832,50548091,60085508,61213413,66253459,71155061,71901098,76952737|258327,334847,350528,3130032,3155296,3339632,4581497,49513653,60938745,64195671,68006639",
+   "conf": true
   },
   "4755343": {
    "partido": "Bayer Leverkusen vs SC Paderborn 07",
