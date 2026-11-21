@@ -268,7 +268,7 @@
    "liga": "Inglaterra, Premier League",
    "inicio": "2026-11-21T10:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1795268998.4945073
+   "ultimo": 1795269243.4301822
   },
   "4741993": {
    "partido": "Newcastle United vs Arsenal",
@@ -292,29 +292,41 @@
    "partido": "Coventry vs Crystal Palace",
    "liga": "Inglaterra, Premier League",
    "inicio": "2026-11-21T10:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1795268998.5808837
+   "estado": "enviado",
+   "ultimo": 1795269243.5291533,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "491504,739210,3249227,3488270,8262598,9076540,49701146,49988861,51923671,68831133,75381834|571198,834589,1838950,3183310,3232280,8186925,49658641,50752231,52342774,64697647,66683658",
+   "conf": true
   },
   "4741998": {
    "partido": "Chelsea vs Leeds United",
    "liga": "Inglaterra, Premier League",
    "inicio": "2026-11-21T10:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1795268998.6480963
+   "estado": "enviado",
+   "ultimo": 1795269244.7700174,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "407632,17018827,39270918,49733543,50497605,51281702,54701553,54943579,60927957,67122760,71073935|540689,649450,886874,907041,984482,3135966,3219930,4264302,7227288,51042324,58340010",
+   "conf": true
   },
   "4742000": {
    "partido": "Aston Villa vs Sunderland",
    "liga": "Inglaterra, Premier League",
    "inicio": "2026-11-21T10:00:00-05:00",
-   "estado": "pendiente",
-   "ultimo": 1795268998.716914
+   "estado": "enviado",
+   "ultimo": 1795269245.76168,
+   "clv": [],
+   "clv_ok": false,
+   "xi": "345565,534043,596221,3206241,3711904,4832569,15244101,29631104,52355416,71391398,74392670|227029,435114,1169903,3218099,50444830,58122452,61303729,64744795,65566123,67832304,77940839",
+   "conf": true
   },
   "4742001": {
    "partido": "Bournemouth vs Nottingham Forest",
    "liga": "Inglaterra, Premier League",
    "inicio": "2026-11-21T10:00:00-05:00",
    "estado": "pendiente",
-   "ultimo": 1795268998.785984
+   "ultimo": 1795269246.9823828
   },
   "4750782": {
    "partido": "Sevilla FC vs Real Betis",
